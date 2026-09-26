@@ -1,0 +1,16 @@
+# The owner's Preference for each Tag: preferred | neutral | muted.
+# Preferences order Stories in a Digest; they never hide one.
+# A Story with several Tags takes its highest level (preferred > neutral > muted).
+
+preferences:
+  models: preferred
+  agents: preferred
+  tools: preferred
+  open-source: preferred
+  research: preferred
+  products: neutral
+  hardware: neutral
+  robotics: neutral
+  policy: neutral
+  industry: muted
+  other: muted

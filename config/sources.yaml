@@ -1,0 +1,85 @@
+# Sources the Digest watches. See CONTEXT.md for the vocabulary.
+#
+# kind:
+#   feed          RSS/Atom feed. Items filtered to the Digest window by publish date.
+#   hf_papers     Hugging Face Daily Papers API. Top `limit` papers by upvotes within the window.
+#   hf_trending   Hugging Face trending models API. Top `limit` models not seen before (no window).
+#   hn            Hacker News via Algolia. Stories in the window above `min_points` matching `keywords`.
+#   page          A page with no feed. New links matching `link_pattern` are Items. The first
+#                 time a page Source is fetched, its current links are recorded as a baseline
+#                 and nothing is emitted, since the page gives no publish dates.
+
+sources:
+  # Hugging Face
+  - id: hf-papers
+    name: Hugging Face Daily Papers
+    kind: hf_papers
+    url: https://huggingface.co/api/daily_papers
+    limit: 15
+  - id: hf-blog
+    name: Hugging Face Blog
+    kind: feed
+    url: https://huggingface.co/blog/feed.xml
+  - id: hf-trending
+    name: Hugging Face Trending Models
+    kind: hf_trending
+    url: https://huggingface.co/api/models?sort=trendingScore&limit=10
+    limit: 10
+
+  # Lab blogs
+  - id: openai
+    name: OpenAI
+    kind: feed
+    url: https://openai.com/news/rss.xml
+  - id: anthropic
+    name: Anthropic
+    kind: page
+    url: https://www.anthropic.com/news
+    link_pattern: 'href="(/news/[a-z0-9-]+)"'
+    base_url: https://www.anthropic.com
+  - id: deepmind
+    name: Google DeepMind
+    kind: feed
+    url: https://deepmind.google/blog/rss.xml
+  - id: meta-ai
+    name: Meta AI
+    kind: page
+    url: https://ai.meta.com/blog/
+    link_pattern: 'href="(https://ai\.meta\.com/blog/[a-z0-9-]+/)"'
+  - id: mistral
+    name: Mistral
+    kind: feed
+    url: https://mistral.ai/rss.xml
+
+  # News
+  - id: verge-ai
+    name: The Verge AI
+    kind: feed
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+  - id: techcrunch-ai
+    name: TechCrunch AI
+    kind: feed
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+  - id: mit-tr-ai
+    name: MIT Technology Review AI
+    kind: feed
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+  - id: venturebeat-ai
+    name: VentureBeat AI
+    kind: feed
+    url: https://venturebeat.com/category/ai/feed/
+    enabled: false  # Returns HTTP 429 to non-browser clients (checked 2026-09-26).
+
+  # Community
+  - id: hn
+    name: Hacker News
+    kind: hn
+    url: https://hn.algolia.com/api/v1/search_by_date
+    min_points: 100
+    keywords: [ai, llm, gpt, claude, gemini, llama, mistral, openai, anthropic, deepmind,
+                model, agent, agents, transformer, diffusion, neural, inference, hugging face,
+                machine learning, deep learning, rag, embedding, embeddings, fine-tune, fine-tuning, jev]
+  - id: simonw
+    name: Simon Willison
+    kind: feed
+    url: https://simonwillison.net/atom/everything/

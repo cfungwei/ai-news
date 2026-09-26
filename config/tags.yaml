@@ -1,0 +1,15 @@
+# The fixed Tag list. A Story gets 1–3 of these; if none fit, it gets `other`.
+# Descriptions are what the tagger (routine agent now, Jev later) decides against.
+
+tags:
+  models: New or updated AI models, weights, checkpoints, or model benchmarks.
+  research: Papers, scientific findings, and research results.
+  agents: AI agents, agentic workflows, tool use, and autonomous systems.
+  tools: Developer tools, libraries, frameworks, SDKs, and APIs for building with AI.
+  open-source: Openly licensed models, code, or datasets.
+  products: Consumer or business product launches and features built on AI.
+  industry: Funding, acquisitions, partnerships, hiring, earnings, and company news.
+  policy: Regulation, law, government action, and AI safety or ethics.
+  hardware: Chips, accelerators, data centers, and compute infrastructure.
+  robotics: Robots, embodied AI, and autonomous vehicles.
+  other: Fits none of the Tags above.
