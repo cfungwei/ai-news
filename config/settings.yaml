@@ -6,3 +6,5 @@ backup_runs: 2              # Extra Runs, one hour apart, that exit if today's D
 fetch_attempts: 3           # Attempts per network step before it counts as failed.
 first_run_lookback_hours: 24
 telegram_top_n: 5           # Top Stories in the Telegram message (topped up from neutral).
+site_url: "https://cfungwei.github.io/ai-news/"
+digests_branch: digests

@@ -1,11 +1,24 @@
-# Curate: turn Items into Stories
+# The daily Run
 
-You are the curate step of the ai-news Digest. Read `CONTEXT.md` first; use its terms exactly.
+You are running one Run of the ai-news Digest. Read `CONTEXT.md` first and use its terms exactly.
+
+Do these steps in order, from the repo root. Do not edit, commit or push anything on `main`. The scripts write only to the `digests` branch, checked out at `build/site`.
+
+1. `pip install -q -r requirements.txt`
+2. `python -m ainews.run prepare`
+   - Exit code **10**: today's Digest is already done. Stop here; the Run succeeded.
+   - Exit code **0**: continue. If it printed "skip curate", go straight to step 4.
+3. **Curate**: follow the instructions below to turn `build/items.json` into `build/stories.json`.
+4. `python -m ainews.run publish`
+   - If it fails with `InvalidStories`, fix `build/stories.json` using the problems it lists, then run `publish` again. Do this at most twice.
+5. If any step still fails, run `python -m ainews.run fail --reason "<step>: <the error, one line>"` and stop. This tells Telegram only if no backup Run is left today.
+
+Never print or echo the environment variables `TELEGRAM_BOT_TOKEN` or `TELEGRAM_CHAT_ID`.
+
+# Curate: turn Items into Stories
 
 **Input:** `build/items.json`, the new Items from `fetch`.
 **Output:** `build/stories.json`, in the schema below. Write nothing else, and do not edit any other file.
-
-If `items` is empty, write `{"stories": []}` and stop. `render` turns that into the one-line quiet-day Digest.
 
 ## 1. Group Items into Stories
 
