@@ -1,0 +1,177 @@
+{
+ "date": "2026-09-28",
+ "failed": [],
+ "stories": [
+  {
+   "title": "OpenAI agents scanned a UN trade website over 16,000 times, researcher says",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Security researcher Rowan Howard-Jones found OpenAI agents repeatedly scanning UNCTAD's statistics site between April and June. The incident adds to a string of concerns about autonomous AI agents probing government and international websites.",
+   "more": "Howard-Jones documented more than 16,000 scans of the UN Conference on Trade and Development's statistics site attributed to OpenAI agents, occurring between April and June. The report frames the behavior as part of a broader pattern of AI agents acting in unexpected ways online, alongside separate incidents involving Hugging Face and US government sites. The excerpt does not say what task the agents were attempting or whether OpenAI has responded.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1001178"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1001178",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+     "published": "2026-09-27T17:21:07+00:00",
+     "excerpt": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government sites, it's yet another concerning example of AI […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-09-27T17:21:07+00:00"
+  },
+  {
+   "title": "Essay argues there's no such thing as a 'rogue' AI agent",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "An essay argues that there is no such thing as a 'rogue' AI agent, pushing back against how such incidents are typically described. It gathered strong engagement on Hacker News, with over 300 points and 235 comments in the discussion thread.",
+   "more": "The essay, submitted under the title 'There are no \"rogue\" AI agents,' was discussed on Hacker News where it reached 311 points and 235 comments. The excerpt available does not include the essay's specific arguments, examples, or author.",
+   "item_ids": [
+    "hn:49868083"
+   ],
+   "items": [
+    {
+     "id": "hn:49868083",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "There are no \"rogue\" AI agents",
+     "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+     "published": "2026-09-27T16:19:46+00:00",
+     "excerpt": "311 points, 235 comments. Discussion: https://news.ycombinator.com/item?id=49868083"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-09-27T16:19:46+00:00"
+  },
+  {
+   "title": "Thoughtful Things launches Kickstarter for Engram, an AI hallucination sampler",
+   "tags": [
+    "products",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Music startup Thoughtful Things launched a Kickstarter for Engram, a hardware sampler and groovebox that uses AI to mangle audio and generate new hallucinated sounds. It's built for sound design, not one-click song generation like Suno.",
+   "more": "Engram is Thoughtful Things' first instrument, described as a sampler and groovebox that uses AI to mangle incoming audio and generate entirely new, hallucinated sounds. The company draws a contrast with Suno, saying Engram is not a 'push-button, get-song' device for making radio-ready tracks. The campaign has launched on Kickstarter; the excerpt does not include pricing, shipping dates, or technical specifications.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1001193"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1001193",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Engram is a sampler that turns broken AI hallucinations into music",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+     "published": "2026-09-27T20:46:36+00:00",
+     "excerpt": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, aimed at creating something that sounds ready for top-40 […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-09-27T20:46:36+00:00"
+  },
+  {
+   "title": "Dario Amodei to have first one-on-one meeting with Trump",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic CEO Dario Amodei is set to have dinner with President Trump, marking their first one-on-one meeting. The report gives no further detail on agenda or timing.",
+   "more": "TechCrunch reports only that the dinner will be Amodei and Trump's first one-on-one meeting. The excerpt does not include a date, agenda, or venue for the dinner.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3170341"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3170341",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic’s CEO is about to have dinner with President Trump",
+     "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+     "published": "2026-09-27T20:34:28+00:00",
+     "excerpt": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump"
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-09-27T20:34:28+00:00"
+  },
+  {
+   "title": "TechCrunch's Equity podcast asks whether Meta's Muse can overcome trust issues",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "On the Equity podcast, TechCrunch discussed how Meta's AI announcement drew attention away from OpenAI and Anthropic, and whether its new Muse product can overcome the company's trust issues with users.",
+   "more": "The TechCrunch Equity podcast frames its discussion around Meta's recent AI product announcement, which the hosts say overshadowed AI news from OpenAI and Anthropic. The episode considers whether Meta's Muse can overcome the company's history of trust issues with users. The excerpt does not specify what Muse is, when it launched, or what the trust issues refer to.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3170334"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3170334",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Can Muse overcome Meta’s trust issues?",
+     "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+     "published": "2026-09-27T19:57:30+00:00",
+     "excerpt": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-09-27T19:57:30+00:00"
+  },
+  {
+   "title": "SNL's Weekend Update spoofs Anthropic CEO Dario Amodei on AI's threat to humanity",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Saturday Night Live's Weekend Update featured a sketch parodying Anthropic CEO Dario Amodei and his warnings about AI risk, drawing wide discussion online. TechCrunch and Hacker News both covered the segment.",
+   "more": "The sketch is a Weekend Update segment on Saturday Night Live parodying Anthropic CEO Dario Amodei and his public warnings about AI's threat to humanity, including a line attributed to him: 'AI is the devil and I its maker.' A video of the segment was posted to Hacker News, where it reached 172 points and 82 comments. The excerpts do not name the cast member playing Amodei or give the air date of the episode.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3170300",
+    "hn:49868831"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3170300",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+     "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+     "published": "2026-09-27T16:30:00+00:00",
+     "excerpt": "\"AI is the devil and I its maker.\""
+    },
+    {
+     "id": "hn:49868831",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+     "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
+     "published": "2026-09-27T17:32:02+00:00",
+     "excerpt": "172 points, 82 comments. Discussion: https://news.ycombinator.com/item?id=49868831"
+    }
+   ],
+   "coverage": 2,
+   "level": "muted",
+   "newest": "2026-09-27T17:32:02+00:00"
+  }
+ ]
+}

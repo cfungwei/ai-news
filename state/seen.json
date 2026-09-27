@@ -3,7 +3,7 @@
   "anthropic",
   "meta-ai"
  ],
- "last_digest": "2026-09-27T14:15:56.800860+00:00",
+ "last_digest": "2026-09-27T22:35:18.357748+00:00",
  "seen": {
   "anthropic": [
    "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -52,7 +52,9 @@
    "hn:49853175",
    "hn:49849985",
    "hn:49849625",
-   "hn:49863864"
+   "hn:49863864",
+   "hn:49868831",
+   "hn:49868083"
   ],
   "meta-ai": [
    "meta-ai:https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
@@ -77,27 +79,32 @@
    "techcrunch-ai:https://techcrunch.com/?p=3170007",
    "techcrunch-ai:https://techcrunch.com/?p=3169815",
    "techcrunch-ai:https://techcrunch.com/?p=3170226",
-   "techcrunch-ai:https://techcrunch.com/?p=3170285"
+   "techcrunch-ai:https://techcrunch.com/?p=3170285",
+   "techcrunch-ai:https://techcrunch.com/?p=3170341",
+   "techcrunch-ai:https://techcrunch.com/?p=3170334",
+   "techcrunch-ai:https://techcrunch.com/?p=3170300"
   ],
   "verge-ai": [
    "verge-ai:https://www.theverge.com/?p=1001049",
-   "verge-ai:https://www.theverge.com/?p=1000344"
+   "verge-ai:https://www.theverge.com/?p=1000344",
+   "verge-ai:https://www.theverge.com/?p=1001193",
+   "verge-ai:https://www.theverge.com/?p=1001178"
   ]
  },
  "source_ok": {
-  "anthropic": "2026-09-27T14:15:56.800860+00:00",
-  "deepmind": "2026-09-27T14:15:56.800860+00:00",
-  "hf-blog": "2026-09-27T14:15:56.800860+00:00",
-  "hf-papers": "2026-09-27T14:15:56.800860+00:00",
-  "hf-trending": "2026-09-27T14:15:56.800860+00:00",
-  "hn": "2026-09-27T14:15:56.800860+00:00",
-  "meta-ai": "2026-09-27T14:15:56.800860+00:00",
-  "mistral": "2026-09-27T14:15:56.800860+00:00",
-  "mit-tr-ai": "2026-09-27T14:15:56.800860+00:00",
-  "openai": "2026-09-27T14:15:56.800860+00:00",
-  "simonw": "2026-09-27T14:15:56.800860+00:00",
-  "techcrunch-ai": "2026-09-27T14:15:56.800860+00:00",
-  "verge-ai": "2026-09-27T14:15:56.800860+00:00"
+  "anthropic": "2026-09-27T22:35:18.357748+00:00",
+  "deepmind": "2026-09-27T22:35:18.357748+00:00",
+  "hf-blog": "2026-09-27T22:35:18.357748+00:00",
+  "hf-papers": "2026-09-27T22:35:18.357748+00:00",
+  "hf-trending": "2026-09-27T22:35:18.357748+00:00",
+  "hn": "2026-09-27T22:35:18.357748+00:00",
+  "meta-ai": "2026-09-27T22:35:18.357748+00:00",
+  "mistral": "2026-09-27T22:35:18.357748+00:00",
+  "mit-tr-ai": "2026-09-27T22:35:18.357748+00:00",
+  "openai": "2026-09-27T22:35:18.357748+00:00",
+  "simonw": "2026-09-27T22:35:18.357748+00:00",
+  "techcrunch-ai": "2026-09-27T22:35:18.357748+00:00",
+  "verge-ai": "2026-09-27T22:35:18.357748+00:00"
  },
  "telegram_sent": "2026-09-27"
 }
