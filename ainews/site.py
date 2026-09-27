@@ -1,14 +1,14 @@
 """The `digests` branch, checked out as a git worktree at build/site.
 
 Runs read state from it and publish to it. `main` is never written by a Run.
+Commits use the Run's own git identity (the owner's): routines refuse to push to a
+branch that carries commits by anyone else.
 """
 
 import subprocess
 import time
 
 from ainews import config
-
-BOT = ["-c", "user.name=ai-news digest", "-c", "user.email=ai-news@users.noreply.github.com"]
 
 
 def git(*args, cwd=config.ROOT, check=True):
@@ -30,7 +30,7 @@ def checkout():
     else:
         # First ever Run: start the branch from an empty commit, unrelated to `main`.
         empty_tree = git("hash-object", "-t", "tree", "/dev/null").stdout.strip()
-        start = git(*BOT, "commit-tree", empty_tree, "-m", "Start digests branch").stdout.strip()
+        start = git("commit-tree", empty_tree, "-m", "Start digests branch").stdout.strip()
 
     if (config.SITE / ".git").exists():
         git("checkout", "-B", branch(), start, cwd=config.SITE)
@@ -45,7 +45,7 @@ def publish(date):
     """Commit everything in build/site and push it. Retries the push."""
     git("add", "-A", cwd=config.SITE)
     if git("diff", "--cached", "--quiet", cwd=config.SITE, check=False).returncode != 0:
-        git(*BOT, "commit", "-m", f"Digest {date}", cwd=config.SITE)
+        git("commit", "-m", f"Digest {date}", cwd=config.SITE)
     attempts = config.settings()["fetch_attempts"]
     for attempt in range(attempts):
         result = git("push", "origin", f"{branch()}:{branch()}", cwd=config.SITE, check=False)
