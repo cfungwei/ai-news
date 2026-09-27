@@ -1,0 +1,140 @@
+{
+ "date": "2026-09-27",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Simon Willison uses Claude Opus 5.5 to make pixel-art kākāpō animations",
+   "tags": [
+    "tools",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison built a keynote closing slide, \"Kākāpō Party,\", by feeding kākāpō photos to Claude Opus 5.5 to generate pixel-art animations.",
+   "more": "Willison presented the closing keynote at WeAreDevelopers World Congress North America and wanted to mark 2026's record-breaking kākāpō breeding season. He had seen buzz about Claude Opus 5.5's skill at pixel art animation, so he gathered three kākāpō photos from a Google image search and prompted the model with them. The post demonstrates a practical, low-effort use of a general-purpose model for a creative, one-off asset rather than a dedicated image-generation tool. Willison didn't detail the exact prompts or how many iterations it took to get the final animation.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Sep/26/kakapo-party/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Sep/26/kakapo-party/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Kākāpō Party",
+     "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+     "published": "2026-09-26T23:39:06+00:00",
+     "excerpt": "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt: Here are some photos of kaka"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-09-26T23:39:06+00:00"
+  },
+  {
+   "title": "Xiaomi's MiMo team distills a 9B image-text model from Qwen3.5",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Xiaomi's MiMo team released MiMo-V2.6-Distill-Qwen-9B, an open-weight image-text-to-text model distilled from Qwen3.5-9B, trending on Hugging Face.",
+   "more": "The model is tagged for agentic use, tool use, code, and conversational tasks, suggesting it targets multimodal agent workloads rather than pure chat. It ships as safetensors with open weights, built on the mimo_v2 architecture via supervised fine-tuning and distillation from Qwen3.5-9B. Within days it drew over 500 likes and nearly 9,000 downloads on Hugging Face. No benchmark numbers or a technical report were included in the listing, so its performance relative to other 9B-class models is still unclear.",
+   "item_ids": [
+    "hf-trending:XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+     "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+     "published": "2026-09-21T18:18:40+00:00",
+     "excerpt": "image-text-to-text, 517 likes, 8839 downloads. Tags: transformers, safetensors, qwen3_5, image-text-to-text, mimo_v2, agentic, distillation, supervised-fine-tuning, code, tool-use, conversational, base_model:Qwen/Qwen3.5-9B"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-09-21T18:18:40+00:00"
+  },
+  {
+   "title": "Authors Guild: OpenAI executives worried about Hacker News optics",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Authors Guild says internal messages show OpenAI executives knew about mass book piracy and worried how it would look on Hacker News, in its lawsuit against OpenAI.",
+   "more": "The claim comes from the Authors Guild's ongoing lawsuit against OpenAI over training data, and centers on internal communications allegedly showing executives were aware books were used without permission. The discussion, which drew over 440 points and 360+ comments on Hacker News, focuses on executives' concern for public perception rather than new technical detail about the training data itself. It's unclear from the excerpt which executives were named or what specific actions the messages describe. The case is part of a wider wave of copyright litigation against AI labs over training data sourced from books.",
+   "item_ids": [
+    "hn:49863864"
+   ],
+   "items": [
+    {
+     "id": "hn:49863864",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+     "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+     "published": "2026-09-27T06:19:33+00:00",
+     "excerpt": "443 points, 364 comments. Discussion: https://news.ycombinator.com/item?id=49863864"
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-09-27T06:19:33+00:00"
+  },
+  {
+   "title": "Google tests letting Gemini and AI Mode buy from Flipkart in India",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google is running a limited test that lets users purchase select products from Walmart-owned Flipkart directly through Gemini and AI Mode in India.",
+   "more": "The pilot currently covers only select products and a limited set of users, integrating Flipkart's catalog into Google's AI shopping surfaces. Google plans a broader rollout in October if the test goes well. The move extends Google's push to make its AI assistants transactional, following earlier agentic-checkout experiments, and pairs it with one of India's largest e-commerce platforms. Terms of the Google-Flipkart arrangement, such as any commission or data-sharing details, were not disclosed.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3170226"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3170226",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+     "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+     "published": "2026-09-27T01:30:00+00:00",
+     "excerpt": "The limited test covers select products and users, with a broader rollout planned for later in October."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-09-27T01:30:00+00:00"
+  },
+  {
+   "title": "Blue Cross Blue Shield says hospital AI use raised costs by $942M",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Insurer Blue Cross Blue Shield says hospitals' use of AI tools added an estimated $942 million in healthcare spending over two years.",
+   "more": "The insurer's claim points to hospital-side AI tools, rather than AI used by insurers themselves, as a driver of higher billing over a two-year period. It did not specify which AI tools or systems were responsible, or how the $942 million figure was calculated. The report adds to a broader industry debate over whether AI in healthcare settings is cutting costs through efficiency or raising them through increased billing and documentation. It's unclear whether other insurers have made similar findings or how hospitals have responded to the claim.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3170285"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3170285",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Insurers claim AI is already increasing healthcare costs",
+     "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+     "published": "2026-09-26T21:02:06+00:00",
+     "excerpt": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-09-26T21:02:06+00:00"
+  }
+ ]
+}
