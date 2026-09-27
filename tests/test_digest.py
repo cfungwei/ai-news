@@ -3,7 +3,7 @@ from datetime import datetime, timedelta, timezone
 import pytest
 
 from ainews import render, telegram
-from ainews.run import is_last_run
+from ainews.run import RunFailed, check_fetch, is_last_run
 
 PREFERENCES = {"models": "preferred", "agents": "preferred", "products": "neutral",
                "policy": "neutral", "industry": "muted", "other": "muted"}
@@ -136,3 +136,20 @@ class TestLastRun:
     def test_no_backups_means_the_first_run_is_last(self):
         now = datetime(2026, 9, 27, 7, 2, tzinfo=self.TZ)
         assert is_last_run(now, {"schedule": "07:00", "backup_runs": 0})
+
+
+class TestRunChecks:
+    FAILED = {"source": "x", "name": "X", "error": "403 Forbidden"}
+
+    def test_all_sources_failing_fails_the_run(self):
+        with pytest.raises(RunFailed, match="Every Source failed"):
+            check_fetch({"sources_failed": [self.FAILED] * 3, "items": []}, 3)
+
+    def test_some_sources_failing_still_publishes(self):
+        check_fetch({"sources_failed": [self.FAILED], "items": []}, 3)
+
+    def test_missing_telegram_env_names_the_variables(self, monkeypatch):
+        monkeypatch.delenv("TELEGRAM_BOT_TOKEN", raising=False)
+        monkeypatch.setenv("TELEGRAM_CHAT_ID", "-100")
+        with pytest.raises(RuntimeError, match="TELEGRAM_BOT_TOKEN not set"):
+            telegram.check_env()

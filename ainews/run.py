@@ -44,8 +44,20 @@ def mark_sent(date):
     fetch.save_state(state)
 
 
+class RunFailed(RuntimeError):
+    pass
+
+
+def check_fetch(fetched, source_count):
+    """A Digest can still go out with some Sources down, but not with all of them."""
+    if source_count and len(fetched["sources_failed"]) >= source_count:
+        errors = "; ".join(f"{f['name']}: {f['error']}" for f in fetched["sources_failed"][:3])
+        raise RunFailed(f"Every Source failed, so there is nothing to publish. First errors: {errors}")
+
+
 def prepare(args):
     date = config.today()
+    telegram.check_env()
     site.checkout()
     if digest_exists(date):
         if fetch.load_state().get("telegram_sent") == date:
@@ -59,6 +71,7 @@ def prepare(args):
         return DONE
 
     fetch.main()
+    check_fetch(load(config.ITEMS_FILE), len(config.sources()))
     if not load(config.ITEMS_FILE)["items"]:
         config.STORIES_FILE.write_text(json.dumps({"stories": []}))
         print("No new Items: skip curate and run publish.")

@@ -45,7 +45,18 @@ def failure_message(date, runs, reason):
             f"All {runs} Runs failed. Last error:\n<code>{escape(reason[:1500])}</code>")
 
 
+ENV = ("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID")
+
+
+def check_env():
+    missing = [name for name in ENV if not os.environ.get(name)]
+    if missing:
+        raise RuntimeError(f"{' and '.join(missing)} not set. Add them to the routine's cloud "
+                           "environment variables (or .env when running locally).")
+
+
 def send(text):
+    check_env()
     token = os.environ["TELEGRAM_BOT_TOKEN"]
     chat_id = os.environ["TELEGRAM_CHAT_ID"]
     attempts = config.settings()["fetch_attempts"]
