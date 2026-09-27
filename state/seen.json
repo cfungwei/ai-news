@@ -1,0 +1,95 @@
+{
+ "baselined": [
+  "anthropic",
+  "meta-ai"
+ ],
+ "last_digest": "2026-09-26T19:03:06.709761+00:00",
+ "seen": {
+  "anthropic": [
+   "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+   "anthropic:https://www.anthropic.com/news/accenture-embedded-evaluation",
+   "anthropic:https://www.anthropic.com/news/life-sciences-verification-program",
+   "anthropic:https://www.anthropic.com/news/enterprise-frontier-safeguards",
+   "anthropic:https://www.anthropic.com/news/improving-alignment-security-efforts",
+   "anthropic:https://www.anthropic.com/news/model-hardware-standard-research-preview",
+   "anthropic:https://www.anthropic.com/news/expanding-support-for-scientists",
+   "anthropic:https://www.anthropic.com/news/wellbeing-research-grants",
+   "anthropic:https://www.anthropic.com/news/claude-text-watermark",
+   "anthropic:https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+  ],
+  "hf-papers": [
+   "hf-papers:2609.28654",
+   "hf-papers:2609.29845",
+   "hf-papers:2609.30221",
+   "hf-papers:2609.23407",
+   "hf-papers:2609.28416",
+   "hf-papers:2609.29421",
+   "hf-papers:2609.29362",
+   "hf-papers:2609.29892",
+   "hf-papers:2609.29444",
+   "hf-papers:2609.30233",
+   "hf-papers:2609.30199",
+   "hf-papers:2609.28603",
+   "hf-papers:2609.29028",
+   "hf-papers:2609.23087",
+   "hf-papers:2609.29647"
+  ],
+  "hf-trending": [
+   "hf-trending:convaiinnovations/laya",
+   "hf-trending:Qwen/Qwen-Image-2.1",
+   "hf-trending:abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "hf-trending:XingChen-AGI/Xing4.0-29B-A4B",
+   "hf-trending:prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "hf-trending:Comfy-Org/Qwen-Image-2.1",
+   "hf-trending:Altworld/Hemmingway-1",
+   "hf-trending:Edge0/Audio8-ASR-Infinite",
+   "hf-trending:XiaomiMiMo/MiMo-V2.6-Pro-RL",
+   "hf-trending:TaichuAI/ZDTaichu5.0-9B"
+  ],
+  "hn": [
+   "hn:49855018",
+   "hn:49853175",
+   "hn:49849985",
+   "hn:49849625"
+  ],
+  "meta-ai": [
+   "meta-ai:https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+   "meta-ai:https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
+   "meta-ai:https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/",
+   "meta-ai:https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+   "meta-ai:https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
+   "meta-ai:https://ai.meta.com/blog/introducing-muse-spark-msl/",
+   "meta-ai:https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/",
+   "meta-ai:https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/",
+   "meta-ai:https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/",
+   "meta-ai:https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/"
+  ],
+  "techcrunch-ai": [
+   "techcrunch-ai:https://techcrunch.com/?p=3167791",
+   "techcrunch-ai:https://techcrunch.com/?p=3169081",
+   "techcrunch-ai:https://techcrunch.com/?p=3170030",
+   "techcrunch-ai:https://techcrunch.com/?p=3170070",
+   "techcrunch-ai:https://techcrunch.com/?p=3170007",
+   "techcrunch-ai:https://techcrunch.com/?p=3169815"
+  ],
+  "verge-ai": [
+   "verge-ai:https://www.theverge.com/?p=1001049",
+   "verge-ai:https://www.theverge.com/?p=1000344"
+  ]
+ },
+ "source_ok": {
+  "anthropic": "2026-09-26T19:03:06.709761+00:00",
+  "deepmind": "2026-09-26T19:03:06.709761+00:00",
+  "hf-blog": "2026-09-26T19:03:06.709761+00:00",
+  "hf-papers": "2026-09-26T19:03:06.709761+00:00",
+  "hf-trending": "2026-09-26T19:03:06.709761+00:00",
+  "hn": "2026-09-26T19:03:06.709761+00:00",
+  "meta-ai": "2026-09-26T19:03:06.709761+00:00",
+  "mistral": "2026-09-26T19:03:06.709761+00:00",
+  "mit-tr-ai": "2026-09-26T19:03:06.709761+00:00",
+  "openai": "2026-09-26T19:03:06.709761+00:00",
+  "simonw": "2026-09-26T19:03:06.709761+00:00",
+  "techcrunch-ai": "2026-09-26T19:03:06.709761+00:00",
+  "verge-ai": "2026-09-26T19:03:06.709761+00:00"
+ }
+}
