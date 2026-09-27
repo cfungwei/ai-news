@@ -1,5 +1,5 @@
 timezone: "+08:00"          # Digest dates and schedule are in GMT+8.
-schedule: "07:00"           # First Run of the day.
+schedule: "06:30"           # First Run of the day. Must match the routine's schedule.
 backup_runs: 2              # Extra Runs, one hour apart, that exit if today's Digest exists.
                             # Each uses one of the Pro plan's 5 routine runs/day; lower this if
                             # other routines need the quota.
