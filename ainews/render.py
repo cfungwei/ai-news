@@ -7,6 +7,11 @@ Coverage, then newest first. Muted Stories are rendered compactly.
 from ainews import config
 
 
+# Limits from routine/PROMPT.md, enforced so the routine rewrites Stories that break them.
+TITLE_CHARS = 90
+SUMMARY_WORDS = 45
+
+
 class InvalidStories(ValueError):
     pass
 
@@ -19,6 +24,10 @@ def validate(items, stories):
         for field in ("title", "tags", "tagged_by", "summary", "more", "item_ids"):
             if not story.get(field):
                 problems.append(f"Story {n} has no {field}")
+        if len(story.get("title") or "") > TITLE_CHARS:
+            problems.append(f"Story {n} title is over {TITLE_CHARS} characters")
+        if len((story.get("summary") or "").split()) > SUMMARY_WORDS:
+            problems.append(f"Story {n} summary is over {SUMMARY_WORDS} words")
         for tag in story.get("tags", []):
             if tag not in known_tags:
                 problems.append(f"Story {n} has unknown Tag {tag!r}")

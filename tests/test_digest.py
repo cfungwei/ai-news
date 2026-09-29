@@ -2,7 +2,7 @@ from datetime import datetime, timedelta, timezone
 
 import pytest
 
-from ainews import render, telegram
+from ainews import fetch, render, telegram
 from ainews.run import RunFailed, check_fetch, is_last_run
 
 PREFERENCES = {"models": "preferred", "agents": "preferred", "products": "neutral",
@@ -153,3 +153,62 @@ class TestRunChecks:
         monkeypatch.setenv("TELEGRAM_CHAT_ID", "-100")
         with pytest.raises(RuntimeError, match="TELEGRAM_BOT_TOKEN not set"):
             telegram.check_env()
+
+
+class TestStoryLimits:
+    def test_rejects_long_titles_and_summaries(self):
+        long = story("T" * 91, ["models"], ["a1"]) | {"summary": "word " * 46}
+        with pytest.raises(render.InvalidStories) as error:
+            render.validate({"a1": {}}, [long])
+        assert "title is over 90 characters" in str(error.value)
+        assert "summary is over 45 words" in str(error.value)
+
+    def test_accepts_limits_exactly(self):
+        ok = story("T" * 90, ["models"], ["a1"]) | {"summary": "word " * 45}
+        render.validate({"a1": {}}, [ok])
+
+
+class FakePage:
+    def __init__(self, html):
+        self.text = html
+
+    def raise_for_status(self):
+        pass
+
+
+class FakeClient:
+    def __init__(self, html):
+        self.html = html
+
+    def get(self, url, params=None):
+        return FakePage(self.html)
+
+
+class TestPageSource:
+    SOURCE = {"id": "lab", "name": "Lab", "url": "https://lab.example/news",
+              "link_pattern": 'href="(/news/[a-z-]+)"',
+              "base_url": "https://lab.example"}
+    WIDER = SOURCE | {"link_pattern": 'href="(/news/[a-z-]+|/model-[a-z0-9-]+)"'}
+    PAGE = '<a href="/news/old-post"></a><a href="/model-one"></a>'
+
+    def fetch(self, source, html, state):
+        return list(fetch.fetch_page(FakeClient(html), source, None, state))
+
+    def test_first_fetch_baselines_without_emitting(self):
+        state = {"seen": {}, "baselined": []}
+        assert self.fetch(self.SOURCE, self.PAGE, state) == []
+        assert state["seen"]["lab"] == ["lab:https://lab.example/news/old-post"]
+
+    def test_new_links_after_baseline_are_items(self):
+        state = {"seen": {}, "baselined": []}
+        self.fetch(self.SOURCE, self.PAGE, state)
+        found = self.fetch(self.SOURCE, self.PAGE + '<a href="/news/new-post"></a>', state)
+        assert "lab:https://lab.example/news/new-post" in [i["id"] for i in found]
+
+    def test_changing_the_pattern_rebaselines_instead_of_flooding(self):
+        state = {"seen": {}, "baselined": ["lab"]}  # Legacy entry, from before keys had patterns.
+        state["seen"]["lab"] = ["lab:https://lab.example/news/old-post"]
+        assert self.fetch(self.WIDER, self.PAGE, state) == []
+        assert "lab:https://lab.example/model-one" in state["seen"]["lab"]
+        assert state["baselined"] == [fetch.baseline_key(self.WIDER)]
+        assert len(state["seen"]["lab"]) == 2  # No duplicates.

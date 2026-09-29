@@ -6,8 +6,9 @@
 #   hf_trending   Hugging Face trending models API. Top `limit` models not seen before (no window).
 #   hn            Hacker News via Algolia. Stories in the window above `min_points` matching `keywords`.
 #   page          A page with no feed. New links matching `link_pattern` are Items. The first
-#                 time a page Source is fetched, its current links are recorded as a baseline
-#                 and nothing is emitted, since the page gives no publish dates.
+#                 time a page Source is fetched, and again whenever its link_pattern changes, its
+#                 current links are recorded as a baseline and nothing is emitted, since the
+#                 page gives no publish dates.
 
 sources:
   # Hugging Face
@@ -15,7 +16,7 @@ sources:
     name: Hugging Face Daily Papers
     kind: hf_papers
     url: https://huggingface.co/api/daily_papers
-    limit: 15
+    limit: 7
   - id: hf-blog
     name: Hugging Face Blog
     kind: feed
@@ -35,7 +36,8 @@ sources:
     name: Anthropic
     kind: page
     url: https://www.anthropic.com/news
-    link_pattern: 'href="(/news/[a-z0-9-]+)"'
+    # Model launches live at the site root (/claude-sonnet-5-5), everything else under /news/.
+    link_pattern: 'href="(/news/[a-z0-9-]+|/claude-[a-z0-9-]+)"'
     base_url: https://www.anthropic.com
   - id: deepmind
     name: Google DeepMind

@@ -126,13 +126,21 @@ def fetch_hn(client, source, since, state):
                    f"Discussion: {discussion}")
 
 
+def baseline_key(source):
+    return f"{source['id']} {source['link_pattern']}"
+
+
 def fetch_page(client, source, since, state):
     links = dict.fromkeys(re.findall(source["link_pattern"], get(client, source["url"]).text))
     urls = [source.get("base_url", "") + link for link in links]
-    if source["id"] not in state["baselined"]:
-        # No publish dates: record today's links as already seen instead of emitting them.
-        state["seen"].setdefault(source["id"], []).extend(f"{source['id']}:{u}" for u in urls)
-        state["baselined"].append(source["id"])
+    key = baseline_key(source)
+    if key not in state["baselined"]:
+        # No publish dates: record the links already on the page as seen instead of emitting
+        # them. Keyed by pattern, so widening a pattern doesn't flood the Digest with old links.
+        seen = state["seen"].setdefault(source["id"], [])
+        seen.extend(i for i in (f"{source['id']}:{u}" for u in urls) if i not in seen)
+        state["baselined"] = [k for k in state["baselined"]
+                              if k.split(" ", 1)[0] != source["id"]] + [key]
         return
     for url in urls:
         slug = url.rstrip("/").rsplit("/", 1)[-1].replace("-", " ")
