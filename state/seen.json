@@ -1,7 +1,7 @@
 {
  "baselined": [
-  "anthropic",
-  "meta-ai"
+  "anthropic href=\"(/news/[a-z0-9-]+|/claude-[a-z0-9-]+)\"",
+  "meta-ai href=\"(https://ai\\.meta\\.com/blog/[a-z0-9-]+/)\""
  ],
  "last_digest": "2026-09-28T22:48:59.341914+00:00",
  "seen": {
@@ -15,7 +15,11 @@
    "anthropic:https://www.anthropic.com/news/expanding-support-for-scientists",
    "anthropic:https://www.anthropic.com/news/wellbeing-research-grants",
    "anthropic:https://www.anthropic.com/news/claude-text-watermark",
-   "anthropic:https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+   "anthropic:https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+   "anthropic:https://www.anthropic.com/claude-sonnet-5-5",
+   "anthropic:https://www.anthropic.com/claude-opus-5-5",
+   "anthropic:https://www.anthropic.com/claude-fable-and-mythos-5-1",
+   "anthropic:https://www.anthropic.com/claude-corps"
   ],
   "hf-blog": [
    "hf-blog:https://huggingface.co/blog/Hcompany/holo4"
