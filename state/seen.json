@@ -3,6 +3,545 @@
   "anthropic href=\"(/news/[a-z0-9-]+|/claude-[a-z0-9-]+)\"",
   "meta-ai href=\"(https://ai\\.meta\\.com/blog/[a-z0-9-]+/)\""
  ],
+ "feedback": {
+  "11": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "hn",
+    "openai",
+    "techcrunch-ai",
+    "verge-ai",
+    "wired-ai"
+   ],
+   "title": "OpenAI launches Dots, its always-on agent to rival Meta's Muse",
+   "up": 0
+  },
+  "12": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "hn",
+    "openai",
+    "techcrunch-ai"
+   ],
+   "title": "OpenAI launches GPT-6.1 Sol, a cheaper near-Astra model",
+   "up": 0
+  },
+  "13": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "techcrunch-ai",
+    "wired-ai"
+   ],
+   "title": "OpenAI delays its next flagship model, GPT-6.1 Astra, over safety concerns",
+   "up": 0
+  },
+  "14": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "localllama",
+    "simonw"
+   ],
+   "title": "Anthropic's Frontier Red Team report on GLM-5.3's cyber capabilities draws attention",
+   "up": 0
+  },
+  "15": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "techcrunch-ai"
+   ],
+   "title": "OpenAI turns ChatGPT into an app platform with a plugin marketplace",
+   "up": 0
+  },
+  "16": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "techcrunch-ai"
+   ],
+   "title": "OpenAI apologizes after its AI agents breached Australian government sites",
+   "up": 0
+  },
+  "17": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "techcrunch-ai"
+   ],
+   "title": "OpenAI expands Codex with reusable cloud environments and a new Ultrafast API tier",
+   "up": 0
+  },
+  "18": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold",
+   "up": 0
+  },
+  "19": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "OpenAI stays out of Nvidia's public push to curb rogue AI agents",
+   "up": 0
+  },
+  "20": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Anthropic says it discovered a Crispr-like gene-editing system using AI",
+   "up": 0
+  },
+  "21": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hf-blog"
+   ],
+   "title": "NVIDIA's Kumo Tabular claims new accuracy-efficiency frontier for tabular prediction",
+   "up": 0
+  },
+  "22": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "ElevenLabs launches v4 speech model with more expressive, consistent voices",
+   "up": 0
+  },
+  "23": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hf-blog"
+   ],
+   "title": "Blog post proposes source-aware verification for MCP agents",
+   "up": 0
+  },
+  "24": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "PostHog's Jeeves project explores reasoning to improve Jev-like decision models",
+   "up": 0
+  },
+  "25": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Study analyzes privacy practices of web and mobile conversational AI agents",
+   "up": 0
+  },
+  "26": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "Claude Opus 5.5 stands out at making explainer videos, AINews notes",
+   "up": 0
+  },
+  "27": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "Anthropic's Thariq Shihipar discusses Claude Code's next era",
+   "up": 0
+  },
+  "28": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Study finds post-training leaves 'behavioral shadows' on unrelated tasks",
+   "up": 0
+  },
+  "29": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper proposes visual backbones as self-modifying learning systems",
+   "up": 0
+  },
+  "30": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "New RL method grades code agent trajectories in groups, not just pass/fail",
+   "up": 0
+  },
+  "31": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Study compares scaling laws for encoder-free vs. encoder-based multimodal models",
+   "up": 0
+  },
+  "32": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper trains unified models to reflect on and repair their own generated images",
+   "up": 0
+  },
+  "33": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper distills strong agents' robot-manipulation fixes into reusable guidance",
+   "up": 0
+  },
+  "34": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "SentZero pretraining aims to improve zero-shot chest X-ray analysis",
+   "up": 0
+  },
+  "35": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "NVIDIA's Nemotron-Labs-3 Competitive Coding model trends on Hugging Face",
+   "up": 0
+  },
+  "36": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "Viggle's turbo LoRA for Qwen-Image-2.1 trends on Hugging Face",
+   "up": 0
+  },
+  "37": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "NVIDIA's Nemotron-3-Diarization trends on Hugging Face",
+   "up": 0
+  },
+  "38": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "decoder",
+    "hn",
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "Anthropic's IPO filing warns its own AI could pose 'catastrophic' or existential risks",
+   "up": 0
+  },
+  "39": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "decoder",
+    "latent-space"
+   ],
+   "title": "AMD acquires Fei-Fei Li's World Labs for $8.2 billion",
+   "up": 0
+  },
+  "40": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "openai",
+    "simonw",
+    "verge-ai"
+   ],
+   "title": "OpenAI's DevDay 2026 keynote unveils more than 20 announcements",
+   "up": 0
+  },
+  "41": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "verge-ai"
+   ],
+   "title": "Protesters greet OpenAI's DevDay with marches and a Titanic-themed sculpture",
+   "up": 0
+  },
+  "42": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hn",
+    "verge-ai"
+   ],
+   "title": "Meta's Muse AI agent leaked a YouTuber's home address to a stranger",
+   "up": 0
+  },
+  "43": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Trump orders US government to call AI 'Super Intelligence'",
+   "up": 0
+  },
+  "44": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Elon Musk's AI-powered Grokipedia resumes updating after months-long pause",
+   "up": 0
+  },
+  "45": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "OpenAI sued over the Hugging Face hack",
+   "up": 0
+  },
+  "46": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "ChatGPT now reaches 1.2 billion people every week, OpenAI says",
+   "up": 0
+  },
+  "47": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "OpenAI launches ChatGPT collaboration features to rival Microsoft Office",
+   "up": 0
+  },
+  "48": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "AI researchers warn superintelligence is 'exactly as dangerous as it sounds'",
+   "up": 0
+  },
+  "49": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "AI app maker Wabi pivots from app builder to messaging assistant",
+   "up": 0
+  },
+  "50": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "White House tests a chatbot to help navigate government bureaucracy",
+   "up": 0
+  },
+  "51": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Florida seeks court order to stop ChatGPT from acting human with kids",
+   "up": 0
+  },
+  "52": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "DraftKings reportedly uses AI to behaviorally target chronic gamblers",
+   "up": 0
+  },
+  "53": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Instinct says over half its AI agent transactions are travel-related",
+   "up": 0
+  },
+  "54": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "AMD's new 256-core EPYC chip nears RTX 5090 memory bandwidth",
+   "up": 0
+  },
+  "55": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Claude experiences a partial outage",
+   "up": 0
+  },
+  "56": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Marissa Mayer's Dazzle mines your camera roll to learn about your life",
+   "up": 0
+  },
+  "57": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Meta expands its Muse AI agent to small businesses",
+   "up": 0
+  },
+  "58": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "House Democrat presses for a US-China treaty to slow AI risks",
+   "up": 0
+  },
+  "59": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Timnit Gebru says AI poses no 'existential threat'",
+   "up": 0
+  },
+  "60": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "ChatGPT Pro's $200 plan reportedly halved as subsidized compute era ends",
+   "up": 0
+  },
+  "61": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "xAI's dot.com purchase reads as a troll of OpenAI's Dots launch",
+   "up": 0
+  },
+  "62": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "OpenAI reportedly in talks to raise $30B at a $1.4T valuation",
+   "up": 0
+  },
+  "63": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Report: AI needs $6 trillion in annual revenue to justify data centre boom",
+   "up": 0
+  },
+  "64": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Firefox's product chief on winning users back from Chrome with a redesign",
+   "up": 0
+  },
+  "65": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Reco raises $55M as AI agent security startups crowd the market",
+   "up": 0
+  },
+  "66": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "mit-tr-ai"
+   ],
+   "title": "Opinion: Making AI an asset, not an expense",
+   "up": 0
+  },
+  "67": {
+   "date": "2026-09-30",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Peak XV raises Surge seed ceiling to $5M, unveils 18-startup cohort",
+   "up": 0
+  }
+ },
  "last_digest": "2026-09-29T22:48:24.381483+00:00",
  "seen": {
   "anthropic": [
@@ -278,5 +817,5 @@
   "verge-ai": "2026-09-29T22:48:24.381483+00:00",
   "wired-ai": "2026-09-29T22:48:24.381483+00:00"
  },
- "telegram_sent": "2026-09-29"
+ "telegram_sent": "2026-09-30"
 }
