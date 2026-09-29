@@ -52,6 +52,10 @@ sources:
     name: Mistral
     kind: feed
     url: https://mistral.ai/rss.xml
+  - id: google-ai
+    name: Google AI Blog
+    kind: feed
+    url: https://blog.google/technology/ai/rss/
 
   # News
   - id: verge-ai
@@ -71,6 +75,28 @@ sources:
     kind: feed
     url: https://venturebeat.com/category/ai/feed/
     enabled: false  # Returns HTTP 429 to non-browser clients (checked 2026-09-26).
+  - id: ars-ai
+    name: Ars Technica AI
+    kind: feed
+    url: https://arstechnica.com/ai/feed/
+  - id: wired-ai
+    name: Wired AI
+    kind: feed
+    url: https://www.wired.com/feed/tag/ai/latest/rss
+  - id: decoder
+    name: The Decoder
+    kind: feed
+    url: https://the-decoder.com/feed/
+
+  # Newsletters
+  - id: latent-space
+    name: Latent Space
+    kind: feed
+    url: https://www.latent.space/feed
+  - id: import-ai
+    name: Import AI
+    kind: feed
+    url: https://importai.substack.com/feed
 
   # Community
   - id: hn
@@ -81,6 +107,11 @@ sources:
     keywords: [ai, llm, gpt, claude, gemini, llama, mistral, openai, anthropic, deepmind,
                 model, agent, agents, transformer, diffusion, neural, inference, hugging face,
                 machine learning, deep learning, rag, embedding, embeddings, fine-tune, fine-tuning, jev]
+  - id: localllama
+    name: r/LocalLLaMA
+    kind: feed
+    url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day
+    limit: 5  # Top 5 posts of the day. Reddit rate-limits hard; watch it in Source health.
   - id: simonw
     name: Simon Willison
     kind: feed

@@ -46,6 +46,16 @@ _Avoid_: Report, newsletter (until a Newsletter exists)
 One scheduled attempt to produce a Digest. A Run succeeds if it publishes a Digest, even one with some Sources unavailable; it fails only if nothing can be published.
 _Avoid_: Job, execution, build
 
+### Feedback
+
+**Feedback**:
+The owner's 👍 or 👎 reaction to a Story's Telegram message, credited to every Source with an Item in that Story. Feedback informs Source health; it does not change a Digest's order.
+_Avoid_: Rating, vote, like
+
+**Source health**:
+How a Source has performed over the last 7 and 30 days: Items, Items that were preferred, failed fetches and Feedback. A Source is *flagged* when it is silent for 7 days, fails on 3 of the last 7 days, or gets more 👎 than 👍. Flags are suggestions; only the owner adds or drops Sources.
+_Avoid_: Credibility score, source quality
+
 **Reader**:
 A person who receives a Digest. Currently only the owner.
 _Avoid_: User, subscriber

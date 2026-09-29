@@ -41,11 +41,11 @@ def checkout():
         git("worktree", "add", "-f", "-B", branch(), str(config.SITE), start)
 
 
-def publish(date):
+def publish(message):
     """Commit everything in build/site and push it. Retries the push."""
     git("add", "-A", cwd=config.SITE)
     if git("diff", "--cached", "--quiet", cwd=config.SITE, check=False).returncode != 0:
-        git("commit", "-m", f"Digest {date}", cwd=config.SITE)
+        git("commit", "-m", message, cwd=config.SITE)
     attempts = config.settings()["fetch_attempts"]
     for attempt in range(attempts):
         result = git("push", "origin", f"{branch()}:{branch()}", cwd=config.SITE, check=False)

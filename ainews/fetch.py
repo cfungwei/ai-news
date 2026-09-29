@@ -72,7 +72,8 @@ def fetch_feed(client, source, since, state):
     parsed = feedparser.parse(get(client, source["url"]).content)
     if parsed.bozo and not parsed.entries:
         raise ValueError(f"unparseable feed: {parsed.bozo_exception}")
-    for entry in parsed.entries:
+    # `limit` keeps only the first entries, for feeds already sorted by rank (e.g. Reddit top).
+    for entry in parsed.entries[: source.get("limit")]:
         stamp = entry.get("published_parsed") or entry.get("updated_parsed")
         published = datetime.fromtimestamp(calendar.timegm(stamp), timezone.utc) if stamp else None
         if published and published < since:

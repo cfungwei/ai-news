@@ -13,7 +13,7 @@ import json
 import sys
 from datetime import datetime, timedelta
 
-from ainews import config, fetch, pages, render, site, telegram
+from ainews import config, fetch, health, pages, render, site, telegram
 
 DONE = 10
 
@@ -31,17 +31,36 @@ def data_file(date):
 
 
 def send_digest(date):
+    """Post the Digest, remember which message is which Story for Feedback, mark it sent."""
     saved = load(data_file(date))
-    stories = saved["stories"]
-    top = render.top(stories, config.settings()["telegram_top_n"])
-    telegram.send(telegram.digest_message(date, stories, top, saved["failed"],
-                                          config.page_url(date)))
-
-
-def mark_sent(date):
+    stories, url = saved["stories"], config.page_url(date)
+    sent = telegram.send_digest(date, stories, saved["failed"], url,
+                                lambda index: f"{url}#{pages.anchor(index)}")
     state = fetch.load_state()
+    feedback = state.setdefault("feedback", {})
+    for index, message_id in sent.items():
+        story = stories[index]
+        feedback[str(message_id)] = {
+            "date": date, "title": story["title"], "up": 0, "down": 0,
+            "sources": sorted({i["source"] for i in story["items"]})}
     state["telegram_sent"] = date
     fetch.save_state(state)
+    if config.now().strftime("%A") == config.settings()["health_summary_day"]:
+        telegram.send(telegram.health_message(health.write(state), health.url()))
+
+
+def collect_feedback():
+    """Read new 👍/👎 totals. A Telegram hiccup here never fails the Run."""
+    state = fetch.load_state()
+    try:
+        changed = telegram.collect_feedback(state)
+    except RuntimeError as error:
+        print(f"Could not collect Feedback: {error}")
+        return False
+    fetch.save_state(state)
+    if changed:
+        health.write(state)
+    return changed
 
 
 class RunFailed(RuntimeError):
@@ -59,14 +78,16 @@ def prepare(args):
     date = config.today()
     telegram.check_env()
     site.checkout()
+    feedback_changed = collect_feedback()
     if digest_exists(date):
         if fetch.load_state().get("telegram_sent") == date:
+            if feedback_changed:
+                site.publish(f"Feedback {date}")
             print(f"Digest {date} is already published and sent. Nothing to do.")
             return DONE
         # An earlier Run pushed the Digest but could not post it.
         send_digest(date)
-        mark_sent(date)
-        site.publish(date)
+        site.publish(f"Digest {date}")
         print(f"Digest {date} was published earlier; sent it to Telegram now.")
         return DONE
 
@@ -94,14 +115,14 @@ def publish(args):
                                           indent=1, ensure_ascii=False))
     pages.write(date, stories, failed)
     record(fetched)
+    health.write(fetch.load_state())
     print(f"Rendered {len(stories)} Stories for {date} into {config.SITE}")
     if args.local:
         return 0
 
-    site.publish(date)
+    site.publish(f"Digest {date}")
     send_digest(date)
-    mark_sent(date)
-    site.publish(date)
+    site.publish(f"Digest {date}")
     print(f"Published {config.page_url(date)} and posted to Telegram.")
     return 0
 

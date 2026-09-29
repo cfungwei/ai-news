@@ -5,6 +5,10 @@ backup_runs: 2              # Extra Runs, one hour apart, that exit if today's D
                             # other routines need the quota.
 fetch_attempts: 3           # Attempts per network step before it counts as failed.
 first_run_lookback_hours: 24
-telegram_top_n: 5           # Top Stories in the Telegram message (topped up from neutral).
+telegram_story_messages: all  # all: one message per Story, for 👍/👎 Feedback.
+                              # top: only the top N (topped up from neutral), if all is too noisy.
+telegram_top_n: 5
+telegram_gap_seconds: 3.1   # Pause between messages; channels allow about 20 a minute.
+health_summary_day: Monday  # The weekly Source health summary goes to Telegram on this day.
 site_url: "https://cfungwei.github.io/ai-news/"
 digests_branch: digests

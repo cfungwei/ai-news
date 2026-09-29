@@ -33,6 +33,15 @@ details ul { padding-left:20px; font-size:14px; }
            padding:10px 14px; font-size:14px; }
 ol.digests { list-style:none; padding:0; }
 ol.digests li { padding:10px 0; border-bottom:1px solid var(--line); }
+article:target { background:var(--card); outline:2px solid var(--accent); outline-offset:6px;
+                 border-radius:4px; }
+.table { overflow-x:auto; }
+table { border-collapse:collapse; width:100%; font-size:14px; }
+th, td { text-align:right; padding:8px 6px; border-bottom:1px solid var(--line);
+         white-space:nowrap; }
+th { color:var(--muted); font-weight:600; font-size:12px; }
+th:first-child, td.name { text-align:left; white-space:normal; }
+.flag { color:var(--accent); font-size:12px; }
 """
 
 
@@ -58,8 +67,12 @@ def links_html(story):
         for i in story["items"]) + "</ul>"
 
 
-def full_story(story):
-    return f"""<article>
+def anchor(index):
+    return f"story-{index + 1}"
+
+
+def full_story(story, index):
+    return f"""<article id="{anchor(index)}">
 <h3>{escape(story['title'])}</h3>
 <div class="meta">{tags_html(story)}</div>
 <p>{escape(story['summary'])}</p>
@@ -67,8 +80,8 @@ def full_story(story):
 </article>"""
 
 
-def compact_story(story):
-    return f"""<article class="compact"><details>
+def compact_story(story, index):
+    return f"""<article class="compact" id="{anchor(index)}"><details>
 <summary><b>{escape(story['title'])}</b><span class="meta">{tags_html(story)}</span></summary>
 <p>{escape(story['summary'])}</p><p>{escape(story['more'])}</p>{links_html(story)}
 </details></article>"""
@@ -89,13 +102,14 @@ def digest_page(date, stories, failed):
         if group:
             parts.append(f"<h2>{HEADINGS[lvl]}</h2>")
             render_one = compact_story if lvl == "muted" else full_story
-            parts.extend(render_one(s) for s in group)
+            parts.extend(render_one(s, stories.index(s)) for s in group)
     return page(f"AI Digest · {date}", "\n".join(parts), root="../../../")
 
 
 def index_page(dates):
     items = "".join(f'<li><a href="{d.replace("-", "/")}/">{d}</a></li>' for d in dates)
-    body = (f"<header><h1>AI Digest</h1><p>A daily digest of what's new in AI.</p></header>"
+    body = (f"<header><h1>AI Digest</h1><p>A daily digest of what's new in AI. "
+            f'<a href="health/">Source health</a></p></header>'
             f'<ol class="digests">{items}</ol>')
     return page("AI Digest", body, root="./")
 

@@ -2,7 +2,7 @@ from datetime import datetime, timedelta, timezone
 
 import pytest
 
-from ainews import fetch, render, telegram
+from ainews import fetch, health, render, telegram
 from ainews.run import RunFailed, check_fetch, is_last_run
 
 PREFERENCES = {"models": "preferred", "agents": "preferred", "products": "neutral",
@@ -102,24 +102,96 @@ class TestMarkdown:
 
 
 class TestTelegram:
-    def test_fits_the_limit_by_dropping_summaries(self):
-        long = [story(f"S{n}", ["models"], [f"a{n}"]) | {"summary": "x" * 1500}
-                for n in range(1, 4)]
-        for s in long:
-            s["items"] = []
-        text = telegram.digest_message("2026-09-27", long, long, [], "https://x/")
-        assert len(text) <= telegram.LIMIT
-        assert "1. <b>S1</b>" in text and "3. <b>S3</b>" in text
-        assert "Read all 3 Stories" in text
+    def test_story_message_has_emoji_summary_meta_and_link(self):
+        [s] = ordered([story("Sonnet 5.5 ships", ["models", "open-source"], ["a1", "a2"])])
+        text = telegram.story_message(s, "https://x/2026/09/29/#story-1")
+        assert text.startswith("🧠 <b>Sonnet 5.5 ships</b>\nSonnet 5.5 ships summary.")
+        assert "<i>models · open-source · 2 sources</i>" in text
+        assert '<a href="https://x/2026/09/29/#story-1">Read more →</a>' in text
+
+    def test_muted_story_message_is_compact(self):
+        [s] = ordered([story("Funding", ["industry"], ["e1"])])
+        text = telegram.story_message(s, "https://x/")
+        assert text.startswith("💼 <b>Funding</b>")
+        assert "summary" not in text
 
     def test_escapes_html(self):
         [s] = ordered([story("A <b> & B", ["models"], ["a1"])])
-        text = telegram.digest_message("2026-09-27", [s], [s], [], "https://x/")
-        assert "A &lt;b&gt; &amp; B" in text
+        assert "A &lt;b&gt; &amp; B" in telegram.story_message(s, "https://x/")
 
-    def test_quiet_day(self):
-        text = telegram.digest_message("2026-09-27", [], [], [], "https://x/")
-        assert "Nothing new since the last Digest." in text
+    def test_header_counts_and_quiet_day(self):
+        stories = ordered([story("P", ["models"], ["a1"]), story("N", ["products"], ["d1"])])
+        text = telegram.header_message("2026-09-29", stories, [], "https://x/")
+        assert "2 Stories · 1 preferred" in text
+        quiet = telegram.header_message("2026-09-29", [], [], "https://x/")
+        assert "Nothing new since the last Digest." in quiet
+
+    def test_all_or_top_story_messages(self):
+        stories = ordered([story("P", ["models"], ["a1"]), story("M", ["industry"], ["e1"])])
+        assert len(telegram.chosen(stories, {"telegram_story_messages": "all"})) == 2
+        top_only = {"telegram_story_messages": "top", "telegram_top_n": 5}
+        assert [s["title"] for s in telegram.chosen(stories, top_only)] == ["P"]
+
+
+def reaction(update_id, message_id, up, down, chat=-100):
+    reactions = [{"type": {"type": "emoji", "emoji": "👍"}, "total_count": up},
+                 {"type": {"type": "emoji", "emoji": "👎"}, "total_count": down},
+                 {"type": {"type": "emoji", "emoji": "🔥"}, "total_count": 9}]
+    return {"update_id": update_id, "message_reaction_count": {
+        "chat": {"id": chat}, "message_id": message_id, "date": 0, "reactions": reactions}}
+
+
+class TestFeedback:
+    def state(self):
+        return {"feedback": {"41": {"date": "2026-09-29", "sources": ["verge"], "up": 0,
+                                    "down": 0, "title": "T"}}}
+
+    def test_latest_totals_win_and_offset_moves_on(self):
+        state = self.state()
+        telegram.apply_updates(state, [reaction(7, 41, 1, 0), reaction(8, 41, 1, 2)], -100)
+        assert (state["feedback"]["41"]["up"], state["feedback"]["41"]["down"]) == (1, 2)
+        assert state["telegram_offset"] == 9
+
+    def test_ignores_other_chats_and_unknown_messages(self):
+        state = self.state()
+        telegram.apply_updates(state, [reaction(1, 41, 5, 0, chat=-999), reaction(2, 99, 5, 0)],
+                               -100)
+        assert state["feedback"]["41"]["up"] == 0
+
+
+def saved_digest(day, stories, failed=()):
+    return {"date": day, "failed": [{"source": f, "name": f} for f in failed],
+            "stories": ordered(stories)}
+
+
+class TestHealth:
+    SOURCES = [{"id": "verge", "name": "Verge"}, {"id": "hn", "name": "HN"},
+               {"id": "techcrunch", "name": "TechCrunch"}]
+
+    def report(self, saved, feedback=None, today="2026-10-08"):
+        return {r["id"]: r for r in health.rows(saved, feedback or {}, self.SOURCES, today)}
+
+    def test_counts_items_and_preferred(self):
+        saved = {"2026-10-08": saved_digest("2026-10-08", [
+            story("P", ["models"], ["a1", "a2"]), story("M", ["industry"], ["f1"])])}
+        rows = self.report(saved)
+        assert rows["verge"]["items7"] == 2 and rows["verge"]["preferred7"] == 1
+        assert rows["techcrunch"]["items30"] == 1
+
+    def test_silent_flag_needs_a_week_of_history(self):
+        recent = {"2026-10-06": saved_digest("2026-10-06", [story("P", ["models"], ["a1"])])}
+        assert self.report(recent)["hn"]["flags"] == []
+        older = recent | {"2026-10-01": saved_digest("2026-10-01", [])}
+        assert self.report(older)["hn"]["flags"] == ["no Items in 7 days"]
+
+    def test_failing_and_disliked_flags(self):
+        saved = {f"2026-10-0{d}": saved_digest(f"2026-10-0{d}", [story("P", ["models"], ["a3"])],
+                                               failed=["verge"]) for d in (6, 7, 8)}
+        feedback = {"1": {"date": "2026-10-07", "sources": ["hn"], "up": 1, "down": 3}}
+        rows = self.report(saved, feedback)
+        assert "failed on 3 of the last 7 days" in rows["verge"]["flags"]
+        assert rows["hn"]["flags"] == ["more 👎 than 👍"]
+        assert (rows["hn"]["up"], rows["hn"]["down"]) == (1, 3)
 
 
 class TestLastRun:
