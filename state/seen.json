@@ -4,6 +4,96 @@
   "meta-ai href=\"(https://ai\\.meta\\.com/blog/[a-z0-9-]+/)\""
  ],
  "feedback": {
+  "100": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "OpenAI and Synopsys build an AI model to design chips like an engineer",
+   "up": 0
+  },
+  "101": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Wired: bioweapons risks predate AI and don't require it, author argues",
+   "up": 0
+  },
+  "102": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Nonprofit sues OpenAI, says 'an AI did it' is no defense for Hugging Face hack",
+   "up": 0
+  },
+  "103": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "OpenAI and Meta bet on cute AI agent hardware, the 'AI Tamagotchis'",
+   "up": 0
+  },
+  "104": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Reddit ends RSS feeds and public API access, citing AI bots",
+   "up": 0
+  },
+  "105": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Meta reportedly dodges billions in taxes by calling AI data centers 'experiments'",
+   "up": 0
+  },
+  "106": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Meta denies Muse AI agent read a user's private messages without permission",
+   "up": 0
+  },
+  "107": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "FTC opens sweeping consumer-protection probe into OpenAI, Anthropic, other labs",
+   "up": 0
+  },
+  "108": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Destro AI says its edge is getting robots and humans on the same page",
+   "up": 0
+  },
+  "109": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Instinct's unsolicited product recommendations draw user backlash",
+   "up": 0
+  },
   "11": {
    "date": "2026-09-30",
    "down": 0,
@@ -18,6 +108,96 @@
    "title": "OpenAI launches Dots, its always-on agent to rival Meta's Muse",
    "up": 0
   },
+  "110": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "The Verge rounds up news on Meta's Muse AI agent since launch",
+   "up": 0
+  },
+  "111": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Instagram adds an AI 'creative assistant' to its Edits app",
+   "up": 0
+  },
+  "112": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Cerebras CEO Andrew Feldman to discuss AI scaling limits at TechCrunch Disrupt",
+   "up": 0
+  },
+  "113": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Airbnb adds AI search and new social features to its app",
+   "up": 0
+  },
+  "114": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "mit-tr-ai"
+   ],
+   "title": "OpenAI's chief research officer defends response to Hugging Face hack fallout",
+   "up": 0
+  },
+  "115": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "OpenAI says it disrupted a coordinated campaign to distill its models",
+   "up": 0
+  },
+  "116": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "OpenAI partners with America's SBDC to bring AI training to small businesses",
+   "up": 0
+  },
+  "117": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Government AI chatbot America.gov gives bizarre answers about Minecraft",
+   "up": 0
+  },
+  "118": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison visits a 21-year, hand-built balsa-wood model of New York City",
+   "up": 0
+  },
+  "119": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "ElevenLabs doubles valuation to $22B in employee tender offer",
+   "up": 0
+  },
   "12": {
    "date": "2026-09-30",
    "down": 0,
@@ -28,6 +208,33 @@
     "techcrunch-ai"
    ],
    "title": "OpenAI launches GPT-6.1 Sol, a cheaper near-Astra model",
+   "up": 0
+  },
+  "120": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch: consumer AI's economics explain why frontier labs avoid it",
+   "up": 0
+  },
+  "121": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "'The AI Race Just Got Awkward' sparks discussion on Hacker News",
+   "up": 0
+  },
+  "122": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch opens final exhibit registration window for Disrupt 2026",
    "up": 0
   },
   "13": {
@@ -540,6 +747,297 @@
    ],
    "title": "Peak XV raises Surge seed ceiling to $5M, unveils 18-startup cohort",
    "up": 0
+  },
+  "69": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "decoder",
+    "deepmind",
+    "hn",
+    "verge-ai"
+   ],
+   "title": "Google launches Gemini 4 Argon, restricts early access to trusted testers",
+   "up": 0
+  },
+  "70": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "latent-space",
+    "techcrunch-ai"
+   ],
+   "title": "OpenAI ships a 'Jev clone': the Decisions API for fast, cheap agent choices",
+   "up": 0
+  },
+  "71": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "deepmind"
+   ],
+   "title": "Google DeepMind unveils SynthID Bio to watermark AI-designed proteins",
+   "up": 0
+  },
+  "72": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Flow Engineering raises funding at $750M valuation for AI hardware design agents",
+   "up": 0
+  },
+  "73": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Wired compares OpenAI's Dots and Meta's Muse in the personal AI agent race",
+   "up": 0
+  },
+  "74": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Google replaces Gems with 'Skills' in Gemini, following OpenAI and Anthropic",
+   "up": 0
+  },
+  "75": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Launch HN: Magnitude debuts self-optimizing inference engine for agents",
+   "up": 0
+  },
+  "76": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Developers open-source fast WebGPU kernels for local AI in the browser",
+   "up": 0
+  },
+  "77": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "DoorDash launches a text-based AI agent for ordering food",
+   "up": 0
+  },
+  "78": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "DeepSeek and Huawei ship open-source tools to ease coding for Ascend chips",
+   "up": 0
+  },
+  "79": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Restate raises $20M for durable infrastructure built for AI agents",
+   "up": 0
+  },
+  "80": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Anthropic: Zhipu's open-weight GLM-5.3 nearly matches Claude at writing exploits",
+   "up": 0
+  },
+  "81": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "llama.cpp gains support for running GLM-5.3-Flash locally",
+   "up": 0
+  },
+  "82": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "OpenAI's DevDay 2026 debuts Dots, GPT-6.1 Sol, and a wave of agent tools",
+   "up": 0
+  },
+  "83": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "r/LocalLLaMA thanks quantization contributor Mradermacher for community work",
+   "up": 0
+  },
+  "84": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Study maps how on-policy distillation scales across model sizes",
+   "up": 0
+  },
+  "85": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Omni-IO Skills lets agents handle text, images, audio, video via plug-in modules",
+   "up": 0
+  },
+  "86": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "VoxMem benchmark tests multimodal memory in audio language models",
+   "up": 0
+  },
+  "87": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Study finds KV-cache compression creates periodic 'blind spots' in recall",
+   "up": 0
+  },
+  "88": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "'Follow the Entities' gives agentic search a map across scattered documents",
+   "up": 0
+  },
+  "89": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "VoxPolyMem extends AI memory to multi-party spoken conversations",
+   "up": 0
+  },
+  "90": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper reframes LLMs as asynchronous agents that handle inputs mid-task",
+   "up": 0
+  },
+  "91": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "hf-blog"
+   ],
+   "title": "Hugging Face launches Open TTS Leaderboard for text-to-speech models",
+   "up": 0
+  },
+  "92": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Chart shows Qwen has become the dominant backbone for audio AI models",
+   "up": 0
+  },
+  "93": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "r/LocalLLaMA debates whether Chinese open-weight models could be banned",
+   "up": 0
+  },
+  "94": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "Qwen3.8-27B trends on Hugging Face with over 7 million downloads",
+   "up": 0
+  },
+  "95": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "Lightricks' LTX-2.5 video model trends with 1.6 million downloads",
+   "up": 0
+  },
+  "96": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "decoder",
+    "verge-ai",
+    "wired-ai"
+   ],
+   "title": "Trump and tech CEOs sign voluntary 'Joint Commitment on Frontier Responsibilities'",
+   "up": 0
+  },
+  "97": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "decoder",
+    "verge-ai"
+   ],
+   "title": "Google's pilot pays about 100 publishers for AI search content, but amounts are tiny",
+   "up": 0
+  },
+  "98": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "verge-ai"
+   ],
+   "title": "OpenAI delays IPO, says it won't go public until its models are safe",
+   "up": 0
+  },
+  "99": {
+   "date": "2026-10-01",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Ars Technica: AI doesn't actually back RFK Jr.'s anti-vaccine claims",
+   "up": 0
   }
  },
  "last_digest": "2026-09-30T22:48:09.653294+00:00",
@@ -887,5 +1385,5 @@
   "wired-ai": "2026-09-30T22:48:09.653294+00:00"
  },
  "telegram_offset": 115081530,
- "telegram_sent": "2026-09-30-0630"
+ "telegram_sent": "2026-10-01-0630"
 }
