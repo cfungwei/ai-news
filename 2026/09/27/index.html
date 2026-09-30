@@ -28,40 +28,51 @@ details ul { padding-left:20px; font-size:14px; }
            padding:10px 14px; font-size:14px; }
 ol.digests { list-style:none; padding:0; }
 ol.digests li { padding:10px 0; border-bottom:1px solid var(--line); }
+article:target { background:var(--card); outline:2px solid var(--accent); outline-offset:6px;
+                 border-radius:4px; }
+.table { overflow-x:auto; }
+table { border-collapse:collapse; width:100%; font-size:14px; }
+th, td { text-align:right; padding:8px 6px; border-bottom:1px solid var(--line);
+         white-space:nowrap; }
+th { color:var(--muted); font-weight:600; font-size:12px; }
+th:first-child, td.name { text-align:left; white-space:normal; }
+.flag { color:var(--accent); font-size:12px; }
+.edition h2 { font-size:20px; letter-spacing:0; text-transform:none; color:var(--fg);
+              border-bottom:2px solid var(--fg); margin-top:48px; }
+h3.level { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
+           margin:24px 0 4px; }
 </style></head>
-<body><main><header><h1>AI Digest · 2026-09-27</h1>
-<p>5 Stories from 4 Sources</p>
-</header>
-<h2>Preferred</h2>
-<article>
+<body><main><header><h1>AI Digest · 2026-09-27</h1><p>1 Edition · 5 Stories</p></header><section class="edition" id="e2130"><h2>21:30 Edition · 5 Stories</h2>
+<h3 class="level">Preferred</h3>
+<article id="e2130-1">
 <h3>Simon Willison uses Claude Opus 5.5 to make pixel-art kākāpō animations</h3>
 <div class="meta"><span class="tag">tools</span><span class="tag">models</span> (tagged by fallback) · 1 source</div>
 <p>Simon Willison built a keynote closing slide, &quot;Kākāpō Party,&quot;, by feeding kākāpō photos to Claude Opus 5.5 to generate pixel-art animations.</p>
 <details><summary>More</summary><p>Willison presented the closing keynote at WeAreDevelopers World Congress North America and wanted to mark 2026&#x27;s record-breaking kākāpō breeding season. He had seen buzz about Claude Opus 5.5&#x27;s skill at pixel art animation, so he gathered three kākāpō photos from a Google image search and prompted the model with them. The post demonstrates a practical, low-effort use of a general-purpose model for a creative, one-off asset rather than a dedicated image-generation tool. Willison didn&#x27;t detail the exact prompts or how many iterations it took to get the final animation.</p><ul><li><a href="https://simonwillison.net/2026/Sep/26/kakapo-party/">Simon Willison: Kākāpō Party</a></li></ul></details>
 </article>
-<article>
+<article id="e2130-2">
 <h3>Xiaomi&#x27;s MiMo team distills a 9B image-text model from Qwen3.5</h3>
 <div class="meta"><span class="tag">models</span><span class="tag">open-source</span> (tagged by fallback) · 1 source</div>
 <p>Xiaomi&#x27;s MiMo team released MiMo-V2.6-Distill-Qwen-9B, an open-weight image-text-to-text model distilled from Qwen3.5-9B, trending on Hugging Face.</p>
 <details><summary>More</summary><p>The model is tagged for agentic use, tool use, code, and conversational tasks, suggesting it targets multimodal agent workloads rather than pure chat. It ships as safetensors with open weights, built on the mimo_v2 architecture via supervised fine-tuning and distillation from Qwen3.5-9B. Within days it drew over 500 likes and nearly 9,000 downloads on Hugging Face. No benchmark numbers or a technical report were included in the listing, so its performance relative to other 9B-class models is still unclear.</p><ul><li><a href="https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B">Hugging Face Trending Models: Trending model: XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B</a></li></ul></details>
 </article>
-<h2>Also new</h2>
-<article>
+<h3 class="level">Also new</h3>
+<article id="e2130-3">
 <h3>Authors Guild: OpenAI executives worried about Hacker News optics</h3>
 <div class="meta"><span class="tag">policy</span><span class="tag">industry</span> (tagged by fallback) · 1 source</div>
 <p>The Authors Guild says internal messages show OpenAI executives knew about mass book piracy and worried how it would look on Hacker News, in its lawsuit against OpenAI.</p>
 <details><summary>More</summary><p>The claim comes from the Authors Guild&#x27;s ongoing lawsuit against OpenAI over training data, and centers on internal communications allegedly showing executives were aware books were used without permission. The discussion, which drew over 440 points and 360+ comments on Hacker News, focuses on executives&#x27; concern for public perception rather than new technical detail about the training data itself. It&#x27;s unclear from the excerpt which executives were named or what specific actions the messages describe. The case is part of a wider wave of copyright litigation against AI labs over training data sourced from books.</p><ul><li><a href="https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/">Hacker News: OpenAI Feared &quot;Optics&quot; of what might appear on Hacker News</a></li></ul></details>
 </article>
-<article>
+<article id="e2130-4">
 <h3>Google tests letting Gemini and AI Mode buy from Flipkart in India</h3>
 <div class="meta"><span class="tag">products</span> (tagged by fallback) · 1 source</div>
 <p>Google is running a limited test that lets users purchase select products from Walmart-owned Flipkart directly through Gemini and AI Mode in India.</p>
 <details><summary>More</summary><p>The pilot currently covers only select products and a limited set of users, integrating Flipkart&#x27;s catalog into Google&#x27;s AI shopping surfaces. Google plans a broader rollout in October if the test goes well. The move extends Google&#x27;s push to make its AI assistants transactional, following earlier agentic-checkout experiments, and pairs it with one of India&#x27;s largest e-commerce platforms. Terms of the Google-Flipkart arrangement, such as any commission or data-sharing details, were not disclosed.</p><ul><li><a href="https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/">TechCrunch AI: Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India</a></li></ul></details>
 </article>
-<article>
+<article id="e2130-5">
 <h3>Blue Cross Blue Shield says hospital AI use raised costs by $942M</h3>
 <div class="meta"><span class="tag">industry</span><span class="tag">policy</span> (tagged by fallback) · 1 source</div>
 <p>Insurer Blue Cross Blue Shield says hospitals&#x27; use of AI tools added an estimated $942 million in healthcare spending over two years.</p>
 <details><summary>More</summary><p>The insurer&#x27;s claim points to hospital-side AI tools, rather than AI used by insurers themselves, as a driver of higher billing over a two-year period. It did not specify which AI tools or systems were responsible, or how the $942 million figure was calculated. The report adds to a broader industry debate over whether AI in healthcare settings is cutting costs through efficiency or raising them through increased billing and documentation. It&#x27;s unclear whether other insurers have made similar findings or how hospitals have responded to the claim.</p><ul><li><a href="https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/">TechCrunch AI: Insurers claim AI is already increasing healthcare costs</a></li></ul></details>
-</article>
+</article></section>
 <footer><p><a href="../../../">All Digests</a></p></footer></main></body></html>
