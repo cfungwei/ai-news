@@ -101,8 +101,8 @@ def unavailable_note(failed):
     return f"Unavailable today: {names}. Their news will appear in a later Digest."
 
 
-def markdown(date, stories, failed):
-    lines = [f"# AI Digest · {date}\n"]
+def markdown(title, stories, failed):
+    lines = [f"# {title}\n"]
     if failed:
         lines.append(f"> ⚠️ {unavailable_note(failed)}\n")
     if not stories:

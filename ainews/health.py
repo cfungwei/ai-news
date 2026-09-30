@@ -15,7 +15,7 @@ FAILING_DAYS = 3  # Flag a Source that failed on this many of the last 7 days.
 
 
 def digests():
-    """Every saved Digest as {date: data}."""
+    """Every saved Edition as {key: data}."""
     return {p.stem: json.loads(p.read_text())
             for p in sorted((config.SITE / "data").glob("*.json"))}
 
@@ -23,19 +23,21 @@ def digests():
 def rows(saved, feedback, sources, today):
     today = Date.fromisoformat(today)
     week, month = today - timedelta(days=6), today - timedelta(days=29)
-    first = min((Date.fromisoformat(d) for d in saved), default=today)
+    first = min((Date.fromisoformat(d["date"]) for d in saved.values()), default=today)
     result = []
     for source in sources:
         row = {"id": source["id"], "name": source["name"], "items7": 0, "items30": 0,
                "preferred7": 0, "preferred30": 0, "failed7": 0, "last_item": None,
                "up": 0, "down": 0, "flags": []}
-        for day, data in saved.items():
+        failed_days = set()
+        for data in saved.values():
+            day = data["date"]
             when = Date.fromisoformat(day)
             if when < month:
                 continue
             recent = when >= week
             if recent and any(f["source"] == source["id"] for f in data["failed"]):
-                row["failed7"] += 1
+                failed_days.add(day)  # Days, not Editions: several Editions run each day.
             for story in data["stories"]:
                 count = sum(1 for i in story["items"] if i["source"] == source["id"])
                 if not count:
@@ -46,6 +48,7 @@ def rows(saved, feedback, sources, today):
                 if story["level"] == "preferred":
                     row["preferred30"] += count
                     row["preferred7"] += count if recent else 0
+        row["failed7"] = len(failed_days)
         for entry in feedback.values():
             if Date.fromisoformat(entry["date"]) >= month and source["id"] in entry["sources"]:
                 row["up"] += entry["up"]
@@ -90,7 +93,8 @@ def write(state):
     report = rows(saved, state.get("feedback", {}), config.sources(), today)
     out = config.SITE / "health"
     out.mkdir(exist_ok=True)
-    (out / "index.html").write_text(page(report, today, min(saved, default=today)))
+    tracked_since = min((d["date"] for d in saved.values()), default=today)
+    (out / "index.html").write_text(page(report, today, tracked_since))
     return report
 
 

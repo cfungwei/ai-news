@@ -1,8 +1,8 @@
 timezone: "+08:00"          # Digest dates and schedule are in GMT+8.
-schedule: "06:30"           # First Run of the day. Must match the routine's schedule.
-backup_runs: 2              # Extra Runs, one hour apart, that exit if today's Digest exists.
-                            # Each uses one of the Pro plan's 5 routine runs/day; lower this if
-                            # other routines need the quota.
+editions: ["06:30", "11:30", "16:30", "21:30"]
+                            # One Run per Edition. Must match the routine's cron
+                            # (30 6,11,16,21 * * *). Each uses one of the Pro plan's 5 routine
+                            # runs a day. A failed Edition's news arrives in the next one.
 fetch_attempts: 3           # Attempts per network step before it counts as failed.
 first_run_lookback_hours: 24
 telegram_story_messages: all  # all: one message per Story, for 👍/👎 Feedback.

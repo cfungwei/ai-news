@@ -15,5 +15,5 @@ To contain an autonomous agent, Runs push only to the `digests` branch, which ho
 
 ## Consequences
 
-- Routines are a research preview with no published reliability guarantee. Hence the backup Runs at 08:00 and 09:00 (the count is configurable, because they share Pro's 5-runs/day cap) and the Telegram failure notice.
+- Routines are a research preview with no published reliability guarantee. The Digest is published as four Editions a day (4 of Pro's 5 routine runs), so a failed Run is covered by the next Edition rather than by backup Runs, and the Telegram failure notice goes out straight away. (Superseded the original 07:00 Digest with 08:00 and 09:00 backup Runs, 2026-09-30.)
 - The routine needs a custom cloud environment with network access to every Source, Telegram, and later Jev.

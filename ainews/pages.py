@@ -1,5 +1,6 @@
-"""The GitHub Pages site: one page per Digest at /YYYY/MM/DD/ and an index of all Digests."""
+"""The GitHub Pages site: one page per day at /YYYY/MM/DD/ holding its Editions, and an index."""
 
+import json
 import re
 from html import escape
 
@@ -42,6 +43,10 @@ th, td { text-align:right; padding:8px 6px; border-bottom:1px solid var(--line);
 th { color:var(--muted); font-weight:600; font-size:12px; }
 th:first-child, td.name { text-align:left; white-space:normal; }
 .flag { color:var(--accent); font-size:12px; }
+.edition h2 { font-size:20px; letter-spacing:0; text-transform:none; color:var(--fg);
+              border-bottom:2px solid var(--fg); margin-top:48px; }
+h3.level { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
+           margin:24px 0 4px; }
 """
 
 
@@ -67,12 +72,13 @@ def links_html(story):
         for i in story["items"]) + "</ul>"
 
 
-def anchor(index):
-    return f"story-{index + 1}"
+def anchor(edition, index):
+    """Unique on the day's page, e.g. e1130-3 for the 3rd Story of the 11:30 Edition."""
+    return f"e{edition.replace(':', '')}-{index + 1}"
 
 
-def full_story(story, index):
-    return f"""<article id="{anchor(index)}">
+def full_story(story, story_id):
+    return f"""<article id="{story_id}">
 <h3>{escape(story['title'])}</h3>
 <div class="meta">{tags_html(story)}</div>
 <p>{escape(story['summary'])}</p>
@@ -80,46 +86,58 @@ def full_story(story, index):
 </article>"""
 
 
-def compact_story(story, index):
-    return f"""<article class="compact" id="{anchor(index)}"><details>
+def compact_story(story, story_id):
+    return f"""<article class="compact" id="{story_id}"><details>
 <summary><b>{escape(story['title'])}</b><span class="meta">{tags_html(story)}</span></summary>
 <p>{escape(story['summary'])}</p><p>{escape(story['more'])}</p>{links_html(story)}
 </details></article>"""
 
 
-def digest_page(date, stories, failed):
-    parts = [f"<header><h1>AI Digest · {date}</h1>"]
-    if stories:
-        sources = len({i["source"] for s in stories for i in s["items"]})
-        parts.append(f"<p>{len(stories)} Stories from {sources} Sources</p>")
-    parts.append("</header>")
+def edition_section(saved):
+    stories, failed, edition = saved["stories"], saved["failed"], saved["edition"]
+    count = f"{len(stories)} Stories" if stories else "Nothing new"
+    parts = [f'<section class="edition" id="e{edition.replace(":", "")}">'
+             f"<h2>{edition} Edition · {count}</h2>"]
     if failed:
         parts.append(f'<p class="warning">⚠️ {escape(unavailable_note(failed))}</p>')
-    if not stories:
-        parts.append("<p>Nothing new since the last Digest.</p>")
     for lvl in config.LEVELS:
         group = [s for s in stories if s["level"] == lvl]
         if group:
-            parts.append(f"<h2>{HEADINGS[lvl]}</h2>")
+            parts.append(f'<h3 class="level">{HEADINGS[lvl]}</h3>')
             render_one = compact_story if lvl == "muted" else full_story
-            parts.extend(render_one(s, stories.index(s)) for s in group)
-    return page(f"AI Digest · {date}", "\n".join(parts), root="../../../")
+            parts.extend(render_one(s, anchor(edition, stories.index(s))) for s in group)
+    return "\n".join(parts) + "</section>"
+
+
+def digest_page(date, editions):
+    """The day's page: every Edition published that day, newest first."""
+    total = sum(len(e["stories"]) for e in editions)
+    head = (f"<header><h1>AI Digest · {date}</h1>"
+            f"<p>{len(editions)} Edition{'s' if len(editions) != 1 else ''} · "
+            f"{total} Stories</p></header>")
+    body = head + "\n".join(edition_section(e) for e in editions)
+    return page(f"AI Digest · {date}", body, root="../../../")
 
 
 def index_page(dates):
     items = "".join(f'<li><a href="{d.replace("-", "/")}/">{d}</a></li>' for d in dates)
-    body = (f"<header><h1>AI Digest</h1><p>A daily digest of what's new in AI. "
+    body = (f"<header><h1>AI Digest</h1><p>What's new in AI, four Editions a day. "
             f'<a href="health/">Source health</a></p></header>'
             f'<ol class="digests">{items}</ol>')
     return page("AI Digest", body, root="./")
 
 
-def write(date, stories, failed):
-    """Write today's page and rebuild the index from every Digest on the branch."""
+def day_editions(date):
+    saved = [json.loads(p.read_text()) for p in (config.SITE / "data").glob(f"{date}-*.json")]
+    return sorted(saved, key=lambda e: e["edition"], reverse=True)
+
+
+def write(date):
+    """Rebuild the day's page from its Editions, and the index from every day."""
     day = config.SITE / date.replace("-", "/")
     day.mkdir(parents=True, exist_ok=True)
-    (day / "index.html").write_text(digest_page(date, stories, failed))
-    dates = sorted((p.stem for p in config.DIGESTS.glob("*.md")
-                    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.stem)), reverse=True)
+    (day / "index.html").write_text(digest_page(date, day_editions(date)))
+    dates = sorted({p.stem[:10] for p in config.DIGESTS.glob("*.md")
+                    if re.fullmatch(r"\d{4}-\d{2}-\d{2}-\d{4}", p.stem)}, reverse=True)
     (config.SITE / "index.html").write_text(index_page(dates))
     (config.SITE / ".nojekyll").touch()  # Serve files as-is; don't run Jekyll.

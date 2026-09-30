@@ -57,6 +57,30 @@ def today():
     return now().date().isoformat()
 
 
+def editions():
+    return settings()["editions"]
+
+
+def current_edition(now, times=None):
+    """(date, "HH:MM") of the Edition a Run at `now` belongs to.
+
+    That's the latest Edition time at or before now, with 15 minutes of slack for a Run
+    that starts early. Before the day's first Edition, it's yesterday's last one.
+    """
+    times = sorted(times or editions())
+    slack = timedelta(minutes=15)
+    for time in reversed(times):
+        hours, minutes = (int(x) for x in time.split(":"))
+        if now >= now.replace(hour=hours, minute=minutes, second=0, microsecond=0) - slack:
+            return now.date().isoformat(), time
+    return (now.date() - timedelta(days=1)).isoformat(), times[-1]
+
+
+def digest_key(date, edition):
+    """Names one Edition's files, e.g. 2026-09-30-1130."""
+    return f"{date}-{edition.replace(':', '')}"
+
+
 def page_url(date):
     return settings()["site_url"].rstrip("/") + "/" + date.replace("-", "/") + "/"
 

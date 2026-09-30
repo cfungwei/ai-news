@@ -3,7 +3,8 @@ from datetime import datetime, timedelta, timezone
 import pytest
 
 from ainews import fetch, health, render, telegram
-from ainews.run import RunFailed, check_fetch, is_last_run
+from ainews import config, pages
+from ainews.run import RunFailed, check_fetch
 
 PREFERENCES = {"models": "preferred", "agents": "preferred", "products": "neutral",
                "policy": "neutral", "industry": "muted", "other": "muted"}
@@ -121,9 +122,10 @@ class TestTelegram:
 
     def test_header_counts_and_quiet_day(self):
         stories = ordered([story("P", ["models"], ["a1"]), story("N", ["products"], ["d1"])])
-        text = telegram.header_message("2026-09-29", stories, [], "https://x/")
+        text = telegram.header_message("AI Digest · 2026-09-29 · 11:30", stories, [], "https://x/")
+        assert text.startswith("<b>AI Digest · 2026-09-29 · 11:30</b>")
         assert "2 Stories · 1 preferred" in text
-        quiet = telegram.header_message("2026-09-29", [], [], "https://x/")
+        quiet = telegram.header_message("AI Digest", [], [], "https://x/")
         assert "Nothing new since the last Digest." in quiet
 
     def test_all_or_top_story_messages(self):
@@ -159,8 +161,8 @@ class TestFeedback:
         assert state["feedback"]["41"]["up"] == 0
 
 
-def saved_digest(day, stories, failed=()):
-    return {"date": day, "failed": [{"source": f, "name": f} for f in failed],
+def saved_digest(day, stories, failed=(), edition="06:30"):
+    return {"date": day, "edition": edition, "failed": [{"source": f, "name": f} for f in failed],
             "stories": ordered(stories)}
 
 
@@ -190,24 +192,41 @@ class TestHealth:
         feedback = {"1": {"date": "2026-10-07", "sources": ["hn"], "up": 1, "down": 3}}
         rows = self.report(saved, feedback)
         assert "failed on 3 of the last 7 days" in rows["verge"]["flags"]
+        # A second failed Edition on the same day doesn't count as another day.
+        saved["2026-10-08-1130"] = saved_digest("2026-10-08", [], failed=["hn"], edition="11:30")
+        saved["2026-10-08-1630"] = saved_digest("2026-10-08", [], failed=["hn"], edition="16:30")
+        assert self.report(saved, feedback)["hn"]["failed7"] == 1
         assert rows["hn"]["flags"] == ["more 👎 than 👍"]
         assert (rows["hn"]["up"], rows["hn"]["down"]) == (1, 3)
 
 
-class TestLastRun:
-    SETTINGS = {"schedule": "07:00", "backup_runs": 2}
+class TestEditions:
     TZ = timezone(timedelta(hours=8))
+    TIMES = ["06:30", "11:30", "16:30", "21:30"]
 
     @pytest.mark.parametrize("hhmm, expected", [
-        ("07:03", False), ("08:05", False), ("08:35", True), ("09:04", True), ("14:00", True)])
-    def test_only_the_last_scheduled_run_reports_failure(self, hhmm, expected):
+        ("06:34", ("2026-09-30", "06:30")),   # A routine that starts a few minutes late.
+        ("06:20", ("2026-09-30", "06:30")),   # Or a few minutes early.
+        ("11:29", ("2026-09-30", "11:30")),
+        ("14:00", ("2026-09-30", "11:30")),   # A manual Run now between Editions.
+        ("23:59", ("2026-09-30", "21:30")),
+        ("03:00", ("2026-09-29", "21:30")),   # After midnight: yesterday's last Edition.
+    ])
+    def test_run_time_picks_its_edition(self, hhmm, expected):
         hours, minutes = map(int, hhmm.split(":"))
-        now = datetime(2026, 9, 27, hours, minutes, tzinfo=self.TZ)
-        assert is_last_run(now, self.SETTINGS) is expected
+        now = datetime(2026, 9, 30, hours, minutes, tzinfo=self.TZ)
+        assert config.current_edition(now, self.TIMES) == expected
 
-    def test_no_backups_means_the_first_run_is_last(self):
-        now = datetime(2026, 9, 27, 7, 2, tzinfo=self.TZ)
-        assert is_last_run(now, {"schedule": "07:00", "backup_runs": 0})
+    def test_digest_key(self):
+        assert config.digest_key("2026-09-30", "11:30") == "2026-09-30-1130"
+
+    def test_day_page_shows_editions_newest_first_with_unique_anchors(self):
+        morning = {"edition": "06:30", "failed": [], "stories": ordered([story("A", ["models"], ["a1"])])}
+        noon = {"edition": "11:30", "failed": [], "stories": ordered([story("B", ["models"], ["b1"])])}
+        html = pages.digest_page("2026-09-30", [noon, morning])
+        assert html.index("11:30 Edition") < html.index("06:30 Edition")
+        assert 'id="e1130-1"' in html and 'id="e0630-1"' in html
+        assert "2 Editions · 2 Stories" in html
 
 
 class TestRunChecks:
@@ -284,3 +303,8 @@ class TestPageSource:
         assert "lab:https://lab.example/model-one" in state["seen"]["lab"]
         assert state["baselined"] == [fetch.baseline_key(self.WIDER)]
         assert len(state["seen"]["lab"]) == 2  # No duplicates.
+
+
+def test_failure_message_says_next_edition_catches_up():
+    text = telegram.failure_message("AI Digest · 2026-09-30 · 11:30", "boom")
+    assert "11:30 failed" in text and "next Edition" in text

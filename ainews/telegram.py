@@ -36,8 +36,8 @@ def check_env():
 
 # Messages
 
-def header_message(date, stories, failed, url):
-    lines = [f"<b>AI Digest · {date}</b>"]
+def header_message(title, stories, failed, url):
+    lines = [f"<b>{escape(title)}</b>"]
     if failed:
         lines.append(f"⚠️ {escape(unavailable_note(failed))}")
     if not stories:
@@ -60,9 +60,10 @@ def story_message(story, url):
     return f"{title}\n{escape(story['summary'])}\n{meta} · {link}"
 
 
-def failure_message(date, runs, reason):
-    return (f"❌ <b>AI Digest · {date} failed</b>\n\n"
-            f"All {runs} Runs failed. Last error:\n<code>{escape(reason[:1500])}</code>")
+def failure_message(title, reason):
+    return (f"❌ <b>{escape(title)} failed</b>\n\n"
+            "Its news will be in the next Edition. Error:\n"
+            f"<code>{escape(reason[:1500])}</code>")
 
 
 def health_message(rows, url):
@@ -121,10 +122,10 @@ def chosen(stories, settings):
     return top(stories, settings["telegram_top_n"])
 
 
-def send_digest(date, stories, failed, url, story_url):
+def send_digest(title, stories, failed, url, story_url):
     """Send the header, then one silent message per chosen Story. Returns {index: message id}."""
     settings = config.settings()
-    send(header_message(date, stories, failed, url))
+    send(header_message(title, stories, failed, url))
     sent = {}
     for story in chosen(stories, settings):
         time.sleep(settings["telegram_gap_seconds"])  # Channels allow about 20 messages a minute.

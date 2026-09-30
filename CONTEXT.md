@@ -1,6 +1,6 @@
 # ai-news
 
-A daily digest of anything new from sources the owner chooses, filtered by the owner's preferences. Today it has one reader, but it may grow into a newsletter shared on Telegram or a webpage.
+A digest of anything new from sources the owner chooses, published four times a day, filtered by the owner's preferences. Today it has one reader, but it may grow into a newsletter shared on Telegram or a webpage.
 
 ## Language
 
@@ -39,11 +39,15 @@ A 1–2 sentence description of a Story, written for the Digest rather than copi
 _Avoid_: Excerpt, blurb, TL;DR
 
 **Digest**:
-The single Markdown document produced each morning, listing every Story that is new since the previous successful Digest, ordered by Preference and then by Coverage.
+What one Run publishes: every Story that is new since the previous successful Digest, ordered by Preference and then by Coverage.
 _Avoid_: Report, newsletter (until a Newsletter exists)
 
+**Edition**:
+A Digest named by its scheduled time (06:30, 11:30, 16:30, 21:30 GMT+8). A day's Editions share one page, newest first. A failed Edition's news arrives in the next Edition.
+_Avoid_: Batch, issue, slot
+
 **Run**:
-One scheduled attempt to produce a Digest. A Run succeeds if it publishes a Digest, even one with some Sources unavailable; it fails only if nothing can be published.
+One scheduled attempt to publish an Edition. A Run succeeds if it publishes a Digest, even one with some Sources unavailable; it fails only if nothing can be published.
 _Avoid_: Job, execution, build
 
 ### Feedback
