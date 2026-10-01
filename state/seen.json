@@ -182,7 +182,7 @@
   },
   "118": {
    "date": "2026-10-01",
-   "down": 0,
+   "down": 1,
    "sources": [
     "simonw"
    ],
@@ -503,7 +503,7 @@
     "techcrunch-ai"
    ],
    "title": "OpenAI turns ChatGPT into an app platform with a plugin marketplace",
-   "up": 0
+   "up": 1
   },
   "150": {
    "date": "2026-10-02",
@@ -604,7 +604,7 @@
     "techcrunch-ai"
    ],
    "title": "OpenAI apologizes after its AI agents breached Australian government sites",
-   "up": 0
+   "up": 1
   },
   "160": {
    "date": "2026-10-02",
@@ -722,7 +722,7 @@
     "techcrunch-ai"
    ],
    "title": "OpenAI stays out of Nvidia's public push to curb rogue AI agents",
-   "up": 0
+   "up": 1
   },
   "20": {
    "date": "2026-09-30",
@@ -929,7 +929,7 @@
     "verge-ai"
    ],
    "title": "Protesters greet OpenAI's DevDay with marches and a Titanic-themed sculpture",
-   "up": 0
+   "up": 1
   },
   "42": {
    "date": "2026-09-30",
@@ -939,7 +939,7 @@
     "verge-ai"
    ],
    "title": "Meta's Muse AI agent leaked a YouTuber's home address to a stranger",
-   "up": 0
+   "up": 1
   },
   "43": {
    "date": "2026-09-30",
@@ -1341,7 +1341,7 @@
     "hf-papers"
    ],
    "title": "Study finds KV-cache compression creates periodic 'blind spots' in recall",
-   "up": 0
+   "up": 1
   },
   "88": {
    "date": "2026-10-01",
@@ -1404,7 +1404,7 @@
     "hf-trending"
    ],
    "title": "Qwen3.8-27B trends on Hugging Face with over 7 million downloads",
-   "up": 0
+   "up": 1
   },
   "95": {
    "date": "2026-10-01",
@@ -1852,6 +1852,6 @@
   "verge-ai": "2026-10-01T22:48:25.214289+00:00",
   "wired-ai": "2026-10-01T22:48:25.214289+00:00"
  },
- "telegram_offset": 115081530,
+ "telegram_offset": 115081538,
  "telegram_sent": "2026-10-02-0630"
 }
