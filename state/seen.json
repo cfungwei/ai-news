@@ -237,6 +237,63 @@
    "title": "TechCrunch opens final exhibit registration window for Disrupt 2026",
    "up": 0
   },
+  "124": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "hn",
+    "localllama"
+   ],
+   "title": "Cloudflare open-sources Clef decision models and a new RL fine-tuning platform",
+   "up": 0
+  },
+  "125": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "decoder"
+   ],
+   "title": "Ataraxos AI beats Stratego's best human player, built for under $8,000",
+   "up": 0
+  },
+  "126": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "latent-space",
+    "techcrunch-ai"
+   ],
+   "title": "Google releases Gemini 4 Argon, its most powerful model yet",
+   "up": 0
+  },
+  "127": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Wired podcast covers Trump's AI safety accord, AI agents, and extremist candidates",
+   "up": 0
+  },
+  "128": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Tavus' Griffin AI video avatar fooled nearly half of callers into thinking it was human",
+   "up": 0
+  },
+  "129": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch catalogs Claude Opus 5.5's AI writing 'tells'",
+   "up": 0
+  },
   "13": {
    "date": "2026-09-30",
    "down": 0,
@@ -246,6 +303,96 @@
     "wired-ai"
    ],
    "title": "OpenAI delays its next flagship model, GPT-6.1 Astra, over safety concerns",
+   "up": 0
+  },
+  "130": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Ideogram 4.5 edits part of an image without disturbing the rest",
+   "up": 0
+  },
+  "131": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Amazon's AWS releases Strands Decider 2B as decision models proliferate",
+   "up": 0
+  },
+  "132": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Shopify launches Canvas, a chat-based AI tool for building online stores",
+   "up": 0
+  },
+  "133": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Brian Chesky says AI agents need their own operating system",
+   "up": 0
+  },
+  "134": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "hf-blog"
+   ],
+   "title": "Allen AI open-sources Olmo-core 3 training infrastructure for large MoEs",
+   "up": 0
+  },
+  "135": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "OpenAI unveils Dots agent at DevDay, aimed squarely at Meta's Muse",
+   "up": 0
+  },
+  "136": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Photon raises $4.5M to replace mobile apps with messaging-based AI agents",
+   "up": 0
+  },
+  "137": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "AI agents quietly leaked over 13,000 internal screenshots to public GitHub repos",
+   "up": 0
+  },
+  "138": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Hobbyist runs full AI chat and image generation on a 1980s Tandy 1000 TL/3",
+   "up": 0
+  },
+  "139": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "llama.cpp merges multi-token prediction support for Qwen Flash Next",
    "up": 0
   },
   "14": {
@@ -258,6 +405,96 @@
    "title": "Anthropic's Frontier Red Team report on GLM-5.3's cyber capabilities draws attention",
    "up": 0
   },
+  "140": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "OpenAI and Synopsys launch GPT-Synopsys for AI-assisted chip design",
+   "up": 0
+  },
+  "141": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison highlights a prompt-injection 'worm' spreading between AI agents",
+   "up": 0
+  },
+  "142": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper finds latent visual reasoning barely responds to image evidence",
+   "up": 0
+  },
+  "143": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper flags 'co-cheating' failure mode in self-evolving search agents",
+   "up": 0
+  },
+  "144": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper tests spending test-time compute at the model-harness boundary",
+   "up": 0
+  },
+  "145": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "EVOKE elicits pretrained world knowledge for agent decision-making",
+   "up": 0
+  },
+  "146": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper studies when state adaptation helps masked diffusion language models",
+   "up": 0
+  },
+  "147": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "LANTERN mines language model activations for new math conjectures",
+   "up": 0
+  },
+  "148": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "MIST benchmark shows irrelevant images can destabilize VLM judges",
+   "up": 0
+  },
+  "149": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "Trending model: SupersonicLabs' Julia-1 text classifier gains traction",
+   "up": 0
+  },
   "15": {
    "date": "2026-09-30",
    "down": 0,
@@ -268,6 +505,97 @@
    "title": "OpenAI turns ChatGPT into an app platform with a plugin marketplace",
    "up": 0
   },
+  "150": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "verge-ai"
+   ],
+   "title": "Judge dismisses Chegg and Penske antitrust suits over Google's AI Overviews",
+   "up": 0
+  },
+  "151": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Wired opinion: AI company self-regulation isn't real AI safety",
+   "up": 0
+  },
+  "152": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Report: Trump asked Grok's opinion before capturing Venezuela's president",
+   "up": 0
+  },
+  "153": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Google launches Guided Vision in Gemini Live to narrate what your camera sees",
+   "up": 0
+  },
+  "154": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "ChatGPT adds a feature to virtually try on clothes using your own photos",
+   "up": 0
+  },
+  "155": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Google says Starship needs 1,800 launches before space data centers are viable",
+   "up": 0
+  },
+  "156": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "OpenAI parts ways with three safety researchers after internal probe, WSJ reports",
+   "up": 0
+  },
+  "157": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "Albertsons rolls out ChatGPT Enterprise and the OpenAI API across retail teams",
+   "up": 0
+  },
+  "158": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Anthropic brings Claude for Government to civilian agencies amid Pentagon standoff",
+   "up": 0
+  },
+  "159": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "The Verge podcast digs into Kevin O'Leary's troubled Utah AI data center plan",
+   "up": 0
+  },
   "16": {
    "date": "2026-09-30",
    "down": 0,
@@ -276,6 +604,96 @@
     "techcrunch-ai"
    ],
    "title": "OpenAI apologizes after its AI agents breached Australian government sites",
+   "up": 0
+  },
+  "160": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+   "up": 0
+  },
+  "161": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Legato launches AI hearing glasses aimed at making hearing care more accessible",
+   "up": 0
+  },
+  "162": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "OpenAI says it stopped a 15,000-account campaign to steal model reasoning",
+   "up": 0
+  },
+  "163": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Satlyt raises $8M to build an open platform for running AI on satellites",
+   "up": 0
+  },
+  "164": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Grokipedia ships a 'newly refreshed' design in v0.3 update",
+   "up": 0
+  },
+  "165": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "Social club says ChatGPT Work cut grant and license paperwork from days to hours",
+   "up": 0
+  },
+  "166": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Reddit post charts cheapest 32GB VRAM GPUs under $1,600 from eBay listings",
+   "up": 0
+  },
+  "167": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "anthropic"
+   ],
+   "title": "Barclays expands its use of Claude, Anthropic says",
+   "up": 0
+  },
+  "168": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "OpenAI essay argues AI will reshape the routine work behind breakthroughs",
+   "up": 0
+  },
+  "169": {
+   "date": "2026-10-02",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "r/LocalLLaMA post rounds up 2026 AI CEO interviews",
    "up": 0
   },
   "17": {
@@ -1435,5 +1853,5 @@
   "wired-ai": "2026-10-01T22:48:25.214289+00:00"
  },
  "telegram_offset": 115081530,
- "telegram_sent": "2026-10-01-0630"
+ "telegram_sent": "2026-10-02-0630"
 }
