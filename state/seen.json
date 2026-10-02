@@ -706,6 +706,90 @@
    "title": "OpenAI expands Codex with reusable cloud environments and a new Ultrafast API tier",
    "up": 0
   },
+  "171": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "verge-ai"
+   ],
+   "title": "Suno adds spoken-word generation alongside its AI music",
+   "up": 0
+  },
+  "172": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "hf-trending"
+   ],
+   "title": "Cloudflare launches Clef, a fast decision model for AI agents",
+   "up": 0
+  },
+  "173": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "latent-space",
+    "localllama"
+   ],
+   "title": "Pi 1.0 ships with MCP support included by default",
+   "up": 0
+  },
+  "174": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Meta open-sources code for building custom Muse AI gadgets",
+   "up": 0
+  },
+  "175": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Redis creator's ds4 project lets you run LLMs locally",
+   "up": 0
+  },
+  "176": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "OpenAI launches Dots, an enterprise agent platform",
+   "up": 0
+  },
+  "177": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "User turns iPhone into a second GPU for local LLM inference",
+   "up": 0
+  },
+  "178": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "OpenAI publishes practical guide to the GPT-6 model family",
+   "up": 0
+  },
+  "179": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Qwen3.8-27B-Humanlike-Chat 2.0 adds tool calls after fan feedback",
+   "up": 0
+  },
   "18": {
    "date": "2026-09-30",
    "down": 0,
@@ -713,6 +797,96 @@
     "decoder"
    ],
    "title": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold",
+   "up": 0
+  },
+  "180": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Trillium Labs pushes to publish high-stakes AI safety research openly",
+   "up": 0
+  },
+  "181": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "mit-tr-ai"
+   ],
+   "title": "MIT Technology Review on enterprise adoption of autonomous AI",
+   "up": 0
+  },
+  "182": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hf-blog"
+   ],
+   "title": "Allen Institute open-sources AstaBrief report-generation model",
+   "up": 0
+  },
+  "183": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "llama.cpp adds support for Decision Models",
+   "up": 0
+  },
+  "184": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "AI reportedly solves imperfect-information game Stratego for the first time",
+   "up": 0
+  },
+  "185": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "Airbnb rebuilds its product and guest experience around AI",
+   "up": 0
+  },
+  "186": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "AI now beats licensed accountants on speed and accuracy, study finds",
+   "up": 0
+  },
+  "187": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "LocalLLaMA users ask whether Mistral has new releases planned",
+   "up": 0
+  },
+  "188": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Microsoft AI releases new transcription and speech models for voice agents",
+   "up": 0
+  },
+  "189": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "mit-tr-ai"
+   ],
+   "title": "Essay argues LLMs don't actually reason, despite appearances",
    "up": 0
   },
   "19": {
@@ -724,6 +898,96 @@
    "title": "OpenAI stays out of Nvidia's public push to curb rogue AI agents",
    "up": 1
   },
+  "190": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Black Forest Labs launches Flux 3 Image with multi-step editing",
+   "up": 0
+  },
+  "191": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hf-blog"
+   ],
+   "title": "ServiceNow releases AutoSynthData for training enterprise agents",
+   "up": 0
+  },
+  "192": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Linux kernel maintainer Greg Kroah-Hartman talks security in the LLM age",
+   "up": 0
+  },
+  "193": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "RLM author Alex Zhang on academia, PhDs, and AI harnesses",
+   "up": 0
+  },
+  "194": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "OneStreamer paper tackles memory for streaming video LLMs",
+   "up": 0
+  },
+  "195": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Study isolates how rollout policy shapes LLM distillation",
+   "up": 0
+  },
+  "196": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Benchmark probes whether AI paper reviewers reward rhetoric",
+   "up": 0
+  },
+  "197": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "E-MoE adds mixture-of-experts to masked diffusion language models",
+   "up": 0
+  },
+  "198": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "New method weights sparse rewards by density in multi-reward RL",
+   "up": 0
+  },
+  "199": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper fixes conflicting joint actions in multi-agent pathfinding",
+   "up": 0
+  },
   "20": {
    "date": "2026-09-30",
    "down": 0,
@@ -731,6 +995,99 @@
     "wired-ai"
    ],
    "title": "Anthropic says it discovered a Crispr-like gene-editing system using AI",
+   "up": 0
+  },
+  "200": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "InterEvolve lets humanoid robots learn new tasks without retraining",
+   "up": 0
+  },
+  "201": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "VisionHOPE image-classification model trends on Hugging Face",
+   "up": 0
+  },
+  "202": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "verge-ai"
+   ],
+   "title": "Amazon's $1B data-center plan draws backlash despite NDA pledge",
+   "up": 0
+  },
+  "203": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "Apple tightens Mac disk-access controls over AI agent risks",
+   "up": 0
+  },
+  "204": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai",
+    "wired-ai"
+   ],
+   "title": "Trump executive order rebrands AI as 'Super Intelligence'",
+   "up": 0
+  },
+  "205": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Sean Parker rebuilds Stability AI with a focus on music",
+   "up": 0
+  },
+  "206": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Anthropic co-founder reportedly worries Claude may suffer perpetually",
+   "up": 0
+  },
+  "207": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "US arrests tech CEO over alleged $300M Nvidia chip smuggling",
+   "up": 0
+  },
+  "208": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Circuit Breaker Labs builds 'crash-test dummies' for AI safety",
+   "up": 0
+  },
+  "209": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Pope Leo XIV criticizes AI-generated art as lacking humanity",
    "up": 0
   },
   "21": {
@@ -742,6 +1099,96 @@
    "title": "NVIDIA's Kumo Tabular claims new accuracy-efficiency frontier for tabular prediction",
    "up": 0
   },
+  "210": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "google-ai"
+   ],
+   "title": "Google recaps its AI announcements from September 2026",
+   "up": 0
+  },
+  "211": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Nvidia Shield TV Pro price rises $100, blamed on AI demand",
+   "up": 0
+  },
+  "212": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "OpenAI fires three safety researchers over alleged leaks",
+   "up": 0
+  },
+  "213": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Restaurant workers say AI chatbot errors are emboldening rude customers",
+   "up": 0
+  },
+  "214": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Communities push back even as AI data centers are disguised",
+   "up": 0
+  },
+  "215": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Patched flaw in ChatGPT's Mac app could have exposed data",
+   "up": 0
+  },
+  "216": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Palantir scheduling software is causing errors for hospital nurses",
+   "up": 0
+  },
+  "217": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "Chatham Financial cuts trade validation time using OpenAI tools",
+   "up": 0
+  },
+  "218": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch offers $75 Expo+ Pass deal for Disrupt 2026",
+   "up": 0
+  },
+  "219": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Shivon Zilis announces breakup with Elon Musk on X",
+   "up": 0
+  },
   "22": {
    "date": "2026-09-30",
    "down": 0,
@@ -749,6 +1196,60 @@
     "decoder"
    ],
    "title": "ElevenLabs launches v4 speech model with more expressive, consistent voices",
+   "up": 0
+  },
+  "220": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Blackstone's Jas Khaira to speak on AI giants at Disrupt",
+   "up": 0
+  },
+  "221": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "'AI Makes Me Sad' essay sparks Hacker News discussion",
+   "up": 0
+  },
+  "222": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Clay's Kareem Amin to discuss rise of the GTM engineer",
+   "up": 0
+  },
+  "223": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Final day to book an exhibit table at TC Disrupt 2026",
+   "up": 0
+  },
+  "224": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Ramp AI Index: businesses spend less on AI even as usage grows",
+   "up": 0
+  },
+  "225": {
+   "date": "2026-10-03",
+   "down": 0,
+   "sources": [
+    "anthropic"
+   ],
+   "title": "Anthropic announces Claude frontier academy",
    "up": 0
   },
   "23": {
@@ -1917,5 +2418,5 @@
   "wired-ai": "2026-10-02T22:48:27.814275+00:00"
  },
  "telegram_offset": 115081538,
- "telegram_sent": "2026-10-02-0630"
+ "telegram_sent": "2026-10-03-0630"
 }
