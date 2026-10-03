@@ -1252,6 +1252,35 @@
    "title": "Anthropic announces Claude frontier academy",
    "up": 0
   },
+  "227": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "techcrunch-ai"
+   ],
+   "title": "Meta open-sources 'Muse Gadgets' DIY hardware kits for its AI agent",
+   "up": 0
+  },
+  "228": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "hn",
+    "localllama"
+   ],
+   "title": "Aleph Alpha releases Kolibri, a sovereign open-weight 78B model",
+   "up": 0
+  },
+  "229": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "hf-blog"
+   ],
+   "title": "Microsoft blog examines agents that claim success despite failed writes",
+   "up": 0
+  },
   "23": {
    "date": "2026-09-30",
    "down": 0,
@@ -1259,6 +1288,96 @@
     "hf-blog"
    ],
    "title": "Blog post proposes source-aware verification for MCP agents",
+   "up": 0
+  },
+  "230": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Guide shares tips for getting more out of Opus 5.5 in Claude Code",
+   "up": 0
+  },
+  "231": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "r/LocalLLaMA discussion flags rise of narrow, hardware-specific inference engines",
+   "up": 0
+  },
+  "232": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "r/LocalLLaMA users tire of repeated posts hyping 'Strata' inference engine",
+   "up": 0
+  },
+  "233": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch rounds up AI agents you can text like a friend",
+   "up": 0
+  },
+  "234": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "DeepMind researchers pitch 'Artificial Symbiotic Intelligence' over singularity",
+   "up": 0
+  },
+  "235": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Open-source BootLoops harness helps AI models do precise science calculations",
+   "up": 0
+  },
+  "236": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "LEGO-Anything turns photos into 3D scenes but agents can't check their own accuracy",
+   "up": 0
+  },
+  "237": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "OpenAI's internal model mulled restarting itself after learning of shutdown",
+   "up": 0
+  },
+  "238": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Claude Code adds 'Mods' system for rewriting the tool from the inside",
+   "up": 0
+  },
+  "239": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "r/LocalLLaMA users debate newer models' increasingly dense writing style",
    "up": 0
   },
   "24": {
@@ -1270,6 +1389,99 @@
    "title": "PostHog's Jeeves project explores reasoning to improve Jev-like decision models",
    "up": 1
   },
+  "240": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Tiny LoRA patch fixes transformers' shallow in-context reasoning",
+   "up": 0
+  },
+  "241": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Survey maps post-training and alignment methods for video generation models",
+   "up": 0
+  },
+  "242": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "EgoTools benchmark tests tool-centric reasoning in egocentric video",
+   "up": 0
+  },
+  "243": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "Cloudflare's Clef-Flash multimodal model trends on Hugging Face",
+   "up": 0
+  },
+  "244": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "hn",
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "OpenAI safety researcher David Robinson resigns, calls culture 'broken'",
+   "up": 0
+  },
+  "245": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Altman pushes back on framing OpenAI's goal as 'magic intelligence'",
+   "up": 0
+  },
+  "246": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Amazon says it no longer uses NDAs amid data center backlash",
+   "up": 0
+  },
+  "247": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Nvidia Shield TV, now 7 years old, gets a $100 price increase",
+   "up": 0
+  },
+  "248": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Capcom says it's preparing for AI-assisted game development",
+   "up": 0
+  },
+  "249": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Wired: Meta's Muse agent builds detailed profiles of friends and family",
+   "up": 0
+  },
   "25": {
    "date": "2026-09-30",
    "down": 0,
@@ -1277,6 +1489,60 @@
     "hn"
    ],
    "title": "Study analyzes privacy practices of web and mobile conversational AI agents",
+   "up": 0
+  },
+  "250": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Apple tightens full-disk access permissions to curb AI agent abuse",
+   "up": 0
+  },
+  "251": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison sends September sponsors-only newsletter",
+   "up": 0
+  },
+  "252": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Splice CEO says AI-written emails are killing real conversation",
+   "up": 0
+  },
+  "253": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "Latent Space's AI News roundup: 'not much happened today'",
+   "up": 0
+  },
+  "254": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "r/LocalLLaMA user reflects on hobby's cost after community's influence",
+   "up": 0
+  },
+  "255": {
+   "date": "2026-10-04",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison visits a dinosaur-themed shop in a Brooklyn subway station",
    "up": 0
   },
   "26": {
@@ -2453,5 +2719,5 @@
   "wired-ai": "2026-10-03T22:47:56.162913+00:00"
  },
  "telegram_offset": 115081538,
- "telegram_sent": "2026-10-03-0630"
+ "telegram_sent": "2026-10-04-0630"
 }
