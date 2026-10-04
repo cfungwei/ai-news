@@ -887,7 +887,7 @@
     "mit-tr-ai"
    ],
    "title": "Essay argues LLMs don't actually reason, despite appearances",
-   "up": 0
+   "up": 1
   },
   "19": {
    "date": "2026-09-30",
@@ -968,7 +968,7 @@
     "hf-papers"
    ],
    "title": "E-MoE adds mixture-of-experts to masked diffusion language models",
-   "up": 0
+   "up": 1
   },
   "198": {
    "date": "2026-10-03",
@@ -986,7 +986,7 @@
     "hf-papers"
    ],
    "title": "Paper fixes conflicting joint actions in multi-agent pathfinding",
-   "up": 0
+   "up": 1
   },
   "20": {
    "date": "2026-09-30",
@@ -2920,6 +2920,6 @@
   "verge-ai": "2026-10-04T22:48:24.206651+00:00",
   "wired-ai": "2026-10-04T22:48:24.206651+00:00"
  },
- "telegram_offset": 115081538,
+ "telegram_offset": 115081541,
  "telegram_sent": "2026-10-05-0630"
 }
