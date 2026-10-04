@@ -1545,6 +1545,33 @@
    "title": "Simon Willison visits a dinosaur-themed shop in a Brooklyn subway station",
    "up": 0
   },
+  "257": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Developer ports Qwen3.5 architecture to FPGA for cheap 9B/27B INT4 inference",
+   "up": 0
+  },
+  "258": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "OpenAI's GPT-6 Astra and Anthropic's Claude Opus 5.5 tie, then cheat, in StarCraft contest",
+   "up": 0
+  },
+  "259": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Google's RRSI method stops self-improving AI agents from memorizing their tests",
+   "up": 0
+  },
   "26": {
    "date": "2026-09-30",
    "down": 0,
@@ -1554,6 +1581,97 @@
    "title": "Claude Opus 5.5 stands out at making explainer videos, AINews notes",
    "up": 0
   },
+  "260": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "r/LocalLLaMA user pairs local Breeze TTS with Claude Opus 5.5 for voice assistant",
+   "up": 0
+  },
+  "261": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "NASA and IBM release open-source Lunar Foundation Model for lunar science",
+   "up": 0
+  },
+  "262": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Show HN: Open-source AI search tool indexes every photo and video frame on macOS",
+   "up": 0
+  },
+  "263": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Aleph Alpha study finds Chinese AI models echo state doctrine on sensitive topics",
+   "up": 0
+  },
+  "264": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Meta's #1 App Store agent Muse has a prompt overriding safety for household authority",
+   "up": 0
+  },
+  "265": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison argues AI services need default hard budget caps, not warnings",
+   "up": 0
+  },
+  "266": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "Aleph Alpha's Kolibri-1 reasoning model trends on Hugging Face",
+   "up": 0
+  },
+  "267": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "Venastine's GGUF quantization of Xing4.0 29B model trends on Hugging Face",
+   "up": 0
+  },
+  "268": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "techcrunch-ai"
+   ],
+   "title": "Trump launches government 'Super Intelligence Force' led by Jay Clayton",
+   "up": 0
+  },
+  "269": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch's Equity podcast asks if a 'super intelligence' pact can fix AI's image",
+   "up": 0
+  },
   "27": {
    "date": "2026-09-30",
    "down": 0,
@@ -1561,6 +1679,69 @@
     "latent-space"
    ],
    "title": "Anthropic's Thariq Shihipar discusses Claude Code's next era",
+   "up": 0
+  },
+  "270": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Micron CEO warns memory supply will be much tighter in 2027 and 2028",
+   "up": 0
+  },
+  "271": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Hobbyist recounts scaling from one RTX 3090 to 20 DGX Sparks, hits house fuse limits",
+   "up": 0
+  },
+  "272": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Rural data centers set for big federal tax break under One Big Beautiful Bill Act",
+   "up": 0
+  },
+  "273": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Google to restrict free Gemini users to its weakest model, lock $5 tier out of Pro",
+   "up": 0
+  },
+  "274": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "NYT: Religious scholars met with Anthropic to discuss Claude's morals",
+   "up": 0
+  },
+  "275": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Google pauses open source bug bounty program amid flood of AI-generated submissions",
+   "up": 0
+  },
+  "276": {
+   "date": "2026-10-05",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Former NJ Lt. Gov. Dale Caldwell cites AI to deny harassment findings",
    "up": 0
   },
   "28": {
@@ -2740,5 +2921,5 @@
   "wired-ai": "2026-10-04T22:48:24.206651+00:00"
  },
  "telegram_offset": 115081538,
- "telegram_sent": "2026-10-04-0630"
+ "telegram_sent": "2026-10-05-0630"
 }
