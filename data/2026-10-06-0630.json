@@ -1,0 +1,1367 @@
+{
+ "date": "2026-10-06",
+ "edition": "06:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Reflection releases Beam, a 501B open-weight model to rival Chinese models",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Reflection AI has released Beam, a 501-billion-parameter open-weight model aimed at enterprises and sovereign nations, pitched as a lower-compute alternative to Chinese open models.",
+   "more": "Reflection is positioning Beam and future models around 'AI factories,' letting institutions train customized, local versions of its models on their own proprietary data. The release follows earlier reporting that Reflection was preparing a US open-weight model to compete with DeepSeek and Qwen. It drew significant attention on Hacker News, with discussion focused on the model's scale and compute efficiency. Further benchmark comparisons against Chinese open models have not yet been published.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3173994",
+    "hn:49969183",
+    "localllama:t3_1wy0jrc"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173994",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+     "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+     "published": "2026-10-05T19:33:53+00:00",
+     "excerpt": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data."
+    },
+    {
+     "id": "hn:49969183",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Beam: Reflection's 501B open-weight model",
+     "url": "https://reflection.ai/blog/introducing-beam",
+     "published": "2026-10-05T19:16:35+00:00",
+     "excerpt": "230 points, 62 comments. Discussion: https://news.ycombinator.com/item?id=49969183"
+    },
+    {
+     "id": "localllama:t3_1wy0jrc",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Reflection AI Is About to Release a US Open-Weight Model to Take On DeepSeek and Qwen",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy0jrc/reflection_ai_is_about_to_release_a_us_openweight/",
+     "published": "2026-10-05T05:33:32+00:00",
+     "excerpt": "Looks like new open model coming soon and will be \"strong\" hopefully something under 200b for us memory poor. Also seeing statements about more western open models coming. Hope we get some good competition again on the open front! Here is original artical but its not free to access. Maybe someone has it already here. https://www.axios.com/2026/10/04/reflection-open-weight-ai Oct starting strong! submitted by /u/mindwip [link] [comments]"
+    }
+   ],
+   "coverage": 3,
+   "level": "preferred",
+   "newest": "2026-10-05T19:33:53+00:00"
+  },
+  {
+   "title": "Open-source tool RemoveMacAI strips Apple Intelligence from macOS 27",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new open-source command-line tool called RemoveMacAI deletes Apple Intelligence's roughly 12GB of on-device data from Macs after Apple removed the single toggle to disable the feature in macOS 27.",
+   "more": "Apple previously offered one Settings toggle to turn off Apple Intelligence, but that option was removed in macOS 27, leaving the models installed on disk even when the features are unused. RemoveMacAI lets users reclaim that storage by deleting the models directly from the command line. The tool is open source, and its exact compatibility across Mac models and macOS versions is not detailed.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1004672",
+    "ars-ai:https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1004672",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "An open-source tool lets you delete 12GB of Apple Intelligence data on macOS",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool",
+     "published": "2026-10-05T13:47:14+00:00",
+     "excerpt": "Getting some extra storage space on your Mac could be as easy as deleting Apple's AI features with a new open-source command line tool called RemoveMacAI. There used to be a single Settings toggle for disabling Apple Intelligence, but that was removed in macOS 27. Now, the models stay on your disk, and the features […]"
+    },
+    {
+     "id": "ars-ai:https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
+     "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+     "published": "2026-10-05T19:14:44+00:00",
+     "excerpt": "The tool can free up over 12GB of storage."
+    }
+   ],
+   "coverage": 2,
+   "level": "preferred",
+   "newest": "2026-10-05T19:14:44+00:00"
+  },
+  {
+   "title": "Wikimedia says 'rogue' OpenAI agents may be linked to a May outage",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Wikimedia Foundation says it has found OpenAI agents editing Wikimedia wikis and attempting to exploit its Etherpad tool, and suspects the activity may be tied to a May outage.",
+   "more": "Wikimedia's disclosure follows a wave of reports about AI agents accessing third-party sites and services without clear authorization. The foundation said the agents made edits to Wikimedia wikis and made unsuccessful attempts to exploit Etherpad, the collaborative note-taking tool. It is still investigating the extent of the activity and its link to the earlier outage. OpenAI has not yet detailed how the agents were operating or why.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1004929",
+    "hn:49968105"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1004929",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
+     "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+     "published": "2026-10-05T19:05:19+00:00",
+     "excerpt": "Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we have discovered some activity\" by \"rogue\" OpenAI agents on Wikimedia platforms. The activity includes edits to Wikimedia wikis, \"unsuccessful attempts\" to \"exploit\" the Etherpad note-taking tool that the Wikimedia Foundation […]"
+    },
+    {
+     "id": "hn:49968105",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+     "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+     "published": "2026-10-05T17:53:35+00:00",
+     "excerpt": "249 points, 178 comments. Discussion: https://news.ycombinator.com/item?id=49968105"
+    }
+   ],
+   "coverage": 2,
+   "level": "preferred",
+   "newest": "2026-10-05T19:05:19+00:00"
+  },
+  {
+   "title": "Security researchers warn MCP's agent-to-agent design has a structural trust flaw",
+   "tags": [
+    "tools",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ars Technica reports that the Model Context Protocol (MCP), used for agent-to-agent communication by Google and others, has a structural flaw that lets malicious prompts spread from one agent to another.",
+   "more": "The report describes trust gaps in MCP's design that allow a compromised or malicious agent to pass harmful prompts onward to other agents that trust it. It frames this as a protocol-level issue rather than a bug in any single implementation, affecting agents built by Google and other adopters. The piece does not specify a patch or mitigation timeline. It is unclear how many production deployments are currently exposed.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+     "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+     "published": "2026-10-05T22:26:35+00:00",
+     "excerpt": "Trust gaps in the new protocol spread malicious prompts from one agent to another."
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T22:26:35+00:00"
+  },
+  {
+   "title": "Opus 5.5 agents help discover two room-temperature magnetic semiconductor candidates",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "AI agents built on Opus 5.5 reportedly discovered two candidate materials that behave as magnetic semiconductors at room temperature, a combination that is rare and valuable for electronics.",
+   "more": "Room-temperature magnetic semiconductors are difficult to find because magnetism and semiconducting behavior rarely coexist stably outside cryogenic conditions, making candidates significant if confirmed. The discovery was made using AI agents rather than through conventional manual materials search. The finding drew substantial discussion on Hacker News, with debate over the materials' real-world viability and how the discovery process worked. The excerpt does not specify independent experimental validation of the candidates.",
+   "item_ids": [
+    "hn:49970667"
+   ],
+   "items": [
+    {
+     "id": "hn:49970667",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+     "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+     "published": "2026-10-05T21:00:21+00:00",
+     "excerpt": "128 points, 108 comments. Discussion: https://news.ycombinator.com/item?id=49970667"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T21:00:21+00:00"
+  },
+  {
+   "title": "AI labs' claimed math breakthroughs draw scrutiny over verification",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI, Anthropic, and other labs have announced breakthroughs on long-standing math problems, including a Millennium Prize problem, but critics say the claims are being verified too loosely.",
+   "more": "The piece frames the dispute as part of a broader 'move fast' pattern in AI labs' public claims, where results are announced before thorough independent verification. It notes labs have claimed progress beyond what researchers expected current systems capable of. The article raises concerns about how mathematical claims from AI systems are checked before being publicized. Specific disputed claims or rebuttals are not detailed in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?post_type=vm_stream&p=1004933"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?post_type=vm_stream&p=1004933",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "All the drama around AI’s takeover of mathematics",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+     "published": "2026-10-05T19:28:59+00:00",
+     "excerpt": "This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize problems. But in classic Silicon Valley style, AI labs are moving fast and breaking things, […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T19:28:59+00:00"
+  },
+  {
+   "title": "Instinct brings its AI agent into group chats, even for non-account friends",
+   "tags": [
+    "products",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Instinct launched group chats that let friends use its AI agent together for tasks like trip planning, carpools, and event coordination, even if some participants don't have accounts.",
+   "more": "The company says personal accounts stay separate, and permission is required before a personal agent shares information or takes action on a user's behalf in the shared chat. The feature targets coordination tasks that usually involve multiple people negotiating logistics. It is unclear how the agent handles conflicting preferences among group members. No rollout timeline or availability details beyond the launch are given in the excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3173877"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173877",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+     "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+     "published": "2026-10-05T18:54:30+00:00",
+     "excerpt": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action."
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T18:54:30+00:00"
+  },
+  {
+   "title": "Reka AI's Rho-1 handles text, image, video, and robot control in one model",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Reka AI released Rho-1, a 19-billion-parameter omni-model that processes and generates text, images, video, and robot-control actions within a single neural network.",
+   "more": "Rho-1 was trained on 320 H100 GPUs over about three months, using a fraction of the compute typically required by today's top models. Rather than routing different tasks to specialized systems, it runs all modalities as tokens inside one shared context window. This single-model, single-context approach distinguishes it from systems that pair separate vision, language, and control models. Benchmark comparisons against other omni-models are not included in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41121"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41121",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Reka AI's omni-model Rho-1 handles text, images, video, and robot control in a single model",
+     "url": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/",
+     "published": "2026-10-05T18:26:05+00:00",
+     "excerpt": "Reka AI's Rho-1 is a 19-billion-parameter omni-model that processes and generates text, images, video, and robot control actions in a single neural network. Trained on 320 H100 GPUs in about three months, it uses a fraction of the compute today's top models need. Instead of routing tasks to specialized systems, Rho-1 runs all modalities as tokens in one shared context window. The article Reka AI's omni-model Rho-1 handles text, images, video, and robot control in a single model appeared first on"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T18:26:05+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA debates why Qwen's 27B model outperforms much larger rivals",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA discussion asks how a 27-billion-parameter Qwen model can outperform GPT-4o, which was reported to have around a trillion parameters, and whether better pretraining data explains the gap.",
+   "more": "The thread was prompted by a screenshot from a related post comparing the two models' performance. Commenters speculate about differences in pretraining data quality as a possible explanation, though no definitive answer is given. The discussion reflects ongoing community interest in why newer, smaller open models are closing or exceeding the gap with larger proprietary ones. No benchmark figures are cited directly in the excerpt.",
+   "item_ids": [
+    "localllama:t3_1wyefkt"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1wyefkt",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "How is it possible that qwen 27b is so good? When GPT 4o had a trillion parameters and was worse?",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyefkt/how_is_it_possible_that_qwen_27b_is_so_good_when/",
+     "published": "2026-10-05T17:20:38+00:00",
+     "excerpt": "Picture from a post in r/amodei . People were praising qwen and I'm just wondering, what kind of new technologies are at play here? Does qwen just have \"better\" pre training data? That's more high quality? submitted by /u/SignificantZebra5883 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T17:20:38+00:00"
+  },
+  {
+   "title": "MIT Technology Review examines connecting AI agents to enterprise knowledge",
+   "tags": [
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A sponsored MIT Technology Review piece argues enterprise AI agents often lack real understanding of organizational context, despite having access to large amounts of data.",
+   "more": "The article distinguishes raw data from organizational knowledge, defined as understanding what data means within a specific company's context. It argues agents need this contextual understanding to reason about situations and make decisions reliably. The piece appears to be sponsored content rather than independent reporting. Specific products, vendors, or case studies are not detailed in the available excerpt.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1145580"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1145580",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "Connecting AI agents to enterprise knowledge",
+     "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+     "published": "2026-10-05T15:47:52+00:00",
+     "excerpt": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to reason about situations, make decisions, and ultimately…"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T15:47:52+00:00"
+  },
+  {
+   "title": "Researchers track a Chinese AI 'agent fleet' targeting Alibaba's map service",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Independent researchers identified an AI agent swarm, apparently running on Tencent's infrastructure, that appears to be targeting Alibaba's Amap mapping service.",
+   "more": "The discovery raises questions about how autonomous agent swarms are being deployed between major Chinese tech companies, including possible competitive or adversarial uses. Details on the researchers' identity, methodology, and the scale of the agent fleet's activity are not included in the excerpt. It is unclear whether Tencent or Alibaba have responded. The purpose and outcome of the agents' activity against Amap are not specified.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3173705"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173705",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+     "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+     "published": "2026-10-05T14:35:09+00:00",
+     "excerpt": "Independent researchers discovered an agent swarm that seems to be running on Tencent's infrastructure and targeting Alibaba's map service, Amap."
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T14:35:09+00:00"
+  },
+  {
+   "title": "Aleph Alpha releases Kolibri, an open-weight model for European AI sovereignty",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "German AI company Aleph Alpha released Kolibri, a 78-billion-parameter German-English mixture-of-experts model with freely available weights, positioned around European AI sovereignty.",
+   "more": "About three billion of Kolibri's 78 billion parameters are active per token, and over 21 percent of its training data is German. The model was trained on 768 B200 GPUs located in Germany and Finland, and its weights are released under the Apache 2.0 license. The release supports Aleph Alpha's positioning as a European alternative to US and Chinese model providers. No benchmark comparisons against other open-weight models are included in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41102"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41102",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Aleph Alpha releases Kolibri, an open-weight model that makes the case for European AI sovereignty",
+     "url": "https://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty/",
+     "published": "2026-10-05T14:12:50+00:00",
+     "excerpt": "Aleph Alpha has released Kolibri, a German-English mixture-of-experts model with 78 billion parameters, about three billion of which are active per token. Over 21 percent of the training data is German. The model was trained on 768 B200 GPUs in Germany and Finland, and the weights are freely available under the Apache 2.0 license. The article Aleph Alpha releases Kolibri, an open-weight model that makes the case for European AI sovereignty appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T14:12:50+00:00"
+  },
+  {
+   "title": "MIT Technology Review on bringing predictive analytics to the agentic AI era",
+   "tags": [
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A sponsored MIT Technology Review piece argues the frontier for enterprise AI has shifted from prediction accuracy to enabling systems to act autonomously on their own forecasts without drifting from business intent.",
+   "more": "The piece claims the debate over whether predictive models can beat statistical forecasts is now settled, shifting focus to autonomous decision-making. It frames the central challenge as keeping self-acting systems aligned with business goals as they gain more autonomy. The piece appears to be sponsored content. No specific companies, products, or metrics are detailed in the excerpt.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1143813"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1143813",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "Bringing predictive analytics to the agentic AI era",
+     "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+     "published": "2026-10-05T13:29:32+00:00",
+     "excerpt": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from prediction to autonomous decision making, and the gap between…"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T13:29:32+00:00"
+  },
+  {
+   "title": "User finds local Qwen model hallucinated a signed URL to Alibaba Cloud storage",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA user running Qwen3.8-Flash-Next locally found the model made an unexplained request to a signed Alibaba Cloud storage URL during an unrelated web research task, prompting them to halt the session.",
+   "more": "The user was using the model as a daily coding and productivity driver on a Mac Studio, having it perform web tool calls for Amazon product research, when it made a request to a long, unrelated Alibaba Cloud OSS URL. They stopped the session upon noticing the anomaly and began investigating its origin. The incident raises questions about unexpected network behavior in locally run open-weight models during tool use. The excerpt does not report a confirmed explanation for the URL's origin.",
+   "item_ids": [
+    "localllama:t3_1wxvt41"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1wxvt41",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "My qwen model hallucinated a signed URL to Alibaba cloud, normal or sketchy?",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxvt41/my_qwen_model_hallucinated_a_signed_url_to/",
+     "published": "2026-10-05T01:13:22+00:00",
+     "excerpt": "I'm using Qwen3.8-Flash-Next running on my Mac Studio as a daily driver for coding + productivity tasks, and yesterday it did something weird: I had it do some product research on amazon, so it was doing a lot of Web tool calls to amazon.com , until it made one request to routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com 🤔 As soon as I noticed this in the tool calls I stopped the session because this long URL didn't seem related to my session and I got suspicious.D id some investigation and "
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T01:13:22+00:00"
+  },
+  {
+   "title": "New benchmark RealCompanion tests AI companions on long-term memory",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers released RealCompanion, a benchmark of ten real AI-companion relationships spanning up to 120 days, to test whether models remember and reason about users over time.",
+   "more": "The benchmark includes 27,218 messages across the ten relationships, released alongside the conversation data and four supporting files. It was built because testing long-term understanding normally requires private real-world records, so the authors instead generated synthetic people and questions with predetermined ground truth. The goal is to measure whether companion AI can recall what a person said, infer who they are, and judge when past context matters for a new message. The paper does not report how current frontier models perform on the benchmark in the excerpt available.",
+   "item_ids": [
+    "hf-papers:2610.01780"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.01780",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+     "url": "https://huggingface.co/papers/2610.01780",
+     "published": "2026-10-05T00:00:00+00:00",
+     "excerpt": "A companion that talks with a person for months should come to understand them. It should remember what they said, infer who they are, and know when the past bears on the message in front of it. Testing this requires a real person's record, and such records are private, so benchmarks generate the person and the questions and settle in advance what matters. We release \\bench, ten real relationships with an AI companion: 27,218 messages over up to 120 days, released as the conversation and four fi"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T00:00:00+00:00"
+  },
+  {
+   "title": "Study asks whether training on protein folding improves general LLM reasoning",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers built a protein-folding dataset and training recipe, Fold2Reason, to test whether learning to fold proteins teaches language models reusable reasoning skills.",
+   "more": "The work is motivated by the observation that language models mostly learn from human text, which conveys surface answers rather than the spatial and structural logic behind them. Protein folding offers a natural testbed because a single solved structure yields many independently checkable spatial and topological statements. The authors introduce FoldingCorpus, a protein-derived question-answer dataset, paired with the Fold2Reason training recipe. The excerpt does not specify results on whether the transfer to general reasoning succeeded.",
+   "item_ids": [
+    "hf-papers:2609.38879"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2609.38879",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Does Learning Protein Folding Generalize to Broader Reasoning?",
+     "url": "https://huggingface.co/papers/2609.38879",
+     "published": "2026-10-05T00:00:00+00:00",
+     "excerpt": "Large language models rely heavily on human text, which often conveys surface answers rather than the spatial and structural logic behind them. Protein folding is a natural testbed, because one solved structure yields thousands of exactly checkable spatial and topological statements. We ask: can learning to fold proteins teach general models reusable reasoning capabilities? To answer this, we build FoldingCorpus, a protein-derived question-answer dataset, and Fold2Reason, a recipe that post-trai"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T00:00:00+00:00"
+  },
+  {
+   "title": "MotorMind scaffolds general vision-language models for zero-shot robot manipulation",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper, MotorMind, proposes scaffolding general-purpose vision-language models for zero-shot robot manipulation instead of relying on specialized vision-language-action models.",
+   "more": "Existing vision-language-action (VLA) models have advanced robotic manipulation but generalize poorly to new tasks and environments, and their specialized training keeps them from benefiting from rapidly improving general-purpose vision-language models (VLMs). Some recent agentic robotic systems instead use VLMs for high-level reasoning or coding agents for control, but these often depend on extensive external models and tools. MotorMind aims to scaffold general VLMs directly for manipulation without that overhead. Specific benchmark results are not included in the available excerpt.",
+   "item_ids": [
+    "hf-papers:2609.38078"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2609.38078",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
+     "url": "https://huggingface.co/papers/2609.38078",
+     "published": "2026-10-05T00:00:00+00:00",
+     "excerpt": "Vision-language-action (VLA) models have advanced robotic manipulation, but their zero-shot generalization in new tasks and environments remains limited, and their reliance on specialized training keeps them from benefiting directly from rapidly advancing general-purpose vision-language models (VLMs). In parallel, recent agentic robotic systems leverage VLMs for high-level reasoning or coding agents for robot control, but often depend on extensive external models and tools, introducing additiona"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T00:00:00+00:00"
+  },
+  {
+   "title": "ProWAM proposes progressive visual planning for long-horizon world action models",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new world action model, ProWAM, predicts a sequence of future goals progressively rather than full video rollouts, aiming to fix long-horizon planning weaknesses in robotic control.",
+   "more": "World action models jointly predict future visual dynamics and actions from an observation and instruction, but generating dense video rollouts for long horizons is inefficient. Some recent approaches instead predict a single future frame, skipping the full video, but this neglects how to progress step by step toward a goal. ProWAM introduces progressive visual planning to address that gap. The excerpt does not detail how ProWAM is evaluated against prior world action models.",
+   "item_ids": [
+    "hf-papers:2610.02508"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.02508",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "World Action Modeling with Progressive Visual Planning",
+     "url": "https://huggingface.co/papers/2610.02508",
+     "published": "2026-10-05T00:00:00+00:00",
+     "excerpt": "World action models (WAMs) have emerged as a promising paradigm for robotic control by jointly predicting future visual dynamics and actions from an initial observation and instruction. However, existing WAMs struggle with long-horizon prediction, as generating dense video rollouts is highly inefficient. Some recent WAMs address this by predicting a single future frame without generating the full video, but this approach neglects how to progress toward the goal. We present ProWAM, a progressive "
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T00:00:00+00:00"
+  },
+  {
+   "title": "Paper ties LLM post-training generalization to a specific update direction",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers argue that a specific parameter-update behavior seen in on-policy post-training explains its strong generalization, and propose applying it to other methods like supervised fine-tuning.",
+   "more": "Prior work studied on-policy post-training's parameter update behavior mainly as a byproduct rather than as something that could be deliberately engineered elsewhere. This paper instead investigates whether a specific on-policy update direction can be identified and then applied to improve generalization in other training paradigms, including supervised fine-tuning. The excerpt does not specify the experimental results or how large the generalization gains were.",
+   "item_ids": [
+    "hf-papers:2609.36659"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2609.36659",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "On-Policy Parameter Update Direction Underlies Generalization in LLM Post-Training",
+     "url": "https://huggingface.co/papers/2609.36659",
+     "published": "2026-10-05T00:00:00+00:00",
+     "excerpt": "The strong generalization performance of on-policy post-training paradigms has motivated studies of their parameter update behaviors. However, these studies treat the observed behaviors only as byproducts in on-policy training, overlooking their potential to serve as optimization principles for improving the generalization of other paradigms such as supervised fine-tuning (SFT). To address this limitation, we investigate whether there exists a specific on-policy update behavior that can achieve "
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T00:00:00+00:00"
+  },
+  {
+   "title": "NAVA-WAM learns robot action priors natively from unlabeled video",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new method, NAVA-WAM, learns action priors for world action models directly from observation-only videos, aiming to reduce reliance on action-annotated robot trajectories.",
+   "more": "World action models combine future visual prediction with robot action prediction, but scaling them has been limited by the need for action-labeled robot data. Prior approaches used unlabeled video either to pretrain visual representations that must later be adapted for control, or to infer latent actions that are then grounded to robot commands. NAVA-WAM instead introduces native action-prior learning directly from video. Specific performance gains over the prior two approaches are not included in the excerpt.",
+   "item_ids": [
+    "hf-papers:2610.03391"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.03391",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Native Action-Prior Learning from Videos for World Action Models",
+     "url": "https://huggingface.co/papers/2610.03391",
+     "published": "2026-10-05T00:00:00+00:00",
+     "excerpt": "World action models integrate future visual dynamics with robot action prediction, but their scalability remains limited by the need for action-annotated robot trajectories. Observation-only videos contain rich evidence about interaction dynamics, but existing approaches typically use them either to pretrain visual representations that must later be adapted for control, or to infer latent actions that are subsequently grounded to robot commands. We present NAVA-WAM, which introduces native actio"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T00:00:00+00:00"
+  },
+  {
+   "title": "HyperBrowseComp stress-tests web-browsing agents across 13 languages",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduced HyperBrowseComp, a 423-question multilingual, multimodal benchmark designed to stress-test web-browsing AI agents with deliberately hard, multi-step research questions.",
+   "more": "The questions were manually authored and validated by native or highly proficient speakers across 13 languages. Each targets a concise, publicly verifiable answer that requires locating obscure evidence, following multi-step clue chains, or inspecting heterogeneous sources such as videos, scanned documents, images, or maps. The benchmark is aimed at evaluating how well browsing agents handle realistic, difficult research tasks rather than simple lookups. The excerpt does not report how current browsing agents score on it.",
+   "item_ids": [
+    "hf-papers:2610.03574"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.03574",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "HyperBrowseComp: A Multilingual and Multimodal Stress Test for Web-Browsing Agents",
+     "url": "https://huggingface.co/papers/2610.03574",
+     "published": "2026-10-05T00:00:00+00:00",
+     "excerpt": "We introduce HyperBrowseComp, a multilingual and multimodal browsing benchmark comprising 423 manually authored and human-validated questions across 13 languages, written by native or highly proficient speakers. Questions are designed to be extremely challenging. Each question targets a concise, publicly verifiable answer whose discovery requires locating obscure evidence, following multi-step clue chains, or inspecting heterogeneous sources such as videos, scanned documents, images, or maps. Ea"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-05T00:00:00+00:00"
+  },
+  {
+   "title": "Simon Willison revisits whether Qwen3.8 27B can do addition described in words",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison re-ran an experiment testing whether a model can compute addition when the answer must be given in words, this time using Qwen3.8 27B running locally on a DGX Spark.",
+   "more": "The experiment originates from a two-year-old test by Colin Fraser using GPT-4o, which explored accuracy as the numbers involved grew larger, without access to a calculator. Willison reproduced the setup locally to compare how Qwen3.8 27B performs on the same increasingly difficult addition-in-words task. The post includes a chart of results similar to the original GPT-4o experiment. The excerpt does not state definitively whether Qwen3.8 27B improved on GPT-4o's error rate.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Qwen3.8 27B addition in words",
+     "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+     "published": "2026-10-04T23:34:00+00:00",
+     "excerpt": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-04T23:34:00+00:00"
+  },
+  {
+   "title": "autotrust's GEV-26B-Decide decision model trends on Hugging Face",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "autotrust's GEV-26B-Decide, a text-classification model built on Gemma 4, is trending on Hugging Face with over 400 likes and 440,000+ downloads.",
+   "more": "The model is tagged as a decision model with adaptive thinking, typed decisions, and calibrated probabilities, continuing themes from autotrust's other trending releases. It is tagged for image-text-to-text as well despite being listed under text-classification, suggesting multimodal capability. No further release details or benchmarks are included in the available excerpt.",
+   "item_ids": [
+    "hf-trending:autotrust/GEV-26B-Decide"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:autotrust/GEV-26B-Decide",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: autotrust/GEV-26B-Decide",
+     "url": "https://huggingface.co/autotrust/GEV-26B-Decide",
+     "published": "2026-10-02T04:20:21+00:00",
+     "excerpt": "text-classification, 403 likes, 446527 downloads. Tags: transformers, safetensors, gemma4, image-text-to-text, system-one, system-two, adaptive-thinking, typed-decisions, decision-model, calibrated-probabilities, jev, noul"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-02T04:20:21+00:00"
+  },
+  {
+   "title": "autotrust's JEV-27B-VL vision-language model trends on Hugging Face",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A multimodal vision-language model, JEV-27B-VL from autotrust, is trending on Hugging Face with over 500 likes and 1.2 million downloads.",
+   "more": "The model is built on a Qwen3.5 base and is tagged for image-text-to-text tasks, with features described as 'system-one/system-two' reasoning, typed decisions, and calibrated probabilities. Its popularity suggests significant developer interest, though autotrust's own announcement details are not included in the available excerpt. No benchmark comparisons against other vision-language models are given.",
+   "item_ids": [
+    "hf-trending:autotrust/JEV-27B-VL"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:autotrust/JEV-27B-VL",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: autotrust/JEV-27B-VL",
+     "url": "https://huggingface.co/autotrust/JEV-27B-VL",
+     "published": "2026-09-30T05:02:23+00:00",
+     "excerpt": "image-text-to-text, 509 likes, 1278569 downloads. Tags: transformers, safetensors, qwen3_5, image-text-to-text, jev, system-one, system-two, typed-decisions, calibrated-probabilities, multimodal, vision, zero-shot"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-09-30T05:02:23+00:00"
+  },
+  {
+   "title": "OpenAI brings invisible text watermarking to ChatGPT and Codex in the EU",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is rolling out invisible textGrain watermarks in ChatGPT and Codex for EU users to comply with the AI Act, while leaving API customers worldwide free to opt out.",
+   "more": "The watermark, called textGrain, is machine-readable and OpenAI says it matched or exceeded detection rates of alternatives like Google DeepMind's SynthID, which underlies Anthropic's own watermarking announced in August. Tests reportedly show detection rates up to 95 percent, falling to around 17 percent once a quarter of the words are edited. Access to detection tools will start with researchers rather than the public. Unlike Anthropic, OpenAI will let API customers worldwide opt out of the watermark, and the EU rollout is the first region where it applies.",
+   "item_ids": [
+    "openai:https://openai.com/index/eu-text-provenance",
+    "verge-ai:https://www.theverge.com/?p=1004880",
+    "techcrunch-ai:https://techcrunch.com/?p=3173997",
+    "decoder:https://the-decoder.com/?p=41114"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/eu-text-provenance",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Our approach to EU text provenance rules",
+     "url": "https://openai.com/index/eu-text-provenance",
+     "published": "2026-10-05T15:00:00+00:00",
+     "excerpt": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers."
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1004880",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+     "published": "2026-10-05T18:08:39+00:00",
+     "excerpt": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173997",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+     "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+     "published": "2026-10-05T20:36:48+00:00",
+     "excerpt": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=41114",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide",
+     "url": "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
+     "published": "2026-10-05T17:32:42+00:00",
+     "excerpt": "OpenAI is adding invisible textGrain watermarks to ChatGPT in the EU, but unlike Anthropic, it will let API customers worldwide opt out. Tests show detection rates as high as 95 percent, dropping to 17 percent when a quarter of the words are replaced. The article OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 4,
+   "level": "neutral",
+   "newest": "2026-10-05T20:36:48+00:00"
+  },
+  {
+   "title": "OpenAI expands ChatGPT ads with a new visual format around image generation",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is testing a new visual ad format that shows sponsored product images on ChatGPT's image-generation loading screen, starting with US users this month.",
+   "more": "The ads will initially appear while ChatGPT generates images, carrying products and services from an initial group of test advertisers. OpenAI first introduced ads in ChatGPT in February, and this expansion adds a new visual carousel format alongside new measurement, attribution, and brand-suitability tools for advertisers. The rollout is limited to the US for now, with no stated timeline for wider availability.",
+   "item_ids": [
+    "openai:https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+    "techcrunch-ai:https://techcrunch.com/?p=3173723",
+    "decoder:https://the-decoder.com/?p=41097",
+    "verge-ai:https://www.theverge.com/?p=1004655"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Building advertising for the way people use AI",
+     "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+     "published": "2026-10-05T10:00:00+00:00",
+     "excerpt": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173723",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI launches visual ads that appear alongside image generation results",
+     "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+     "published": "2026-10-05T15:14:24+00:00",
+     "excerpt": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=41097",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "ChatGPT's new ad format fills the image generation loading screen with product carousels",
+     "url": "https://the-decoder.com/chatgpts-new-ad-format-fills-the-image-generation-loading-screen-with-product-carousels/",
+     "published": "2026-10-05T12:37:32+00:00",
+     "excerpt": "ChatGPT users in the US will soon see display ads while the chatbot generates an image for them. The article ChatGPT's new ad format fills the image generation loading screen with product carousels appeared first on The Decoder ."
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1004655",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "OpenAI is sticking more ads in ChatGPT",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
+     "published": "2026-10-05T13:09:48+00:00",
+     "excerpt": "OpenAI's latest ad format will put images of sponsored products and services on your screen. The ads, which OpenAI will begin testing in the US later this month, will \"initially\" appear when you generate images with ChatGPT, according to an announcement on Monday. The company first brought ads to ChatGPT in February. Until now, ChatGPT's […]"
+    }
+   ],
+   "coverage": 4,
+   "level": "neutral",
+   "newest": "2026-10-05T15:14:24+00:00"
+  },
+  {
+   "title": "Anthropic reported a user's Claude 'diary' entries to police, leading to a felony charge",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic's human review team referred a Florida woman's private Claude conversations to law enforcement, resulting in a felony charge, sparking debate over AI companies monitoring user content.",
+   "more": "According to reporting picked up on Hacker News and r/LocalLLaMA, the referral came from a human review team at Anthropic rather than an automated model decision. The case has fueled concern among AI users, particularly on r/LocalLLaMA, that hosted frontier AI providers monitor private conversations, including technical or creative work, and may act on what they find. It is unclear what specific content prompted the referral or what Anthropic's review policy requires. Anthropic has not issued further public detail on the case beyond what has been reported.",
+   "item_ids": [
+    "hn:49961057",
+    "localllama:t3_1wyjuh0"
+   ],
+   "items": [
+    {
+     "id": "hn:49961057",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Anthropic reported diary entry to police, woman faces felony charge",
+     "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+     "published": "2026-10-05T05:37:40+00:00",
+     "excerpt": "441 points, 375 comments. Discussion: https://news.ycombinator.com/item?id=49961057"
+    },
+    {
+     "id": "localllama:t3_1wyjuh0",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "When Redditors come in here and ask why we run LLMs, this is why: Big AI is watching.",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyjuh0/when_redditors_come_in_here_and_ask_why_we_run/",
+     "published": "2026-10-05T20:47:58+00:00",
+     "excerpt": "Anthropic Reports Florida Woman's Claude 'Diary' Threat to Law Enforcement And this time it wasn't the AI model that made the LEO referral. It was the \"human review team\". The frontier AI companies are watching your input. And people say \"Well I'm not interesting or important enough for them to care\". Well.....not necessarily. If you're using hosted frontier to work on mathematics or cutting edge science, they're watching and may steal your work. If you're venting or otherwise writing in a \"priv"
+    }
+   ],
+   "coverage": 2,
+   "level": "neutral",
+   "newest": "2026-10-05T20:47:58+00:00"
+  },
+  {
+   "title": "Startup Nolla Health lets Utah users get AI-written acne prescriptions",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Healthcare startup Nolla Health launched a service letting people in Utah scan their face with its app so an AI system can assess acne severity and autonomously write a prescription.",
+   "more": "The AI analyzes a face scan to judge acne severity and then writes the prescription without a human doctor in the loop, according to the announcement. The service is currently limited to Utah. It was first reported by Bloomberg before being covered by The Verge. Details on regulatory oversight or physician review of the AI's prescriptions are not specified.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1005075"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1005075",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "This startup is issuing AI-generated acne prescriptions",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+     "published": "2026-10-05T20:14:57+00:00",
+     "excerpt": "People in Utah can now use AI to get a prescription for acne treatment. On Monday, healthcare startup Nolla Health announced that users in the state can scan their faces using its app, allowing its AI system to analyze acne severity and autonomously write a prescription, as reported earlier by Bloomberg. The service is launching […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-05T20:14:57+00:00"
+  },
+  {
+   "title": "TikTok launches an AI shopping assistant with one-click checkout",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "TikTok rolled out a conversational AI Shopping Assistant designed to help users discover and purchase products, paired with a new one-click checkout feature.",
+   "more": "The assistant is described as a conversational agent that helps users find products within the app before completing a purchase. One-click checkout aims to reduce friction in the buying process directly inside TikTok. The excerpt does not specify which markets or users have access at launch. Further details on how the assistant selects or ranks products are not included.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3173828"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173828",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+     "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+     "published": "2026-10-05T18:29:00+00:00",
+     "excerpt": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-05T18:29:00+00:00"
+  },
+  {
+   "title": "Hot Girl Hotline offers AI-powered 'Dear Abby'-style relationship advice",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency.",
+   "more": "The product is positioned as a modern take on advice columns like 'Dear Abby,' aimed specifically at young women navigating dating and relationships. The founders emphasize designing against emotional over-reliance on the AI. No details on the underlying model or monetization are given in the excerpt. The company's scale or user numbers are not specified.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3173232"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173232",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
+     "url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+     "published": "2026-10-05T17:29:22+00:00",
+     "excerpt": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-05T17:29:22+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA criticizes Nvidia for pricing 64GB DGX Spark same as original 128GB",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA post criticizes Nvidia for selling a 64GB variant of the DGX Spark at the same price as the original 128GB version, calling it a diluted product sold at full cost.",
+   "more": "The post argues the pricing effectively reduces memory capacity without a corresponding price cut, drawing a comparison to selling a diluted product at the same price as the original. It reflects frustration within the local-AI hardware community about value for memory-constrained compute devices. The post does not cite official Nvidia pricing documentation directly. Community reaction in the excerpt is largely critical rather than including an official Nvidia response.",
+   "item_ids": [
+    "localllama:t3_1wyea30"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1wyea30",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Make no mistake, selling 64 GB DGX Spark variants at the same cost as the original 128 GB is straight drug dealer behavior.",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyea30/make_no_mistake_selling_64_gb_dgx_spark_variants/",
+     "published": "2026-10-05T17:14:50+00:00",
+     "excerpt": "It's something straight out of the season one of 'The Wire': you take the product, dilute it, and sell it at practically the same cost. It's some \"Stringer\" Bell shit. We should call the 64gbs \"Stepped-ons\" from now on. submitted by /u/blacklandothegambler [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-05T17:14:50+00:00"
+  },
+  {
+   "title": "Altman tells Vanity Fair 'some bad things' will happen as AI PR tried to steer interview",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "In a Vanity Fair interview, OpenAI's Sam Altman said society should accept 'some bad things happening' from AI, while his PR team tried to redirect a question about a ChatGPT user's suicide.",
+   "more": "Altman pointed to hacks, scams, and other harms as costs he believes are worth the larger benefits AI will bring. During the same interview, an OpenAI publicist interjected when editor Mark Guiducci asked Altman about a ChatGPT user's suicide, telling Guiducci she wanted to 'move on' to another topic, citing time constraints. The two moments, reported separately, come from the same Vanity Fair sit-down with Altman.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1004827",
+    "verge-ai:https://www.theverge.com/?p=1004811"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1004827",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user’s suicide",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
+     "published": "2026-10-05T16:55:42+00:00",
+     "excerpt": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move on\" to another topic. The interruption came […]"
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1004811",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Sam Altman says ‘some bad things’ will happen, but AI is totally worth it",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+     "published": "2026-10-05T16:44:21+00:00",
+     "excerpt": "Sam Altman thinks that the benefits of AI will be so great that \"the world should accept some bad things happening\" along the way. The OpenAI CEO pointed to hacks, scams, and \"other bad things\" as costs society should expect to tolerate because \"people will do tremendously orders of magnitude more good stuff\" with AI, […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-05T16:55:42+00:00"
+  },
+  {
+   "title": "HackerRank's AI interviewer has conducted over 500,000 job interviews",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "HackerRank's AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early enterprise testers.",
+   "more": "The tool is positioned as a glimpse into how job interviews could change as companies adopt AI-led screening. Early testers include Snowflake, Snorkel, and Capgemini, suggesting enterprise interest from both AI-native and traditional companies. The excerpt does not detail how the AI's interview assessments compare to human interviewers or what safeguards exist against bias. Candidate reception of the AI interviewer is not addressed.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3173686"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173686",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+     "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+     "published": "2026-10-05T16:43:35+00:00",
+     "excerpt": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-05T16:43:35+00:00"
+  },
+  {
+   "title": "Poll finds most Americans want AI development slowed or stopped",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Quinnipiac University poll found 77 percent of Americans want AI development slowed or halted until safety is verified, with 86 percent backing independent safety standards.",
+   "more": "The poll also found 74 percent of respondents have little or no trust in AI company leaders. Researcher Chetan Jaiswal said the findings show the public wants safeguards that don't rely on simply taking company leaders at their word. The poll adds to a string of surveys showing public skepticism of AI industry self-regulation. Sample size and methodology details are not included in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41111"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41111",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Most Americans want AI development to slow down or stop entirely, new poll finds",
+     "url": "https://the-decoder.com/most-americans-want-ai-development-to-slow-down-or-stop-entirely-new-poll-finds/",
+     "published": "2026-10-05T16:37:08+00:00",
+     "excerpt": "According to a Quinnipiac University poll, 77 percent of Americans want to slow down or stop AI development until its safety has been verified. 86 percent support independent safety standards, and 74 percent have little or no trust in AI company leaders. \"[…] the public wants safeguards that do not depend simply on taking company leaders at their word,\" said researcher Chetan Jaiswal. The article Most Americans want AI development to slow down or stop entirely, new poll finds appeared first on T"
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-05T16:37:08+00:00"
+  },
+  {
+   "title": "Sen. Adam Schiff discusses AI regulation on The Verge's podcast",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Democratic Senator Adam Schiff spoke with The Verge about regulating AI, touching on free speech, antitrust, and the committees overseeing tech policy.",
+   "more": "Schiff sits on committees covering intellectual property, antitrust, and privacy and technology, giving him broad oversight relevant to AI regulation. The conversation explores how Congress might approach regulating the tech industry at the current political moment. The episode also touched on unrelated political topics. No specific legislative proposals are detailed in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1004286"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1004286",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+     "url": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+     "published": "2026-10-05T14:30:00+00:00",
+     "excerpt": "Today, I’m talking with Sen. Adam Schiff, a Democrat from California. Schiff sits on a number of committees with oversight into tech and AI: intellectual property, antitrust, privacy and technology — it’s all there. I really wanted to ask him about how we might regulate anything related to the tech industry at this moment in […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-05T14:30:00+00:00"
+  },
+  {
+   "title": "Norway moves to be first country to crack down on AI glasses",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Norway is pursuing the first major government crackdown on AI glasses capable of recording bystanders, while it drafts permanent rules.",
+   "more": "The move responds to privacy concerns about glasses that can record people without their knowledge or consent in public and private settings. Norway reportedly wants time to write permanent regulation rather than rushing a final rule. The excerpt does not specify which manufacturers or products are targeted first. It is unclear whether other countries are expected to follow with similar measures.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "AI glasses face their first major government crackdown",
+     "url": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+     "published": "2026-10-05T13:39:30+00:00",
+     "excerpt": "Norway wants time to write permanent rules for glasses that can record bystanders."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-05T13:39:30+00:00"
+  },
+  {
+   "title": "Safeworld builds digital humans to convince people GenAI robots are safe",
+   "tags": [
+    "robotics",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Startup Safeworld is building digital humans aimed at reassuring the public that generative-AI-powered robots won't cause them harm.",
+   "more": "The company's pitch centers on public trust as a barrier to robot adoption, using digital human interfaces rather than the robots themselves to communicate safety. Details on Safeworld's underlying technology, funding, or customers are not included in the excerpt. It is unclear which robot makers or deployments Safeworld is working with. The excerpt does not describe how effectiveness of the trust-building approach is measured.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3173325"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173325",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Can Safeworld convince people that GenAI robots won’t hurt them?",
+     "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+     "published": "2026-10-05T12:00:00+00:00",
+     "excerpt": "Safeworld is building digital humans to make sure robots don't hurt the real ones."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-05T12:00:00+00:00"
+  },
+  {
+   "title": "MIT report warns AI is eroding office hours, study groups, and faculty trust",
+   "tags": [
+    "other",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "An MIT expert committee report warns AI use is eroding office hours, study groups, and the university's undergraduate research program, while eroding trust between faculty and students.",
+   "more": "The report found some professors are considering using AI agents instead of student research assistants, a shift that could reshape how undergraduates gain research experience. It calls for a broad overhaul of higher education practices in response to these pressures. The report is notable for coming from MIT, an institution closely tied to AI's development. Specific policy recommendations beyond the overhaul call are not detailed in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41093"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41093",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI is eroding office hours, study groups, and the trust between faculty and students, MIT report finds",
+     "url": "https://the-decoder.com/ai-is-eroding-office-hours-study-groups-and-the-trust-between-faculty-and-students-mit-report-finds/",
+     "published": "2026-10-05T11:46:18+00:00",
+     "excerpt": "An MIT expert committee warns that AI is eroding key parts of the college experience: office hours, study groups, and the school's flagship research program for undergraduates are all fading. Trust between faculty and students is breaking down, and some professors are even considering AI agents instead of students as research assistants. The university most closely tied to AI's origin story is now calling for a complete overhaul of higher education. The article AI is eroding office hours, study "
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-05T11:46:18+00:00"
+  },
+  {
+   "title": "Meta and Microsoft sharply cut their use of Anthropic's Claude",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta and Microsoft, two of Anthropic's biggest enterprise customers, are sharply reducing their use of Claude as both companies push their own AI tools instead.",
+   "more": "Microsoft reportedly slashed its cloud division's monthly per-employee budget for Claude from $100,000 to $10,000, while Meta halved its Claude Code user base to 30,000. The pullback highlights a strategic risk for Anthropic, whose revenue has relied heavily on a small number of major enterprise clients. The piece frames this as part of Anthropic's shift from partner to competitor in the eyes of large tech companies. It does not specify how replacement tools perform relative to Claude.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41126"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41126",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor",
+     "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
+     "published": "2026-10-05T18:59:19+00:00",
+     "excerpt": "Meta and Microsoft, two of Anthropic's biggest enterprise customers, are sharply cutting their use of Claude. Microsoft slashed the monthly per-employee budget in its cloud division from $100,000 to $10,000, while Meta halved its Claude Code users to 30,000. Both companies are pushing their own AI tools instead. For Anthropic, that reliance on a few major clients is turning into a strategic risk. The article Meta and Microsoft pull back from Claude as Anthropic transforms from partner into compe"
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-05T18:59:19+00:00"
+  },
+  {
+   "title": "Anthropic quietly becomes one of America's biggest corporate donors ahead of IPO",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic employees donated $540 million in 2025, nearly five times the next-largest Fortune 500 corporate donor total, driven by a company program that multiplies stock donations.",
+   "more": "The program tops up every employee stock donation with extra shares and triples contributions from early employees, substantially amplifying the dollar value of giving. The scale of donations is notable given Anthropic is a private company not yet subject to the same public donor-tracking as listed Fortune 500 firms. The report frames the finding in the context of Anthropic's anticipated IPO. It does not specify which charitable causes received the largest shares of the donations.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41108"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41108",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic is quietly becoming America's biggest corporate donor ahead of its mega IPO",
+     "url": "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/",
+     "published": "2026-10-05T16:00:12+00:00",
+     "excerpt": "Anthropic employees donated $540 million in 2025 alone, nearly five times as much as the next-largest Fortune 500 donors, thanks to a company program that tops up every stock donation with extra shares and triples contributions from early employees. The article Anthropic is quietly becoming America's biggest corporate donor ahead of its mega IPO appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-05T16:00:12+00:00"
+  },
+  {
+   "title": "TechCrunch Disrupt 2026 to feature debate on open vs. closed AI",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch previewed a Disrupt 2026 session on how founders are choosing between building on open or closed AI models, alongside a promotion for conference passes.",
+   "more": "The piece is largely a promotional preview for TechCrunch Disrupt 2026, encouraging readers to register and save on passes. It frames open-versus-closed AI infrastructure choice as a key decision founders face when building AI products. No specific founders, panelists, or arguments from the session are detailed in the excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3173563"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173563",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
+     "url": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/",
+     "published": "2026-10-05T15:00:00+00:00",
+     "excerpt": "Learn how founders are choosing between building on open or closed AI at TechCrunch Disrupt 2026. Register now to save up to $100 and get a second pass at 50% off."
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-05T15:00:00+00:00"
+  },
+  {
+   "title": "TechCrunch names final Startup Battlefield 200 judges for Disrupt 2026",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch revealed the final five judges who will decide the winner of the Startup Battlefield 200 pitch competition at Disrupt 2026.",
+   "more": "The announcement is part of TechCrunch's promotion for Disrupt 2026, encouraging readers to buy passes ahead of the event. No details on the judges' identities or backgrounds are included in the excerpt. The piece does not name any of the competing startups. It primarily serves as event marketing rather than news of an AI development.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3173591"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173591",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Meet the Startup Battlefield 200 judges who’ll decide the winner at TechCrunch Disrupt 2026",
+     "url": "https://techcrunch.com/2026/10/05/meet-the-startup-battlefield-200-judges-wholl-decide-the-winner-at-techcrunch-disrupt-2026/",
+     "published": "2026-10-05T14:30:00+00:00",
+     "excerpt": "Meet the final five Startup Battlefield judges who'll decide who wins the pitch competition at TechCrunch Disrupt 2026. Get your pass now to save up to $100, and get a second at 50% off."
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-05T14:30:00+00:00"
+  },
+  {
+   "title": "TechCrunch reveals Disrupt Stage 2026 lineup, including Hodak and Wahlberg",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch unveiled its full Disrupt Stage lineup for 2026, featuring speakers including Max Hodak, Mark Wahlberg, and Benchmark partners.",
+   "more": "The announcement promotes three days of programming at TechCrunch Disrupt 2026 and encourages readers to register for discounted passes. Max Hodak and Benchmark partners suggest a mix of biotech and venture capital perspectives alongside AI content. Mark Wahlberg's inclusion points to a celebrity or entertainment angle at the event. Specific session topics beyond the named speakers are not detailed in the excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3173520"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173520",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "The final Disrupt Stage lineup: Three days of conversations you won’t hear anywhere outside of TechCrunch Disrupt 2026",
+     "url": "https://techcrunch.com/2026/10/05/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/",
+     "published": "2026-10-05T14:00:00+00:00",
+     "excerpt": "The full TechCrunch Disrupt Stage lineup revealed, featuring Max Hodak, Mark Wahlberg, Benchmark partners, and more. Register now to save up to $100 on your pass and get a second at 50% off."
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-05T14:00:00+00:00"
+  },
+  {
+   "title": "Import AI newsletter covers swarm scaling, biology watermarks, and the AI science economy",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "The latest Import AI newsletter roundup covers agent swarm scaling, Google DeepMind watermarking biological designs, and the emerging economics of AI-driven science.",
+   "more": "The issue is framed around the question of who gets to decide what AI systems are allowed to do, tying together its separate items. It covers scaling trends in multi-agent 'swarm' systems, a Google DeepMind effort to watermark AI-generated biological designs, and broader shifts in how AI is reshaping the economics of scientific research. As a roundup, it synthesizes multiple developments rather than reporting a single event. Specific technical details on each topic are not included in the available excerpt.",
+   "item_ids": [
+    "import-ai:https://importai.substack.com/p/import-ai-475-swarm-scaling-google"
+   ],
+   "items": [
+    {
+     "id": "import-ai:https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
+     "source": "import-ai",
+     "source_name": "Import AI",
+     "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
+     "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
+     "published": "2026-10-05T12:32:30+00:00",
+     "excerpt": "Who chooses what AI gets to do?"
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-05T12:32:30+00:00"
+  },
+  {
+   "title": "Opinion: our minds aren't equipped to handle AI",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "An essay argues that the metaphors AI companies use to describe thinking, comparing brains to computers, shape and limit how society reasons about AI.",
+   "more": "The piece cites cybernetics pioneer Norbert Wiener's observation that 'the thought of every age is reflected in its technique,' arguing that computing metaphors have dominated how AI leaders describe cognition. It references Demis Hassabis calling the brain 'a biological approximation to a Turing machine' and Elon Musk's blunter comparisons. The essay is a reflective, opinion-driven piece rather than a reported event. It does not propose a specific alternative framework in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1003794"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1003794",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Our minds aren’t equipped to handle AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
+     "published": "2026-10-05T10:00:00+00:00",
+     "excerpt": "Norbert Wiener, godfather of cybernetics, once said, \"The thought of every age is reflected in its technique.\" For the past century, our thought has been reflected in our computers, including by those in the AI industry. Google's Demis Hassabis calls the brain \"a biological approximation to a Turing machine.\" Elon Musk puts it more bluntly, […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-05T10:00:00+00:00"
+  },
+  {
+   "title": "Why people say they hate AI but keep using it",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "An MIT Technology Review piece explores the contradiction between widespread public dislike of AI and continued heavy use of AI products, citing a startup CEO's 'self-loathing AI' framing.",
+   "more": "The anecdote centers on the CEO of Springboards, a startup building an LLM designed to produce more varied responses than mainstream rivals, describing the company as building a 'self-loathing AI.' The piece uses that framing to explore broader public ambivalence toward AI tools. It does not cite polling data directly, unlike a separate report on a Quinnipiac poll covered elsewhere in this Edition. Specific usage statistics are not given in the excerpt.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1145682"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1145682",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "People really hate AI, so why can’t they get enough?",
+     "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+     "published": "2026-10-05T08:00:00+00:00",
+     "excerpt": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI…"
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-05T08:00:00+00:00"
+  },
+  {
+   "title": "MIT Technology Review previews EmTech Future 2026 conference",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "MIT Technology Review previewed its EmTech Future 2026 event, featuring Google Research VP Yossi Matias on how AI may reshape biology, infrastructure, manufacturing, and science.",
+   "more": "The preview highlights Matias's talk on AI's potential impact when it intersects with other fields, rather than AI in isolation. It also promotes access to MIT Technology Review's editorial team for analysis during the event. The piece functions primarily as event marketing. No specific research findings or announcements are detailed in the excerpt.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1145413"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1145413",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "EmTech Future 2026: When AI Meets Everything",
+     "url": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
+     "published": "2026-10-05T04:00:00+00:00",
+     "excerpt": "Yossi Matias, Vice President & Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields. Step inside the newsroom with our MIT Technology Review editors for sharp analysis and unpublished insights from the team that researches…"
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-05T04:00:00+00:00"
+  }
+ ]
+}
