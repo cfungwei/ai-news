@@ -1744,6 +1744,17 @@
    "title": "Former NJ Lt. Gov. Dale Caldwell cites AI to deny harassment findings",
    "up": 0
   },
+  "279": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hn",
+    "localllama",
+    "techcrunch-ai"
+   ],
+   "title": "Reflection releases Beam, a 501B open-weight model to rival Chinese models",
+   "up": 0
+  },
   "28": {
    "date": "2026-09-30",
    "down": 0,
@@ -1751,6 +1762,98 @@
     "hf-papers"
    ],
    "title": "Study finds post-training leaves 'behavioral shadows' on unrelated tasks",
+   "up": 0
+  },
+  "280": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "verge-ai"
+   ],
+   "title": "Open-source tool RemoveMacAI strips Apple Intelligence from macOS 27",
+   "up": 0
+  },
+  "281": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hn",
+    "verge-ai"
+   ],
+   "title": "Wikimedia says 'rogue' OpenAI agents may be linked to a May outage",
+   "up": 0
+  },
+  "282": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Security researchers warn MCP's agent-to-agent design has a structural trust flaw",
+   "up": 0
+  },
+  "283": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Opus 5.5 agents help discover two room-temperature magnetic semiconductor candidates",
+   "up": 0
+  },
+  "284": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "AI labs' claimed math breakthroughs draw scrutiny over verification",
+   "up": 0
+  },
+  "285": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Instinct brings its AI agent into group chats, even for non-account friends",
+   "up": 0
+  },
+  "286": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Reka AI's Rho-1 handles text, image, video, and robot control in one model",
+   "up": 0
+  },
+  "287": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "r/LocalLLaMA debates why Qwen's 27B model outperforms much larger rivals",
+   "up": 0
+  },
+  "288": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "mit-tr-ai"
+   ],
+   "title": "MIT Technology Review examines connecting AI agents to enterprise knowledge",
+   "up": 0
+  },
+  "289": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Researchers track a Chinese AI 'agent fleet' targeting Alibaba's map service",
    "up": 0
   },
   "29": {
@@ -1762,6 +1865,96 @@
    "title": "Paper proposes visual backbones as self-modifying learning systems",
    "up": 0
   },
+  "290": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Aleph Alpha releases Kolibri, an open-weight model for European AI sovereignty",
+   "up": 0
+  },
+  "291": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "mit-tr-ai"
+   ],
+   "title": "MIT Technology Review on bringing predictive analytics to the agentic AI era",
+   "up": 0
+  },
+  "292": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "User finds local Qwen model hallucinated a signed URL to Alibaba Cloud storage",
+   "up": 0
+  },
+  "293": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "New benchmark RealCompanion tests AI companions on long-term memory",
+   "up": 0
+  },
+  "294": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Study asks whether training on protein folding improves general LLM reasoning",
+   "up": 0
+  },
+  "295": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "MotorMind scaffolds general vision-language models for zero-shot robot manipulation",
+   "up": 0
+  },
+  "296": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "ProWAM proposes progressive visual planning for long-horizon world action models",
+   "up": 0
+  },
+  "297": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper ties LLM post-training generalization to a specific update direction",
+   "up": 0
+  },
+  "298": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "NAVA-WAM learns robot action priors natively from unlabeled video",
+   "up": 0
+  },
+  "299": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "HyperBrowseComp stress-tests web-browsing agents across 13 languages",
+   "up": 0
+  },
   "30": {
    "date": "2026-09-30",
    "down": 0,
@@ -1769,6 +1962,103 @@
     "hf-papers"
    ],
    "title": "New RL method grades code agent trajectories in groups, not just pass/fail",
+   "up": 0
+  },
+  "300": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison revisits whether Qwen3.8 27B can do addition described in words",
+   "up": 0
+  },
+  "301": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "autotrust's GEV-26B-Decide decision model trends on Hugging Face",
+   "up": 0
+  },
+  "302": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "autotrust's JEV-27B-VL vision-language model trends on Hugging Face",
+   "up": 0
+  },
+  "303": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "openai",
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "OpenAI brings invisible text watermarking to ChatGPT and Codex in the EU",
+   "up": 0
+  },
+  "304": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "openai",
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "OpenAI expands ChatGPT ads with a new visual format around image generation",
+   "up": 0
+  },
+  "305": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "hn",
+    "localllama"
+   ],
+   "title": "Anthropic reported a user's Claude 'diary' entries to police, leading to a felony charge",
+   "up": 0
+  },
+  "306": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Startup Nolla Health lets Utah users get AI-written acne prescriptions",
+   "up": 0
+  },
+  "307": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TikTok launches an AI shopping assistant with one-click checkout",
+   "up": 0
+  },
+  "308": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Hot Girl Hotline offers AI-powered 'Dear Abby'-style relationship advice",
+   "up": 0
+  },
+  "309": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "r/LocalLLaMA criticizes Nvidia for pricing 64GB DGX Spark same as original 128GB",
    "up": 0
   },
   "31": {
@@ -1780,6 +2070,96 @@
    "title": "Study compares scaling laws for encoder-free vs. encoder-based multimodal models",
    "up": 0
   },
+  "310": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Altman tells Vanity Fair 'some bad things' will happen as AI PR tried to steer interview",
+   "up": 0
+  },
+  "311": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "HackerRank's AI interviewer has conducted over 500,000 job interviews",
+   "up": 0
+  },
+  "312": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Poll finds most Americans want AI development slowed or stopped",
+   "up": 0
+  },
+  "313": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Sen. Adam Schiff discusses AI regulation on The Verge's podcast",
+   "up": 0
+  },
+  "314": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Norway moves to be first country to crack down on AI glasses",
+   "up": 0
+  },
+  "315": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Safeworld builds digital humans to convince people GenAI robots are safe",
+   "up": 0
+  },
+  "316": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "MIT report warns AI is eroding office hours, study groups, and faculty trust",
+   "up": 0
+  },
+  "317": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Meta and Microsoft sharply cut their use of Anthropic's Claude",
+   "up": 0
+  },
+  "318": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Anthropic quietly becomes one of America's biggest corporate donors ahead of IPO",
+   "up": 0
+  },
+  "319": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch Disrupt 2026 to feature debate on open vs. closed AI",
+   "up": 0
+  },
   "32": {
    "date": "2026-09-30",
    "down": 0,
@@ -1787,6 +2167,60 @@
     "hf-papers"
    ],
    "title": "Paper trains unified models to reflect on and repair their own generated images",
+   "up": 0
+  },
+  "320": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch names final Startup Battlefield 200 judges for Disrupt 2026",
+   "up": 0
+  },
+  "321": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch reveals Disrupt Stage 2026 lineup, including Hodak and Wahlberg",
+   "up": 0
+  },
+  "322": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "import-ai"
+   ],
+   "title": "Import AI newsletter covers swarm scaling, biology watermarks, and the AI science economy",
+   "up": 0
+  },
+  "323": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Opinion: our minds aren't equipped to handle AI",
+   "up": 0
+  },
+  "324": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "mit-tr-ai"
+   ],
+   "title": "Why people say they hate AI but keep using it",
+   "up": 0
+  },
+  "325": {
+   "date": "2026-10-06",
+   "down": 0,
+   "sources": [
+    "mit-tr-ai"
+   ],
+   "title": "MIT Technology Review previews EmTech Future 2026 conference",
    "up": 0
   },
   "33": {
@@ -2982,5 +3416,5 @@
   "wired-ai": "2026-10-05T22:48:26.969404+00:00"
  },
  "telegram_offset": 115081541,
- "telegram_sent": "2026-10-05-0630"
+ "telegram_sent": "2026-10-06-0630"
 }
