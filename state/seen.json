@@ -2223,6 +2223,42 @@
    "title": "MIT Technology Review previews EmTech Future 2026 conference",
    "up": 0
   },
+  "327": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "hn",
+    "mistral",
+    "simonw",
+    "techcrunch-ai",
+    "wired-ai"
+   ],
+   "title": "Mistral releases 1-trillion-parameter Large 4, nicknamed 'Le Chonk'",
+   "up": 0
+  },
+  "328": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "deepmind",
+    "hn",
+    "simonw"
+   ],
+   "title": "Google releases EmbeddingGemma 2, an open multimodal embedding model",
+   "up": 0
+  },
+  "329": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "decoder"
+   ],
+   "title": "Wikimedia says rogue OpenAI agents edited wikis and hammered its infrastructure",
+   "up": 0
+  },
   "33": {
    "date": "2026-09-30",
    "down": 0,
@@ -2230,6 +2266,98 @@
     "hf-papers"
    ],
    "title": "Paper distills strong agents' robot-manipulation fixes into reusable guidance",
+   "up": 0
+  },
+  "330": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "openai",
+    "wired-ai"
+   ],
+   "title": "OpenAI publishes 100+ new math proofs from internal model, draws backlash",
+   "up": 0
+  },
+  "331": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "latent-space"
+   ],
+   "title": "Reflection releases Beam, a 501B-parameter open-weight model rivaling GLM 5.2",
+   "up": 0
+  },
+  "332": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison ships llm-mistral 0.16 with reasoning model support",
+   "up": 0
+  },
+  "333": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Musubi launches open-weight PolicyLM-1.7B for real-time content moderation",
+   "up": 0
+  },
+  "334": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "AI agents' next hurdle: getting websites to let them in",
+   "up": 0
+  },
+  "335": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Google's Nano Banana 2.1 image model improves quality at lower cost",
+   "up": 0
+  },
+  "336": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison tries Parseable with Datasette for OpenTelemetry traces",
+   "up": 0
+  },
+  "337": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Hark launches privacy-focused AI personal assistant",
+   "up": 0
+  },
+  "338": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Datasette-atom 0.11a0 fixes compatibility with latest Datasette alphas",
+   "up": 0
+  },
+  "339": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Mirror Particle builds a 'world model' of human behavior for market research",
    "up": 0
   },
   "34": {
@@ -2241,6 +2369,96 @@
    "title": "SentZero pretraining aims to improve zero-shot chest X-ray analysis",
    "up": 0
   },
+  "340": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "OpenTPU, an open-source AI accelerator 'developed by AI,' surfaces on Hacker News",
+   "up": 0
+  },
+  "341": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison has Claude Opus 5.5 compose Monkey Island-style game music",
+   "up": 0
+  },
+  "342": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Researchers extend LeCun's JEPA into a universal world model spanning physics to biology",
+   "up": 0
+  },
+  "343": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "OpenAI and Ironclad train AI agents on contract workflows",
+   "up": 0
+  },
+  "344": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "hf-blog"
+   ],
+   "title": "TII's Falcon-Emirati teaches an LLM the Emirati Arabic dialect",
+   "up": 0
+  },
+  "345": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Researchers target long-video drift with In-Distribution Forcing method",
+   "up": 0
+  },
+  "346": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "LMBuild benchmark tests whether LLM agents can build things that work",
+   "up": 0
+  },
+  "347": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper lays out '3T' framework for proactive AI agents",
+   "up": 0
+  },
+  "348": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Study finds self-generated feedback destabilizes test-time training",
+   "up": 0
+  },
+  "349": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Language model rewrites its own optimizer to speed molecular relaxation",
+   "up": 0
+  },
   "35": {
    "date": "2026-09-30",
    "down": 0,
@@ -2248,6 +2466,96 @@
     "localllama"
    ],
    "title": "NVIDIA's Nemotron-Labs-3 Competitive Coding model trends on Hugging Face",
+   "up": 0
+  },
+  "350": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Inverse Distillation Unlearning erases training data from diffusion models",
+   "up": 0
+  },
+  "351": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Post-training method uses MMD to align diffusion language model outputs",
+   "up": 0
+  },
+  "352": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Anthropic's new Cowork drops the local VM for cloud-based execution",
+   "up": 0
+  },
+  "353": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "Jialinyyzz's 'Humanizer' text-rewriting model trends on Hugging Face",
+   "up": 0
+  },
+  "354": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "OpenAI will watermark ChatGPT outputs by default\u2014but only in the EU",
+   "up": 0
+  },
+  "355": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Nvidia-backed Lambda to raise $4B ahead of planned 2027 IPO",
+   "up": 0
+  },
+  "356": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Microsoft publishes Nobel economist's bearish AI growth forecast",
+   "up": 0
+  },
+  "357": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "The Verge: AI hardware is redefining what counts as 'recording'",
+   "up": 0
+  },
+  "358": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Insurers brace for millions in claims as AI agents misbehave",
+   "up": 0
+  },
+  "359": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "Atlassian and OpenAI expand partnership on enterprise AI agents",
    "up": 0
   },
   "36": {
@@ -2259,6 +2567,96 @@
    "title": "Viggle's turbo LoRA for Qwen-Image-2.1 trends on Hugging Face",
    "up": 0
   },
+  "360": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "LibreOffice makes 'no AI' a stated software feature",
+   "up": 0
+  },
+  "361": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Pinterest's AI turns beauty Pins into actionable salon guides",
+   "up": 0
+  },
+  "362": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Google to limit free Gemini users to Flash Lite starting October 9",
+   "up": 0
+  },
+  "363": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "South Korea bets $3.49B on homegrown frontier AI model",
+   "up": 0
+  },
+  "364": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Amazon Alexa Plus bug has some Echo speakers singing 'lalala' on repeat",
+   "up": 0
+  },
+  "365": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Google may expand Gemini's 'Call for Me' beyond business calls",
+   "up": 0
+  },
+  "366": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "anthropic"
+   ],
+   "title": "Anthropic launches a cyber verification program",
+   "up": 0
+  },
+  "367": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Ex-Ramp engineers raise $20M for pivoted startup Melius",
+   "up": 0
+  },
+  "368": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Documentary 'Artificial' roasts OpenAI's leaders over AI dangers",
+   "up": 0
+  },
+  "369": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Anthropic gives startups free year of Claude Team plus $1,000 in credits",
+   "up": 0
+  },
   "37": {
    "date": "2026-09-30",
    "down": 0,
@@ -2266,6 +2664,33 @@
     "hf-trending"
    ],
    "title": "NVIDIA's Nemotron-3-Diarization trends on Hugging Face",
+   "up": 0
+  },
+  "370": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch Disrupt 2026 reveals full breakout session agenda",
+   "up": 0
+  },
+  "371": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "CATL and Tencent back Deepseek's funding round ahead of 2027 IPO plans",
+   "up": 0
+  },
+  "372": {
+   "date": "2026-10-07",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Kevin Roose didn't use AI to write his book about AI",
    "up": 0
   },
   "38": {
@@ -3475,5 +3900,5 @@
   "wired-ai": "2026-10-06T22:48:52.397279+00:00"
  },
  "telegram_offset": 115081541,
- "telegram_sent": "2026-10-06-0630"
+ "telegram_sent": "2026-10-07-0630"
 }
