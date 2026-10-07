@@ -2693,6 +2693,76 @@
    "title": "Kevin Roose didn't use AI to write his book about AI",
    "up": 0
   },
+  "374": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "hn",
+    "openai",
+    "techcrunch-ai",
+    "verge-ai",
+    "wired-ai"
+   ],
+   "title": "OpenAI rolls out GPT-6 globally with new Intelligent UI in ChatGPT",
+   "up": 0
+  },
+  "375": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "anthropic",
+    "decoder",
+    "hn",
+    "simonw"
+   ],
+   "title": "Anthropic launches Claude Haiku 5.5 with steep price cuts",
+   "up": 0
+  },
+  "376": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "latent-space",
+    "simonw",
+    "verge-ai"
+   ],
+   "title": "OpenAI publishes 722 AI-generated math papers solving long-standing problems",
+   "up": 0
+  },
+  "377": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "decoder",
+    "techcrunch-ai"
+   ],
+   "title": "Google opens its SynthID AI-content detector to the public",
+   "up": 0
+  },
+  "378": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "google-ai",
+    "techcrunch-ai"
+   ],
+   "title": "Google launches Playground, an AI tool for building browser games with text",
+   "up": 0
+  },
+  "379": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "Meta's Muse AI agent launches on iPad a month after mobile debut",
+   "up": 0
+  },
   "38": {
    "date": "2026-09-30",
    "down": 0,
@@ -2706,6 +2776,99 @@
    "title": "Anthropic's IPO filing warns its own AI could pose 'catastrophic' or existential risks",
    "up": 0
   },
+  "380": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "verge-ai"
+   ],
+   "title": "Google, Meta, and Isomorphic Labs back $1.8B 'virtual cell' AI initiative",
+   "up": 0
+  },
+  "381": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hf-blog",
+    "localllama"
+   ],
+   "title": "LiquidAI releases open d1, multimodal decision models for the edge",
+   "up": 0
+  },
+  "382": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "simonw"
+   ],
+   "title": "OpenAI launches Decisions API for fast yes/no and classification tasks",
+   "up": 0
+  },
+  "383": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "AI developer takes aim at Adobe with free open-source Creative Cloud clones",
+   "up": 0
+  },
+  "384": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Nous Research confirms $1.5B valuation, launches business AI agents",
+   "up": 0
+  },
+  "385": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "llama.cpp gets a stage moment, says creator Georgi Gerganov",
+   "up": 0
+  },
+  "386": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Engineers put GPT, Claude, and Grok in control of a real car",
+   "up": 0
+  },
+  "387": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "llama.cpp pull request adds GPU cache for MoE experts in host memory",
+   "up": 0
+  },
+  "388": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Microsoft gives Copilot more control over Windows and local files",
+   "up": 0
+  },
+  "389": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Docker releases Docker Agent, a new open-source AI agent tool",
+   "up": 0
+  },
   "39": {
    "date": "2026-09-30",
    "down": 0,
@@ -2715,6 +2878,96 @@
     "latent-space"
    ],
    "title": "AMD acquires Fei-Fei Li's World Labs for $8.2 billion",
+   "up": 0
+  },
+  "390": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Mistral claims its 'Le Chonk' model can rival the best AI systems",
+   "up": 0
+  },
+  "391": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "Kubernetes co-creators build a cloud-native harness for AI agents",
+   "up": 0
+  },
+  "392": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hf-blog"
+   ],
+   "title": "Nvidia fine-tunes Nemotron to gold-level results in IOI and IMO 2026",
+   "up": 0
+  },
+  "393": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Anthropic expands Claude access for security researchers with fewer limits",
+   "up": 0
+  },
+  "394": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Startup Bites bets AI agents could upend food delivery dominated by DoorDash",
+   "up": 0
+  },
+  "395": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Hands-on with OpenAI's Dots: buggy, but wants to run your life",
+   "up": 0
+  },
+  "396": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Researcher trains a ~20,000-parameter language model that can write stories",
+   "up": 0
+  },
+  "397": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Strands releases Decider 2B, a small open-source decision model",
+   "up": 0
+  },
+  "398": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Wikimedia finds evidence of 'rogue' OpenAI agent activity on its sites",
+   "up": 0
+  },
+  "399": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper examines whether wider alignment helps cross-tokenizer distillation",
    "up": 0
   },
   "40": {
@@ -2728,6 +2981,100 @@
    "title": "OpenAI's DevDay 2026 keynote unveils more than 20 announcements",
    "up": 0
   },
+  "400": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "TRACE proposes quantization-aware training to fix FP4 RL mismatches",
+   "up": 0
+  },
+  "401": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "CheckerBench tests whether AI agents can write static-analysis checkers",
+   "up": 0
+  },
+  "402": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Study maps where tool-using AI agents break the 'evidence to action' chain",
+   "up": 0
+  },
+  "403": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Self-compensating method helps robot AI policies handle execution errors",
+   "up": 0
+  },
+  "404": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper uses egocentric human video to teach robots general actions",
+   "up": 0
+  },
+  "405": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "HuatuoGPT-3 adapts base models to medicine using RL alone, skipping SFT",
+   "up": 0
+  },
+  "406": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "Google's embeddinggemma-2 embedding model trends on Hugging Face",
+   "up": 0
+  },
+  "407": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "Common Sense Media rates ChatGPT for Teens an 'unacceptable risk'",
+   "up": 0
+  },
+  "408": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "Microsoft launches Surface Laptop Ultra, an Nvidia-powered AI PC",
+   "up": 0
+  },
+  "409": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "openai",
+    "verge-ai"
+   ],
+   "title": "OpenAI adds a College Planner and teen AI council to ChatGPT for Teens",
+   "up": 0
+  },
   "41": {
    "date": "2026-09-30",
    "down": 0,
@@ -2738,6 +3085,96 @@
    "title": "Protesters greet OpenAI's DevDay with marches and a Titanic-themed sculpture",
    "up": 1
   },
+  "410": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Fraudster jailed for using AI songs and bots to fake Taylor Swift streams",
+   "up": 0
+  },
+  "411": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Microsoft's Nvidia-powered Surface RTX Spark Dev Box opens for preorder",
+   "up": 0
+  },
+  "412": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Meta rolls out AI tools to catch ads hiding links to child abuse material",
+   "up": 0
+  },
+  "413": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Pentagon's Tradewinds initiative speeds up AI defense contract buys",
+   "up": 0
+  },
+  "414": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Healthleap raises $38M for AI that flags at-risk hospital patients",
+   "up": 0
+  },
+  "415": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Tony Fadell says first wave of AI gadgets failed to solve real problems",
+   "up": 0
+  },
+  "416": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "Radisson Hotel Group launches a ChatGPT plugin for hotel booking",
+   "up": 0
+  },
+  "417": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "OpenAI adds monitoring after Medicare breach tied to its models",
+   "up": 0
+  },
+  "418": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Meta and Microsoft reportedly curb employee use of Claude AI",
+   "up": 0
+  },
+  "419": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison highlights 'Anti-Patterns in Software Blogging' essay",
+   "up": 0
+  },
   "42": {
    "date": "2026-09-30",
    "down": 0,
@@ -2747,6 +3184,33 @@
    ],
    "title": "Meta's Muse AI agent leaked a YouTuber's home address to a stranger",
    "up": 1
+  },
+  "420": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch Disrupt 2026 adds OpenAI's Embiricos as doors near",
+   "up": 0
+  },
+  "421": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "A new 'organic literature' stamp aims to certify human-written books",
+   "up": 0
+  },
+  "422": {
+   "date": "2026-10-08",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "r/LocalLLaMA post reflects on how far local AI models have come",
+   "up": 0
   },
   "43": {
    "date": "2026-09-30",
@@ -3974,5 +4438,5 @@
   "wired-ai": "2026-10-07T22:49:13.922744+00:00"
  },
  "telegram_offset": 115081541,
- "telegram_sent": "2026-10-07-0630"
+ "telegram_sent": "2026-10-08-0630"
 }
