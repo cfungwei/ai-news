@@ -3212,6 +3212,64 @@
    "title": "r/LocalLLaMA post reflects on how far local AI models have come",
    "up": 0
   },
+  "424": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "hn",
+    "techcrunch-ai"
+   ],
+   "title": "OpenAI withdraws 3 math papers after mathematicians call its proofs substandard",
+   "up": 0
+  },
+  "425": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "Google launches a \"universal\" Gemini agent for enterprise work tasks",
+   "up": 0
+  },
+  "426": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "Google releases Foresight, an offline AI note-taking app to rival Granola",
+   "up": 0
+  },
+  "427": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Anthropic launches free AI security scans for open-source projects",
+   "up": 0
+  },
+  "428": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Engineer builds detailed recreation of Elizabeth Holmes' desk from trial evidence",
+   "up": 0
+  },
+  "429": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Claude adds animated explainer videos and live data dashboards from text prompts",
+   "up": 0
+  },
   "43": {
    "date": "2026-09-30",
    "down": 0,
@@ -3219,6 +3277,96 @@
     "verge-ai"
    ],
    "title": "Trump orders US government to call AI 'Super Intelligence'",
+   "up": 0
+  },
+  "430": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "LMArena parent nearly doubles valuation to $3.1B with $200M raise",
+   "up": 0
+  },
+  "431": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "SpaceXAI backs Linux distro Omarchy with $1.5 million in Grok compute",
+   "up": 0
+  },
+  "432": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "Latent Space podcast: Periodic Labs on \"Synthesis Superintelligence\"",
+   "up": 0
+  },
+  "433": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Natura launches $99 Interface smart ring that summons AI agents",
+   "up": 0
+  },
+  "434": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Goodfire launches cheaper \"inside-out\" monitors to catch rogue AI agents",
+   "up": 0
+  },
+  "435": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Decoder podcast asks whether Meta's Muse or OpenAI's Dots can run your life",
+   "up": 0
+  },
+  "436": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Cal AI's 19-year-old founder raises $10M for new personal AI agent startup",
+   "up": 0
+  },
+  "437": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Ethereum researchers debate how fast AI could break wallet security",
+   "up": 0
+  },
+  "438": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "China's Manus raises over $500M in first round since splitting from Meta",
+   "up": 0
+  },
+  "439": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Researchers hijack every AI agent in an AWS account via a single prompt",
    "up": 0
   },
   "44": {
@@ -3230,6 +3378,96 @@
    "title": "Elon Musk's AI-powered Grokipedia resumes updating after months-long pause",
    "up": 0
   },
+  "440": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "AI-powered hacking tools let one attacker breach multiple South Korean banks",
+   "up": 0
+  },
+  "441": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "AINews roundup: Claude Haiku 5.5 beats GPT-6 Luna at the same price",
+   "up": 0
+  },
+  "442": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Developer ports TypeScript compiler, checker, and LSP to Rust using an LLM",
+   "up": 0
+  },
+  "443": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "STEPQuant paper tackles quantization errors in linear-attention recurrent states",
+   "up": 0
+  },
+  "444": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Long-WAM paper scales context length for real-time robot world-action models",
+   "up": 0
+  },
+  "445": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "GRACE paper proposes generation-aware latent compression for video diffusion",
+   "up": 0
+  },
+  "446": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "UltraText Bench measures dense visual text rendering in image generators",
+   "up": 0
+  },
+  "447": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "VepAgent uses tool-augmented reinforcement learning for video event prediction",
+   "up": 0
+  },
+  "448": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "UniWAM unifies world modeling and action prediction for robots",
+   "up": 0
+  },
+  "449": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Tetris3D generates 3D scenes with objects that fit together geometrically",
+   "up": 0
+  },
   "45": {
    "date": "2026-09-30",
    "down": 0,
@@ -3237,6 +3475,99 @@
     "wired-ai"
    ],
    "title": "OpenAI sued over the Hugging Face hack",
+   "up": 0
+  },
+  "450": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "hf-blog"
+   ],
+   "title": "Hugging Face blog: building a model that didn't exist yet",
+   "up": 0
+  },
+  "451": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "anthropic",
+    "decoder",
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "Anthropic updates usage policy, bans sustained abuse of Claude",
+   "up": 0
+  },
+  "452": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Uncanny Valley podcast covers Elon Musk's midterm spending spree",
+   "up": 0
+  },
+  "453": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "California moves to shut down robot vs. human cage matches",
+   "up": 0
+  },
+  "454": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+   "up": 0
+  },
+  "455": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "USA Today becomes latest publisher to sue OpenAI over copyright",
+   "up": 0
+  },
+  "456": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "OpenAI case study: Oracle speeds up work with ChatGPT and Codex",
+   "up": 0
+  },
+  "457": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "OpenAI case study: Pollo AI builds ad campaigns with GPT-5.6 and GPT-Image-2.5",
+   "up": 0
+  },
+  "458": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Nvidia bets on physical AI safety for robotaxis and humanoid robots",
+   "up": 0
+  },
+  "459": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Teen's AI-planned mountain hike ends in helicopter rescue",
    "up": 0
   },
   "46": {
@@ -3248,6 +3579,98 @@
    "title": "ChatGPT now reaches 1.2 billion people every week, OpenAI says",
    "up": 0
   },
+  "460": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Tristan Harris's Center for Humane Technology lays off most staff",
+   "up": 0
+  },
+  "461": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "mit-tr-ai"
+   ],
+   "title": "MIT Technology Review: AI breakthroughs in robotics won't change your life soon",
+   "up": 0
+  },
+  "462": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "mit-tr-ai"
+   ],
+   "title": "MIT Technology Review on building a safer path to autonomous industrial AI",
+   "up": 0
+  },
+  "463": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
+   "up": 0
+  },
+  "464": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "OpenAI says it disrupted AI-enabled \"false front\" influence operations",
+   "up": 0
+  },
+  "465": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "anthropic"
+   ],
+   "title": "Anthropic announces a commitment to the Genesis Mission",
+   "up": 0
+  },
+  "466": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "anthropic"
+   ],
+   "title": "Anthropic details its cyber mission commitment",
+   "up": 0
+  },
+  "467": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "simonw",
+    "techcrunch-ai"
+   ],
+   "title": "Ben Affleck goes viral for his deep knowledge of AI and machine learning",
+   "up": 0
+  },
+  "468": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "hn",
+    "techcrunch-ai"
+   ],
+   "title": "Report: OpenAI's annualized revenue is $20 billion less than previously projected",
+   "up": 0
+  },
+  "469": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison quotes Carson Gross on programming careers in the AI era",
+   "up": 0
+  },
   "47": {
    "date": "2026-09-30",
    "down": 0,
@@ -3255,6 +3678,33 @@
     "techcrunch-ai"
    ],
    "title": "OpenAI launches ChatGPT collaboration features to rival Microsoft Office",
+   "up": 0
+  },
+  "470": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Designer of Meta's new AI logo faces backlash",
+   "up": 0
+  },
+  "471": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch Disrupt 2026 approaches, with AI infrastructure execs on the agenda",
+   "up": 0
+  },
+  "472": {
+   "date": "2026-10-09",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Artificial, Luca Guadagnino's satirical Sam Altman biopic, premieres at NYFF",
    "up": 0
   },
   "48": {
@@ -4498,5 +4948,5 @@
   "wired-ai": "2026-10-08T22:49:06.294658+00:00"
  },
  "telegram_offset": 115081541,
- "telegram_sent": "2026-10-08-0630"
+ "telegram_sent": "2026-10-09-0630"
 }
