@@ -1,0 +1,1440 @@
+{
+ "date": "2026-10-09",
+ "edition": "06:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "OpenAI withdraws 3 math papers after mathematicians call its proofs substandard",
+   "tags": [
+    "research",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI retracted three AI-generated math papers after a sign error was found, and mathematicians are calling for a boycott after the company released over 700 proofs at once, saying they deviate from field standards.",
+   "more": "The Association for Human Mathematics called for an OpenAI boycott after the company flooded the field with more than 700 AI-generated math manuscripts in one batch. OpenAI had to retract three of those papers the next day over a sign error. TechCrunch reports the proofs deviated from guidelines set by mathematical researchers OpenAI had consulted. Fields Medalist Terence Tao warned that this kind of mass \"harvesting\" of open problems could leave entire branches of mathematics less fertile for future work. The withdrawal was also discussed heavily on Hacker News, where two separate threads covered the retraction.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175311",
+    "decoder:https://the-decoder.com/?p=41281",
+    "hn:50003107",
+    "hn:50002650"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175311",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
+     "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+     "published": "2026-10-08T18:10:55+00:00",
+     "excerpt": "OpenAI's flood of proofs deviated from the guidelines set by a group of mathematical researchers consulted by the frontier lab."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=41281",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+     "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
+     "published": "2026-10-08T18:17:07+00:00",
+     "excerpt": "The Association for Human Mathematics is calling for an OpenAI boycott after the company released more than 700 AI-generated math manuscripts at once. OpenAI had to retract three papers the next day over a sign error. Fields Medalist Terence Tao warns that AI's mass \"harvesting\" of open problems leaves entire branches of mathematics less fertile. The article Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field appeared first on The Decoder ."
+    },
+    {
+     "id": "hn:50003107",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "OpenAI Withdraws 3 Math Papers",
+     "url": "https://github.com/openai/math/blob/main/history.md",
+     "published": "2026-10-08T08:08:37+00:00",
+     "excerpt": "338 points, 3 comments. Discussion: https://news.ycombinator.com/item?id=50003107"
+    },
+    {
+     "id": "hn:50002650",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "OpenAI withdraws three mathematical results",
+     "url": "https://twitter.com/danintheory/status/2108065033070789090",
+     "published": "2026-10-08T07:05:40+00:00",
+     "excerpt": "237 points, 533 comments. Discussion: https://news.ycombinator.com/item?id=50002650"
+    }
+   ],
+   "coverage": 3,
+   "level": "preferred",
+   "newest": "2026-10-08T18:17:07+00:00"
+  },
+  {
+   "title": "Google launches a \"universal\" Gemini agent for enterprise work tasks",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google unveiled a universal Gemini AI agent, announced at its Gemini at Work event, that can plan and execute tasks across business apps with its own workplace identity, starting with enterprise customers.",
+   "more": "The agent is available within the Gemini Enterprise app, letting users chat with it and assign tasks from a single interface. It can delegate work to subagents, use multiple AI models, and has its own workplace identity complete with an email address. Google positions it as working across apps and devices in the background rather than requiring per-app integration. The launch targets business users first, with no consumer timeline given in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1007904",
+    "techcrunch-ai:https://techcrunch.com/?p=3175776"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1007904",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Google is launching a one-stop Gemini agent for your work tasks",
+     "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+     "published": "2026-10-08T14:28:03+00:00",
+     "excerpt": "Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175776",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Google brings agentic AI to Gemini, starting with businesses",
+     "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+     "published": "2026-10-08T18:18:00+00:00",
+     "excerpt": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address."
+    }
+   ],
+   "coverage": 2,
+   "level": "preferred",
+   "newest": "2026-10-08T18:18:00+00:00"
+  },
+  {
+   "title": "Google releases Foresight, an offline AI note-taking app to rival Granola",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google released an experimental app, AI Edge Foresight, that transcribes meetings and audio entirely offline using its on-device EmbeddingGemma 2 model, competing with apps like Granola.",
+   "more": "Foresight runs on macOS and is free to use. It summarizes meetings and audio files locally, without sending data to the cloud, using Google's on-device EmbeddingGemma 2 model. TechCrunch and The Verge both frame it as a local-first competitor to note-taking apps such as Granola and Wispr Flow. The excerpt does not mention Windows support or a release timeline beyond the initial macOS launch.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1007985",
+    "techcrunch-ai:https://techcrunch.com/?p=3175506"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1007985",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Google’s AI note-taking app transcribes your meetings completely offline",
+     "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
+     "published": "2026-10-08T15:27:30+00:00",
+     "excerpt": "Google has released an experimental note-taking app that can transcribe meetings and audio files entirely offline, as reported earlier by TechCrunch. The app, called Google AI Edge Foresight, is free to use and runs on macOS using the company's on-device EmbeddingGemma 2 model. Similar to AI note-taking apps like Granola and Wispr Flow, Foresight summarizes […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175506",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Google releases a new local-first Granola competitor",
+     "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+     "published": "2026-10-08T13:28:39+00:00",
+     "excerpt": "Google’s new AI Edge Foresight app takes on Granola with an offline meeting note-taker that can transcribe conversations, generate notes, and answer questions using on-device AI."
+    }
+   ],
+   "coverage": 2,
+   "level": "preferred",
+   "newest": "2026-10-08T15:27:30+00:00"
+  },
+  {
+   "title": "Anthropic launches free AI security scans for open-source projects",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic introduced OSS Scanner, offering free, periodic security scans of open-source projects using its strongest models to flag vulnerabilities sooner.",
+   "more": "Open-source projects that opt in get what Anthropic calls \"thorough, periodic security scans\" at no cost. The stated goal is to help maintainers learn about possible security issues sooner. The Verge notes a trade-off: in exchange for the free scanning, participating projects give Anthropic's models access to their code. No pricing or further technical details beyond the opt-in model are given.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1008521"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1008521",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Anthropic launches free AI security scans for open-source projects",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+     "published": "2026-10-08T21:53:51+00:00",
+     "excerpt": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted about possible security issues sooner, but the trade-off is that OSS Scanner's […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T21:53:51+00:00"
+  },
+  {
+   "title": "Engineer builds detailed recreation of Elizabeth Holmes' desk from trial evidence",
+   "tags": [
+    "other",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Extend engineer Bo Lau created a website simulating Elizabeth Holmes' desk, built from over a thousand emails, slides, texts, and documents from her criminal trial.",
+   "more": "The project draws directly on evidence from United States v. Elizabeth Holmes. It lets visitors browse the recreated desk's contents interactively. The excerpt does not specify what techniques were used to build the site or how documents were sourced and verified.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175918"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175918",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
+     "url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
+     "published": "2026-10-08T21:00:00+00:00",
+     "excerpt": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk."
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T21:00:00+00:00"
+  },
+  {
+   "title": "Claude adds animated explainer videos and live data dashboards from text prompts",
+   "tags": [
+    "products",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic launched two beta features for Claude: Dashboards, which turns data sources like BigQuery and Snowflake into live dashboards from text prompts, and Motion, which generates animated explainer videos from text and images.",
+   "more": "Dashboards connects to data sources such as BigQuery and Snowflake and builds live dashboards from natural-language prompts. Motion generates animated explainer videos directly from text and image inputs. Alongside these beta launches, Anthropic also expanded Docs, Slides, and Design to work across all Claude plans, including free accounts. Both Dashboards and Motion are described as beta features, suggesting further changes are likely before general availability.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41294"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41294",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
+     "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+     "published": "2026-10-08T19:17:22+00:00",
+     "excerpt": "Anthropic launched two new beta features for Claude. Dashboards turns data sources like BigQuery and Snowflake into live dashboards from text prompts. Motion generates animated explainer videos from text and images. Docs, Slides, and Design now work across all plans, including free accounts. The article Claude can now generate animated explainer videos and live data dashboards from text prompts appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T19:17:22+00:00"
+  },
+  {
+   "title": "LMArena parent nearly doubles valuation to $3.1B with $200M raise",
+   "tags": [
+    "industry",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "The company behind the LMArena AI leaderboard raised $200 million led by Lightspeed and Khosla, nearly doubling its valuation to $3.1 billion in 10 months, and is expanding into measuring model alignment issues like lying.",
+   "more": "The funding round was led by Lightspeed and Khosla Ventures. It comes roughly 10 months after a previous valuation milestone, reflecting rapid investor interest in AI evaluation infrastructure. Beyond general-purpose leaderboards, the company is now building benchmarks for alignment-related behaviors such as models lying. The excerpt does not list other investors or give specifics on the alignment benchmarks.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175734"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175734",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+     "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+     "published": "2026-10-08T18:19:45+00:00",
+     "excerpt": "The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying."
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T18:19:45+00:00"
+  },
+  {
+   "title": "SpaceXAI backs Linux distro Omarchy with $1.5 million in Grok compute",
+   "tags": [
+    "industry",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "SpaceXAI is joining the Omacom Foundation, which oversees the Omarchy Linux distribution, as a Founding Corporate Patron, donating $1.5 million worth of Grok compute tokens to David Heinemeier Hansson's project.",
+   "more": "The donation was announced as compute credit rather than cash, specifically denominated in Grok tokens. Omarchy is described as a \"controversial\" Linux distribution led by Hansson. The Verge frames the move as unsurprising given Elon Musk's involvement with both SpaceXAI and Grok. Further financial or governance details of the patronage are not given in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1008148"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1008148",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute",
+     "url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+     "published": "2026-10-08T17:57:01+00:00",
+     "excerpt": "If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, which oversees Omarchy, as a Founding Corporate Patron and donating $1.5 million worth of Grok tokens to David Heinemeier Hansson's Linux project. According to Hansson's […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T17:57:01+00:00"
+  },
+  {
+   "title": "Latent Space podcast: Periodic Labs on \"Synthesis Superintelligence\"",
+   "tags": [
+    "industry",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Latent Space podcast crossover episode features Periodic Labs co-founders Liam Fedus and Ekin Dogus Cubuk discussing their work from semiconductors to superconductors.",
+   "more": "The episode is described as a crossover between Latent Space's Science pod and Engineering pod. It includes guests Liam Fedus and Ekin Dogus Cubuk of Periodic Labs. The excerpt does not detail specific technical claims made during the discussion. No release or product news from Periodic Labs is mentioned in the excerpt.",
+   "item_ids": [
+    "latent-space:https://www.latent.space/p/periodic"
+   ],
+   "items": [
+    {
+     "id": "latent-space:https://www.latent.space/p/periodic",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+     "url": "https://www.latent.space/p/periodic",
+     "published": "2026-10-08T16:27:54+00:00",
+     "excerpt": "A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T16:27:54+00:00"
+  },
+  {
+   "title": "Natura launches $99 Interface smart ring that summons AI agents",
+   "tags": [
+    "products",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Startup Natura launched a $99 smart ring called Interface that lets users summon AI agents with a finger press to complete tasks, capture thoughts, and control devices, while also tracking health.",
+   "more": "The ring is priced at $99, positioning it as a low-cost entry into wearable AI devices. It combines agent invocation with standard health-tracking features. TechCrunch frames it as part of a broader trend of hardware designed specifically to interface with AI agents. The excerpt does not specify battery life, release date, or which AI models or agents it connects to.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175308"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175308",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Natura’s $99 smart ring puts AI agents on your finger",
+     "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
+     "published": "2026-10-08T16:00:00+00:00",
+     "excerpt": "Natura’s $99 Interface smart ring lets you summon AI agents with the press of a finger to complete tasks, capture thoughts, and control devices — while doubling as a health tracker."
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T16:00:00+00:00"
+  },
+  {
+   "title": "Goodfire launches cheaper \"inside-out\" monitors to catch rogue AI agents",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Goodfire launched a monitoring tool that inspects an AI agent's internal model state directly, rather than using a second AI to review its outputs, calling in human backup only when something looks suspicious.",
+   "more": "The approach is pitched as cheaper than running a second AI model to audit everything an agent does. Instead, Goodfire's monitors look inside the model while it operates and flag anomalies for human review. TechCrunch frames this as a cost-efficient alternative to conventional agent-oversight approaches. The excerpt does not give pricing, customers, or technical detail on how the internal monitoring works.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175658"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175658",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
+     "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+     "published": "2026-10-08T16:00:00+00:00",
+     "excerpt": "Goodfire just launched what it says is a cheaper way to keep AI agents in check: Instead of paying a second AI to read everything an agent does, its monitors peek inside the model while it works and only call in backup when something looks fishy."
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T16:00:00+00:00"
+  },
+  {
+   "title": "Decoder podcast asks whether Meta's Muse or OpenAI's Dots can run your life",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "In a Decoder podcast episode, The Verge's Hayden Field discusses the new wave of consumer AI agents, including Meta's Muse and OpenAI's Dots, and whether users can trust them.",
+   "more": "The episode frames the discussion around growing consumer interest in AI agents, noting a surge in Mac Mini sales tied to homebrew \"OpenClaw\" agent setups. It centers on trust and privacy questions for agent products like Meta's Muse and OpenAI's Dots. No specific findings or data points about either product are given in the excerpt. The episode is framed as commentary rather than a product announcement.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1007408"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1007408",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?",
+     "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
+     "published": "2026-10-08T14:00:00+00:00",
+     "excerpt": "My Decoder guest today is Hayden Field, The Verge’s senior AI reporter, and we’re discussing the new wave of consumer-friendly AI agents. If you’ve been paying attention to this space, you know AI enthusiasts have been using agents for a minute now — homebrew OpenClaw setups led to a surge in Mac Mini sales earlier […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T14:00:00+00:00"
+  },
+  {
+   "title": "Cal AI's 19-year-old founder raises $10M for new personal AI agent startup",
+   "tags": [
+    "industry",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Zach Yadegari, teen co-founder of the Cal AI calorie-tracking app, raised $10 million for a new personal AI agent startup that competes with Instinct, Muse, and Bee.",
+   "more": "Yadegari previously co-founded Cal AI, a popular calorie-tracking app. His new venture is a personal AI agent product positioned against existing players Instinct, Muse, and Bee. The excerpt does not name the new startup or its investors beyond stating the $10 million raise. No product launch date is given.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3174041"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3174041",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
+     "url": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+     "published": "2026-10-08T14:00:00+00:00",
+     "excerpt": "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee."
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T14:00:00+00:00"
+  },
+  {
+   "title": "Ethereum researchers debate how fast AI could break wallet security",
+   "tags": [
+    "policy",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ethereum researcher Justin Drake is urging the crypto industry to prepare a \"bunker mode\" in case AI-powered math breaks wallet signature schemes within months, a view Vitalik Buterin partly shares but cautions against rushing.",
+   "more": "Drake's concern is driven by recent AI progress on mathematical problem-solving. Buterin broadly agrees preparation is warranted but warns against rushed migrations, saying he has personally lost more money to botched technical transitions than to hacks. As of the report, no one has actually broken the ECDSA signature scheme used by Ethereum wallets in practice. The debate reflects growing unease in the crypto community about AI's mathematical capabilities outpacing cryptographic assumptions.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41255"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41255",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI math breakthroughs have Ethereum researchers debating how fast wallet security could collapse",
+     "url": "https://the-decoder.com/ai-math-breakthroughs-have-ethereum-researchers-debating-how-fast-wallet-security-could-collapse/",
+     "published": "2026-10-08T13:52:54+00:00",
+     "excerpt": "Ethereum researcher Justin Drake is urging the crypto industry to prepare a \"bunker mode\" for a scenario where AI-powered math could break wallet signature schemes within months. Vitalik Buterin broadly agrees but warns against rushed migrations, saying he's personally lost more money to botched transitions than to hacks. So far, no one has actually broken ECDSA in practice. The article AI math breakthroughs have Ethereum researchers debating how fast wallet security could collapse appeared firs"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T13:52:54+00:00"
+  },
+  {
+   "title": "China's Manus raises over $500M in first round since splitting from Meta",
+   "tags": [
+    "industry",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "AI agent startup Manus raised more than $500 million in its first funding round since splitting from Meta, led by Boyu Capital and IDG Capital.",
+   "more": "The round was led by Boyu Capital and IDG Capital. Existing shareholders Tencent, HSG (formerly Sequoia China), and ZhenFund also participated. This is described as Manus's first funding round since it split from Meta. The excerpt does not give a resulting valuation or state what the funds will be used for.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175521"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175521",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "China’s Manus raises over $500M in first funding round since split with Meta",
+     "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+     "published": "2026-10-08T13:20:32+00:00",
+     "excerpt": "Boyu Capital and IDG Capital led the funding round, and existing shareholders Tencent, HSG (formerly known as Sequoia China), ZhenFund, and others also participated."
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T13:20:32+00:00"
+  },
+  {
+   "title": "Researchers hijack every AI agent in an AWS account via a single prompt",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Zenity Labs researchers found that a single publicly accessible AI agent on Amazon Bedrock AgentCore could be used to take over every AgentCore agent in the same AWS account and region; AWS has since patched the issue.",
+   "more": "The attack exploited an internal AWS interface for issuing temporary cloud credentials, which agents could reach without restriction. By compromising one exposed agent, the researchers could pivot to control all other AgentCore agents sharing the account and region. AWS has patched the vulnerability and significantly tightened default permissions for agents. The excerpt does not say whether the flaw was exploited by third parties before disclosure.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41259"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41259",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+     "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+     "published": "2026-10-08T13:01:01+00:00",
+     "excerpt": "Zenity Labs researchers say a single publicly accessible AI agent on Amazon's Bedrock AgentCore was enough to take over every AgentCore agent in the same AWS account and region. The attack exploited an internal AWS interface for temporary cloud credentials that agents could reach without restriction. AWS has since patched the issue and significantly tightened the agents' default permissions. The article A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers fou"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T13:01:01+00:00"
+  },
+  {
+   "title": "AI-powered hacking tools let one attacker breach multiple South Korean banks",
+   "tags": [
+    "policy",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "CrowdStrike says a likely single, suspected Chinese-speaking attacker used AI-powered open-source hacking tools to breach multiple South Korean financial institutions, stealing over 25,000 customer records from Shinhan Bank alone.",
+   "more": "The attacker reportedly used ARTEX, an open-source tool that applies AI models including DeepSeek and GLM-5.3 to automate penetration testing. At Shinhan Bank, the breach exposed more than 25,000 customer records. CrowdStrike frames the case as evidence that AI tools now let a single person carry out breaches that previously would have required a larger team. The excerpt does not name other affected banks beyond Shinhan.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41246"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41246",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+     "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/",
+     "published": "2026-10-08T09:24:17+00:00",
+     "excerpt": "According to CrowdStrike, a suspected Chinese-speaking attacker hacked multiple South Korean financial institutions. At Shinhan Bank alone, more than 25,000 customer records were stolen. The attacker used ARTEX, an open-source tool that uses AI models like DeepSeek and GLM-5.3 for automated penetration testing. CrowdStrike says the case shows how AI tools can let a single person pull off massive breaches. The article AI-powered hacking tools enabled a likely single attacker to breach multiple So"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T09:24:17+00:00"
+  },
+  {
+   "title": "AINews roundup: Claude Haiku 5.5 beats GPT-6 Luna at the same price",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Latent Space's AINews newsletter highlights Claude Haiku 5.5 as outperforming GPT-6 Luna while being priced the same, in a roundup framed around small models.",
+   "more": "The item is a newsletter roundup rather than a standalone announcement. It frames Claude Haiku 5.5 as a notable small-model result relative to GPT-6 Luna at matching pricing. The excerpt does not give specific benchmark numbers or pricing figures. No release date for either model is specified in the excerpt.",
+   "item_ids": [
+    "latent-space:https://www.latent.space/p/ainews-claude-haiku-55-better-than"
+   ],
+   "items": [
+    {
+     "id": "latent-space:https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
+     "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+     "published": "2026-10-08T07:27:51+00:00",
+     "excerpt": "yay small models"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T07:27:51+00:00"
+  },
+  {
+   "title": "Developer ports TypeScript compiler, checker, and LSP to Rust using an LLM",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News submission highlights a project porting the TypeScript compiler, type checker, and language server to Rust with the help of an LLM.",
+   "more": "The project is shared as a GitHub repository, pingdotgg/ts-rust. It drew 108 points and 206 comments on Hacker News. The excerpt does not specify which LLM was used or how much of the port was automated versus hand-written. No performance comparison between the original and ported versions is given.",
+   "item_ids": [
+    "hn:50000676"
+   ],
+   "items": [
+    {
+     "id": "hn:50000676",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+     "url": "https://github.com/pingdotgg/ts-rust",
+     "published": "2026-10-08T00:46:00+00:00",
+     "excerpt": "108 points, 206 comments. Discussion: https://news.ycombinator.com/item?id=50000676"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T00:46:00+00:00"
+  },
+  {
+   "title": "STEPQuant paper tackles quantization errors in linear-attention recurrent states",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces STEPQuant, studying how quantization errors in delta-rule linear-attention models' recurrent states vary by when and where they occur, aiming to cut memory use without hurting accuracy.",
+   "more": "Linear attention models replace growing KV caches with fixed-size recurrent states, but these states become a memory bottleneck during concurrent serving. Directly quantizing them to low precision has previously caused accuracy to degrade because errors compound across decoding steps. The authors find that error impact depends on two dimensions: how long an error persists in memory, and the state's structural position. STEPQuant proposes a quantization approach informed by these findings. Benchmark results are not disclosed in the available excerpt.",
+   "item_ids": [
+    "hf-papers:2609.38169"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2609.38169",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
+     "url": "https://huggingface.co/papers/2609.38169",
+     "published": "2026-10-08T00:00:00+00:00",
+     "excerpt": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving. Directly quantizing recurrent states to low precision often leads to severe accuracy degradation, as quantization errors propagate through successive state updates. We discover that the impact of these errors depends on two complementary dimensions: temporally, errors in long-lived memory can persist across many decoding st"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T00:00:00+00:00"
+  },
+  {
+   "title": "Long-WAM paper scales context length for real-time robot world-action models",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers present Long-WAM, a framework for giving world-action models in robot control much longer visual history while still meeting real-time constraints.",
+   "more": "Real-time robot control needs enough visual history to track motion and task progress, but processing long histories can introduce delay. The paper's central finding is that simply having access to history isn't the same as using it effectively: longer histories help most when the underlying video model was pretrained autoregressively. The authors first train causal prediction on robot and egocentric video before scaling context. Benchmark numbers are not included in the available excerpt.",
+   "item_ids": [
+    "hf-papers:2610.10528"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.10528",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Long-WAM: Scaling the Context of World-Action Models",
+     "url": "https://huggingface.co/papers/2610.10528",
+     "published": "2026-10-08T00:00:00+00:00",
+     "excerpt": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentr"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T00:00:00+00:00"
+  },
+  {
+   "title": "GRACE paper proposes generation-aware latent compression for video diffusion",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper, GRACE, targets the trade-off between compression and quality in video autoencoders used by diffusion transformers, aiming to speed up video generation without costly retraining.",
+   "more": "Highly compressed video autoencoders can speed up video diffusion models since the diffusion transformer processes fewer tokens, but higher compression typically hurts reconstruction quality and needs more channels, slowing convergence. Because a new compressed latent differs from what a pretrained diffusion transformer was trained on, that model usually must be retrained or adapted. GRACE is framed as a generation-aware approach to this compression problem. The excerpt does not specify exact compression ratios or quality results achieved.",
+   "item_ids": [
+    "hf-papers:2610.10524"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.10524",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "GRACE: Generation-aware latent compression for efficient video generation",
+     "url": "https://huggingface.co/papers/2610.10524",
+     "published": "2026-10-08T00:00:00+00:00",
+     "excerpt": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it requires more channels, which is known to slow the convergence of the DiT. The compressed latent also differs from the one the DiT was trained on, so the pretrained DiT must be either retrained from sc"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T00:00:00+00:00"
+  },
+  {
+   "title": "UltraText Bench measures dense visual text rendering in image generators",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new bilingual benchmark, UltraText Bench, tests how well image generators render dense, multi-region text accurately and legibly across English and Chinese prompts.",
+   "more": "As short-string text rendering in image generation has improved, the authors argue evaluation needs to test sustained performance across more demanding scenes. UltraText Bench contains 432 prompts spanning 24 real-world scene categories across three difficulty levels, split evenly between English and Chinese. Each prompt was human-reviewed. The excerpt does not name which image models were evaluated or their scores.",
+   "item_ids": [
+    "hf-papers:2610.09823"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.09823",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation",
+     "url": "https://huggingface.co/papers/2610.09823",
+     "published": "2026-10-08T00:00:00+00:00",
+     "excerpt": "Dense visual text requires image generators to reproduce long strings across multiple regions with correct placement and legibility. As short-string rendering improves, evaluation must test sustained performance across more demanding scenes. We introduce UltraText Bench, a bilingual benchmark for prompt-only generation of dense visual text. It contains 432 prompts spanning 24 real-world scene categories and three difficulty levels, split equally between English and Chinese. Each human-reviewed p"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T00:00:00+00:00"
+  },
+  {
+   "title": "VepAgent uses tool-augmented reinforcement learning for video event prediction",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduce VepAgent, an agentic framework combining causal-transition reasoning with reinforcement learning to help multimodal models predict future events in video.",
+   "more": "Multimodal large language models have shown promise on video understanding but tend to rely on retrospective summarization and text-centric priors, limiting their ability to reason about unobserved causal transitions for video event prediction. VepAgent instead integrates causal-transition reasoning with tool-augmented reinforcement learning. The paper contrasts this with prior methods that passively project forward rather than actively reasoning about causality. Specific performance gains are not given in the available excerpt.",
+   "item_ids": [
+    "hf-papers:2610.06293"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.06293",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "VepAgent: Bridging Causal-Transition via Tool-Augmented Reinforcement Learning for Video Event Prediction",
+     "url": "https://huggingface.co/papers/2610.06293",
+     "published": "2026-10-08T00:00:00+00:00",
+     "excerpt": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable potential in video understanding, yet their reliance on retrospective summarization and text-centric priors often limits their ability to bridge unobserved causal transitions when applied to Video Event Prediction (VEP). To address this, we propose VepAgent, an agentic framework that integrates causal-transition reasoning with tool-augmented reinforcement learning (RL) for robust VEP. Unlike prior methods that passively projec"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T00:00:00+00:00"
+  },
+  {
+   "title": "UniWAM unifies world modeling and action prediction for robots",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new architecture, UniWAM, combines a physical reasoner, a world generator, and an action predictor to address weaknesses in both vision-language-action and world-action models.",
+   "more": "Vision-language-action models benefit from pretrained vision-language understanding but have limited grounding in physical world dynamics since they rely only on action supervision. World-action models, conversely, inherit useful spatiotemporal priors from video generation but are weaker at semantic reasoning under distribution shift. UniWAM aims to unify these strengths in one architecture with three components: a physical reasoner, a world generator, and an action predictor. The excerpt does not include evaluation results.",
+   "item_ids": [
+    "hf-papers:2610.02054"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.02054",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "UniWAM: Unified World-Action Model",
+     "url": "https://huggingface.co/papers/2610.02054",
+     "published": "2026-10-08T00:00:00+00:00",
+     "excerpt": "Vision-language-action models benefit from the understanding and reasoning capabilities of pretrained vision-language models, but action-only supervision provides limited grounding in world dynamics. Conversely, world-action models inherit spatiotemporal priors from video generation models, yet remain limited in semantic understanding and reasoning under distribution shifts. We introduce UniWAM, a unified architecture that integrates a physical reasoner, a world generator, and an action predicto"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T00:00:00+00:00"
+  },
+  {
+   "title": "Tetris3D generates 3D scenes with objects that fit together geometrically",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new generative framework, Tetris3D, reconstructs 3D scenes from a single image so that objects are physically and geometrically coherent with their neighbors, rather than placed independently.",
+   "more": "Existing single-image 3D scene reconstruction methods often generate objects independently or only implicitly couple them, giving limited guidance for spatial compatibility between neighboring objects. Tetris3D explicitly conditions each object's generation on the geometry of surrounding objects. The goal is scenes where objects fit together the way they would in reality. The excerpt does not report quantitative results.",
+   "item_ids": [
+    "hf-papers:2610.10539"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.10539",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
+     "url": "https://huggingface.co/papers/2610.10539",
+     "published": "2026-10-08T00:00:00+00:00",
+     "excerpt": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained spatial compatibility between neighboring objects that interact with one another. To address this, we explicitly condition the generation of each object on the geometry of surrounding objects and the"
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T00:00:00+00:00"
+  },
+  {
+   "title": "Hugging Face blog: building a model that didn't exist yet",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hugging Face Blog post, titled \"The model that didn't exist, so you made it yourself,\" describes building a model from scratch when none already fit the need.",
+   "more": "No excerpt text was provided by the Source beyond the title, so no further detail is available.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/building-with-ml-intern"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/building-with-ml-intern",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "The model that didn't exist, so you made it yourself",
+     "url": "https://huggingface.co/blog/building-with-ml-intern",
+     "published": "2026-10-08T00:00:00+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "level": "preferred",
+   "newest": "2026-10-08T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic updates usage policy, bans sustained abuse of Claude",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic revised its usage policy for the first time in over a year, banning election interference, weapons development, and surveillance uses, plus \"sustained and needless abusive or cruel behavior\" toward Claude.",
+   "more": "The update covers new and high-risk misuse cases, including election interference, weapons development, surveillance, and health and financial uses. Its most-discussed change prohibits sustained, needless abuse of Claude, while ordinary frustration and criticism remain allowed; Anthropic's approach already lets some models end abusive conversations and treats Claude as an entity that may deserve protection. The policy also tightens rules on propaganda, drone weaponization, and surveillance. This is Anthropic's first usage policy change in over a year. Accounts that violate the sustained-abuse rule could reportedly face suspension.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/2026-usage-policy-update",
+    "verge-ai:https://www.theverge.com/?p=1008100",
+    "techcrunch-ai:https://techcrunch.com/?p=3175777",
+    "decoder:https://the-decoder.com/?p=41289"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/2026-usage-policy-update",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "2026 usage policy update",
+     "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+     "published": null,
+     "excerpt": ""
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1008100",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+     "published": "2026-10-08T17:00:00+00:00",
+     "excerpt": "Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financial uses. But one of the most significant changes prohibits \"sustained and needless abusive or cruel behavior\" toward Claude. Last August, […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175777",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic changes usage policy to ban model abuse and election interference",
+     "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+     "published": "2026-10-08T18:16:24+00:00",
+     "excerpt": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=41289",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Being mean to Claude can now get your account suspended under Anthropic's new TOS",
+     "url": "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
+     "published": "2026-10-08T19:03:14+00:00",
+     "excerpt": "Anthropic's updated usage policy bans sustained abuse of Claude and tightens restrictions on propaganda, drone weaponization, and surveillance. The abuse rule builds on an approach that already lets models end some conversations and treats Claude as an entity that may deserve protection. The article Being mean to Claude can now get your account suspended under Anthropic's new TOS appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 4,
+   "level": "neutral",
+   "newest": "2026-10-08T19:03:14+00:00"
+  },
+  {
+   "title": "Uncanny Valley podcast covers Elon Musk's midterm spending spree",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired's Uncanny Valley podcast discusses where Elon Musk's PAC is spending millions ahead of the midterms, alongside other tech and AI culture topics.",
+   "more": "The episode covers Musk's PAC spending patterns heading into the midterm elections. It also touches on an unnamed ideology Trump has called dangerous, and backlash against the designer behind Meta's Muse logo. The excerpt frames this as a roundup-style podcast rather than a single news event. No dollar figures for the PAC spending are given in the excerpt.",
+   "item_ids": [
+    "wired-ai:6ac6ac8d9de41610baccb1a6"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ac6ac8d9de41610baccb1a6",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Inside Elon Musk’s Midterm Spending Spree",
+     "url": "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/",
+     "published": "2026-10-08T21:14:12+00:00",
+     "excerpt": "This week on “Uncanny Valley,” we discuss where Elon Musk’s PAC is spending millions, the latest ideology Trump claims is dangerous, and the backlash against the designer behind Muse’s logo."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T21:14:12+00:00"
+  },
+  {
+   "title": "California moves to shut down robot vs. human cage matches",
+   "tags": [
+    "robotics",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The California State Athletic Commission sent a cease-and-desist letter to startup Rek, which staged a fight between a human and a humanoid robot last month.",
+   "more": "The fight took place on September 18th and pitted human fighter Frankie LaPenna against a humanoid robot owned by startup Rek. The New York Times first reported the cease-and-desist letter from the state commission. The move signals that regulators view human-versus-robot combat as falling under existing athletic commission oversight. It's unclear from the excerpt what penalties, if any, Rek could face.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1008401"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1008401",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "California is trying to shut down robot vs. human cage matches",
+     "url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+     "published": "2026-10-08T20:06:56+00:00",
+     "excerpt": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid robot owned by a tech startup, Rek, that […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T20:06:56+00:00"
+  },
+  {
+   "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Three fired OpenAI safety researchers dispute allegations that they mishandled sensitive information, warning in an open letter that their dismissals risk chilling the company's safety culture.",
+   "more": "The researchers' open letter contests OpenAI's stated reasons for the firings. They argue the dismissals could discourage other staff from raising safety concerns internally. The excerpt does not specify what sensitive information was allegedly mishandled or when the firings occurred. OpenAI's response, if any, is not included in the excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175894"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175894",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+     "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+     "published": "2026-10-08T20:04:26+00:00",
+     "excerpt": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T20:04:26+00:00"
+  },
+  {
+   "title": "USA Today becomes latest publisher to sue OpenAI over copyright",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "USA Today Co. and several local newspapers it owns are suing OpenAI, alleging it copied \"hundreds of thousands\" of articles to train its AI models without permission.",
+   "more": "The lawsuit, filed Thursday and first reported by Reuters, seeks damages of more than $250 million. It joins a growing list of publishers suing OpenAI over alleged unauthorized use of copyrighted articles for model training. The filing does not specify which OpenAI models are implicated. USA Today joins other media companies that have brought similar copyright claims against AI companies.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1008198"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1008198",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "USA Today becomes the latest publisher to sue OpenAI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+     "published": "2026-10-08T17:58:33+00:00",
+     "excerpt": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to train its AI models, as reported earlier by Reuters. In a filing on Thursday, the publisher asks for damages of more than $250 million, alleging OpenAI's unauthorized use of […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T17:58:33+00:00"
+  },
+  {
+   "title": "OpenAI case study: Oracle speeds up work with ChatGPT and Codex",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI published a case study on how Oracle uses ChatGPT Work and Codex across recruiting, engineering, and operations to turn specialist knowledge into fast, repeatable workflows.",
+   "more": "The post frames Oracle's adoption of OpenAI's enterprise tools as cutting days of work down to minutes. It covers use across three functions: recruiting, engineering, and operations. OpenAI frames this as part of its broader push into enterprise AI tooling via ChatGPT Work and Codex. No specific metrics beyond \"days to minutes\" are given in the excerpt.",
+   "item_ids": [
+    "openai:https://openai.com/index/oracle"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/oracle",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+     "url": "https://openai.com/index/oracle",
+     "published": "2026-10-08T16:00:00+00:00",
+     "excerpt": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T16:00:00+00:00"
+  },
+  {
+   "title": "OpenAI case study: Pollo AI builds ad campaigns with GPT-5.6 and GPT-Image-2.5",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI highlighted Pollo AI, a startup using GPT-5.6, GPT-6 Astra, and GPT-Image-2.5 to turn creative briefs into detailed images and cinematic video ad campaigns.",
+   "more": "The post is framed as a customer case study showing how Pollo AI helps creators generate marketing images and video ads with OpenAI's models. It names three specific OpenAI models in use: GPT-5.6, GPT-6 Astra, and GPT-Image-2.5. No further technical or business details are given in the excerpt.",
+   "item_ids": [
+    "openai:https://openai.com/index/pollo-ai"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/pollo-ai",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+     "url": "https://openai.com/index/pollo-ai",
+     "published": "2026-10-08T12:00:00+00:00",
+     "excerpt": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T12:00:00+00:00"
+  },
+  {
+   "title": "Nvidia bets on physical AI safety for robotaxis and humanoid robots",
+   "tags": [
+    "robotics",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ars Technica reports Nvidia is pushing a full-stack safety solution for physical AI, already being adopted by robotics companies building robotaxis and humanoid robots.",
+   "more": "The report describes Nvidia's offering as a \"full-stack safety solution\" aimed at physical AI applications. It states that robotics companies are already using the solution. The excerpt does not name which robotics companies have adopted it or give technical specifics of the safety stack. No pricing or launch timeline is included in the excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
+     "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+     "published": "2026-10-08T11:15:33+00:00",
+     "excerpt": "Full-stack safety solution for physical AI is being used by robotics companies."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T11:15:33+00:00"
+  },
+  {
+   "title": "Teen's AI-planned mountain hike ends in helicopter rescue",
+   "tags": [
+    "products",
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A 16-year-old used Anthropic's Claude to plan a hiking route on Crown Mountain near Vancouver and had to be airlifted off a steep rock face after the chatbot suggested a route requiring climbing gear.",
+   "more": "The teenager, Bryce, followed a route Claude generated that turned out to require technical climbing equipment he did not have. He was rescued by helicopter from the rock face. Bryce said he does not blame the AI for the incident but will not use it for route planning again. The story is reported as a cautionary account of relying on AI chatbots for safety-critical real-world navigation.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41242"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41242",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Teen's AI-guided mountain hike ends with a helicopter rescue and a lesson in common sense",
+     "url": "https://the-decoder.com/teens-ai-guided-mountain-hike-ends-with-a-helicopter-rescue-and-a-lesson-in-common-sense/",
+     "published": "2026-10-08T09:57:42+00:00",
+     "excerpt": "A 16-year-old planned his hiking route on Crown Mountain near Vancouver using Anthropic's Claude and had to be airlifted off a steep rock face. The chatbot had sent him down a route that requires climbing gear. Bryce doesn't blame the AI but says he'll never use it for route planning again. The article Teen's AI-guided mountain hike ends with a helicopter rescue and a lesson in common sense appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T09:57:42+00:00"
+  },
+  {
+   "title": "Tristan Harris's Center for Humane Technology lays off most staff",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Center for Humane Technology, co-founded by Tristan Harris, is laying off most of its staff and shifting to a \"founder-led\" structure after years of internal tension over its direction.",
+   "more": "The organization helped spark a movement against excessive screen time. Wired reports internal tensions over strategy and direction simmered for years before this restructuring. The shift to \"founder-led\" status suggests a much smaller core team going forward. The excerpt does not specify the number of layoffs or the organization's future programmatic focus.",
+   "item_ids": [
+    "wired-ai:6ac027c0a18993c6adb8406d"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ac027c0a18993c6adb8406d",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Tristan Harris’ Tech Nonprofit Is Laying Off Most Staff and Going ‘Founder-Led’",
+     "url": "https://www.wired.com/story/tristan-harris-tech-nonprofit-is-laying-off-most-staff-and-going-founder-led/",
+     "published": "2026-10-08T09:30:00+00:00",
+     "excerpt": "The Center for Humane Technology helped spark a movement against excessive screen time, but internal tensions over its direction and strategy have simmered for years, sources tell WIRED."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T09:30:00+00:00"
+  },
+  {
+   "title": "MIT Technology Review: AI breakthroughs in robotics won't change your life soon",
+   "tags": [
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A joint MIT Technology Review/Aventine piece argues that despite viral humanoid robot videos, AI-driven robotics breakthroughs aren't close to meaningfully changing everyday life yet.",
+   "more": "The piece is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation. It references humanoid robots that have gone viral on video, including ones seen dancing. The article's framing is skeptical of near-term impact despite the viral attention these robots receive. The excerpt does not detail specific technical limitations cited in the full piece.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1145923"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1145923",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "AI breakthroughs in robotics won’t change your life any time soon",
+     "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+     "published": "2026-10-08T09:00:00+00:00",
+     "excerpt": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or…"
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T09:00:00+00:00"
+  },
+  {
+   "title": "MIT Technology Review on building a safer path to autonomous industrial AI",
+   "tags": [
+    "robotics",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A piece on industrial AI argues the field is entering a new phase where foundation models, physical AI, and agentic AI can automate more complex tasks, raising new safety questions since industrial AI interacts directly with physical systems.",
+   "more": "The article frames industrial AI's evolution from decades of predictive analytics and specialized applications toward more general automation driven by foundation models and agentic AI. It emphasizes that, unlike purely digital AI, industrial AI interacts directly with physical systems, raising distinct safety stakes. The excerpt does not specify which companies or technologies are profiled. No concrete safety framework or regulatory proposal is described in the excerpt.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1144020"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1144020",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "Building a safer path to autonomous industrial AI",
+     "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+     "published": "2026-10-08T08:17:32+00:00",
+     "excerpt": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that operates purely in the digital world, industrial AI can interact directly with physical systems,…"
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T08:17:32+00:00"
+  },
+  {
+   "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
+   "tags": [
+    "hardware",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft held an event introducing new AI-focused hardware along with changes to Windows aimed at bringing more AI into the desktop experience.",
+   "more": "The excerpt frames the announcements as bringing \"more AI\" to both Windows itself and new hardware. No specific device names, Windows features, or release dates are given in the available excerpt. The event is reported by Ars Technica without further detail provided here.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
+     "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+     "published": "2026-10-08T00:00:24+00:00",
+     "excerpt": "Get ready for more AI in your Windows and more AI on the desktop."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T00:00:24+00:00"
+  },
+  {
+   "title": "OpenAI says it disrupted AI-enabled \"false front\" influence operations",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI disrupted two AI-enabled influence operations that used fake journalist personas and a front think tank to spread geopolitical messaging.",
+   "more": "According to OpenAI, the two operations relied on \"false-front\" journalists and a think tank as cover for spreading geopolitically motivated messaging. The post does not name the actors behind the operations or which countries or topics were targeted. It is presented as part of OpenAI's ongoing work tracking misuse of its models for influence operations.",
+   "item_ids": [
+    "openai:https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Disrupting AI-enabled “false front” operations",
+     "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+     "published": "2026-10-08T00:00:00+00:00",
+     "excerpt": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging."
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": "2026-10-08T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic announces a commitment to the Genesis Mission",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic published a post about its commitment to the Genesis Mission, though no further detail is available from the excerpt.",
+   "more": "Only a title, \"Genesis mission commitment,\" is available for this Item; no excerpt text was provided by the Source.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/genesis-mission-commitment"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/genesis-mission-commitment",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Genesis mission commitment",
+     "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+     "published": null,
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": ""
+  },
+  {
+   "title": "Anthropic details its cyber mission commitment",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic published a post about its cyber mission, though no further detail is available from the excerpt.",
+   "more": "Only a title, \"Anthropic cyber mission,\" is available for this Item; no excerpt text was provided by the Source.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/anthropic-cyber-mission"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/anthropic-cyber-mission",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Anthropic cyber mission",
+     "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+     "published": null,
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "level": "neutral",
+   "newest": ""
+  },
+  {
+   "title": "Ben Affleck goes viral for his deep knowledge of AI and machine learning",
+   "tags": [
+    "other",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Actor Ben Affleck is getting attention online for detailed knowledge of neural networks and transformers, after remarks about writing Python and working with convolutional neural networks.",
+   "more": "Affleck, who sold his AI filmmaking startup to Netflix earlier this year, described picking up programming as film production moved from analog to digital, and said he can write \"pretty shitty Python scripts\" using convolutional neural networks, which he called precursors to transformers. Simon Willison separately quoted these remarks on his blog. TechCrunch frames the reaction as the internet being impressed by an actor who understands AI at a technical level beyond typical celebrity commentary. The excerpt does not name the original interview or venue where Affleck made these comments.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175682",
+    "simonw:https://simonwillison.net/2026/Oct/7/ben-affleck/"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175682",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Ben Affleck is an AI nerd, and the internet is impressed",
+     "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+     "published": "2026-10-08T18:20:32+00:00",
+     "excerpt": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a Hollywood star."
+    },
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/7/ben-affleck/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Ben Affleck",
+     "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
+     "published": "2026-10-07T23:14:58+00:00",
+     "excerpt": "I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has included machine learning. So I can write like pretty shitty Python scripts and stuff like that because with convolutional neural networks, which were the sort of precursors to what the transformer can do, which is just much more computation simultaneously, you would do things l"
+    }
+   ],
+   "coverage": 2,
+   "level": "muted",
+   "newest": "2026-10-08T18:20:32+00:00"
+  },
+  {
+   "title": "Report: OpenAI's annualized revenue is $20 billion less than previously projected",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new report claims OpenAI's annualized revenue is roughly $20 billion lower than the previously reported figure of about $70 billion.",
+   "more": "Earlier reporting had put OpenAI's annualized revenue at around $70 billion. The new report, covered by CNBC and discussed heavily on Hacker News, claims the real figure is substantially lower. The excerpt does not specify the corrected revenue figure or the source's methodology. The Hacker News discussion drew 341 points and 236 comments, suggesting significant community interest in the discrepancy.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175754",
+    "hn:50008187"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175754",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
+     "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+     "published": "2026-10-08T18:19:42+00:00",
+     "excerpt": "It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that."
+    },
+    {
+     "id": "hn:50008187",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "OpenAI annualised revenues $20B less than previously signalled",
+     "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+     "published": "2026-10-08T16:45:58+00:00",
+     "excerpt": "341 points, 236 comments. Discussion: https://news.ycombinator.com/item?id=50008187"
+    }
+   ],
+   "coverage": 2,
+   "level": "muted",
+   "newest": "2026-10-08T18:19:42+00:00"
+  },
+  {
+   "title": "Simon Willison quotes Carson Gross on programming careers in the AI era",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison quotes developer Carson Gross arguing that problem-solving with computers and controlling complexity will remain valuable skills, and a viable career, even as AI tools advance.",
+   "more": "Gross frames programming as fundamentally about two things: solving problems with computers and controlling the complexity of those solutions. He says he struggles to imagine a future where these skills become less valuable, even given AI tools' advancement. Willison tagged the post under computer-science, careers, and AI. The excerpt does not include counterarguments or further context from Gross's original source.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/8/carson-gross/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/8/carson-gross/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Carson Gross",
+     "url": "https://simonwillison.net/2026/Oct/8/carson-gross/",
+     "published": "2026-10-08T21:05:44+00:00",
+     "excerpt": "Computer programming is, fundamentally, about two things: Problem-solving using computers Learning to control complexity while solving these problems I have a hard time imagining a future where knowing how to solve problems with computers and how to control the complexity of those solutions is less valuable than it is today, so I think it will continue to be a viable career even with the advent of AI tools. — Carson Gross Tags: computer-science , carson-gross , careers , ai"
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-08T21:05:44+00:00"
+  },
+  {
+   "title": "Designer of Meta's new AI logo faces backlash",
+   "tags": [
+    "industry",
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Jessica Hische, who designed Meta's new AI logo, says she anticipated some pushback for working with Meta but not the scale of anger she received.",
+   "more": "Hische is named as the designer behind Meta's new AI branding. Wired reports she expected some criticism given Meta's reputation but was surprised by the intensity of the backlash. The excerpt does not detail what specifically about the logo drew criticism. No response from Meta is included in the excerpt.",
+   "item_ids": [
+    "wired-ai:6ac52a334a782f0cbf88b69f"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ac52a334a782f0cbf88b69f",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "She Designed Meta’s New AI Logo. Then Came the Hate",
+     "url": "https://www.wired.com/story/she-designed-metas-new-ai-logo-then-came-the-hate/",
+     "published": "2026-10-08T19:30:00+00:00",
+     "excerpt": "Jessica Hische knew working for Meta might upset some people. But she didn’t anticipate just how angry they would get."
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-08T19:30:00+00:00"
+  },
+  {
+   "title": "TechCrunch Disrupt 2026 approaches, with AI infrastructure execs on the agenda",
+   "tags": [
+    "industry",
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch promoted its Disrupt 2026 conference, running October 13-15 in San Francisco, highlighting a Smart Systems Stage session with Ambrosia Energy and Bloom Energy executives on AI infrastructure.",
+   "more": "The conference takes place at Moscone West in San Francisco from October 13 to 15. One promoted session features Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer discussing opportunities in the AI infrastructure boom. TechCrunch's promotional posts also offer discounted and buy-one-save-50% ticket pricing ahead of the event. These posts are self-promotional content from the Source rather than independent news coverage.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175465",
+    "techcrunch-ai:https://techcrunch.com/?p=3175441"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175465",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Hear from Ambrosia Energy and Bloom Energy execs on where the AI infrastructure boom is creating opportunity at TechCrunch Disrupt 2026",
+     "url": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
+     "published": "2026-10-08T15:00:00+00:00",
+     "excerpt": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175441",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "5 days to TechCrunch Disrupt 2026: Don’t pay more at the door for your pass",
+     "url": "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
+     "published": "2026-10-08T14:00:00+00:00",
+     "excerpt": "The global tech ecosystem gathers at TechCrunch Disrupt 2026 at San Francisco’s Moscone West on October 13-15. Get your pass now to save up to $100. Get a second of the same ticket type to save 50%."
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-08T15:00:00+00:00"
+  },
+  {
+   "title": "Artificial, Luca Guadagnino's satirical Sam Altman biopic, premieres at NYFF",
+   "tags": [
+    "other",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge reviews Artificial, a satirical film about Sam Altman by director Luca Guadagnino, which premiered at the New York Film Festival.",
+   "more": "At the premiere, Guadagnino said onstage that the theme of \"wanting to play God\" interested him in making the film. The review frames the movie as a satire that nonetheless sticks to real facts about its subject. The excerpt does not give further plot, cast, or release-date details. No rating or score is cited in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1007786"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1007786",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Artificial is a wicked satire that also sticks to the facts",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts",
+     "published": "2026-10-08T14:00:00+00:00",
+     "excerpt": "At the New York Film Festival premiere of Artificial, Luca Guadagnino's satirical Sam Altman biopic, the director said onstage that \"[when] someone wants to play God, that's very interesting to me.\" The idea of playing God, and power in general - who has it, who desperately wants it, and who will do anything to get […]"
+    }
+   ],
+   "coverage": 1,
+   "level": "muted",
+   "newest": "2026-10-08T14:00:00+00:00"
+  }
+ ]
+}
