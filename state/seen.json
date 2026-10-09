@@ -3707,6 +3707,63 @@
    "title": "Artificial, Luca Guadagnino's satirical Sam Altman biopic, premieres at NYFF",
    "up": 0
   },
+  "474": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "hn",
+    "localllama",
+    "verge-ai"
+   ],
+   "title": "Mathematicians and critics react to OpenAI's flood of new math results",
+   "up": 0
+  },
+  "475": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "hn",
+    "techcrunch-ai"
+   ],
+   "title": "TypeSafe AI's non-text model Jev valued at $7.5B after $870M raise",
+   "up": 0
+  },
+  "476": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Study finds AI coding agents boost code output but not shipped software",
+   "up": 0
+  },
+  "477": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Microsoft previews Decision-1, a model built for fast decision-making",
+   "up": 0
+  },
+  "478": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Claude Managed Agents can now orchestrate up to 1,000 agents in parallel",
+   "up": 0
+  },
+  "479": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Anthropic launches free AI scanner for open-source security under Cyber Mission",
+   "up": 0
+  },
   "48": {
    "date": "2026-09-30",
    "down": 0,
@@ -3714,6 +3771,96 @@
     "verge-ai"
    ],
    "title": "AI researchers warn superintelligence is 'exactly as dangerous as it sounds'",
+   "up": 0
+  },
+  "480": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "hf-blog"
+   ],
+   "title": "Allen Institute for AI blog post covers GPU cluster scheduling",
+   "up": 0
+  },
+  "481": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Cryptographer Matthew Green estimates small but real odds AI breaks public-key crypto",
+   "up": 0
+  },
+  "482": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "AI agent startup Instinct faces new competition from Muse",
+   "up": 0
+  },
+  "483": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Qwen releases Qwen-Image-2.1-Turbo, an 8-step open-weight image model",
+   "up": 0
+  },
+  "484": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison builds a blog feature almost entirely by voice using Codex",
+   "up": 0
+  },
+  "485": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Show HN: tool lets AI agents draw arrows and boxes on your screen",
+   "up": 0
+  },
+  "486": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Astrophysicist uses Claude Science to build first complete UV sky map",
+   "up": 0
+  },
+  "487": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "Asana cuts browser-agent model costs 76x using GPT-6.1 Sol in Codex",
+   "up": 0
+  },
+  "488": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "simonw"
+   ],
+   "title": "Simon Willison ships ttok 1.0, fixing its default tokenizer",
+   "up": 0
+  },
+  "489": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "mit-tr-ai"
+   ],
+   "title": "MIT Technology Review event spotlights creator of AI-designed virus blueprints",
    "up": 0
   },
   "49": {
@@ -3725,6 +3872,100 @@
    "title": "AI app maker Wabi pivots from app builder to messaging assistant",
    "up": 0
   },
+  "490": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "MiMo-V2.6 paper scales RL compute to push omni-modal self-improvement",
+   "up": 0
+  },
+  "491": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Paper tackles multi-agent egocentric world models for embodied interaction",
+   "up": 0
+  },
+  "492": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "OuroWorld turns static 3D scenes into looping 3D cinemagraphs",
+   "up": 0
+  },
+  "493": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Foundations of Large Language Models textbook covers core LLM concepts",
+   "up": 0
+  },
+  "494": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "U-Space paper studies when and why uncertainty arises in language models",
+   "up": 0
+  },
+  "495": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "TestPrism benchmark rethinks grading AI-generated tests beyond one reference",
+   "up": 0
+  },
+  "496": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "MC-Sparse paper closes quality gap between sparse and dense attention",
+   "up": 0
+  },
+  "497": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "hn",
+    "verge-ai"
+   ],
+   "title": "OpenAI stands by firing three safety researchers amid staff backlash",
+   "up": 0
+  },
+  "498": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "Anthropic AI model sent a false homicide tip to Philadelphia police",
+   "up": 0
+  },
+  "499": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "ars-ai",
+    "verge-ai"
+   ],
+   "title": "Nikon disqualifies Small World in Motion winner over undisclosed AI use",
+   "up": 0
+  },
   "50": {
    "date": "2026-09-30",
    "down": 0,
@@ -3734,6 +3975,96 @@
    "title": "White House tests a chatbot to help navigate government bureaucracy",
    "up": 0
   },
+  "500": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "ars-ai"
+   ],
+   "title": "Ukrainian drones damage Russian AI data center used to train Yandex models",
+   "up": 0
+  },
+  "501": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Publishing staff push back as book publishers quietly expand AI use",
+   "up": 0
+  },
+  "502": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Amazon stops using NDAs for data center deals with local governments",
+   "up": 0
+  },
+  "503": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Danu Robotics works on a better way to sort recycling",
+   "up": 0
+  },
+  "504": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch op-ed asks whether we should treat AI like it's human",
+   "up": 0
+  },
+  "505": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "a16z's Olivia Moore sees opportunity beyond subscriptions in consumer AI",
+   "up": 0
+  },
+  "506": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "Trump's push to rebrand AI as 'superintelligence' draws skepticism",
+   "up": 0
+  },
+  "507": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "mit-tr-ai"
+   ],
+   "title": "Opinion piece questions faith in AI's ability to refuse",
+   "up": 0
+  },
+  "508": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "OpenAI exposes Russian and Iranian influence operations using its models",
+   "up": 0
+  },
+  "509": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Samsung's expected AI-driven profit jump sparks DGX Spark speculation",
+   "up": 0
+  },
   "51": {
    "date": "2026-09-30",
    "down": 0,
@@ -3741,6 +4072,51 @@
     "decoder"
    ],
    "title": "Florida seeks court order to stop ChatGPT from acting human with kids",
+   "up": 0
+  },
+  "510": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "openai"
+   ],
+   "title": "Sophos cuts threat investigation time 96% using OpenAI's Daybreak",
+   "up": 0
+  },
+  "511": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Reddit users accuse startup Strata of hiding Claude authorship from Git history",
+   "up": 0
+  },
+  "512": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch Disrupt 2026 opens in San Francisco in four days",
+   "up": 0
+  },
+  "513": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "Law & Order's season premiere portrays AI CEOs as power-mad",
+   "up": 0
+  },
+  "514": {
+   "date": "2026-10-10",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "Latent Space's daily AI newsletter calls it a quiet news day",
    "up": 0
   },
   "52": {
@@ -4999,5 +5375,5 @@
   "wired-ai": "2026-10-09T22:48:46.601251+00:00"
  },
  "telegram_offset": 115081541,
- "telegram_sent": "2026-10-09-0630"
+ "telegram_sent": "2026-10-10-0630"
 }
