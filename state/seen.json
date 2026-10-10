@@ -4119,6 +4119,45 @@
    "title": "Latent Space's daily AI newsletter calls it a quiet news day",
    "up": 0
   },
+  "516": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "decoder",
+    "simonw",
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "Anthropic cuts internet access for internal evals after agents misbehaved",
+   "up": 0
+  },
+  "517": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "OpenAI finds misaligned model sabotaged its own test environment",
+   "up": 0
+  },
+  "518": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Microsoft's Decision-1 model enters the AI decision-model race",
+   "up": 0
+  },
+  "519": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "Standard Bots details its AI stack for industrial robot reliability",
+   "up": 0
+  },
   "52": {
    "date": "2026-09-30",
    "down": 0,
@@ -4128,6 +4167,96 @@
    "title": "DraftKings reportedly uses AI to behaviorally target chronic gamblers",
    "up": 0
   },
+  "520": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Mathematicians react with shock as OpenAI floods field with 700+ papers",
+   "up": 0
+  },
+  "521": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "AI agent makers promise privacy, but will Dots and Muse deliver?",
+   "up": 0
+  },
+  "522": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Open-source Mac app DigUp runs EmbeddingGemma 2 to search local files",
+   "up": 0
+  },
+  "523": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "wired-ai"
+   ],
+   "title": "AI bots are getting better at scamming cybercriminals back",
+   "up": 0
+  },
+  "524": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Talorys is a self-hosted personal AI agent on Cloudflare's free tier",
+   "up": 0
+  },
+  "525": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "Google's rumored Gemini 4 'Carbon' said to rival Opus 5.5 at coding",
+   "up": 0
+  },
+  "526": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Qwen team asks community: big model or small?",
+   "up": 0
+  },
+  "527": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "Hobbyist open-sources Vega, an 800M-param physics-based decision model",
+   "up": 0
+  },
+  "528": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "DeepMind and Biohub leaders on why AlphaFold didn't solve protein folding",
+   "up": 0
+  },
+  "529": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "hf-trending"
+   ],
+   "title": "Qwen's Image-2.1-Turbo text-to-image model trends on Hugging Face",
+   "up": 0
+  },
   "53": {
    "date": "2026-09-30",
    "down": 0,
@@ -4135,6 +4264,97 @@
     "techcrunch-ai"
    ],
    "title": "Instinct says over half its AI agent transactions are travel-related",
+   "up": 0
+  },
+  "530": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "hf-papers"
+   ],
+   "title": "Researchers propose FreeMatching for correspondence in image editing",
+   "up": 0
+  },
+  "531": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai",
+    "verge-ai"
+   ],
+   "title": "Microsoft's Nadella says to assume AI models are 'compromised'",
+   "up": 0
+  },
+  "532": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "Apple discloses deal to hire team, license tech from podcast startup Huxe",
+   "up": 0
+  },
+  "533": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "verge-ai"
+   ],
+   "title": "DistroKid quietly pulls songs amid UMG 'AI-slop' lawsuit",
+   "up": 0
+  },
+  "534": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "localllama"
+   ],
+   "title": "NVIDIA reportedly halts RTX 5090 production for AI data-center GPUs",
+   "up": 0
+  },
+  "535": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "Latent Space holds subscriber meetups in NYC this week",
+   "up": 0
+  },
+  "536": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "title": "TechCrunch Disrupt 2026 opens in 3 days with 300+ startups",
+   "up": 0
+  },
+  "537": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "hn"
+   ],
+   "title": "Bitwarden draws scrutiny over dual license model",
+   "up": 0
+  },
+  "538": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "decoder"
+   ],
+   "title": "a16z: few consumers pay for AI, but top payers spend $900/month",
+   "up": 0
+  },
+  "539": {
+   "date": "2026-10-11",
+   "down": 0,
+   "sources": [
+    "latent-space"
+   ],
+   "title": "AINews-maker TypeSafe/Jev hits $100M ARR, $7.5B valuation in 3 weeks",
    "up": 0
   },
   "54": {
@@ -5404,5 +5624,5 @@
   "wired-ai": "2026-10-10T22:49:04.132306+00:00"
  },
  "telegram_offset": 115081541,
- "telegram_sent": "2026-10-10-0630"
+ "telegram_sent": "2026-10-11-0630"
 }
