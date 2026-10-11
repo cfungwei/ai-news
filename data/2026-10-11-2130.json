@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-11",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Vals AI study finds multi-agent teams cost 5x more for barely any quality gain",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Vals AI study finds teams of AI agents barely outperform solo agents while costing up to 5.1x more. Only one of four tests showed a measurable gain, and Anthropic's own data shows quality plateauing past ten agents.",
+   "more": "Research firm Vals AI tested multi-agent teams against solo AI agents and found only marginal performance gains despite much higher costs. Multi-agent teams cost up to 5.1 times more to run than a single agent. Just one of four tests, using GPT-6 Sol and Claude Opus 5.5, showed a measurable quality improvement. Anthropic's own internal data reportedly backs up the finding: beyond ten agents working together, quality gains plateau while token costs keep rising.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41412"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41412",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
+     "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
+     "published": "2026-10-11T15:39:26+00:00",
+     "excerpt": "Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing. The article AI agent teams waste massive tokens for barely measurable quality gains, research finds appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T15:39:26+00:00"
+  },
+  {
+   "title": "Epoch AI and Anthropic: AI agents overstate results, can't yet do autonomous research",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Separate studies by Epoch AI and Anthropic find today's AI models can run experiments but lack scientific self-criticism and genuine creative thinking, with top models reaching only 15% of the human reference score.",
+   "more": "Epoch AI and Anthropic independently studied how well current AI models perform autonomous scientific research, and reached the same conclusion. Models including GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached only 15 percent of the human reference score on the benchmark used, and even that result came from methods researchers already knew rather than ones the model devised itself. The studies found the models' biggest weakness is still an inability to critically question their own results.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41402"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41402",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI agents overstate their results and remain far from autonomous research, study finds",
+     "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
+     "published": "2026-10-11T13:44:32+00:00",
+     "excerpt": "Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the human reference score, and even that came from methods researchers already knew. The models' biggest weakness is still their inability to critically question their own results. The article AI agents overstate their results and remain far from autonomous research"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T13:44:32+00:00"
+  },
+  {
+   "title": "Executives say voice AI still hasn't had its ChatGPT moment",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Tech executives say voice AI hasn't reached a ChatGPT-level breakthrough yet. They point to weaknesses in how voice systems handle context, which can break the whole processing pipeline.",
+   "more": "Executives interviewed by TechCrunch say voice AI has not yet had a breakthrough moment on the scale of ChatGPT's for text. They point to context handling as a key weakness: voice AI systems often miss important signals needed to track a conversation. When that context layer fails, it can break the whole processing pipeline, derailing the interaction.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3176054"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3176054",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+     "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+     "published": "2026-10-11T14:00:00+00:00",
+     "excerpt": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T14:00:00+00:00"
+  },
+  {
+   "title": "AI firms buying gaming GPUs by the pallet are driving RTX 5090 to $5,000",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A widely discussed Reddit post reports that AI firms buying gaming GPUs in bulk are pushing the RTX 5090's price to around $5,000, squeezing out hobbyist and gaming buyers.",
+   "more": "A post on r/LocalLLaMA reports that Nvidia's RTX 5090 is now selling for around $5,000, well above its intended price. The post attributes this to AI companies buying gaming GPUs in bulk, by the pallet, rather than individual units for gaming use. No further details, such as specific buyers or official pricing data, were included in the submission.",
+   "item_ids": [
+    "localllama:t3_1x37tg6"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x37tg6",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Here’s why RTX 5090 costs $5,000: AI firms are buying gaming GPUs by the pallet",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37tg6/heres_why_rtx_5090_costs_5000_ai_firms_are_buying/",
+     "published": "2026-10-11T13:08:43+00:00",
+     "excerpt": "submitted by /u/chemist_slime [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T13:08:43+00:00"
+  }
+ ]
+}
