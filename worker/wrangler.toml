@@ -9,4 +9,4 @@ ALLOWED_ORIGIN = "https://cfungwei.github.io"
 [[d1_databases]]
 binding = "DB"
 database_name = "ai-news-votes"
-database_id = "REPLACE_AFTER_d1_create"
+database_id = "5ad7177a-1013-44a0-9a12-0d6fee30599d"
