@@ -1,6 +1,6 @@
 # ai-news
 
-A digest of anything new from sources the owner chooses, published four times a day, filtered by the owner's preferences. Today it has one reader, but it may grow into a newsletter shared on Telegram or a webpage.
+A digest of anything new from sources the owner chooses, published four times a day. Today it has one reader, but it may grow into a newsletter shared on Telegram or a webpage.
 
 ## Language
 
@@ -22,15 +22,11 @@ _Avoid_: Cluster, topic, merged item
 The number of distinct Sources with an Item in a Story. Used as the measure of a Story's importance.
 _Avoid_: Popularity, score, mentions
 
-### Selecting
+### Grouping
 
 **Tag**:
-A category from a fixed, owner-defined list that describes what a Story is about. A Story can have several Tags; one that fits none gets `other`.
+A category from a fixed list that describes what a Story is about. A Story can have several Tags; its first is the **primary Tag**, which the Digest groups it under. One that fits none gets `other`.
 _Avoid_: Label, topic, category (as a separate concept)
-
-**Preference**:
-The owner's stance on a Tag: **preferred**, **neutral** or **muted**. Preferences only order Stories in a Digest, never hide them; muted Stories sink to the bottom.
-_Avoid_: Filter, rule, setting
 
 ### Publishing
 
@@ -39,7 +35,7 @@ A 1–2 sentence description of a Story, written for the Digest rather than copi
 _Avoid_: Excerpt, blurb, TL;DR
 
 **Digest**:
-What one Run publishes: every Story that is new since the previous successful Digest, ordered by Preference and then by Coverage.
+What one Run publishes: every Story that is new since the previous successful Digest, grouped by primary Tag (biggest group first, `other` last) and ordered by Coverage within a group.
 _Avoid_: Report, newsletter (until a Newsletter exists)
 
 **Edition**:
@@ -53,11 +49,11 @@ _Avoid_: Job, execution, build
 ### Feedback
 
 **Feedback**:
-The owner's 👍 or 👎 reaction to a Story's Telegram message, credited to every Source with an Item in that Story. Feedback informs Source health; it does not change a Digest's order.
-_Avoid_: Rating, vote, like
+A 👍 or 👎 vote on a Story's page, one per browser, credited to every Source with an Item in that Story. Feedback informs Source health; it does not change a Digest's order.
+_Avoid_: Rating, like, reaction
 
 **Source health**:
-How a Source has performed over the last 7 and 30 days: Items, Items that were preferred, failed fetches and Feedback. A Source is *flagged* when it is silent for 7 days, fails on 3 of the last 7 days, or gets more 👎 than 👍. Flags are suggestions; only the owner adds or drops Sources.
+How a Source has performed over the last 7 and 30 days: Items, failed fetches and Feedback. A Source is *flagged* when it is silent for 7 days, fails on 3 of the last 7 days, or gets more 👎 than 👍. Flags are suggestions; only the owner adds or drops Sources.
 _Avoid_: Credibility score, source quality
 
 **Reader**:

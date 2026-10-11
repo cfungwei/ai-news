@@ -4,6 +4,7 @@
     (curate: the routine agent writes build/stories.json)
     python -m ainews.run publish   render, push to the `digests` branch, post to Telegram.
     python -m ainews.run fail --reason "..."   tell Telegram this Edition failed.
+    python -m ainews.run rebuild   re-render every page (after a layout change).
 
 The Edition is worked out from the clock (config.current_edition). `publish --local`
 renders into build/site without pushing or posting.
@@ -13,7 +14,7 @@ import argparse
 import json
 import sys
 
-from ainews import config, fetch, health, pages, render, site, telegram
+from ainews import config, fetch, health, pages, render, site, telegram, votes
 
 DONE = 10
 
@@ -56,47 +57,41 @@ def check_fetch(fetched, source_count):
 
 
 def send(edition):
-    """Post the Edition, remember which message is which Story for Feedback, mark it sent."""
+    """Post the Edition to Telegram and mark it sent."""
     saved = load(edition.data)
     stories = saved["stories"]
-    sent = telegram.send_digest(edition.title, stories, saved["failed"], edition.url,
-                                lambda index: f"{edition.url}#{pages.anchor(edition.time, index)}")
+    ids = {id(s): pages.story_id(saved, n) for n, s in enumerate(stories)}
+    telegram.send_all(telegram.edition_messages(
+        edition.title, stories, saved["failed"], edition.url,
+        lambda story: pages.story_url(ids[id(story)]), list(config.tags())))
     state = fetch.load_state()
-    feedback = state.setdefault("feedback", {})
-    for index, message_id in sent.items():
-        story = stories[index]
-        feedback[str(message_id)] = {
-            "date": edition.date, "title": story["title"], "up": 0, "down": 0,
-            "sources": sorted({i["source"] for i in story["items"]})}
     state["telegram_sent"] = edition.key
     fetch.save_state(state)
     if edition.is_first_of_week():
         telegram.send(telegram.health_message(health.write(state), health.url()))
 
 
-def collect_feedback():
-    """Read new 👍/👎 totals. A Telegram hiccup here never fails the Run."""
+def refresh_votes():
+    """Copy the latest vote totals into state for Source health. Returns True if changed."""
+    latest = votes.fetch_all()
     state = fetch.load_state()
-    try:
-        changed = telegram.collect_feedback(state)
-    except RuntimeError as error:
-        print(f"Could not collect Feedback: {error}")
+    if latest is None or latest == state.get("votes"):
         return False
+    state["votes"] = latest
     fetch.save_state(state)
-    if changed:
-        health.write(state)
-    return changed
+    health.write(state)
+    return True
 
 
 def prepare(args):
     edition = Edition()
     telegram.check_env()
     site.checkout()
-    feedback_changed = collect_feedback()
+    votes_changed = refresh_votes()
     if edition.exists():
         if edition.sent():
-            if feedback_changed:
-                site.publish(f"Feedback {edition.key}")
+            if votes_changed:
+                site.publish(f"Votes {edition.key}")
             print(f"{edition.title} is already published and sent. Nothing to do.")
             return DONE
         # An earlier Run pushed this Edition but could not post it.
@@ -119,11 +114,12 @@ def publish(args):
     items = {i["id"]: i for i in fetched["items"]}
     stories = load(config.STORIES_FILE)["stories"] if items else []
     render.validate(items, stories)
-    stories = render.order(stories, items, config.preferences())
+    tag_order = list(config.tags())
+    stories = render.order(stories, items, tag_order)
     failed = fetched["sources_failed"]
 
     config.DIGESTS.mkdir(parents=True, exist_ok=True)
-    edition.markdown.write_text(render.markdown(edition.title, stories, failed))
+    edition.markdown.write_text(render.markdown(edition.title, stories, failed, tag_order))
     edition.data.parent.mkdir(exist_ok=True)
     edition.data.write_text(json.dumps(
         {"date": edition.date, "edition": edition.time, "failed": failed, "stories": stories},
@@ -155,6 +151,14 @@ def record(fetched):
     fetch.save_state(state)
 
 
+def rebuild(args):
+    site.checkout()
+    pages.write_all()
+    health.write(fetch.load_state())
+    print(f"Rebuilt every page in {config.SITE}. Commit and push build/site to publish.")
+    return 0
+
+
 def fail(args):
     """No backup Runs: the next Edition picks up this one's news, so just say so now."""
     edition = Edition()
@@ -175,6 +179,7 @@ def main():
     publish_parser.add_argument("--local", action="store_true",
                                 help="render into build/site only; don't push or post")
     publish_parser.set_defaults(func=publish)
+    steps.add_parser("rebuild").set_defaults(func=rebuild)
     fail_parser = steps.add_parser("fail")
     fail_parser.add_argument("--reason", required=True)
     fail_parser.set_defaults(func=fail)

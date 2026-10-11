@@ -1,15 +1,18 @@
 """render: validate curated Stories, order them, and write the Markdown Digest.
 
-Stories are ordered by Preference level (preferred, neutral, muted), then by
-Coverage, then newest first. Muted Stories are rendered compactly.
+Stories are grouped by their primary (first) Tag. The biggest group comes first and
+`other` always last; inside a group, Stories are ordered by Coverage, then newest first.
 """
 
 from ainews import config
 
-
 # Limits from routine/PROMPT.md, enforced so the routine rewrites Stories that break them.
 TITLE_CHARS = 90
 SUMMARY_WORDS = 45
+
+EMOJI = {"models": "🧠", "research": "📄", "agents": "🤖", "tools": "🛠", "open-source": "🔓",
+         "products": "📱", "industry": "💼", "policy": "⚖️", "hardware": "🔌", "robotics": "🦾",
+         "other": "📰"}
 
 
 class InvalidStories(ValueError):
@@ -43,29 +46,29 @@ def validate(items, stories):
         raise InvalidStories("\n".join(problems))
 
 
-def level(story, preferences):
-    """A Story takes the highest level among its Tags."""
-    ranks = [config.LEVELS.index(preferences.get(tag, "neutral")) for tag in story["tags"]]
-    return config.LEVELS[min(ranks)]
+def groups(stories, tag_order):
+    """[(tag, Stories)] by primary Tag: biggest group first, `other` last, ties in Tag order."""
+    by_tag = {}
+    for story in stories:
+        by_tag.setdefault(story["tags"][0], []).append(story)
+    rank = {tag: n for n, tag in enumerate(tag_order)}
+    return sorted(by_tag.items(),
+                  key=lambda g: (g[0] == "other", -len(g[1]), rank.get(g[0], len(rank))))
 
 
-def order(stories, items, preferences):
-    """Attach Items, Coverage and level to each Story and return them in Digest order."""
+def order(stories, items, tag_order):
+    """Attach Items and Coverage to each Story and return them in Digest order."""
     for story in stories:
         story["items"] = [items[i] for i in story["item_ids"]]
         story["coverage"] = len({i["source"] for i in story["items"]})
-        story["level"] = level(story, preferences)
         story["newest"] = max((i["published"] or "" for i in story["items"]), default="")
     by_newest = sorted(stories, key=lambda s: s["newest"], reverse=True)
-    return sorted(by_newest, key=lambda s: (config.LEVELS.index(s["level"]), -s["coverage"]))
+    by_coverage = sorted(by_newest, key=lambda s: -s["coverage"])
+    return [s for _, group in groups(by_coverage, tag_order) for s in group]
 
 
-def top(stories, n):
-    """The Telegram top N: preferred first, topped up from neutral, never muted."""
-    return [s for s in stories if s["level"] != "muted"][:n]
-
-
-HEADINGS = {"preferred": "Preferred", "neutral": "Also new", "muted": "Muted"}
+def group_heading(tag):
+    return f"{EMOJI.get(tag, '📰')} {tag.replace('-', ' ').capitalize()}"
 
 
 def tag_list(story):
@@ -82,7 +85,7 @@ def links(story):
     return "\n".join(f"- [{i['source_name']}: {i['title']}]({i['url']})" for i in story["items"])
 
 
-def full_story(story):
+def story_markdown(story):
     return (f"### {story['title']}\n"
             f"{tag_list(story)} · {coverage_note(story)}\n\n"
             f"{story['summary']}\n\n"
@@ -90,18 +93,12 @@ def full_story(story):
             f"</details>\n")
 
 
-def compact_story(story):
-    return (f"<details><summary><b>{story['title']}</b> · {tag_list(story)} · "
-            f"{coverage_note(story)}</summary>\n\n{story['summary']}\n\n{story['more']}\n\n"
-            f"{links(story)}\n\n</details>\n")
-
-
 def unavailable_note(failed):
     names = ", ".join(f["name"] for f in failed)
-    return f"Unavailable today: {names}. Their news will appear in a later Digest."
+    return f"Unavailable this Edition: {names}. Their news will appear in a later Edition."
 
 
-def markdown(title, stories, failed):
+def markdown(title, stories, failed, tag_order):
     lines = [f"# {title}\n"]
     if failed:
         lines.append(f"> ⚠️ {unavailable_note(failed)}\n")
@@ -111,10 +108,7 @@ def markdown(title, stories, failed):
 
     sources = len({i["source"] for s in stories for i in s["items"]})
     lines.append(f"_{len(stories)} Stories from {sources} Sources._\n")
-    for lvl in config.LEVELS:
-        group = [s for s in stories if s["level"] == lvl]
-        if group:
-            lines.append(f"## {HEADINGS[lvl]}\n")
-            render_one = compact_story if lvl == "muted" else full_story
-            lines.extend(render_one(s) for s in group)
+    for tag, group in groups(stories, tag_order):
+        lines.append(f"## {group_heading(tag)}\n")
+        lines.extend(story_markdown(s) for s in group)
     return "\n".join(lines)

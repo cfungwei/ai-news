@@ -36,7 +36,7 @@ Every Item must belong to **exactly one** Story. Most Stories will have one Item
 
 ## 2. Tag each Story
 
-Assign 1–3 Tags from `config/tags.yaml`, most relevant first. Use only Tags from that file, and use `other` only if nothing else fits. Choose Tags from what the Story *is about*, not from which Source it came from. A trending model is `models`, and also `open-source` if its weights are open.
+Assign 1–3 Tags from `config/tags.yaml`, most relevant first. The first Tag is the Story's **primary Tag**: the Digest lists the Story under it, so pick the one a reader would look for it under. Use only Tags from that file, and use `other` only if nothing else fits. Choose Tags from what the Story *is about*, not from which Source it came from. A trending model is `models`, and also `open-source` if its weights are open.
 
 Set `"tagged_by": "agent"`. (Jev will later tag Stories instead, and the Digest marks which tagger was used.)
 
@@ -65,7 +65,7 @@ No hype words ("groundbreaking", "revolutionary", "game-changer"). No speculatio
 }
 ```
 
-Do not add fields for coverage, preference or order. `render` computes those from `item_ids` and `config/preferences.yaml`.
+Do not add fields for coverage or order. `render` computes those from `item_ids` and the Tags.
 
 ## Check before finishing
 

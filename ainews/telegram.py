@@ -1,8 +1,7 @@
-"""Telegram: a header message, one message per Story, and 👍/👎 Feedback collection.
+"""Telegram: one message per Edition, one line per Story, grouped by primary Tag.
 
-Each Story gets its own message so the owner can react to it. Reactions in a channel
-are anonymous, so the bot reads their totals (`message_reaction_count` updates) at the
-start of each Run. Telegram keeps updates for about 24 hours.
+Each line links to the Story's page, where the Summary, detail and 👍/👎 live. An Edition
+too long for one message is split between Tag groups, never inside one.
 """
 
 import os
@@ -12,15 +11,10 @@ from html import escape as _escape
 import httpx
 
 from ainews import config
-from ainews.render import coverage_note, top, unavailable_note
+from ainews.render import group_heading, groups, unavailable_note
 
 LIMIT = 4096  # Telegram's maximum message length.
 ENV = ("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID")
-UP, DOWN = "👍", "👎"
-
-EMOJI = {"models": "🧠", "research": "📄", "agents": "🤖", "tools": "🛠", "open-source": "🔓",
-         "products": "📱", "industry": "💼", "policy": "⚖️", "hardware": "🔌", "robotics": "🦾",
-         "other": "📰"}
 
 
 def escape(text):
@@ -36,28 +30,29 @@ def check_env():
 
 # Messages
 
-def header_message(title, stories, failed, url):
-    lines = [f"<b>{escape(title)}</b>"]
+def edition_messages(title, stories, failed, page_url, story_url, tag_order):
+    """The Edition as one or more messages. story_url(story) gives each Story's page."""
+    head = [f"🗞 <b>{escape(title)}</b> · "
+            + (f"{len(stories)} Stories" if stories else "nothing new")]
     if failed:
-        lines.append(f"⚠️ {escape(unavailable_note(failed))}")
-    if not stories:
-        lines.append("Nothing new since the last Digest.")
-        return "\n\n".join(lines)
-    preferred = sum(1 for s in stories if s["level"] == "preferred")
-    lines.append(f"{len(stories)} Stories · {preferred} preferred")
-    lines.append(f"React {UP} or {DOWN} to any Story below. It feeds the Source health report.")
-    lines.append(f'<a href="{_escape(url)}">Open the full Digest →</a>')
-    return "\n\n".join(lines)
+        head.append(f"⚠️ {escape(unavailable_note(failed))}")
+    footer = f'<a href="{_escape(page_url)}">Open the day\'s page →</a>'
 
+    blocks = []
+    for tag, group in groups(stories, tag_order):
+        lines = [f"<b>{group_heading(tag)}</b>"]
+        lines += [f'• <a href="{_escape(story_url(s))}">{escape(s["title"])}</a>' for s in group]
+        blocks.append("\n".join(lines))
 
-def story_message(story, url):
-    emoji = EMOJI.get(story["tags"][0], "📰")
-    meta = f"<i>{escape(' · '.join(story['tags']))} · {coverage_note(story)}</i>"
-    link = f'<a href="{_escape(url)}">Read more →</a>'
-    title = f"{emoji} <b>{escape(story['title'])}</b>"
-    if story["level"] == "muted":  # Muted Stories stay compact, as on the page.
-        return f"{title}\n{meta} · {link}"
-    return f"{title}\n{escape(story['summary'])}\n{meta} · {link}"
+    messages, current = [], "\n".join(head)
+    for block in blocks + [footer]:
+        candidate = f"{current}\n\n{block}"
+        if len(candidate) > LIMIT and current:
+            messages.append(current)
+            candidate = block
+        current = candidate
+    messages.append(current)
+    return messages
 
 
 def failure_message(title, reason):
@@ -76,9 +71,8 @@ def health_message(rows, url):
         lines.append("No Sources flagged this week.")
     rated = sorted((r for r in rows if r["up"] or r["down"]), key=lambda r: r["down"] - r["up"])
     if rated:
-        lines += ["", "Feedback, last 30 days:"]
-        lines.extend(f"• {escape(r['name'])}: {r['up']} {UP} / {r['down']} {DOWN}"
-                     for r in rated[:8])
+        lines += ["", "Votes, last 30 days:"]
+        lines.extend(f"• {escape(r['name'])}: {r['up']} 👍 / {r['down']} 👎" for r in rated[:8])
     lines += ["", f'<a href="{_escape(url)}">Full report →</a>']
     return "\n".join(lines)
 
@@ -115,49 +109,9 @@ def send(text, silent=False):
     return result["message_id"]
 
 
-def chosen(stories, settings):
-    """Which Stories get their own message: all, or the top N (topped up from neutral)."""
-    if settings["telegram_story_messages"] == "all":
-        return list(stories)
-    return top(stories, settings["telegram_top_n"])
-
-
-def send_digest(title, stories, failed, url, story_url):
-    """Send the header, then one silent message per chosen Story. Returns {index: message id}."""
-    settings = config.settings()
-    send(header_message(title, stories, failed, url))
-    sent = {}
-    for story in chosen(stories, settings):
-        time.sleep(settings["telegram_gap_seconds"])  # Channels allow about 20 messages a minute.
-        index = stories.index(story)
-        sent[index] = send(story_message(story, story_url(index)), silent=True)
-    return sent
-
-
-# Feedback
-
-def reaction_counts(update, chat_id):
-    """(message_id, 👍 count, 👎 count) from a message_reaction_count update, else None."""
-    counts = update.get("message_reaction_count")
-    if not counts or str(counts["chat"]["id"]) != str(chat_id):
-        return None
-    totals = {r["type"].get("emoji"): r["total_count"] for r in counts["reactions"]
-              if r["type"].get("type") == "emoji"}
-    return counts["message_id"], totals.get(UP, 0), totals.get(DOWN, 0)
-
-
-def apply_updates(state, updates, chat_id):
-    """Record the latest 👍/👎 totals for Story messages. Returns True if state changed."""
-    for update in updates:
-        state["telegram_offset"] = update["update_id"] + 1
-        counts = reaction_counts(update, chat_id)
-        entry = state.get("feedback", {}).get(str(counts[0])) if counts else None
-        if entry:
-            entry["up"], entry["down"] = counts[1], counts[2]
-    return bool(updates)
-
-
-def collect_feedback(state):
-    updates = api("getUpdates", {"offset": state.get("telegram_offset", 0), "timeout": 0,
-                                 "allowed_updates": ["message_reaction_count"]})
-    return apply_updates(state, updates, os.environ["TELEGRAM_CHAT_ID"])
+def send_all(messages):
+    """Only the first message notifies; the rest of a long Edition arrives silently."""
+    for n, text in enumerate(messages):
+        if n:
+            time.sleep(1)
+        send(text, silent=n > 0)

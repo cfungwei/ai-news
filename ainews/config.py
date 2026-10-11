@@ -19,9 +19,6 @@ ITEMS_FILE = BUILD / "items.json"
 STORIES_FILE = BUILD / "stories.json"
 SEEN_FILE = STATE / "seen.json"
 
-LEVELS = ("preferred", "neutral", "muted")
-
-
 def _load(name):
     return yaml.safe_load((CONFIG / name).read_text())
 
@@ -36,10 +33,6 @@ def sources():
 
 def tags():
     return _load("tags.yaml")["tags"]
-
-
-def preferences():
-    return _load("preferences.yaml")["preferences"]
 
 
 def tz():

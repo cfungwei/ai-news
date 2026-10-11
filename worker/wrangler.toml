@@ -1,0 +1,12 @@
+# Feedback votes for the Story pages. Free plan: Workers + D1.
+name = "ai-news-votes"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://cfungwei.github.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ai-news-votes"
+database_id = "REPLACE_AFTER_d1_create"
