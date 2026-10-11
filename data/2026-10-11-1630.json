@@ -1,0 +1,364 @@
+{
+ "date": "2026-10-11",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Qualcomm CEO says AI firms want phones running 100B-parameter models by 2028",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Qualcomm's CEO reportedly said AI companies want smartphones capable of continuously running 100-billion-parameter models by 2028, a claim shared on r/LocalLLaMA via a social media post.",
+   "more": "The claim originates from a social media post and was relayed to r/LocalLLaMA without additional sourcing or context in the excerpt available. It suggests AI companies are pushing chipmakers toward on-device inference at a scale far beyond what current phone hardware supports, since 100-billion-parameter models typically require data-center-grade accelerators to run continuously. If accurate, it would mark a significant ambition for edge AI hardware roadmaps over the next two years. No technical detail on power, memory, or architecture requirements to achieve this was included.",
+   "item_ids": [
+    "localllama:t3_1x2z14s"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x2z14s",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Qualcomm CEO reveals AI companies want phones running 100-billion-parameter models continuously by 2028.",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2z14s/qualcomm_ceo_reveals_ai_companies_want_phones/",
+     "published": "2026-10-11T04:37:21+00:00",
+     "excerpt": "https://x.com/firesidealpha/status/2108930562794864912 submitted by /u/Recoil42 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T04:37:21+00:00"
+  },
+  {
+   "title": "AMD reportedly raises GDDR6 prices for board partners",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "AMD has reportedly raised GDDR6 memory prices charged to its graphics board partners, prompting speculation on r/LocalLLaMA about whether Nvidia will follow with its own price increases.",
+   "more": "The report, shared on r/LocalLLaMA, says AMD increased GDDR6 prices for the partners that build its graphics cards, which could push consumer GPU prices higher. The discussion ties this to Nvidia's recent discontinuation of the RTX 5090 in favor of its RTX Pro lineup, with posters speculating Nvidia could raise prices next. No official statement from AMD or pricing figures were included in the excerpt. The development is relevant to anyone sizing GPU purchases for local AI inference, where VRAM cost is a major factor.",
+   "item_ids": [
+    "localllama:t3_1x2xatx"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x2xatx",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "AMD Reportedly Raises GDDR6 Prices for Board Partners",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xatx/amd_reportedly_raises_gddr6_prices_for_board/",
+     "published": "2026-10-11T03:02:30+00:00",
+     "excerpt": "Is an AMD price incoming as well? Nvidia just discontinued the 5090 in favor of RTX Pros submitted by /u/chemist_slime [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T03:02:30+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA user details a 4x R9700 build for a 10-person startup",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A poster on r/LocalLLaMA shared specs for an $18k local inference rig built for a startup, using four AMD Radeon R9700 AI Pro GPUs for a total of 128GB VRAM to serve Qwen and DeepSeek models.",
+   "more": "The build uses a Threadripper 9970X with 128GB of ECC DDR5 RAM and four undervolted AMD Radeon R9700 AI Pro GPUs, each capped under 210W, for a combined 128GB of VRAM, at a total cost of about $18,000. It serves models including Qwen 3.8 Next Flash and DeepSeek V4 Flash using a fork of the Radiance inference engine. The poster reported throughput of roughly 6,300-6,800 tokens/second aggregate prefill and several hundred tokens/second aggregate decode across 16 concurrent sessions, with context windows ranging from 4k to 128k. The post is aimed at other self-hosters sizing similar multi-GPU AMD setups.",
+   "item_ids": [
+    "localllama:t3_1x2u742"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x2u742",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Building a 4x R9700 setup for a 10 person startup",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2u742/building_a_4x_r9700_setup_for_a_10_person_startup/",
+     "published": "2026-10-11T00:20:07+00:00",
+     "excerpt": "Just wanted to share a build I am doing for a client. $18k. Specs: Threadripper 9970x 128gb DDR5 ECC 5600 4x AMD Radeon R9700 AI Pro 32gb(128gb total VRAM) 1600W PSU(GPUs are undervolted and under 210w each) Engine : using a fork of Radiance to serve Qwen 3.8 Next flash/27b and DSV4 Flash Results: 16 concurrent sessions Qwen 3.8 27b MXFP4 6.3-6.8k aggregate prefill tok/s 900 t/s - 80t/s aggregate decode(range: 4k - 128k context each) Qwen 3.8 Next flash int4fp8 48K/user | 6,880 tok/s | 538.5 tok"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T00:20:07+00:00"
+  },
+  {
+   "title": "Odyssey releases Odyssey-3, a free-to-try generative world model",
+   "tags": [
+    "models",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Odyssey has opened a public research preview of Odyssey-3, a 14-billion-parameter world model that generates interactive environments from text and reportedly controls robots, drones, and even GTA V.",
+   "more": "Odyssey-3 generates interactive environments in real time from text prompts, and the company reports it can also be used to control robots and drones, as well as interface with the game GTA V. At 14 billion parameters, it is comparatively modest in size next to large language models. Odyssey claims top scores on physics benchmarks, though The Decoder notes the methodology behind those claims has limits. It is unclear whether the model's weights will be released or whether the preview will remain cloud-hosted only.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41313"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41313",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Odyssey-3 is a new generative world model that you can try for free",
+     "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
+     "published": "2026-10-11T07:48:01+00:00",
+     "excerpt": "Odyssey is making its world model Odyssey-3 available as a public research preview. The 14-billion-parameter model generates interactive environments from text prompts in real time and can reportedly control robots, drones, and even GTA V. Odyssey claims top scores on physics benchmarks, though the methodology behind those results has limits. The article Odyssey-3 is a new generative world model that you can try for free appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T07:48:01+00:00"
+  },
+  {
+   "title": "Trending on Hugging Face: ema-lightning, a Turkish text-to-speech model",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "ema-lightning, an Apache-2.0 licensed Turkish text-to-speech model using flow matching, is trending on Hugging Face with 350 likes and over 18,000 downloads.",
+   "more": "The model specializes in Turkish speech synthesis and uses a flow-matching approach, a technique increasingly common in modern TTS systems for faster, higher-quality generation. It is openly licensed under Apache 2.0, so its weights can be freely used and modified. The listing links to an arXiv paper describing the underlying method. No details on training data, model size, or benchmark comparisons to other TTS systems are available from the listing itself.",
+   "item_ids": [
+    "hf-trending:canberkkkkkk/ema-lightning"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:canberkkkkkk/ema-lightning",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: canberkkkkkk/ema-lightning",
+     "url": "https://huggingface.co/canberkkkkkk/ema-lightning",
+     "published": "2026-10-01T14:18:49+00:00",
+     "excerpt": "text-to-speech, 350 likes, 18079 downloads. Tags: ema-lightning, text-to-speech, tts, turkish, speech-synthesis, flow-matching, tr, arxiv:2405.14867, license:apache-2.0, region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-01T14:18:49+00:00"
+  },
+  {
+   "title": "The Verge chronicles the learning curve of running AI models locally",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Verge writer begins testing local AI setups, including Hermes and Qwen models on a Mac Studio, citing privacy concerns with cloud AI services as the motivation.",
+   "more": "The piece is framed as the first entry in an ongoing diary about moving away from cloud AI services toward self-hosted models. The author cites discomfort with sharing personal data with cloud providers as the main driver, and describes the process of running models like Hermes and Qwen on a Mac Studio as both exciting and overwhelming. It reflects a broader trend of mainstream tech writers experimenting with local inference tools that were previously the domain of enthusiasts. Specific performance results or hardware benchmarks were not detailed in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1008484"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1008484",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+     "published": "2026-10-11T11:00:00+00:00",
+     "excerpt": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T11:00:00+00:00"
+  },
+  {
+   "title": "\"Build your own decision model\" post gains traction on Hacker News",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A blog post proposing how to build a personal decision model drew over 300 points and 75 comments on Hacker News.",
+   "more": "The post, titled \"Build your own decision model,\" reached 336 points and 75 comments on Hacker News, indicating strong reader interest. The excerpt available does not include the article's own text, only Hacker News's point and comment counts. Without the underlying content, the specific approach, tools, or AI techniques the post recommends for building a decision model are unclear.",
+   "item_ids": [
+    "hn:50037949"
+   ],
+   "items": [
+    {
+     "id": "hn:50037949",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Build your own decision model",
+     "url": "https://nishtahir.com/build-your-own-decision-model/",
+     "published": "2026-10-10T22:50:10+00:00",
+     "excerpt": "336 points, 75 comments. Discussion: https://news.ycombinator.com/item?id=50037949"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-10T22:50:10+00:00"
+  },
+  {
+   "title": "a16z data shows falling AI token prices are fueling more demand, not less",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "a16z data shows a Jevons paradox in AI: falling token prices are increasing total demand even as H100 rental prices stay flat, which The Decoder calls Nvidia CEO Jensen Huang's best-case outcome.",
+   "more": "The analysis argues that cheaper inference is not shrinking the AI compute market but expanding it, since lower token prices are drawing in more usage overall. H100 GPU rental prices are reportedly holding steady or even climbing despite the drop in token costs, suggesting compute scarcity persists. The article frames this as favorable for chip makers and cloud providers, since demand growth offsets falling per-token margins. It also notes the risk: if demand growth ever flattens while prices keep falling, the economics could reverse and hit the chain from chipmakers to cloud providers.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41397"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41397",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Cheaper AI tokens are driving more demand, and that's Jensen Huang's best-case scenario",
+     "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
+     "published": "2026-10-11T09:49:59+00:00",
+     "excerpt": "Data from a16z shows a Jevons paradox in the AI market: token prices keep falling, but H100 GPU rental prices hold steady or climb. Cheaper AI drives demand faster than costs drop. If that demand flattens, the chain from chip makers to cloud providers takes a hit. The article Cheaper AI tokens are driving more demand, and that's Jensen Huang's best-case scenario appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T09:49:59+00:00"
+  },
+  {
+   "title": "Microsoft's Nadella adopts Trump's \"super intelligence\" term, takes aim at rivals",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft CEO Satya Nadella now uses \"super intelligence\" instead of \"artificial intelligence,\" echoing Trump's preferred term, in a blog post that frames rival models as insider security threats.",
+   "more": "The Decoder reports that Nadella's language shift follows the Trump administration's preference for the term \"super intelligence\" over \"artificial intelligence.\" In the same blog post, Nadella reportedly frames AI models generally, including those from OpenAI and Anthropic, as posing insider security risks. The outlet characterizes the underlying motive as competitive positioning: Microsoft faces pressure as rival labs push their own models to become the primary interface for computing. No specific product or policy announcement accompanied the rhetorical shift.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41386"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41386",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Microsoft's Nadella bows to Trump's language diktat on \"Super Intelligence\" and uses it to attack OpenAI and Anthropic",
+     "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
+     "published": "2026-10-11T09:08:35+00:00",
+     "excerpt": "Microsoft CEO Satya Nadella now calls artificial intelligence \"super intelligence\" instead of artificial intelligence, falling in line with Trump's preferred language. In his latest blog post, he frames AI models as insider security threats, taking yet another shot at OpenAI and Anthropic. The real motive is business: Microsoft risks falling behind as AI labs turn their models into the primary computer interface. The article Microsoft's Nadella bows to Trump's language diktat on \"Super Intellige"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T09:08:35+00:00"
+  },
+  {
+   "title": "ArXiv limits submissions to two per author per month amid AI paper flood",
+   "tags": [
+    "research",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Starting this month, arXiv caps submissions at two per author per month after monthly volume doubled in two years, with cs.AI submissions growing more than sixfold.",
+   "more": "ArXiv says the new cap responds to a small fraction of authors flooding the platform with large volumes of low-quality papers, which has overwhelmed its volunteer moderation system. Submissions overall have doubled over two years, but the cs.AI category has seen more than a sixfold increase, reflecting the surge of AI-related research activity. The cap applies per person per month rather than per paper or per lab. ArXiv did not detail how the limit will be enforced for authors with multiple affiliations or collaborations.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41390"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41390",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server",
+     "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/",
+     "published": "2026-10-11T09:17:32+00:00",
+     "excerpt": "Starting October 2026, arXiv will cap submissions at two per person per month. Monthly submissions have doubled in two years, and in the cs.AI category they've grown more than sixfold. According to arXiv, a small fraction of authors are flooding the platform with low-quality papers, overwhelming its volunteer moderators. The article ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T09:17:32+00:00"
+  },
+  {
+   "title": "Developer uses 500B tokens of AI agent work to decompile a first-person shooter",
+   "tags": [
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A developer documents a project using AI agents to decompile a first-person shooter game, consuming roughly 500 billion tokens in the process, in a post that drew over 100 Hacker News points.",
+   "more": "The project, detailed in a blog post, describes letting AI agents work through the reverse-engineering and decompilation of a first-person shooter's binary. The scale of the effort, about 500 billion tokens, points to an extended, iterative agentic workflow rather than a single-shot task. The Hacker News discussion drew 104 points and 75 comments, suggesting notable interest in the technique among developers. Specifics on which AI models or agent frameworks were used were not included in the excerpt.",
+   "item_ids": [
+    "hn:50039092"
+   ],
+   "items": [
+    {
+     "id": "hn:50039092",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+     "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+     "published": "2026-10-11T02:02:38+00:00",
+     "excerpt": "104 points, 75 comments. Discussion: https://news.ycombinator.com/item?id=50039092"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T02:02:38+00:00"
+  },
+  {
+   "title": "Wired tests Google's AI Playground for making video games",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Wired writer tried building video games with Google's AI Playground tool and came away calling the results \"terrible,\" describing the experience as a long slog through AI-generated game content.",
+   "more": "The article is a hands-on review of Google's AI Playground, a tool aimed at letting users generate video games with AI assistance. The writer's verdict is sharply negative, describing the output as \"slop\" and the process as a grind rather than a creative shortcut. No specifics on the tool's underlying model, pricing, or release status are given in the excerpt. The piece reads as a critique of the current state of AI-assisted game generation rather than a technical breakdown of the product.",
+   "item_ids": [
+    "wired-ai:6ac932eaafef77f50434f289"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ac932eaafef77f50434f289",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "I Made Terrible Games With Google’s AI Playground",
+     "url": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
+     "published": "2026-10-11T11:30:00+00:00",
+     "excerpt": "A long day’s haul in the video game slop mines."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T11:30:00+00:00"
+  },
+  {
+   "title": "Simon Willison notes Dwarf Fortress has adopted version control",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison highlights that Dwarf Fortress, long known for not using version control, has now started using it, based on developer Tarn Adams's own comments over the years.",
+   "more": "The post is not about AI; it traces the long-running game Dwarf Fortress's history of avoiding version control, quoting developer Tarn Adams describing his discomfort with it as far back as 2013. Willison expresses surprise and mild disappointment that the practice, which he saw as part of the game's idiosyncratic development culture, has ended. No AI tools or models are discussed in the piece.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/11/dwarf-fortress/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Dwarf Fortress uses version control now",
+     "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+     "published": "2026-10-11T00:52:37+00:00",
+     "excerpt": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time: March 2013: \"I don't use version control -- I didn't like the feeling of having the code get committed into a black box thi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T00:52:37+00:00"
+  },
+  {
+   "title": "Python 3.15.0 lands in GitHub's actions/python-versions repo",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison notes that Python 3.15.0 has been added to GitHub's actions/python-versions repo, letting CI workflows test against the new release, after he had ChatGPT poll for the update.",
+   "more": "The update means GitHub Actions testing matrices can now include \"3.15\" to run tests against the new Python 3.15.0 release. Willison mentions he had previously asked ChatGPT to monitor the actions/python-versions repository and notify him once the update landed, a minor use of an AI agent for a monitoring task rather than an AI development itself. The post is primarily a developer-tooling note rather than an AI news item.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/10/python-actions/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/10/python-actions/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Python 3.15.0 added to actions/python-versions",
+     "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+     "published": "2026-10-10T23:58:04+00:00",
+     "excerpt": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me about it Now that this has landed, you can add \"3.15\" to a GitHub Actions testing matrix to run tests against the new Python 3.15.0 release . Tags: github , python , github-actions , chatgpt"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-10T23:58:04+00:00"
+  }
+ ]
+}
