@@ -12,24 +12,30 @@ body { margin:0; background:var(--bg); color:var(--fg);
        font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
 main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
 a { color:var(--accent); }
-header p, .meta, footer { color:var(--muted); font-size:14px; }
-h1 { font-size:28px; margin:0 0 4px; }
-h2 { font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
-     border-bottom:1px solid var(--line); padding-bottom:6px; margin:40px 0 8px; }
-article { padding:16px 0; border-bottom:1px solid var(--line); }
-article h3 { font-size:18px; line-height:1.35; margin:0 0 4px; }
+header p, .meta, footer, nav { color:var(--muted); font-size:14px; }
+h1 { font-size:28px; line-height:1.25; margin:0 0 6px; }
+h2 { font-size:20px; border-bottom:2px solid var(--fg); padding-bottom:4px; margin:44px 0 8px; }
+h3 { font-size:13px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted);
+     margin:22px 0 4px; }
+ul.stories { list-style:none; padding:0; margin:0; }
+ul.stories li { padding:8px 0; border-bottom:1px solid var(--line); }
+ul.stories a { color:var(--fg); text-decoration:none; font-weight:600; }
+ul.stories a:hover { color:var(--accent); }
+ul.stories .meta { margin-left:6px; font-weight:400; }
 .tag { display:inline-block; background:var(--tag-bg); border-radius:4px; padding:0 6px;
        font-size:12px; margin-right:4px; }
-details summary { cursor:pointer; color:var(--accent); font-size:14px; margin-top:6px; }
-details ul { padding-left:20px; font-size:14px; }
-.compact summary { color:var(--fg); font-size:15px; }
-.compact summary .meta { margin-left:4px; }
+.summary { font-size:18px; }
+.sources { padding-left:20px; font-size:14px; }
 .warning { background:var(--card); border:1px solid var(--line); border-radius:6px;
            padding:10px 14px; font-size:14px; }
-ol.digests { list-style:none; padding:0; }
-ol.digests li { padding:10px 0; border-bottom:1px solid var(--line); }
-article:target { background:var(--card); outline:2px solid var(--accent); outline-offset:6px;
-                 border-radius:4px; }
+.votes { display:flex; gap:8px; margin:16px 0 20px; }
+.votes button { font:inherit; font-size:16px; padding:6px 14px; border-radius:999px;
+                border:1px solid var(--line); background:var(--card); color:var(--fg);
+                cursor:pointer; min-width:72px; }
+.votes button[aria-pressed="true"] { border-color:var(--accent); outline:1px solid var(--accent); }
+.votes button:disabled { opacity:.5; cursor:default; }
+ol.days { list-style:none; padding:0; }
+ol.days li { padding:10px 0; border-bottom:1px solid var(--line); }
 .table { overflow-x:auto; }
 table { border-collapse:collapse; width:100%; font-size:14px; }
 th, td { text-align:right; padding:8px 6px; border-bottom:1px solid var(--line);
@@ -37,16 +43,11 @@ th, td { text-align:right; padding:8px 6px; border-bottom:1px solid var(--line);
 th { color:var(--muted); font-weight:600; font-size:12px; }
 th:first-child, td.name { text-align:left; white-space:normal; }
 .flag { color:var(--accent); font-size:12px; }
-.edition h2 { font-size:20px; letter-spacing:0; text-transform:none; color:var(--fg);
-              border-bottom:2px solid var(--fg); margin-top:48px; }
-h3.level { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
-           margin:24px 0 4px; }
 </style></head>
 <body><main><header><h1>Source health</h1>
 <p>Updated 2026-10-11. Tracking since 2026-09-27. Flags are suggestions; Sources are only
 added or dropped by editing <code>config/sources.yaml</code>.</p></header>
 <div class="table"><table>
-<thead><tr><th>Source</th><th>Items 7d</th><th>Items 30d</th><th>Preferred 30d</th>
-<th>Failed 7d</th><th>👍 / 👎 30d</th><th>Last Item</th></tr></thead>
-<tbody><tr><td class="name">Simon Willison<div class="flag">⚑ more 👎 than 👍</div></td><td>23</td><td>35</td><td>26</td><td>0</td><td>0 / 1</td><td>2026-10-11</td></tr><tr><td class="name">Meta AI<div class="flag">⚑ no Items in 7 days</div></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0 / 0</td><td>—</td></tr><tr><td class="name">TechCrunch AI</td><td>66</td><td>145</td><td>50</td><td>0</td><td>3 / 0</td><td>2026-10-11</td></tr><tr><td class="name">The Decoder</td><td>50</td><td>91</td><td>57</td><td>0</td><td>1 / 0</td><td>2026-10-11</td></tr><tr><td class="name">The Verge AI</td><td>45</td><td>88</td><td>29</td><td>0</td><td>2 / 0</td><td>2026-10-11</td></tr><tr><td class="name">Hugging Face Daily Papers</td><td>36</td><td>82</td><td>82</td><td>0</td><td>3 / 0</td><td>2026-10-11</td></tr><tr><td class="name">Hacker News</td><td>26</td><td>59</td><td>39</td><td>0</td><td>2 / 0</td><td>2026-10-11</td></tr><tr><td class="name">r/LocalLLaMA</td><td>25</td><td>50</td><td>36</td><td>2</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">Ars Technica AI</td><td>14</td><td>33</td><td>12</td><td>0</td><td>2 / 0</td><td>2026-10-10</td></tr><tr><td class="name">Wired AI</td><td>16</td><td>32</td><td>12</td><td>0</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">OpenAI</td><td>13</td><td>26</td><td>9</td><td>0</td><td>0 / 0</td><td>2026-10-10</td></tr><tr><td class="name">Latent Space</td><td>10</td><td>20</td><td>15</td><td>0</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">Hugging Face Trending Models</td><td>7</td><td>18</td><td>18</td><td>0</td><td>1 / 0</td><td>2026-10-11</td></tr><tr><td class="name">MIT Technology Review AI</td><td>8</td><td>15</td><td>7</td><td>0</td><td>1 / 0</td><td>2026-10-10</td></tr><tr><td class="name">Hugging Face Blog</td><td>5</td><td>13</td><td>13</td><td>0</td><td>0 / 0</td><td>2026-10-10</td></tr><tr><td class="name">Anthropic</td><td>5</td><td>7</td><td>1</td><td>0</td><td>0 / 0</td><td>2026-10-09</td></tr><tr><td class="name">Google DeepMind</td><td>1</td><td>3</td><td>3</td><td>0</td><td>0 / 0</td><td>2026-10-07</td></tr><tr><td class="name">Mistral</td><td>1</td><td>2</td><td>2</td><td>0</td><td>0 / 0</td><td>2026-10-07</td></tr><tr><td class="name">Google AI Blog</td><td>1</td><td>2</td><td>1</td><td>0</td><td>0 / 0</td><td>2026-10-08</td></tr><tr><td class="name">Import AI</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0 / 0</td><td>2026-10-06</td></tr></tbody></table></div>
+<thead><tr><th>Source</th><th>Items 7d</th><th>Items 30d</th><th>Failed 7d</th><th>👍 / 👎 30d</th><th>Last Item</th></tr></thead>
+<tbody><tr><td class="name">Meta AI<div class="flag">⚑ no Items in 7 days</div></td><td>0</td><td>0</td><td>0</td><td>0 / 0</td><td>—</td></tr><tr><td class="name">TechCrunch AI</td><td>66</td><td>145</td><td>0</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">The Decoder</td><td>50</td><td>91</td><td>0</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">The Verge AI</td><td>45</td><td>88</td><td>0</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">Hugging Face Daily Papers</td><td>36</td><td>82</td><td>0</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">Hacker News</td><td>26</td><td>59</td><td>0</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">r/LocalLLaMA</td><td>25</td><td>50</td><td>2</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">Simon Willison</td><td>23</td><td>35</td><td>0</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">Ars Technica AI</td><td>14</td><td>33</td><td>0</td><td>0 / 0</td><td>2026-10-10</td></tr><tr><td class="name">Wired AI</td><td>16</td><td>32</td><td>0</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">OpenAI</td><td>13</td><td>26</td><td>0</td><td>0 / 0</td><td>2026-10-10</td></tr><tr><td class="name">Latent Space</td><td>10</td><td>20</td><td>0</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">Hugging Face Trending Models</td><td>7</td><td>18</td><td>0</td><td>0 / 0</td><td>2026-10-11</td></tr><tr><td class="name">MIT Technology Review AI</td><td>8</td><td>15</td><td>0</td><td>0 / 0</td><td>2026-10-10</td></tr><tr><td class="name">Hugging Face Blog</td><td>5</td><td>13</td><td>0</td><td>0 / 0</td><td>2026-10-10</td></tr><tr><td class="name">Anthropic</td><td>5</td><td>7</td><td>0</td><td>0 / 0</td><td>2026-10-09</td></tr><tr><td class="name">Google DeepMind</td><td>1</td><td>3</td><td>0</td><td>0 / 0</td><td>2026-10-07</td></tr><tr><td class="name">Mistral</td><td>1</td><td>2</td><td>0</td><td>0 / 0</td><td>2026-10-07</td></tr><tr><td class="name">Google AI Blog</td><td>1</td><td>2</td><td>0</td><td>0 / 0</td><td>2026-10-08</td></tr><tr><td class="name">Import AI</td><td>1</td><td>1</td><td>0</td><td>0 / 0</td><td>2026-10-06</td></tr></tbody></table></div>
 <footer><p><a href="../">All Digests</a></p></footer></main></body></html>

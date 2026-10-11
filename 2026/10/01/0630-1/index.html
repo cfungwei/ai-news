@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google launches Gemini 4 Argon, restricts early access to trusted testers</title><style>
+:root { --bg:#fbfaf7; --fg:#1f1d1a; --muted:#6b665e; --line:#e4e0d8; --accent:#9a4d12;
+        --tag-bg:#f0ebe2; --card:#ffffff; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#161513; --fg:#ebe7df; --muted:#9d978c; --line:#2e2b27; --accent:#f0a35e;
+          --tag-bg:#26231f; --card:#1d1b18; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg);
+       font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+a { color:var(--accent); }
+header p, .meta, footer, nav { color:var(--muted); font-size:14px; }
+h1 { font-size:28px; line-height:1.25; margin:0 0 6px; }
+h2 { font-size:20px; border-bottom:2px solid var(--fg); padding-bottom:4px; margin:44px 0 8px; }
+h3 { font-size:13px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted);
+     margin:22px 0 4px; }
+ul.stories { list-style:none; padding:0; margin:0; }
+ul.stories li { padding:8px 0; border-bottom:1px solid var(--line); }
+ul.stories a { color:var(--fg); text-decoration:none; font-weight:600; }
+ul.stories a:hover { color:var(--accent); }
+ul.stories .meta { margin-left:6px; font-weight:400; }
+.tag { display:inline-block; background:var(--tag-bg); border-radius:4px; padding:0 6px;
+       font-size:12px; margin-right:4px; }
+.summary { font-size:18px; }
+.sources { padding-left:20px; font-size:14px; }
+.warning { background:var(--card); border:1px solid var(--line); border-radius:6px;
+           padding:10px 14px; font-size:14px; }
+.votes { display:flex; gap:8px; margin:16px 0 20px; }
+.votes button { font:inherit; font-size:16px; padding:6px 14px; border-radius:999px;
+                border:1px solid var(--line); background:var(--card); color:var(--fg);
+                cursor:pointer; min-width:72px; }
+.votes button[aria-pressed="true"] { border-color:var(--accent); outline:1px solid var(--accent); }
+.votes button:disabled { opacity:.5; cursor:default; }
+ol.days { list-style:none; padding:0; }
+ol.days li { padding:10px 0; border-bottom:1px solid var(--line); }
+.table { overflow-x:auto; }
+table { border-collapse:collapse; width:100%; font-size:14px; }
+th, td { text-align:right; padding:8px 6px; border-bottom:1px solid var(--line);
+         white-space:nowrap; }
+th { color:var(--muted); font-weight:600; font-size:12px; }
+th:first-child, td.name { text-align:left; white-space:normal; }
+.flag { color:var(--accent); font-size:12px; }
+</style></head>
+<body><main><nav><a href="../">← AI Digest · 2026-10-01</a> · 06:30 Edition</nav>
+<div class="votes">
+<button id="up" aria-label="Thumbs up" disabled>👍 <span>–</span></button>
+<button id="down" aria-label="Thumbs down" disabled>👎 <span>–</span></button>
+</div>
+<h1>Google launches Gemini 4 Argon, restricts early access to trusted testers</h1>
+<p class="meta"><span class="tag">models</span> (tagged by fallback) · 5 sources</p>
+<p class="summary">Google DeepMind released Gemini 4 Argon, a new frontier model aimed at software engineering, enterprise knowledge work, and cybersecurity defense, but is initially limiting access to select trusted testers rather than the public.</p>
+<p>Gemini 4 Argon is Google&#x27;s first frontier model release in more than seven months, and in independent testing it matches OpenAI&#x27;s GPT-6 Astra while still trailing Anthropic&#x27;s Claude Opus 5.5. The model uses more than twice as many tokens per task as Astra, though its per-token price is comparatively low. Google DeepMind SVP Koray Kavukcuoglu says it delivers frontier performance in complex workflows including legal and finance work and cybersecurity defense. For now only a small group of testers, including &#x27;trusted cyber defenders,&#x27; can use it, with broader API and paid-tier access to follow later.</p>
+<h3>Sources</h3>
+<ul class="sources"><li><a href="https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/">Google DeepMind: Gemini 4 Argon: our next era of frontier intelligence</a></li><li><a href="https://www.theverge.com/tech/1002980/google-gemini-4-argon">The Verge AI: Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now</a></li><li><a href="https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/">Ars Technica AI: Google announces Gemini 4 Argon AI model, but you can&#x27;t use it yet</a></li><li><a href="https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/">The Decoder: Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn&#x27;t take a clear lead</a></li><li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/">Hacker News: Gemini 4 Argon</a></li></ul>
+<footer><p><a href="../../../../">All Digests</a></p></footer></main><script>
+(() => {
+  const api = "", story = "2026-10-01-0630-1";
+  const bar = document.querySelector(".votes");
+  if (!api) { bar.hidden = true; return; }
+  let voter;
+  try {
+    voter = localStorage.getItem("ai-news-voter");
+    if (!voter) { voter = crypto.randomUUID(); localStorage.setItem("ai-news-voter", voter); }
+  } catch (e) { voter = crypto.randomUUID(); }
+  const up = document.getElementById("up"), down = document.getElementById("down");
+  let mine = 0;
+  function show(c) {
+    mine = c.mine;
+    up.querySelector("span").textContent = c.up;
+    down.querySelector("span").textContent = c.down;
+    up.setAttribute("aria-pressed", mine === 1);
+    down.setAttribute("aria-pressed", mine === -1);
+    up.disabled = down.disabled = false;
+  }
+  async function call(path, options) {
+    try { const r = await fetch(api + path, options); if (r.ok) show(await r.json()); }
+    catch (e) { /* Votes are optional; the page works without them. */ }
+  }
+  function vote(v) {
+    up.disabled = down.disabled = true;
+    call("/vote", { method: "POST", headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ story, voter, vote: mine === v ? 0 : v }) });
+  }
+  up.onclick = () => vote(1);
+  down.onclick = () => vote(-1);
+  call("/votes?story=" + encodeURIComponent(story) + "&voter=" + encodeURIComponent(voter));
+})();
+</script></body></html>
