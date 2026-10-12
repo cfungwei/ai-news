@@ -4775,7 +4775,7 @@
    "up": 0
   }
  },
- "last_digest": "2026-10-12T06:50:35.466362+00:00",
+ "last_digest": "2026-10-12T11:52:11.404482+00:00",
  "seen": {
   "anthropic": [
    "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -4932,7 +4932,8 @@
    "decoder:https://the-decoder.com/?p=41386",
    "decoder:https://the-decoder.com/?p=41313",
    "decoder:https://the-decoder.com/?p=41412",
-   "decoder:https://the-decoder.com/?p=41402"
+   "decoder:https://the-decoder.com/?p=41402",
+   "decoder:https://the-decoder.com/?p=41417"
   ],
   "deepmind": [
    "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -5062,7 +5063,10 @@
    "hf-papers:2609.38748",
    "hf-papers:2610.13021",
    "hf-papers:2610.07121",
-   "hf-papers:2610.12611"
+   "hf-papers:2610.12611",
+   "hf-papers:2610.12572",
+   "hf-papers:2610.13527",
+   "hf-papers:2610.12772"
   ],
   "hf-trending": [
    "hf-trending:convaiinnovations/laya",
@@ -5093,7 +5097,10 @@
    "hf-trending:jialinyyzz/humanizer",
    "hf-trending:google/embeddinggemma-2",
    "hf-trending:Qwen/Qwen-Image-2.1-Turbo",
-   "hf-trending:canberkkkkkk/ema-lightning"
+   "hf-trending:canberkkkkkk/ema-lightning",
+   "hf-trending:abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "hf-trending:ConwayResearch/Underdog-Saluki-27B-1.0",
+   "hf-trending:LiquidAI/d1-3B"
   ],
   "hn": [
    "hn:49855018",
@@ -5242,7 +5249,9 @@
    "localllama:t3_1x2u742",
    "localllama:t3_1x2z14s",
    "localllama:t3_1x2xatx",
-   "localllama:t3_1x37tg6"
+   "localllama:t3_1x37tg6",
+   "localllama:t3_1x3gpyi",
+   "localllama:t3_1x3th4p"
   ],
   "meta-ai": [
    "meta-ai:https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
@@ -5632,26 +5641,26 @@
   ]
  },
  "source_ok": {
-  "anthropic": "2026-10-12T06:50:35.466362+00:00",
-  "ars-ai": "2026-10-12T06:50:35.466362+00:00",
-  "decoder": "2026-10-12T06:50:35.466362+00:00",
-  "deepmind": "2026-10-12T06:50:35.466362+00:00",
-  "google-ai": "2026-10-12T06:50:35.466362+00:00",
-  "hf-blog": "2026-10-12T06:50:35.466362+00:00",
-  "hf-papers": "2026-10-12T06:50:35.466362+00:00",
-  "hf-trending": "2026-10-12T06:50:35.466362+00:00",
-  "hn": "2026-10-12T06:50:35.466362+00:00",
-  "import-ai": "2026-10-12T06:50:35.466362+00:00",
-  "latent-space": "2026-10-12T06:50:35.466362+00:00",
-  "localllama": "2026-10-11T16:48:55.349428+00:00",
-  "meta-ai": "2026-10-12T06:50:35.466362+00:00",
-  "mistral": "2026-10-12T06:50:35.466362+00:00",
-  "mit-tr-ai": "2026-10-12T06:50:35.466362+00:00",
-  "openai": "2026-10-12T06:50:35.466362+00:00",
-  "simonw": "2026-10-12T06:50:35.466362+00:00",
-  "techcrunch-ai": "2026-10-12T06:50:35.466362+00:00",
-  "verge-ai": "2026-10-12T06:50:35.466362+00:00",
-  "wired-ai": "2026-10-12T06:50:35.466362+00:00"
+  "anthropic": "2026-10-12T11:52:11.404482+00:00",
+  "ars-ai": "2026-10-12T11:52:11.404482+00:00",
+  "decoder": "2026-10-12T11:52:11.404482+00:00",
+  "deepmind": "2026-10-12T11:52:11.404482+00:00",
+  "google-ai": "2026-10-12T11:52:11.404482+00:00",
+  "hf-blog": "2026-10-12T11:52:11.404482+00:00",
+  "hf-papers": "2026-10-12T11:52:11.404482+00:00",
+  "hf-trending": "2026-10-12T11:52:11.404482+00:00",
+  "hn": "2026-10-12T11:52:11.404482+00:00",
+  "import-ai": "2026-10-12T11:52:11.404482+00:00",
+  "latent-space": "2026-10-12T11:52:11.404482+00:00",
+  "localllama": "2026-10-12T11:52:11.404482+00:00",
+  "meta-ai": "2026-10-12T11:52:11.404482+00:00",
+  "mistral": "2026-10-12T11:52:11.404482+00:00",
+  "mit-tr-ai": "2026-10-12T11:52:11.404482+00:00",
+  "openai": "2026-10-12T11:52:11.404482+00:00",
+  "simonw": "2026-10-12T11:52:11.404482+00:00",
+  "techcrunch-ai": "2026-10-12T11:52:11.404482+00:00",
+  "verge-ai": "2026-10-12T11:52:11.404482+00:00",
+  "wired-ai": "2026-10-12T11:52:11.404482+00:00"
  },
  "telegram_offset": 115081541,
  "telegram_sent": "2026-10-12-1130",

@@ -1,0 +1,242 @@
+{
+ "date": "2026-10-12",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "vLLM Semantic Router team releases Decision 3.0, open decision models 0.6B-27B",
+   "tags": [
+    "models",
+    "open-source",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "The vLLM Semantic Router team released Decision 3.0 (d3), Apache-2.0 multimodal decision models from 0.6B to 27B parameters that read text, images, and video.",
+   "more": "Decision 3.0 is built on Qwen3.5 (0.8B, 2B, 4B, and 9B) and Qwen3.8-27B, with vision encoders adding 0.33B to the 4B model and 0.46B to the 27B model. The models support three decision types: choice, yes/no, and score, returning a probability for every answer without generating text. They can answer several questions about the same input in a single call. The team says the family ranks #1 on both Jev Decision Index boards, and the models are released under an Apache-2.0 license.",
+   "item_ids": [
+    "localllama:t3_1x3th4p"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x3th4p",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Decision 3.0: open, multimodal decision models from 0.6B to 27B. Ranks #1 on both Jev Decision Index boards",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3th4p/decision_30_open_multimodal_decision_models_from/",
+     "published": "2026-10-12T05:26:01+00:00",
+     "excerpt": "With the vLLM Semantic Router team we released Decision 3.0 (d3) , our new SOTA decision model family ranging from 0.6B to 27B, Apache-2.0, all reading text, images and video. How it works - Built on Qwen3.5 (0.8B / 2B / 4B / 9B) and Qwen3.8-27B. The parameter counts include the vision encoder: 0.33B in the 4B, 0.46B in the 27B. - Three decision types: choice, yes/no, score. Probability for every answer, with no text generation. Several questions about the same input are answered in one call, ea"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T05:26:01+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA ranks every open model that runs on 10-16GB VRAM",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A community post on r/LocalLLaMA ranks open LLMs runnable on 10-16GB VRAM and 26-32GB RAM, rating them on speed and roleplay coherence via Kobold or llama.cpp.",
+   "more": "The post evaluates models that fit within a 10-16GB VRAM and 26-32GB RAM budget, usable with up to 64k context windows through tools like KoboldCpp or llama.cpp. Its criteria are speed, requiring at least 10 tokens per second, and coherency, judged by whether dialogue and narrative make internal sense. The ranking is framed around roleplay and hallucination-style generation rather than general-purpose benchmarks. The excerpt does not list the specific models or their rankings.",
+   "item_ids": [
+    "localllama:t3_1x3gpyi"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x3gpyi",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Every Model That Can Be Run On 10-16GB VRAM Ranked",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
+     "published": "2026-10-11T19:12:36+00:00",
+     "excerpt": "It's been 4 years since c.ai first hallucination model, and yet, we're nowhere good enough at LLMs in terms of spontaneity/interesting hallucination features. Fortunately, last year brought new architecture that allow those within 10-16GB VRAM range to run something usable up to 64k Context Windows via Kobold or LLAMA. Requirements: 10-16GB VRAM - 26-32GB RAM. How I Evaluated: Speed; If tokens per second are at least 10t/s. Coherency: If dialogue/monologue/POV makes any internal sense asides fro"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T19:12:36+00:00"
+  },
+  {
+   "title": "Quantized Underdog-Saluki-27B tool-calling model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A 2-bit GGUF quantization of a 27B tool-calling model, built on ISTA-DASLab's Qwen3.8-27B-GSQ-RCO, is trending on Hugging Face under an Apache-2.0 license.",
+   "more": "ConwayResearch/Underdog-Saluki-27B-1.0 is a llama.cpp-compatible, 2-bit GGUF quantization aimed at tool-calling, function-calling, and agentic use cases. It is derived from ISTA-DASLab's Qwen3.8-27B-GSQ-RCO-GGUF base model and released under the permissive Apache-2.0 license. On Hugging Face it has gathered 344 likes and over 242,000 downloads. The excerpt does not give benchmark numbers for its tool-calling accuracy or comparisons to other quantizations.",
+   "item_ids": [
+    "hf-trending:ConwayResearch/Underdog-Saluki-27B-1.0"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:ConwayResearch/Underdog-Saluki-27B-1.0",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: ConwayResearch/Underdog-Saluki-27B-1.0",
+     "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+     "published": "2026-10-08T01:47:26+00:00",
+     "excerpt": "text-generation, 344 likes, 242329 downloads. Tags: gguf, llama.cpp, 2-bit, tool-calling, function-calling, agents, qwen3.8, text-generation, en, base_model:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF, base_model:quantized:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF, license:apache-2.0"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-08T01:47:26+00:00"
+  },
+  {
+   "title": "Liquid AI's d1-3B multimodal decision model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Liquid AI's d1-3B, a 3B-parameter multimodal model built on its LFM2.5 architecture for decision, classification, and calibration tasks, is trending on Hugging Face.",
+   "more": "d1-3B is an image-text-to-text model from Liquid AI, built on the company's LFM2-VL/LFM2.5 edge architecture. Its tags point to a focus on decision-making, classification, and calibration tasks rather than general chat, alongside a \"system-one\" label suggesting fast, reflexive inference. It has 323 likes and about 11,900 downloads on Hugging Face so far. The excerpt does not specify its license or detailed benchmark results.",
+   "item_ids": [
+    "hf-trending:LiquidAI/d1-3B"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:LiquidAI/d1-3B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: LiquidAI/d1-3B",
+     "url": "https://huggingface.co/LiquidAI/d1-3B",
+     "published": "2026-10-05T09:55:28+00:00",
+     "excerpt": "image-text-to-text, 323 likes, 11866 downloads. Tags: transformers, safetensors, lfm2_vl, image-text-to-text, liquid, lfm2.5, edge, decision, classification, calibration, system-one, multimodal"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-05T09:55:28+00:00"
+  },
+  {
+   "title": "Uncensored quantized build of Qwen-Image-2.1 trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A community-made, uncensored GGUF/fp8/nvfp4 quantization of Qwen's Qwen-Image-2.1 text-to-image model is trending on Hugging Face with over 2 million downloads.",
+   "more": "The model, abenzerps/Qwen-Image-2.1-Uncensored-Quantized, is a third-party quantized derivative of Qwen's Qwen-Image-2.1 base model rather than an official release from Qwen itself. It ships in multiple quantized formats, including GGUF, fp8, and nvfp4, and is built for use with ComfyUI and MLX. It has drawn over 4,000 likes and more than 2.1 million downloads on Hugging Face, and is licensed under Qwen's \"other\" license rather than a standard open-source license.",
+   "item_ids": [
+    "hf-trending:abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+     "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+     "published": "2026-09-20T15:51:13+00:00",
+     "excerpt": "text-to-image, 4044 likes, 2188658 downloads. Tags: gguf, qwen, image-generation, comfyui, comfyui-gguf, mlx, fp8, nvfp4, text-to-image, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1, license:other"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-09-20T15:51:13+00:00"
+  },
+  {
+   "title": "DeepMind's AlphaProof Nexus solves dozens of open math problems, peer-reviewed",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind's AlphaProof Nexus solved dozens of open math problems, including nine Erdős problems, with results peer-reviewed and published in Science.",
+   "more": "AlphaProof Nexus solved dozens of previously open math problems, among them nine Erdős problems, two of which had stood unsolved for 56 years. DeepMind had the results peer-reviewed before publication, and they appeared in a study in Science. The report notes the timing coincides with OpenAI facing a boycott over posting AI-generated proofs to GitHub without peer review, drawing a contrast between the two labs' approaches to verification. The excerpt does not detail AlphaProof Nexus's methods or which specific problems were solved beyond the Erdős problems.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41417"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41417",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed",
+     "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+     "published": "2026-10-12T09:35:54+00:00",
+     "excerpt": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems, including nine Erdős problems two of which were unsolved for 56 years, per a study in Science. The publication comes as OpenAI faces a boycott for dumping AI proofs on GitHub without peer review. Deepmind had its results reviewed before publishing. The article Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T09:35:54+00:00"
+  },
+  {
+   "title": "DiffusionART paper unifies diffusion RL fine-tuning for efficiency and stability",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper, DiffusionART, identifies a hidden forward-reverse consistency force behind the tradeoff between efficient and stable RL fine-tuning of diffusion models, and proposes a fix.",
+   "more": "Online RL fine-tuning of diffusion models with black-box rewards has split into two families: reverse-process methods like Flow-GRPO, which are stable but inefficient due to poor credit assignment, and forward-process methods like DiffusionNFT, which are efficient but unstable without carefully tuned off-policy training. The paper's authors trace this tradeoff to a hidden forward-reverse consistency force that joint positive-negative training only partially cancels out. DiffusionART is presented as a method that resolves this to deliver both efficiency and stability, though the available excerpt does not specify the technique's mechanics or benchmark results.",
+   "item_ids": [
+    "hf-papers:2610.12572"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.12572",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+     "url": "https://huggingface.co/papers/2610.12572",
+     "published": "2026-10-12T00:00:00+00:00",
+     "excerpt": "Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assignment, while forward-process methods such as DiffusionNFT are efficient yet unstable without carefully tuned exponential-moving-average (EMA) off-policy training. We show that NFT-style objectives contain a hidden forward--reverse consistency force that joint positive--negative training cancels only partially, and that "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T00:00:00+00:00"
+  },
+  {
+   "title": "S-Space: researchers find a spatial reasoning subspace inside multimodal models",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A paper uncovers S-Space, a linear subspace in multimodal language models where object-token representations encode continuous horizontal, vertical, and distance coordinates.",
+   "more": "Multimodal language models show promising spatial reasoning, but the internal mechanisms behind it have been poorly understood. The researchers identified S-Space by differentiating spatial-answer scores with respect to object-token activations, revealing axes that track position along three dimensions. They report that S-Space appears to be intrinsic to these models rather than something induced by specific training data or prompting. What remains unclear from the excerpt is how S-Space was validated or whether it generalizes across model families.",
+   "item_ids": [
+    "hf-papers:2610.13527"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.13527",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+     "url": "https://huggingface.co/papers/2610.13527",
+     "published": "2026-10-12T00:00:00+00:00",
+     "excerpt": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood. We uncover S-Space, a linear representation subspace in which object-token representations encode continuous coordinates along horizontal, vertical, and distance axes. Although we identify these axes by differentiating spatial-answer scores with respect to object-token activations, S-Space is intrinsic rather than induced by specific data or p"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T00:00:00+00:00"
+  },
+  {
+   "title": "Reflex gives humanoid robots visually grounded, reflexive whole-body control",
+   "tags": [
+    "robotics",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper, Reflex, tackles visually grounded reactive control for humanoid robots, aiming to let them anticipate and respond to moving objects within about a second.",
+   "more": "Humans routinely react to fast-moving events, such as returning a tennis shot or catching a falling object, by anticipating a target and reflexively responding with their whole body almost instantly. The paper frames this as still difficult for humanoid robots, which must coordinate whole-body motion, react to object dynamics in real time, and ground their perception in an egocentric view. Reflex is proposed as an approach to close that gap, though the excerpt cuts off before describing its method or results in detail.",
+   "item_ids": [
+    "hf-papers:2610.12772"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.12772",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Reflex: Visually Grounded Reactive Humanoid Control",
+     "url": "https://huggingface.co/papers/2610.12772",
+     "published": "2026-10-12T00:00:00+00:00",
+     "excerpt": "Humans effortlessly react to the world; they adeptly return a tennis shot, catch a falling cup, step aside from a passing cart, or pass a box tossed during truck unloading. These everyday actions require anticipating a moving target and reflexively responding with the whole body within about a second. Such visual reactive whole-body control remains challenging for humanoids, which must (1) coordinate whole-body control, (2) react to object dynamics in real time, and (3) ground perception in egoc"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T00:00:00+00:00"
+  }
+ ]
+}
