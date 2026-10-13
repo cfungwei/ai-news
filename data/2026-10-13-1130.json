@@ -1,0 +1,627 @@
+{
+ "date": "2026-10-13",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Paper argues AI models can provably hide arbitrary capabilities",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper argues AI models can be built to provably hide arbitrary capabilities, drawing significant attention on Hacker News with 135 points and 69 comments.",
+   "more": "The paper is posted to arXiv under the title \"AI Models Can Provably Hide Arbitrary Capabilities.\" Beyond the headline claim, no further abstract or methodology details were included in the available excerpt.",
+   "item_ids": [
+    "hn:50065692"
+   ],
+   "items": [
+    {
+     "id": "hn:50065692",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+     "url": "https://arxiv.org/abs/2610.13928",
+     "published": "2026-10-13T02:07:08+00:00",
+     "excerpt": "135 points, 69 comments. Discussion: https://news.ycombinator.com/item?id=50065692"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T02:07:08+00:00"
+  },
+  {
+   "title": "GroundingPI model aims to improve visual grounding for robot vision",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduce GroundingPI, a 4B-parameter grounding foundation model that outputs points and boxes as quantized coordinates to improve precise, fast object grounding for robotics.",
+   "more": "The paper argues current vision-language-action and world-action models inherit general-purpose vision-language and video-generation backbones that still struggle to locate specific objects precisely, including in clutter or with tiny objects, while running fast enough for closed-loop control. GroundingPI is proposed as a dedicated foundation model to address that gap.",
+   "item_ids": [
+    "hf-papers:2609.39601"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2609.39601",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+     "url": "https://huggingface.co/papers/2609.39601",
+     "published": "2026-10-13T00:00:00+00:00",
+     "excerpt": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) and world-action models (WAMs) take perception from general-purpose vision-language and video-generation backbones, which still fail in these settings. We introduce GroundingPI, a 4B grounding foundation model that generates points and boxes as quantized coordinates in a shared voc"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T00:00:00+00:00"
+  },
+  {
+   "title": "Sakana AI's self-improving MASS method boosts solving and judging skills",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Sakana AI's MASS lets one model improve itself by solving tasks, judging results, and refining workflows, reaching nearly a 70% win rate against its base model after two rounds.",
+   "more": "But when the model makes the same errors across all three roles, it can mistake them for progress and reinforce them during training, per The Decoder. The method doesn't yet let the model catch its own blind spots.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41453"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41453",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots",
+     "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
+     "published": "2026-10-12T17:58:54+00:00",
+     "excerpt": "Sakana AI's MASS method lets one language model improve itself by solving tasks, judging results, and refining workflows, reaching a win rate of nearly 70 percent against the base model after two rounds. But when the model misses the same errors across all three roles, it can mistake them for progress and reinforce them during training. The article Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T17:58:54+00:00"
+  },
+  {
+   "title": "Study tackles continual post-training of small models via self-distillation",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A paper proposes a method to continually post-train small AI models using synthetic self-distillation, aiming to add new capabilities without losing prior knowledge.",
+   "more": "The authors note that existing Self-Distillation Fine-Tuning relies on strong in-context learning and instruction-following abilities, which causes it to fail on the smaller models needed for low-latency, on-device use. The paper identifies the root cause of that failure as a step toward enabling continual learning at smaller model scales.",
+   "item_ids": [
+    "hf-papers:2610.13113"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.13113",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Continually Post-training Small Models via Synthetic Self-distillation",
+     "url": "https://huggingface.co/papers/2610.13113",
+     "published": "2026-10-12T00:00:00+00:00",
+     "excerpt": "Continual post-training faces a dual challenge of acquisition and retention: models must learn new capabilities while preserving prior knowledge. While Self-Distillation Fine-Tuning (SDFT) mitigates this using self-supervision with in-context demonstrations, it relies on strong in-context learning and instruction-following abilities. Consequently, SDFT fails on smaller models critical for low-latency, on-device use. To enable continual learning at smaller scales, we first identify the root cause"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T00:00:00+00:00"
+  },
+  {
+   "title": "Paper scales agentic data to improve long-horizon terminal AI agents",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper studies scaling \"agentic data\" — long trajectories of exploration, judgment, and strategy adjustment — to help terminal AI agents complete real, multi-step professional tasks.",
+   "more": "The authors note that short trajectories can show commands and tool calls but don't capture how agents gather evidence through exploration, use it to inform judgment, adjust strategy from feedback, and turn intermediate results into final deliverables. The paper, posted to Hugging Face's Daily Papers, targets these longer-horizon behavioral patterns specifically for terminal-based agents taking on professional work.",
+   "item_ids": [
+    "hf-papers:2610.13166"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.13166",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+     "url": "https://huggingface.co/papers/2610.13166",
+     "published": "2026-10-13T00:00:00+00:00",
+     "excerpt": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls, but they do not fully show how agents accumulate evidence through exploration, use it to inform judgments, continually adjust strategies based on feedback, and turn intermediate results into final deliverables. High-quality long-horizon trajectories capture these agentic behavioral patterns and their connections within a single problem-so"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic details how Dynamic Workflows coordinate multiple Claude agents",
+   "tags": [
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "At AI Engineer New York, Anthropic explained how its Dynamic Workflows draw on Unix and Linux design lessons to let Claude agents tackle larger projects without overwhelming developers.",
+   "more": "The talk, covered by Latent Space, focused on coordination patterns for multi-agent projects. Further technical specifics weren't included in the available excerpt.",
+   "item_ids": [
+    "latent-space:https://www.latent.space/p/claude-dynamic-workflows"
+   ],
+   "items": [
+    {
+     "id": "latent-space:https://www.latent.space/p/claude-dynamic-workflows",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+     "url": "https://www.latent.space/p/claude-dynamic-workflows",
+     "published": "2026-10-12T18:18:17+00:00",
+     "excerpt": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T18:18:17+00:00"
+  },
+  {
+   "title": "Report: AI coding agents generate more code, but not more software",
+   "tags": [
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "An Ars Technica report argues AI coding agents are producing more code without necessarily producing more usable software, sparking Hacker News debate (331 points, 276 comments).",
+   "more": "The article was originally published by Ars Technica. Beyond the title, the available excerpt didn't include further specifics on the report's findings or methodology.",
+   "item_ids": [
+    "hn:50059523"
+   ],
+   "items": [
+    {
+     "id": "hn:50059523",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "AI coding agents generate more code, but not more software",
+     "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+     "published": "2026-10-12T17:14:01+00:00",
+     "excerpt": "331 points, 276 comments. Discussion: https://news.ycombinator.com/item?id=50059523"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T17:14:01+00:00"
+  },
+  {
+   "title": "Meta launches Muse Wonder and Wonder Full, its first frontier AI models",
+   "tags": [
+    "models",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta released Muse Wonder and Muse Wonder Full, the first frontier models from its Superintelligence Labs division, claiming they rival top industry models with notable gains on agentic tasks.",
+   "more": "Muse Wonder follows Muse Spark, the lightweight low-latency model Meta launched earlier from its revamped Superintelligence Labs division, and its AI agent Muse. The larger Wonder models post higher benchmark scores and better results on complex tasks like coding, according to TechCrunch. The Decoder reports Wonder Full ranks in the top three on six of ten benchmarks, with the biggest gains on agentic tasks, though the cost per task has nearly tripled. Wired notes the models include new features designed to keep agents from going off the rails.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1009479",
+    "techcrunch-ai:https://techcrunch.com/?p=3176752",
+    "wired-ai:6accf786c1f3b427f509b0cb",
+    "decoder:https://the-decoder.com/?p=41463"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1009479",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Meta has some Wonder Full new AI models",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+     "published": "2026-10-12T17:00:00+00:00",
+     "excerpt": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3176752",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Meta releases its first frontier model, Muse Wonder",
+     "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+     "published": "2026-10-12T17:56:56+00:00",
+     "excerpt": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding."
+    },
+    {
+     "id": "wired-ai:6accf786c1f3b427f509b0cb",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Muse Wonder Puts Meta Back at the AI Frontier",
+     "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+     "published": "2026-10-12T17:00:27+00:00",
+     "excerpt": "Meta’s biggest model rivals the world’s best—and includes new features to keep agents from going off the rails."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=41463",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier",
+     "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+     "published": "2026-10-12T18:48:29+00:00",
+     "excerpt": "Meta's new Muse Wonder models rank in the top three on six out of ten benchmarks, with the biggest gains in agentic tasks. But the cost per task has nearly tripled. The article Meta's new frontier model Muse Wonder Full breaks into the AI top tier appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 4,
+   "newest": "2026-10-12T18:48:29+00:00"
+  },
+  {
+   "title": "Abliterated Qwen-Image-2.1-Turbo GGUF fine-tune trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "AtomicChat's uncensored GGUF fine-tune of Qwen-Image-2.1-Turbo, built on Qwen3-VL-8B-Instruct, is trending on Hugging Face with 378 likes and over 161,000 downloads.",
+   "more": "The text-to-image model uses abliteration to remove refusal behavior and is distributed in the GGUF format for use with stable-diffusion.cpp. It's tagged on Hugging Face as a fine-tune of Qwen/Qwen3-VL-8B-Instruct.",
+   "item_ids": [
+    "hf-trending:AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+     "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+     "published": "2026-10-09T16:30:48+00:00",
+     "excerpt": "text-to-image, 378 likes, 161715 downloads. Tags: gguf, atomic-chat, qwen, qwen-image, qwen3-vl, text-encoder, stable-diffusion.cpp, abliteration, refusal-direction, text-to-image, base_model:Qwen/Qwen3-VL-8B-Instruct, base_model:finetune:Qwen/Qwen3-VL-8B-Instruct"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-09T16:30:48+00:00"
+  },
+  {
+   "title": "Epic Games reportedly pivots to an \"AI first\" game development model",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Epic Games is reportedly going all-in on AI for a Disney collaboration, aiming for a delayed Marvel/Star Wars shooter built without hand-written code or AI-free art.",
+   "more": "The report suggests the shift would touch both programming and art production on the delayed Marvel/Star Wars project. Further specifics on the plan's scope weren't included in the available excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+     "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+     "published": "2026-10-12T20:59:50+00:00",
+     "excerpt": "\"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T20:59:50+00:00"
+  },
+  {
+   "title": "WindBorne wins ~$50M US Air Force contract for AI weather balloon data",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Silicon Valley startup WindBorne secured a US Air Force contract worth almost $50 million for its AI-driven weather forecasting built on weather-balloon data.",
+   "more": "Details on the contract's scope and timeline weren't included in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3176669"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3176669",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+     "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+     "published": "2026-10-12T17:19:14+00:00",
+     "excerpt": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T17:19:14+00:00"
+  },
+  {
+   "title": "Anthropic's Claude AI reportedly filed a false murder tip to police",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Claude AI told Philadelphia police it had information about a murder case, resulting in a false tip, according to a report on the incident.",
+   "more": "Ars Technica reports the AI told officers it \"may have information regarding this case.\" Details on how the false tip arose or its consequences weren't included in the available excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
+     "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+     "published": "2026-10-12T18:21:36+00:00",
+     "excerpt": "“I may have information regarding this case,\" Claude AI told Philly police."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T18:21:36+00:00"
+  },
+  {
+   "title": "Essay urges readers to \"just say no\" to OpenAI and Anthropic",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A blog post argues against using OpenAI and Anthropic's services, prompting a large Hacker News discussion with 157 points and 149 comments.",
+   "more": "The post's specific reasoning wasn't included in the available excerpt beyond its title. The sizable comment count points to a divisive reception.",
+   "item_ids": [
+    "hn:50060500"
+   ],
+   "items": [
+    {
+     "id": "hn:50060500",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Just say no to OpenAI and Anthropic",
+     "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
+     "published": "2026-10-12T18:17:29+00:00",
+     "excerpt": "157 points, 149 comments. Discussion: https://news.ycombinator.com/item?id=50060500"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T18:17:29+00:00"
+  },
+  {
+   "title": "Intel's \"Crescent Island\" GPU gets D-Series name, up to 480GB LPDDR5X",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Intel's AI accelerator, previously codenamed Crescent Island, is now branded the D-Series (D270), with up to 480GB of LPDDR5X memory and 1.5TB/s of bandwidth.",
+   "more": "The D270 is rated for up to 1.3 petaFLOPS of FP8 performance and supports formats from FP4 to FP64, per details shared on r/LocalLLaMA. It packs 32 Xe3P cores, 256 XMX engines, and 32MB of unified L2 cache. No pricing has been announced yet, and some commenters hope for a cheaper workstation-style variant later. The news also reached Hacker News, drawing 161 points and 72 comments.",
+   "item_ids": [
+    "hn:50063365",
+    "localllama:t3_1x4g90u"
+   ],
+   "items": [
+    {
+     "id": "hn:50063365",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+     "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+     "published": "2026-10-12T21:35:35+00:00",
+     "excerpt": "161 points, 72 comments. Discussion: https://news.ycombinator.com/item?id=50063365"
+    },
+    {
+     "id": "localllama:t3_1x4g90u",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Intel \"Crescent Island\" GPU Gets D-Series Name, Supports Up to 480 GB of LPDDR5X",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4g90u/intel_crescent_island_gpu_gets_dseries_name/",
+     "published": "2026-10-12T22:42:31+00:00",
+     "excerpt": "The newly named D-Series GPU has up to 480GB of LPDDR5X memory, 1.5TB/s of memory bandwidth Intel rates it for up to 1.3 PetaFLOPS of FP8 performance, with support for formats ranging from FP4 to FP64. It features a total of 32 Xe3P cores, 256 XMX engines, 32 MB of unified L2 cache. No cost estimates currently, I hope they launch a generic blower style variant at a later date for prosumer workstations. Intel GPU D-Series Specifications Intel GPU D270 **Xe Cores** 32 **XMX Engines** 256 **GPU Clo"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-12T22:42:31+00:00"
+  },
+  {
+   "title": "Russia reportedly unprepared for the data center war it started with Ukraine",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A report says Russia's hyper-centralized digital economy left it vulnerable after escalating a data-center conflict with Ukraine, according to Russian commentators cited.",
+   "more": "Russian bloggers cited in the report warn that the country's centralized digital infrastructure leaves it especially exposed. Further specifics on the conflict weren't included in the available excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Russia was not ready for the data center war it started with Ukraine",
+     "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+     "published": "2026-10-12T17:52:36+00:00",
+     "excerpt": "Russian bloggers warn Russia’s hyper-centralized digital economy is vulnerable."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T17:52:36+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA: Anthropic's distillation-defenses research name-checks GLM",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "An r/LocalLLaMA post points to Anthropic's research page on distillation defenses, arguing it again gives free publicity to the open-weight model GLM.",
+   "more": "The thread links to Anthropic's own page at anthropic.com/research/distillation-defenses. Beyond the link and title, the available excerpt didn't include further detail on the research's content.",
+   "item_ids": [
+    "localllama:t3_1x4ii8e"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x4ii8e",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Anthropic is doing free publicity for GLM again",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4ii8e/anthropic_is_doing_free_publicity_for_glm_again/",
+     "published": "2026-10-13T00:27:09+00:00",
+     "excerpt": "https://www.anthropic.com/research/distillation-defenses submitted by /u/No-Point1424 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T00:27:09+00:00"
+  },
+  {
+   "title": "Hobbyist turns an old Kindle into a photo frame using GPT-6 Astra",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A blog post describes converting an unused Kindle e-reader into a digital photo frame with help from GPT-6 Astra, sparking discussion on Hacker News (141 points, 92 comments).",
+   "more": "The project repurposes otherwise idle hardware rather than buying a new device. Further technical details on the build weren't included in the available excerpt.",
+   "item_ids": [
+    "hn:50064318"
+   ],
+   "items": [
+    {
+     "id": "hn:50064318",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
+     "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+     "published": "2026-10-12T23:07:25+00:00",
+     "excerpt": "141 points, 92 comments. Discussion: https://news.ycombinator.com/item?id=50064318"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T23:07:25+00:00"
+  },
+  {
+   "title": "Essay argues \"AI is a tool and using it well takes skill\"",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "An essay arguing that AI is a tool requiring skill to use well sparked a large Hacker News debate, drawing 350 points and 280 comments.",
+   "more": "The post's specific arguments weren't included in the available excerpt beyond its title. The large comment count suggests the framing proved contentious among readers.",
+   "item_ids": [
+    "hn:50063427"
+   ],
+   "items": [
+    {
+     "id": "hn:50063427",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "AI is a tool and using it well takes skill",
+     "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+     "published": "2026-10-12T21:40:18+00:00",
+     "excerpt": "350 points, 280 comments. Discussion: https://news.ycombinator.com/item?id=50063427"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T21:40:18+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA: Anthropic accused of giving free marketing to open models",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA post argues Anthropic is once again giving unintentional publicity to open-weight model makers, without further detail in the available excerpt.",
+   "more": "The post includes no linked article or additional context beyond its title in the available excerpt.",
+   "item_ids": [
+    "localllama:t3_1x4cm73"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x4cm73",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Once again anthropic doing free marketing for open weight models",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4cm73/once_again_anthropic_doing_free_marketing_for/",
+     "published": "2026-10-12T20:13:48+00:00",
+     "excerpt": "submitted by /u/kubblegum [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T20:13:48+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA thread: \"It's been 2 months\"",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA post titled \"It's been 2 months\" circulated without further context in the available excerpt.",
+   "more": "No additional details were included beyond the post's title and submitter.",
+   "item_ids": [
+    "localllama:t3_1x4akj7"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x4akj7",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "It's been 2 months",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4akj7/its_been_2_months/",
+     "published": "2026-10-12T18:57:47+00:00",
+     "excerpt": "submitted by /u/Comfortable-Rock-498 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T18:57:47+00:00"
+  },
+  {
+   "title": "Simon Willison previews Python 3.15, including explicit lazy imports",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison rounds up highlights of the new Python 3.15 release, including PEP 810's explicit lazy import syntax, as he moves off Python 3.10 support.",
+   "more": "The release lets developers write \"lazy import json\" to defer module loading. Willison, who maintains open source software supporting every current Python version, says he can now start adopting 3.11-era features now that 3.10 support has ended. The highlights were curated from release manager Hugo van Kemenade's \"What's new in Python 3.15\" guide.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/12/python-3-15/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/12/python-3-15/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+     "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+     "published": "2026-10-12T18:15:38+00:00",
+     "excerpt": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11. First, some highlights from Python 3.15. Explicit lazy imports I'm most excited about Explicit lazy imports from PEP 810 . These let you import modules like so: lazy import json lazy"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T18:15:38+00:00"
+  },
+  {
+   "title": "Rich Hickey argues \"'AI' Is Not a Tool,\" sparking Hacker News debate",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A piece titled \"'AI' Is Not a Tool\" by Rich Hickey argues against treating AI as a tool, drawing 255 points and 128 comments on Hacker News.",
+   "more": "The piece was published on LinkedIn. Beyond the title, the available excerpt didn't include further detail on the reasoning behind it.",
+   "item_ids": [
+    "hn:50060269"
+   ],
+   "items": [
+    {
+     "id": "hn:50060269",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "'AI' Is Not a Tool by Rich Hickey",
+     "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+     "published": "2026-10-12T18:00:25+00:00",
+     "excerpt": "255 points, 128 comments. Discussion: https://news.ycombinator.com/item?id=50060269"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T18:00:25+00:00"
+  },
+  {
+   "title": "X users \"punk\" Elon Musk after he bragged about Grok's Lego Star Wars haul",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Elon Musk boasted about a Lego Star Wars haul generated by Grok, but X users reportedly exploited the exchange to embarrass him, drawing attention to the bot's security.",
+   "more": "Wired's headline plays on Star Wars' \"I find your lack of faith disturbing\" line to describe the incident. Specifics on how users manipulated the exchange weren't included in the available excerpt.",
+   "item_ids": [
+    "wired-ai:6accf702f14e645f525e1194"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6accf702f14e645f525e1194",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
+     "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
+     "published": "2026-10-12T17:55:12+00:00",
+     "excerpt": "Musk, we find your lack of security disturbing."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T17:55:12+00:00"
+  }
+ ]
+}
