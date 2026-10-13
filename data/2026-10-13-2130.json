@@ -1,0 +1,426 @@
+{
+ "date": "2026-10-13",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Nvidia tones down DLSS 5 for its Hogwarts Legacy debut next month",
+   "tags": [
+    "products",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia has scaled back its AI-driven DLSS 5 upscaling for its debut in Hogwarts Legacy next month, after earlier demos drew criticism for visibly altering character faces.",
+   "more": "When Nvidia first showed DLSS 5 earlier this year, the technology was quickly branded as generative AI for video games, and reaction among gamers was negative. Early demonstrations showed the tool visibly transforming faces, including making a 15-year-old Hogwarts Legacy student look noticeably older and altering a character from Resident Evil. Nvidia has now toned down the effect ahead of DLSS 5's debut in Hogwarts Legacy next month. Specific technical changes behind the toned-down version were not detailed in available reporting.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1009904"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1009904",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "DLSS 5 gets toned down for its Hogwarts Legacy debut next month",
+     "url": "https://www.theverge.com/news/1009904/dlss-5-hogwarts-legacy-changes-improvements",
+     "published": "2026-10-13T13:55:45+00:00",
+     "excerpt": "When Nvidia originally showed off DLSS 5 earlier this year, the technology immediately got branded as gen AI for video games. To gamers, Nvidia had lost the plot. I personally couldn't get over how faces were transformed using DLSS 5. The 15-year-old student from Hogwarts Legacy suddenly looked much older, and Grace from Resident Evil […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T13:55:45+00:00"
+  },
+  {
+   "title": "X bundles its Premium plan with Grok and Cursor access",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new 'SpaceXSI' subscription combines X Premium with AI tools Grok and Cursor, with plans ranging from $8 to $200 per month.",
+   "more": "The new X Subscription, referred to as SpaceXSI, combines X's existing paid features with AI tools including Grok and the AI coding tool Cursor. Plans span a range from $8 to $200 per month, suggesting multiple tiers aimed at different kinds of users. Further detail on what each tier includes was not specified in available reporting.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3176969"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3176969",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+     "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+     "published": "2026-10-13T13:50:19+00:00",
+     "excerpt": "The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T13:50:19+00:00"
+  },
+  {
+   "title": "Apple debuts HomeView, its first smart home display",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apple has released the HomeView smart display, pairing a small screen with a speaker base for video calls, photo displays, and at-a-glance information.",
+   "more": "The Apple HomeView is described as long-rumored and has now arrived, with a reporter getting an early first look in New York City. The device places a small, vibrant screen atop a speaker base. Intended uses include taking video calls, displaying photos, and providing information at a glance using Apple's software. Pricing, availability dates, and software integration details were not included in the available reporting.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1009704"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1009704",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Apple launches HomeView, its first smart display for the home",
+     "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look",
+     "published": "2026-10-13T13:00:00+00:00",
+     "excerpt": "It's finally here: Apple's long-rumored smart display, the Apple HomeView, has arrived. I got a first look at the device in New York City this week, and it's gorgeous. The HomeView puts a small, vibrant screen atop a speaker base for taking video calls, beautifully displaying photos, and providing information at a glance with Apple's […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T13:00:00+00:00"
+  },
+  {
+   "title": "Character.AI files for bankruptcy five years after launch",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Character.AI has filed for bankruptcy and will sell some assets to Disney for $20 million, with the platform shutting down entirely if no buyer is found.",
+   "more": "Character.AI, the interactive chatbot platform founded by ex-Google researchers, has filed for bankruptcy just five years after launching. The company will sell some of its assets to Disney for $20 million as part of the process. If no other buyer emerges, the platform will shut down entirely; a sale is expected to close by the end of 2026. Character.AI once had over 20 million users but had been battling lawsuits over harm to minors and operational problems. The company's trajectory marks a steep fall from a $2.7 billion Google deal.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3176907",
+    "decoder:https://the-decoder.com/?p=41494"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3176907",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+     "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+     "published": "2026-10-13T12:23:42+00:00",
+     "excerpt": "The startup will sell some of its assets to Disney for $20 million."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=41494",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Character.ai will shut down if no buyer emerges, capping a fall from $2.7 billion Google deal to bankruptcy",
+     "url": "https://the-decoder.com/character-ai-will-shut-down-if-no-buyer-emerges-capping-a-fall-from-2-7-billion-google-deal-to-bankruptcy/",
+     "published": "2026-10-13T15:27:39+00:00",
+     "excerpt": "Character.ai has filed for bankruptcy and is looking for a buyer. If none steps up, the platform shuts down. Founded by ex-Google researchers, the company once had over 20 million users but is now battling lawsuits over harm to minors and operational problems. The sale should close by the end of 2026. The article Character.ai will shut down if no buyer emerges, capping a fall from $2.7 billion Google deal to bankruptcy appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-13T15:27:39+00:00"
+  },
+  {
+   "title": "Epic moves to 'AI-accelerated development' for upcoming Disney game",
+   "tags": [
+    "industry",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Epic Games is using AI, including Anthropic's Claude, to generate code and art for an unannounced Disney game, which has slipped from its original March release window, per a Bloomberg report.",
+   "more": "According to a report from Bloomberg, Epic Games plans to use AI tools to generate both code and art for an unannounced game being made with Disney. The project's developers have reportedly been given an 'AI-first' mandate directing them to lean more heavily on tools such as Anthropic's Claude to finish the game. The shift comes as the game's original March release window has already slipped. Further details on the game's new timeline or scope have not been disclosed.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1010097"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1010097",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Epic shifts to ‘AI-accelerated development’ for upcoming Disney game",
+     "url": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+     "published": "2026-10-13T15:12:59+00:00",
+     "excerpt": "Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T15:12:59+00:00"
+  },
+  {
+   "title": "TechCrunch Disrupt 2026 kicks off in San Francisco",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch Disrupt 2026 began its first day at San Francisco's Moscone West, with organizers promising over 10,000 attendees from the tech industry.",
+   "more": "TechCrunch Disrupt 2026 officially started on October 13 at Moscone West in San Francisco. The event is promoted as gathering more than 10,000 tech leaders at what organizers call the startup epicenter of the year. Coverage of specific Day 1 sessions or announcements was not included in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3176868"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3176868",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "TechCrunch Disrupt 2026: Day 1",
+     "url": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
+     "published": "2026-10-13T14:00:00+00:00",
+     "excerpt": "TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it. Register for your pass now and meet 10,000+ tech leaders at the startup epicenter of the year."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T14:00:00+00:00"
+  },
+  {
+   "title": "Google launches Gemini 4 Argon, its new frontier reasoning model",
+   "tags": [
+    "models",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google released Gemini 4 Argon, claiming frontier-level reasoning and reduced hedging and repetition, with a paid rollout in the Gemini app and Antigravity and discounted API rates through November.",
+   "more": "Google unveiled Gemini 4 Argon after months on the sidelines of the frontier AI race, positioning it to compete with the industry's best models. The company says Argon delivers frontier reasoning and improved performance on complex workflows while cutting down on hedging, repetition, and clichéd phrasing common in earlier models. DeepMind published a companion blog post covering the model's use in robotics alongside the main launch announcement. The model is rolling out in the Gemini app and in Antigravity, but access requires a paid subscription, and developers get a 50 percent discount on API rates through November. The launch drew significant discussion on Hacker News, with over 200 points and more than 160 comments.",
+   "item_ids": [
+    "deepmind:https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+    "deepmind:https://deepmind.google/blog/introducing-gemini-4-argon/",
+    "google-ai:https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "verge-ai:https://www.theverge.com/?p=1009862",
+    "ars-ai:https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+    "hn:50073879"
+   ],
+   "items": [
+    {
+     "id": "deepmind:https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+     "source": "deepmind",
+     "source_name": "Google DeepMind",
+     "title": "Gemini 4 Argon for Robotics",
+     "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+     "published": "2026-10-13T16:01:58+00:00",
+     "excerpt": ""
+    },
+    {
+     "id": "deepmind:https://deepmind.google/blog/introducing-gemini-4-argon/",
+     "source": "deepmind",
+     "source_name": "Google DeepMind",
+     "title": "Gemini 4 Argon: Built to solve your hardest problems",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+     "published": "2026-10-13T16:01:52+00:00",
+     "excerpt": ""
+    },
+    {
+     "id": "google-ai:https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "source": "google-ai",
+     "source_name": "Google AI Blog",
+     "title": "Gemini 4 Argon: Built to solve your hardest problems",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "published": "2026-10-13T16:00:00+00:00",
+     "excerpt": "TBD"
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1009862",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Google finally releases Gemini 4 Argon",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+     "published": "2026-10-13T16:00:00+00:00",
+     "excerpt": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that […]"
+    },
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+     "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+     "published": "2026-10-13T16:00:02+00:00",
+     "excerpt": "Developers will get 50 percent discounted API rates through November."
+    },
+    {
+     "id": "hn:50073879",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Gemini 4 Argon",
+     "url": "https://deepmind.google/models/gemini/",
+     "published": "2026-10-13T16:03:16+00:00",
+     "excerpt": "215 points, 169 comments. Discussion: https://news.ycombinator.com/item?id=50073879"
+    }
+   ],
+   "coverage": 5,
+   "newest": "2026-10-13T16:03:16+00:00"
+  },
+  {
+   "title": "OpenBMB's MiniCPM-V-4.7 trends on Hugging Face with open weights",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenBMB's MiniCPM-V-4.7-35B-A3B, a lightweight multimodal model with 35B total and 3B active parameters, is trending on Hugging Face under an Apache 2.0 license.",
+   "more": "MiniCPM-V-4.7-35B-A3B is an image-text-to-text model tagged as a mixture-of-experts design built for on-device use. It has drawn 399 likes and 630 downloads on Hugging Face so far. The model is released under the permissive Apache 2.0 license, making its weights openly usable. It is described as lightweight and conversational, aimed at multimodal tasks that combine images and text. No further technical details, such as benchmark scores, are given in the listing.",
+   "item_ids": [
+    "hf-trending:openbmb/MiniCPM-V-4.7-35B-A3B"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:openbmb/MiniCPM-V-4.7-35B-A3B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: openbmb/MiniCPM-V-4.7-35B-A3B",
+     "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+     "published": "2026-10-07T07:07:30+00:00",
+     "excerpt": "image-text-to-text, 399 likes, 630 downloads. Tags: transformers, safetensors, minicpmv4_7, image-text-to-text, minicpm-v, multimodal, On-Device Model, lightweight, moe, conversational, license:apache-2.0, endpoints_compatible"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-07T07:07:30+00:00"
+  },
+  {
+   "title": "Fields medalists warn AI proofs dumb down math as China builds alliance",
+   "tags": [
+    "research",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "25 Western Fields Medal winners are warning against AI-generated proofs, with some pushing for a boycott, as China launches a 1,000-scientist alliance to push AI into math research.",
+   "more": "In the West, 25 Fields Medal winners have warned that AI-generated proofs risk making mathematicians less capable, with parts of the community calling for an outright boycott of such tools. China is moving in the opposite direction: Fields Medal winner Shing-Tung Yau has launched an alliance of eight institutions and more than 1,000 scientists dedicated to pushing AI into mathematical research. The split illustrates a broader divide in how different parts of the global math community are responding to AI's growing role in proof-writing and discovery.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41486"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41486",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Western mathematicians fear AI makes them dumber while China builds an entire alliance for it",
+     "url": "https://the-decoder.com/western-mathematicians-fear-ai-makes-them-dumber-while-china-builds-an-entire-alliance-for-it/",
+     "published": "2026-10-13T14:37:53+00:00",
+     "excerpt": "While 25 Fields Medal winners in the West warn against AI-generated proofs and parts of the community call for a boycott, China is going on the offensive. Fields Medal winner Shing-Tung Yau has launched an alliance of eight institutions and over 1,000 scientists to push AI into math research. The article Western mathematicians fear AI makes them dumber while China builds an entire alliance for it appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T14:37:53+00:00"
+  },
+  {
+   "title": "GroundAnything replaces autoregressive visual grounding with parallel diffusion",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper proposes bidirectional diffusion for visual grounding, letting spatial predictions emerge in parallel instead of token-by-token, aiming for faster, more accurate results.",
+   "more": "The paper argues that autoregressive grounding models serialize spatial predictions, adding sequential latency and forcing an artificial left-to-right order on outputs. The authors reframe grounding as visual evidence extraction, where objects, locations, and spatial relations are jointly constrained by the image and query rather than generated in sequence. This framing motivates a bidirectional diffusion approach that lets spatial hypotheses emerge in parallel and be refined jointly. The method is presented under the name GroundAnything, targeting what the authors call 'flash speed' grounding. The available excerpt does not specify benchmark results or release details.",
+   "item_ids": [
+    "hf-papers:2609.39600"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2609.39600",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
+     "url": "https://huggingface.co/papers/2609.39600",
+     "published": "2026-10-13T00:00:00+00:00",
+     "excerpt": "Autoregressive (AR) grounding models serialize spatial predictions, introducing sequential latency and imposing a causal order on output tokens. We view grounding as visual evidence extraction: objects, locations, and spatial relations are jointly constrained by the image and query, yet their dependencies do not imply an intrinsic left-to-right generation order. This distinction makes bidirectional diffusion a natural fit, allowing spatial hypotheses to emerge in parallel and be jointly refined "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T00:00:00+00:00"
+  },
+  {
+   "title": "Geoffrey Huntley: pre-commit hooks can steer coding agents mid-task",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "In a quoted post, developer Geoffrey Huntley describes using a pre-commit hook that fails a commit and injects a prompt telling a coding agent to use his diagnostics library instead of bypassing it.",
+   "more": "The quote, shared via Simon Willison's blog, comes from developer Geoffrey Huntley discussing how he keeps AI coding agents aligned with his preferred tooling. Rather than relying on agents to read and follow instructions in a file like AGENTS.md, which can drift out of date, Huntley writes a pre-commit hook that checks the git diff for direct calls to observability modules that bypass his diagnostics library. When it finds a violation, the hook fails the commit and injects a prompt telling the agent to use the diagnostics library instead. Huntley says this approach reliably fixes the agent's behavior, calling the result 'ten out of ten.'",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/13/geoffrey-huntley/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Geoffrey Huntley",
+     "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+     "published": "2026-10-13T13:32:00+00:00",
+     "excerpt": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten. — Geoffrey Huntley , nobody should type code by hand anymore. here's what's left. Tags: coding-agents ,"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T13:32:00+00:00"
+  },
+  {
+   "title": "Amex launches framework to stop AI agents making unauthorized buys",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "American Express introduced a framework meant to ensure AI shopping agents only make purchases users have actually authorized, aiming to cut costly mistakes and disputes.",
+   "more": "American Express is rolling out a new framework designed to keep AI agents from making purchases that users have not authorized. The company frames this as a response to the growth of AI-powered shopping, where autonomous agents increasingly act on a user's behalf. The goal is to prevent costly mistakes and reduce disputes tied to unauthorized agent purchases. Technical details of how the framework verifies authorization were not included in available reporting.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175284"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175284",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+     "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+     "published": "2026-10-13T13:00:00+00:00",
+     "excerpt": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T13:00:00+00:00"
+  },
+  {
+   "title": "Mia Goth calls viral AI deepfake of her on Instagram 'incomprehensible'",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Actress Mia Goth said it was 'incomprehensible' that Instagram let a verified account spread an AI-generated image of her wearing a shirt mocking her ex, Shia LaBeouf.",
+   "more": "The controversy follows news that Goth had filed for divorce from actor and filmmaker Shia LaBeouf. A verified Instagram account, miagoth_, posted an AI-generated image showing Goth in a T-shirt reading 'MY EX IS MY BIGGEST FAN.' The post spread quickly despite not being from Goth's real account. Goth publicly objected to Instagram allowing the fake, verified post to circulate. It is unclear from available reporting what action, if any, Instagram has taken on the account.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1010277"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1010277",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
+     "published": "2026-10-13T16:42:51+00:00",
+     "excerpt": "Earlier this month, news broke that actress Mia Goth had filed for divorce from actor and filmmaker Shia LaBeouf. An Instagram post from the account miagoth_ - marked with a blue verified checkmark - quickly spread. The post shows Goth in a T-shirt that reads \"MY EX IS MY BIGGEST FAN\" in bold black letters. […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T16:42:51+00:00"
+  },
+  {
+   "title": "War game on dimming the Sun shows geopolitics making it worse",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A simulation that war-gamed solar geoengineering, deliberately dimming sunlight to offset warming, found outcomes worsen once geopolitics gets involved.",
+   "more": "Researchers ran a simulation war-gaming solar geoengineering, the idea of deliberately dimming sunlight to counter global warming. The exercise modeled what happens once geopolitical dynamics enter the picture. According to the report, outcomes turned out worse than expected once different nations' competing interests were factored in. Specific countries, policy proposals, or numerical outcomes from the simulation were not detailed in the available excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "They war-gamed dimming the Sun. It went even worse than you think.",
+     "url": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
+     "published": "2026-10-13T15:17:59+00:00",
+     "excerpt": "Solar geoengineering simulation shows what happens when geopolitics takes over."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-13T15:17:59+00:00"
+  }
+ ]
+}
