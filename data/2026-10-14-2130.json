@@ -1,0 +1,500 @@
+{
+ "date": "2026-10-14",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Square launches AI-powered ordering kiosk",
+   "tags": [
+    "products",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Square unveiled the Square Kiosk, a touchscreen ordering kiosk with a conversational AI voice layer that understands a seller's menu and responds to customers in real time.",
+   "more": "The Square Kiosk is new hardware with a large, pill-shaped touchscreen for placing orders. Square describes it as having an 'agentic, conversational voice layer' that fully understands a seller's menu. The system is designed to listen and respond to customers in real time, acting like an AI assistant at checkout. The excerpt does not give pricing, availability, or which merchants are piloting it.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1009086"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1009086",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Square’s new kiosk lets you talk to AI for help with your order",
+     "url": "https://www.theverge.com/tech/1009086/square-kiosk",
+     "published": "2026-10-14T16:00:00+00:00",
+     "excerpt": "Square is launching new hardware: a big kiosk for ordering things that has a touchscreen and lets you talk to an AI. It's called the Square Kiosk. Square says the Kiosk, which has a large pill shape, has an \"agentic, conversational voice layer\" that \"fully understands a seller's menu and listens and responds in real […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "title": "Android adds AI-driven scam detection to Google Messages",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google is rolling out an 'enhanced protection' setting for Google Messages that uses cloud-based AI to help Android users spot and avoid scam messages.",
+   "more": "Android is introducing new scam defense features aimed at making it easier for users to avoid mobile fraud. The update builds on the existing Scam Detection feature already in Google Messages. A new 'enhanced protection' setting will roll out over the coming weeks and taps into cloud-based tools for additional safeguarding. The excerpt does not specify further detail on how the cloud-based detection works.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1010928"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1010928",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Android is using AI to suss out scammers in Google Messages",
+     "url": "https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages",
+     "published": "2026-10-14T16:00:00+00:00",
+     "excerpt": "Android is introducing new scam defense features that aim to make it easier for users to evade mobile fraud, including bolstered protection in Google Messages and additional safeguarding tools. Building on the Scam Detection feature in Google Messages, a new \"enhanced protection\" setting will be rolling out in the coming weeks that taps into cloud-based […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "title": "Deezer to let users filter out AI-generated music",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Deezer announced a new toggle that will let listeners filter AI-generated music out of their streams, with the feature rolling out by the end of the year.",
+   "more": "Deezer said it is adding a new toggle that lets users filter out AI-generated music. The company says the feature will roll out by the end of 2026. The excerpt does not specify how Deezer identifies AI-generated tracks or whether the filter will be on by default.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3177470"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177470",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Deezer will soon let you filter out AI-generated music",
+     "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+     "published": "2026-10-14T15:16:04+00:00",
+     "excerpt": "Deezer said that the new toggle will be rolled out by the end of the year."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T15:16:04+00:00"
+  },
+  {
+   "title": "Epic Games says its new launcher refresh was 'vibe coded'",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Epic Games is rolling out a big refresh of its PC games launcher in preview, now faster and supporting Linux, and says the update was built using AI-assisted 'vibe coding.'",
+   "more": "Epic Games announced a major refresh of its PC games launcher, currently in preview, claiming it is 'way faster' than before. The new version also adds support for Linux for the first time. Epic has been publicly pushing AI-assisted development, and it described this refresh specifically as 'vibe coded.' The company acknowledged that programming is hard but framed the AI-assisted approach as part of that broader push. The excerpt does not say which parts of the launcher were AI-generated or give a timeline for general availability.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1010751"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1010751",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Epic’s new games launcher is ‘vibe coded’",
+     "url": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
+     "published": "2026-10-14T13:55:02+00:00",
+     "excerpt": "Epic Games is announcing a big refresh of its PC games launcher today in preview, saying that the new version is \"way faster\" and now supports Linux. But the company, which has been publicly making a big push into AI-assisted development, also notes that the refresh was \"vibe coded.\" \"Programming is hard,\" Epic says in […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T13:55:02+00:00"
+  },
+  {
+   "title": "Ai2 releases HiRO-ACEv2 for simulating extreme weather cheaply",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Allen Institute for AI published HiRO-ACEv2, a model described as simulating extreme weather at 3 km resolution for a fraction of the usual cost.",
+   "more": "Ai2's blog post is titled 'HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost.' No further detail is available from the Source beyond this title.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/allenai/hiro-acev2"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/allenai/hiro-acev2",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+     "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+     "published": "2026-10-14T16:12:42+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T16:12:42+00:00"
+  },
+  {
+   "title": "Microsoft claims new ML tool forecasts weather accurately weeks out",
+   "tags": [
+    "research",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft says a new machine learning approach extends reliable weather forecasts to two to six weeks ahead, beyond the usual two-week limit of physics-based and existing AI models.",
+   "more": "Traditional physics-based forecasting and even current AI weather models typically lose reliability beyond about two weeks. Microsoft researchers say they found a cost-effective method that pushes accurate forecasting out to two to six weeks in advance. The company frames the improvement as useful for farmers and emergency responders who need longer lead times to plan. The excerpt does not specify the technique used or give performance comparisons against existing models.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011127"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011127",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Microsoft has a new machine learning tool to improve weather forecasts",
+     "url": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft",
+     "published": "2026-10-14T16:05:21+00:00",
+     "excerpt": "Old-school physics-based weather forecasting and even new AI models typically become less reliable beyond two weeks, a problem Microsoft claims to have solved using machine learning. Researchers with the company say they've found a new, cost-effective way to make more accurate weather forecasts two to six weeks in advance - allowing farmers and emergency responders […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T16:05:21+00:00"
+  },
+  {
+   "title": "GreenWAM paper proposes a single world model for many robot bodies",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper presents GreenWAM, a world foundation model for robotics meant to serve as both a world model and a policy across different robot bodies, using a shared action space to unify data recorded in different formats.",
+   "more": "The paper argues that robot world models and policies are usually built and evaluated separately, even though both roles could in principle be served by one model. GreenWAM is proposed as a world foundation model for robotics that attempts both roles at once. A key part of the recipe is a shared anatomical action space meant to let data from robots with different bodies and recording formats be used together. The excerpt is cut off before describing the remaining steps of the recipe or any evaluation results.",
+   "item_ids": [
+    "hf-papers:2610.18774"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.18774",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "GreenWAM: A World Foundation Model for Robotics",
+     "url": "https://huggingface.co/papers/2610.18774",
+     "published": "2026-10-14T00:00:00+00:00",
+     "excerpt": "A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions. Models are usually built and evaluated for only one of these roles, and every robot records its actions in its own format. We ask whether one robot world model can serve both roles across different bodies, and what makes this work. We present GreenWAM, a world foundation model for robotics, together with the recipe that produces it: (1) a shared anatomical action space that de"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T00:00:00+00:00"
+  },
+  {
+   "title": "Zenzap raises $44M for AI workplace chat app to rival WhatsApp",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Zenzap raised $44 million for its AI-powered workplace chat app, which it positions as a replacement for WhatsApp at work and which is already used by organizations including Starbucks and Taco Bell.",
+   "more": "Zenzap announced a $44 million raise for its AI chat app aimed at business use. The company frames the product as an alternative to using WhatsApp in the workplace. According to the report, customers already include large organizations such as Starbucks and Taco Bell. The excerpt does not name the investors or specify the funding round stage.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3177533"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177533",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
+     "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+     "published": "2026-10-14T15:08:00+00:00",
+     "excerpt": "Zenzap is used by organizations including Starbucks and Taco Bell."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T15:08:00+00:00"
+  },
+  {
+   "title": "ASML's strong orders ease fears the AI spending boom is slowing",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "ASML reported strong orders that eased investor fears the AI chip spending boom is running out of steam, a discussion that drew 109 points and 89 comments on Hacker News.",
+   "more": "ASML's latest order numbers came in strong, which the discussion frames as easing concerns that AI-driven chip spending could be slowing down. The item links to Reuters coverage of ASML's forecast for next quarter's sales, reportedly coming in above expectations and attributed to AI chip demand. The Hacker News discussion drew 109 points and 89 comments. The excerpt does not include specific order or revenue figures beyond pointing to the linked Reuters report.",
+   "item_ids": [
+    "hn:50088430"
+   ],
+   "items": [
+    {
+     "id": "hn:50088430",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+     "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+     "published": "2026-10-14T14:38:55+00:00",
+     "excerpt": "109 points, 89 comments. Discussion: https://news.ycombinator.com/item?id=50088430"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T14:38:55+00:00"
+  },
+  {
+   "title": "Nvidia's Jensen Huang pledges $2B for Europe, $250M in UK AI safety compute",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia CEO Jensen Huang announced $2 billion in European investments, including stakes in French startups Doctolib and Entalpic, plus $250 million in compute for UK AI agent safety research.",
+   "more": "Jensen Huang announced $2 billion in new European investments, including stakes in French startups Doctolib and Entalpic. Separately, the UK will receive $250 million in compute resources dedicated to AI agent safety and security research. Huang also pitched open-weight models as a way for Europe to close the gap with leading AI labs. The excerpt does not specify a timeline for the investments or which UK organizations will receive the compute.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41530"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41530",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Nvidia's Jensen Huang pledges $2 billion for Europe, $250 million in compute for UK safety labs",
+     "url": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
+     "published": "2026-10-14T14:24:34+00:00",
+     "excerpt": "Nvidia CEO Jensen Huang announced $2 billion in European investments and new stakes in French startups like Doctolib and Entalpic. The UK gets $250 million in compute for AI agent safety and security research. Huang pitched open-weight models as Europe's way to close the AI gap. The article Nvidia's Jensen Huang pledges $2 billion for Europe, $250 million in compute for UK safety labs appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T14:24:34+00:00"
+  },
+  {
+   "title": "OpenAI to ship at least one model this year as flagship awaits alignment work",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is reportedly racing to finish its next flagship model, which uses the same looped transformer technique as Astra to boost math and coding, but still needs more alignment work before release.",
+   "more": "According to the report, OpenAI's upcoming flagship model uses the same looped transformer technique as its Astra model to improve math and coding performance. That looping technique reportedly makes safety monitoring harder, which is why the flagship still needs further alignment work. Microsoft is said to have accidentally revealed details about how the technique works on a public page. Whether or not the flagship ships in time, employees reportedly expect OpenAI to release one or two new models by the end of the year.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41537"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41537",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work",
+     "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
+     "published": "2026-10-14T16:14:16+00:00",
+     "excerpt": "OpenAI is racing to finish its next flagship model, which uses the same looped transformer technique as Astra to boost math and coding performance. The tradeoff is that looping makes safety monitoring harder. Microsoft accidentally revealed details about how the technique works on a public page. Whether or not the flagship is ready in time, employees say one or two new models will likely ship by year's end. The article OpenAI will reportedly ship at least one model this year but its flagship sti"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T16:14:16+00:00"
+  },
+  {
+   "title": "Artemis Security launches Orion-1 model for cyber defense",
+   "tags": [
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Artemis Security released Orion-1, a model built specifically for cyber defense that it says beats Claude Opus 5.5 and GPT-6 Sol on its own benchmark, as general AI labs lock down offensive cyber capabilities.",
+   "more": "Orion-1 is a new model from Artemis Security purpose-built for cyber defense tasks. The company says it outperforms Claude Opus 5.5 and GPT-6 Sol on its own benchmark, though that benchmark is self-reported rather than independent. The report frames Orion-1 as filling a gap created as general-purpose frontier models increasingly lock down cyber capabilities to prevent misuse, which the piece says is also blocking legitimate defenders. The excerpt does not give technical details on how Orion-1 is trained or its availability.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41524"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41524",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap",
+     "url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
+     "published": "2026-10-14T13:24:22+00:00",
+     "excerpt": "Artemis Security's new Orion-1 model is purpose-built for cyber defense and beats Claude Opus 5.5 and GPT-6 Sol on the company's own benchmark. The model fills a growing gap as general-purpose frontier models lock down their cyber capabilities, blocking defenders in the process. The article AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T13:24:22+00:00"
+  },
+  {
+   "title": "FBI arrests OpenAI engineer accused of spying, who vibe-coded a bug",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The FBI arrested an OpenAI engineer on foreign espionage charges after he allegedly planted an audio recording device in the company's executive conference room, which he reportedly built by vibe-coding it using his wife's chatbot account.",
+   "more": "A Saudi national working as an engineer at OpenAI was arrested and faces federal spy charges, along with up to five years in prison and a $250,000 fine if convicted. According to the indictment, he planted an audio recording device, wrapped in toilet paper, inside OpenAI's executive conference room. He is alleged to have built the surveillance device by vibe-coding it with a chatbot, using his wife's account to do so. The excerpts do not say which chatbot was used or how the device was discovered.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+    "decoder:https://the-decoder.com/?p=41519"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "FBI arrests OpenAI engineer suspected of planting bug in conference room",
+     "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+     "published": "2026-10-14T16:41:49+00:00",
+     "excerpt": "OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=41519",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Alleged OpenAI spy vibe-coded a surveillance device using his wife's chatbot account",
+     "url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
+     "published": "2026-10-14T12:37:05+00:00",
+     "excerpt": "A Saudi national working as an engineer at OpenAI was arrested for allegedly planting an audio recording device, wrapped in toilet paper, inside the company's executive conference room. According to the indictment, he built the spy tool by vibe-coding it with a chatbot. If convicted, he faces up to five years in prison. The article Alleged OpenAI spy vibe-coded a surveillance device using his wife's chatbot account appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-14T16:41:49+00:00"
+  },
+  {
+   "title": "Anthropic warns small AI models could self-replicate across IoT devices",
+   "tags": [
+    "policy",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic warned that small, weight-based AI models could spread between IoT devices like smart fridges, cameras, and TVs, creating self-replicating 'AI worms' that are hard to contain.",
+   "more": "Anthropic's warning centers on 'small weight-based replicators': compact AI models that could hop between connected devices such as fridges, ovens, vacuum cleaners, lawnmowers, security cameras, and TVs. Coverage frames this as a potential new generation of computer worms, distinct from classic malware because the replicating unit is a trained model rather than ordinary code. Reporting describes the scenario as unsettling but notes it has not happened yet, and that devices are not currently coordinating any takeover. The excerpts do not detail how Anthropic tested this risk or what mitigations it is proposing.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011108",
+    "ars-ai:https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011108",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Anthropic’s self-replicating AI warning is alarming deja vu",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011108/anthropic-self-replicating-ai-smart-devices-risk",
+     "published": "2026-10-14T15:19:02+00:00",
+     "excerpt": "Are legions of smart devices - fridges, ovens, vacuum cleaners, lawnmowers, security cameras, and TVs - conspiring to take over the internet? No. But they could soon be unwitting hosts to self-replicating AI models that spread from device to device and prove remarkably difficult to contain. Welcome to the unsettling world of AI worms, where, […]"
+    },
+    {
+     "id": "ars-ai:https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+     "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+     "published": "2026-10-14T12:55:06+00:00",
+     "excerpt": "\"Small weight-based replicators\" could usher in a new generation of computer worms."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-14T15:19:02+00:00"
+  },
+  {
+   "title": "Floqer builds AI agents to research B2B sales prospects",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Floqer offers AI agents that automatically research sales prospects for B2B revenue teams, aiming to save salespeople and revenue operations staff the manual work.",
+   "more": "Floqer is a startup building AI agents that research sales prospects on behalf of B2B revenue teams. The reporting frames this as solving a problem familiar to anyone who has worked in sales or revenue operations: the manual effort of researching customers. The excerpt does not give details on Floqer's funding, customers, or how its agents are built.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3173327"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3173327",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+     "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+     "published": "2026-10-14T15:00:00+00:00",
+     "excerpt": "The problem Floqer is trying to solve is familiar to anyone who has worked in sales or revenue operations."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T15:00:00+00:00"
+  },
+  {
+   "title": "Simon Willison highlights AI's role in mass game decompilation",
+   "tags": [
+    "tools",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison wrote about a wave of AI-powered decompilation of existing video games, which is enabling game mashups and boosting preservation efforts to run old games on new hardware.",
+   "more": "Willison's post discusses indie developer Popcar's commentary on a recent surge in AI-powered decompilation of existing games. The trend is enabling unusual mashups between previously separate games and is fueling a boom in game preservation projects, including efforts to get old games running on new hardware, often via WebAssembly in the browser. Willison says the piece he is linking to captures both the positive and negative sides of the trend. The excerpt notes that most people have already recognized a 'scary part' of AI decompilation, though it cuts off before specifying what that is.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "AI is mass decompiling games. That's both awesome and scary.",
+     "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+     "published": "2026-10-14T16:26:53+00:00",
+     "excerpt": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to get old games working on new hardware (often in a browser using WebAssembly). I like how this piece captures both the positives and the negatives of this new development: Most people already realized the scary part by now. If AI can de"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T16:26:53+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA post jokes about disabling an adblocker for 5 seconds",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A popular r/LocalLLaMA post jokes that targeted ads are 'crazy' after disabling an adblocker for five seconds, rather than discussing any new AI model or release.",
+   "more": "The post, titled 'I disabled my adblocker for 5 seconds,' is a brief joke about how aggressive targeted advertising is rather than a report on AI models or tools. The excerpt gives no further detail beyond the title and a one-line comment calling targeted ads 'crazy.'",
+   "item_ids": [
+    "localllama:t3_1x5uw8w"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x5uw8w",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "I disabled my adblocker for 5 seconds",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5uw8w/i_disabled_my_adblocker_for_5_seconds/",
+     "published": "2026-10-14T15:53:22+00:00",
+     "excerpt": "targeted ads are crazy submitted by /u/infectiousstupidity [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T15:53:22+00:00"
+  },
+  {
+   "title": "TechCrunch Disrupt 2026 enters its final two days in San Francisco",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch Disrupt 2026 is in its last two days at San Francisco's Moscone West, with sessions spanning physical and software AI, investor-only programming, and roundtables.",
+   "more": "TechCrunch Disrupt 2026 runs October 14 to 15 at Moscone West in San Francisco. Day two programming spans both physical and software AI topics, including investor-only sessions and additional roundtables. TechCrunch is offering a 50% ticket discount for people who want to attend the final two days. The excerpts are promotional posts about the event and do not describe specific talks, speakers, or AI announcements made there.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3177466",
+    "techcrunch-ai:https://techcrunch.com/?p=3177501"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177466",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West",
+     "url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
+     "published": "2026-10-14T15:13:24+00:00",
+     "excerpt": "Get a 50% discount on the last two days of TechCrunch Disrupt 2026, October 14-15, in San Francisco. Register now and join the rest of the startup ecosystem. Today, it's all about physical and software AI."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177501",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "TechCrunch Disrupt 2026: Day 2",
+     "url": "https://techcrunch.com/2026/10/14/techcrunch-disrupt-2026-day-2/",
+     "published": "2026-10-14T14:30:00+00:00",
+     "excerpt": "Day 2 at TechCrunch Disrupt 2026, full of all themes across AI, investor-only session, more roundtables, and more. Register to save 50% on your pass."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T15:13:24+00:00"
+  }
+ ]
+}
