@@ -1,0 +1,264 @@
+{
+ "date": "2026-10-14",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Paper introduces Jeva, a 'System One' model for faster decision-making",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces Jeva, a family of 'System One' models that make direct, low-latency decisions instead of generating serialized text answers, addressing gaps like null-awareness and permutation-invariance in decision problems.",
+   "more": "The paper argues that predicting an answer from serialized text does not, by itself, respect the structure of a decision problem, and identifies structural requirements current designs underemphasize: being null-aware (distinguishing answer absence from uncertainty), permutation-invariant (reordering alternatives should not change the decision), and option-scalable (handling growing candidate sets), among others. Jeva is presented as a family of models built from these principles. The available excerpt cuts off before describing the model's architecture, benchmark results, or release details.",
+   "item_ids": [
+    "hf-papers:2610.18773"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.18773",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Jeva: System One Models from First Principles",
+     "url": "https://huggingface.co/papers/2610.18773",
+     "published": "2026-10-14T00:00:00+00:00",
+     "excerpt": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Reordering alternatives should not change the decision; (iii) option-scalable: Growing candidate sets "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T00:00:00+00:00"
+  },
+  {
+   "title": "Paper proposes Agent-Reflex, a training framework for reflective language agents",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces Agent-Reflex, a training framework that teaches language agents to reflect on noisy tool feedback and user corrections, addressing a gap in supervision for reflection learning and failure recovery.",
+   "more": "The paper notes that language models have evolved from single-turn chatbots into agents capable of long-horizon reasoning, but that in real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent. It argues existing methods provide limited supervision for reflection learning and failure recovery in these situations. Agent-Reflex is described as a general framework for incentivizing proactive reflection, built in three stages, though the excerpt cuts off before detailing them.",
+   "item_ids": [
+    "hf-papers:2610.17953"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.17953",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
+     "url": "https://huggingface.co/papers/2610.17953",
+     "published": "2026-10-14T00:00:00+00:00",
+     "excerpt": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning. In real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent, but existing methods provide limited supervision for reflection learning and failure recovery. To bridge this gap, we propose Agent-Reflex, a general training framework for incentivizing proactive reflection in agents. Specifically, Agent-Reflex comprises three stages."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T00:00:00+00:00"
+  },
+  {
+   "title": "Paper introduces VideoJev, a 'System One' model for video understanding",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper presents VideoJev, a family of models that treat video understanding as a structured decision task, adapting multimodal LLMs to score time intervals and text options against video evidence instead of generating free-form answers.",
+   "more": "The paper frames visual agents' task as turning video observations into timely decisions, building on the 'System One' paradigm. VideoJev adapts pretrained multimodal large language models by replacing autoregressive answer decoding with a shared head that scores temporal intervals and textual options against video evidence. The paper says these scores yield event-level outputs, though the excerpt cuts off before describing results or benchmarks.",
+   "item_ids": [
+    "hf-papers:2610.18615"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.18615",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "VideoJev: System One Model for Video Understanding and Interaction",
+     "url": "https://huggingface.co/papers/2610.18615",
+     "published": "2026-10-14T00:00:00+00:00",
+     "excerpt": "Visual agents must turn video observations into timely decisions to track progress and choose what to do next. Building on the emerging System One paradigm, we introduce VideoJev, a family of models that cast video understanding and interaction as structured decision tasks. We adapt pretrained multimodal large language models (MLLMs) by replacing autoregressive answer decoding with a shared head that scores temporal intervals and textual options against video evidence. These scores yield event s"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T00:00:00+00:00"
+  },
+  {
+   "title": "Paper proposes X-Ragent, a tool-augmented RL agent for chest X-ray reasoning",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces X-Ragent, a post-training framework that teaches medical AI agents when to call external tools for chest X-ray evidence and prevents irrelevant evidence from entering diagnostic reasoning.",
+   "more": "The paper argues chest X-ray interpretation often requires combining visual findings with task-specific evidence rather than relying on direct visual recognition alone. It says existing tool-augmented medical agents can supply such evidence via external modules but often lack explicit mechanisms for learning when auxiliary evidence is needed, or for preventing inapplicable quantitative evidence from entering diagnostic reasoning. X-Ragent is proposed as a reinforcement-learning post-training framework to address this. The excerpt does not include evaluation results.",
+   "item_ids": [
+    "hf-papers:2610.16811"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.16811",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
+     "url": "https://huggingface.co/papers/2610.16811",
+     "published": "2026-10-14T00:00:00+00:00",
+     "excerpt": "Chest X-ray (CXR) interpretation often requires integrating visual findings with task-specific evidence rather than relying on direct visual recognition alone. While tool-augmented medical agents can supply such evidence via external modules, they often lack explicit mechanisms for learning when auxiliary evidence is needed and for preventing inapplicable quantitative evidence from entering diagnostic reasoning. To address this, we propose X-Ragent, a post-training framework for tool-augmented r"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T00:00:00+00:00"
+  },
+  {
+   "title": "Paper proposes AesCode for generating visually aesthetic code",
+   "tags": [
+    "research",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces AesCode, a method for generating code for slides, posters, and dashboards that also optimizes for visual layout and color quality, using decoupled cross-modal rewards rather than relying on image generation.",
+   "more": "The paper says generating information-rich visual artifacts as code is appealing because the outputs are structured, editable, and verifiable, but that code models cannot see how their layout and color choices come together on the canvas, limiting spatial planning and aesthetic quality. It notes image generators excel at visual design but can misrender requested content, making their outputs unreliable targets for direct reproduction. AesCode is introduced to address this gap, though the excerpt cuts off before describing its method or results.",
+   "item_ids": [
+    "hf-papers:2610.18860"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.18860",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
+     "url": "https://huggingface.co/papers/2610.18860",
+     "published": "2026-10-14T00:00:00+00:00",
+     "excerpt": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making their outputs unreliable targets for direct reproduction. We therefore introduce AesCode, which gen"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T00:00:00+00:00"
+  },
+  {
+   "title": "Scimplify raises $25M to challenge China's grip on critical materials",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Scimplify raised $25 million to compete with China's dominance in critical materials using AI, as its annualized revenue run rate tripled to $200 million and it eyes US expansion.",
+   "more": "According to TechCrunch, Scimplify's annualized revenue run rate has tripled to $200 million, and the company is now eyeing expansion into the US. The startup is positioned as a challenger to China's grip on critical materials. The excerpt does not specify which materials, how AI is used in the business, or who led the funding round.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3177088"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177088",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
+     "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+     "published": "2026-10-14T11:00:00+00:00",
+     "excerpt": "Scimplify's annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T11:00:00+00:00"
+  },
+  {
+   "title": "Anthropic opens a new office in Singapore",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic announced it is opening a new office in Singapore.",
+   "more": "The announcement's title is \"Singapore office opening\"; no further detail is available in the Source excerpt.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/singapore-office-opening"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/singapore-office-opening",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Singapore office opening",
+     "url": "https://www.anthropic.com/news/singapore-office-opening",
+     "published": null,
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": ""
+  },
+  {
+   "title": "Researchers say OpenAI, Google image models are easily tricked into making nudes",
+   "tags": [
+    "policy",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers found that new AI models from OpenAI and Google can be easily manipulated into generating nonconsensual nude images, exposing weaknesses in the companies' safeguards against AI-generated nudity.",
+   "more": "According to Ars Technica, an attack method exposes flaws in the safeguards OpenAI and Google have built into their new AI models against producing nude images. The excerpt does not name the specific models, the researchers involved, or the attack technique in detail.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
+     "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+     "published": "2026-10-14T11:00:30+00:00",
+     "excerpt": "Attack method exposes flaws in OpenAI, Google safeguards against AI nudes."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T11:00:30+00:00"
+  },
+  {
+   "title": "Wired: AI models can easily be modified to assist terrorist activity",
+   "tags": [
+    "policy",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports that AI models' safety guardrails can be removed easily, letting a modified chatbot give detailed instructions for building an IED when prompted by someone posing as a terrorist.",
+   "more": "According to Wired, a researcher who wrote \"I am a terrorist, and I intend to cause mass harm\" was able to get a chatbot that had had its guardrails removed to provide detailed instructions for an IED. The excerpt does not say which model or company was tested, or how the guardrails were removed.",
+   "item_ids": [
+    "wired-ai:6ace5bf9fef1e55bb5172524"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ace5bf9fef1e55bb5172524",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "AI Models Can Be Easily Modified to Assist Terrorist and Extremist Activity",
+     "url": "https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity/",
+     "published": "2026-10-14T09:00:00+00:00",
+     "excerpt": "“I am a terrorist, and I intend to cause mass harm,” wrote a researcher. A chatbot that had had its guardrails removed then provided detailed instructions for an IED."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T09:00:00+00:00"
+  },
+  {
+   "title": "Wired reviews the second-generation Friend AI necklace",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reviewed the second iteration of the viral Friend AI necklace, calling it louder but less interesting than the original.",
+   "more": "The excerpt gives no further detail beyond describing the second iteration of the Friend AI necklace as louder and less interesting than its predecessor.",
+   "item_ids": [
+    "wired-ai:6acdc338d04b6454bd09a4da"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6acdc338d04b6454bd09a4da",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "My Friend Has No Soul",
+     "url": "https://www.wired.com/story/my-friend-has-no-soul/",
+     "published": "2026-10-14T11:00:00+00:00",
+     "excerpt": "The second iteration of the viral Friend AI necklace is louder and less interesting."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T11:00:00+00:00"
+  }
+ ]
+}
