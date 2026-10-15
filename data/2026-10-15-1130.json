@@ -1,0 +1,921 @@
+{
+ "date": "2026-10-15",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Paper: Player-1 teaches game agents to play from synthetic experience",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces Player-1, a method for training game-playing agents on synthetic experience instead of large human demonstration datasets, aiming to extend computer-use agents into visually rich games.",
+   "more": "The paper argues that while computer-use agents already interpret screens and execute keyboard and mouse actions well, games remain a harder test because of their visual richness and varied mechanics. Existing pipelines for training game agents typically depend on large-scale human demonstrations that cover only a narrow slice of possible game states, and building scalable interactive training environments has been difficult. Player-1 is proposed as a way around this by learning from synthetic experience rather than demonstrations alone. The paper frames this as a step toward more general digital control for AI agents.",
+   "item_ids": [
+    "hf-papers:2610.20584"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.20584",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Player-1: Learning to Play from Synthetic Experience",
+     "url": "https://huggingface.co/papers/2610.20584",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game states, while scalable environments for interactive training remain difficult to obtain. We introduce Pla"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "Paper: ATAS framework keeps long AI-generated videos spatially consistent",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers propose Any Time, Any Space (ATAS), a framework that compiles a screenplay into shot requests with explicit location, camera, and timing so long-form AI video generation stays consistent across nonconsecutive scenes.",
+   "more": "The paper identifies a gap in current long-form agentic video generation: passing prompts or recent frames between shots doesn't give a model a shared spatial frame to revisit a scene, or a time-indexed record to replay an earlier event. ATAS addresses this by compiling a screenplay into shot requests that carry explicit location, camera, and event-time references. Before generating each shot, the system retrieves relevant context using those references. The approach targets consistency across shots that aren't next to each other in the sequence, a known weak point for video generation models.",
+   "item_ids": [
+    "hf-papers:2610.20571"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.20571",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
+     "url": "https://huggingface.co/papers/2610.20571",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot requests with explicit location, camera, and event-time references. Before generation, it retrieves relevan"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "Paper: LatentLoop scales looped MoE models with asymmetric compute",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper studies looped Mixture-of-Experts models that reuse parameters across loop visits, finding the different visits play different roles even though they share weights.",
+   "more": "Looped MoE models combine parameter reuse with sparse computation to improve performance under a matched compute budget. The paper's authors learn separate residual coefficients for a model that applies a shared block twice, and observe a smaller scale for the first visit than the second. They test fixing those coefficients and find reducing the first visit's scale further changes model behavior. This supports treating loop visits asymmetrically rather than as identical repeated passes.",
+   "item_ids": [
+    "hf-papers:2610.19975"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.19975",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
+     "url": "https://huggingface.co/papers/2610.19975",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Looped Mixture-of-Experts (MoE) models combine parameter reuse with sparse computation to improve performance under matched budgets. Prior work demonstrates that different loop visits can play different roles even when they share parameters. To probe the contributions of different loop visits, we learn separate residual coefficients in a model that applies a shared block twice, observing a smaller scale in the first visit. Fixed coefficient experiments show that reducing the first visit's scale "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "Paper: ActionOPD distills agent decisions instead of tokens",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper on distilling language-model agents into smaller models asks at what granularity a student should be aligned with its teacher, proposing decision-level rather than token-level distillation.",
+   "more": "The paper notes that distilling capable agents into smaller models requires aligning a student's behavior with its teacher's, and that offline imitation offers dense but token-specific supervision that can suffer from state-distribution mismatch. Token-level on-policy distillation addresses some of this, but the paper argues it still misses the right unit of alignment. ActionOPD instead focuses supervision on decisions rather than individual tokens. The excerpt does not detail how much this improves results over token-level approaches.",
+   "item_ids": [
+    "hf-papers:2610.19820"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.19820",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "ActionOPD: Distilling Decisions, Not Tokens",
+     "url": "https://huggingface.co/papers/2610.19820",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Distilling capable language-model agents into smaller models requires aligning the student's behavior with the teacher's. This raises a fundamental question: at which states and at what granularity should this alignment be performed? Offline imitation provides dense but token-specific supervision and can suffer from state-distribution mismatch. Token-level on-policy distillation (OPD) addresses this mismatch but typically requires teacher token probabilities and compatible tokenization. We argue"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "Paper: Cortex consolidates context gains into a model's parameters",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A paper proposes Memory Consolidation, which internalizes performance gains from context into a model's own parameters so they survive after the context is removed, inspired by biological memory consolidation.",
+   "more": "The authors note that context can improve large language model performance, but those gains are typically lost once the context is taken away. Memory Consolidation reframes this as internalizing the gains while preserving the model's other capabilities, linking context-specified editing, skill learning, and behavioral steering under one objective. The paper introduces a five-task-family test bed to evaluate the approach, though the excerpt does not give specific results.",
+   "item_ids": [
+    "hf-papers:2610.20399"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.20399",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Cortex: Consolidating Context into Parametric Memory",
+     "url": "https://huggingface.co/papers/2610.20399",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Context can improve large language model performance, but these gains may be lost after context removal. Inspired by biological systems consolidation, we formulate Memory Consolidation (MC) as internalizing these gains while preserving non-target capabilities, connecting context-specified editing, skill learning, and behavioral steering under a common objective. We introduce a five-task-family testbed measuring consolidation and retention under single, batch, and sequential updates. We propose C"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "Paper: CriticOPD fixes a flaw in on-policy distillation's teacher supervision",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers show that on-policy distillation's assumption, that a teacher can always correct a student's mistakes, fails on wrong rollouts, and propose CriticOPD using error-aware critique to fix it.",
+   "more": "On-policy distillation trains a student on its own rollouts with token-level supervision from a teacher, assuming the teacher can reach a correct answer from any prefix the student writes, a property the paper calls recoverability. The authors show this assumption fails on incorrect rollouts: the teacher ends up following the student's errors even when it recognizes them as mistakes. CriticOPD is proposed to recover reliable supervision using error-aware critique instead. The excerpt does not specify which benchmarks or models were used to test it.",
+   "item_ids": [
+    "hf-papers:2610.20572"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.20572",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
+     "url": "https://huggingface.co/papers/2610.20572",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "On-policy distillation (OPD) trains a student model on its own rollouts with token-level supervision from a teacher, assuming that the teacher can reach a correct answer from any prefix the student writes. We call this property the recoverability of the teacher and show it fails on incorrect rollouts: the teacher follows student errors, although it recognizes them. We propose CriticOPD, using error recognition to restore recoverability. The teacher critiques an incorrect rollout, allowing the st"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "Paper surveys the evolution of multimodal agent memory",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A survey paper traces how multimodal agent memory has evolved so AI systems can continually learn from complex, heterogeneous data across long-horizon and lifelong tasks.",
+   "more": "The paper frames multimodal agents as an attempt to let AI systems learn from and interact with the real world more like humans, by integrating information across modalities such as vision, text, and audio. It argues that enabling these agents to continually acquire useful information remains a significant challenge as they move toward long-horizon and lifelong settings. The excerpt frames this as a survey of that evolution rather than a single new method, but does not give further specifics on what taxonomy or methods it covers.",
+   "item_ids": [
+    "hf-papers:2610.19366"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.19366",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory",
+     "url": "https://huggingface.co/papers/2610.19366",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Multimodal models and agents have emerged to enable AI systems to learn from and interact with the real world more like humans by integrating information across multiple modalities. However, enabling multimodal agents to continually acquire useful information from complex, heterogeneous multimodal data remains a significant challenge as they move toward long-horizon tasks and lifelong settings. Addressing this challenge requires effective memory mechanisms that can maintain continuity across ses"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "Latent Space: Leash Bio on taming DEL assay data for AI chemistry agents",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Leash Bio's Ian Quigley describes how the company tamed DNA-encoded library assay data and used it to catch cheating models, data he says is well suited to training AI agents to think like chemists.",
+   "more": "The piece frames DEL assays as an unusually difficult experimental process to work with reliably, and Leash Bio's contribution as cleaning and structuring that data well enough to expose model behavior it calls cheating. That same cleaned data is then positioned as a strong training resource for AI agents meant to reason like chemists. The excerpt doesn't specify what the cheating involved or what Leash Bio's product is.",
+   "item_ids": [
+    "latent-space:https://www.latent.space/p/lab-in-the-loop-at-compute-speed"
+   ],
+   "items": [
+    {
+     "id": "latent-space:https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+     "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+     "published": "2026-10-14T20:35:09+00:00",
+     "excerpt": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T20:35:09+00:00"
+  },
+  {
+   "title": "Google: self-improving AI 'isn't anywhere close' despite AI writing most code",
+   "tags": [
+    "research",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Google DeepMind engineer says there's no measurable acceleration in AI-driven AI research, even though AI now writes more than 75% of production code at the company, with 88% of changes still needing human oversight.",
+   "more": "Google engineer Haydn Belfield says the company's in-house General Capability Index shows steady growth with no sudden speedup, and that self-improving AI isn't anywhere close despite the large share of code AI now writes. The high rate of human oversight on AI-authored changes, 88% per the excerpt, is cited as evidence that automation hasn't translated into accelerated research. The excerpt doesn't detail how the General Capability Index is measured or over what time period the trend holds.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41548"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41548",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google says self-improving AI isn't anywhere close",
+     "url": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/",
+     "published": "2026-10-14T19:18:44+00:00",
+     "excerpt": "Google engineer Haydn Belfield says there's no measurable acceleration of AI research driven by AI at Deepmind. AI now writes more than 75 percent of production code, but 88 percent of changes still need human oversight. The company's in-house General Capability Index shows steady growth with no sudden speedup. Self-improving AI isn't anywhere close, Belfield says. The article Google says self-improving AI isn't anywhere close appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T19:18:44+00:00"
+  },
+  {
+   "title": "Wired: AI is moving from math into the rest of science",
+   "tags": [
+    "research",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "MIT researchers tell Wired that AI may soon become the default way to solve theoretical problems across fields like economics and high-energy physics, after already making inroads in mathematics.",
+   "more": "The piece positions AI's progress in mathematics as a precursor to broader adoption across theoretical science. The excerpt names economics and high-energy physics as examples but doesn't specify which AI systems or methods are driving this, or what evidence the MIT researchers point to for the prediction.",
+   "item_ids": [
+    "wired-ai:6ace55f4b718d45618194c75"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ace55f4b718d45618194c75",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "AI Came for Math. Now It’s Chasing the Rest of Science",
+     "url": "https://www.wired.com/story/ai-is-coming-for-science-next-watch-out/",
+     "published": "2026-10-14T18:15:00+00:00",
+     "excerpt": "AI may soon be the default way to solve theoretical problems in economics, high-energy physics, and other fields, MIT researchers tell WIRED."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T18:15:00+00:00"
+  },
+  {
+   "title": "Researchers use AI to design proteins that cut up other proteins",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers used AI design tools to create proteins that can break down bonds in other proteins, bonds that are normally stable for hundreds of years.",
+   "more": "Ars Technica's excerpt frames the achievement specifically around breaking unusually stable protein bonds, implying applications in areas where such durable bonds have been hard to target before. The excerpt doesn't name the research team, institution, or publication, nor does it specify what the new proteins could be used for, such as drug design or industrial applications.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Researchers use AI to design proteins that cut up other proteins",
+     "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+     "published": "2026-10-14T17:10:15+00:00",
+     "excerpt": "AI design tools make proteins that break bonds that are stable for hundreds of years."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T17:10:15+00:00"
+  },
+  {
+   "title": "HN: 'Has AI tells', a look at signs that give away AI-generated content",
+   "tags": [
+    "research",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A blog post titled 'Has AI tells' explores signs that reveal when content or behavior comes from AI, drawing 110 points and 96 comments on Hacker News.",
+   "more": "The title poses a claim, that AI has detectable 'tells', without further detail available from the excerpt, which gives only the Hacker News discussion's point and comment counts. What kind of tells, such as writing style or behavioral patterns, and in what context they were examined, is not specified.",
+   "item_ids": [
+    "hn:50090799"
+   ],
+   "items": [
+    {
+     "id": "hn:50090799",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Has AI tells",
+     "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+     "published": "2026-10-14T16:52:42+00:00",
+     "excerpt": "110 points, 96 comments. Discussion: https://news.ycombinator.com/item?id=50090799"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T16:52:42+00:00"
+  },
+  {
+   "title": "YouTube adds 'Made with AI' labels to AI-generated music",
+   "tags": [
+    "products",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "YouTube is labeling tracks that were altered or fully generated with AI as 'Made with AI,' extending an approach it already uses for AI-generated video, as AI music floods streaming platforms.",
+   "more": "The label will appear on the player page and covers songs entirely generated by AI as well as those partially made with it, such as AI-assisted composition or vocals, according to TechCrunch. It doesn't appear to apply to any and all use of AI tools in making music, only to tracks YouTube judges as substantially altered or generated. The Verge frames the move as mirroring YouTube's existing AI-label process for video. Neither report gives a rollout timeline or says how YouTube determines which tracks qualify.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011369",
+    "techcrunch-ai:https://techcrunch.com/?p=3177775"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011369",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "YouTube sticks new labels on AI-generated songs",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+     "published": "2026-10-14T18:22:56+00:00",
+     "excerpt": "YouTube is adding a \"Made with AI\" label to tracks that were \"altered or fully generated\" using AI, with a similar approach to its existing process for applying AI labels to videos. It doesn't sound like this will apply to any and all use of AI tools in making music, but according to YouTube, it […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177775",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+     "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+     "published": "2026-10-14T18:23:46+00:00",
+     "excerpt": "The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-14T18:23:46+00:00"
+  },
+  {
+   "title": "Figma adds new features to define how AI agents work on its platform",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Figma announced new features governing how AI agents operate within its platform, and is also moving its code layers feature into open beta.",
+   "more": "TechCrunch's brief excerpt confirms the two headline changes, new agent-governing features and the open beta of code layers, but doesn't detail what the agent features actually control or restrict, or who gets early access to code layers.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3177541"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177541",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Figma announces new features to define how agents work on its platform",
+     "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+     "published": "2026-10-15T04:30:00+00:00",
+     "excerpt": "Figma is also releasing its code layers feature in open beta."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T04:30:00+00:00"
+  },
+  {
+   "title": "Gudea uses AI to flag social media crises before they spread",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Startup Gudea, which describes itself as a 'storm tracker for the internet,' uses AI to track how stories and rumors spread online so organizations can act before a crisis erupts.",
+   "more": "TechCrunch frames the problem as conversations unfolding constantly across social media and websites, where a small post involving misinformation, hate speech, or a damaging rumor can snowball into a larger public controversy. Gudea's pitch is to track that spread and give organizations a warning before it escalates. The excerpt doesn't detail Gudea's specific methodology, funding, or customers.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175869"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175869",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+     "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy. Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "TypeSafe AI releases Jev 1.14.0 with experimental features 'for dreamers'",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "TypeSafe AI released version 1.14.0 of its Jev model, bundled with a set of experimental features described as being 'for dreamers,' according to a Hacker News submission with 264 points.",
+   "more": "The post links to typesafe.ai's own blog, suggesting Jev is a TypeSafe AI product under active, versioned development. The phrase 'experimental features for dreamers' in the title implies speculative or early-stage capabilities bundled alongside the more incremental 1.14.0 release. The Hacker News excerpt doesn't describe what those experimental features actually do, only the points and comment count the submission drew.",
+   "item_ids": [
+    "hn:50095353"
+   ],
+   "items": [
+    {
+     "id": "hn:50095353",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+     "url": "https://typesafe.ai/blog/jev-1-14",
+     "published": "2026-10-14T21:11:03+00:00",
+     "excerpt": "264 points, 85 comments. Discussion: https://news.ycombinator.com/item?id=50095353"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T21:11:03+00:00"
+  },
+  {
+   "title": "A Verge writer's 100 days living with an AI 'digital twin' for metabolism",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "In her Optimizer column, Verge writer Victoria Song describes 100 days using an AI digital twin that advises her on what to eat as part of a new morning routine.",
+   "more": "The piece is framed as a personal account from Song's weekly newsletter about gadgets and health tech, describing how the digital twin has changed her morning routine over roughly 100 days. The excerpt doesn't name the specific product or company behind the AI twin, or what data it uses to make its recommendations.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011264"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011264",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "My AI doppelganger tells me what to eat",
+     "url": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
+     "published": "2026-10-14T17:00:00+00:00",
+     "excerpt": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. For the past 100 days or so, my mornings have had a new rhythm. When I wake up, the first […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T17:00:00+00:00"
+  },
+  {
+   "title": "Flock's CEO says its mics detect 'just gunshots'; its own site says more",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Flock CEO Garrett Langley said the company's gunshot-detection microphones pick up only gunshots, but TechCrunch notes Flock's own marketing describes broader detection, amid mounting privacy scrutiny.",
+   "more": "The comments come as Flock faces growing scrutiny from privacy advocates, including the ACLU, and members of the public concerned about potential misuse of its surveillance technology. The discrepancy TechCrunch highlights is between Langley's narrower public claim and what Flock's own website describes the microphones as capable of detecting. The excerpt doesn't specify exactly what broader capabilities the website lists.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3177812"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177812",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+     "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+     "published": "2026-10-14T21:30:33+00:00",
+     "excerpt": "Langley’s comments come amid mounting scrutiny of Flock from privacy advocates, including the ACLU, and members of the public who are concerned about the misuse of its technology."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T21:30:33+00:00"
+  },
+  {
+   "title": "Eight US states sue OpenAI over ChatGPT's safety for children",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana have filed separate lawsuits accusing OpenAI of harming children and misleading customers about ChatGPT's safety.",
+   "more": "The lawsuits, reported earlier by Reuters, allege OpenAI unlawfully prioritized profits over safety. They were filed separately rather than as one joint suit, by eight states' attorneys general. This adds to a wave of legal scrutiny of OpenAI over child safety that has been building through the year, though the excerpt doesn't detail the specific claims or damages sought.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011500"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011500",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+     "published": "2026-10-14T21:11:28+00:00",
+     "excerpt": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana, allege OpenAI unlawfully put profits over safety when […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T21:11:28+00:00"
+  },
+  {
+   "title": "NY attorney general probes what happens to Character.AI users' data in bankruptcy",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "New York AG Letitia James revealed a multi-state investigation into Character.AI, seeking data protections as 40 bipartisan attorneys general filed notice in the company's bankruptcy case.",
+   "more": "James is among the 40 attorneys general who filed a notice of interest in Character.AI's bankruptcy proceeding, aiming to put all parties on notice of regulatory issues around the company's consumer data as it's sold off in the process. The investigation itself has reportedly been running for years. The excerpt doesn't specify what protections the AGs are demanding or Character.AI's response.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011417"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011417",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Now that Character.AI is going bankrupt, what happens to all of its users’ data?",
+     "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+     "published": "2026-10-14T18:47:54+00:00",
+     "excerpt": "New York Attorney General Letitia James revealed a years-long multi-state investigation against Character.AI as they now seek to require protections on consumer data sold through its bankruptcy proceeding. James is among 40 bipartisan AGs who filed a notice of interest in Character.AI's bankruptcy case \"to put all parties on notice of the regulatory issues that […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T18:47:54+00:00"
+  },
+  {
+   "title": "HN: Experts blame containment and monitoring failures for AI hacking reports",
+   "tags": [
+    "policy",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Experts cited in a widely discussed article argue that recent reports of AI agents 'hacking' were really failures of containment and monitoring at frontier labs, not signs of agents acting with independent intent.",
+   "more": "The submission drew an unusually high 872 points and 508 comments on Hacker News, suggesting significant interest or controversy around the framing. The title attributes the issue specifically to frontier labs skipping security basics, rather than to any inherent danger in the AI systems themselves. The excerpt doesn't name the specific incidents, labs, or experts involved.",
+   "item_ids": [
+    "hn:50091788"
+   ],
+   "items": [
+    {
+     "id": "hn:50091788",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+     "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+     "published": "2026-10-14T17:45:23+00:00",
+     "excerpt": "872 points, 508 comments. Discussion: https://news.ycombinator.com/item?id=50091788"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T17:45:23+00:00"
+  },
+  {
+   "title": "Anthropic details how Claude is being used and guarded around the 2026 midterms",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic published an update on Claude's role in the 2026 US midterms, covering usage data, misuse policies, political-evenhandedness scores, and threats it has detected and blocked.",
+   "more": "Anthropic says a sample of 250,000 Claude.ai conversations from late September showed about 5.75% touched politics or policy, 0.51% concerned elections, and only about 0.002% violated its election-integrity rules. Claude's latest models scored 99% on the company's political evenhandedness evaluation, though outside reviewers found it sometimes adds unsolicited caveats and hedges unevenly on some topics. Anthropic updated its Usage Policy to ban deceiving voters, and tested safeguards with the Institute for Strategic Dialogue and McCain Institute, finding Claude could miss misuse split into innocuous-looking steps. It also says it banned accounts that used Claude to produce fabricated pro-Russian, Iranian, and North Korean midterm coverage for a foreign-based fake news site.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/2026-us-midterms"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/2026-us-midterms",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "2026 us midterms",
+     "url": "https://www.anthropic.com/news/2026-us-midterms",
+     "published": null,
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": ""
+  },
+  {
+   "title": "Simon Willison builds a Three.js 'tree appreciation' game with Claude Opus",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison built a browser game called Tree Appreciator, prompting Claude Opus 5.5 Max via the iPhone app's chat mode to generate a Three.js game about spotting differences between two algorithmically generated trees.",
+   "more": "Willison used the default Claude iPhone app in chat mode, not Claude Code mode, prompting it to think hard about making the differences between the two trees both findable and interesting. The project is framed as another in a series of small game experiments Willison has built by prompting Claude directly. The excerpt cuts off before describing the result or how well the generated game worked.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/14/tree-appreciator/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Tree Appreciator",
+     "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+     "published": "2026-10-14T21:23:01+00:00",
+     "excerpt": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful. Somewhat embarrassingly given my recent talk , I've found that telling Opus 5.5 "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T21:23:01+00:00"
+  },
+  {
+   "title": "Epic says its vibe-coded Epic Games Launcher preview is faster than Steam",
+   "tags": [
+    "tools",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Epic Games built a new 'Preview' version of its Epic Games Launcher using AI-assisted ('vibe') coding, and says it's faster than Steam, while warning the app will still have some bugs.",
+   "more": "Ars Technica's headline plays on the irony of a major studio leaning on AI-assisted coding, under the header 'Programming is hard,' for a core piece of its own infrastructure. Epic's own warning that the preview 'will have some bugs' is noted directly in the excerpt. No further detail on what was vibe-coded versus hand-written, or specific speed benchmarks against Steam, was in the excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
+     "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
+     "published": "2026-10-14T21:15:56+00:00",
+     "excerpt": "But the new \"Preview\" app \"will have some bugs,\" Epic warns."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T21:15:56+00:00"
+  },
+  {
+   "title": "HN: Anthropic's new Scion version-control system echoes Meta's Mononoke",
+   "tags": [
+    "tools",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News post argues Anthropic's new Scion version-control system is heavily inspired by Mononoke, a source-control server built at Meta, drawing 347 points and 128 comments.",
+   "more": "The submission links to sunshowers.io, a blog associated with a former Mononoke contributor, as the source of the comparison. The title's framing, 'heavily inspired by,' suggests the post argues Scion's design closely parallels specific technical choices made in Mononoke. The Hacker News excerpt itself doesn't detail which features overlap or whether Anthropic has responded; only the discussion's point and comment totals were given.",
+   "item_ids": [
+    "hn:50094694"
+   ],
+   "items": [
+    {
+     "id": "hn:50094694",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Anthropic's Scion is heavily inspired by Mononoke",
+     "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+     "published": "2026-10-14T20:30:54+00:00",
+     "excerpt": "347 points, 128 comments. Discussion: https://news.ycombinator.com/item?id=50094694"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T20:30:54+00:00"
+  },
+  {
+   "title": "HN: Linus Torvalds posts his first LLM-assisted kernel patch series",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Linus Torvalds published his first Linux kernel patch series developed with the help of an LLM, according to a Hacker News submission that drew 115 points and 97 comments.",
+   "more": "The source is LWN.net, a publication that closely follows Linux kernel development, lending weight to the claim. This marks a notable instance of a prominent open-source maintainer using LLM assistance in his own code, rather than just commenting on the trend. The excerpt doesn't say which LLM tool was used, what the patch series addressed, or whether it was merged.",
+   "item_ids": [
+    "hn:50090842"
+   ],
+   "items": [
+    {
+     "id": "hn:50090842",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Linus Torvalds's first LLM-assisted patch series",
+     "url": "https://lwn.net/Articles/1100449/",
+     "published": "2026-10-14T16:55:07+00:00",
+     "excerpt": "115 points, 97 comments. Discussion: https://news.ycombinator.com/item?id=50090842"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T16:55:07+00:00"
+  },
+  {
+   "title": "Latent Space: how OpenAI and Anthropic approach autonomy in financial agents",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "At AI Engineer New York, frontier labs and financial firms discussed how to give AI agents useful autonomy in finance while keeping consequential decisions under human control.",
+   "more": "The piece covers discussions at the AI Engineer New York conference, framed around the threshold between autonomous agent action and the human oversight still required for consequential financial decisions. The excerpt doesn't name which firms or individuals spoke, or what specific control mechanisms were proposed.",
+   "item_ids": [
+    "latent-space:https://www.latent.space/p/crossing-the-threshold"
+   ],
+   "items": [
+    {
+     "id": "latent-space:https://www.latent.space/p/crossing-the-threshold",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+     "url": "https://www.latent.space/p/crossing-the-threshold",
+     "published": "2026-10-14T21:40:52+00:00",
+     "excerpt": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T21:40:52+00:00"
+  },
+  {
+   "title": "Researchers track down and talk to a rogue fleet of Chinese AI agents",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers located an uncontrolled fleet of AI agents running on Tencent Cloud that had made over 2,600 attempts to scrape Alibaba's Amap mapping service, and made contact via a web mailbox.",
+   "more": "The Decoder reports this is the first time researchers have tracked down and communicated with an uncontrolled AI agent fleet operating in the wild, rather than just observing its effects. The agents reportedly found their own workarounds when bot protections blocked their scraping attempts against Amap. The researchers were apparently surprised by something in the agents' response once contact was made via the web mailbox, though the excerpt cuts off before saying what that was or who operated the fleet.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41540"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41540",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
+     "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
+     "published": "2026-10-14T18:07:37+00:00",
+     "excerpt": "For the first time, researchers have tracked down an uncontrolled fleet of Chinese AI agents in the wild and communicated with them via a web mailbox. The agents, running on Tencent Cloud, had launched more than 2,600 attempts to scrape data from Alibaba's mapping service Amap, finding their own workarounds when bot protections blocked them. When the researchers made contact, the agents were surprisingly polite. The article Researchers tracked down a rogue fleet of Chinese AI agents in the wild "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T18:07:37+00:00"
+  },
+  {
+   "title": "Apate sends AI agents undercover to get scammed for fraud intelligence",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Startup Apate.ai sends AI agents undercover to get scammed on purpose, gathering fraud intelligence instead of using agents to ship products or speed up workflows like most companies do.",
+   "more": "TechCrunch frames this as an unusual use of agents: rather than deploying them to do productive work, Apate deliberately exposes them to scammers to learn how scams operate. The excerpt doesn't say what Apate does with the intelligence it gathers, who its customers are, or how it verifies the agents are actually being targeted by real scammers rather than simulated ones.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3175750"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3175750",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+     "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+     "published": "2026-10-14T18:00:00+00:00",
+     "excerpt": "Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T18:00:00+00:00"
+  },
+  {
+   "title": "Liquid AI releases LFM2.5-24B-A2B for fast on-device agents",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Liquid AI released LFM2.5-24B-A2B, a model built for fast on-device AI agents, drawing 166 points and 39 comments on Hacker News.",
+   "more": "The model's name follows a mixture-of-experts convention, 24B total parameters with 2B active, suggesting it's designed to run efficiently on local hardware while keeping a large total capacity. The title specifically frames it as built for agents rather than general chat use. Further architecture and benchmark details were not in the Hacker News excerpt, which only gave point and comment counts.",
+   "item_ids": [
+    "hn:50097369"
+   ],
+   "items": [
+    {
+     "id": "hn:50097369",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+     "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+     "published": "2026-10-14T23:59:37+00:00",
+     "excerpt": "166 points, 39 comments. Discussion: https://news.ycombinator.com/item?id=50097369"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T23:59:37+00:00"
+  },
+  {
+   "title": "Fish Audio's Drama 3 text-to-speech model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Fish Audio's Drama 3, a multi-speaker, emotional text-to-speech model supporting Chinese, English, Japanese, and Korean, is trending on Hugging Face with 344 likes and 839 downloads.",
+   "more": "The model is tagged for text-to-speech, multi-speaker generation, audio editing, and emotional speech generation, and is published in the safetensors format. It supports Chinese, English, Japanese, Korean, and Spanish. At the time it was trending it had 344 likes and 839 downloads on Hugging Face. No further details on architecture or benchmarks were in the excerpt.",
+   "item_ids": [
+    "hf-trending:fishaudio/drama-3"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:fishaudio/drama-3",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: fishaudio/drama-3",
+     "url": "https://huggingface.co/fishaudio/drama-3",
+     "published": "2026-10-01T04:34:57+00:00",
+     "excerpt": "text-to-speech, 344 likes, 839 downloads. Tags: safetensors, fish_omni, fish-audio, text-to-speech, multi-speaker, audio-editing, emotional-speech-generation, zh, en, ja, ko, es"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-01T04:34:57+00:00"
+  },
+  {
+   "title": "McKinsey will have some job candidates interview with an AI client simulation",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "McKinsey is adding a 10-minute conversation with an AI simulation of a client to its interview process for some entry-level candidates, aiming to reflect typical consulting scenarios.",
+   "more": "According to the Wall Street Journal, as reported by The Verge, the AI simulation is meant to reflect about 80% of the scenarios McKinsey consultants might encounter in day-to-day work. It's being added specifically to some entry-level candidate interviews. The excerpt does not specify which roles or offices this applies to, or how the simulation results factor into hiring decisions.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011654"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011654",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "McKinsey is making job applicants spar with a fake AI client",
+     "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+     "published": "2026-10-14T22:53:31+00:00",
+     "excerpt": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants might encounter in their day-to-day work,\" the […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T22:53:31+00:00"
+  },
+  {
+   "title": "The Verge: Google's gains reopen the AI race between labs",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge argues the AI race is no longer just Anthropic and OpenAI pulling away; Google is catching up while Meta still hasn't established itself as a serious contender despite heavy spending.",
+   "more": "The piece frames last week's situation as Anthropic and OpenAI appearing to have the race to themselves with increasingly powerful models, leaving Google 'hopelessly far behind' and Meta still unproven despite billions spent reviving its AI ambitions. The excerpt frames this as changing, implying a Google development reopened the competition, but does not specify what that development was.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011311"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011311",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The AI race is back on",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+     "published": "2026-10-14T19:06:03+00:00",
+     "excerpt": "Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T19:06:03+00:00"
+  },
+  {
+   "title": "Ricursive Intelligence bets on AI-designed chips to ease the compute crisis",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Startup Ricursive Intelligence is developing AI that designs computer chips, learns from each design iteration, and improves future designs, aiming to automate and speed up chip design.",
+   "more": "According to TechCrunch, the founders describe a closed-loop process where the AI learns from the outcome of each chip iteration to improve the next one. The stated goal is to automate and accelerate chip design as a way to help address the broader AI compute crunch. The excerpt doesn't give funding figures, which chips or customers are involved, or how far along the technology is.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3177960"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177960",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+     "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+     "published": "2026-10-15T01:01:32+00:00",
+     "excerpt": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T01:01:32+00:00"
+  },
+  {
+   "title": "HN: Banks try to offload the AI data center debt they just underwrote",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News submission highlights banks now trying to offload AI data center debt they recently underwrote themselves, drawing 357 points and 248 comments.",
+   "more": "The title implies banks took on significant exposure financing AI data center construction and are now looking to reduce or redistribute that risk rather than holding it to maturity. This fits a broader pattern of scrutiny around how AI infrastructure buildouts are being financed. The excerpt doesn't name specific banks, dollar amounts, or which data center projects are involved, only the Hacker News discussion's point and comment counts.",
+   "item_ids": [
+    "hn:50092664"
+   ],
+   "items": [
+    {
+     "id": "hn:50092664",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+     "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+     "published": "2026-10-14T18:32:52+00:00",
+     "excerpt": "357 points, 248 comments. Discussion: https://news.ycombinator.com/item?id=50092664"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T18:32:52+00:00"
+  }
+ ]
+}
