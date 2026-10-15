@@ -4775,7 +4775,7 @@
    "up": 0
   }
  },
- "last_digest": "2026-10-15T06:49:47.382742+00:00",
+ "last_digest": "2026-10-15T11:49:41.324848+00:00",
  "seen": {
   "anthropic": [
    "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -4967,7 +4967,8 @@
    "decoder:https://the-decoder.com/?p=41524",
    "decoder:https://the-decoder.com/?p=41519",
    "decoder:https://the-decoder.com/?p=41548",
-   "decoder:https://the-decoder.com/?p=41540"
+   "decoder:https://the-decoder.com/?p=41540",
+   "decoder:https://the-decoder.com/?p=41553"
   ],
   "deepmind": [
    "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -5136,7 +5137,11 @@
    "hf-papers:2610.19820",
    "hf-papers:2610.20399",
    "hf-papers:2610.20572",
-   "hf-papers:2610.19366"
+   "hf-papers:2610.19366",
+   "hf-papers:2610.13521",
+   "hf-papers:2610.20344",
+   "hf-papers:2610.19698",
+   "hf-papers:2610.19789"
   ],
   "hf-trending": [
    "hf-trending:convaiinnovations/laya",
@@ -5293,7 +5298,8 @@
    "latent-space:https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
    "latent-space:https://www.latent.space/p/dyna",
    "latent-space:https://www.latent.space/p/crossing-the-threshold",
-   "latent-space:https://www.latent.space/p/lab-in-the-loop-at-compute-speed"
+   "latent-space:https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+   "latent-space:https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d"
   ],
   "localllama": [
    "localllama:t3_1wth4iz",
@@ -5777,7 +5783,8 @@
    "verge-ai:https://www.theverge.com/?p=1011311",
    "verge-ai:https://www.theverge.com/?p=1011417",
    "verge-ai:https://www.theverge.com/?p=1011369",
-   "verge-ai:https://www.theverge.com/?p=1011264"
+   "verge-ai:https://www.theverge.com/?p=1011264",
+   "verge-ai:https://www.theverge.com/?p=1010727"
   ],
   "wired-ai": [
    "wired-ai:6abbb69b2122500d82924ae7",
@@ -5825,26 +5832,26 @@
   ]
  },
  "source_ok": {
-  "anthropic": "2026-10-15T06:49:47.382742+00:00",
-  "ars-ai": "2026-10-15T06:49:47.382742+00:00",
-  "decoder": "2026-10-15T06:49:47.382742+00:00",
-  "deepmind": "2026-10-15T06:49:47.382742+00:00",
-  "google-ai": "2026-10-15T06:49:47.382742+00:00",
-  "hf-blog": "2026-10-15T06:49:47.382742+00:00",
-  "hf-papers": "2026-10-15T06:49:47.382742+00:00",
-  "hf-trending": "2026-10-15T06:49:47.382742+00:00",
-  "hn": "2026-10-15T06:49:47.382742+00:00",
-  "import-ai": "2026-10-15T06:49:47.382742+00:00",
-  "latent-space": "2026-10-15T06:49:47.382742+00:00",
-  "localllama": "2026-10-15T06:49:47.382742+00:00",
-  "meta-ai": "2026-10-15T06:49:47.382742+00:00",
-  "mistral": "2026-10-15T06:49:47.382742+00:00",
-  "mit-tr-ai": "2026-10-15T06:49:47.382742+00:00",
-  "openai": "2026-10-15T06:49:47.382742+00:00",
-  "simonw": "2026-10-15T06:49:47.382742+00:00",
-  "techcrunch-ai": "2026-10-15T06:49:47.382742+00:00",
-  "verge-ai": "2026-10-15T06:49:47.382742+00:00",
-  "wired-ai": "2026-10-15T06:49:47.382742+00:00"
+  "anthropic": "2026-10-15T11:49:41.324848+00:00",
+  "ars-ai": "2026-10-15T11:49:41.324848+00:00",
+  "decoder": "2026-10-15T11:49:41.324848+00:00",
+  "deepmind": "2026-10-15T11:49:41.324848+00:00",
+  "google-ai": "2026-10-15T11:49:41.324848+00:00",
+  "hf-blog": "2026-10-15T11:49:41.324848+00:00",
+  "hf-papers": "2026-10-15T11:49:41.324848+00:00",
+  "hf-trending": "2026-10-15T11:49:41.324848+00:00",
+  "hn": "2026-10-15T11:49:41.324848+00:00",
+  "import-ai": "2026-10-15T11:49:41.324848+00:00",
+  "latent-space": "2026-10-15T11:49:41.324848+00:00",
+  "localllama": "2026-10-15T11:49:41.324848+00:00",
+  "meta-ai": "2026-10-15T11:49:41.324848+00:00",
+  "mistral": "2026-10-15T11:49:41.324848+00:00",
+  "mit-tr-ai": "2026-10-15T11:49:41.324848+00:00",
+  "openai": "2026-10-15T11:49:41.324848+00:00",
+  "simonw": "2026-10-15T11:49:41.324848+00:00",
+  "techcrunch-ai": "2026-10-15T11:49:41.324848+00:00",
+  "verge-ai": "2026-10-15T11:49:41.324848+00:00",
+  "wired-ai": "2026-10-15T11:49:41.324848+00:00"
  },
  "telegram_offset": 115081541,
  "telegram_sent": "2026-10-15-1130",

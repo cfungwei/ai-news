@@ -1,0 +1,190 @@
+{
+ "date": "2026-10-15",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "New method targets shared-parameter conflicts in multi-teacher LLM distillation",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces Cross-Teacher Guarding, a technique to stop conflicting supervision from multiple teacher models from degrading a student model during multi-teacher on-policy distillation.",
+   "more": "Multi-teacher on-policy distillation (MOPD) extends standard on-policy distillation by routing domain-specific data to teachers that specialize in that domain, then applying dense token-level supervision to a student model's own generated trajectories. The paper notes that this domain routing only separates where supervision comes from: updates from every domain still act on the same shared parameters. That becomes a problem when teachers differ substantially in response style and domain expertise, since supervision effective within one teacher's domain can interfere with another's once combined in a single student. The authors propose a method called Cross-Teacher Guarding to address this shared-parameter conflict. The excerpt does not detail how the method works mechanically or what benchmarks were used to test it.",
+   "item_ids": [
+    "hf-papers:2610.13521"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.13521",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation",
+     "url": "https://huggingface.co/papers/2610.13521",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) by routing domain-specific data to specialized teachers, integrating their capabilities through dense token-level supervision on student-generated trajectories. However, domain routing only distinguishes the supervision sources for different domains; updates from all domains still act on shared parameters. When teachers differ substantially in response style and domain expertise, supervision that is effective in iso"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "Doc2Harness benchmark tests LLMs on building coding-agent harnesses",
+   "tags": [
+    "research",
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Doc2Harness is a new two-stage benchmark that evaluates how well LLMs can engineer the tooling, or 'harness,' around coding agents, rather than just measuring task success under a fixed harness.",
+   "more": "The paper observes that agents built on large language models are increasingly deployed on long-horizon tasks where they use tools and modify real workspaces, and that performance depends as much on the harness around the model as on the model itself. It notes that existing benchmarks measure downstream task success only under a fixed harness, leaving harness engineering itself largely unexplored. Doc2Harness is proposed as a two-stage benchmark to evaluate long-horizon harness engineering directly. In Stage 1, a 'build' model operates inside an unspecified environment, but the excerpt is cut off before describing what that stage produces, what Stage 2 involves, or how performance is scored.",
+   "item_ids": [
+    "hf-papers:2610.20344"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.20344",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+     "url": "https://huggingface.co/papers/2610.20344",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on the harness around the model as on the model itself. Existing benchmarks measure downstream task success under a fixed harness, leaving harness engineering itself unexplored. We propose Doc2Harness, a two-stage benchmark that evaluates long-horizon harness engineering directly. In Stage 1, a build model operating inside "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "RuleTrek benchmark probes LLM agents' rule reasoning across files",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "RuleTrek is a new multi-domain benchmark for testing how well AI agents identify and correctly apply domain-specific rules when the relevant information is spread across multiple files.",
+   "more": "The paper's authors argue that large language models increasingly tackle complex real-world tasks in specialized domains, but identifying and correctly applying domain-specific rules remains difficult when the relevant scenario information is distributed across multiple files. They say existing rule-reasoning benchmarks typically represent scenarios with only a few factual statements, which simplifies the task of identifying and applying the relevant rules compared to real conditions. RuleTrek is introduced as a multi-domain benchmark meant to close that gap by testing agentic rule reasoning in more complex scenarios. The excerpt does not specify which domains are covered, how many scenarios the benchmark contains, or how any models performed on it.",
+   "item_ids": [
+    "hf-papers:2610.19698"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.19698",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
+     "url": "https://huggingface.co/papers/2610.19698",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying and correctly applying domain-specific rules remains challenging when scenario information is distributed across multiple files. Existing rule-reasoning benchmarks typically represent scenarios using only a few factual statements, simplifying the identification and application of relevant rules. To address this gap, this paper introduces RuleTrek, a multi-domain benchmark for ag"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "Study reality-checks self-distillation methods in agentic reinforcement learning",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper argues that evaluations of self-distillation methods for agentic reinforcement learning have been inconsistent, reusing mismatched baselines and rarely comparing contemporary methods head-to-head.",
+   "more": "The paper notes that self-distillation in agentic reinforcement learning has produced a growing number of methods, but that existing evaluations often reuse published baseline scores obtained under differing experimental conditions. It says these evaluations provide few direct comparisons among methods developed around the same time, and give limited attention to training stability and computational cost. The authors argue these limitations obscure where reported performance gains actually come from, as well as the practical strengths and weaknesses of competing methods. The excerpt does not say which specific methods were re-evaluated or what the paper's own comparison found, since it is cut off before describing the study's results.",
+   "item_ids": [
+    "hf-papers:2610.19789"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.19789",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+     "url": "https://huggingface.co/papers/2610.19789",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Self-distillation in agentic reinforcement learning has produced a growing number of methods. However, existing evaluations often reuse published baseline scores under differing experimental conditions, provide few direct comparisons among contemporaneous methods, and give limited attention to training stability and computational cost. These limitations obscure the source of reported gains and the practical strengths and weaknesses of competing methods. Costly agent training further motivates a "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "Modal reaches $1B ARR and $16B Series D, becomes NYC's newest AI infra decacorn",
+   "tags": [
+    "industry",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "AI infrastructure company Modal has hit $1 billion in annual recurring revenue and raised a $16 billion Series D, becoming New York's newest AI infra decacorn with usage and valuation both tripling in five months.",
+   "more": "According to the item's headline, Modal has reached $1 billion in annual recurring revenue and raised a $16 billion Series D round, making it New York City's newest AI infrastructure decacorn. The same headline cites usage and valuation each roughly tripling within five months, and a 15x increase over the past year. The only other source text is the tagline 'Sandboxes are all you need,' which points to sandboxed compute environments as central to Modal's product but gives no further detail. The excerpt does not name the round's investors, describe Modal's product beyond that tagline, or give the company's resulting valuation in dollar terms.",
+   "item_ids": [
+    "latent-space:https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d"
+   ],
+   "items": [
+    {
+     "id": "latent-space:https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+     "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+     "published": "2026-10-15T10:08:08+00:00",
+     "excerpt": "Sandboxes are all you need."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T10:08:08+00:00"
+  },
+  {
+   "title": "Anthropic's Q3 revenue hits $16.8B as growth slows ahead of planned November IPO",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic posted $16.8 billion in third-quarter revenue, up 45% year over year but far below Q2's 140% surge, as the company nears a planned November IPO.",
+   "more": "Anthropic's third-quarter revenue reached $16.8 billion, a 45 percent year-over-year gain that marks a sharp deceleration from the prior quarter's 140 percent growth rate. The slowdown comes as the company approaches a planned initial public offering in November. Some investors are now reportedly expecting Anthropic's valuation to come in below $1.5 trillion. The report frames the slowing growth, combined with a tougher market, as a key test of investor appetite for the broader AI boom, though it does not give the specific valuation or share-price range Anthropic is targeting for the IPO.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41553"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41553",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO",
+     "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
+     "published": "2026-10-15T09:50:43+00:00",
+     "excerpt": "Anthropic hit $16.8 billion in third-quarter revenue, a 45 percent gain that still falls far short of Q2's 140 percent surge. With a November IPO approaching, some investors now expect the company's valuation to drop below $1.5 trillion. Slowing growth and a tough market are cooling expectations for the AI boom's biggest Wall Street test yet. The article Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T09:50:43+00:00"
+  },
+  {
+   "title": "Eiliko companion robot toy sends children's conversations to Chinese servers",
+   "tags": [
+    "products",
+    "policy",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Eiliko toy robot, a cartoonish companion that changes expression to match its owner's mood, phones home to China over Wi-Fi and can store everything said to it there, The Verge reports.",
+   "more": "The Verge describes Eiliko as a 'cute little marshmallow of a robot' that changes its cartoony facial expressions to match its owner's mood. According to the report, when a child or adult talks to the toy over Wi-Fi, it phones home to China, where its AI companion backend can store literally everything that was said to it. The headline frames this as a hacking risk, suggesting the data on Chinese servers could be exposed, though the excerpt does not detail a specific breach or say what data, if any, has already leaked. The excerpt does not name the company behind Eiliko beyond a reference in the article's URL, nor does it describe what security or privacy safeguards, if any, are in place.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1010727"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1010727",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
+     "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+     "published": "2026-10-15T11:00:00+00:00",
+     "excerpt": "There's a new digital pet in town - a cute little marshmallow of a robot that can change its cartoony expressions to match your mood. But if you or your kids talk to \"Eiliko\" over Wi-Fi, it'll phone home to China. Its AI companion can store literally everything you tell it on Chinese servers, where […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T11:00:00+00:00"
+  }
+ ]
+}
