@@ -1,0 +1,602 @@
+{
+ "date": "2026-10-15",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Nvidia releases open Nemotron 3.5 Super VL and compact Bolt models for agents",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia has released Nemotron 3.5 Super VL, an open 120-billion-parameter multimodal model for enterprise AI agents, alongside two smaller Bolt models, including a 74B-A9B variant quantized to run on 24GB of memory.",
+   "more": "Super VL is aimed at enterprise agentic workloads and is openly released with 120 billion parameters. Nvidia says dozens of organizations are already fine-tuning it, though getting the most performance reportedly still depends on using Nvidia's own hardware. Alongside it, Nvidia released two smaller Bolt models meant to let agents run on local machines rather than in the cloud. One of these, the Nemotron 3.5 Bolt 74B-A9B vision-language model, uses native 2-bit quantization to fit within 24GB of memory, with GGUF-format builds shared on Hugging Face for local use. The excerpts do not give benchmark comparisons against other open models or specify a license.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41575",
+    "localllama:t3_1x6o31q"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41575",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop",
+     "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+     "published": "2026-10-15T16:09:44+00:00",
+     "excerpt": "With Nemotron 3.5 Super VL, Nvidia is releasing an open multimodal model with 120 billion parameters for enterprise agents. Two compact Bolt models bring agents to local machines. Dozens of organizations are already fine-tuning Super VL, but getting the most out of it means buying Nvidia hardware. The article Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop appeared first on The Decoder ."
+    },
+    {
+     "id": "localllama:t3_1x6o31q",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB · Hugging Face",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6o31q/nvidianvidianemotron35bolt74ba9b24gb_hugging_face/",
+     "published": "2026-10-15T15:04:12+00:00",
+     "excerpt": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF NVIDIA Nemotron 3.5 Bolt 74B-A9B 24GB is a vision-language model (VLM) designed to run everyday agentic tasks locally, using a native 2-bit quantization to fit in 24GB of memory and run alongside other applications. It optimizes intelligence and speed per GB. It aims to achieve the optimal balance between speed and intelligence, being faster t"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-15T16:09:44+00:00"
+  },
+  {
+   "title": "Google positions Gemini 4 Argon as a single AI model for robot control",
+   "tags": [
+    "models",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google's Gemini 4 Argon controls robots, generates simulations from photos or sketches, and evaluates training videos, scoring 87% on Google's own ERQA benchmark, though demo prompts still show heavy reliance on human guidance.",
+   "more": "Gemini 4 Argon is pitched as a single model that can handle multiple robotics-related tasks: direct robot control, generating simulations from photos or sketches, and evaluating training videos. On Google's own ERQA benchmark, it scores 87 percent. However, the published example prompts reportedly still require substantial human guidance to get useful results, suggesting a gap between the benchmark score and real-world autonomy. Because the benchmark is Google's own, independent verification of the 87 percent figure is not available from this excerpt. It is also unclear how this model compares to competitors' robotics-focused models.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41558"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41558",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google wants Gemini 4 Argon to be the only AI model robots need",
+     "url": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/",
+     "published": "2026-10-15T16:35:47+00:00",
+     "excerpt": "Google's Gemini 4 Argon controls robots, generates simulations from photos or sketches, and evaluates training videos. On Google's own ERQA benchmark, it scores 87 percent. But the published example prompts show that the demos still need a lot of human guidance. The article Google wants Gemini 4 Argon to be the only AI model robots need appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T16:35:47+00:00"
+  },
+  {
+   "title": "OpenAI's GPT-6-Astra solves 49 of 50 unpublished physics research problems",
+   "tags": [
+    "models",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "On the TheoPhysEval benchmark, GPT-6-Astra solved 49 of 50 unpublished theoretical physics calculations as accurately as leading specialists, at roughly $2.40 per problem, though researchers say the model still lacks research 'taste.'",
+   "more": "The benchmark, TheoPhysEval, tests unpublished theoretical physics calculations rather than problems the model could have seen in training. In some cases where the agent appeared to fail, the experts' own reference solutions reportedly turned out to be wrong instead. Researchers quoted say physics has not yet had a breakthrough comparable to recent progress in mathematics, attributing this to the model lacking 'taste' in choosing promising directions. Despite that, they say autonomous, top-level AI research in physics could still arrive soon. The excerpt cuts off while describing consequences for young physicists, so what those consequences are is not fully clear from the text.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41557"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41557",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
+     "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
+     "published": "2026-10-15T15:24:15+00:00",
+     "excerpt": "On the TheoPhysEval benchmark, GPT-6-Astra solves 49 of 50 unpublished theoretical physics calculations as accurately as leading specialists. In some cases where the agent seemed to fail, the experts' own reference solutions turned out to contain errors. But the researchers say physics hasn't had a breakthrough like the ones in mathematics, because the agents lack \"taste.\" They still think autonomous, top-level AI research could arrive soon. They already see consequences for how young physicists"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T15:24:15+00:00"
+  },
+  {
+   "title": "Mistral releases Timestral, compact zero-shot probabilistic forecasting models",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Mistral launched Timestral, a family of four CPU-efficient probabilistic forecasting models ranging from 5M to 209M parameters, designed to work zero-shot without task-specific training.",
+   "more": "Timestral targets probabilistic forecasting, meaning it predicts a range of likely outcomes rather than a single point estimate. It ships in four sizes, from 5M to 209M parameters, letting users trade off size for accuracy. The models are described as CPU-efficient, suggesting they are meant to run without requiring GPU infrastructure. They are also zero-shot ready, meaning they can be applied to new forecasting tasks without additional fine-tuning. The excerpt does not specify what benchmarks back the 'state-of-the-art' claim or give release details like licensing.",
+   "item_ids": [
+    "mistral:https://mistral.ai/news/timestral/"
+   ],
+   "items": [
+    {
+     "id": "mistral:https://mistral.ai/news/timestral/",
+     "source": "mistral",
+     "source_name": "Mistral",
+     "title": "Introducing Timestral",
+     "url": "https://mistral.ai/news/timestral/",
+     "published": "2026-10-15T12:00:00+00:00",
+     "excerpt": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T12:00:00+00:00"
+  },
+  {
+   "title": "Google DeepMind uses Google Antigravity to speed up antimicrobial peptide discovery",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind says it is using Google Antigravity for Science to accelerate the search for novel antimicrobial peptides, part of its push to apply AI tools to biological research.",
+   "more": "The blog post describes using Google Antigravity, pitched as a tool 'for Science,' to help search for new antimicrobial peptides. Antimicrobial peptides are of interest because they could offer new ways to fight drug-resistant pathogens. The excerpt is a short summary line and does not include details on methodology, how many candidate peptides were found, or any experimental validation. It is also unclear from the text how Antigravity's role differs from a standard AI discovery pipeline.",
+   "item_ids": [
+    "deepmind:https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
+   ],
+   "items": [
+    {
+     "id": "deepmind:https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+     "source": "deepmind",
+     "source_name": "Google DeepMind",
+     "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+     "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+     "published": "2026-10-15T16:08:03+00:00",
+     "excerpt": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T16:08:03+00:00"
+  },
+  {
+   "title": "Apertus team extends open Apertus models to multimodal reasoning with Apertus 1.5",
+   "tags": [
+    "research",
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apertus 1.5 continues pretraining the open Apertus 1.0 models on trillions of additional tokens, adding image and audio understanding and a 262,144-token context window, aiming to show open infrastructure can rival closed providers at scale.",
+   "more": "The Apertus family is built entirely in the open, trained on documented data, as an alternative to depending on a handful of providers. Apertus 1.5 continues pretraining the 8B and 70B Apertus 1.0 models, adding 4T and 2T tokens respectively. The update adds image and audio understanding on top of the original text-only models. It also extends the context window fourfold, to 262,144 tokens. The excerpt does not specify benchmark results or a release date for weights.",
+   "item_ids": [
+    "hf-papers:2610.15542"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.15542",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
+     "url": "https://huggingface.co/papers/2610.15542",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Language models are becoming infrastructure, and infrastructure built in the open, by public institutions, on documented data, is the alternative to dependence on a few providers; Apertus shows this is viable at scale. Apertus 1.5 extends the fully open Apertus family from text to multimodal reasoning. Continued pretraining of the Apertus 1.0 models, on 4T additional tokens for the 8B and 2T for the 70B, adds image and audio understanding and extends the context window fourfold to 262,144 tokens"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "Researchers unlock faster asynchronous RL rollouts with INT4 KV cache quantization",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper finds that quantizing the KV cache to INT4 speeds up asynchronous rollouts in reinforcement learning with verifiable rewards more than weight-only or weight-activation quantization, as rising concurrency concentrates KV workload per decode step.",
+   "more": "Asynchronous rollout is used in RLVR training to cut idle time during long-tail generation, but sustained concurrency concentrates context processing into fewer decode steps. The researchers characterize this increased 'KV concentration' and its effect on serving cost. In matched-workload comparisons, INT4 KV cache quantization gives substantially bigger speedups than quantizing weights alone or weights and activations together. The excerpt is cut off before giving concrete speedup numbers or full method details, so those specifics remain unclear from the available text.",
+   "item_ids": [
+    "hf-papers:2610.14448"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.14448",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
+     "url": "https://huggingface.co/papers/2610.14448",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "Asynchronous rollout improves the efficiency of reinforcement learning with verifiable rewards (RLVR) by reducing under-utilization during long-tail generation. Sustained concurrency also concentrates context processing into fewer decode steps, increasing the KV workload per step. We characterize this KV concentration and find that KV cache quantization delivers substantially greater acceleration than weight-only and weight-activation quantization in our matched-workload comparisons. However, IN"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "New 'Hybrid Reasoning Agents' architecture blends latent and text-based reasoning",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A paper proposes Hybrid Reasoning Agents, which dynamically switch between efficient internal 'latent' reasoning and transparent text-based reasoning, aiming to give LLM agents both speed and the tool access text interaction provides.",
+   "more": "Today's LLM agents reason and act almost entirely through text, which keeps their reasoning transparent and tool use straightforward but can be inefficient. Latent reasoning offers a faster internal medium, but on its own it lacks native tool access and makes an agent's reasoning hard to inspect. HybridAgents are designed to navigate between the two modes throughout a single, unified generation process rather than picking one approach upfront. The excerpt describes the motivation and high-level architecture but is cut off before detailing results or benchmarks, so the efficiency or capability gain is not yet clear from the text.",
+   "item_ids": [
+    "hf-papers:2610.18861"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.18861",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Hybrid Reasoning Agents",
+     "url": "https://huggingface.co/papers/2610.18861",
+     "published": "2026-10-15T00:00:00+00:00",
+     "excerpt": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directions with Hybrid Reasoning Agents (HybridAgents), which dynamically navigate between latent reasoning and text-based interaction throughout a unified generation process. Architecturall"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T00:00:00+00:00"
+  },
+  {
+   "title": "Google rolls out 'Universal Cart' AI shopping tool across Search and Gemini",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google has launched its Universal Cart AI shopping tool in the US, letting users gather items from Search and the Gemini app into one cart ahead of Black Friday and the holiday season.",
+   "more": "Google first previewed the Universal Cart tool at its I/O event in May, and it is now rolling out broadly in the US. The tool spans both Google Search and the Gemini app, aiming to make cross-site shopping easier by consolidating items in one place. The timing, just ahead of Black Friday and holiday shopping, is noted as deliberate. Both outlets frame it as Google's attempt to capture more commerce activity through its AI products. Neither excerpt specifies which retailers are supported or how the cart handles checkout and payment.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011797",
+    "techcrunch-ai:https://techcrunch.com/?p=3178088"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011797",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
+     "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+     "published": "2026-10-15T13:00:00+00:00",
+     "excerpt": "Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May is now rolling out in the US across the Gemini app and Google Search, with the aim of making it easier […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178088",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Google’s Universal Cart shopping tool launches in the US",
+     "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+     "published": "2026-10-15T14:29:33+00:00",
+     "excerpt": "The new shopping tool is available in the U.S. across Google Search and the Gemini app."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-15T14:29:33+00:00"
+  },
+  {
+   "title": "Amazon's Bee launches two new always-listening AI wearables starting at $75",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amazon-owned Bee has launched two new always-listening AI devices, the $74.99 Bee Frontier and a credit-card-sized recorder, which summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping.",
+   "more": "Amazon acquired Bee last year; Bee had previously sold a $50 always-listening wearable that summarized conversations. The new lineup includes the Bee Frontier, an updated version of the original device priced at $74.99, plus a new credit-card-sized recorder that attaches to a smartphone. Both devices can summarize conversations and generate to-do lists, and they integrate with Alexa and Amazon's shopping features. Amazon is also pairing the devices with a new subscription service. The excerpts do not give the subscription's price or detail what privacy safeguards apply to the always-on recording.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011475",
+    "techcrunch-ai:https://techcrunch.com/?p=3177560"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011475",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Amazon’s always-listening Bee wearable can now help you buy stuff",
+     "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs",
+     "published": "2026-10-15T12:00:00+00:00",
+     "excerpt": "Last year, Amazon bought Bee, a relatively unknown startup with a $50 always-listening AI wearable that summarized every conversation you had. Today, the e-commerce giant is announcing two new Bee devices - and a new subscription to go with them. First is the $74.99 Bee Frontier, an updated version of the original Bee device. And […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177560",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+     "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+     "published": "2026-10-15T12:00:00+00:00",
+     "excerpt": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-15T12:00:00+00:00"
+  },
+  {
+   "title": "YouTube Music begins labeling AI-generated songs",
+   "tags": [
+    "products",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "YouTube Music has started rolling out generative-AI labels on songs, with the feature expected to arrive on YouTube itself soon, aiming to help listeners tell AI-made music apart from human performers.",
+   "more": "The rollout is framed as a way to let listeners know when a song was generated by AI rather than performed by a human artist. It is beginning on YouTube Music specifically. The labels are also planned to come to the main YouTube platform soon. The excerpt does not explain how songs are flagged as AI-generated, whether labeling is automatic or self-reported by uploaders, or when the main YouTube rollout will happen.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
+     "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
+     "published": "2026-10-15T15:12:58+00:00",
+     "excerpt": "The AI music labels are rolling out now in YouTube Music and will come to YouTube soon."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T15:12:58+00:00"
+  },
+  {
+   "title": "OpenAI brings Study Mode and AI for Educators to Brazilian Portuguese for Teachers' Day",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is marking Teachers' Day by launching AI for Educators and Study Mode in Brazilian Portuguese, aiming to help teachers guide students through active, step-by-step learning rather than simply providing answers.",
+   "more": "The post ties the release to Teachers' Day in Brazil, framing it as support for educators rather than just students. Study Mode is positioned as a tool for active, step-by-step learning, guiding students to work through problems instead of just giving them answers. AI for Educators is now available in Brazilian Portuguese alongside this push. The excerpt does not give further detail on specific features, rollout timing, or usage data for these tools.",
+   "item_ids": [
+    "openai:https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Teaching students to think and learn through questions",
+     "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+     "published": "2026-10-15T13:00:00+00:00",
+     "excerpt": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T13:00:00+00:00"
+  },
+  {
+   "title": "Bank of America assigns thousands of staff to fix flaws found by Anthropic's Mythos",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Bank of America has put 4,000 people, including 1,000 outside contractors, to work fixing software vulnerabilities that AI models including Anthropic's Mythos uncovered, according to a CNBC report.",
+   "more": "The report says Bank of America hired 1,000 outside contractors specifically to address vulnerabilities flagged by AI models. Anthropic's Mythos is named as one of the AI systems used to uncover these issues, alongside other unnamed models. In total, 4,000 people are reportedly assigned to the fix effort. The excerpt, sourced from CNBC via The Decoder, does not specify how many vulnerabilities were found, their severity, or over what time period the work is taking place.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41556"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41556",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Bank of America puts 4,000 people on fixing vulnerabilities uncovered by Anthropic's Mythos and other AI models",
+     "url": "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
+     "published": "2026-10-15T15:27:25+00:00",
+     "excerpt": "Bank of America has hired 1,000 outside contractors to fix software vulnerabilities uncovered by AI models like Anthropic's Mythos, CNBC reports. The article Bank of America puts 4,000 people on fixing vulnerabilities uncovered by Anthropic's Mythos and other AI models appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T15:27:25+00:00"
+  },
+  {
+   "title": "Simons Foundation launches $15M effort to help mathematicians navigate the AI era",
+   "tags": [
+    "industry",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Simons Foundation has launched a $15 million initiative aimed at helping mathematicians adapt to the AI era, a story that drew significant discussion on Hacker News with over 100 points.",
+   "more": "The item comes via a Hacker News submission linking to a Simons Foundation news release. The initiative is described only as a $15 million effort focused on helping mathematicians navigate changes brought by AI. The HN discussion racked up 107 points and 72 comments, suggesting notable interest in the topic within that community. The excerpt does not detail how the $15 million will be spent, what form the help will take, or the program's timeline.",
+   "item_ids": [
+    "hn:50104654"
+   ],
+   "items": [
+    {
+     "id": "hn:50104654",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era",
+     "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+     "published": "2026-10-15T14:58:48+00:00",
+     "excerpt": "107 points, 72 comments. Discussion: https://news.ycombinator.com/item?id=50104654"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T14:58:48+00:00"
+  },
+  {
+   "title": "TechCrunch promotes final day to register for Disrupt 2026 conference",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch is promoting the last day to sign up for TechCrunch Disrupt 2026, a conference for over 10,000 tech leaders, with a limited-time 75% discount on passes.",
+   "more": "The item is a promotional notice rather than a news report. It states that this is the last day to be part of TechCrunch Disrupt 2026. The event is pitched as a gathering of 10,000-plus tech leaders for networking and talks. A 75% discount on passes is offered as an incentive to register now. The excerpt gives no agenda details, speaker list, or confirmation of attendance numbers.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3178027"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178027",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "TechCrunch Disrupt 2026: Last day",
+     "url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
+     "published": "2026-10-15T14:00:00+00:00",
+     "excerpt": "Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T14:00:00+00:00"
+  },
+  {
+   "title": "Anthropic tells investors quarterly revenue hit $16.8bn ahead of planned IPO",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic told investors its Q3 revenue reached about $16.8 billion, up nearly 50% from the prior quarter, with $1.70 earned for every $1 spent on computing power, as the company prepares for an IPO.",
+   "more": "According to Simon Willison's write-up of an FT article, Anthropic hosted investors and disclosed a sequence of rapid quarterly growth: about $4.8bn in Q1 (Jan-Mar), $11.5bn in Q2 (Apr-Jun), and $16.8bn in Q3 (Jul-Sep). That Q3 figure represents nearly 50% growth over the prior quarter. The company reportedly said it earned $1.70 in revenue for every $1 spent on computing power in Q3. The FT article is said to cite 'people with knowledge of the matter' and to use the phrase 'told investors' four times. The excerpt is cut off before detailing the adjusted profitability figures it begins to mention.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+     "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+     "published": "2026-10-15T13:04:03+00:00",
+     "excerpt": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \" people with knowledge of the matter \". Key things I learned from the article: Q1 revenue (Jan/Feb/Mar) was \"about $4.8bn\" Q2 (Apr/May/Jun) was $11.5bn Q3 (Jul/Aug/Sep) was $16.8bn In Q3: $1.70 in revenue for every $1 spent on \"computing power\" Adjusted"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T13:04:03+00:00"
+  },
+  {
+   "title": "The Verge warns AI companion gadgets like Meta's Muse also collect bystander data",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge highlights a growing trend of AI personal-assistant gadgets, such as Meta's Muse, that ask users to share not only their own data but also data about the people around them, often without their consent.",
+   "more": "The piece frames always-on AI gadgets as part of a broader trend of consumer devices designed to monitor everything nearby. It singles out 'AI personal assistants' like Meta's Muse as asking users to hand over data about bystanders who never agreed to it. The excerpt frames this as a consent problem distinct from ordinary data collection, since third parties never opted in. It does not name other specific devices beyond Muse or detail what data is collected or how it is used.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011938"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011938",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Friends don’t let friends feed their data to AI agents",
+     "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+     "published": "2026-10-15T16:21:45+00:00",
+     "excerpt": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T16:21:45+00:00"
+  },
+  {
+   "title": "Report: FTC investigates whether Anthropic and OpenAI security incidents harmed Americans",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A report says the FTC is probing whether security incidents at OpenAI and Anthropic harmed Americans, with regulators potentially able to fine the firms similarly to companies that delay data breach disclosures.",
+   "more": "The report centers on an FTC investigation into security incidents at two major AI labs, OpenAI and Anthropic. It notes the probe comes despite the Trump administration having dismissed AI fears as a 'hoax.' The potential consequence highlighted is that the FTC could fine the firms on a scale similar to penalties for companies that delay disclosing data breaches. The excerpt does not specify what the underlying security incidents were, when they occurred, or what stage the investigation is at.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+     "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+     "published": "2026-10-15T15:43:24+00:00",
+     "excerpt": "FTC may fine AI firms on par with companies that delay data breach reports."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T15:43:24+00:00"
+  },
+  {
+   "title": "The Verge reports a wave of nonconsensual celebrity AI deepfakes on Instagram",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge documents AI deepfakes of celebrities circulating on Instagram, including a fabricated image falsely appearing to show actress Mia Goth, showing how convincing fake AI content targeting public figures has become.",
+   "more": "The article centers on an Instagram post that falsely appeared to show actress Mia Goth, days after she filed for divorce from Shia LaBeouf, wearing a shirt with a pointed message about her ex. The post also paired the fake image with a specific song choice to reinforce its message. The piece frames this as part of a broader problem where 'nobody is safe' from being convincingly faked by AI. The excerpt does not say who created the deepfake, whether Instagram removed it, or how widespread this specific incident became.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011927"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011927",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Nobody is safe from celebrity AI deepfakes",
+     "url": "https://www.theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth",
+     "published": "2026-10-15T14:03:42+00:00",
+     "excerpt": "In hindsight, the post on Instagram should have raised more red flags. The image purported to show actress Mia Goth, just days after filing for divorce from actor and filmmaker Shia LaBeouf, posing in a T-shirt with a pointed message: MY EX IS MY BIGGEST FAN. To really drive home the point, the song \"Single […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T14:03:42+00:00"
+  },
+  {
+   "title": "The Verge podcast explores AI surveillance backlash with researcher Benn Jordan",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "In a Verge podcast episode, musician and investigative journalist Benn Jordan discusses Flock, automated license plate readers, and the growing public backlash against AI-driven surveillance technology.",
+   "more": "Benn Jordan is described as a musician and YouTuber with decades of recorded work, who has more recently become known for investigating surveillance technology. The conversation focuses on Flock and ALPR (automatic license plate reader) systems as examples of AI-enabled surveillance drawing public scrutiny. The excerpt frames this scrutiny as a 'new surveillance backlash,' suggesting growing public pushback rather than a single new incident. It does not give further detail on what Jordan's investigation found or what specific claims about Flock are discussed in the episode.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011170"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011170",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Benn Jordan on Flock, privacy, and the new surveillance backlash",
+     "url": "https://www.theverge.com/podcast/1011170/benn-jordan-flock-cameras-alpr-ai-surveillance-privacy",
+     "published": "2026-10-15T14:00:00+00:00",
+     "excerpt": "Today, I’m talking with Benn Jordan, musician, YouTuber, researcher, and investigative journalist. You might know Benn from those first two titles — he’s got a prolific discography of experimental music dating back decades. But in the last couple of years, he’s become a high-profile face in the creator and media spaces for his work investigating […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T14:00:00+00:00"
+  },
+  {
+   "title": "Rivian plans to bring AI agents into its vehicles",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Rivian is planning to add AI agents to its cars, with more details expected at the company's upcoming 'AI & Autonomy Day' event in December.",
+   "more": "The report is brief, noting only that Rivian intends to bring AI agents into its vehicles. Specifics on what these agents would do inside the car are not yet disclosed. The company plans to share more at its 'AI & Autonomy Day' event in December. The excerpt gives no detail on timing, features, or which models would receive the capability.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3177351"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177351",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "AI agents are coming to Rivian’s cars",
+     "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+     "published": "2026-10-15T15:02:36+00:00",
+     "excerpt": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T15:02:36+00:00"
+  },
+  {
+   "title": "Microsoft and Nvidia detail Windows optimizations for RTX Spark AI laptops",
+   "tags": [
+    "hardware",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Following last week's launch event for Nvidia's RTX Spark laptops, Microsoft and Nvidia held a follow-up briefing on how Windows is being tuned for the new AI PCs, including changes to apps like Notepad.",
+   "more": "Nvidia and Microsoft first unveiled RTX Spark laptops at a launch event in San Francisco that drew a large crowd for hands-on demos. A day later, the companies held a smaller, quieter session specifically about platform-level changes. One detail mentioned is a change to the built-in Notepad app, suggesting Windows itself is being adapted around on-device AI capability. The excerpt cuts off before describing further specific optimizations, so the full scope of the changes is not yet clear from the text.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1011996"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1011996",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
+     "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+     "published": "2026-10-15T14:30:00+00:00",
+     "excerpt": "Microsoft and Nvidia held a launch party for the first wave of RTX Spark laptops last week in San Francisco, where a new wave of AI PCs took center stage amid a packed crowd and a lively hands-on area. A day after the media event, I was invited to a quieter Nvidia event to hear […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T14:30:00+00:00"
+  }
+ ]
+}
