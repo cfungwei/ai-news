@@ -1,0 +1,793 @@
+{
+ "date": "2026-10-16",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Newsletter roundup highlights claims that agents can disprove polysemanticity",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Latent Space's AI news roundup flags a claim from researcher Nick Cammarata that AI agents can disprove polysemanticity and meaningfully improve interpretability and alignment.",
+   "more": "Polysemanticity, the phenomenon where individual neurons in a model represent multiple unrelated concepts, has been a central obstacle for interpretability research. Cammarata's claim, as described in the roundup, suggests that agent-based approaches can disprove aspects of polysemanticity and in turn improve both interpretability and alignment work. The source describes this as a surprising, unanticipated development rather than previously expected research. The excerpt doesn't include the technical basis for the claim or how it was demonstrated.",
+   "item_ids": [
+    "latent-space:https://www.latent.space/p/ainews-agents-disprove-polysemanticity"
+   ],
+   "items": [
+    {
+     "id": "latent-space:https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+     "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+     "published": "2026-10-16T04:16:45+00:00",
+     "excerpt": "Nick Cammarata out of nowhere with some major claims!"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T04:16:45+00:00"
+  },
+  {
+   "title": "NVIDIA shares a 2.8-trillion-token open pipeline for Indic language pretraining",
+   "tags": [
+    "research",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "NVIDIA published details of an open data generation pipeline used to build a 2.8-trillion-token pretraining dataset for Indic languages.",
+   "more": "The blog post title indicates the release centers on scaling pretraining data for Indic languages specifically, pairing a large token count with an openly shared generation pipeline. No further details, such as which languages are covered or which models were trained on the data, were available in the source excerpt.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/nvidia/scaling-indic-pretraining"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+     "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+     "published": "2026-10-16T01:44:47+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T01:44:47+00:00"
+  },
+  {
+   "title": "OmniCompass benchmark tests omni-modal video grounding and understanding",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduce OmniCompass, a benchmark for evaluating multimodal language models on video grounding and understanding across vision-language and omni-modal tracks.",
+   "more": "The benchmark addresses a gap in existing video evaluation suites, which the authors say cover only part of the relevant evaluation dimensions. OmniCompass defines two tracks: OmniCompass-VL, which assesses vision-language models, and a broader omni-modal track for models that handle additional modalities. The goal is to enable more systematic diagnosis of how well models ground and understand video content. The paper's full benchmark composition and results across specific models aren't detailed in the available excerpt.",
+   "item_ids": [
+    "hf-papers:2610.18829"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.18829",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+     "url": "https://huggingface.co/papers/2610.18829",
+     "published": "2026-10-16T00:00:00+00:00",
+     "excerpt": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understanding. OmniCompass defines two evaluation tracks: OmniCompass-VL assesses vision-language models on ta"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "title": "Waypoint-OPD distills RL policy shifts using early-late agreement signals",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new method, Waypoint-OPD, checks whether early and late shifts in a teacher model's policy during reinforcement learning agree, to improve distillation to student models.",
+   "more": "Policy-shift distillation normally reuses only the difference between a teacher's pre- and post-RL log probabilities as a training signal for students. The authors argue this endpoint-only view can't tell whether local action preferences changed consistently throughout training, since different shift patterns can produce the same final result. Waypoint-OPD instead checks agreement between early and late teacher policy shifts to gate what gets transferred to the student. The excerpt doesn't specify benchmark results or model sizes tested.",
+   "item_ids": [
+    "hf-papers:2610.21601"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.21601",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+     "url": "https://huggingface.co/papers/2610.21601",
+     "published": "2026-10-16T00:00:00+00:00",
+     "excerpt": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other. We investigate whether agreement between early and late teacher policy shifts can"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "title": "Paper formalizes self-evolving agent harnesses that revise their own scaffolding",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper formalizes 'harness self-evolution,' where an AI agent revises its own prompts, memory, and workflows over time while keeping the underlying model weights fixed.",
+   "more": "The framework separates what gets updated, such as interpreted state like prompts, from the mechanisms that propose and admit changes to tools, code, and control logic. Accepted revisions persist across runs, letting the harness accumulate improvements through a feedback-driven process. The authors characterize this as a search problem over possible harness configurations rather than a fixed design. It's part of a growing body of research on improving agents by evolving their scaffolding instead of retraining the underlying model.",
+   "item_ids": [
+    "hf-papers:2610.18813"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.18813",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Self-Evolving Agent Harness",
+     "url": "https://huggingface.co/papers/2610.18813",
+     "published": "2026-10-16T00:00:00+00:00",
+     "excerpt": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code, repository-level control logic, and plugin composition. We characterize search through ev"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "title": "Speculative Forcing speeds up autoregressive video generation by skipping refinement",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Speculative Forcing treats intermediate video frames as drafts and predicts when individual tokens are already close to their final output, skipping unnecessary denoising steps.",
+   "more": "Few-step autoregressive video generators support streaming generation but typically run every token through the final denoising step regardless of how much refinement it actually needs. The authors found many tokens already closely match their eventual output early on, while others need refinement through to the end. By predicting which tokens can stop early, Speculative Forcing aims to cut redundant computation. The excerpt doesn't give specific speedup numbers or quality comparisons against standard decoding.",
+   "item_ids": [
+    "hf-papers:2610.22347"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.22347",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
+     "url": "https://huggingface.co/papers/2610.22347",
+     "published": "2026-10-16T00:00:00+00:00",
+     "excerpt": "Few-step autoregressive video generators enable streaming generation, yet they run every token through the final denoising step, regardless of how much refinement it needs. We find this uniform computation is often unnecessary: many tokens already closely match their eventual full-step outputs in the initial steps, while others require refinement until the end. We introduce Speculative Forcing, a framework that treats intermediate clean estimates as drafts and predicts when individual tokens can"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "title": "SCOPE improves text-to-image prompt rewriting by rewarding semantic spans",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "SCOPE is a reinforcement-learning method for text-to-image prompt rewriting that rewards whole semantic spans, like objects, counts, and attributes, rather than individual words.",
+   "more": "Existing RL-based prompt rewriters typically apply one image-derived reward signal across individual subword tokens, even though meaning is often carried by coherent phrases like object descriptions or spatial relations. SCOPE, built on Group Relative Policy Optimization (GRPO), aligns its update weighting with that semantic structure instead. The rewriter jointly generates an enhanced prompt and the credit assignment for its parts. The excerpt doesn't specify which image generator or benchmark was used to validate the approach.",
+   "item_ids": [
+    "hf-papers:2610.22264"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.22264",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "SCOPE: Semantic Bounded Credit Optimization for Prompt Engineering in Text-to-image Generation",
+     "url": "https://huggingface.co/papers/2610.22264",
+     "published": "2026-10-16T00:00:00+00:00",
+     "excerpt": "Reinforcement learning (RL) enables language models to improve text-to-image (T2I) generation by rewriting prompts for a frozen image generator. Existing methods typically apply a single signal derived from the image to individual subword tokens, although objects, counts, attributes, and relations form coherent semantic spans. We propose SCOPE, an objective based on Group Relative Policy Optimization (GRPO) that aligns update weighting with this structure. The rewriter jointly generates an enhan"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "title": "Dynamic band splitting lets audio separation models choose their own frequency bounds",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new architecture for audio source separation learns to dynamically split the frequency spectrum per mixture, instead of using the same fixed band boundaries for every input.",
+   "more": "Band-split architectures keep separation costs manageable by dividing the spectrum into predefined frequency bands encoded as tokens, but conventionally use identical boundaries regardless of the audio content. The authors note that informative spectral structure varies by source, so fixed boundaries can merge important components together or waste resolution where it isn't needed. Their method instead learns where to place band boundaries for each mixture. The excerpt doesn't detail how much this improves separation quality over fixed-band baselines.",
+   "item_ids": [
+    "hf-papers:2610.14993"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.14993",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Learning Where to Split: Dynamic Band Splitting for Audio Source Separation",
+     "url": "https://huggingface.co/papers/2610.14993",
+     "published": "2026-10-16T00:00:00+00:00",
+     "excerpt": "Audio source separation models must preserve fine spectral structure while keeping the cost of the separator tractable. Band-split architectures reduce this cost by manually partitioning the spectrum into predefined frequency bands and encoding each band as a token, but the same boundaries are used for every mixture. Because informative spectral structure varies with source content, fixed boundaries can merge discriminative components or spend tokens where little resolution is needed. We introdu"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "title": "3DCodeVerse gives coding agents a dataset and harness for generating 3D worlds as code",
+   "tags": [
+    "research",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "3DCodeVerse is a research ecosystem, including a 2-million-example dataset, for training coding agents to generate editable, verifiable 3D content as executable code.",
+   "more": "The project centers on 3DCodeVerse-2M, a large curated dataset of standalone 3D executable code built by collecting open-source data and converting other 3D representations into code form. It also includes a coding harness meant to support spatial reasoning and automated verification of generated 3D content, plus practical guidance for working with 3D code. The goal is to let coding agents create 3D scenes and objects that can be checked for correctness, not just rendered. The excerpt doesn't specify which base models were evaluated on the benchmark.",
+   "item_ids": [
+    "hf-papers:2610.22341"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.22341",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+     "url": "https://huggingface.co/papers/2610.22341",
+     "published": "2026-10-16T00:00:00+00:00",
+     "excerpt": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D executable code. We build this corpus by collecting open-source data, converting specialized representa"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "title": "Meta releases Muse Spark Open, an 816B open-weight model tuned for Macs",
+   "tags": [
+    "models",
+    "open-source",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta and Apple jointly released Muse Spark Open, an 816-billion-parameter open-weight multimodal model that runs locally on Mac Studios with Apple's MLX framework.",
+   "more": "Meta calls it the most capable open-weight model built in the US to date, and it processes text, image, video, and audio with up to a million tokens of context. Working with Apple, Meta optimized the model to run on consumer hardware, specifically two Apple M5 Ultra Mac Studios using the MLX framework, making it one of the first models in its class runnable on a desktop. The Decoder reports it performs roughly on par with top Chinese open-weight models like Qwen, GLM, and Kimi on benchmarks. It's a rare case of Apple and Meta, usually competitors, collaborating directly on model deployment tooling. Pricing, licensing terms for commercial use, and broader availability beyond Mac hardware remain unclear from the announcements.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1012293",
+    "techcrunch-ai:https://techcrunch.com/?p=3178309",
+    "decoder:https://the-decoder.com/?p=41600"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1012293",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+     "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+     "published": "2026-10-15T18:15:36+00:00",
+     "excerpt": "Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first model in its class\" that can \"run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.\" Meta and Apple, […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178309",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Meta launches an open-weight AI model that runs on Macs",
+     "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+     "published": "2026-10-15T20:04:53+00:00",
+     "excerpt": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=41600",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
+     "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+     "published": "2026-10-15T18:34:32+00:00",
+     "excerpt": "Meta's Muse Spark Open is a new open-weight model with 816 billion parameters that processes text, images, video, and audio with up to one million tokens of context. It performs roughly on par with the most capable open-weight Chinese AI models on benchmarks and is optimized to run locally on Apple's M5 Ultra. The article Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 3,
+   "newest": "2026-10-15T20:04:53+00:00"
+  },
+  {
+   "title": "IBM releases Granite Switch 4.1, serving chat, decisions, and speech from one endpoint",
+   "tags": [
+    "models",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "IBM's Granite Switch 4.1 is a new model release that handles chat, decision-making, and speech tasks from a single API endpoint.",
+   "more": "The title suggests this release consolidates multiple task types, including conversational chat, decision or classification tasks, and speech, behind one unified model endpoint, rather than requiring separate specialized models. No additional details on architecture, parameter count, or benchmark performance were available in the source excerpt.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+     "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+     "published": "2026-10-15T20:34:01+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T20:34:01+00:00"
+  },
+  {
+   "title": "Black Forest Labs' FLUX 3 Image Klein runs on 8GB consumer GPUs",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Black Forest Labs released FLUX 3 Image Klein, a 5.6-billion-parameter open-weights image model that supports native 4K generation and runs on GPUs with just 8GB of VRAM.",
+   "more": "The model has 38% fewer parameters than its predecessor yet reportedly still outperforms proprietary competitors in Black Forest Labs' internal tests. It supports pixel-precise editing and generation guided by up to ten reference images, alongside native 4K output. Its small footprint and low VRAM requirement are aimed at making high-quality image generation accessible on consumer hardware rather than requiring data-center GPUs. Independent benchmark comparisons beyond the company's own internal tests weren't available in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41595"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41595",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Black Forest Labs' open-weights image model FLUX 3 Image Klein runs on consumer GPUs with just 8 GB of VRAM",
+     "url": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
+     "published": "2026-10-15T16:57:14+00:00",
+     "excerpt": "Black Forest Labs has released FLUX 3 Image Klein, a 5.6-billion-parameter open-weights image model that supports native 4K generation, pixel-precise editing, and generation with up to ten reference images. With 38 percent fewer parameters than its predecessor, it still outperforms proprietary competitors in internal tests and runs on GPUs with just 8 GB of VRAM. The article Black Forest Labs' open-weights image model FLUX 3 Image Klein runs on consumer GPUs with just 8 GB of VRAM appeared first"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T16:57:14+00:00"
+  },
+  {
+   "title": "Liquid AI's LFM2.5-24B-A2B mixture-of-experts model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Liquid AI's LFM2.5-24B-A2B, an edge-focused mixture-of-experts text-generation model, is trending on Hugging Face with nearly 400 likes and over 6,000 downloads.",
+   "more": "The model is tagged as a Liquid Foundation Model (lfm2.5) built with a mixture-of-experts (MoE) architecture and aimed at edge deployment. It supports conversational text generation and lists English, Arabic, and Chinese among its languages. As an openly published model on Hugging Face, its weights are available for download and fine-tuning. Further architectural or benchmark details weren't included in the listing excerpt.",
+   "item_ids": [
+    "hf-trending:LiquidAI/LFM2.5-24B-A2B"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:LiquidAI/LFM2.5-24B-A2B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: LiquidAI/LFM2.5-24B-A2B",
+     "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+     "published": "2026-10-12T05:35:46+00:00",
+     "excerpt": "text-generation, 396 likes, 6286 downloads. Tags: transformers, safetensors, lfm2_moe, text-generation, liquid, lfm2.5, edge, moe, conversational, en, ar, zh"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-12T05:35:46+00:00"
+  },
+  {
+   "title": "Baidu's Unlimited-OCR vision-language model trends with over 1.1 million downloads",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Baidu's Unlimited-OCR, an image-text-to-text vision-language model for OCR, is trending on Hugging Face with 4,716 likes and more than 1.1 million downloads.",
+   "more": "The model is tagged for feature extraction and image-text-to-text tasks, and supports multiple languages alongside custom code and conversational use. Its name and OCR tagging suggest it's built for optical character recognition across varied document or image types, with an associated arXiv paper (2606.23050) backing the work. The high download count points to substantial existing adoption. Specific accuracy benchmarks or supported languages beyond the listed multilingual tag weren't in the excerpt.",
+   "item_ids": [
+    "hf-trending:baidu/Unlimited-OCR"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:baidu/Unlimited-OCR",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: baidu/Unlimited-OCR",
+     "url": "https://huggingface.co/baidu/Unlimited-OCR",
+     "published": "2026-06-19T09:40:33+00:00",
+     "excerpt": "image-text-to-text, 4716 likes, 1163009 downloads. Tags: transformers, safetensors, unlimited_ocr, feature-extraction, baidu, vision-language, ocr, custom_code, image-text-to-text, conversational, multilingual, arxiv:2606.23050"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-06-19T09:40:33+00:00"
+  },
+  {
+   "title": "Anthropic gives METR researchers employee-level access to assess its practices",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic is granting outside evaluator METR employee-level access to review its risk practices and incidents, and has given up the right to block METR's published assessments.",
+   "more": "TechCrunch reports METR will now publish its own independent assessments of Anthropic's risks, incidents, and safety practices, with Anthropic unable to veto what gets released. Anthropic's own post frames this as part of a broader push to formalize how independent evaluators oversee frontier AI labs. The arrangement goes further than typical third-party audits by giving METR internal, employee-level visibility rather than limited external review. It follows growing pressure on AI labs to demonstrate credible external oversight rather than self-reported safety claims. Specifics of what METR will have access to, and how often assessments will be published, weren't detailed in the coverage.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/an-update-on-independent-evaluators",
+    "techcrunch-ai:https://techcrunch.com/?p=3178367"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/an-update-on-independent-evaluators",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "An update on independent evaluators",
+     "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+     "published": null,
+     "excerpt": ""
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178367",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+     "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+     "published": "2026-10-15T19:14:26+00:00",
+     "excerpt": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-15T19:14:26+00:00"
+  },
+  {
+   "title": "AI-powered hacks are leaving damage that AI companies aren't paying to clean up",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports that AI models are increasingly being used to cause real-world hacking incidents, but AI companies aren't compensating the targets or taking responsibility for cleanup.",
+   "more": "The piece argues that as AI models grow more capable, attackers are using them to carry out damaging hacks, yet the companies that build those models face little financial accountability for the resulting harm. Rather than victims seeking legal or financial justice, the article notes they're often instead encouraged to adopt the same AI tools that enabled the attacks. This points to a gap between AI-enabled harm and existing liability frameworks. The excerpt doesn't name specific incidents, companies, or dollar figures involved.",
+   "item_ids": [
+    "wired-ai:6acfd026baa8001981e8823c"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6acfd026baa8001981e8823c",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "AI Hacks Leave a Mess That AI Companies Aren’t Paying For",
+     "url": "https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/",
+     "published": "2026-10-15T21:00:28+00:00",
+     "excerpt": "Powerful AI models continue to cause chaos, but their targets aren’t widely seeking justice. Instead, they’re being encouraged to adopt those same tools."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T21:00:28+00:00"
+  },
+  {
+   "title": "Current Affairs explains its decision to ban AI use at the publication",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Current Affairs published a piece explaining why the magazine is banning the use of AI, sparking a large Hacker News discussion with 234 points and 181 comments.",
+   "more": "The article lays out the publication's reasoning for prohibiting AI tools in its own work, joining other media and creative organizations that have taken similar stances. The strong engagement on Hacker News, 234 points and 181 comments, suggests the topic struck a nerve within the tech community. Specific arguments made in the piece, such as concerns about quality, labor, or ethics, weren't detailed in the excerpt beyond the headline. The discussion thread itself may contain further debate not reflected in the article summary.",
+   "item_ids": [
+    "hn:50108131"
+   ],
+   "items": [
+    {
+     "id": "hn:50108131",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Why We're Banning AI",
+     "url": "https://www.currentaffairs.org/news/why-were-banning-ai",
+     "published": "2026-10-15T18:32:29+00:00",
+     "excerpt": "234 points, 181 comments. Discussion: https://news.ycombinator.com/item?id=50108131"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T18:32:29+00:00"
+  },
+  {
+   "title": "Follow-up report details alleged similarities between Anthropic's Scion and Mononoke",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A follow-up blog post expands on allegations that an Anthropic project called Scion resembles Studio Ghibli's Princess Mononoke, drawing a large Hacker News discussion.",
+   "more": "The post is a sequel analysis digging further into claimed similarities between Anthropic's Scion and the 1997 film Mononoke. It gathered significant engagement on Hacker News, with 238 points and 77 comments. This follows a pattern of scrutiny over AI labs' projects and their resemblance to existing creative works, particularly amid ongoing debates about AI and copyright. The excerpt doesn't specify what Scion is or the nature of the alleged similarities beyond the comparison itself.",
+   "item_ids": [
+    "hn:50106738"
+   ],
+   "items": [
+    {
+     "id": "hn:50106738",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "More on Anthropic's Scion ripping off Mononoke",
+     "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+     "published": "2026-10-15T17:05:19+00:00",
+     "excerpt": "238 points, 77 comments. Discussion: https://news.ycombinator.com/item?id=50106738"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T17:05:19+00:00"
+  },
+  {
+   "title": "Bluesky expands its Attie AI tool to let users build games and apps",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Bluesky's Attie AI tool, once limited to building custom feeds, now lets anyone create small social apps like games, polls, and dashboards to share on the network.",
+   "more": "Bluesky CEO Toni Schneider announced the expansion at TechCrunch Disrupt, describing it as bringing \"social vibe coding\" to the platform. Users can now generate interactive experiences, such as games, quizzes, polls, and dashboards, that live as standalone websites tied to Bluesky's social graph. Attie originally launched earlier this year as a way to use AI to customize personal feeds; this update broadens it into a lightweight app-building tool. It's part of a wider trend of social platforms adding AI-assisted creation tools for non-technical users. Details on moderation, hosting limits, or monetization for creators weren't disclosed.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1012374",
+    "techcrunch-ai:https://techcrunch.com/?p=3178080"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1012374",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Bluesky’s AI tool now lets you make games and apps to share on social",
+     "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
+     "published": "2026-10-15T19:57:16+00:00",
+     "excerpt": "Bluesky's Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make \"small\" social apps like games, polls, and dashboards that you can then share with others as their own websites. In an interview at TechCrunch Disrupt, Bluesky CEO Toni Schneider said […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178080",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+     "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+     "published": "2026-10-15T18:56:46+00:00",
+     "excerpt": "Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-15T19:57:16+00:00"
+  },
+  {
+   "title": "ChatGPT's Chrome extension can now read your open browser tabs",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI updated ChatGPT's Chrome extension so it can view a user's open browser tabs when tagged in a chat, following the shutdown of its Atlas browser.",
+   "more": "With the extension installed, users can tag Chrome within ChatGPT's web or desktop app to let it see the browser tabs they already have open, rather than requiring a dedicated AI browser. OpenAI demonstrated the feature with a video showing the extension referencing open-tab content directly in a conversation. This comes after OpenAI discontinued its standalone ChatGPT Atlas browser, suggesting the company is shifting browser-integration features into the existing Chrome extension instead. Details on privacy controls or which tab data is shared weren't specified.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1012510"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1012510",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "ChatGPT can peek at your Chrome tabs now",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+     "published": "2026-10-15T22:43:23+00:00",
+     "excerpt": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T22:43:23+00:00"
+  },
+  {
+   "title": "OpenAI launches Rosalind Academic Plan for life-sciences research labs",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI introduced the Rosalind Academic Plan, giving eligible academic labs sponsored access to its GPT-Rosalind model and related tools for life sciences research.",
+   "more": "The plan is aimed specifically at academic research labs working in life sciences, offering sponsored access to GPT-Rosalind rather than standard commercial pricing. It follows a pattern of AI labs courting academic and scientific users with specialized access programs, likely to encourage adoption and showcase real research use cases. Eligibility criteria, the scope of sponsorship, and which specific tools are bundled weren't detailed in the excerpt.",
+   "item_ids": [
+    "openai:https://openai.com/index/introducing-the-rosalind-academic-plan"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/introducing-the-rosalind-academic-plan",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Bringing GPT-Rosalind to academic research labs",
+     "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+     "published": "2026-10-15T19:00:00+00:00",
+     "excerpt": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T19:00:00+00:00"
+  },
+  {
+   "title": "Cal AI's viral growth to $30M in revenue was powered by an influencer army",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Calorie-tracking app Cal AI generated over $30 million in revenue in two years, largely through a large-scale influencer marketing push, before being acquired by MyFitnessPal.",
+   "more": "TechCrunch's reporting credits a coordinated, large-scale influencer campaign as the main driver behind Cal AI's viral growth, rather than traditional advertising or organic discovery alone. The app was acquired by MyFitnessPal in March for an undisclosed sum, folding it into a larger established fitness brand. The deal highlights how AI-branded consumer apps can achieve rapid growth and exits even in crowded categories. The excerpt doesn't detail the acquisition price or Cal AI's user numbers.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3178431"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178431",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+     "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+     "published": "2026-10-15T23:44:56+00:00",
+     "excerpt": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T23:44:56+00:00"
+  },
+  {
+   "title": "Amazon's devices chief predicts ambient AI will replace the need for apps",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amazon devices chief Panos Panay said at TechCrunch Disrupt that ambient AI devices will eventually anticipate user needs in the background, removing the need to open apps.",
+   "more": "Panay described a future where AI-powered devices work continuously in the background rather than waiting for explicit commands, proactively surfacing what users need. The comments were made during a session at TechCrunch Disrupt, a major industry conference. This vision echoes broader industry talk about ambient computing and agentic AI reducing reliance on traditional app interfaces. The excerpt doesn't mention specific Amazon products or a timeline tied to this vision.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3178363"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178363",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+     "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+     "published": "2026-10-15T19:55:25+00:00",
+     "excerpt": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T19:55:25+00:00"
+  },
+  {
+   "title": "Simon Willison builds a two-player Pong clone that communicates via audio chirps",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Developer Simon Willison built 'Chirp Pong,' a browser-based two-player Pong game where phones sync game state through audio chirps picked up by the web Microphone API.",
+   "more": "The experiment explores whether a competitive two-player game can run across two separate phones without a network connection, instead encoding game state as audio chirps exchanged between devices held close together. It's built as static HTML and uses the browser's Microphone API to interpret the chirps. Willison frames it as a playful technical experiment with graphical and gameplay twists added on top of the core chirp-based networking idea. The project is part of his ongoing series of small coding experiments.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/15/chirp-pong/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/15/chirp-pong/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Chirp Pong",
+     "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+     "published": "2026-10-15T19:47:52+00:00",
+     "excerpt": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T19:47:52+00:00"
+  },
+  {
+   "title": "Sega pulls Total War: Shogun 2 remaster after complaints over AI-upscaled art",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Sega removed its Total War: Shogun 2 Complete Edition remaster from sale after players complained about bugs and art that appeared to be AI-upscaled.",
+   "more": "The remaster, which bundled the original 2011 strategy game with its expansions, launched on Tuesday to a disastrous reception. Players flagged visual issues consistent with AI upscaling tools being used on game assets, in addition to general bugs. Sega has not detailed whether the upscaling complaints are accurate or what a fixed re-release might change. The episode adds to a string of recent backlash incidents over studios using AI tools in asset production without clear communication to players.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1012512"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1012512",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
+     "url": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
+     "published": "2026-10-15T22:35:55+00:00",
+     "excerpt": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 2011 strategy game, launched on Tuesday, and it bundled the main game and all of its […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T22:35:55+00:00"
+  },
+  {
+   "title": "Hollywood's new wave of films takes aim at the tech industry's reputation",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A cluster of 2026 films and documentaries, including Aaron Sorkin's The Social Reckoning, cast a critical eye on Silicon Valley figures and the social impact of tech and AI.",
+   "more": "The Verge notes that movies critical of disruptive tech founders aren't new, but 2026 has an unusually large cluster of them. Sorkin's The Social Reckoning portrays Mark Zuckerberg as a destabilizing, robotic antagonist, while Nathan Fielder and Lance Oppenheim's \"You Can See Everything\" is cited as part of the same wave. The piece frames this as part of a broader cultural reckoning with how Silicon Valley reshapes society. Specific details on other films in this wave weren't included in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1012438"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1012438",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The tech backlash is now in theaters",
+     "url": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+     "published": "2026-10-15T21:39:52+00:00",
+     "excerpt": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T21:39:52+00:00"
+  },
+  {
+   "title": "Wired's Uncanny Valley podcast covers Meta's Muse, a pro-AI super PAC, and AI bragging",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired's Uncanny Valley podcast discusses an unexpected Meta Muse feature, undisclosed spending by a large pro-AI super PAC, and men overstating their AI knowledge.",
+   "more": "The episode covers three loosely related threads rather than a single story: a feature of Meta's new Muse model that caught the hosts off guard, \"shadowy\" financial spending by what's described as the largest pro-AI super PAC, and a broader observation about men tending to overstate how much they understand about AI. As a weekly roundup podcast, it touches on multiple current AI topics rather than reporting one event in depth. Specific financial figures for the super PAC spending weren't included in the excerpt.",
+   "item_ids": [
+    "wired-ai:6acfb7fb7efaf68414339c74"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6acfb7fb7efaf68414339c74",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
+     "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
+     "published": "2026-10-15T21:18:15+00:00",
+     "excerpt": "This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T21:18:15+00:00"
+  },
+  {
+   "title": "Trump shares apparently AI-edited White House renovation photo on Truth Social",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Donald Trump posted before-and-after photos of a White House column renovation, but one image shows signs of AI editing and was flagged by a Google detection tool.",
+   "more": "The comparison image, meant to show a restored column, contains visual discrepancies that led observers to suspect AI modification. Google's AI image detector reportedly flagged the photo as \"made or altered with AI.\" The post was intended to tout renovation work at the White House, but has instead drawn attention to the authenticity of the imagery itself. It adds to a running pattern of AI-generated or AI-edited images circulating from political figures without clear disclosure.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1012445"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1012445",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Trump posts AI-edited photo to brag about White House restoration work",
+     "url": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
+     "published": "2026-10-15T21:09:33+00:00",
+     "excerpt": "President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a \"restored\" one, has several discrepancies and was flagged by Google's AI detector as \"made or […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T21:09:33+00:00"
+  },
+  {
+   "title": "TechCrunch promotes discounted passes for its Founder Summit event",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch is promoting discounted Founder and Investor passes for its Founder Summit, a conference for founders and investors in November.",
+   "more": "The promotion offers savings of up to $200 on passes, with the discount window closing October 16. The event is scheduled for November 4 at Boston's SoWa Power Station and is pitched as a gathering of founders and investors. This is a promotional item rather than AI news coverage.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3178318"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178318",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
+     "url": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
+     "published": "2026-10-15T18:00:00+00:00",
+     "excerpt": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston’s SoWa Power Station. Bring your toughest questions and make the day count for your business."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T18:00:00+00:00"
+  }
+ ]
+}
