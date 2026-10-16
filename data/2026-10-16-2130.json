@@ -1,0 +1,441 @@
+{
+ "date": "2026-10-16",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Elorian's first AI model, Glimpse, targets image and video reasoning",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Startup Elorian launched its first AI model, Glimpse, built to reason with images rather than just about them, which it says beats GPT-6 Astra on scientific chart reasoning and video captioning.",
+   "more": "According to Elorian's own evaluations, Glimpse outperforms GPT-6 Astra on scientific chart reasoning and short-form video captioning tasks. The company also reports competitive results on other visual reasoning benchmarks. No independent verification of these results was mentioned.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3178756"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178756",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Elorian’s first AI model wants to reason with images, not just about them",
+     "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+     "published": "2026-10-16T16:01:37+00:00",
+     "excerpt": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T16:01:37+00:00"
+  },
+  {
+   "title": "Google's Gemini 4 Argon nears the AI frontier on ARC-AGI-3",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind's Gemini 4 Argon scored 97.5% on the ARC-AGI-3 benchmark, making Google the second lab after OpenAI to pass 95%, though it still trails rivals on math and coding.",
+   "more": "The 97.5 percent score was achieved outside the benchmark's standard test harness; under standard conditions, Argon's score drops to 49.8 percent, showing results swing wildly depending on setup. Argon also still trails rival models in math and software engineering benchmarks. Google is now the second AI lab, after OpenAI, to cross the 95 percent mark on ARC-AGI-3 in any configuration.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41620"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41620",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months",
+     "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+     "published": "2026-10-16T15:03:46+00:00",
+     "excerpt": "Google Deepmind's Gemini 4 Argon scored 97.5 percent on the ARC-AGI-3 benchmark, making Google the second lab after OpenAI to cross the 95 percent mark. But the results swing wildly depending on the test setup: in the standard harness, the score drops to just 49.8 percent. Argon also trails rivals in math and software engineering. The article Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T15:03:46+00:00"
+  },
+  {
+   "title": "Meta's Muse Spark Open vision-language model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Muse-Spark-Open-816B-A42B, an image-text-to-text model from Meta's models org, is trending on Hugging Face with 403 likes and 815 downloads.",
+   "more": "The listing is tagged image-text-to-text and ships as downloadable safetensors weights, built on the 'muse_spark' architecture from Meta's models org. It carries a custom ('other') license rather than a standard open-source license. Hugging Face shows 403 likes and 815 downloads so far. No training data, benchmark results, or release notes were included in the listing.",
+   "item_ids": [
+    "hf-trending:meta-models/Muse-Spark-Open-816B-A42B"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:meta-models/Muse-Spark-Open-816B-A42B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: meta-models/Muse-Spark-Open-816B-A42B",
+     "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+     "published": "2026-09-15T19:23:19+00:00",
+     "excerpt": "image-text-to-text, 403 likes, 815 downloads. Tags: transformers, safetensors, muse_spark, image-text-to-text, facebook, meta, pytorch, muse, muse-spark, conversational, en, license:other"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-09-15T19:23:19+00:00"
+  },
+  {
+   "title": "Jev becomes Vercel's fastest-adopted AI model yet, gateway data shows",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "An AI model called Jev is the fastest-adopted model ever on Vercel's AI gateway, according to usage data from the unified API service.",
+   "more": "The adoption figures come from Vercel's AI gateway, which TechCrunch describes as similar to OpenRouter in offering a unified API across AI providers. No further detail on Jev's capabilities, maker, or adoption numbers was given in the excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3178711"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178711",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Jev is Vercel’s fastest-adopted AI model ever",
+     "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+     "published": "2026-10-16T15:33:49+00:00",
+     "excerpt": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T15:33:49+00:00"
+  },
+  {
+   "title": "Veritas expands anti-counterfeit verification chip to jewelry and fragrance",
+   "tags": [
+    "products",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Startup Veritas is expanding its chip-based anti-counterfeit verification technology to jewelry, trophies, and fragrance bottles, aiming to catch so-called 'superfakes.'",
+   "more": "Veritas builds a physical chip that verifies the authenticity of luxury goods, targeting counterfeiters who have gotten better at replicating brand marks closely enough to pass as genuine ('superfakes'). The expansion extends the chip's use beyond its initial product categories into jewelry, trophies, and fragrance bottles.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3177529"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177529",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+     "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+     "published": "2026-10-16T14:00:00+00:00",
+     "excerpt": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T14:00:00+00:00"
+  },
+  {
+   "title": "OpenAI's Rosalind plan gives US university labs up to 30 free seats",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI launched the Rosalind Academic Plan, offering research labs at US universities without an enterprise contract up to 30 free seats for a year.",
+   "more": "The plan is currently limited to research labs based at US universities that don't already have an enterprise contract with OpenAI. It offers up to 30 free seats, each valid for one year. No further detail on which OpenAI products or tiers are included was given in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41607"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41607",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI's new Rosalind Academic Plan gives research labs up to 30 free seats for a year",
+     "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/",
+     "published": "2026-10-16T13:15:09+00:00",
+     "excerpt": "OpenAI is launching the Rosalind Academic Plan, a free offering that's currently open only to research labs at US universities without an enterprise contract. The article OpenAI's new Rosalind Academic Plan gives research labs up to 30 free seats for a year appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T13:15:09+00:00"
+  },
+  {
+   "title": "Meta's new terms may let it train AI on news publishers' sites for free",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta's updated business terms, taking effect October 30th, appear to let it crawl and scrape content from sites 'associated' with businesses on its platforms, including news publishers, to train AI.",
+   "more": "The new terms were first reported by Nieman Lab and apply to websites 'associated' with businesses that use Meta's platforms, including online publishers. Meta says it can use this outside content to 'develop, improve, research,' and 'train' its AI systems. Legal experts cited by Ars Technica describe the streamlined commercial terms of service as a way for Meta to avoid millions of dollars in AI licensing fees it might otherwise owe publishers. The terms take effect October 30th.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1012846",
+    "ars-ai:https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1012846",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Meta’s new terms may allow it to train AI on news sites for free",
+     "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+     "published": "2026-10-16T14:02:40+00:00",
+     "excerpt": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" […]"
+    },
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+     "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+     "published": "2026-10-16T15:41:00+00:00",
+     "excerpt": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-16T15:41:00+00:00"
+  },
+  {
+   "title": "MIT's Sherry Turkle argues chatbots shouldn't speak as 'I' or 'me'",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "MIT professor Sherry Turkle warns that people are becoming dangerously enmeshed with chatbots, and argues AI systems shouldn't be allowed to refer to themselves as 'I' or 'me.'",
+   "more": "Turkle's concern centers on how first-person language from chatbots can deepen users' emotional attachment to them. The piece frames this as part of a broader worry about people's growing reliance on and attachment to conversational AI. No specific policy or product proposal was described beyond the framing of the concern.",
+   "item_ids": [
+    "wired-ai:6ad1204cb10b053f192727b9"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ad1204cb10b053f192727b9",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’",
+     "url": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
+     "published": "2026-10-16T15:00:00+00:00",
+     "excerpt": "MIT professor Sherry Turkle warns that people have become dangerously enmeshed with chatbots."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T15:00:00+00:00"
+  },
+  {
+   "title": "Anthropic gives safety nonprofit METR inside access to audit its models",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic has given a team from the nonprofit METR inside access to review its AI models and safety practices, the company announced.",
+   "more": "METR is a nonprofit that evaluates AI models' capabilities and risks. The inside access reportedly lets METR's team review Anthropic's models and safety practices directly rather than through external testing alone. No further detail on the scope or duration of METR's access was given in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41608"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41608",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic gives METR inside access to audit its AI models and safety practices",
+     "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/",
+     "published": "2026-10-16T13:11:55+00:00",
+     "excerpt": "Anthropic has given a team from the nonprofit METR inside access to review its AI models and safety practices, the company announced. The article Anthropic gives METR inside access to audit its AI models and safety practices appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T13:11:55+00:00"
+  },
+  {
+   "title": "New essay claims AI interpretability may be closer than researchers thought",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new essay argues neural networks may be far easier to interpret than assumed, with about 90% of neurons serving a clear function — a claim researchers are still debating.",
+   "more": "If the thesis holds, it would be significant for AI safety research, since deceptive or dangerous behavior could potentially be spotted directly in a model's internal circuits. The essay's claim that roughly 90 percent of neurons have a clear, identifiable function has split the research community, with researchers still debating whether it holds up.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41605"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41605",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Is AI interpretability close to a breakthrough? A new essay has researchers divided",
+     "url": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/",
+     "published": "2026-10-16T13:48:08+00:00",
+     "excerpt": "Neural networks may be much easier to read than researchers assumed, with about 90 percent of neurons serving a clear function. That would be big news for AI safety research, since deception or dangerous behavior could be spotted directly in a model's circuits. Researchers are still debating whether the thesis holds up. The article Is AI interpretability close to a breakthrough? A new essay has researchers divided appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T13:48:08+00:00"
+  },
+  {
+   "title": "New FDE-Gym benchmark tests AI agents on messy real-world delivery work",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "FDE-Gym is a new benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, testing AI agents on ambiguous, live-system work instead of well-specified tickets.",
+   "more": "The benchmark was adapted by industry experts from real-world delivery projects rather than synthetic tasks. It targets the gap between typical agent benchmarks, which use well-specified issue reports or tickets, and real customer delivery, where forward-deployed engineers must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. The 95 tasks are drawn from 20 customer scenarios spanning 18 industry sectors.",
+   "item_ids": [
+    "hf-papers:2610.22350"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.22350",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "FDE-Gym: The Last Mile of AI Delivery",
+     "url": "https://huggingface.co/papers/2610.22350",
+     "published": "2026-10-16T00:00:00+00:00",
+     "excerpt": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, each adapted by industry experts from real-world delivery projects. In simulated cu"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "title": "Replit's CEO predicts a future of 'self-driving' companies run by agents",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Replit CEO Amjad Masad envisions companies becoming 'self-driving,' with AI agents handling day-to-day operations while people focus on higher-level decisions.",
+   "more": "Masad's comments frame AI agents as eventually taking over routine operational work inside companies. Under this vision, human roles would shift toward higher-level strategic decisions rather than daily execution. No specific timeline or product plans from Replit were mentioned in the excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3178541"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178541",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+     "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+     "published": "2026-10-16T12:55:09+00:00",
+     "excerpt": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T12:55:09+00:00"
+  },
+  {
+   "title": "Nvidia's RTX Spark laptops put to the test after a week of use",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge spent a week testing laptops built around Nvidia's new RTX Spark N1X chip, an Arm-based SoC aimed at competing with Apple, Intel, AMD and Qualcomm.",
+   "more": "RTX Spark is Nvidia's new Arm-based system-on-chip for laptops and small desktops, positioned against the best chips from Apple, Intel, AMD, and Qualcomm. The review covers laptops from multiple vendors running Windows on Arm. The piece focuses on real-world impressions after a week of testing rather than lab benchmarks. Nvidia markets the chip as a high-core-count 'superchip.'",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1012748"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1012748",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+     "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+     "published": "2026-10-16T15:00:00+00:00",
+     "excerpt": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T15:00:00+00:00"
+  },
+  {
+   "title": "Ex-Nvidia robotics marketer says the field hasn't had its ChatGPT moment",
+   "tags": [
+    "robotics",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amulya Vishwanath, who led product marketing for Nvidia's robotics platforms for seven years and now invests in the field, says robotics is still in its 'Lego era.'",
+   "more": "Vishwanath argues that fundamentals like actuators, robotic hands, software, and safety standards are still being rebuilt from scratch. That puts her view at odds with others in the industry who believe a general foundation model could soon give robotics its own 'ChatGPT moment.' TechCrunch published her comments as both a video interview and a podcast episode.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?post_type=tc_video&p=3176211",
+    "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3176205"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?post_type=tc_video&p=3176211",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "A Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+     "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+     "published": "2026-10-16T16:30:00+00:00",
+     "excerpt": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3176205",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+     "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+     "published": "2026-10-16T16:30:00+00:00",
+     "excerpt": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T16:30:00+00:00"
+  },
+  {
+   "title": "Mark Wahlberg says he's open to AI using his likeness after he's gone",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Actor and angel investor Mark Wahlberg says he's comfortable with AI being used in filmmaking 'the right way,' and is open to an AI clone continuing his legacy.",
+   "more": "Wahlberg said he's fine with AI in film as long as it's used to 'enhance what you're doing' rather than replace creative work outright. He also said he'd be open to an AI clone of himself carrying on his legacy after he's gone. Wahlberg is also an active angel investor, per TechCrunch.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3178550"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178550",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+     "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+     "published": "2026-10-16T14:26:51+00:00",
+     "excerpt": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T14:26:51+00:00"
+  },
+  {
+   "title": "Super Scam Me documentary follows a victim hunting her romance scammer",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ars Technica shared an exclusive clip from the documentary Super Scam Me, which follows a victim as she tracks down the person who romance-scammed her.",
+   "more": "The clip is described as taking viewers deep into 'love-bombing' terrain, a tactic scammers use to manipulate victims emotionally. The excerpt does not specify whether AI tools played a role in the scam or the victim's investigation.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
+     "url": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
+     "published": "2026-10-16T14:00:59+00:00",
+     "excerpt": "Watch an exclusive clip from Super Scam Me where a victim tracks down her scammer."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T14:00:59+00:00"
+  }
+ ]
+}
