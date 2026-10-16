@@ -1,0 +1,199 @@
+{
+ "date": "2026-10-16",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "RoTA-Bench benchmark tests VLMs on 3D spatial reasoning",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduce RoTA-Bench, a benchmark that evaluates whether vision-language models can infer 3D structure from 2D views by predicting rotations to match a target silhouette.",
+   "more": "The benchmark asks a model to observe a rotated object and choose successive rotations to recover a target 2D silhouette, within a limited number of actions. It is designed to test whether a model can infer 3D object geometry, anticipate how rotation changes its projection, and refine its choices using visual feedback. The task combines 3D-to-2D projection alignment with interactive correction rather than a single-shot prediction. The paper frames this as a step beyond simple 2D observation toward spatial understanding that supports precise action. The excerpt does not specify which models were tested or how they performed.",
+   "item_ids": [
+    "hf-papers:2610.17665"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.17665",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
+     "url": "https://huggingface.co/papers/2610.17665",
+     "published": "2026-10-16T00:00:00+00:00",
+     "excerpt": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses successive rotations to recover the target projection within a limited action budget. Our automated"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "title": "InfiniSplat v2 improves feed-forward 3D Gaussian scene reconstruction",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "InfiniSplat v2 improves feed-forward 3D Gaussian Splatting reconstruction from input images, aiming to fix quality problems that appear under large viewpoint changes.",
+   "more": "Feed-forward Gaussian reconstruction builds a 3D scene directly from input images for novel-view rendering, but prior methods struggle to learn accurate Gaussian attributes from predicted geometry, especially as the viewpoint shifts significantly from the input images. InfiniSplat v2 addresses this with architectural and training changes, including decoupling geometry prediction from attribute prediction using a frozen geometry branch. The paper presents this as an analysis of where feed-forward 3DGS models fail, followed by targeted fixes rather than a wholly new architecture. The excerpt does not give benchmark numbers or comparisons to prior feed-forward 3DGS methods.",
+   "item_ids": [
+    "hf-papers:2610.20341"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.20341",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views",
+     "url": "https://huggingface.co/papers/2610.20341",
+     "published": "2026-10-16T00:00:00+00:00",
+     "excerpt": "Feed-forward Gaussian reconstruction builds 3D scenes directly from input images for novel view rendering, but learning Gaussian attributes from predicted geometry for high-quality rendering under large viewpoint changes remains challenging. We analyze limitations in Gaussian attribute learning and introduce InfiniSplat v2, which improves rendering quality through architectural and training changes. Our method decouples geometry and attribute prediction with a frozen geometry branch, aligns pred"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "title": "MJev-Spatial targets fast System 1 spatial reasoning in VLMs",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "MJev-Spatial is a multimodal model aimed at giving vision-language models fast, System 1-style answers to spatial questions like distances and placements, instead of generating free-form text.",
+   "more": "Vision-language models typically answer spatial questions, such as which relation holds, how far an object is, or where to place it, by generating free-form text, which costs autoregressive decoding and answer parsing even when the possible answers are compact: one of a few options, a scalar, or a 2D point. MJev-Spatial is introduced as a System 1 multimodal approach aimed at matching native attention patterns to produce these compact answers more directly. The excerpt is cut off before describing the model's architecture, training data, or evaluation results, so those details are not known from this text.",
+   "item_ids": [
+    "hf-papers:2610.22276"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.22276",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+     "url": "https://huggingface.co/papers/2610.22276",
+     "published": "2026-10-16T00:00:00+00:00",
+     "excerpt": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar, or a 2D point. In light of this, we introduce MJev-Spatial, a System 1 multimodal"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "title": "Flux.3 Image Klein launches as 5.6B open-weight image model",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Black Forest Labs releases Flux.3 Image Klein, a 5.6B-parameter open-weight model for text-to-image generation and editing with up to 10 reference images.",
+   "more": "Flux.3 Image Klein is a 5.6B-parameter open-weights model from Black Forest Labs for text-to-image generation and image editing. It takes a text prompt plus up to 10 reference images and returns a single image, covering text-to-image generation, single-reference edits, and multi-reference compositions through one model. The model uses Qwen3-VL-4B-Instruct as its text encoder. The excerpt does not include benchmark comparisons, license terms, or release notes beyond the model's availability on Hugging Face.",
+   "item_ids": [
+    "localllama:t3_1x6s7el"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x6s7el",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Flux.3 Image Klein is now out",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6s7el/flux3_image_klein_is_now_out/",
+     "published": "2026-10-15T17:38:48+00:00",
+     "excerpt": "FLUX 3 Image Klein is a 5.6B open weights model for text-to-image generation and image editing. It takes a prompt and up to 10 reference images and returns one image. Text-to-image, single-reference edits and multi-reference compositions run through the same model, with Qwen3-VL-4B-Instruct as the text encoder. https://huggingface.co/black-forest-labs/flux-3-image-klein submitted by /u/JGByvygyrfg [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T17:38:48+00:00"
+  },
+  {
+   "title": "Muse Spark Open debuts as a large open-weight model for coding, agents",
+   "tags": [
+    "models",
+    "open-source",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Muse Spark Open, an 816B-parameter (42B active) open-weight model with a 1M-token context, launches targeting coding and long-horizon agentic tasks, with Unsloth offering support on day one.",
+   "more": "Muse Spark Open is a mixture-of-experts model with 816B total parameters and 42B active, a 1M-token context window, and support for text, image, video, and audio inputs. It is built for coding and agentic work, with a focus on long-horizon tasks, complex software engineering, and multi-step reasoning. The release includes additional safety post-training, with evaluations described as conducted under Meta's Superintelligence Scaling Framework. Unsloth published support for the model on the same day, per a separate r/LocalLLaMA post, though that post's own content was not captured in the excerpts. The excerpts do not name the company behind Muse Spark Open or give benchmark results.",
+   "item_ids": [
+    "localllama:t3_1x6r9pz",
+    "localllama:t3_1x6rcid"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x6r9pz",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Introducing Muse Spark Open: the most capable US open-weight model to date",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6r9pz/introducing_muse_spark_open_the_most_capable_us/",
+     "published": "2026-10-15T17:03:45+00:00",
+     "excerpt": "Hey r/LocalLlama - Today we’re excited to release Muse Spark Open, the most capable US open-weight model to date. Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning. Key Model Specs Parameters: 816B total / 42B active Context Window: 1M tokens Modalities: Text, image, video, audio Safety Post-Training: Additional safety post-training, with evaluations conducted under Meta's Superintelligence Scaling Framework. Inference, fin"
+    },
+    {
+     "id": "localllama:t3_1x6rcid",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Unsloth Muse Spark Open is out!",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6rcid/unsloth_muse_spark_open_is_out/",
+     "published": "2026-10-15T17:06:32+00:00",
+     "excerpt": "submitted by /u/Bob_SUS [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-15T17:06:32+00:00"
+  },
+  {
+   "title": "OpenGCUA proposes a fully open stack for generalist computer-use agents",
+   "tags": [
+    "agents",
+    "open-source",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenGCUA proposes an open stack for generalist computer-use agents that work across both GUI and programmatic interfaces, positioning itself against closed systems such as GPT-6 Astra's computer-use feature.",
+   "more": "The paper defines a generalist computer-use agent (GCUA) as a system that decides for itself how to observe, act, and organize its work across both visual (GUI) and programmatic interfaces, rather than being limited to GUI-only interaction. It argues that current frontier implementations, such as GPT-6 Astra's computer-use system, remain largely closed, which limits systematic study of how they are designed. OpenGCUA is presented as a fully open stack aimed at closing that gap. The excerpt does not detail which components the stack includes, or how it compares against the closed systems it references.",
+   "item_ids": [
+    "hf-papers:2610.22200"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.22200",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+     "url": "https://huggingface.co/papers/2610.22200",
+     "published": "2026-10-16T00:00:00+00:00",
+     "excerpt": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GPT-6 Astra's computer-use system, remain largely closed, limiting systematic study of their design. W"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "title": "AI-generated 'models' use comedians' material to drive OnlyFans traffic",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports a network of AI-generated personas is reposting comedians' material to funnel viewers to OnlyFans and Fanvue accounts, with little recourse for the comedians whose work is used.",
+   "more": "The excerpt describes a network of AI-generated models that reuses comics' material to funnel views toward their OnlyFans and Fanvue accounts. According to the report, comedians have little practical recourse against this use of their work. The excerpt does not specify how many accounts are involved, which platforms host them, or whether any legal or platform-level action has been taken.",
+   "item_ids": [
+    "wired-ai:6acd00154e5c3c4c4af4d8df"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6acd00154e5c3c4c4af4d8df",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "AI-Generated Hot Girls Are Ripping Off Comedians to Boost Their Horny Content",
+     "url": "https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/",
+     "published": "2026-10-16T11:00:00+00:00",
+     "excerpt": "A network of AI-generated models is using comics’ material to funnel views to their OnlyFans and Fanvue accounts—and there’s not much comedians can do about it."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T11:00:00+00:00"
+  }
+ ]
+}
