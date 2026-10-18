@@ -4775,7 +4775,7 @@
    "up": 0
   }
  },
- "last_digest": "2026-10-17T16:38:19.493932+00:00",
+ "last_digest": "2026-10-18T06:38:57.656933+00:00",
  "seen": {
   "anthropic": [
    "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -5227,7 +5227,8 @@
    "hf-trending:baidu/Unlimited-OCR",
    "hf-trending:meta-models/Muse-Spark-Open-816B-A42B",
    "hf-trending:black-forest-labs/flux-3-image-klein-comfy",
-   "hf-trending:deepseek-ai/DeepSeek-V4.1-Flash-1017"
+   "hf-trending:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "hf-trending:black-forest-labs/flux-3-image-klein"
   ],
   "hn": [
    "hn:49855018",
@@ -5436,7 +5437,8 @@
    "localllama:t3_1x7lw9g",
    "localllama:t3_1x84po4",
    "localllama:t3_1x88txd",
-   "localllama:t3_1x8bb6b"
+   "localllama:t3_1x8bb6b",
+   "localllama:t3_1x8gtvs"
   ],
   "meta-ai": [
    "meta-ai:https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
@@ -5551,7 +5553,8 @@
    "simonw:https://simonwillison.net/2026/Oct/14/tree-appreciator/",
    "simonw:https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
    "simonw:https://simonwillison.net/2026/Oct/15/chirp-pong/",
-   "simonw:https://simonwillison.net/2026/Oct/16/code-review/"
+   "simonw:https://simonwillison.net/2026/Oct/16/code-review/",
+   "simonw:https://simonwillison.net/2026/Oct/17/document-currentscript/"
   ],
   "techcrunch-ai": [
    "techcrunch-ai:https://techcrunch.com/?p=3167791",
@@ -5759,7 +5762,9 @@
    "techcrunch-ai:https://techcrunch.com/?p=3177529",
    "techcrunch-ai:https://techcrunch.com/?p=3178541",
    "techcrunch-ai:https://techcrunch.com/?p=3178496",
-   "techcrunch-ai:https://techcrunch.com/?p=3178813"
+   "techcrunch-ai:https://techcrunch.com/?p=3178813",
+   "techcrunch-ai:https://techcrunch.com/?p=3178941",
+   "techcrunch-ai:https://techcrunch.com/?p=3178934"
   ],
   "verge-ai": [
    "verge-ai:https://www.theverge.com/?p=1001049",
@@ -5949,26 +5954,26 @@
   ]
  },
  "source_ok": {
-  "anthropic": "2026-10-17T16:38:19.493932+00:00",
-  "ars-ai": "2026-10-17T16:38:19.493932+00:00",
-  "decoder": "2026-10-17T16:38:19.493932+00:00",
-  "deepmind": "2026-10-17T16:38:19.493932+00:00",
-  "google-ai": "2026-10-17T16:38:19.493932+00:00",
-  "hf-blog": "2026-10-17T16:38:19.493932+00:00",
-  "hf-papers": "2026-10-17T16:38:19.493932+00:00",
-  "hf-trending": "2026-10-17T16:38:19.493932+00:00",
-  "hn": "2026-10-17T16:38:19.493932+00:00",
-  "import-ai": "2026-10-17T16:38:19.493932+00:00",
-  "latent-space": "2026-10-17T16:38:19.493932+00:00",
-  "localllama": "2026-10-17T16:38:19.493932+00:00",
-  "meta-ai": "2026-10-17T16:38:19.493932+00:00",
-  "mistral": "2026-10-17T16:38:19.493932+00:00",
-  "mit-tr-ai": "2026-10-17T16:38:19.493932+00:00",
-  "openai": "2026-10-17T16:38:19.493932+00:00",
-  "simonw": "2026-10-17T16:38:19.493932+00:00",
-  "techcrunch-ai": "2026-10-17T16:38:19.493932+00:00",
-  "verge-ai": "2026-10-17T16:38:19.493932+00:00",
-  "wired-ai": "2026-10-17T16:38:19.493932+00:00"
+  "anthropic": "2026-10-18T06:38:57.656933+00:00",
+  "ars-ai": "2026-10-18T06:38:57.656933+00:00",
+  "decoder": "2026-10-18T06:38:57.656933+00:00",
+  "deepmind": "2026-10-18T06:38:57.656933+00:00",
+  "google-ai": "2026-10-18T06:38:57.656933+00:00",
+  "hf-blog": "2026-10-18T06:38:57.656933+00:00",
+  "hf-papers": "2026-10-18T06:38:57.656933+00:00",
+  "hf-trending": "2026-10-18T06:38:57.656933+00:00",
+  "hn": "2026-10-18T06:38:57.656933+00:00",
+  "import-ai": "2026-10-18T06:38:57.656933+00:00",
+  "latent-space": "2026-10-18T06:38:57.656933+00:00",
+  "localllama": "2026-10-18T06:38:57.656933+00:00",
+  "meta-ai": "2026-10-18T06:38:57.656933+00:00",
+  "mistral": "2026-10-18T06:38:57.656933+00:00",
+  "mit-tr-ai": "2026-10-18T06:38:57.656933+00:00",
+  "openai": "2026-10-18T06:38:57.656933+00:00",
+  "simonw": "2026-10-18T06:38:57.656933+00:00",
+  "techcrunch-ai": "2026-10-18T06:38:57.656933+00:00",
+  "verge-ai": "2026-10-18T06:38:57.656933+00:00",
+  "wired-ai": "2026-10-18T06:38:57.656933+00:00"
  },
  "telegram_offset": 115081541,
  "telegram_sent": "2026-10-17-2130",
