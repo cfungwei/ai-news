@@ -1,0 +1,85 @@
+{
+ "date": "2026-10-18",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Four autonomous Gemini 4 Argon agents beat Minecraft without human help",
+   "tags": [
+    "agents",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Four AI agents running on Google's Gemini 4 Argon coordinated without predefined roles to defeat Minecraft's Ender Dragon fully autonomously, with no human assistance.",
+   "more": "The agents had no predefined roles or strategies going in, yet coordinated among themselves to plan and execute a full playthrough ending in the Ender Dragon's defeat. Over the run they wrote 2,783 programs and exchanged 229 chat messages to coordinate, and died 605 times along the way. The session cost $1,620 to run. It is not stated how long the run took or whether this is the first fully autonomous multi-agent Minecraft completion attempted on Gemini 4 Argon.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41701"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41701",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
+     "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+     "published": "2026-10-18T12:39:51+00:00",
+     "excerpt": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run. With no predefined roles or strategies, they coordinated on their own, wrote 2,783 programs, exchanged 229 chat messages, and died 605 times. The session cost $1,620. The article Four Gemini 4 Argon agents beat Minecraft without any human help appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-18T12:39:51+00:00"
+  },
+  {
+   "title": "Anthropic scales back junior hiring as AI agents log more work hours",
+   "tags": [
+    "industry",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic has sharply cut junior hiring in technical roles, from 27% to 9% of new hires since early 2025, as its AI agents now log six times as many work hours as humans.",
+   "more": "By August 2026, AI agents across Anthropic were already logging six times as many hours of work as human employees, coinciding with the drop in junior hires. Researchers cited in the report warn of a possible \"tragedy of the cognitive commons\": if junior positions keep disappearing, there may eventually be a shortage of experienced specialists who would normally have come up through those roles. The report notes this assumes such specialists will still be needed at all, raising a further open question about the shape of future technical hiring. No comment from Anthropic on the hiring strategy itself is included.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41707"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41707",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+     "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+     "published": "2026-10-18T13:22:26+00:00",
+     "excerpt": "Anthropic is hiring fewer and fewer junior staff in technical roles. The share of junior positions among new hires dropped from 27 to 9 percent since early 2025. By August 2026, AI agents across the company were already logging six times as many hours as humans. Researchers warn of a \"tragedy of the cognitive commons\": if junior positions disappear, experienced specialists will be in short supply down the road. That is, assuming such specialists are even needed anymore. The article Anthropic has"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-18T13:22:26+00:00"
+  },
+  {
+   "title": "Anthropic grants outside AI watchdog employee-like access",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic has given an outside AI watchdog employee-like access to its operations, letting the group publish its findings without Anthropic's prior approval.",
+   "more": "The arrangement lets an external watchdog observe Anthropic's work from the inside, similar to how an employee would, rather than relying only on self-reported disclosures. Crucially, the watchdog can publish what it finds without needing Anthropic's sign-off first, which gives its oversight more independence than typical corporate audits or voluntary safety reports. The report does not specify which watchdog organization is involved or what scope of access it has been granted. It is also unclear how long the arrangement will last or whether other AI labs are considering similar outside-access deals.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Anthropic gives outside AI watchdog “employee-like” access",
+     "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+     "published": "2026-10-18T16:25:19+00:00",
+     "excerpt": "The outside watchdog can publish its findings without Anthropic's approval."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-18T16:25:19+00:00"
+  }
+ ]
+}
