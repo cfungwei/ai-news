@@ -1,0 +1,409 @@
+{
+ "date": "2026-10-19",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "CarryOn proposes object-oriented context for long-horizon AI agents",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduce CarryOn, a context runtime that organizes long-horizon agent memory around reusable task objects instead of replayed interaction histories.",
+   "more": "Today's long-horizon agents typically re-process long interaction histories to recall how they reached their current state, even though that state already captures their progress. CarryOn reframes this by organizing an agent's context around reusable, object-oriented task objects rather than compressed or reconstructed histories. The approach asks whether continuation can be built from structured progress objects instead of replaying how that progress was made. The excerpt does not specify which benchmarks or models were used to test the approach, or how much it reduces context length in practice.",
+   "item_ids": [
+    "hf-papers:2610.18784"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.18784",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",
+     "url": "https://huggingface.co/papers/2610.18784",
+     "published": "2026-10-19T00:00:00+00:00",
+     "excerpt": "Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved. This raises a natural question: can long-horizon context instead be organized around reusable progress rather than the history that produced it? In this paper, we introduce CarryOn, an object-oriented context runtime that organizes continuation around reusable task objects. Rather than treating compressed histories or reconstructed accounts of "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T00:00:00+00:00"
+  },
+  {
+   "title": "Study probes whether GPT-6-Astra has achieved embodied intelligence",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new report evaluates GPT-6-Astra's robotic manipulation and navigation skills across 12 benchmarks, questioning whether one general model can replace task-specific robotics models.",
+   "more": "The paper evaluates GPT-6-Astra's performance on robotic manipulation and navigation, benchmarking it against the conventional approach of building separate specialized models for each task and robot embodiment. The authors ran a large-scale evaluation across 12 benchmarks covering tabletop manipulation, humanoid robots, mobile platforms, and dexterous manipulation. They frame the central question as not just how capable GPT-6-Astra is, but what its capabilities imply for the future of robotics research. The excerpt is cut off before describing the evaluation's results or conclusions.",
+   "item_ids": [
+    "hf-papers:2610.22471"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.22471",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+     "url": "https://huggingface.co/papers/2610.22471",
+     "published": "2026-10-19T00:00:00+00:00",
+     "excerpt": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative benchmarks spanning tabletop manipulation, humanoids, mobile platforms, and dexte"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T00:00:00+00:00"
+  },
+  {
+   "title": "New benchmark tests AI agents on open scientific research problems",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Into the Unknown is a new benchmark that gives AI agents a published paper and an unpublished follow-up research direction, then asks them to write the follow-up paper.",
+   "more": "Into the Unknown is a benchmark for testing whether AI agents can carry out research on open scientific problems. Each task gives an agent a published science paper plus a research direction to pursue, and asks it to write the resulting follow-up paper. The benchmark was built with scientists at US Department of Energy national laboratories, each contributing an unpublished follow-up direction from their own work along with the conditions a valid submission must meet. The excerpt is truncated before describing how submissions are scored or what models were tested.",
+   "item_ids": [
+    "hf-papers:2610.19159"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.19159",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+     "url": "https://huggingface.co/papers/2610.19159",
+     "published": "2026-10-19T00:00:00+00:00",
+     "excerpt": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary conditions a submission must meet. While assessing the quality of a follow-up paper i"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T00:00:00+00:00"
+  },
+  {
+   "title": "HexaShell turns a coding agent into a two-armed robot controller",
+   "tags": [
+    "research",
+    "robotics",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "HexaShell is a thin harness that lets a VLM-based coding agent control a two-armed robot through a single command line, using three calibrated RGB cameras.",
+   "more": "HexaShell explores how far a coding agent, rather than a policy trained specifically for robotics, can go when it controls a robot instead of a computer. The harness is deliberately thin, only translating the agent's commands into robot motion rather than adding robotics-specific scaffolding. The agent drives a two-armed robot through a single command line and perceives its workspace through three calibrated RGB cameras. After a failed attempt, the agent reads the log to diagnose what went wrong, though the excerpt is cut off before explaining how it then adjusts its approach.",
+   "item_ids": [
+    "hf-papers:2610.23479"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.23479",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+     "url": "https://huggingface.co/papers/2610.23479",
+     "published": "2026-10-19T00:00:00+00:00",
+     "excerpt": "Agents built on vision language models (VLMs) now compete with learned policies on robot manipulation leaderboards. We ask how far a coding agent can go when it controls a robot instead of a computer, and where it stops. Our system, HexaShell, keeps the harness thin: it only turns the agent's commands into robot motion. The agent drives a robot with two arms through one command line. It sees three RGB cameras and knows their calibration. After each failed attempt, the agent reads the log, finds "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T00:00:00+00:00"
+  },
+  {
+   "title": "BizBench benchmarks long-horizon AI agents on real business workflows",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "BizBench is a new benchmark that checks whether long-horizon AI agents follow business policies correctly throughout a task, not just whether they reach the final goal.",
+   "more": "BizBench argues that existing long-horizon agent benchmarks focus too heavily on whether a task's final outcome succeeds, without checking whether each intermediate step was valid. It targets real-world business operations, where agents must follow extensive, sometimes outdated or conflicting policies while meeting constraints throughout execution rather than only at the end. The authors highlight high-stakes domains like payments, where a violation partway through a task can cause financial losses or regulatory problems even if the end result looks fine. The excerpt is truncated before describing the benchmark's specific tasks or how models performed on it.",
+   "item_ids": [
+    "hf-papers:2610.20424"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.20424",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+     "url": "https://huggingface.co/papers/2610.20424",
+     "published": "2026-10-19T00:00:00+00:00",
+     "excerpt": "Existing long-horizon agent benchmarks often emphasize final task success while providing limited assessment of intermediate execution validity. Yet real-world business operations require agents to navigate extensive, potentially outdated or conflicting policies while satisfying critical constraints throughout execution. These requirements are particularly consequential in high-stakes domains such as payments, where intermediate violations can incur financial losses or regulatory consequences re"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T00:00:00+00:00"
+  },
+  {
+   "title": "Paper teaches vision-language models to explore 3D space one image at a time",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new study trains vision-language models to actively explore 3D environments using only single first-person images and movement actions, rather than multi-view or 3D inputs.",
+   "more": "The paper studies how vision-language models can learn to think and actively explore 3D space without being given multi-view images, videos, or explicit 3D representations. Instead, it preserves the model's native visual encoding, feeding it one single image at a time, similar to how a human perceives a scene. The 3D environment is treated purely as something the model can act on, through moves like 'move left', and observe through the rendered images that result. Each rollout begins from an initial first-person view, though the excerpt is cut off before describing the training method or results.",
+   "item_ids": [
+    "hf-papers:2610.21783"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.21783",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Learning to Think and Explore in 3D World",
+     "url": "https://huggingface.co/papers/2610.21783",
+     "published": "2026-10-19T00:00:00+00:00",
+     "excerpt": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing multi-view images, videos, or 3D representations to the model, we preserve the native visual encoding of VLMs, i.e., a single image, one at a time, just like humans, and treat the 3D representation only as an environment with which the model can interact through actions (e.g., move left) and observations (rendered images). Each rollout begins from an initial first-person view and "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T00:00:00+00:00"
+  },
+  {
+   "title": "OpenMobile-2 is an open mobile agent trained on 110+ simulated apps",
+   "tags": [
+    "research",
+    "agents",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenMobile-2 is a near-frontier mobile agent released with fully open training environments and recipes, including a simulator spanning over 110 commercial-style apps.",
+   "more": "OpenMobile-2 is presented as a near-frontier mobile agent whose training environments and recipes are fully open. Its first advance is MobileGym++, a simulator with 35 realistic, functionally rich commercial-style apps supporting cross-app workflows, with full controllability for resetting and verifying tasks. Combined with newly configured apps running in Android emulators, this gives a playground spanning more than 110 apps in total. The excerpt is cut off before describing the other key advances the authors mention, which likely cover training data or methods.",
+   "item_ids": [
+    "hf-papers:2610.14157"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.14157",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "OpenMobile-2: Building Versatile Mobile Agents with Scalable Environments and App-Native Tools",
+     "url": "https://huggingface.co/papers/2610.14157",
+     "published": "2026-10-19T00:00:00+00:00",
+     "excerpt": "We introduce OpenMobile-2, a near-frontier mobile agent with fully open training environments and recipes. We make three key advances: (1) Diverse environments with simulated commercial apps: We build MobileGym++, featuring 35 realistic, functionally rich commercial-style apps with cross-app workflows, while preserving full controllability for reset and verification. Together with newly configured apps in Android emulators, this yields a diverse playground spanning over 110 apps. (2) Open traini"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T00:00:00+00:00"
+  },
+  {
+   "title": "Hybrid Reasoning Agents think in latent space, act through text",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper on Hybrid Reasoning Agents proposes LLM agents that reason internally in latent space but still act by producing text, drawing strong Hacker News interest.",
+   "more": "The paper proposes Hybrid Reasoning Agents, a design for LLM agents that perform their reasoning process in latent space rather than in natural language, while still acting on the world through ordinary text outputs. The approach aims to combine the efficiency of latent reasoning with the interpretability and tool-compatibility of text-based actions. The post drew significant attention on Hacker News, with 336 points and 163 comments. The excerpt does not include further detail on the paper's architecture or evaluation results.",
+   "item_ids": [
+    "hn:50145337"
+   ],
+   "items": [
+    {
+     "id": "hn:50145337",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+     "url": "https://arxiv.org/abs/2610.18861",
+     "published": "2026-10-18T20:48:14+00:00",
+     "excerpt": "336 points, 163 comments. Discussion: https://news.ycombinator.com/item?id=50145337"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-18T20:48:14+00:00"
+  },
+  {
+   "title": "llm-tools-datasette 0.1.1 fixes a break from LLM's httpx2 switch",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison released llm-tools-datasette 0.1.1, fixing breakage caused when LLM switched to httpx2 in version 0.33 and broke plugins depending on httpx indirectly.",
+   "more": "Simon Willison released version 0.1.1 of llm-tools-datasette, a plugin for his LLM tool. The fix addresses a regression introduced when LLM switched to httpx2 in LLM 0.33, which broke any plugin that used httpx without declaring it as a direct dependency. llm-tools-datasette was one of the plugins affected, and this release restores it to working order.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/18/llm-tools-datasette/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "llm-tools-datasette 0.1.1",
+     "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+     "published": "2026-10-18T23:43:09+00:00",
+     "excerpt": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-18T23:43:09+00:00"
+  },
+  {
+   "title": "llm-echo 0.5 updates simulated token usage to include tool calls",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison released llm-echo 0.5, updating the debug plugin's simulated token usage counts to account for tool calls, system prompts, and reasoning tokens.",
+   "more": "Simon Willison released llm-echo 0.5 while working toward a new release of his LLM tool, revisiting the debug plugin in the process. llm-echo provides a fake 'model' that performs no actual inference and instead just echoes back the prompts it receives. The new release updates its simulated token usage counts to factor in tool calls, system prompts, and reasoning tokens, rather than only the visible prompt and response text. An example usage shown repeats a prompt back with simulated reasoning token counts included.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/18/llm-echo/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/18/llm-echo/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "llm-echo 0.5",
+     "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+     "published": "2026-10-18T23:16:16+00:00",
+     "excerpt": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the promp"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-18T23:16:16+00:00"
+  },
+  {
+   "title": "HN discussion: why run your own LLM proxy to see what's happening",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A widely discussed blog post argues that developers who don't run their own LLM proxy lack visibility into what their AI tools are actually doing.",
+   "more": "The post argues that without running your own LLM proxy, it's hard to know exactly what prompts, responses, and tool calls are passing between your applications and the model provider. It gathered significant attention on Hacker News, with 108 points and 77 comments at the time of fetching. The excerpt does not include further detail on the proxy approach the author recommends or specific tools involved.",
+   "item_ids": [
+    "hn:50145507"
+   ],
+   "items": [
+    {
+     "id": "hn:50145507",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+     "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+     "published": "2026-10-18T21:09:12+00:00",
+     "excerpt": "108 points, 77 comments. Discussion: https://news.ycombinator.com/item?id=50145507"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-18T21:09:12+00:00"
+  },
+  {
+   "title": "Four big open-weight model drops in 72 hours, led by Meta and NVIDIA",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Reddit roundup covers four major open-weight model releases within 72 hours, including Meta's 816B-parameter Muse Spark Open and a smaller NVIDIA model that fits in 24GB.",
+   "more": "A Reddit post recaps four major open-weight model releases within a 72-hour span. Meta released Muse Spark Open, an 816B total-parameter, 42B-active-parameter model with 1M context, marketed for agentic AI on desktop hardware such as two M5 Ultra Mac Studios with 512GB each, a configuration Apple has said ships 'late October' without a published price; an alternative four-Studio setup is estimated at roughly $38,000. Muse Spark Open ships under a custom license requiring mandatory 'Built with Muse Spark Open' attribution. The post notes that of the four drops, NVIDIA's was the only one that fits within 24GB of memory. The excerpt is cut off before naming the other two releases.",
+   "item_ids": [
+    "localllama:t3_1x9d23j"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x9d23j",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "72 hours, four big open weights drops. The only one that fits in 24GB came from NVIDIA, of all companies.",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/",
+     "published": "2026-10-18T20:10:16+00:00",
+     "excerpt": "What a week. Quick recap, all numbers from the official repos and model cards: Thursday: Meta drops Muse Spark Open. 816B total, 42B active, 1M context. The launch post says it brings agentic AI \"to your desktop\". The desktop is two M5 Ultra Mac Studios with 512GB each, a config Apple says ships \"late October\" and still hasn't put a price on. The alternative is four 256GB Studios, roughly $38k. On top of that it's a custom license: mandatory \"Built with Muse Spark Open\" attribution and a separat"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-18T20:10:16+00:00"
+  },
+  {
+   "title": "Google open-sources Harness2, a self-improving AI agent harness",
+   "tags": [
+    "open-source",
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google open-sourced Harness2, a framework that lets an AI agent refine its own harness—system prompt, tools, memory, and skills—for each new task.",
+   "more": "Google has released Harness2 as open source, a system that turns any AI harness into something that improves itself over time. A harness here covers everything surrounding the underlying model: its system prompt, tools, memory, skills, and subagents, which are normally designed once and then used unchanged for every task. With Harness2, the agent instead proposes changes to its own harness, runs a few candidate versions, and picks the better one by comparing how they perform. The post notes this happens without correct answers or graded supervision, though the excerpt is cut off before fully explaining the comparison method.",
+   "item_ids": [
+    "localllama:t3_1x9gfnb"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x9gfnb",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Google Open Sources Harness2 for Self Improving AI Agents",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9gfnb/google_open_sources_harness2_for_self_improving/",
+     "published": "2026-10-18T22:33:51+00:00",
+     "excerpt": "Google just released Harness2 as open source. It turns any AI harness into a system that improves itself over time. A harness is everything around the model. System prompt, tools, memory, skills, and subagents. Normally a person designs it once and the agent uses that fixed setup for every new task. With Harness2 the agent itself refines the harness for each task. It proposes changes, runs a few candidate versions, and picks a better one by comparing how they perform. No correct answers or grade"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-18T22:33:51+00:00"
+  },
+  {
+   "title": "Anthropic commits 5% of its shares to a new public benefit fund",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic announced it is committing 5% of its company shares to a new public benefit fund, tying part of its equity to public-interest goals.",
+   "more": "Anthropic announced a new public benefit fund and said it will commit 5% of its company shares to it. The announcement was also covered by TechCrunch, which confirmed the 5% share commitment. Neither Anthropic's own post nor the coverage excerpt available here details how the fund will be structured, governed, or what causes it will support.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/public-benefit-fund",
+    "techcrunch-ai:https://techcrunch.com/?p=3178960"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/public-benefit-fund",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Public benefit fund",
+     "url": "https://www.anthropic.com/news/public-benefit-fund",
+     "published": null,
+     "excerpt": ""
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178960",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+     "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+     "published": "2026-10-18T20:37:40+00:00",
+     "excerpt": "Anthropic said that it will commit 5% of its shares to the fund."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-18T20:37:40+00:00"
+  },
+  {
+   "title": "Woman arrested in Philadelphia for blocking a delivery robot",
+   "tags": [
+    "robotics",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Carolyn Marvin was arrested and charged with disorderly conduct in Philadelphia after repeatedly standing in front of an Uber delivery robot to protest it taking delivery jobs.",
+   "more": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot in Philadelphia and refusing to move. She told local news outlet ABC13 that she has been protesting the robots whenever she sees them because she believes they are taking the jobs of human delivery workers. The incident highlights friction between autonomous delivery robots operating on public sidewalks and workers who see them as a threat to their livelihoods. The excerpt does not say what charges, if any, resulted beyond disorderly conduct, or how the case was resolved.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1013541"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1013541",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "A woman was arrested in Philly for blocking a delivery robot",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+     "published": "2026-10-18T18:28:10+00:00",
+     "excerpt": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-18T18:28:10+00:00"
+  }
+ ]
+}
