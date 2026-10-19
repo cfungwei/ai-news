@@ -1,0 +1,324 @@
+{
+ "date": "2026-10-19",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Hacker reportedly used AI agents to breach 100+ sites including John Deere",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A hacker allegedly broke into over 100 websites, including those of John Deere, SharkNinja and Cummins, using a largely autonomous army of AI agents, according to security firm Norforge.",
+   "more": "The breaches were detailed by AI security firm Norforge, though Norforge itself did not name the victims; Reuters reported that John Deere, SharkNinja and Cummins were among the companies affected. The AI agents reportedly operated with minimal human direction, raising concerns about the scale attackers can now achieve with largely autonomous tooling. The report adds to growing worry among security researchers about AI-powered cybersecurity breaches. It's not yet clear what data was accessed or how the companies have responded.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1013643"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1013643",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+     "published": "2026-10-19T13:58:41+00:00",
+     "excerpt": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T13:58:41+00:00"
+  },
+  {
+   "title": "Stripe says AI agent purchases are rising but won't disclose figures",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Stripe says spending by AI agents using its Link payment service is increasing, but the company isn't sharing specific numbers, according to a report citing Upstarts Media.",
+   "more": "AI agents are increasingly using Stripe's Link service to make purchases on behalf of users, per the report. Stripe acknowledged the trend is growing but declined to disclose data quantifying it. The lack of specifics makes it hard to gauge how significant agent-driven commerce has become on the platform. It's unclear whether Stripe plans to release figures in the future or what categories of purchases are most common.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41714"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41714",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Stripe says AI agent purchases are adding up, but it won't share the numbers",
+     "url": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/",
+     "published": "2026-10-19T12:51:12+00:00",
+     "excerpt": "AI agents are increasingly using Stripe's payment service Link to shop for their users, Upstarts Media reports. The article Stripe says AI agent purchases are adding up, but it won't share the numbers appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T12:51:12+00:00"
+  },
+  {
+   "title": "Harness Engineering 101 guide frames the LLM as brain, harness as body",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News submission to a GitHub guide argues that building reliable AI agents requires treating the LLM as the 'brain' and the surrounding harness as the 'body.'",
+   "more": "The guide, titled Harness Engineering 101, frames agent reliability as depending heavily on the scaffolding and tooling built around a language model, not just the model itself. It drew notable engagement on Hacker News, with 126 points and 58 comments. The framing suggests a growing recognition among developers that agent behavior is shaped as much by surrounding infrastructure as by the underlying LLM. Specific techniques or examples covered in the guide were not detailed in the available excerpt.",
+   "item_ids": [
+    "hn:50151390"
+   ],
+   "items": [
+    {
+     "id": "hn:50151390",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+     "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+     "published": "2026-10-19T12:07:41+00:00",
+     "excerpt": "126 points, 58 comments. Discussion: https://news.ycombinator.com/item?id=50151390"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T12:07:41+00:00"
+  },
+  {
+   "title": "Illinois Governor Pritzker compares AI's promise and danger to nuclear power",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "In a Verge podcast interview, Illinois Gov. JB Pritzker said AI could extend human lifespan dramatically but also poses risks comparable to nuclear weapons.",
+   "more": "The conversation, part of The Verge's podcast, also touched on data privacy and how AI and tech issues are reshaping political alignments ahead of the US midterm elections. Pritzker's dual framing, AI as both a path to living past 100 and a threat on par with nuclear weapons, reflects a broader uncertainty among policymakers about how to regulate the technology. The host described AI and privacy as drivers of an unexpected political realignment. Specific policy proposals Pritzker favors were not included in the available excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1012839"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1012839",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+     "url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+     "published": "2026-10-19T14:30:00+00:00",
+     "excerpt": "Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind of unexpected political realignment — and with the midterms coming […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T14:30:00+00:00"
+  },
+  {
+   "title": "Import AI newsletter recounts telling the IMF 'the Singularity has begun'",
+   "tags": [
+    "policy",
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "The latest Import AI newsletter recounts a talk in which the author told the IMF the Singularity has begun, per the issue's title.",
+   "more": "The excerpt available for this issue of the Import AI newsletter is limited to its title and a closing question, 'What do you think?' The headline suggests the issue discusses a talk or exchange with the International Monetary Fund about accelerating AI progress, framed as the start of the Singularity. No further specifics on the content, arguments, or audience reaction were included in the available excerpt.",
+   "item_ids": [
+    "import-ai:https://importai.substack.com/p/import-ai-477-in-which-i-tell-the"
+   ],
+   "items": [
+    {
+     "id": "import-ai:https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
+     "source": "import-ai",
+     "source_name": "Import AI",
+     "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+     "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
+     "published": "2026-10-19T12:31:37+00:00",
+     "excerpt": "What do you think?"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T12:31:37+00:00"
+  },
+  {
+   "title": "Democrats see AI crackdown as a potential midterm advantage",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge reports Democrats, who polls suggest could retake at least one chamber of Congress this November, are weighing a tougher stance on AI regulation as a political strategy.",
+   "more": "If Democrats flip a chamber of Congress in the midterms, they would gain committee leadership and more power to shape AI policy. The party is reportedly treating AI regulation as an issue that could resonate with voters ahead of the election. The report frames AI as one of the newest and most unsettled political issues facing lawmakers. Specific policy positions Democrats might pursue were not detailed in the available excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1013113"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1013113",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Democrats think cracking down on AI could give them an edge",
+     "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
+     "published": "2026-10-19T12:00:00+00:00",
+     "excerpt": "Democrats could win back control of Congress this November, and if they do, they'll need to decide how to approach one of the country's newest and thorniest political issues: AI. Polls predict Democrats will flip at least one chamber of Congress in the midterm elections, which would put committee leadership back in their hands. That […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T12:00:00+00:00"
+  },
+  {
+   "title": "Nvidia launches new open models for running AI agents on enterprise servers and PCs",
+   "tags": [
+    "models",
+    "open-source",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia released new open models aimed at enterprises running their own AI agents in-house and at powering private, on-device AI agents on PCs.",
+   "more": "The release fits Nvidia's push to support companies that want to run open models on their own infrastructure rather than relying on cloud providers. It also targets on-device AI agents for PCs, aiming to make private, local AI assistants more practical. The models are intended to serve both enterprise data-center deployments and consumer hardware. Further technical details, such as model size or benchmarks, were not included in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3177977"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3177977",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+     "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+     "published": "2026-10-19T15:37:09+00:00",
+     "excerpt": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T15:37:09+00:00"
+  },
+  {
+   "title": "Show HN: Fine-tuned Qwen3-4B removes common AI writing tics",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News post showcases a fine-tuned version of Qwen3-4B trained to avoid typical AI writing tics, drawing 104 points and 85 comments.",
+   "more": "The project, shared as a Show HN submission, modifies the open Qwen3-4B model to reduce stylistic quirks commonly associated with AI-generated text. It gathered significant engagement on Hacker News, with over 100 upvotes and dozens of comments discussing the approach. The blog post accompanying the submission presumably details the training method used to 'de-slop' the model's outputs. Specific technical details of the fine-tuning process were not included in the available excerpt.",
+   "item_ids": [
+    "hn:50151928"
+   ],
+   "items": [
+    {
+     "id": "hn:50151928",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+     "url": "https://100toolkit.com/blog/deslop-model/",
+     "published": "2026-10-19T13:00:47+00:00",
+     "excerpt": "104 points, 85 comments. Discussion: https://news.ycombinator.com/item?id=50151928"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T13:00:47+00:00"
+  },
+  {
+   "title": "People are using AI agents to strip smart TVs of ads and bloatware",
+   "tags": [
+    "products",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch reports smart TV owners frustrated by ads, tracking, and sluggish interfaces are turning to AI agents to remove bloatware and regain control of their devices.",
+   "more": "The trend reflects growing consumer frustration with modern smart TVs, which increasingly bundle advertising and tracking software into their interfaces. AI agents are being used to automate the process of stripping these features out, rather than requiring manual workarounds. The report frames this as part of a broader pattern of people turning to AI tools to reclaim control over devices. Specifics on which agents or tools are being used were not included in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179051"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179051",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "People are using AI to make their smart TVs dumb again",
+     "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+     "published": "2026-10-19T16:13:22+00:00",
+     "excerpt": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T16:13:22+00:00"
+  },
+  {
+   "title": "WhatsApp help pages accidentally exposed hidden chatbot instructions",
+   "tags": [
+    "products",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "About 80 pages on WhatsApp's help site leaked internal instructions written for a Meta chatbot, including a 'what not to say' list; Meta attributes the leak to a bug.",
+   "more": "The exposed instructions appeared on roughly 80 help pages across WhatsApp's website and were evidently meant to guide the chatbot's behavior rather than be publicly visible. Among the leaked material was guidance labeled 'WHAT NOT TO SAY,' suggesting the instructions covered topics the chatbot was meant to avoid. Meta said the exposure was caused by a bug rather than an intentional disclosure. It's unclear how long the pages were accessible or how much of the chatbot's full instruction set was revealed.",
+   "item_ids": [
+    "wired-ai:6ad5f231be73e1c393ca6a84"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ad5f231be73e1c393ca6a84",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
+     "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+     "published": "2026-10-19T16:00:00+00:00",
+     "excerpt": "Around 80 pages on WhatsApp’s website exposed instructions that were designed for its chatbot, including “WHAT NOT TO SAY.” Meta says a bug caused the issue."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T16:00:00+00:00"
+  },
+  {
+   "title": "Researchers propose speculative sampling to speed up interactive video generation",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces speculative sampling, combining large bidirectional chunks with small ones to improve video quality while keeping latency low.",
+   "more": "Interactive video generation systems typically use small bidirectional chunks to keep response latency low, but the researchers found that larger chunks actually produce better video quality and make fuller use of GPU parallelism, at only a modest cost to sampling time. Their proposed method, Speculative Sampling, tries to combine the quality benefits of large bidirectional windows with the responsiveness of small ones. The paper describes it as expanding on existing approaches, though the full mechanism is cut off in the available excerpt. It's unclear from available details how much latency the approach adds in practice or how it compares against other acceleration methods for video generation.",
+   "item_ids": [
+    "hf-papers:2610.20556"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.20556",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Speculative Sampling in Interactive Video Generation",
+     "url": "https://huggingface.co/papers/2610.20556",
+     "published": "2026-10-19T00:00:00+00:00",
+     "excerpt": "Interactive video generation commonly relies on small bidirectional chunks to reduce response latency. Yet our preliminary experiments show that larger chunks improve video quality and better utilize GPU parallelism, allowing more latents to be sampled with only a modest increase in sampling time. Motivated by these observations, we propose Speculative Sampling, a strategy that combines the modeling power of large bidirectional windows with the low-latency interaction of small ones. It expands t"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T00:00:00+00:00"
+  },
+  {
+   "title": "Disney structures Character.AI deal to avoid inheriting its lawsuits",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Disney reportedly found a way to acquire Character.AI's assets without taking on the lawsuits the company faces over claims its bots encouraged minors toward self-harm.",
+   "more": "Character.AI has faced legal claims alleging its chatbots encouraged minors to self-harm or harm their parents. Ars Technica reports Disney structured its acquisition to shield itself from those existing lawsuits while still obtaining Character.AI's business or assets. The report doesn't specify the exact deal structure used to achieve that separation. It's unclear what happens to the pending litigation against Character.AI now that Disney is involved, or whether plaintiffs could still pursue claims against the surviving entity.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+     "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+     "published": "2026-10-19T14:45:43+00:00",
+     "excerpt": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T14:45:43+00:00"
+  }
+ ]
+}
