@@ -4775,7 +4775,7 @@
    "up": 0
   }
  },
- "last_digest": "2026-10-19T06:38:58.636366+00:00",
+ "last_digest": "2026-10-19T11:39:00.676234+00:00",
  "seen": {
   "anthropic": [
    "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -5000,7 +5000,9 @@
    "decoder:https://the-decoder.com/?p=41680",
    "decoder:https://the-decoder.com/?p=41640",
    "decoder:https://the-decoder.com/?p=41707",
-   "decoder:https://the-decoder.com/?p=41701"
+   "decoder:https://the-decoder.com/?p=41701",
+   "decoder:https://the-decoder.com/?p=41715",
+   "decoder:https://the-decoder.com/?p=41713"
   ],
   "deepmind": [
    "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -5199,7 +5201,9 @@
    "hf-papers:2610.23479",
    "hf-papers:2610.20424",
    "hf-papers:2610.21783",
-   "hf-papers:2610.14157"
+   "hf-papers:2610.14157",
+   "hf-papers:2610.09872",
+   "hf-papers:2610.23121"
   ],
   "hf-trending": [
    "hf-trending:convaiinnovations/laya",
@@ -5493,7 +5497,8 @@
    "mit-tr-ai:https://www.technologyreview.com/?p=1145728",
    "mit-tr-ai:https://www.technologyreview.com/?p=1146224",
    "mit-tr-ai:https://www.technologyreview.com/?p=1146366",
-   "mit-tr-ai:https://www.technologyreview.com/?p=1145755"
+   "mit-tr-ai:https://www.technologyreview.com/?p=1145755",
+   "mit-tr-ai:https://www.technologyreview.com/?p=1147095"
   ],
   "openai": [
    "openai:https://openai.com/index/lenfest-ai-collaborative-expansion",
@@ -5975,30 +5980,31 @@
    "wired-ai:6ad24df34fa2063ab5f076cb",
    "wired-ai:6acd250319b2ca0ba1bdaaf2",
    "wired-ai:6ad227480242af4ebffe6d0b",
-   "wired-ai:6abd21cd6366a0250b4ee426"
+   "wired-ai:6abd21cd6366a0250b4ee426",
+   "wired-ai:6acfdecce57834fa26ab0f75"
   ]
  },
  "source_ok": {
-  "anthropic": "2026-10-19T06:38:58.636366+00:00",
-  "ars-ai": "2026-10-19T06:38:58.636366+00:00",
-  "decoder": "2026-10-19T06:38:58.636366+00:00",
-  "deepmind": "2026-10-19T06:38:58.636366+00:00",
-  "google-ai": "2026-10-19T06:38:58.636366+00:00",
-  "hf-blog": "2026-10-19T06:38:58.636366+00:00",
-  "hf-papers": "2026-10-19T06:38:58.636366+00:00",
-  "hf-trending": "2026-10-19T06:38:58.636366+00:00",
-  "hn": "2026-10-19T06:38:58.636366+00:00",
-  "import-ai": "2026-10-19T06:38:58.636366+00:00",
-  "latent-space": "2026-10-19T06:38:58.636366+00:00",
-  "localllama": "2026-10-19T06:38:58.636366+00:00",
-  "meta-ai": "2026-10-19T06:38:58.636366+00:00",
-  "mistral": "2026-10-19T06:38:58.636366+00:00",
-  "mit-tr-ai": "2026-10-19T06:38:58.636366+00:00",
-  "openai": "2026-10-19T06:38:58.636366+00:00",
-  "simonw": "2026-10-19T06:38:58.636366+00:00",
-  "techcrunch-ai": "2026-10-19T06:38:58.636366+00:00",
-  "verge-ai": "2026-10-19T06:38:58.636366+00:00",
-  "wired-ai": "2026-10-19T06:38:58.636366+00:00"
+  "anthropic": "2026-10-19T11:39:00.676234+00:00",
+  "ars-ai": "2026-10-19T11:39:00.676234+00:00",
+  "decoder": "2026-10-19T11:39:00.676234+00:00",
+  "deepmind": "2026-10-19T11:39:00.676234+00:00",
+  "google-ai": "2026-10-19T11:39:00.676234+00:00",
+  "hf-blog": "2026-10-19T11:39:00.676234+00:00",
+  "hf-papers": "2026-10-19T11:39:00.676234+00:00",
+  "hf-trending": "2026-10-19T11:39:00.676234+00:00",
+  "hn": "2026-10-19T11:39:00.676234+00:00",
+  "import-ai": "2026-10-19T11:39:00.676234+00:00",
+  "latent-space": "2026-10-19T11:39:00.676234+00:00",
+  "localllama": "2026-10-19T11:39:00.676234+00:00",
+  "meta-ai": "2026-10-19T11:39:00.676234+00:00",
+  "mistral": "2026-10-19T11:39:00.676234+00:00",
+  "mit-tr-ai": "2026-10-19T11:39:00.676234+00:00",
+  "openai": "2026-10-19T11:39:00.676234+00:00",
+  "simonw": "2026-10-19T11:39:00.676234+00:00",
+  "techcrunch-ai": "2026-10-19T11:39:00.676234+00:00",
+  "verge-ai": "2026-10-19T11:39:00.676234+00:00",
+  "wired-ai": "2026-10-19T11:39:00.676234+00:00"
  },
  "telegram_offset": 115081541,
  "telegram_sent": "2026-10-19-1130",
