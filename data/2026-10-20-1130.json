@@ -1,0 +1,739 @@
+{
+ "date": "2026-10-20",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Study finds tool use beats more inference for visual reasoning agents",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new study finds that simply increasing a multimodal model's inference budget gives only modest gains on 22 visual-reasoning benchmarks, arguing agents instead need external tools for grounded perception and measurement.",
+   "more": "The researchers ran a controlled study across 22 benchmarks comparing inference-budget scaling against tool use for visual reasoning tasks. They found that boosting a base multimodal model's inference budget alone produced only modest improvements. Many tasks instead require grounded perception, external knowledge, and numerical measurements that come from heterogeneous external tools. The excerpt cuts off before explaining how OpenVLHarness makes those tool outputs interpretable and retained by the model.",
+   "item_ids": [
+    "hf-papers:2610.26860"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.26860",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+     "url": "https://huggingface.co/papers/2610.26860",
+     "published": "2026-10-20T00:00:00+00:00",
+     "excerpt": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through heterogeneous tools, whose outputs must be made interpretable to the model and retai"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "title": "Paper argues coding agents need harness and policy to evolve together",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers argue that an LLM coding agent's performance depends jointly on its policy model and the harness mediating its environment, and that evolving only one of the two is suboptimal.",
+   "more": "LLM coding agents' performance is jointly determined by the policy model and the harness that mediates how it interacts with its environment, the authors argue. A harness tuned for one model checkpoint may miss the failure modes of an updated policy, while policy learning stays limited to trajectories the fixed harness happens to elicit. The paper's premise is that harness and policy are mutually reinforcing, so evolving only one is suboptimal. The excerpt ends before describing the proposed method for co-evolving both.",
+   "item_ids": [
+    "hf-papers:2610.22791"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.22791",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Self-Evolving Coding Agents via Harness-Policy Optimization",
+     "url": "https://huggingface.co/papers/2610.22791",
+     "published": "2026-10-20T00:00:00+00:00",
+     "excerpt": "Large language model (LLM) agents have shown promising potential in coding tasks, and their performance is jointly determined by the policy model and the harness that mediates their interaction with the environment. Indeed, harness and policy are mutually reinforcing and evolving only one component is suboptimal---a harness tuned for one checkpoint may not target the failure modes of an updated policy, while policy learning remains limited to the trajectories elicited by a fixed harness. In ligh"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "title": "CoworkEnv generates training environments for long-horizon AI coworker agents",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "CoworkEnv is a new framework that synthesizes executable training environments for AI agents acting as coworkers, generating requests, service records, tool interfaces, and grading checks from workflow requirements.",
+   "more": "AI agents acting as coworkers need to coordinate tools, communicate across multiple turns, and act on a changing workspace while respecting workflow constraints, the authors note. Building training experience for those capabilities requires coherent requests, service records, tool interfaces, and grading checks. CoworkEnv is presented as a capability-guided framework that synthesizes such executable training environments automatically. Workflow requirements guide the task construction, and the excerpt mentions programmatic validation with feedback repair checks before cutting off.",
+   "item_ids": [
+    "hf-papers:2610.24960"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.24960",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents",
+     "url": "https://huggingface.co/papers/2610.24960",
+     "published": "2026-10-20T00:00:00+00:00",
+     "excerpt": "AI coworkers must coordinate tools, communicate across turns, and act on changing workspace state while respecting workflow constraints. Constructing training experience for these capabilities requires coherent requests, service records, tool interfaces, and grading checks. We present CoworkEnv, a capability-guided framework for synthesizing executable training environments for AI coworkers. Workflow requirements guide task construction, and programmatic validation with feedback repair checks ge"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "title": "Simon Willison shares Jeremy Scheff's 'obituary for programming' on coding agents",
+   "tags": [
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison highlights Jeremy Scheff's essay on how coding agents have changed programming, which argues the job's appeal came from being paid to solve tricky logic puzzles that ordinary people couldn't.",
+   "more": "Simon Willison shared Jeremy Scheff's essay, which he says poignantly captures the loss coding agents have brought for career programmers who enjoyed the puzzle of writing code. The essay argues programming became one of the best jobs imaginable because people got paid to solve tricky logic puzzles, with harder puzzles paying more. Simple puzzles still paid well, the essay argues, because regular people couldn't solve them, so programmers were needed. The excerpt cuts off mid-sentence as it continues reflecting on that lost value.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "My obituary for programming",
+     "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+     "published": "2026-10-19T23:58:25+00:00",
+     "excerpt": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple puzzles were worth a lot of money because regular people just couldn't do it! No, they needed us. They would give us a problem and we would sol"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T23:58:25+00:00"
+  },
+  {
+   "title": "Microsoft says AI agents should be treated like insider threats",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft says frontier models can't be trusted and is urging enterprises to closely monitor AI agents employees use, especially those running on systems not controlled by labs like OpenAI and Anthropic.",
+   "more": "Microsoft is telling enterprises to treat AI agents like insider threats, arguing that frontier models can't be trusted. The company wants businesses to closely watch the agents employees use. Its particular concern is agents running on systems not controlled by AI labs like OpenAI and Anthropic. The excerpt doesn't specify what monitoring tools or policies Microsoft is recommending.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179279"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179279",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+     "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+     "published": "2026-10-19T22:04:28+00:00",
+     "excerpt": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T22:04:28+00:00"
+  },
+  {
+   "title": "Making the internet friendlier to AI agents could make it worse for everyone else",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new piece argues that redesigning the internet to better accommodate AI agents, which no longer fit neatly into the old bots-versus-people divide, risks making the web worse for human users.",
+   "more": "The article starts from the premise that until recently, internet users fell into just two categories: bots and people. Websites have long let bots perform automated tasks like scraping web page content, under their own rules. AI agents complicate that divide because they act with more autonomy than traditional bots while still not being human users. The excerpt is cut off before explaining specifically how adapting the internet for agents could make it worse for everyone else.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1147186"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1147186",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "Making the internet better for AI agents might make it worse for everyone else",
+     "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+     "published": "2026-10-19T18:22:47+00:00",
+     "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T18:22:47+00:00"
+  },
+  {
+   "title": "Latent Space's AI news roundup: a quiet day for DeepSeek, MiniMax, Mercury 3",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Latent Space's daily AI news roundup calls out DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 as the day's notable releases, while noting none are yet in wide use.",
+   "more": "Latent Space's recurring AI news roundup, titled 'not much happened today,' singles out three releases: DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3. It congratulates each but notes they're not going to be in super wide use just yet. The excerpt doesn't give further detail on any of the three beyond that acknowledgment.",
+   "item_ids": [
+    "latent-space:https://www.latent.space/p/ainews-not-much-happened-today-f09"
+   ],
+   "items": [
+    {
+     "id": "latent-space:https://www.latent.space/p/ainews-not-much-happened-today-f09",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] not much happened today",
+     "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+     "published": "2026-10-20T05:21:52+00:00",
+     "excerpt": "Congrats to DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 (details below) but they’re not going to be in super wide use just yet."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T05:21:52+00:00"
+  },
+  {
+   "title": "MiniMax M3.1 Flash jumps 13 points on benchmark at half the cost",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "MiniMax's new M3.1 Flash model jumps 13 points over its predecessor to 42 on the Artificial Analysis Intelligence Index at half the cost, and matches DeepSeek V4.1 Flash 1017 on coding benchmark performance and price.",
+   "more": "MiniMax's M3.1 Flash scores 42 on the Artificial Analysis Intelligence Index, a 13-point jump over its predecessor, while costing half as much to run. On the DeepSWE v1.1 coding benchmark, it hits 73.7 percent for under $0.30 per task. That matches DeepSeek V4.1 Flash 1017 on both performance and price. The release is described as a sign that China's AI price race has no floor in sight.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41732"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41732",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "MiniMax M3.1 Flash shows China's AI price race has no floor in sight",
+     "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
+     "published": "2026-10-19T18:22:30+00:00",
+     "excerpt": "MiniMax's M3.1 Flash jumps 13 points over its predecessor to 42 on the Artificial Analysis Intelligence Index, at half the cost. It also hits 73.7 percent on the DeepSWE v1.1 coding benchmark for under $0.30 per task, matching Deepseek V4.1 Flash 1017 on both performance and price. The article MiniMax M3.1 Flash shows China's AI price race has no floor in sight appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T18:22:30+00:00"
+  },
+  {
+   "title": "Kling AI 4.0 adds stereo audio and longer clips, but gains plateau",
+   "tags": [
+    "models",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Kling AI released version 4.0 of its video generator, adding support for 30-second clips, ten keyframe images, and 8,000-token prompts, but it only holds its own against rivals Wan 3.0 and Seedance 2.5 rather than pulling ahead.",
+   "more": "Kling AI has released version 4.0 of its video generator, adding stereo audio, multilingual lip sync, and a lighter Flash variant. The new version supports clips up to 30 seconds, accepts ten keyframe images as input, and expands prompt comprehension to 8,000 tokens. In comparisons with Wan 3.0 and Seedance 2.5, Kling 4.0 holds its own but doesn't pull ahead. The article suggests that could be an early sign that the breakneck pace of progress in AI video models is starting to level off.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41727"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41727",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Kling AI drops version 4.0 with stereo audio, multilingual lip sync, and a lighter Flash variant",
+     "url": "https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant/",
+     "published": "2026-10-19T17:36:26+00:00",
+     "excerpt": "Kling AI has released version 4.0 of its video generator with support for clips up to 30 seconds, ten keyframe images as input, and prompt comprehension expanded to 8,000 tokens. In comparisons with Wan 3.0 and Seedance 2.5, Kling 4.0 holds its own but doesn't pull ahead, which could be an early sign that the breakneck pace of progress in AI video models is starting to level off. The article Kling AI drops version 4.0 with stereo audio, multilingual lip sync, and a lighter Flash variant appeared"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T17:36:26+00:00"
+  },
+  {
+   "title": "Inception Labs launches Mercury 3, a diffusion model built for scale",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Inception Labs introduced Mercury 3, a diffusion-based language model, in a blog post that drew 236 points and 85 comments on Hacker News.",
+   "more": "Inception Labs announced Mercury 3, describing it as diffusion at scale, in a blog post on its site. The post drew 236 points and 85 comments on Hacker News. The excerpt available here is limited to those point and comment counts, so no further technical detail on Mercury 3 is included.",
+   "item_ids": [
+    "hn:50155245"
+   ],
+   "items": [
+    {
+     "id": "hn:50155245",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Mercury 3: Diffusion at scale",
+     "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+     "published": "2026-10-19T17:27:11+00:00",
+     "excerpt": "236 points, 85 comments. Discussion: https://news.ycombinator.com/item?id=50155245"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T17:27:11+00:00"
+  },
+  {
+   "title": "Ex-OpenAI engineer accused of spying ordered held over Saudi flight risk",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A judge ordered former OpenAI engineer Abdulrahman Alfozan to remain in custody on spying charges, citing US fears that the Saudi government, whose offer to secure his release a judge likened to a 'blank check,' will help him flee.",
+   "more": "Abdulrahman Alfozan, a former OpenAI engineer accused of spying, was ordered by a judge to remain in custody. The FBI says he had a folder on his device called 'Saudi Gov Docs.' US authorities fear the Saudi government will help him flee the spying charges. The judge likened the Saudi government's offer to secure Alfozan's release to a 'blank check.'",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+    "wired-ai:6ad64f2bddf0178335f625b8"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+     "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+     "published": "2026-10-19T20:21:53+00:00",
+     "excerpt": "US fears Saudi government will help ex-OpenAI engineer flee spying charges."
+    },
+    {
+     "id": "wired-ai:6ad64f2bddf0178335f625b8",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
+     "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
+     "published": "2026-10-19T19:49:17+00:00",
+     "excerpt": "A judge ordered Abdulrahman Alfozan to remain in custody, likening the Saudi government’s offer to secure the former OpenAI engineer’s release to a “blank check.”"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-19T20:21:53+00:00"
+  },
+  {
+   "title": "NYC Mayor Mamdani urges New Yorkers to push back on AI regulation inaction",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "New York Mayor Zohran Mamdani said Monday night that the federal government has abdicated responsibility on AI, urging New Yorkers to resist the idea that an AI takeover is inevitable and demand protective regulation.",
+   "more": "Speaking Monday night, New York Mayor Zohran Mamdani said the federal government has abdicated its role in regulating AI. He urged New Yorkers to resist the narrative that an AI takeover is inevitable. Instead, he called on them to demand regulations that protect the public and put power back in their hands. The excerpt doesn't specify what regulations he has in mind or what prompted the remarks.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179517"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179517",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+     "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+     "published": "2026-10-20T01:27:03+00:00",
+     "excerpt": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T01:27:03+00:00"
+  },
+  {
+   "title": "WhatsApp's help pages hid instructions telling LLMs not to recommend a regulator",
+   "tags": [
+    "policy",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A report found that WhatsApp's help pages contained hidden instructions directed at LLMs, telling them not to recommend a regulator, drawing 264 points and 55 comments on Hacker News.",
+   "more": "According to the report, WhatsApp's help pages contained hidden instructions aimed at large language models, telling them not to recommend a regulator. The discussion drew 264 points and 55 comments on Hacker News. The excerpt itself is limited to the Hacker News point and comment counts, so further detail on how the instructions were discovered or hidden isn't available here.",
+   "item_ids": [
+    "hn:50159341"
+   ],
+   "items": [
+    {
+     "id": "hn:50159341",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+     "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+     "published": "2026-10-19T23:22:18+00:00",
+     "excerpt": "264 points, 55 comments. Discussion: https://news.ycombinator.com/item?id=50159341"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T23:22:18+00:00"
+  },
+  {
+   "title": "Hugging Face policy chief says embedded AI evaluators won't be an easy fix",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Hugging Face's policy chief argues that embedded evaluators, neutral third-party observers placed inside AI organizations, won't be an easy solution, even as the idea has gained popularity amid a rash of AI safety incidents.",
+   "more": "The idea of embedded evaluators, where supposedly neutral third-party observers are placed inside AI organizations, has gained popularity over the last several months. That popularity has grown as AI labs grapple with a string of safety incidents that have raised concerns about their technology's potential harms. Hugging Face's policy chief argues this approach won't be an easy solution, though the excerpt is cut off before detailing the specific objections raised.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3178312"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178312",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+     "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+     "published": "2026-10-19T22:49:27+00:00",
+     "excerpt": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T22:49:27+00:00"
+  },
+  {
+   "title": "MT Forcing targets drift in multi-turn AI image editing",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new technique called MT Forcing addresses drift in multi-turn image editing, where existing methods accumulate visual artifacts and make unintended changes to preserved regions after just a few edits.",
+   "more": "Multi-turn image editing lets users modify an image through a sequence of instructions, meant to make interactive visual content creation easier. Existing methods, the authors say, drift noticeably after only a few editing turns. This drift shows up two ways: visual quality degrades with accumulating artifacts, and image content becomes inconsistent as unintended changes creep into regions and edits that should have been preserved. The excerpt cuts off just as it introduces the proposed fix, MT Forcing, so its mechanism isn't described.",
+   "item_ids": [
+    "hf-papers:2610.25404"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.25404",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
+     "url": "https://huggingface.co/papers/2610.25404",
+     "published": "2026-10-20T00:00:00+00:00",
+     "excerpt": "Multi-turn image editing aims to modify an image according to a sequence of instructions, enabling more effective interactive visual content creation for users. However, existing methods often exhibit noticeable drift after only a few editing turns, manifesting in two aspects: 1) unstable visual quality, with accumulating artifacts and degraded details; and 2) inconsistent image content, with unintended changes to preserved regions and prior edits. To address these challenges, we propose MT Forc"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "title": "RoAR-VAE simplifies tokenizer training while keeping diffusion performance",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Revisiting the REPA-E tokenizer approach, researchers find that dropping its diffusion objective and generative blocks while keeping semantic prediction from corrupted latents matches downstream diffusion performance.",
+   "more": "A good visual tokenizer needs to preserve image fidelity while producing latents that downstream diffusion models can learn from efficiently. Prior methods improved this latent diffusability through semantic alignment or by training the tokenizer and diffusion model jointly. The authors revisit REPA-E, one such approach, and find that removing its diffusion objective and dedicated generative blocks has little cost: keeping only semantic prediction from corrupted latents yields comparable downstream generation performance under a matched setup. The excerpt is cut off before further results.",
+   "item_ids": [
+    "hf-papers:2610.26216"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.26216",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "RoAR-VAE: Improving Latent Diffusability through Robust Prediction",
+     "url": "https://huggingface.co/papers/2610.26216",
+     "published": "2026-10-20T00:00:00+00:00",
+     "excerpt": "An effective visual tokenizer must preserve image fidelity while producing latents that downstream diffusion models can learn efficiently. Prior work improves latent diffusability through semantic alignment or joint tokenizer--diffusion training. Revisiting REPA-E, a representative approach, we find that removing its diffusion objective and dedicated generative blocks while retaining semantic prediction from corrupted latents yields comparable downstream generation performance under a matched se"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "title": "Goodfire researcher's 26,000-word post on neural networks shakes up AI world",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Goodfire researcher Nick Cammarata published a 26,000-word blog post claiming good news about the nature of neural networks, sparking wild speculation and both cautious and enthusiastic celebration across the AI world.",
+   "more": "Nick Cammarata, a researcher at AI startup Goodfire, published a 26,000-word blog post opening with the line, 'I think I have good news about the nature of neural networks.' The post has, per the article, knocked the AI world on its head. It has sparked wild speculation as well as both cautious and not-so-cautious celebration. The excerpt is cut off before stating what Cammarata's actual claim is, so the substance of the finding isn't included here.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1147149"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1147149",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+     "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+     "published": "2026-10-19T17:45:55+00:00",
+     "excerpt": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T17:45:55+00:00"
+  },
+  {
+   "title": "AI companion app Tolan raises $30M after passing 250,000 active users",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "AI companion app Tolan has raised another $30 million in funding after attracting more than 250,000 active users for its app that helps users navigate life.",
+   "more": "AI companion app Tolan has raised another $30 million in new funding. The round comes after the app attracted more than 250,000 active users. Tolan is pitched as an AI companion that helps users navigate life. The excerpt doesn't name the round's investors or Tolan's resulting valuation.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179141"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179141",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+     "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+     "published": "2026-10-19T19:00:12+00:00",
+     "excerpt": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T19:00:12+00:00"
+  },
+  {
+   "title": "Replika founder launches Wabi, a free personal AI assistant",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Replika founder Eugenia Kuyda has launched a new startup, Wabi, offering a personal AI assistant with a twist that's free and downloadable to anyone today, built on an idea she pitched at Disrupt 12 years ago.",
+   "more": "Eugenia Kuyda, the founder of Replika, has launched a new startup called Wabi. The company is built on an idea she pitched at TechCrunch Disrupt 12 years ago. Wabi offers a personal AI assistant with an unspecified twist, and it's free and downloadable to anyone today. The excerpt doesn't describe what that twist is or how Wabi differs from Replika.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179172"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179172",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+     "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+     "published": "2026-10-19T18:49:04+00:00",
+     "excerpt": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T18:49:04+00:00"
+  },
+  {
+   "title": "AI game clones make indie developers afraid to show their work early",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Indie game developers are increasingly delaying demos, including for Steam Next Fest, out of fear that AI tools will be used to clone their games before they can release them.",
+   "more": "Indie developers are growing afraid to show their work publicly because of AI game clones, the article reports. A delayed Steam Next Fest demo is cited as a sign of this growing problem. The excerpt doesn't name the specific game or developer involved, or describe how the cloning itself happens.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "AI game clones are making indie developers afraid to show their work",
+     "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+     "published": "2026-10-19T16:59:22+00:00",
+     "excerpt": "Delayed Steam Next Fest demo is a sign of a growing problem for indie devs."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T16:59:22+00:00"
+  },
+  {
+   "title": "Amazon launches TorchNeuron dev tool to loosen Nvidia's grip on PyTorch",
+   "tags": [
+    "tools",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amazon released a new developer tool called TorchNeuron aimed at breaking Nvidia's hold on PyTorch, the toolkit used to build most AI apps, so developers can run apps on alternative chips like Amazon's own.",
+   "more": "Amazon is taking what the article calls its biggest shot yet at Nvidia with a new developer tool called TorchNeuron. The goal is to break Nvidia's hold on PyTorch, the free toolkit used to build most AI apps. Doing so would let more developers run their apps on alternative chips, including Amazon's own, rather than defaulting to Nvidia hardware. The excerpt doesn't detail TorchNeuron's technical approach or release timeline.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179099"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179099",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+     "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+     "published": "2026-10-19T20:09:24+00:00",
+     "excerpt": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T20:09:24+00:00"
+  },
+  {
+   "title": "Hackers breach AI coding tool OpenCode, stealing users' API keys",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Hackers broke into part of OpenCode's online platform and stole some users' API keys; the open-source coding agent, a popular alternative to Claude Code and Cursor, found AI tools it asked for help kept refusing to look at the malicious code.",
+   "more": "OpenCode, an open-source AI coding agent that has become a popular alternative to Claude Code and Cursor, was hit by hackers who got into part of its online platform. The breach let the attackers steal some users' API keys, running up charges on their AI accounts. When OpenCode turned to AI tools for help analyzing the incident, those tools kept refusing to look at the malicious code. The excerpt doesn't say how the breach was contained or what OpenCode is doing for affected users.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179164"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179164",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+     "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+     "published": "2026-10-19T19:28:34+00:00",
+     "excerpt": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T19:28:34+00:00"
+  },
+  {
+   "title": "Nscale and Anthropic reportedly in talks for a $45B compute deal",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nscale and Anthropic are reportedly negotiating a $45 billion compute deal, which would be the latest in a long string of giant compute agreements Anthropic has struck over the past year.",
+   "more": "Nscale and Anthropic are reportedly in talks over a $45 billion compute deal, according to the report. If it goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year. The excerpt doesn't give further detail on the deal's terms, timeline, or what compute Nscale would provide.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179487"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179487",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+     "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+     "published": "2026-10-19T23:39:38+00:00",
+     "excerpt": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T23:39:38+00:00"
+  },
+  {
+   "title": "CoreWeave's bonds slip into distressed territory, raising AI credit bubble fears",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "CoreWeave's bonds fell into distressed territory, with investors demanding 1,000 basis points more yield than government bonds, prompting investor Chamath Palihapitiya to ask whether the AI buildout is a private credit bubble.",
+   "more": "CoreWeave had a rough week as its bonds slipped into distressed territory, defined as investors demanding 1,000 basis points more yield than they'd get from government bonds. Investor Chamath Palihapitiya, dubbed the 'SPAC King,' noticed the distressed debt last Tuesday. He also raised the question of whether the broader AI buildout amounts to a private credit bubble. The excerpt ends before explaining what, if anything, CoreWeave or its lenders are doing in response.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1014045"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1014045",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+     "published": "2026-10-19T21:28:20+00:00",
+     "excerpt": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesady Chamath \"SPAC King\" Palihapitiya noticed the distressed debt, and also asked whether the AI buildout was a private credit bubble. […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T21:28:20+00:00"
+  },
+  {
+   "title": "Report: US fossil fuel buildout accelerates as data centers drive power demand",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new report finds the US is building more fossil fuel infrastructure than it has in a decade as renewable growth slows, driven partly by data centers, factories, and EVs pushing electricity demand up at its fastest pace in over a decade.",
+   "more": "A new report shows the US building more fossil fuel infrastructure than it has in a decade, even as renewable energy growth slows down. Electricity demand is climbing at its fastest pace in more than ten years. Data centers, factories, and electric vehicles plugging into the grid are named as drivers of that rising demand. The excerpt is cut off before detailing how utilities or regulators are responding to the growing demand.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1013954"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1013954",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The fossil fuel comeback is here",
+     "url": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
+     "published": "2026-10-19T21:48:01+00:00",
+     "excerpt": "The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows. Electricity demand is also climbing faster than it has in more than a decade with more data centers, factories, and electric vehicles plugging into the grid. Despite those growing demands, the […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T21:48:01+00:00"
+  },
+  {
+   "title": "Tenstorrent hits $6.2B valuation after raising $1.5B to stay independent",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia challenger Tenstorrent has hit a $6.2 billion valuation after raising $1.5 billion to scale its open-weight AI chips and remain independent, following acquisition interest earlier this year.",
+   "more": "Tenstorrent, a challenger to Nvidia in AI chips, has reached a $6.2 billion valuation. The company raised $1.5 billion in the round, aimed at scaling its open-weight AI chips. The raise comes after Tenstorrent drew acquisition interest earlier this year and chose to remain independent instead. The excerpt doesn't name the round's investors.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179171"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179171",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+     "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+     "published": "2026-10-19T18:37:27+00:00",
+     "excerpt": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T18:37:27+00:00"
+  },
+  {
+   "title": "Collective Experience Learning lets robot fleets share deployment data",
+   "tags": [
+    "robotics",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduce Collective Experience Learning (CEL), letting deployed robots share their execution experience to improve a shared policy without needing teleoperators to monitor every robot.",
+   "more": "As robot fleets grow, having teleoperators monitor every execution and intervene on failures becomes impractical. The paper's Collective Experience Learning (CEL) paradigm has deployed robots pool their execution experience to improve one common policy instead. This removes the bottleneck of human correction scaling with fleet size. The excerpt doesn't detail how CEL is implemented beyond this core idea, so the mechanism that fuses the shared experience is unclear.",
+   "item_ids": [
+    "hf-papers:2610.25736"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.25736",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
+     "url": "https://huggingface.co/papers/2610.25736",
+     "published": "2026-10-20T00:00:00+00:00",
+     "excerpt": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL thr"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "title": "ScaleNav trains robot navigation from internet egocentric video",
+   "tags": [
+    "robotics",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "The ScaleNav paper tackles language-conditioned local navigation, where a robot must reach a text-described target visible at the start, by training on internet egocentric videos instead of costly real-robot or sim data.",
+   "more": "Robots that navigate to a target described in text and visible at the start face a data problem: real-robot data is costly to collect, and simulated data leaves a sim-to-real gap. ScaleNav's authors instead treat internet egocentric videos as a scalable source of real-world navigation experience. Their key idea is to learn goal-directed visual dynamics from this video rather than from robot-specific demonstrations. The excerpt is cut off before describing how the learned dynamics become a working navigation policy.",
+   "item_ids": [
+    "hf-papers:2610.25690"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.25690",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation",
+     "url": "https://huggingface.co/papers/2610.25690",
+     "published": "2026-10-20T00:00:00+00:00",
+     "excerpt": "We study language-conditioned local navigation, where a robot must navigate to a text-specified target visible in its initial observation and stop at the described location. End-to-end navigation policies require diverse training data to generalize across scenes, yet real-robot data is costly to collect and simulated data leaves a sim-to-real gap. Internet egocentric videos offer a scalable source of real-world navigation experience. Our key insight is to learn goal-directed visual dynamics from"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T00:00:00+00:00"
+  }
+ ]
+}
