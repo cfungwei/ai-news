@@ -1,0 +1,374 @@
+{
+ "date": "2026-10-20",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "MemT-1.0 proposes memory-native foundation models",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces MemT-1.0, a foundation model architecture that makes memory an intrinsic, continuously updated part of model computation rather than an external add-on.",
+   "more": "MemT-1.0 builds on an architecture called Metis and uses a mechanism the authors call Gated DeltaNet-2 to update memory at the token level within each turn, rather than storing it as a separate module. The paper also introduces a 'Mixture-of-Storage' approach meant to scale how much memory the model can natively hold. The excerpt does not give benchmark results, parameter counts, or a release date for code or weights.",
+   "item_ids": [
+    "hf-papers:2610.26825"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.26825",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "MemT-1.0: Towards Memory-Native Evolution",
+     "url": "https://huggingface.co/papers/2610.26825",
+     "published": "2026-10-20T00:00:00+00:00",
+     "excerpt": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "title": "Parameter-efficient fine-tuning improves brain-encoding models",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A paper shows that parameter-efficient fine-tuning (PEFT) can adapt large pretrained backbones to predict neural responses to stimuli, using far fewer trainable parameters than full fine-tuning.",
+   "more": "Brain encoding models predict how the brain responds to a given stimulus, and the standard approach freezes a pretrained backbone and trains only a readout layer on top of it. The authors argue that training such backbones from scratch, or fully fine-tuning them, is impractical because neural datasets are small and costly to collect. They show PEFT closes that gap, adapting very large pretrained models with only a small number of trainable parameters. The excerpt is cut off before describing exactly which backbones or datasets were tested.",
+   "item_ids": [
+    "hf-papers:2610.26802"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.26802",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+     "url": "https://huggingface.co/papers/2610.26802",
+     "published": "2026-10-20T00:00:00+00:00",
+     "excerpt": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained backbones for brain encoding with a small number of trainable parameters. To make it c"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "title": "EgoXperience models world-grounded egocentric video understanding",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "EgoXperience is a new paradigm for reconstructing human activity from egocentric video that jointly models the camera wearer's motion, the surrounding 3D geometry, and hand-object interactions together.",
+   "more": "The paper argues that existing methods and datasets only weakly support reconstructing egocentric video because they treat motion, scene geometry, and hand-object interaction as separate problems with inconsistent supervision. EgoXperience instead proposes a full-stack approach spanning data collection, automatic annotation, and unified modeling so these elements stay consistent within one reconstructed 3D world. The excerpt is truncated before describing the resulting dataset's size or any quantitative results.",
+   "item_ids": [
+    "hf-papers:2610.26625"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.26625",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+     "url": "https://huggingface.co/papers/2610.26625",
+     "published": "2026-10-20T00:00:00+00:00",
+     "excerpt": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience, a full-stack paradigm that addresses these needs through data collection, automatic annotation, uni"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "title": "Holi-World aims to build world intelligence from ego video",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Holi-World is a proposed ecosystem for turning large volumes of egocentric recordings into training data that links scene structure, object semantics, and interaction history, while reducing manual annotation.",
+   "more": "The paper frames human egocentric experience as a resource for teaching models how the world is organized and how it changes through interaction, but says realizing that at scale requires an integrated pipeline rather than one-off datasets. HOLI-WORLD connects experience capture, world representation, and automatic annotation into that pipeline. The excerpt does not specify the current scale of the collected dataset or give results from training a model on it.",
+   "item_ids": [
+    "hf-papers:2610.26549"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.26549",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+     "url": "https://huggingface.co/papers/2610.26549",
+     "published": "2026-10-20T00:00:00+00:00",
+     "excerpt": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We introduce HOLI-WORLD, an integrated ecosystem connecting experience capture, world representation, aut"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T00:00:00+00:00"
+  },
+  {
+   "title": "Qwen3.8-Flash-Next-GSQ-RCO-Coder GGUF quantization updated",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "ISTA-DASLab released an updated GGUF quantization of Qwen3.8-Flash-Next-GSQ-RCO-Coder, changing about a quarter of which experts are retained while leaving the retained weights themselves unmodified.",
+   "more": "The update changes roughly 25% of which experts are kept relative to the previous release, but the weights of the experts that remain selected were not altered. With a limited expert budget, the maintainers say they prioritized preserving the model's English-language capability, so multilingual capability was not preserved in this version. The model remains English-only as a result. The post gives no benchmark numbers showing how this tradeoff affects output quality.",
+   "item_ids": [
+    "localllama:t3_1x9yvgw"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x9yvgw",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF updated",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yvgw/istadaslabqwen38flashnextgsqrcocodergguf_updated/",
+     "published": "2026-10-19T14:47:14+00:00",
+     "excerpt": "Look out for the updated version! What changed This update changes which experts are retained . No retained weights were modified relative to the base IQ3_S model. About 25% of the retained expert selection differs from the previous release. The model remains English-only . With a limited expert budget, we prioritized preserving English capabilities so unfortunately, multilingual capabilities were not preserved. submitted by /u/Murky-Routine-4255 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T14:47:14+00:00"
+  },
+  {
+   "title": "MiniMax M3.1 Flash announced, weights due October 23",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "MiniMax announced its M3.1 Flash model, with model weights scheduled to be released on October 23.",
+   "more": "The announcement comes from a r/LocalLLaMA post with no further detail available in the excerpt about the model's size, architecture, or benchmark performance. The post's title is the main source of information here, so specifics like context length, intended use case, or licensing terms are not yet known from what's been fetched.",
+   "item_ids": [
+    "localllama:t3_1x9uzv9"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1x9uzv9",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "MiniMax M3.1 Flash released, Model weights Oct 23",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9uzv9/minimax_m31_flash_released_model_weights_oct_23/",
+     "published": "2026-10-19T12:01:44+00:00",
+     "excerpt": "submitted by /u/MagicZhang [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T12:01:44+00:00"
+  },
+  {
+   "title": "OpenMOSS releases MOSS-Image-SFT, an open text-to-image model",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenMOSS-Team published MOSS-Image-SFT, a text-to-image model fine-tuned from their MOSS-Image-Base model, releasing it under the Apache 2.0 license on Hugging Face.",
+   "more": "The model is trending on Hugging Face, with 467 likes and over 4,500 downloads at time of writing. It is built on the diffusers library, ships as a MOSSImagePipeline, and supports both English and Chinese. Tags on the model page link it to an associated arXiv paper (2610.23374) and to the base model it was fine-tuned from, OpenMOSS-Team/MOSS-Image-Base. No sample outputs or benchmark comparisons are included in the listing itself.",
+   "item_ids": [
+    "hf-trending:OpenMOSS-Team/MOSS-Image-SFT"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:OpenMOSS-Team/MOSS-Image-SFT",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: OpenMOSS-Team/MOSS-Image-SFT",
+     "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+     "published": "2026-10-11T07:01:17+00:00",
+     "excerpt": "text-to-image, 467 likes, 4547 downloads. Tags: diffusers, safetensors, moss-image, text-to-image, en, zh, arxiv:2610.23374, base_model:OpenMOSS-Team/MOSS-Image-Base, base_model:finetune:OpenMOSS-Team/MOSS-Image-Base, license:apache-2.0, diffusers:MOSSImagePipeline, region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T07:01:17+00:00"
+  },
+  {
+   "title": "Community tool lets multiple local AI engines share one GPU",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA user built a system service that automatically swaps AI inference engines in and out of GPU memory, letting a single 24GB card run multiple engines without manual switching or memory conflicts.",
+   "more": "The tool watches GPU usage and automatically loads or swaps engines such as 'strata' and 'llama' in and out of memory, avoiding the VRAM collisions that happen when an orphaned process, like a stray ComfyUI instance, refuses to release memory a new engine needs. The author built it after running into this problem daily on Linux, where an orphaned process could leave ComfyUI holding around 500MB of VRAM that other engines couldn't claim. The post doesn't name the tool or say whether its code has been published publicly.",
+   "item_ids": [
+    "localllama:t3_1xahi82"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xahi82",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "24GB is plenty if your engines take turns",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xahi82/24gb_is_plenty_if_your_engines_take_turns/",
+     "published": "2026-10-20T03:27:05+00:00",
+     "excerpt": "System service that watches your card, swaps and loads whatever you want, whenever you want. Don’t have to swap anything manually, collisions avoided, VRAM fully dedicated to each function while it’s running (no VRAM squatters). I had issues everyday (Linux) where a node process would orphan, comfyUI auto starts and holds 500MB that strata can’t claim. I also wanted to be able to switch natively and not have to think about starting each engine, making sure strata or llama wasn’t stuck loaded, or"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T03:27:05+00:00"
+  },
+  {
+   "title": "DeepSeek open-sources DeepInfer, its inference engine",
+   "tags": [
+    "open-source",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "DeepSeek released DeepInfer, an open-source, large-scale inference framework for its models, drawing over 470 points and 160 comments on Hacker News.",
+   "more": "DeepSeek published the engine on GitHub under the name DeepInfer, describing it as a high-performance, large-scale inference framework for its own model family. The release reached Hacker News's front page, picking up more than 470 points and over 160 comments within hours. On r/LocalLLaMA, commenters framed it as a chance to study DeepSeek's internal engineering techniques by comparing it against existing community inference engines. Neither post gives benchmark numbers or details on which DeepSeek models the engine currently supports, and there is no word yet on its exact licensing terms beyond being open source.",
+   "item_ids": [
+    "hn:50163277",
+    "localllama:t3_1xanm55"
+   ],
+   "items": [
+    {
+     "id": "hn:50163277",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "DeepSeek just open-sourced its inference engine",
+     "url": "https://github.com/deepseek-ai/DeepInfer",
+     "published": "2026-10-20T09:08:54+00:00",
+     "excerpt": "477 points, 166 comments. Discussion: https://news.ycombinator.com/item?id=50163277"
+    },
+    {
+     "id": "localllama:t3_1xanm55",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Deepseek released DeepInfer - Open Source high-performance, large-scale inference framework for DeepSeek models!",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xanm55/deepseek_released_deepinfer_open_source/",
+     "published": "2026-10-20T09:33:27+00:00",
+     "excerpt": "This is crazy good for studying to improve existing custom engines by community like gufo, halogen, strixite, Strata... by learning their secret sauces. submitted by /u/feelspeaceman [link] [comments]"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-20T09:33:27+00:00"
+  },
+  {
+   "title": "Yelp adds AI agent that calls restaurants on your behalf",
+   "tags": [
+    "products",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Yelp is rolling out AI features that can call restaurants to check wait times and give personalized recommendations based on a user's remembered preferences.",
+   "more": "The feature lets Yelp's app place calls on a user's behalf rather than requiring the user to call themselves, automating a task that previously needed a phone call. Yelp is bundling this alongside personalized recommendation features meant to remember a user's preferences over time. The report does not say which markets or restaurant types the calling feature currently covers, or how it handles restaurants that don't answer.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3178995"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3178995",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+     "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+     "published": "2026-10-20T11:00:00+00:00",
+     "excerpt": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T11:00:00+00:00"
+  },
+  {
+   "title": "Otter.ai raises $320M from General Catalyst for meeting tool",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meeting note-taking startup Otter.ai raised $320 million from General Catalyst's Customer Value Fund, which provides capital without diluting equity and earns returns from the startup's marketing spend.",
+   "more": "The Customer Value Fund (CVF) is General Catalyst's growth vehicle, tying its returns to a portfolio company's marketing performance rather than taking equity in the company. Otter.ai said it plans to use the funding for enterprise growth, go-to-market strategy, international expansion, and product development. The announcement does not disclose Otter.ai's current valuation or revenue figures.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179152"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179152",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+     "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+     "published": "2026-10-20T11:00:00+00:00",
+     "excerpt": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst’s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation. […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T11:00:00+00:00"
+  },
+  {
+   "title": "US bans DeepSeek AI technology at federal agencies",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The US Department of Homeland Security has banned federal civilian agencies from using AI technology made by the Chinese lab DeepSeek.",
+   "more": "The ban, reported by The Decoder, applies specifically to AI technology from the Chinese lab DeepSeek and covers all federal civilian agencies in the US. The report does not specify whether the restriction covers DeepSeek's open-weight models run locally or only hosted services, nor does it give a start date for enforcement.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41740"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41740",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "US bans Deepseek technology across federal civilian agencies",
+     "url": "https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/",
+     "published": "2026-10-20T11:34:54+00:00",
+     "excerpt": "The US Department of Homeland Security has banned federal civilian agencies from using AI technology from Chinese lab Deepseek. The article US bans Deepseek technology across federal civilian agencies appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T11:34:54+00:00"
+  },
+  {
+   "title": "Samsung builds massive new memory-chip hub in South Korea",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Samsung is constructing a large semiconductor manufacturing complex in Pyeongtaek, South Korea, to meet growing demand for the memory chips that pair with GPUs used to run generative AI models.",
+   "more": "The report describes the complex as having three fabs already running around the clock, with a fourth coming online. It frames the expansion as a response to demand for the specialized memory chips packaged alongside GPUs that generative AI models depend on for training and inference. The piece is framed as a dispatch from a visit to the site, but the excerpt available here doesn't give production capacity figures or a construction completion date.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1145916"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1145916",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "A visit to Samsung’s massive new semiconductor hub",
+     "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+     "published": "2026-10-20T09:00:00+00:00",
+     "excerpt": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate around the clock, and a fourth is coming online. Construction…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T09:00:00+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA user analyzes years of AI slop posts",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA community member published an informal analysis of 'AI slop' posts across subreddits over several years, along with a lighthearted attempt to predict how AI slop will evolve.",
+   "more": "The author says they got frustrated with the volume of low-effort, AI-generated posts on r/LocalLLaMA and elsewhere on Reddit, and says the problem has improved somewhat in recent months. They published the full write-up on an external blog rather than directly in the Reddit post. The author describes the predictions about AI slop's future as 'not at all serious,' framing the piece as entertainment rather than rigorous research.",
+   "item_ids": [
+    "localllama:t3_1xa7hi8"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xa7hi8",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Let's delve into the tapestry of AI slop on r/LocalLLaMA",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa7hi8/lets_delve_into_the_tapestry_of_ai_slop_on/",
+     "published": "2026-10-19T20:05:12+00:00",
+     "excerpt": "Hi everyone, I got annoyed a bit with all the AI slop post I have seen here on this subreddit (and reddit in general). It has gotten better in the last few months, but that hasn't stopped me from doing an in depth analysis of AI slop in different subreddits over the years. If you're into that, you can read it here: https://thil.ooo/blog/measuring-slop/ I even went all out on predicting the future of AI slop. Fingers crossed I got it wrong. It's stupid and not at all serious – hope you enjoy. sub"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T20:05:12+00:00"
+  }
+ ]
+}
