@@ -1,0 +1,269 @@
+{
+ "date": "2026-10-21",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Anthropic's Claude designs protein binders to target scorpion venom",
+   "tags": [
+    "research",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic says Claude independently designed protein binders against deadly scorpion neurotoxins, screening over 318,000 candidate designs down to two that bind tightly to a toxin from a Mexican scorpion species.",
+   "more": "Out of more than 318,000 AI-generated designs, 211 were tested in the lab, and 17 met the criteria the researchers set. The two strongest binders target Cn2, a neurotoxin from a Mexican scorpion, binding to it extremely tightly. Whether the designs would actually work as an antivenom in practice remains an open question, according to the report. The work is attributed to a project called Claude Science.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41774"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41774",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Claude Science tackles deadly scorpion stings by designing protein binders from scratch",
+     "url": "https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch/",
+     "published": "2026-10-21T08:37:06+00:00",
+     "excerpt": "Anthropic's Claude independently designed protein binders targeting deadly scorpion neurotoxins. Out of more than 318,000 designs, 211 were tested in the lab. Seventeen met the criteria, and the two strongest bind extremely tightly to Cn2, a toxin from a Mexican scorpion. Whether they actually work as antivenom remains an open question. The article Claude Science tackles deadly scorpion stings by designing protein binders from scratch appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T08:37:06+00:00"
+  },
+  {
+   "title": "Matrix-Game 4.0 separates game-engine logic from video generation",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers unveil Matrix-Game 4.0, a playable game-world system that splits execution from visual generation: a lightweight engine holds persistent world state while a coding agent turns player ideas into game rules.",
+   "more": "The system separates game execution from visual generation through what the authors call an executable game harness. A lightweight game engine maintains persistent world state and executes interaction rules, rather than leaving that to the video model. A multimodal coding agent translates player ideas into executable game logic. The authors frame this design as a roadmap for the next generation of Matrix-Game systems, built to address persistent state, executable rules, and low-latency interaction that purely video-based approaches struggle with.",
+   "item_ids": [
+    "hf-papers:2610.27999"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.27999",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+     "url": "https://huggingface.co/papers/2610.27999",
+     "published": "2026-10-21T00:00:00+00:00",
+     "excerpt": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintains world state and executes interaction rules, a multimodal coding agent translates player ideas int"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T00:00:00+00:00"
+  },
+  {
+   "title": "Ropedia W0 world model spans human and robot embodiments",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduce Ropedia W0, said to be the first egocentric world model covering loco-manipulation across both humans and robots, trained on a new mixed human-robot dataset.",
+   "more": "The model aims to jointly handle locomotion and manipulation across different robot embodiments, a problem the authors say is hard because of heterogeneous action spaces and limited multimodal supervision. To train it, the team curated Xp-Data, combining 10,000 hours of egocentric human video with 3,000 hours of robot data under unified multimodal annotations. The goal is a world model that lets embodied agents anticipate the consequences of their actions. The excerpt does not say how the model was evaluated or how it performs.",
+   "item_ids": [
+    "hf-papers:2610.26855"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.26855",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+     "url": "https://huggingface.co/papers/2610.26855",
+     "published": "2026-10-21T00:00:00+00:00",
+     "excerpt": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, comprising 10k hours of egocentric human data and 3k hours of robot data with unified multimodal annotati"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T00:00:00+00:00"
+  },
+  {
+   "title": "Mistral partners with NVIDIA on AI-native engineering workflows",
+   "tags": [
+    "industry",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Mistral announced a partnership with NVIDIA to build next-generation AI-native workflows for industrial engineering, leaning on NVIDIA's accelerated-computing hardware.",
+   "more": "The partnership targets industrial and engineering workflows, aiming to make them AI-native by pairing Mistral's models with NVIDIA's accelerated computing hardware. The announcement does not specify which NVIDIA hardware, a timeline, or the specific engineering tasks involved.",
+   "item_ids": [
+    "mistral:https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/"
+   ],
+   "items": [
+    {
+     "id": "mistral:https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
+     "source": "mistral",
+     "source_name": "Mistral",
+     "title": "Mistral Advances AI for Engineering with NVIDIA",
+     "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
+     "published": "2026-10-21T12:00:20+00:00",
+     "excerpt": "Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T12:00:20+00:00"
+  },
+  {
+   "title": "OpenAI backs startup using brain implants to detect cancer",
+   "tags": [
+    "industry",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI made an investment in a startup that uses brain implants to detect cancer, part of what Wired describes as a growing wave of AI companies' bets on brain data.",
+   "more": "Wired frames the investment as part of a growing wave of bets AI companies are making on brain data. The article does not name the startup or detail how the brain-implant technology detects cancer.",
+   "item_ids": [
+    "wired-ai:6ad7916c8c60213697a5287a"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ad7916c8c60213697a5287a",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
+     "url": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
+     "published": "2026-10-21T10:30:00+00:00",
+     "excerpt": "It’s the latest in a growing wave of bets that AI companies are making on brain data."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T10:30:00+00:00"
+  },
+  {
+   "title": "OpenAI acquires Orchestra Bio to speed up drug development with AI agents",
+   "tags": [
+    "industry",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is acquiring Orchestra Bio and merging it into its life-sciences platform Rosalind, building AI agents meant to help pharma teams coordinate drug development and track trials.",
+   "more": "The goal is AI agents that help pharma teams coordinate drug development, including tracking trials and spotting problems. The article notes that developing a new drug in the US takes 10 to 15 years on average. OpenAI already works with Novo Nordisk and Moderna on AI-driven pharma research through its Rosalind platform. Financial terms of the acquisition are not disclosed in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41778"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41778",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI acquires Orchestra Bio to build AI agents that speed up drug development",
+     "url": "https://the-decoder.com/openai-acquires-orchestra-bio-to-build-ai-agents-that-speed-up-drug-development/",
+     "published": "2026-10-21T08:32:54+00:00",
+     "excerpt": "OpenAI is acquiring startup Orchestra Bio and plans to merge it with its life sciences AI platform Rosalind. The goal is to build AI agents that help pharma teams coordinate drug development, from tracking trials to spotting problems. Developing a new drug in the US takes ten to 15 years on average. OpenAI already works with Novo Nordisk and Moderna on AI-driven pharma research. The article OpenAI acquires Orchestra Bio to build AI agents that speed up drug development appeared first on The Deco"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T08:32:54+00:00"
+  },
+  {
+   "title": "NVIDIA opens SimReady Central, a library of simulation-ready 3D assets",
+   "tags": [
+    "open-source",
+    "robotics",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "NVIDIA announced SimReady Central, an open library of simulation-ready 3D assets for robotics and AI-factory simulation workflows, via a post on Hugging Face's blog.",
+   "more": "The announcement, posted to Hugging Face's blog, introduces SimReady Central as an open library of simulation-ready 3D assets targeted at robotics and AI-factory use cases. No further detail on its contents, scope, or how to access it was included beyond the announcement's title.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+     "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+     "published": "2026-10-21T10:59:42+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T10:59:42+00:00"
+  },
+  {
+   "title": "DeepSeek releases DeepInfer, an open-source inference engine at huge scale",
+   "tags": [
+    "open-source",
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Latent Space covers DeepSeek's DeepInfer, an open-source inference system reported to run 155 trillion tokens a day per cluster, generating about $22M/day at roughly 80% margin with an 81-day payback.",
+   "more": "The piece frames DeepInfer as a major open-source release out of China, running what it calls state-of-the-art inference at 155 trillion tokens per day per cluster. It reports the system generating roughly $22 million per day in revenue at about 80% margin, implying a payback period of around 81 days on the hardware investment. The coverage comes from Latent Space's AI News roundup rather than an original report. Further technical detail on DeepInfer's architecture is not given in the excerpt title.",
+   "item_ids": [
+    "latent-space:https://www.latent.space/p/ainews-deepseek-deepinfer-open-source"
+   ],
+   "items": [
+    {
+     "id": "latent-space:https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+     "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+     "published": "2026-10-21T06:54:09+00:00",
+     "excerpt": "An open source “bomb” drops from China"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T06:54:09+00:00"
+  },
+  {
+   "title": "S-Agent 2.0 pairs a coding agent with 3D perception tools for spatial reasoning",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "S-Agent 2.0 is a general coding agent for spatial reasoning that actively gathers 3D evidence with perception tools rather than answering in one pass; the paper flags a persistent gap between correct tool readings and correct conclusions.",
+   "more": "Spatial reasoning requires a model to work out where objects are in 3D space, how they relate to each other, and how they move. Earlier agentic vision-language models improved on these tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, the authors find that on many questions the tools return correct evidence yet the model still reaches the wrong answer. They describe this as a gap between the model and its tools, where raw sensor readings fail to become usable conclusions.",
+   "item_ids": [
+    "hf-papers:2610.28354"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.28354",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+     "url": "https://huggingface.co/papers/2610.28354",
+     "published": "2026-10-21T00:00:00+00:00",
+     "excerpt": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct answer: the gap between model and tools, where raw readings become usable conclusio"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T00:00:00+00:00"
+  },
+  {
+   "title": "Europe's data-center buildout clashes with its climate goals",
+   "tags": [
+    "policy",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports European policymakers are weighing AI-driven data-center growth against climate objectives, after a German plan to reuse data-center waste heat for nearby homes stalled.",
+   "more": "The piece centers on a plan to funnel waste heat from data centers into nearby homes, which has run aground in Germany. More broadly, it says policymakers across Europe are weighing AI ambitions against climate objectives as data-center buildout accelerates. No specific policy decisions or data-center operators are named in the excerpt.",
+   "item_ids": [
+    "wired-ai:6ad79c45a4cc6513f80c0b82"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ad79c45a4cc6513f80c0b82",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Europe Wants Data Centers. Its Climate Goals Are Getting in The Way",
+     "url": "https://www.wired.com/story/europe-data-centers-climate-change/",
+     "published": "2026-10-21T08:30:00+00:00",
+     "excerpt": "A plan to funnel the heat given off by data centers into nearby homes has run aground in Germany. Across Europe, policymakers are weighing AI ambitions against climate objectives."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T08:30:00+00:00"
+  }
+ ]
+}
