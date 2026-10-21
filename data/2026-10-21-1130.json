@@ -1,0 +1,1101 @@
+{
+ "date": "2026-10-21",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Google, Temasek and Bain project Southeast Asia digital economy at $368B",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new e-Conomy SEA 2026 report from Google, Temasek, and Bain projects Southeast Asia's digital economy, including AI and data centers, will reach $368 billion.",
+   "more": "The report, titled 'Building the intelligent economy,' covers digital sectors across Southeast Asia, including data centers, as part of its $368 billion projection. The excerpt describes only the report's cover image, so sector-by-sector figures and methodology are not available for this Edition.",
+   "item_ids": [
+    "google-ai:https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/"
+   ],
+   "items": [
+    {
+     "id": "google-ai:https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+     "source": "google-ai",
+     "source_name": "Google AI Blog",
+     "title": "Southeast Asia’s digital economy to hit $368 billion",
+     "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+     "published": "2026-10-21T04:00:00+00:00",
+     "excerpt": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T04:00:00+00:00"
+  },
+  {
+   "title": "Judge dismisses Sam Altman's sister's sexual abuse lawsuit",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A US judge dismissed Ann Altman's lawsuit alleging that her brother, OpenAI CEO Sam Altman, sexually abused her throughout her childhood, after she missed a court-ordered exam.",
+   "more": "US District Judge Zachary Bluestone dismissed the suit, which Ann Altman filed last year against Sam Altman. The judge reportedly wrote that over the past year she had failed to appear for an independent medical examination, among other issues cited for the dismissal. The report credits The Guardian with earlier coverage of the case. The excerpt does not say whether Ann Altman can refile or plans to appeal.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1014976"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1014976",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+     "published": "2026-10-20T23:04:19+00:00",
+     "excerpt": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the last year, Ann had failed to appear for an independent medical examination or […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T23:04:19+00:00"
+  },
+  {
+   "title": "Hugging Face CEO calls Netflix's OpenAI hack documentary inaccurate",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Hugging Face co-founder Clem Delangue, who appears in Netflix's 'AI Gone Rogue' documentary about an OpenAI hack, says the film went into 'full doomer mode' and isn't accurate.",
+   "more": "Delangue is featured in the documentary but is now publicly distancing himself from its framing, per TechCrunch's report. The excerpt does not detail which specific claims in the film he disputes, or whether Netflix or the filmmakers have responded.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179822"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179822",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+     "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+     "published": "2026-10-20T22:24:02+00:00",
+     "excerpt": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T22:24:02+00:00"
+  },
+  {
+   "title": "Anthropic reportedly struggles for cloud compute ahead of planned IPO",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic is reportedly struggling to secure enough cloud compute, as providers increasingly see it as a competitor, even as its infrastructure spending grows ahead of a planned November IPO.",
+   "more": "TechCrunch reports the tension stems from cloud providers viewing Anthropic less as a customer and more as a rival, complicating its efforts to lock in compute. The strain comes as the company's infrastructure spending is said to be rising sharply ahead of a planned initial public offering in November. The excerpt does not name which cloud providers are involved.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179891"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179891",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic’s cloud partnerships are getting messy",
+     "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+     "published": "2026-10-20T21:25:22+00:00",
+     "excerpt": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T21:25:22+00:00"
+  },
+  {
+   "title": "SpaceX's AI business drives it to Q3 profitability",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "SpaceX reported third-quarter profitability with $4.4 billion in net income, which TechCrunch says was driven primarily by its AI business.",
+   "more": "The report credits AI as 'the engine' behind the quarter's results, though the excerpt does not specify which AI products or contracts contributed, or break out AI revenue from SpaceX's other business lines like Starlink and launch services.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179777"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179777",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "SpaceX’s AI business is beating expectations",
+     "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+     "published": "2026-10-20T20:40:41+00:00",
+     "excerpt": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T20:40:41+00:00"
+  },
+  {
+   "title": "OpenAI acquires Orchestra Bio to expand its biotech push",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI acquired startup Orchestra Bio, adding its team and technology to Rosalind, OpenAI's AI model for life sciences research, and the related Rosalind Workbench tool.",
+   "more": "Rosalind Workbench is described as a harness meant to help researchers plan experiments and analyze results, and the acquisition folds Orchestra's team directly into that effort. The excerpt does not disclose the deal's terms or size, or Orchestra Bio's prior work.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179783"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179783",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+     "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+     "published": "2026-10-20T20:35:10+00:00",
+     "excerpt": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T20:35:10+00:00"
+  },
+  {
+   "title": "Anthropic reportedly posted an $80B net loss in H1 2026",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic recorded a net loss of more than $80 billion in the first half of 2026, according to a Reuters report cited on Hacker News.",
+   "more": "The Hacker News discussion of the report drew 138 points and 60 comments; the underlying report is credited to The Wall Street Journal via Reuters. The excerpt does not break down the loss by expense category or compare it to prior periods.",
+   "item_ids": [
+    "hn:50171966"
+   ],
+   "items": [
+    {
+     "id": "hn:50171966",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Anthropic logged net loss of over $80B in first half of 2026",
+     "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+     "published": "2026-10-20T20:09:46+00:00",
+     "excerpt": "138 points, 60 comments. Discussion: https://news.ycombinator.com/item?id=50171966"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T20:09:46+00:00"
+  },
+  {
+   "title": "Eric Schmidt reportedly holds about half of Dario Amodei's Anthropic stake",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Eric Schmidt reportedly owns roughly half as much equity in Anthropic as CEO Dario Amodei, a stake TechCrunch says is set to grow his fortune further.",
+   "more": "The report does not specify the dollar value of either stake or how Schmidt came to hold such a large position in the company, nor does it clarify whether the comparison is pre- or post- any planned public offering.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179732"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179732",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+     "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+     "published": "2026-10-20T17:55:12+00:00",
+     "excerpt": "Eric Schmidt’s fortune is about to get even bigger."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T17:55:12+00:00"
+  },
+  {
+   "title": "Sage-A1.5 is a 35B MoE agentic model built for long-horizon tasks",
+   "tags": [
+    "models",
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Sage-A1.5, a 35B Mixture-of-Experts model built on A1, adds agentic orchestration and verification to handle long-horizon problem solving and open scientific exploration.",
+   "more": "Sage-A1.5 extends single-agent execution with task decomposition and other orchestration techniques, letting it organize work and revise its approach mid-task rather than only following a fixed plan. The report highlights three areas of improvement over A1: agentic orchestration, verification, and support for open scientific discovery. The excerpt does not give benchmark numbers or say whether weights will be released.",
+   "item_ids": [
+    "hf-papers:2610.28578"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.28578",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+     "url": "https://huggingface.co/papers/2610.28578",
+     "published": "2026-10-21T00:00:00+00:00",
+     "excerpt": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution. Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific discovery. First, agentic orchestration extends single-agent execution through task d"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T00:00:00+00:00"
+  },
+  {
+   "title": "ElevenLabs launches Eleven Realtime speech-to-speech models",
+   "tags": [
+    "models",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "ElevenLabs released two new speech-to-speech models, Eleven Realtime, built for real-time AI conversations, with the v1 Max variant scoring 98.8% on the Big Bench Audio benchmark at 0.57-second response time.",
+   "more": "ElevenLabs says no model on the Artificial Analysis leaderboard currently beats Eleven Realtime on being both faster and more accurate at once. The excerpt does not name the second model variant beyond 'v1 Max,' or give pricing or availability details.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41768"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41768",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations",
+     "url": "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/",
+     "published": "2026-10-20T19:03:15+00:00",
+     "excerpt": "Elevenlabs' new Eleven Realtime speech-to-speech models combine speed and accuracy. The v1 Max variant scores 98.8 percent on the Big Bench Audio benchmark with a 0.57-second response time. Elevenlabs says no model on the Artificial Analysis leaderboard is both faster and more accurate. The article Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T19:03:15+00:00"
+  },
+  {
+   "title": "Deepseek open-sources DeepInfer, the engine behind its fastest model",
+   "tags": [
+    "models",
+    "open-source",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Deepseek open-sourced DeepInfer, the vLLM-based inference engine behind its fast, cheap V4.1-Flash model, cutting compute costs and energy use for running AI models.",
+   "more": "The release adds further pricing pressure on Western providers like OpenAI and Anthropic, per The Decoder. The excerpt does not specify DeepInfer's license, benchmark comparisons to other inference engines, or the exact cost savings it delivers.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41765"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41765",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
+     "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
+     "published": "2026-10-20T18:56:15+00:00",
+     "excerpt": "Deepseek is open-sourcing DeepInfer, the inference framework behind its fast V4.1-Flash model. The vLLM-based system cuts compute costs and energy use when running AI models. The release adds more pricing pressure on Western providers like OpenAI and Anthropic. The article Deepseek open-sources the inference engine that powers its fastest and cheapest AI model appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T18:56:15+00:00"
+  },
+  {
+   "title": "Nvidia's Cosmos3-H-Dreams applies generative simulation to surgery",
+   "tags": [
+    "models",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia describes Cosmos3-H-Dreams, a generative simulation model aimed at bringing clinical surgery scenarios to life.",
+   "more": "The post's title indicates the model targets generative simulation for clinical surgery, building on Nvidia's Cosmos line of world models. No further detail was available in the Source's excerpt for this Edition.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+     "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+     "published": "2026-10-20T18:17:47+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T18:17:47+00:00"
+  },
+  {
+   "title": "Mistral launches Voxtral 3, a full real-time voice agent stack",
+   "tags": [
+    "models",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Mistral AI launched Voxtral 3, a voice agent model family combining speech-to-text, text-to-speech, and an SDK, supporting over 50 languages and live tool use during conversations.",
+   "more": "The stack can run on a customer's own infrastructure or through EU-hosted APIs to keep data under their control, per The Decoder. The excerpt does not give benchmark results, pricing, or specify which models within the Voxtral 3 family handle which part of the pipeline.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41762"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41762",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time",
+     "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/",
+     "published": "2026-10-20T17:17:55+00:00",
+     "excerpt": "Mistral AI launched Voxtral 3, a new family of language models built for real-time voice agents. The system combines speech-to-text, text-to-speech, and a voice agent SDK, supports more than 50 languages, and lets agents tap into external tools during live conversations. It can run on your own infrastructure or through EU-hosted APIs to keep data under your control. The article Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time appeared first on "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T17:17:55+00:00"
+  },
+  {
+   "title": "OpenAI says GPT-6 improves sharply on COBOL and Fortran code",
+   "tags": [
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI says its GPT-6 models are much better at legacy languages like COBOL and Fortran, with GPT-6 Astra hitting 87.4% on a new MultiLangBench, up from about 38% for GPT-5.6 Terra.",
+   "more": "For COBOL migration specifically, OpenAI says GPT-6.1 Sol reaches up to 97.9% accuracy on the new benchmark, a result the company suggests could matter for modernizing financial infrastructure. The excerpt does not describe MultiLangBench's methodology or which other languages it covers beyond COBOL, Fortran, and Visual Basic.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41754"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41754",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI says GPT-6 is much better with legacy programming languages such as COBOL and Fortran",
+     "url": "https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran/",
+     "published": "2026-10-20T16:40:29+00:00",
+     "excerpt": "OpenAI improved its latest models for low-resource programming languages like COBOL, Fortran, and Visual Basic. On the new MultiLangBench, GPT-6 Astra hits an 87.4 percent test pass rate across 20 languages, up from about 38 percent for GPT-5.6 Terra. For COBOL migration specifically, GPT-6.1 Sol reaches up to 97.9 percent accuracy, a result that could matter for modernizing critical financial infrastructure. The article OpenAI says GPT-6 is much better with legacy programming languages such as "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T16:40:29+00:00"
+  },
+  {
+   "title": "MOSS-Image-Base text-to-image model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenMOSS-Team's MOSS-Image-Base, an openly licensed text-to-image diffusion model, is trending on Hugging Face with 439 likes and over 3,500 downloads.",
+   "more": "MOSS-Image-Base is released under an Apache-2.0 license and ships with a dedicated diffusers pipeline (MOSSImagePipeline), supporting both English and Chinese. It has drawn 439 likes and more than 3,558 downloads on Hugging Face. The listing links to an accompanying arXiv paper (2610.23374), but the excerpt does not describe the model's architecture or training data.",
+   "item_ids": [
+    "hf-trending:OpenMOSS-Team/MOSS-Image-Base"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:OpenMOSS-Team/MOSS-Image-Base",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: OpenMOSS-Team/MOSS-Image-Base",
+     "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+     "published": "2026-10-11T06:49:17+00:00",
+     "excerpt": "text-to-image, 439 likes, 3558 downloads. Tags: diffusers, safetensors, moss-image, text-to-image, en, zh, arxiv:2610.23374, license:apache-2.0, diffusers:MOSSImagePipeline, region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-11T06:49:17+00:00"
+  },
+  {
+   "title": "Researchers address 'Sequential Distraction' in omni-modal GUI agents",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper identifies 'Sequential Distraction' in GUI agents that process streaming omni-modal observations, where context useful for one action becomes clutter the next and errors compound.",
+   "more": "GUI agents that act on streaming screenshots, audio, video, and device states can be misled when context stays relevant only briefly before becoming noise. The paper argues that because executed actions feed back into context, these errors compound over time into what it calls Sequential Distraction, pushing agents toward irreversible mistakes. The excerpt does not detail the proposed fix or benchmark results.",
+   "item_ids": [
+    "hf-papers:2610.26203"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.26203",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Focused Omni-Modal GUI Agents",
+     "url": "https://huggingface.co/papers/2610.26203",
+     "published": "2026-10-21T00:00:00+00:00",
+     "excerpt": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determining one action can become clutter at the next. Because executed actions feed back into the context, these errors compound into Sequential Distraction, driving the agent into irreversible trajectory d"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T00:00:00+00:00"
+  },
+  {
+   "title": "PAR method aims to fix length generalization in looped language models",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new technique called Progress-Aligned Recurrence trains looped language models to match their internal state after each reasoning step, aiming to fix poor length generalization in state tracking.",
+   "more": "Looped language models can run extra iterations at test time, but the paper notes this doesn't reliably help them solve longer problems, since final-answer supervision doesn't specify how far each iteration should advance. PAR trains the prediction at each iteration to match the state after that many operations, and rescales the recurrent state relative to its first iteration. The excerpt does not include evaluation results.",
+   "item_ids": [
+    "hf-papers:2610.27628"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.27628",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+     "url": "https://huggingface.co/papers/2610.27628",
+     "published": "2026-10-21T00:00:00+00:00",
+     "excerpt": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteration"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T00:00:00+00:00"
+  },
+  {
+   "title": "VPM world model forecasts multi-view video and 3D point trajectories",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new world model called VPM conditions on multi-view video history and language instructions to jointly forecast future video and the 3D paths of scene points.",
+   "more": "VPM extends a pretrained world model with camera-conditioned multi-view processing, integrating observations across multiple cameras to keep forecasts of the same evolving 3D scene consistent. It jointly predicts future video from arbitrary viewpoints alongside the 3D trajectories of persistent points in the scene. The excerpt does not specify training data, benchmarks, or results.",
+   "item_ids": [
+    "hf-papers:2610.28594"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.28594",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Learning the 4D World through Point Trajectory Forecasting",
+     "url": "https://huggingface.co/papers/2610.28594",
+     "published": "2026-10-21T00:00:00+00:00",
+     "excerpt": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with camera-conditioned multi-view processing that integrates complementary observations across cameras,"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T00:00:00+00:00"
+  },
+  {
+   "title": "SolarRenderer turns coarse scene structure into video in few steps",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "SolarRenderer is a structure-conditioned video renderer that turns coarse layout, motion, and camera specs from game engines or coding agents into realistic video in fewer denoising steps.",
+   "more": "The paper says existing renderers are tied to one engine's representation, need many denoising steps or costly distillation, and are trained on conditions misaligned with their target videos. SolarRenderer is designed to follow input structure while filling in the appearance it leaves open, in few generative steps. The excerpt does not give step counts, benchmarks, or comparisons to specific existing renderers.",
+   "item_ids": [
+    "hf-papers:2610.28630"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.28630",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "SolarRenderer: Few-Step Generative Reference Rendering",
+     "url": "https://huggingface.co/papers/2610.28630",
+     "published": "2026-10-21T00:00:00+00:00",
+     "excerpt": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are not aligned with their target videos. We present SolarRenderer, a structure-conditioned video rende"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T00:00:00+00:00"
+  },
+  {
+   "title": "VLA-Rolling reuses discarded action predictions to cut denoising steps",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "VLA-Rolling shows that the unexecuted 'action tail' flow-matching robot policies normally discard still carries useful denoising progress, letting replanning match or beat a native 10-step baseline.",
+   "more": "Flow-matching vision-language-action models generate an action chunk by iteratively denoising noise but typically execute only a short prefix before replanning with new observations, discarding the rest. The paper finds this discarded tail retains transferable denoising progress, so initializing the next chunk from it can match or outperform a native 10-step Gaussian baseline. The excerpt does not specify exact step savings or which robot tasks were tested.",
+   "item_ids": [
+    "hf-papers:2610.25043"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.25043",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse",
+     "url": "https://huggingface.co/papers/2610.25043",
+     "published": "2026-10-21T00:00:00+00:00",
+     "excerpt": "Flow-matching vision-language-action (VLA) models generate an action chunk by iteratively denoising Gaussian noise, but typically execute only a short prefix before replanning with updated observations. Under this receding-horizon paradigm, the unexecuted remainder---the action tail---is discarded, and the next chunk is regenerated from fresh noise. We show that this discarded tail retains transferable denoising progress: action-tail initialization can match or outperform a native 10-step Gaussi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T00:00:00+00:00"
+  },
+  {
+   "title": "SWIFT uses a frozen weak model to sharpen diffusion training for free",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "SWIFT is a self-guided training method that uses a frozen weak denoiser to improve a stronger diffusion model's quality without adding cost at inference time.",
+   "more": "Training high-quality diffusion models is expensive, and guiding them at inference time usually adds further sampling cost. SWIFT instead extrapolates the clean regression target away from a frozen weak denoiser's prediction for each noisy input, amplifying the components the stronger model still underfits. The weak guide can be an early checkpoint of the same model. The excerpt does not report specific quality gains or benchmark comparisons.",
+   "item_ids": [
+    "hf-papers:2610.25844"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.25844",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation",
+     "url": "https://huggingface.co/papers/2610.25844",
+     "published": "2026-10-21T00:00:00+00:00",
+     "excerpt": "Training high-quality diffusion models is computationally expensive, and inference-time guidance often adds further sampling cost. In this work, we introduce Swift, a simple yet effective self-guided training method that uses a frozen weak denoiser to improve a stronger model without adding inference overhead. For each noisy input, Swift extrapolates the clean regression target away from the weak denoiser's prediction, amplifying components that remain underfit. The weak guide can be an early tr"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T00:00:00+00:00"
+  },
+  {
+   "title": "Claude designed protein binders against scorpion neurotoxins",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic's research describes Claude being used to design protein binders that target scorpion neurotoxins, a project that drew significant discussion on Hacker News.",
+   "more": "The Hacker News submission links to Anthropic's own research write-up and has drawn 103 points and 67 comments. The excerpt does not describe the binder design process, validation results, or potential medical applications.",
+   "item_ids": [
+    "hn:50170021"
+   ],
+   "items": [
+    {
+     "id": "hn:50170021",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Claude designed protein binders against scorpion neurotoxins",
+     "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+     "published": "2026-10-20T17:48:29+00:00",
+     "excerpt": "103 points, 67 comments. Discussion: https://news.ycombinator.com/item?id=50170021"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T17:48:29+00:00"
+  },
+  {
+   "title": "Anthropic pitches AI safety bill requiring judge approval to block models",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic is pitching a federal AI safety bill, framed as blocking dangerous models, that would actually forbid agencies from blocking a release without a judge's permission.",
+   "more": "TechCrunch reports the proposed policy would let a model be blocked only if 50 or more people could plausibly be killed by it, a high bar for intervention. Despite its framing as protection against AI running amok, the bill would require federal agencies to get judicial sign-off before blocking a model's release. The excerpt does not name which lawmakers or agencies are involved, or the bill's current status.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179755"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179755",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+     "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+     "published": "2026-10-20T23:01:23+00:00",
+     "excerpt": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T23:01:23+00:00"
+  },
+  {
+   "title": "Meta drops the word 'train' from its commercial terms after AI backlash",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta changed its commercial terms of service to remove the word 'train' following backlash over AI data scraping, but still won't commit to honoring robots.txt.",
+   "more": "The change comes amid broader scrutiny of how Meta's AI systems use commercial content, per Ars Technica. The excerpt does not detail what wording replaced 'train' in the terms, or whether the change affects what content Meta can actually use for training.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+     "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+     "published": "2026-10-20T20:07:58+00:00",
+     "excerpt": "Meta changes AI scraping policy but won’t add language respecting robots.txt."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T20:07:58+00:00"
+  },
+  {
+   "title": "Meta pauses Muse chat-sharing after links found exposed via DNS",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta paused a feature that lets users share Muse AI conversations after security researchers found more than 6,800 shared-chat links publicly exposed through DNS records.",
+   "more": "Meta said it paused the sharing feature while investigating, after researchers at security firm Claroc reported the finding, as covered by Ars Technica. The 6,800-plus links were discoverable through public DNS records rather than Meta's own site. The excerpt does not say whether any of the exposed conversations contained sensitive content or when sharing might resume.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1014627"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1014627",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+     "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+     "published": "2026-10-20T18:07:34+00:00",
+     "excerpt": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T18:07:34+00:00"
+  },
+  {
+   "title": "France calls emergency meetings with platforms over protest footage",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "France's government held emergency meetings with TikTok and other platforms, telling them to curb protest footage and AI-altered images, while retailers agreed to stop looted goods reaching resale sites.",
+   "more": "The excerpt names TikTok specifically among the platforms told to curb the content, alongside online retailers like Vinted and eBay, which reportedly signed an agreement to keep looted goods off their resale listings. It does not specify which protests prompted the meetings or what enforcement the government can apply if platforms don't comply.",
+   "item_ids": [
+    "wired-ai:6ad76f56ff9a9f0c430f7989"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ad76f56ff9a9f0c430f7989",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "French Government Calls Emergency Meetings With Platforms Over Protests",
+     "url": "https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/",
+     "published": "2026-10-20T17:41:58+00:00",
+     "excerpt": "TikTok and other sites were told to curb protest footage and AI-altered images, while online retailers like Vinted and eBay reportedly signed an agreement stop looted goods from flooding resale sites."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T17:41:58+00:00"
+  },
+  {
+   "title": "Meta ordered to name employees who approved torrenting for AI training",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A court ordered Meta to identify the executives who approved torrenting books for AI training, after Meta argued that no one specifically 'decided' to pirate the material.",
+   "more": "The order is part of ongoing litigation over Meta's use of torrented books to train its AI models. Ars Technica frames Meta's position as trying to let executives avoid individual responsibility by shifting blame toward lower-level staff who handled the downloads. The excerpt does not name the court, case, or any individuals identified so far.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+     "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+     "published": "2026-10-20T17:40:20+00:00",
+     "excerpt": "Meta argues nobody “decided” to pirate books to train AI."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T17:40:20+00:00"
+  },
+  {
+   "title": "Altman reportedly pitched three endgames for AI safety internally",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Sam Altman reportedly presented OpenAI staff three possible endgames for AI safety: an IAEA-style watchdog, a merger of major labs, or one company powerful enough to shut down rivals' compute.",
+   "more": "Altman reportedly called the last option, a single dominant firm able to 'melt' everyone else's GPUs, 'terrible' in the same presentation, per The Decoder. The excerpt does not say which option, if any, he recommended pursuing, or when the presentation took place.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41759"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41759",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Sam Altman reportedly pitched three endgames for AI safety, one involving a single firm melting everyone else's GPUs",
+     "url": "https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/",
+     "published": "2026-10-20T17:00:59+00:00",
+     "excerpt": "OpenAI CEO Sam Altman laid out three paths to safe AI in an internal presentation: an international watchdog modeled after the IAEA, a merger of the major labs into one entity, or a single company so powerful it could shut down everyone else's compute. He called the last option \"terrible.\" The article Sam Altman reportedly pitched three endgames for AI safety, one involving a single firm melting everyone else's GPUs appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T17:00:59+00:00"
+  },
+  {
+   "title": "Anthropic publishes a news post titled 'Distillation defenses'",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic posted a new item titled 'Distillation defenses' to its news section, addressing safeguards against distillation of its models.",
+   "more": "The post's title and URL indicate it covers safeguards against distillation, the practice of training a new model to copy a frontier model's behavior. The Source's excerpt for this item was empty, so no further specifics are available for this Edition.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/distillation-defenses"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/distillation-defenses",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Distillation defenses",
+     "url": "https://www.anthropic.com/news/distillation-defenses",
+     "published": null,
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": ""
+  },
+  {
+   "title": "Google brings personalized 'Personal Intelligence' Gemini to cars",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google is bringing its Personal Intelligence feature to Gemini in Android Auto and built-in car systems, letting the assistant draw on Gmail, Calendar, Maps, Photos, YouTube, and Search.",
+   "more": "With the update, Gemini in the car can tap into a driver's information across Google apps, for example checking a flight status pulled from Gmail while driving. Ars Technica frames the rollout as a reason for drivers to review their Gemini privacy settings. The excerpts do not specify a rollout timeline or which car models and regions get the feature first.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1014999",
+    "ars-ai:https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1014999",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Google’s more personalized Gemini AI is heading to your car",
+     "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+     "published": "2026-10-20T22:11:34+00:00",
+     "excerpt": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving […]"
+    },
+    {
+     "id": "ars-ai:https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Gemini's Personal Intelligence is coming to cars",
+     "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+     "published": "2026-10-20T20:00:33+00:00",
+     "excerpt": "It's probably time to audit your Gemini settings."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-20T22:11:34+00:00"
+  },
+  {
+   "title": "Simon Willison builds a vibe-coded RTS game with audio multiplayer",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison built 'Battle Drones,' a Command & Conquer-style RTS game made by prompting Claude, including audio-based multiplayer that syncs game state between nearby devices.",
+   "more": "Willison says this experiment turned out more fun to play than his previous vibe-coded games, crediting part of the improvement to simply telling Claude to 'make it a lot more fun.' The game supports multiplayer between nearby devices by syncing state over audio. The excerpt does not specify which Claude model was used or how long the build took.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/20/battledrones/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/20/battledrones/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+     "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+     "published": "2026-10-20T19:34:19+00:00",
+     "excerpt": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also supports multiplayer between nearby devices using audio to synchronize game state! Here's what I've built so far, and some of the things I learned along the way. Battle Drones How I built thi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T19:34:19+00:00"
+  },
+  {
+   "title": "ChatGPT adds a feature to lock individual chats",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI added a feature letting ChatGPT users lock individual chats, aimed at keeping personal conversations private when handing a device to someone else.",
+   "more": "The company says the feature suits situations like discussing something personal or planning a surprise, so a locked chat stays hidden even if a friend or family member is shown another conversation on the same device. The excerpt does not say whether locked chats require a passcode or biometric unlock, or which platforms support the feature at launch.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179763"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179763",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "ChatGPT now lets you lock your chats",
+     "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+     "published": "2026-10-20T18:36:53+00:00",
+     "excerpt": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T18:36:53+00:00"
+  },
+  {
+   "title": "Meta's Muse app hits 10 million US downloads in 40 days",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta's AI app Muse reached 10 million US downloads in 40 days, a milestone only 11 other apps have hit, and is retaining users better than rival AI apps.",
+   "more": "TechCrunch cites new data showing Muse's retention rates running ahead of competing AI assistant apps. The excerpt does not name the other 11 apps that hit the same milestone, specify the data source, or give absolute retention figures.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179696"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179696",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
+     "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+     "published": "2026-10-20T17:12:48+00:00",
+     "excerpt": "New data also shows Muse is retaining users at higher rates than its AI rivals."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T17:12:48+00:00"
+  },
+  {
+   "title": "Chinese tech giants reportedly place $35B in Nvidia chip orders",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "ByteDance, Alibaba, and Tencent have reportedly placed more than $35 billion in Nvidia chip orders, including 3 million RTX 5500 Pro cards at about $11,400 each.",
+   "more": "The r/LocalLLaMA post frames the purchase as likely intended for LLM inference and AI video generation, and notes it may put the RTX 5500 Pro out of reach for local-LLM hobbyists. The excerpt does not cite an original source for the order figures or specify delivery timelines.",
+   "item_ids": [
+    "localllama:t3_1xb9z8e"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xb9z8e",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb9z8e/exclusive_bytedance_alibaba_tencent_place_over_35/",
+     "published": "2026-10-21T01:24:31+00:00",
+     "excerpt": "China just ordered 3mil RTX 5500 Pro for $11.4k a pop. Probably for llm inference and AI video gen. I suppose this card is now out of reach for local llm. submitted by /u/Ok_Warning2146 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T01:24:31+00:00"
+  },
+  {
+   "title": "Latent Space podcast: SF Compute on the programmable data center",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Latent Space podcast episode features SF Compute's Evan Conrad discussing the idea of a 'programmable data center,' covering GPU trading, physical settlement, and independent compute markets.",
+   "more": "The episode frames compute as something that can be traded and settled like a commodity, with markets operating independently of any single cloud provider. The excerpt does not give details on SF Compute's own platform, its scale, or specific customers.",
+   "item_ids": [
+    "latent-space:https://www.latent.space/p/sfcompute2"
+   ],
+   "items": [
+    {
+     "id": "latent-space:https://www.latent.space/p/sfcompute2",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+     "url": "https://www.latent.space/p/sfcompute2",
+     "published": "2026-10-20T19:31:57+00:00",
+     "excerpt": "From GPU trading to physical settlement, independent markets, and programmable compute"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T19:31:57+00:00"
+  },
+  {
+   "title": "Google joins Amazon in releasing tools to move AI apps off Nvidia GPUs",
+   "tags": [
+    "hardware",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google released a developer tool that makes it easier for PyTorch users to move their AI applications off Nvidia GPUs, following a similar move by Amazon.",
+   "more": "The excerpt frames this as part of a broader push by cloud providers to loosen Nvidia's hold on AI app developers, with Amazon having released a comparable tool previously. It does not name Google's specific tool, detail which of its own chips it targets, or give adoption figures.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3179702"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3179702",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+     "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+     "published": "2026-10-20T18:38:24+00:00",
+     "excerpt": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T18:38:24+00:00"
+  },
+  {
+   "title": "Latent Space podcast: how Tenex builds an AI-native SDLC",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Latent Space podcast episode features Tenex's Alex Lieberman and CJ Hess discussing building an AI-native software development lifecycle for large enterprises, paying for outcomes rather than seats.",
+   "more": "The 44-minute conversation covers building with agents and what the hosts call the 'last mile' of enterprise AI adoption. The excerpt does not detail Tenex's specific product, its customer base, or the outcome-based pricing model it uses.",
+   "item_ids": [
+    "latent-space:https://www.latent.space/p/tenex"
+   ],
+   "items": [
+    {
+     "id": "latent-space:https://www.latent.space/p/tenex",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+     "url": "https://www.latent.space/p/tenex",
+     "published": "2026-10-21T05:01:26+00:00",
+     "excerpt": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T05:01:26+00:00"
+  },
+  {
+   "title": "Drone evacuates a wounded Ukrainian soldier in a real rescue",
+   "tags": [
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A drone-based evacuation of a wounded soldier in Ukraine put a long-discussed battlefield rescue concept into actual practice, Ars Technica reports.",
+   "more": "The report frames the rescue as improving the odds of evacuating casualties from the battlefield using drone technology. The excerpt does not specify the drone model, the unit involved, or the soldier's condition after evacuation.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
+     "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+     "published": "2026-10-20T18:22:54+00:00",
+     "excerpt": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T18:22:54+00:00"
+  },
+  {
+   "title": "Private keys for eight eMudhra root-chained CA certificates compromised",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison flags the compromise of private keys for eight eMudhra intermediate certificate authority certificates, which chain to roots trusted by major browsers and operating systems.",
+   "more": "The compromised certificates chain to roots trusted by Mozilla, Microsoft, Apple, and Chrome's root programs, and by many downstream trust stores, meaning any software bundling a trusted-certificate list needs updating, including Linux distributions' ca-certificates packages. Willison links to a GitHub repository tracking which software has issued updates in response, and notes the Python package manager uv was affected. The excerpt does not say how the keys were compromised or which certificate authority disclosed the breach.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/20/emudhra-certificates/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "eMudhra Intermediate CA Compromise",
+     "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+     "published": "2026-10-20T23:50:25+00:00",
+     "excerpt": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a list of trusted certificates needs to be updated. This site is tracking software updates via this GitHub repository - Linux distros need to update their ca-certificates packages. In Python world uv 0"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-20T23:50:25+00:00"
+  },
+  {
+   "title": "Anthropic's news site lists seven category links with no article content",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Seven new items from Anthropic's news page carry only a single-word category title (Announcements, Features, Product, Policy, Safeguards, Security, Partnerships) and no article text or date.",
+   "more": "Each of these items shares a bare, one-word title matching a navigation category on anthropic.com/news rather than a specific headline, and each has an empty excerpt and no publication date. None of their titles describes a particular action, product, or decision, so there is nothing further to report under them for this Edition.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/announcements",
+    "anthropic:https://www.anthropic.com/news/features",
+    "anthropic:https://www.anthropic.com/news/product",
+    "anthropic:https://www.anthropic.com/news/policy",
+    "anthropic:https://www.anthropic.com/news/safeguards",
+    "anthropic:https://www.anthropic.com/news/security",
+    "anthropic:https://www.anthropic.com/news/partnerships"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/announcements",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Announcements",
+     "url": "https://www.anthropic.com/news/announcements",
+     "published": null,
+     "excerpt": ""
+    },
+    {
+     "id": "anthropic:https://www.anthropic.com/news/features",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Features",
+     "url": "https://www.anthropic.com/news/features",
+     "published": null,
+     "excerpt": ""
+    },
+    {
+     "id": "anthropic:https://www.anthropic.com/news/product",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Product",
+     "url": "https://www.anthropic.com/news/product",
+     "published": null,
+     "excerpt": ""
+    },
+    {
+     "id": "anthropic:https://www.anthropic.com/news/policy",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Policy",
+     "url": "https://www.anthropic.com/news/policy",
+     "published": null,
+     "excerpt": ""
+    },
+    {
+     "id": "anthropic:https://www.anthropic.com/news/safeguards",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Safeguards",
+     "url": "https://www.anthropic.com/news/safeguards",
+     "published": null,
+     "excerpt": ""
+    },
+    {
+     "id": "anthropic:https://www.anthropic.com/news/security",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Security",
+     "url": "https://www.anthropic.com/news/security",
+     "published": null,
+     "excerpt": ""
+    },
+    {
+     "id": "anthropic:https://www.anthropic.com/news/partnerships",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Partnerships",
+     "url": "https://www.anthropic.com/news/partnerships",
+     "published": null,
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": ""
+  }
+ ]
+}
