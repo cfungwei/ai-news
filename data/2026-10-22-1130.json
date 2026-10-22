@@ -1,0 +1,811 @@
+{
+ "date": "2026-10-22",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "New paper proposes WildAWM, a pipeline for training computer-use AI agents",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces WildAWM, a scalable pipeline for synthesizing controllable environments and tasks to train general computer-use agents, addressing the risks of training such agents directly on real systems.",
+   "more": "The paper argues that agent learning is shifting from learning from human data toward learning through interaction with the world, but scaling that directly on real-world computer systems is challenging and can introduce security risks. WildAWM is proposed as a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents. The authors note that existing approaches typically specialize in a single agent interaction setting, which WildAWM aims to generalize beyond.",
+   "item_ids": [
+    "hf-papers:2610.26828"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.26828",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+     "url": "https://huggingface.co/papers/2610.26828",
+     "published": "2026-10-22T00:00:00+00:00",
+     "excerpt": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents (CUAs). Whereas existing approaches typically specialize in a single agent interact"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T00:00:00+00:00"
+  },
+  {
+   "title": "Paper tackles KV-cache costs for long-running LLM agent trajectories",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper addresses how KV-cache I/O and storage become the dominant cost as LLM agent trajectories grow long, proposing cache engineering techniques that avoid invalidating cached states when trimming history.",
+   "more": "As LLM agents handle increasingly complex tasks, their trajectories of observations and actions grow long, making key-value cache I/O and storage the dominant cost. Trajectories can also exceed a model's maximum context length, requiring control over active cache growth. Prior work used context engineering — trimming or summarizing history — to reduce cache size, but modifying the trajectory prefix invalidates subsequent cached states. The paper proposes an approach to cache engineering that avoids this tradeoff.",
+   "item_ids": [
+    "hf-papers:2610.28577"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.28577",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Cache Engineering for Agents",
+     "url": "https://huggingface.co/papers/2610.28577",
+     "published": "2026-10-22T00:00:00+00:00",
+     "excerpt": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing history. However, modifying the trajectory prefix invalidates subsequent cached states "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T00:00:00+00:00"
+  },
+  {
+   "title": "Future Chunk Prediction aims to fix shortcut learning in video generation",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new auxiliary training objective, Future Chunk Prediction, pushes autoregressive video diffusion models to truly model scene evolution rather than relying on temporal redundancy as a shortcut.",
+   "more": "Autoregressive video diffusion models generate video chunk by chunk, but producing plausible continuations does not guarantee they capture how scenes actually evolve over time. Under teacher forcing, strong temporal redundancy can let local visual continuity serve as a shortcut for denoising the current chunk, reducing pressure to model real visual evolution. Future Chunk Prediction (FCP) is introduced as an auxiliary objective, jointly optimized with teacher-forced denoising, that predicts temporally separated future chunks instead.",
+   "item_ids": [
+    "hf-papers:2610.29989"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.29989",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+     "url": "https://huggingface.co/papers/2610.29989",
+     "published": "2026-10-22T00:00:00+00:00",
+     "excerpt": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective jointly optimized with teacher-forced denoising that predicts temporally separated c"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T00:00:00+00:00"
+  },
+  {
+   "title": "Socratic Skill Learning interleaves teaching and practice for agent skills",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new method, Socratic Skill Learning, has an AI Educator guide a Student agent through practice while the Student remains the sole environment operator and skill author, aiming for skills that transfer beyond the original task.",
+   "more": "Agent Skills make task knowledge reusable across sessions, but learning transferable skills requires evidence about a procedure and its conditions of use — evidence a single successful attempt can leave untested. Socratic Skill Learning (SSL) interleaves expert teaching with student practice to address this. An Educator guides investigation while the Student remains the sole environment operator and skill author, able to question, test, and adapt the Educator's advice. The method is designed to test skill reuse beyond the original task.",
+   "item_ids": [
+    "hf-papers:2610.17860"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.17860",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Socratic Skill Learning: Interleaving Teaching and Practice for Transferable Agent Skills",
+     "url": "https://huggingface.co/papers/2610.17860",
+     "published": "2026-10-22T00:00:00+00:00",
+     "excerpt": "Agent Skills improve LLM agents by making task knowledge reusable across sessions. Learning transferable Skills requires evidence about a procedure and its conditions of use, which a successful task attempt can leave untested. We introduce Socratic Skill Learning (SSL), which interleaves expert teaching with Student practice. An Educator guides investigation while the Student remains the sole environment operator and Skill author, able to question, test, and adapt advice. To test reuse beyond th"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T00:00:00+00:00"
+  },
+  {
+   "title": "Spectral-Spatial Interpretation unifies spatial, channel attribution",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new attribution method, Spectral-Spatial Interpretation, explains multispectral model predictions over position-channel pairs instead of separate spatial heatmaps and channel scores, which the authors say miss spatially localized channel relevance.",
+   "more": "Post-hoc image explanations usually show where a model looks via spatial heatmaps, or which channels matter via global channel scores — separate views the paper says are limiting for multispectral data, where channel relevance is often spatially localized and physically meaningful. Spectral-Spatial Interpretation (SSI) is introduced as a full-grid attribution method over position-channel pairs. For each spatial position, SSI fixes the observed surrounding context and defines a conditional attribution for that position-channel pair.",
+   "item_ids": [
+    "hf-papers:2610.21114"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.21114",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Spectral-Spatial Interpretation",
+     "url": "https://huggingface.co/papers/2610.21114",
+     "published": "2026-10-22T00:00:00+00:00",
+     "excerpt": "Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce Spectral-Spatial Interpretation (SSI), a full-grid attribution method over position-channel players (g,c). For each spatial position, SSI fixes the observed surrounding context, defines a conditional g"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T00:00:00+00:00"
+  },
+  {
+   "title": "DONIC is a new generalist tracker for bimanual dexterous robot manipulation",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper presents DONIC, described as the first generalist bimanual dexterous tracker, jointly trained to handle the contact-rich, two-handed manipulation behaviors common in real life but underaddressed by prior single-hand models.",
+   "more": "Existing dexterous reference-tracking models focus mainly on single-hand manipulation and a limited range of interactions, leaving common bimanual dexterous behaviors largely unaddressed. The paper attributes this gap to the scarcity of contact-rich bimanual manipulation data and the added complexity of coordinating contacts across two hands. DONIC is presented as the first generalist bimanual tracker, jointly trained across human demonstration data to handle these contact-rich, two-handed tasks.",
+   "item_ids": [
+    "hf-papers:2610.29997"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.29997",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+     "url": "https://huggingface.co/papers/2610.29997",
+     "published": "2026-10-22T00:00:00+00:00",
+     "excerpt": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging. Therefore, we present 1) DONIC, the first generalist bimanual tracker jointly trained acro"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T00:00:00+00:00"
+  },
+  {
+   "title": "Study tests whether pre-training scaling gains transfer to virtual game worlds",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A controlled study of 120 training configurations examines whether continued pre-training gains seen for embodied agents in physical environments also hold in virtual worlds with different visuals, dynamics, and objectives.",
+   "more": "Scaling data, diversity, and model capacity has improved embodied learning in physical environments, where diverse experiences stay grounded in shared physical laws. The paper investigates whether these gains extend to virtual worlds that vary in visual style, dynamics, controls, and objectives. The study examines continued pre-training (CPT) across three axes — data volume, diversity, and model size — spanning 120 training configurations across four model sizes.",
+   "item_ids": [
+    "hf-papers:2610.28698"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.28698",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+     "url": "https://huggingface.co/papers/2610.28698",
+     "published": "2026-10-22T00:00:00+00:00",
+     "excerpt": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume, diversity, and model size. Our 120 training configurations span four model sizes from "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T00:00:00+00:00"
+  },
+  {
+   "title": "NVIDIA's Kumo Relational beats supervised ML on relational data without training",
+   "tags": [
+    "research",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "NVIDIA's Kumo Relational is presented as outperforming supervised machine learning approaches on relational data while requiring no training, according to a new Hugging Face blog post.",
+   "more": "The Hugging Face blog post states that Kumo Relational outperforms supervised machine learning on relational data, and that it requires no training to do so. No further detail on the method or benchmarks was available in today's excerpt.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/nvidia/kumo-relational"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/nvidia/kumo-relational",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+     "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+     "published": "2026-10-21T18:26:30+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T18:26:30+00:00"
+  },
+  {
+   "title": "Specializing small language model vocabularies can cut inference cost by 77%",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hugging Face blog post describes how specializing the vocabulary of small language models for a given application can cut inference cost by as much as 77% in real deployments.",
+   "more": "The post's headline claims vocabulary specialization for SLMs can cut inference cost by up to 77% in real applications. No further methodological detail was available in today's excerpt beyond the title.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+     "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+     "published": "2026-10-21T17:35:36+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T17:35:36+00:00"
+  },
+  {
+   "title": "Blackstone's AI head says fears over AI-buildout debt are overblown",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Blackstone's head of AI, Jas Khaira, pushed back on market jitters over debt tied to the AI infrastructure buildout, saying the private equity giant is not panicked despite the concerns.",
+   "more": "Jas Khaira, who leads AI at Blackstone, addressed growing market concern over debt used to finance the AI infrastructure buildout. He said the private equity giant is not panicked by the jitters.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3180358"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180358",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+     "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+     "published": "2026-10-21T22:51:22+00:00",
+     "excerpt": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T22:51:22+00:00"
+  },
+  {
+   "title": "Zuckerberg agrees to stay in California as Meta locks in AI leadership",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Mark Zuckerberg agreed to remain in California under a new stock agreement, after Meta's board worried his departure — prompted by a billionaires' tax ballot measure — could disrupt the company's AI ambitions.",
+   "more": "Meta's board reportedly feared that Zuckerberg leaving the state could disrupt its AI ambitions. A new stock agreement gives him financial incentives to stay, despite a ballot measure raising taxes on billionaires that had prompted speculation he might relocate.",
+   "item_ids": [
+    "wired-ai:6ad92fb968bf72427a051c84"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ad92fb968bf72427a051c84",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure",
+     "url": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/",
+     "published": "2026-10-21T22:39:50+00:00",
+     "excerpt": "Meta’s board feared that its CEO’s departure could disrupt the company’s AI ambitions. A new stock agreement gives him financial incentives to stay put."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T22:39:50+00:00"
+  },
+  {
+   "title": "Meta to issue a new class of non-voting shares to fund its AI push",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta will issue a new, non-voting class of shares to help fund AI investment, infrastructure expansion, and potential acquisitions, the company said in its Q3 earnings report; trading begins in 2027.",
+   "more": "Meta disclosed the new share class as part of its third-quarter earnings report. The non-voting stock will fund AI initiatives, potential acquisitions, and employee compensation. Trading in the new shares is set to begin in 2027. The company said the scale of investment required to compete, sustain growth, and expand infrastructure is driving the move.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1015799"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1015799",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Meta to create a new class of shares to fund AI push",
+     "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+     "published": "2026-10-21T21:30:02+00:00",
+     "excerpt": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027. \"The scale of investment required to compete, sustain growth, expand infrastructure, […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T21:30:02+00:00"
+  },
+  {
+   "title": "Blacksmith hits $1B valuation after Sequoia-led Series C",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Blacksmith, a platform for building and testing AI code, raised a $66 million Series C led by Sequoia Capital, valuing the company at $1 billion.",
+   "more": "The Series C round was led by Sequoia and totaled $66 million. It values Blacksmith, which lets companies build and test AI code more effectively, at $1 billion, making it a unicorn.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3180202"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180202",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+     "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+     "published": "2026-10-21T17:18:27+00:00",
+     "excerpt": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T17:18:27+00:00"
+  },
+  {
+   "title": "DeepMind founder Hassabis shortens his AGI timeline to two to three years",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Demis Hassabis now expects artificial general intelligence within two to three years, down from the three-to-five-year estimate he gave earlier this year, the Nobel laureate and former DeepMind CEO said.",
+   "more": "Hassabis, a Nobel laureate and former Google DeepMind CEO, has repeatedly moved up his AGI timeline. His new estimate of two to three years is shorter than the three-to-five-year range he cited earlier in the year.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41805"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41805",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Deepmind founder Hassabis shortens AGI timeline from five to two to three years",
+     "url": "https://the-decoder.com/deepmind-founder-hassabis-shortens-agi-timeline-from-five-to-two-to-three-years/",
+     "published": "2026-10-21T17:10:46+00:00",
+     "excerpt": "Demis Hassabis keeps moving up his AGI timeline. The Nobel laureate and former Google Deepmind CEO now expects artificial general intelligence within two to three years, down from three to five years earlier this year. The article Deepmind founder Hassabis shortens AGI timeline from five to two to three years appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T17:10:46+00:00"
+  },
+  {
+   "title": "Data center boom threatens to erase decades of US air quality gains",
+   "tags": [
+    "policy",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A surge of new data centers could push air pollution in Texas back to levels unseen since the 2000s, as the facilities' huge electricity demand gets met partly through gas-fired power.",
+   "more": "Texas has become a hub for the physical infrastructure behind generative AI, with new and proposed data centers demanding enormous amounts of electricity. Meeting this demand — including through gas-fired generation — could roll back decades of air quality improvement. The scale of the pollution risk is tied directly to how much new power generation utilities and developers choose to build to supply these facilities.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1015958"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1015958",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Data centers could erase decades of air quality gains",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+     "published": "2026-10-21T22:33:44+00:00",
+     "excerpt": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How developers and utilities meet that demand - with gas […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T22:33:44+00:00"
+  },
+  {
+   "title": "OpenAI outlines standards for distribution partners on usage policy access",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI published guidance on how it works with distribution partners to uphold consistent safeguards, support responsible access to its models, and clarify expectations under its Usage Policies.",
+   "more": "The post describes how OpenAI works with distribution partners to maintain consistent safeguards across different access points to its models. It aims to clarify expectations for partners under OpenAI's Usage Policies while supporting what the company calls responsible access.",
+   "item_ids": [
+    "openai:https://openai.com/index/broad-access-through-consistent-standards"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/broad-access-through-consistent-standards",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Broad access through consistent standards",
+     "url": "https://openai.com/index/broad-access-through-consistent-standards",
+     "published": "2026-10-21T21:00:00+00:00",
+     "excerpt": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T21:00:00+00:00"
+  },
+  {
+   "title": "Google staff resign over company's AI contracts with the military",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A number of Google employees resigned in protest of the company's AI contracts with the military, according to a Hacker News discussion that drew 121 points and 24 comments.",
+   "more": "The resignations were reported in a Hacker News submission about Google staff objecting to the company's military AI contracts. The post drew 121 points and 24 comments, suggesting notable but moderate community engagement. No further details on the specific contracts or number of resignations were available in today's Items.",
+   "item_ids": [
+    "hn:50186043"
+   ],
+   "items": [
+    {
+     "id": "hn:50186043",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Google staff resign in backlash over its AI contracts with military",
+     "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+     "published": "2026-10-21T19:14:21+00:00",
+     "excerpt": "121 points, 24 comments. Discussion: https://news.ycombinator.com/item?id=50186043"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T19:14:21+00:00"
+  },
+  {
+   "title": "Judge rejects Trump EPA's bid to dismiss data center pollution lawsuit",
+   "tags": [
+    "policy",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A federal judge ruled that the Trump administration's EPA cannot unilaterally dismiss a pollution lawsuit over a SpaceX-linked AI data center, rejecting the agency's claim that it had that authority.",
+   "more": "The ruling concerns a lawsuit over pollution tied to a SpaceXAI data center. The court rejected the EPA's argument that it could unilaterally dismiss such data center pollution lawsuits. The administration's underlying claim is characterized as a significant overreach of agency authority.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
+     "url": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
+     "published": "2026-10-21T18:20:40+00:00",
+     "excerpt": "Trump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T18:20:40+00:00"
+  },
+  {
+   "title": "KittenML releases Kitten-TTS 2, a 1.58-bit open-source TTS model",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "KittenML open-sourced Kitten-TTS 2, calling it the world's first 1.58-bit TTS model; it runs in real time on CPU only, with zero-shot voice cloning, multilingual support, and emotion control.",
+   "more": "Kitten-TTS 2 uses ternary (1.58-bit) weights, which KittenML says lets it run locally or be self-hosted very cheaply. The model runs in real time using only a CPU, with no GPU required. It supports zero-shot voice cloning, multiple languages, and expressive or emphasis control. Both code and weights are released as open source, with the project hosted on GitHub and Hugging Face.",
+   "item_ids": [
+    "localllama:t3_1xc48or"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xc48or",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Kitten-TTS 2: New Open-source SOTA 1.58 bit TTS (CPU-only with voice cloning, multilingual, emotion control)",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/",
+     "published": "2026-10-22T00:33:11+00:00",
+     "excerpt": "KittenML has just released code and weights of Kitten-TTS 2, which is a super-efficient frontier TTS model, and the world's first 1.58-bit TTS model . It runs in real time on just a CPU, with zero-shot voice cloning, multilingual support, and expressive / emphasis control. Code and weights are open-source. Ternary(1.58-bit) Weights means it can run locally or be self-hosted for super-cheap. Github: https://github.com/KittenML/KittenTTS Hugging Face: https://huggingface.co/KittenML/kitten-tts-2 K"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T00:33:11+00:00"
+  },
+  {
+   "title": "Recursive launches Flint, a laptop-sized coding model mostly built by AI",
+   "tags": [
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Startup Recursive released Flint, a free, laptop-sized coding model it says was largely built by its own AI research system — an early test of AI that improves itself.",
+   "more": "Flint is described as a free, laptop-sized coding model, meaning it is small enough to run on consumer laptop hardware. Recursive says the model was largely built by its own AI research system rather than by human engineers. The release is framed as an early test of AI systems that can improve themselves.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3180324"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180324",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+     "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+     "published": "2026-10-21T20:27:41+00:00",
+     "excerpt": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T20:27:41+00:00"
+  },
+  {
+   "title": "Mistral releases Mistral Large 4",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Mistral released Mistral Large 4, according to a Hacker News submission that drew 318 points and 94 comments; further release details were not available in today's Items.",
+   "more": "The announcement was shared on Hacker News, where it drew 318 points and 94 comments, indicating strong community interest. No additional source confirmed details of the release in today's Items.",
+   "item_ids": [
+    "hn:50186129"
+   ],
+   "items": [
+    {
+     "id": "hn:50186129",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Mistral Large 4",
+     "url": "https://mistral.ai/news/mistral-large-4/",
+     "published": "2026-10-21T19:20:55+00:00",
+     "excerpt": "318 points, 94 comments. Discussion: https://news.ycombinator.com/item?id=50186129"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T19:20:55+00:00"
+  },
+  {
+   "title": "Google Cloud adds OpenAI's GPT-6 models, becoming first cloud with all three labs",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google Cloud now offers OpenAI's GPT-6 Astra, Sol, and Luna alongside Gemini and Claude, making it the only major cloud provider hosting models from all three top AI labs; the OpenAI models arrive as a private preview for enterprise customers.",
+   "more": "The new models — GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Luna — are available at launch as a private preview for enterprise customers. This makes Google Cloud the first major cloud provider to offer Gemini, Claude, and OpenAI's GPT models together on a single platform. The OpenAI models are also coming to Google's Antigravity product in the coming weeks.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41808",
+    "ars-ai:https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41808",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the only major provider with all three",
+     "url": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three/",
+     "published": "2026-10-21T17:44:22+00:00",
+     "excerpt": "Google Cloud is the first major cloud provider to offer Gemini, Claude, and OpenAI's GPTs on a single platform. At launch, GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Luna are available as a private preview for enterprise customers. The article Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the only major provider with all three appeared first on The Decoder ."
+    },
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+     "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+     "published": "2026-10-21T18:51:42+00:00",
+     "excerpt": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-21T18:51:42+00:00"
+  },
+  {
+   "title": "Meta says Muse has topped 10 million users, with shopping a top use case",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta revealed during its Q3 earnings call that its Muse AI app has surpassed 10 million users, with shopping and personal productivity emerging as the most popular activities.",
+   "more": "Meta shared the user figures during its third-quarter earnings call. The company said Muse users are increasingly turning to the app for shopping and for personal productivity tasks. The app now counts more than 10 million users, according to Meta.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3180391"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180391",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Meta says Muse has over 10M users, with shopping a top activity",
+     "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+     "published": "2026-10-21T21:14:19+00:00",
+     "excerpt": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T21:14:19+00:00"
+  },
+  {
+   "title": "AT&T's in-house legal team rethinks workflows with OpenAI",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "AT&T is working with OpenAI to make legal knowledge easier to access, with its LegalEdge team rethinking how it handles case intake and scales legal judgment across the organization.",
+   "more": "The collaboration centers on AT&T's LegalEdge team. OpenAI says the partnership focuses on rethinking how legal intake is handled and on scaling legal judgment within AT&T's in-house legal department.",
+   "item_ids": [
+    "openai:https://openai.com/index/att-legal"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/att-legal",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "How AT&T is rethinking in-house legal work with OpenAI",
+     "url": "https://openai.com/index/att-legal",
+     "published": "2026-10-21T17:00:00+00:00",
+     "excerpt": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T17:00:00+00:00"
+  },
+  {
+   "title": "Anthropic launches Claude Duet, an AI agent to rival Meta's Muse and OpenAI's Dots",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic launched Claude Duet, a research-preview AI agent for professionals and small business owners, available as a standalone iOS and Android app and through Claude on the web, competing with Meta's Muse and OpenAI's Dots.",
+   "more": "Claude Duet is designed for professionals and small business owners rather than general consumers. It launches as a research preview and is available both as a standalone app on iOS and Android and through Claude on the web. The move positions Anthropic directly against Meta's Muse and OpenAI's Dots in the emerging market for consumer-facing AI agents. The Hacker News discussion of the launch drew 344 points and 315 comments, among the most active threads of the day.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1015843",
+    "hn:50186037"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1015843",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+     "published": "2026-10-21T19:53:20+00:00",
+     "excerpt": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is […]"
+    },
+    {
+     "id": "hn:50186037",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Claude Duet",
+     "url": "https://claude.com/product/claude-duet",
+     "published": "2026-10-21T19:14:01+00:00",
+     "excerpt": "344 points, 315 comments. Discussion: https://news.ycombinator.com/item?id=50186037"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-21T19:53:20+00:00"
+  },
+  {
+   "title": "Walmart opens its site to AI shopping agents as Amazon keeps them out",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Walmart will let AI agents shop on its site next month, with controls for approving purchases and setting spending limits — a contrasting stance to Amazon, which blocks AI agents from shopping on its platform.",
+   "more": "Starting next month, Walmart will allow AI agents to shop on its website on shoppers' behalf. The retailer is building in systems so customers can approve and review purchases and set spending limits on what agents buy. The move is framed as a direct contrast to Amazon, which currently blocks AI agents from shopping on its site. The split reflects a broader industry divide over how retailers should treat autonomous AI shopping agents.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1015715",
+    "techcrunch-ai:https://techcrunch.com/?p=3180139"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1015715",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Walmart is inviting AI agents to shop for you",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
+     "published": "2026-10-21T19:30:00+00:00",
+     "excerpt": "Walmart will soon let AI agents shop on its website for you. Next month, the retail giant will allow you to use an AI agent on the site, with systems in place to let you approve and review purchases and set spending limits. The embrace of AI agents stands in stark contrast to Amazon, which […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180139",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+     "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+     "published": "2026-10-21T19:30:00+00:00",
+     "excerpt": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-21T19:30:00+00:00"
+  },
+  {
+   "title": "Critical PHP RCE flaw found by AI tools gets exploited after disclosure leak",
+   "tags": [
+    "tools",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon independently found a critical PHP remote-code-execution flaw patched across PHP 8.x; a leaked disclosure let hackers exploit it for days before patches landed.",
+   "more": "OpenAI's GPT-5.6 Sol discovered the flaw through its Patch the Planet initiative, while security firm Wiz independently found the same bug using Google's Gemini 4 Argon. The two CVEs began circulating on forums around 15:00 UTC on October 20th after a leak in the coordinated disclosure process, according to the PHP Foundation. Fixes landed across the entire PHP 8.x line, and the PHP Foundation says it is strengthening its security practices as a result. AWS logged exploitation attempts starting four days before patches shipped, and the bugs are now being broadly exploited across the internet. OpenAI noted that the same AI capabilities that find vulnerabilities can also help attackers exploit them.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3180197",
+    "decoder:https://the-decoder.com/?p=41815",
+    "wired-ai:6ad955a28e3faf9869a11a20",
+    "simonw:https://simonwillison.net/2026/Oct/21/php-security-release/"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180197",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+     "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+     "published": "2026-10-21T17:59:12+00:00",
+     "excerpt": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=41815",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
+     "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
+     "published": "2026-10-21T19:45:01+00:00",
+     "excerpt": "OpenAI's GPT-5.6 Sol discovered a critical PHP vulnerability as part of the Patch the Planet initiative that could affect millions of websites. Security firm Wiz independently found the same flaw using Google's Gemini 4 Argon. OpenAI warns that the same AI capabilities that find vulnerabilities can help attackers too. The article OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites appeared first on The Decoder ."
+    },
+    {
+     "id": "wired-ai:6ad955a28e3faf9869a11a20",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+     "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
+     "published": "2026-10-22T02:24:17+00:00",
+     "excerpt": "Amazon Web Services logged attempts to leverage the internet-melting PHP2Shell bugs four days ago. They’re now being “broadly exploited” across the internet."
+    },
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/21/php-security-release/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+     "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+     "published": "2026-10-21T18:41:53+00:00",
+     "excerpt": "Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and s"
+    }
+   ],
+   "coverage": 4,
+   "newest": "2026-10-22T02:24:17+00:00"
+  },
+  {
+   "title": "TechCrunch announces its 2026 Founder Summit in Boston on November 4",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch is holding its Founder Summit, a full-day event in Boston on November 4 where founders across all stages can connect with VCs and experienced entrepreneurs for tactical advice.",
+   "more": "The Founder Summit is a full-day gathering in Boston. It is designed to let founders across all stages connect with top VCs and experienced entrepreneurs. The event focuses on tactical insights for building and scaling companies.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3168635"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3168635",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+     "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+     "published": "2026-10-21T21:16:20+00:00",
+     "excerpt": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T21:16:20+00:00"
+  },
+  {
+   "title": "Opinion: Apple Music's human-crafted branding stands out in an AI-slop world",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "An opinion piece argues that Apple Music's new emphasis on human-crafted branding matters precisely because it highlights the human hands making things amid a flood of AI-generated content.",
+   "more": "The piece is framed as an opinion on Apple Music's rebrand. It argues that in a world increasingly filled with AI-generated slop, showcasing the human effort behind creative work has renewed value.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "The new human-crafted Apple Music brand matters in an AI world",
+     "url": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
+     "published": "2026-10-21T19:44:40+00:00",
+     "excerpt": "Opinion: In a world of AI slop, showing the human hands making things helps."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T19:44:40+00:00"
+  }
+ ]
+}
