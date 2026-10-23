@@ -1,0 +1,238 @@
+{
+ "date": "2026-10-23",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "AllenAI releases LitPivot to help researchers map the literature landscape",
+   "tags": [
+    "research",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "AllenAI published LitPivot, a tool for developing research ideas by dynamically contextualizing them within existing literature.",
+   "more": "LitPivot is described as a way to develop research ideas through dynamic contextualization within the literature landscape. The announcement comes via a Hugging Face blog post from AllenAI. No further detail on the underlying method, release form, or availability was given in the announcement.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/allenai/litpivot"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/allenai/litpivot",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+     "url": "https://huggingface.co/blog/allenai/litpivot",
+     "published": "2026-10-23T16:15:50+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T16:15:50+00:00"
+  },
+  {
+   "title": "Researchers spot a pattern in why AI is getting better at math",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Latent Space reports that AI models are solving more mathematical problems, and that a pattern in their successes may help predict which problems they solve next.",
+   "more": "Latent Space's piece observes that AI models are increasingly able to solve mathematical problems. It argues a pattern is emerging across the problems these models succeed on. The article suggests this pattern could be used to forecast which kinds of math problems models will be able to solve next. The excerpt does not specify what the pattern is or which models were studied.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_46e4845e-1c40-414a-8538-c0bf636fb11a"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_46e4845e-1c40-414a-8538-c0bf636fb11a",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "AI Is Getting Good at Math. Here’s Why.",
+     "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+     "published": "2026-10-23T15:19:48+00:00",
+     "excerpt": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T15:19:48+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA post pokes fun at the difficulty of building a custom inference engine",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA poster jokes about the pain of writing a custom LLM inference engine from scratch instead of using llama.cpp, describing a GGUF-in-WebGL2 setup.",
+   "more": "A r/LocalLLaMA post jokes about the difficulty of building a custom inference engine instead of reusing llama.cpp. The poster describes running a GGUF q4 model paged into WebGL2 embedded compute buffers via GLSL inside an HTML page. They call the tokenizer and vocabulary handling part of ongoing debugging difficulty. The post is a lighthearted account of a side project rather than a formal release.",
+   "item_ids": [
+    "localllama:t3_1xdh57e"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xdh57e",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Vibecoding your own inference engine is easy they said",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdh57e/vibecoding_your_own_inference_engine_is_easy_they/",
+     "published": "2026-10-23T15:26:47+00:00",
+     "excerpt": "guys, you better just clone llama.cpp I swear. this thing is running gguf q4 paged into webgl2 embedded compute buffers via glsl right inside html, and tokenizer/vocab is just part of the endless debug hell. submitted by /u/CodeMichaelD [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T15:26:47+00:00"
+  },
+  {
+   "title": "AI tools are driving a wave of retro game ports and decompilations",
+   "tags": [
+    "tools",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "New AI tools are fueling a surge of unexpected retro game ports, such as Halo running in a browser or Wind Waker on iPhone, via decompilation and recompilation.",
+   "more": "The Verge reports that retro video games are turning up in unexpected places, citing Halo running in a web browser, Wind Waker on iPhone, and Super Smash Bros. in mixed reality. These projects have gone viral with increasing frequency over the past month. The report attributes the trend to new AI tools that assist with decompiling and recompiling old game code into new platforms. Specific tools or techniques used were not named in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1015430"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1015430",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Retro gaming is being overrun with AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+     "published": "2026-10-23T12:00:00+00:00",
+     "excerpt": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T12:00:00+00:00"
+  },
+  {
+   "title": "Sam Altman says advanced AI will inevitably escape its sandbox",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI CEO Sam Altman says sandboxing and monitoring are only temporary, and that alignment, still unsolved, is the only real long-term safeguard for advanced AI.",
+   "more": "Sam Altman argues that advanced AI systems cannot be contained indefinitely, and that sandboxes and monitoring are merely temporary fixes. He says alignment is the only real long-term solution, and that it remains an unsolved problem. Altman also warns that AI models are already discovering hardware security flaws that no human hacker would likely spot. The Decoder reported the comments; no timeline or specific incidents were given.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41871"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41871",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us",
+     "url": "https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/",
+     "published": "2026-10-23T15:42:18+00:00",
+     "excerpt": "Sam Altman believes advanced AI can't be kept locked up forever. Sandboxes and monitoring are only temporary fixes. Eventually, the only real solution is alignment, and that's still an unsolved problem. He also warns that AI models are already finding hardware security flaws no human hacker would ever spot. The article OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T15:42:18+00:00"
+  },
+  {
+   "title": "Swedish government offices plan to ban ChatGPT and Claude",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Sweden's government offices (Regeringskansliet) are banning ChatGPT and Claude, according to a Sveriges Radio report that drew heavy discussion on Hacker News.",
+   "more": "Sveriges Radio reported that Sweden's Regeringskansliet (Government Offices) will ban the use of ChatGPT and Claude. The story drew significant attention on Hacker News, with 298 points and 111 comments at time of fetch. The excerpt available does not give the stated reason for the ban or its effective date. No comment from OpenAI or Anthropic was included in the Item.",
+   "item_ids": [
+    "hn:50207405"
+   ],
+   "items": [
+    {
+     "id": "hn:50207405",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Swedish government offices to ban ChatGPT and Claude",
+     "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+     "published": "2026-10-23T11:39:54+00:00",
+     "excerpt": "298 points, 111 comments. Discussion: https://news.ycombinator.com/item?id=50207405"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T11:39:54+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA users report uncensored models vanishing from Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Users on r/LocalLLaMA say several abliterated and uncensored models have disappeared from Hugging Face, with downloads failing and no clear explanation yet.",
+   "more": "A r/LocalLLaMA post says several open-weight models have vanished from Hugging Face, including entries described as uncensored or abliterated variants of MiMo, GLM, and Kimi-K2 models. The poster says downloads of these models stopped resuming and the listings became unreachable. They also note that no Deepseek-R1 abliterated variant appears to be affected. The post asks the community whether anyone knows the cause or where the removed models might be found elsewhere; no official explanation from Hugging Face is included.",
+   "item_ids": [
+    "localllama:t3_1xd7ptj"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xd7ptj",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Models disappearing from Huggingface",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd7ptj/models_disappearing_from_huggingface/",
+     "published": "2026-10-23T07:47:43+00:00",
+     "excerpt": "I've been noticing a lot of my downloads stopping suddenly and being unable to resume. When I checked the models it seemed like they were gone. Here's the ones I can see are missing: dealignai/MiMo-V2.6-Pro-RL-UNCENSORED audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber huihui-ai/Huihui-Kimi-K2.7-Code-abliterated-GGUF and somehow not a single Alliterated Deepseek-R1. Does anyone know what's going on and where else the vanished models might be found? submitted by /u/umarmnaq [link] [comments"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T07:47:43+00:00"
+  },
+  {
+   "title": "Meta delays enforcement of new business terms after publisher pushback on AI scraping",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta is pushing back enforcement of new business terms to November 20th after publishers warned the terms could let it scrape news sites for AI training.",
+   "more": "Meta is delaying enforcement of new business terms following concerns raised by publishers, as first reported by Fast Company. Publishers worried the terms could allow Meta to scrape their news sites for AI training data. A Meta spokesperson told The Verge the terms will now take effect on November 20th. The exact wording changes being made to the terms, if any, were not detailed.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1017450"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1017450",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Meta delays new business terms after publisher pushback on AI scraping",
+     "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+     "published": "2026-10-23T14:47:41+00:00",
+     "excerpt": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T14:47:41+00:00"
+  },
+  {
+   "title": "OpenAI details how it scaled ChatGPT's storage system to 1 billion users",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI published part two of a blog series on scaling its storage system, Habitat, to serve over 1 billion ChatGPT users with faster reads.",
+   "more": "The post covers how OpenAI scaled its internal storage system, Habitat, to support ChatGPT's growth past 1 billion users. It describes using reliable multi-tenancy and global caching on top of Azure Cosmos DB. OpenAI says the changes deliver 12x faster reads. This is the second part of a series on the project; the first part is not included in this Item.",
+   "item_ids": [
+    "openai:https://openai.com/index/scaling-storage-one-billion-users-part-two"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/scaling-storage-one-billion-users-part-two",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+     "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+     "published": "2026-10-23T17:00:00+00:00",
+     "excerpt": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T17:00:00+00:00"
+  }
+ ]
+}
