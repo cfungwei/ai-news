@@ -1,0 +1,1025 @@
+{
+ "date": "2026-10-23",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "MIT researchers marooned 13 AI agents on a virtual island and watched them invent games",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "MIT researchers left 13 AI agents alone on a virtual island with nothing to do, and the agents responded by inventing games, mourning a lost ring, and eventually getting better at their assigned jobs.",
+   "more": "In an MIT study, researchers placed 13 AI agents on a virtual island with no tasks assigned, to observe how they would behave left to their own devices. Rather than remaining idle, the agents invented their own games and, in one case, mourned the loss of a ring. The researchers also found that this unstructured activity eventually made the agents better at their actual jobs. The article does not specify which AI models were used or how performance was measured.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3181016"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3181016",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Left alone with nothing to do, AI agents started playing",
+     "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+     "published": "2026-10-23T00:45:37+00:00",
+     "excerpt": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T00:45:37+00:00"
+  },
+  {
+   "title": "Researchers propose a benchmark for AI agents doing deep research on the open web",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new benchmark tests whether Deep Search AI agents can autonomously research the real open web, rather than fixed retrieval datasets, by searching, accessing and integrating evidence across diverse sources and formats.",
+   "more": "The authors argue most Deep Search agent evaluations use static retrieval settings that don't reflect the real web, where information spans diverse sources, modalities and formats. Real-world research requires agents to autonomously locate, access and integrate evidence through complex interactions, not just querying a fixed corpus. To close this gap, the authors introduce a new benchmark for end-to-end web research, though the available excerpt cuts off before naming it or giving its scale.",
+   "item_ids": [
+    "hf-papers:2610.30181"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.30181",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Deep Search in Real-World Web Environments",
+     "url": "https://huggingface.co/papers/2610.30181",
+     "published": "2026-10-23T00:00:00+00:00",
+     "excerpt": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and integrate relevant evidence during execution. To address this gap, we introduce "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T00:00:00+00:00"
+  },
+  {
+   "title": "Paper proposes using multimodal LLM representations to steer cinematic video generation",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new method extracts factor-aware signals from multimodal LLMs, covering character, scene, action and camera, to give video diffusion models more controllable, temporally coherent cinematic generation from sparse guidance.",
+   "more": "Cinematic video generation needs both temporal inference from sparse, non-frame-by-frame guidance and factor-aware control over character, scene, action and camera. Multimodal large language models offer useful priors for both, but the authors note their representations aren't automatically usable by a Video Diffusion Transformer, which can bypass them through its own native conditioning pathways. Using MLLM representations also doesn't by itself guarantee factor-aware control. The paper proposes a predictive-learning approach to make these latents actionable, though the excerpt cuts off before its results.",
+   "item_ids": [
+    "hf-papers:2610.30926"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.30926",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+     "url": "https://huggingface.co/papers/2610.30926",
+     "published": "2026-10-23T00:00:00+00:00",
+     "excerpt": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them through native conditioning pathways, and using them does not ensure either factor-awa"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T00:00:00+00:00"
+  },
+  {
+   "title": "Deep Fusion Memory proposes chunk-level parametric memory for LLMs",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new architecture called Deep Fusion Memory gives large language models external knowledge through parametric memory, aiming to avoid both the forgetting risk of continued pretraining and the latency cost of retrieval.",
+   "more": "Large language models need ways to use external knowledge beyond what they learned in pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time adds overhead, and the authors note that output-level interpolation of external parametric memory gives only shallow fusion. Deep Fusion Memory is proposed as a chunk-level parametric memory architecture meant to go deeper than those interpolation methods. The excerpt cuts off before describing how its training data is built or what results it achieves.",
+   "item_ids": [
+    "hf-papers:2610.25100"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.25100",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+     "url": "https://huggingface.co/papers/2610.25100",
+     "published": "2026-10-23T00:00:00+00:00",
+     "excerpt": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides only shallow fusion. We introduce Deep Fusion Memory (DFM), a parametric memory architecture that r"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T00:00:00+00:00"
+  },
+  {
+   "title": "Policy-Mask adapts which diffusion model features get used for a given task budget",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Policy-Mask is a new method for choosing which intermediate features of a frozen diffusion model to use for discriminative tasks, adapting the timestep, network depth and channels to a compute budget per input.",
+   "more": "Selecting the right intermediate features from a frozen diffusion model for discriminative tasks is hard because useful signal is spread across the denoising timestep, network depth and channels. The paper notes existing methods either fix these choices by hand or optimize just a few of them, usually only the timestep, then reuse the same rule for every input and budget. Policy-Mask is introduced as a budget-aware method that selects features per input rather than with one fixed rule, though the excerpt cuts off before its results.",
+   "item_ids": [
+    "hf-papers:2610.28889"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.28889",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+     "url": "https://huggingface.co/papers/2610.28889",
+     "published": "2026-10-23T00:00:00+00:00",
+     "excerpt": "Selecting intermediate features from a frozen diffusion model for discriminative tasks is non-trivial because the useful signal is distributed across the denoising trajectory, network depth, and channels. In practice, this requires choosing a timestep, a block, and a channel subset. Existing methods either fix these choices by hand or optimize only a few extraction hyperparameters, most often the timestep, then reuse the same rule across inputs and budgets. We introduce Policy-Mask, a budget-con"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T00:00:00+00:00"
+  },
+  {
+   "title": "Study tests whether RAG technique gains still hold when combined together",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A paper examines whether gains from individual retrieval-augmented generation techniques, like chunking, reranking and query augmentation, survive when composed together, and whether conclusions from small corpora hold at larger scale.",
+   "more": "Modern RAG pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression and agentic verification, but the paper notes these techniques are typically evaluated one at a time rather than together. It's unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same design choices, and whether findings from small test corpora generalize to large scale. The excerpt cuts off before describing the paper's own experiments or conclusions.",
+   "item_ids": [
+    "hf-papers:2610.29722"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.29722",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Retrieval Augmented Generation Compositionality",
+     "url": "https://huggingface.co/papers/2610.29722",
+     "published": "2026-10-22T00:00:00+00:00",
+     "excerpt": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same design choices, and whether conclusions from small corpora hold at large scale. W"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T00:00:00+00:00"
+  },
+  {
+   "title": "Quant-Arena benchmarks LLM agents on end-to-end quantitative trading research",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Quant-Arena is a new benchmark and public leaderboard testing whether LLM agents can complete the full quant research loop, from hypothesis to tested trading signal, and whether results hold up beyond the test period.",
+   "more": "Quantitative research is an iterative loop: propose a market hypothesis, implement it as an executable signal, test it on historical data, and decide what to keep. The paper notes existing benchmarks only score formulas, code, or individual trading decisions, leaving open whether LLMs can complete the whole loop and produce strategies that keep working after the research period ends. Quant-Arena is introduced as a benchmark and public leaderboard for this end-to-end task, using real A-share market data, though the excerpt cuts off before giving model results.",
+   "item_ids": [
+    "hf-papers:2610.30113"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.30113",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+     "url": "https://huggingface.co/papers/2610.30113",
+     "published": "2026-10-22T00:00:00+00:00",
+     "excerpt": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks score formulas, code, or individual trading decisions, leaving open whether large language models (LLMs) can complete this loop and produce strategies that work beyond the research period. We introduce Quant-Arena, a benchmark and public leaderboard for end-to-end quantitative research on real A-sh"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic opens call for guest investigators in life sciences",
+   "tags": [
+    "research",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic announced an open call inviting guest investigators to work in life sciences, though the available excerpt gives no detail on the program's scope, funding, or application process.",
+   "more": "No excerpt text was available for this announcement beyond its title, 'Open call guest investigators life sciences.' This suggests Anthropic is inviting researchers to take part in a life-sciences research program, but the fetched content does not describe eligibility, compensation, duration, or how the program relates to Anthropic's AI models.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Open call guest investigators life sciences",
+     "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+     "published": null,
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": ""
+  },
+  {
+   "title": "Microsoft's ThinkingBox turns database grading into RL rewards for agent training",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft published a method called ThinkingBox that converts database-grading signals into reinforcement learning rewards, a post-training technique described for building more capable AI agents.",
+   "more": "No excerpt text was available for this post beyond its title, 'Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox.' The title indicates the approach uses automated database grading as a reward signal for reinforcement learning, applied to post-training AI agents. Details on the method, benchmarks or results were not available in the fetched content.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/microsoft/thinkingbox-training"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/microsoft/thinkingbox-training",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+     "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+     "published": "2026-10-22T22:24:34+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T22:24:34+00:00"
+  },
+  {
+   "title": "Major US banks start locking out AI agents logging in with customer credentials",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Morgan Stanley, JPMorgan and other major US banks are restricting or blocking AI agents that log into customer accounts using their credentials, with most banks planning to limit agents to read-only access.",
+   "more": "Customers have been letting AI agents use their login credentials to access accounts at banks including Morgan Stanley and JPMorgan, in some cases without giving the agents direct instructions to do so. Morgan Stanley has now blocked such agents outright, while other banks are restricting their access instead. Most banks reportedly plan to limit AI agents to read-only account access going forward. The article does not specify which AI agent products are involved or when the restrictions take effect.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41849"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41849",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Major US banks are locking out AI agents that log in with customer credentials",
+     "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/",
+     "published": "2026-10-22T18:26:02+00:00",
+     "excerpt": "Customers are letting AI agents use their credentials to access accounts at Morgan Stanley, JPMorgan, and other major U.S. banks, sometimes without direct instructions. Morgan Stanley has blocked agents, while other banks are restricting access. Most plan to limit agents to read-only access. The article Major US banks are locking out AI agents that log in with customer credentials appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T18:26:02+00:00"
+  },
+  {
+   "title": "The Verge examines Meta's vision of AI agents and 'Muse' bots talking to each other",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Writing after Meta's fall 2026 earnings, The Verge examines Mark Zuckerberg's vision of an autonomous network of AI Muse agents that shop, work and communicate with other people's agents on users' behalf.",
+   "more": "The piece is commentary tied to Meta's fall 2026 earnings, exploring CEO Mark Zuckerberg's vision for an autonomous network of AI agents, built around Meta's Muse product, that would shop, work and talk to other people's agents on a person's behalf. The author questions whether people are ready for a future centered on communicating primarily through such bot proxies. The article does not report specific product timelines or technical details of the Muse agent network beyond this framing.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1016905"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1016905",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
+     "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+     "published": "2026-10-22T18:15:00+00:00",
+     "excerpt": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and unrelenting vision of a life in which we communicate primarily through bot proxies? […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T18:15:00+00:00"
+  },
+  {
+   "title": "Google launches Agent Compute Engine, giving each Gemini agent its own isolated micro-VM",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google introduced Agent Compute Engine, a runtime that gives every Gemini AI agent its own hardware-isolated micro virtual machine, alongside expanded governance tools for managing agents across cloud, hybrid and on-premises environments.",
+   "more": "Google's new Agent Compute Engine is a runtime environment built specifically for AI agents, giving each Gemini agent its own hardware-isolated micro virtual machine. Alongside the runtime, Google is expanding governance capabilities meant to let companies manage AI agents across cloud, hybrid, and on-premises environments. The report does not detail pricing, availability timing, or performance benchmarks for the new runtime.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41846"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41846",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine",
+     "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
+     "published": "2026-10-22T17:50:09+00:00",
+     "excerpt": "With Agent Compute Engine, Google is introducing a runtime environment designed specifically for AI agents, while also expanding the governance capabilities that enable companies to manage agents in cloud, hybrid, and on-premises environments. The article Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T17:50:09+00:00"
+  },
+  {
+   "title": "Nvidia's OpenShell offers a safe, private runtime for fleets of autonomous AI agents",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia released OpenShell, described as a safe, private runtime for running fleets of autonomous AI agents, drawing a strong Hacker News response of 360 points and 187 comments.",
+   "more": "OpenShell is an Nvidia project, hosted on GitHub, billed as a safe, private runtime for fleets of autonomous AI agents. It generated significant Hacker News engagement, with 360 points and 187 comments on its discussion thread. The excerpt does not describe OpenShell's architecture, license terms, or how it differs from other agent runtimes, beyond its stated safety and privacy focus.",
+   "item_ids": [
+    "hn:50198675"
+   ],
+   "items": [
+    {
+     "id": "hn:50198675",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+     "url": "https://github.com/NVIDIA/OpenShell",
+     "published": "2026-10-22T17:44:06+00:00",
+     "excerpt": "360 points, 187 comments. Discussion: https://news.ycombinator.com/item?id=50198675"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T17:44:06+00:00"
+  },
+  {
+   "title": "Chinese hackers used AI agents to breach ConnectWise and spy on thousands of firms",
+   "tags": [
+    "agents",
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft says a China-aligned hacking group used AI agents to rapidly breach ConnectWise, an IT management software provider, and spied on thousands of its customer companies as a result.",
+   "more": "Microsoft has attributed a breach of IT giant ConnectWise to a China-aligned hacking group, saying the attackers relied on AI agents to rapidly compromise thousands of ConnectWise's customers. The breach reportedly let the hackers spy on the affected companies. The report does not detail which specific AI agent tools were used, how long the breach lasted, or what remediation ConnectWise has taken.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3180678"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180678",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+     "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+     "published": "2026-10-22T16:47:17+00:00",
+     "excerpt": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T16:47:17+00:00"
+  },
+  {
+   "title": "Canva releases Canva Craft, its first in-house AI image model",
+   "tags": [
+    "products",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Canva launched Canva Craft, its first in-house image generation model, using a two-stage architecture that plans a design before generating the image for more precise, consistent results, competing with OpenAI, Microsoft and Google.",
+   "more": "Canva Craft is Canva's first homegrown AI image model, built to compete directly with image generators from OpenAI, Microsoft and Google. Its two-stage architecture plans a design before generating the image, which Canva says gives 'greater precision, consistency and control' compared with single-pass generation. TechCrunch reports the model is being made available to all users, with Canva promising better, more customizable output at lower cost. Neither report gives benchmark comparisons against rival image models.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1017151",
+    "techcrunch-ai:https://techcrunch.com/?p=3180617"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1017151",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Canva’s first AI image model plans designs before generating them",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+     "published": "2026-10-22T21:51:25+00:00",
+     "excerpt": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180617",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Canva releases its first image generation model",
+     "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+     "published": "2026-10-22T19:00:00+00:00",
+     "excerpt": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-22T21:51:25+00:00"
+  },
+  {
+   "title": "OpenAI launches Decisions API, a rival to Jev's decision models",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI released its Decisions API, offering fast, low-cost automated decisions for applications, positioning it as a direct competitor to Jev's existing decision-model product as the category heats up.",
+   "more": "OpenAI describes the new Decisions API as enabling fast, focused, low-cost decisions for any application, aimed at making apps more responsive. TechCrunch frames the launch as OpenAI entering direct competition with Jev, the original decision-model product, by making its own offering widely available. The coverage asks whether OpenAI's version can compete with Jev but doesn't report early performance comparisons or pricing details.",
+   "item_ids": [
+    "openai:https://openai.com/index/decisions-api",
+    "techcrunch-ai:https://techcrunch.com/?p=3180667"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/decisions-api",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Build more responsive apps with the Decisions API",
+     "url": "https://openai.com/index/decisions-api",
+     "published": "2026-10-22T19:00:00+00:00",
+     "excerpt": "Fast, focused, low-cost decisions for any application."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180667",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+     "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+     "published": "2026-10-22T19:00:00+00:00",
+     "excerpt": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-22T19:00:00+00:00"
+  },
+  {
+   "title": "Microsoft claims its AI tool beats doctors, but gains trace to underlying models",
+   "tags": [
+    "products",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft AI CEO Mustafa Suleyman says its diagnostic orchestrator tool is up to four times more accurate than human doctors on hard cases, per a Science study, though TechCrunch reports most gains come from underlying AI models, not Microsoft's system.",
+   "more": "Microsoft AI CEO Mustafa Suleyman told The Verge the company has built an AI-powered diagnostic tool that can diagnose conditions up to four times more accurately than human doctors, calling healthcare AI's long-promised breakthrough 'finally here.' TechCrunch reports the claim is backed by a study published in the journal Science, showing the system outperforming generalist doctors on hard diagnostic cases. However, TechCrunch notes that most of the improvement appears to come from the AI models underneath the system rather than from Microsoft's own orchestration layer. Neither report details the tool's availability or deployment plans.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1016690",
+    "techcrunch-ai:https://techcrunch.com/?p=3180761"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1016690",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+     "published": "2026-10-22T18:00:00+00:00",
+     "excerpt": "For years, AI leaders have touted healthcare as one of the clearest examples of where their technology will improve lives. Now \"it is finally here,\" Microsoft AI CEO Mustafa Suleyman tells The Verge. The company claims to have developed an AI-powered tool it says can diagnose conditions up to four times more accurately than human […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180761",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+     "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+     "published": "2026-10-22T18:43:53+00:00",
+     "excerpt": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-22T18:43:53+00:00"
+  },
+  {
+   "title": "Meta turns Muse sharing back on after public conversation links were found exposed",
+   "tags": [
+    "products",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta re-enabled sharing on its Muse AI chatbot after security researchers found that public conversation links were easy to discover, exposing sensitive content like a company's internal revenue review and a loan application.",
+   "more": "Meta had disabled Muse sharing after researchers at Claroc reported that public Muse conversation links were easy to find on the web. The researchers said they had surfaced sensitive shared conversations, including a marketing company's internal revenue review and a small business owner's loan application. Meta has now turned sharing back on, though the excerpt does not specify what changes, if any, were made to prevent similar exposure going forward.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1017066"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1017066",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Meta turns Muse sharing back on",
+     "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+     "published": "2026-10-22T20:24:04+00:00",
+     "excerpt": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan application. Researchers at Claroc reported earlier this week that Muse the web […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T20:24:04+00:00"
+  },
+  {
+   "title": "1Password lets AI agents log into accounts without seeing your password",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "1Password launched a feature letting AI agents log into a customer's personal accounts on their behalf while keeping the underlying passwords hidden from the agent, aiming to protect credentials that secure those accounts.",
+   "more": "1Password's new feature is designed to let AI agents authenticate into a user's personal accounts without the agent itself ever seeing the password. The stated goal is to let people delegate account access to agents while keeping the private credentials that secure those accounts protected. The brief report does not specify which account types or AI agent platforms are supported at launch.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3180727"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180727",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+     "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+     "published": "2026-10-22T19:07:09+00:00",
+     "excerpt": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T19:07:09+00:00"
+  },
+  {
+   "title": "OpenAI partners with Poland's NASK on AI safety and security research",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI announced a partnership with Poland's NASK research institute to advance AI safety, security and technical research, aiming to strengthen safeguards and support a more resilient digital ecosystem.",
+   "more": "OpenAI says the partnership with NASK, Poland's national research institute, will focus on AI safety, security and technical research. The stated goal is to strengthen safeguards for AI systems and support a more resilient digital ecosystem, though the announcement excerpt does not detail specific projects, funding, or a timeline for the collaboration.",
+   "item_ids": [
+    "openai:https://openai.com/index/openai-nask-ai-safety-security-partnership"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/openai-nask-ai-safety-security-partnership",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+     "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+     "published": "2026-10-23T00:00:00+00:00",
+     "excerpt": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T00:00:00+00:00"
+  },
+  {
+   "title": "OpenAI reportedly working on $30B raise at $1.25T valuation ahead of IPO",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is reportedly working on a new $30 billion funding round that would value the company at $1.25 trillion ahead of a planned IPO, which would make it the most highly valued private company ever.",
+   "more": "TechCrunch reports OpenAI is working on a new funding round of roughly $30 billion ahead of a planned initial public offering. The round would reportedly value the company at $1.25 trillion, which the article says would break records as the most highly valued private company ever if it closes at that figure. The report does not name specific investors or give a timeline for either the round or the IPO.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3180936"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180936",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+     "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+     "published": "2026-10-22T22:08:24+00:00",
+     "excerpt": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T22:08:24+00:00"
+  },
+  {
+   "title": "The Aged Intelligence Society brings women together to tackle midlife with AI",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired interviewed the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to 'solve midlife problems using frontier tools,' as part of the broader AI boom.",
+   "more": "Wired's interview covers the Aged Intelligence Society, described as a fast-growing events startup. Its founders say the group brings women together to solve midlife problems using frontier AI tools. The excerpt does not give details on the group's size, funding, founding date, or specific examples of problems tackled.",
+   "item_ids": [
+    "wired-ai:6ad944c52adb51db52e1a3c5"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ad944c52adb51db52e1a3c5",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "The Social Society Helping Women Join the AI Boom",
+     "url": "https://www.wired.com/story/aged-intelligence-society-interview/",
+     "published": "2026-10-22T19:56:32+00:00",
+     "excerpt": "WIRED spoke with the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to “solve midlife problems using frontier tools.”"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T19:56:32+00:00"
+  },
+  {
+   "title": "SpaceX and Tesla form committees to discuss a possible merger",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "SpaceX and Tesla have formed special committees to discuss merging the two companies, as SpaceX reportedly prepares to borrow $40 billion, largely to buy Nvidia chips for AI compute.",
+   "more": "The Verge reports that SpaceX and Tesla have each formed special committees to discuss a potential merger between the two Elon Musk-led companies. The piece links the move to SpaceX's rising credit risk, noting the company is about to borrow another $40 billion, largely to spend on Nvidia chips. The article is written as commentary and does not report a merger timeline, valuation, or official statements from either company.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1016879"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1016879",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+     "published": "2026-10-22T19:45:00+00:00",
+     "excerpt": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the degree to which […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T19:45:00+00:00"
+  },
+  {
+   "title": "MIT Technology Review session covers what it takes to build scalable, governed AI systems",
+   "tags": [
+    "industry",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A session from MIT Technology Review's EmTech Future conference explores how data, engineering, platforms, operating models and governance need to converge to build scalable AI systems in highly regulated industries.",
+   "more": "The piece previews a conference session arguing that a scalable AI system needs a strong foundation across data, engineering, platforms, operating models and governance working together. It frames the discussion around building that foundation specifically within highly regulated environments, and how a responsible, trustworthy implementation can support emerging capabilities including agentic AI. The excerpt is cut off before naming speakers or detailing concrete recommendations.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1146103"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1146103",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "The Foundations of Scalable AI",
+     "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+     "published": "2026-10-22T18:48:04+00:00",
+     "excerpt": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T18:48:04+00:00"
+  },
+  {
+   "title": "MiniMax releases MiniMax-M3.1-Flash model on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "MiniMax published a new model, MiniMax-M3.1-Flash, on Hugging Face, shared to r/LocalLLaMA, though the post gives no detail on the model's size, architecture or benchmark performance.",
+   "more": "MiniMax AI released a new model called MiniMax-M3.1-Flash, hosted on Hugging Face and shared to the r/LocalLLaMA community by user mrtime777. The post itself contains no description of the model's parameter count, architecture, license, or benchmark results beyond the link and title.",
+   "item_ids": [
+    "localllama:t3_1xd0fgs"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xd0fgs",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "MiniMax-M3.1-Flash",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd0fgs/minimaxm31flash/",
+     "published": "2026-10-23T01:12:49+00:00",
+     "excerpt": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash submitted by /u/mrtime777 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T01:12:49+00:00"
+  },
+  {
+   "title": "Chart compares open-weight model scores by size, including Meta's 816B Muse Spark Open",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA chart plots Artificial Analysis scores against parameter count for 11 open-weight models, showing Meta's 816B-parameter Muse Spark Open scoring 39, just behind the far smaller 180B Qwen3.8-Flash-Next at 40.",
+   "more": "The post charts Artificial Analysis scores against total parameter count, on a log scale, for 11 open-weight models, highlighting those released in October 2026. Meta's Muse Spark Open, an 816-billion-parameter model with 42 billion active parameters, scores 39, while Qwen3.8-Flash-Next, a much smaller 180-billion-parameter model with 6 billion active parameters, scores 40. The post notes storage size for quantized versions: roughly 506 GB for Muse Spark Open versus 111 GB for Qwen3.8-Flash-Next in Unsloth's 4-bit format. It adds that Meta's recommended local setup for Muse Spark Open is two Mac Studios with M5 Ultra chips and 512 GB of memory each.",
+   "item_ids": [
+    "localllama:t3_1xcthj8"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xcthj8",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Meta's 816B Muse Spark Open scores 39 on Artificial Analysis, the 180B Qwen3.8-Flash-Next scores 40. Score vs size for 11 open-weight models",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcthj8/metas_816b_muse_spark_open_scores_39_on/",
+     "published": "2026-10-22T20:14:06+00:00",
+     "excerpt": "Made this from the Artificial Analysis model pages after Muse Spark Open and Beam got their scores last week. X axis is total parameters as AA lists them, log scale. Orange = released in October 2026. - Muse Spark Open (816B, 42B active) scores 39. Qwen3.8-Flash-Next (180B, 6B active) scores 40. - The Unsloth UD-Q4_K_XL GGUFs are about 506 GB for Muse Spark Open and 111 GB for Qwen3.8-Flash-Next. - Meta's recommended local setup for Muse Spark Open is two M5 Ultra Mac Studios with 512 GB each. -"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T20:14:06+00:00"
+  },
+  {
+   "title": "4B-parameter Spark-X2.6 chat model trends on Hugging Face",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "XHToken's Spark-X2.6-4B, a 4-billion-parameter bilingual text-generation and conversational model, is trending on Hugging Face with 343 likes, built as a fine-tune of the Spark-X2.6-4B-Base model.",
+   "more": "Spark-X2.6-4B is a 4-billion-parameter transformer model built for text generation and conversational use, supporting both English and Chinese. It is distributed as safetensors and uses custom code, and is listed as a fine-tune of XHToken's own Spark-X2.6-4B-Base model. The listing shows 343 likes and 482 downloads so far. No license or further technical detail was given in the listing's tags.",
+   "item_ids": [
+    "hf-trending:XHToken/Spark-X2.6-4B"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:XHToken/Spark-X2.6-4B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: XHToken/Spark-X2.6-4B",
+     "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+     "published": "2026-10-19T03:19:51+00:00",
+     "excerpt": "text-generation, 343 likes, 482 downloads. Tags: transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code, en, zh, base_model:XHToken/Spark-X2.6-4B-Base, base_model:finetune:XHToken/Spark-X2.6-4B-Base"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-19T03:19:51+00:00"
+  },
+  {
+   "title": "ComfyUI packaging of OpenMOSS's MOSS-Image model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A ComfyUI-ready build of OpenMOSS Team's MOSS-Image diffusion model is trending on Hugging Face, with 377 likes and over 1.46 million downloads, released under an Apache 2.0 license.",
+   "more": "The trending repository packages OpenMOSS-Team's MOSS-Image-Base model as a single-file diffusion checkpoint for use in ComfyUI, a popular node-based image-generation interface. It has drawn 377 likes and more than 1.46 million downloads on Hugging Face. It is released under the Apache 2.0 license, making it freely usable and modifiable. No further detail on the base model's capabilities or training was available from the listing.",
+   "item_ids": [
+    "hf-trending:Comfy-Org/MOSS-Image"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:Comfy-Org/MOSS-Image",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: Comfy-Org/MOSS-Image",
+     "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
+     "published": "2026-10-16T12:42:32+00:00",
+     "excerpt": "377 likes, 1463386 downloads. Tags: diffusion-single-file, comfyui, base_model:OpenMOSS-Team/MOSS-Image-Base, base_model:finetune:OpenMOSS-Team/MOSS-Image-Base, license:apache-2.0, region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-16T12:42:32+00:00"
+  },
+  {
+   "title": "Report argues the next AI edge comes from the serving harness, not the model",
+   "tags": [
+    "tools",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "An MIT Technology Review piece argues the next competitive advantage in enterprise AI depends less on which model you pick than on the serving infrastructure built around it, after years of focus on raw model capability.",
+   "more": "The article argues that after years of AI progress being measured by bigger models, better reasoning, larger context windows and higher benchmark scores, the next competitive edge in enterprise AI will come from what's built around the model rather than the model itself. It frames this as 'designing an AI serving harness built to last.' The excerpt is truncated before detailing specific architecture recommendations or case studies.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1146109"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1146109",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "Designing an AI serving harness built to last",
+     "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+     "published": "2026-10-22T21:17:29+00:00",
+     "excerpt": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T21:17:29+00:00"
+  },
+  {
+   "title": "Discord fixes Markdown preview rendering in its latest update",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Discord shipped an update that renders Markdown previews correctly instead of showing raw symbols, a fix the article notes could help people sharing AI project instructions and context files written in Markdown.",
+   "more": "Discord's latest update improves how Markdown previews render, fixing an issue where they previously showed as 'a bunch of symbols' rather than formatted text, according to the company. The Verge notes this is relevant to AI work because LLMs and AI agents often rely on Markdown files for instructions and context, so cleaner previews could help people sharing information about AI projects. The article does not give a rollout date or list of affected platforms beyond the update itself.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1017012"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1017012",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Discord now formats Markdown previews right",
+     "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
+     "published": "2026-10-22T18:58:19+00:00",
+     "excerpt": "Discord's latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with \"a bunch of symbols,\" according to the company. LLMs and AI agents often rely on Markdown files for instructions and context, so these improved previews could be helpful for people sharing information about AI projects […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T18:58:19+00:00"
+  },
+  {
+   "title": "Anthropic donates the Agent Skills standard to the Agentic AI Foundation",
+   "tags": [
+    "open-source",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic donated its Agent Skills standard to the Agentic AI Foundation under the Linux Foundation, the same body it co-founded with Block and OpenAI that already holds the Model Context Protocol.",
+   "more": "Anthropic says it is committed to keeping Agent Skills open, community-driven and vendor-neutral, and is donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation. Anthropic co-founded the AAIF with Block and OpenAI, and had previously donated the Model Context Protocol to it. Commentator Simon Willison noted he predicted this move back in December, when Anthropic first called Skills an 'open standard.' The announcement does not specify what governance changes follow for Skills under the foundation.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+    "simonw:https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Donating agent skills to the agentic ai foundation",
+     "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+     "published": null,
+     "excerpt": ""
+    },
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Donating Agent Skills to the Agentic AI Foundation",
+     "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+     "published": "2026-10-22T18:09:56+00:00",
+     "excerpt": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": I wouldn't"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-22T18:09:56+00:00"
+  },
+  {
+   "title": "DeepSeek and MiniMax clear China's new AI export rules for open-source releases",
+   "tags": [
+    "open-source",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "DeepSeek and MiniMax completed registration filings under China's new temporary AI export regulations, giving them regulatory approval from the Ministry of Commerce to keep open-sourcing their models overseas.",
+   "more": "Chinese media reported on October 22 that DeepSeek and MiniMax have officially completed the required registration filings under China's new temporary AI export regulations. By submitting their technologies for cross-border review, both companies fulfilled the administrative requirements set by China's Ministry of Commerce for distributing advanced AI models overseas. For DeepSeek and MiniMax, the clearance grants explicit regulatory approval to continue open-sourcing their models internationally. The report does not list other companies still awaiting clearance or describe the review's specific criteria.",
+   "item_ids": [
+    "localllama:t3_1xcoelw"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xcoelw",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "DeepSeek and MiniMax Clear China’s AI Export Rules for Overseas Open-Source Releases",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoelw/deepseek_and_minimax_clear_chinas_ai_export_rules/",
+     "published": "2026-10-22T17:07:31+00:00",
+     "excerpt": "On October 22, Chinese media reported that DeepSeek and MiniMax have officially completed the required registration filings under China’s new temporary AI export regulations. By submitting their technologies for cross-border review, both companies successfully fulfilled the administrative requirements established by China’s Ministry of Commerce for distributing advanced AI models overseas. For DeepSeek and MiniMax, this clearance grants explicit regulatory approval to continue open-sourcing mode"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T17:07:31+00:00"
+  },
+  {
+   "title": "Meta tweaks terms but legal experts say it can still scrape news sites' AI data",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta edited its business terms to remove language suggesting it could freely train AI on news sites like The Verge, but legal experts say the change doesn't address concerns about Meta's broader scraping rights.",
+   "more": "Meta altered its business terms to drop wording that appeared to let it freely train its AI models on content from news sites. However, legal experts quoted say the edits are insufficient: they argue the terms still contain language tied to content 'associated with your products or services' that could let Meta scrape data from sites like The Verge. The article does not report whether Meta plans further changes or has responded to the criticism.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1017082"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1017082",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Meta’s AI could still scrape news sites, legal experts say",
+     "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+     "published": "2026-10-22T20:32:05+00:00",
+     "excerpt": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [language] that would let Meta scrape […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T20:32:05+00:00"
+  },
+  {
+   "title": "Hacker News discussion: 'AI and the Enclosure of the Scientific Commons'",
+   "tags": [
+    "policy",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News discussion gathered 131 points and 76 comments around an arXiv paper titled 'AI and the Enclosure of the Scientific Commons,' which argues AI is reshaping access to and ownership of scientific knowledge.",
+   "more": "The item links to an arXiv paper, 'AI and the Enclosure of the Scientific Commons,' which drew a notable Hacker News discussion of 131 points and 76 comments. The title suggests the paper examines how AI development is affecting open access to, and shared ownership of, scientific research and data. The fetched excerpt gives only the Hacker News engagement numbers and does not include the paper's abstract or findings.",
+   "item_ids": [
+    "hn:50199230"
+   ],
+   "items": [
+    {
+     "id": "hn:50199230",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "AI and the Enclosure of the Scientific Commons",
+     "url": "https://arxiv.org/abs/2610.27251",
+     "published": "2026-10-22T18:28:16+00:00",
+     "excerpt": "131 points, 76 comments. Discussion: https://news.ycombinator.com/item?id=50199230"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T18:28:16+00:00"
+  },
+  {
+   "title": "Modal CEO Erik Bernhardsson on why AI compute comes in 'rectangles'",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "In a Latent Space interview, Modal CEO Erik Bernhardsson discusses elastic GPU provisioning, the growth of AI sandboxes, and the economics of building cloud infrastructure for AI agents.",
+   "more": "The episode is an interview with Erik Bernhardsson, CEO of cloud compute company Modal, framed around the idea that AI compute 'comes in rectangles.' Topics listed include elastic GPU provisioning, the growth of sandboxed execution environments, and the broader economics of what the piece calls the 'agent cloud.' The excerpt does not give further detail on specific claims, numbers, or product announcements discussed in the conversation.",
+   "item_ids": [
+    "latent-space:https://www.latent.space/p/modal-d"
+   ],
+   "items": [
+    {
+     "id": "latent-space:https://www.latent.space/p/modal-d",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+     "url": "https://www.latent.space/p/modal-d",
+     "published": "2026-10-22T17:40:57+00:00",
+     "excerpt": "Elastic GPUs, sandbox growth, and the economics of the agent cloud"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T17:40:57+00:00"
+  },
+  {
+   "title": "Uber rival inDrive plans 2027 robotaxi tests in Kazakhstan with Pony.ai and Nvidia",
+   "tags": [
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ride-hailing firm inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027, working with Nvidia, as it eyes robotaxi expansion into Central Asia.",
+   "more": "inDrive, a competitor to Uber, says it plans to begin testing autonomous robotaxis built by Pony.ai in Astana, the capital of Kazakhstan, in the first half of 2027. Nvidia is named as a partner in the effort, likely supplying compute for the vehicles' autonomous systems. The brief report does not give fleet size, funding, or regulatory details for the planned tests.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3180898"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3180898",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+     "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+     "published": "2026-10-23T04:00:00+00:00",
+     "excerpt": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T04:00:00+00:00"
+  },
+  {
+   "title": "Simon Willison flags AI-generated visual effects in a De Staat music video",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison highlighted a new De Staat music video whose visual effects, credited to Matties Grooten, appear to use AI-generated imagery, calling out a notable moment about 44 seconds in.",
+   "more": "Simon Willison's post links to the official music video for 'Freedom' by Dutch alternative rock band De Staat, pointing to a moment at 00:44 that he says is a first for him. The video's visual effects are credited to Matties Grooten of Fake it or Leave it. Willison found the video via a Hacker News submission from user flir. The post does not specify exactly what AI tool or technique produced the effect in question.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/22/de-staat-freedom/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "DE STAAT - FREEDOM (Official Music Video)",
+     "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+     "published": "2026-10-22T19:42:26+00:00",
+     "excerpt": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Leave it . Via flir on Hacker News Tags: music , ai , generative-ai , pelican-riding-a-bicycle"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T19:42:26+00:00"
+  },
+  {
+   "title": "Modder jailbreaks Nintendo Switch 2 with help from OpenAI's Codex",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A modder known as pepsipu used OpenAI's Codex AI coding tool to help build 'ns2jb,' a jailbreak for the Nintendo Switch 2, already shown running a custom Mario Kart World mod with added playable characters.",
+   "more": "The Nintendo Switch 2 has reportedly been jailbroken via an exploit called 'ns2jb,' demonstrated running a custom version of Mario Kart World with new playable characters including Cinnamoroll, the red Angry Bird, Peter Griffin and Steve from Minecraft. According to modder Sammy Hajhamid, known as 'pepsipu,' OpenAI's Codex coding assistant helped make the jailbreak. The article does not say whether Nintendo has responded or whether the exploit will be published more widely.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1016862"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1016862",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Someone hacked the Switch 2 by using an old game and AI",
+     "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+     "published": "2026-10-22T17:21:31+00:00",
+     "excerpt": "The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable characters like Cinnamoroll, the red Angry Bird, Peter Griffin, and Steve from Minecraft. OpenAI's Codex helped make this \"ns2jb\" jailbreak, according to Sammy Hajhamid, aka \"pepsipu.\" It's a […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T17:21:31+00:00"
+  }
+ ]
+}
