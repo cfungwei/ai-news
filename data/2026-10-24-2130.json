@@ -1,0 +1,172 @@
+{
+ "date": "2026-10-24",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Fired OpenAI safety researchers say they were never told what they leaked",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Three OpenAI safety researchers fired over alleged leaks say the company never specified in writing what information they mishandled, and deny wrongdoing.",
+   "more": "Tomek Korbak, Mikita Balesni, and Jasmine Wang were fired by OpenAI over allegations that they leaked confidential information. The three are publicly disputing this, saying OpenAI never told them in writing which information they are accused of mishandling. They see a connection between their firing and their advocacy for AI systems that are easier to scrutinize. The Decoder's report does not detail what OpenAI alleges was leaked or how the dispute might be resolved.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41928"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41928",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
+     "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
+     "published": "2026-10-24T15:19:33+00:00",
+     "excerpt": "The three OpenAI safety researchers who were fired, Tomek Korbak, Mikita Balesni, and Jasmine Wang, are publicly pushing back against allegations from their former employer. They deny sharing confidential information and see a connection to their advocacy for AI systems that are easier to scrutinize. The researchers say OpenAI never told them in writing which information they allegedly mishandled. The article Three fired OpenAI safety researchers say they were never told what they actually leake"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-24T15:19:33+00:00"
+  },
+  {
+   "title": "Grok favors Republicans, GPT favors Democrats in new election study",
+   "tags": [
+    "policy",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Forced to choose, Grok consistently backs Republican candidates while OpenAI's GPT backs Democrats, according to a new study that found the two models disagreed on nearly 500 election races more than 90% of the time.",
+   "more": "The study pitted Grok against OpenAI's GPT on nearly 500 election races, asking each model to pick a candidate when forced to choose. The two models disagreed more than 90% of the time, with Grok favoring Republican candidates and GPT favoring Democrats. TechCrunch's report does not identify the study's authors, methodology, or which races were included. It is also unclear whether this pattern holds beyond these two models or these specific races.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3181243"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3181243",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+     "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+     "published": "2026-10-24T15:00:00+00:00",
+     "excerpt": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-24T15:00:00+00:00"
+  },
+  {
+   "title": "AI helped find old PHP bugs, then powered new exploits, Wired reports",
+   "tags": [
+    "policy",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Security researchers used AI tools to uncover years-old vulnerabilities in the PHP scripting language, and attackers then used AI to help build exploits for them, Wired reports.",
+   "more": "Wired reports that security researchers used AI tools to help surface vulnerabilities in PHP that had gone undetected for years. The same AI-assisted techniques were then used by attackers to build exploits for the flaws. The report frames this as part of a broader pattern in which AI lowers the cost of both finding and weaponizing security bugs. The excerpt does not name the specific vulnerabilities, the researchers involved, or whether patches are available.",
+   "item_ids": [
+    "wired-ai:6ad927eedb675d3d17a94c9a"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ad927eedb675d3d17a94c9a",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+     "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+     "published": "2026-10-24T12:00:00+00:00",
+     "excerpt": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-24T12:00:00+00:00"
+  },
+  {
+   "title": "Study: AI helps junior patent lawyers most, but gains may not stick",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A three-month study of 133 patent attorneys found AI immediately boosts junior lawyers' performance the most, but when AI is removed only senior attorneys retain the gains.",
+   "more": "The field experiment tracked 133 patent attorneys over three months, comparing their work with and without AI assistance. Junior attorneys saw the largest immediate performance gains from using AI. When AI access was removed, only senior attorneys kept their improved performance, while junior attorneys' gains faded. The researchers suggest baseline expertise is a prerequisite for turning AI-assisted practice into lasting skill, implying heavy reliance on AI early in a career could stunt professional growth. The Decoder's report does not name the study's authors or where it was published.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41919"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41919",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI makes junior patent attorneys instantly better but may quietly stunt their professional growth",
+     "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
+     "published": "2026-10-24T14:34:05+00:00",
+     "excerpt": "A three-month field experiment with 133 patent attorneys shows that AI boosts immediate performance, with junior lawyers gaining the most. But when the AI is taken away, only senior attorneys retain the benefits, suggesting that baseline expertise is a prerequisite for turning AI-assisted practice into lasting skill. The article AI makes junior patent attorneys instantly better but may quietly stunt their professional growth appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-24T14:34:05+00:00"
+  },
+  {
+   "title": "Meta trains byte-reading AI models that start weak but may win out",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Meta paper trains roughly 1-billion-parameter models to read raw bytes instead of tokens, partly via distillation from Llama 3 8B. Byte-based models start out weaker than token-based ones but are predicted to overtake them with scale.",
+   "more": "The paper trains small models of about 1 billion parameters to process raw bytes instead of tokens, alongside comparable models trained on tokens. Both were partly trained via distillation from a larger teacher model, Llama 3 8B, which required translating between the teacher's token-based reasoning and the student's byte-level reading. The byte-based models underperform the token-based ones at this scale. The paper reportedly predicts byte-based models will overtake token-based ones given more scale or training, according to the summary shared on r/LocalLLaMA. The post does not name the paper's authors or title directly, only linking to the arXiv PDF.",
+   "item_ids": [
+    "localllama:t3_1xe88ja"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xe88ja",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Meta trained small AI models to read raw bytes instead of tokens. They start out worse, but the paper predicts they end up better",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe88ja/meta_trained_small_ai_models_to_read_raw_bytes/",
+     "published": "2026-10-24T13:08:49+00:00",
+     "excerpt": "https://arxiv.org/pdf/2609.12303 this paper suggests a model that skips models reading tokens that and has the model read raw bytes, basically one letter at a time. what they did: trained small models (~1B params), some on tokens and some on bytes trained them partly by copying a bigger model (llama 3 8b), aka distillation the tricky part is that the teacher thinks in tokens and the student reads bytes, so they had to work out a clean way to translate between the two what they found: with a litt"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-24T13:08:49+00:00"
+  },
+  {
+   "title": "Block launches Dessa, a speech-native AI model that hears emotion and sarcasm",
+   "tags": [
+    "models",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Block introduced Dessa, a speech model that processes raw audio instead of text to catch emotions, sarcasm, and pauses in real time. It runs locally on a MacBook Pro M4 Max but is not yet publicly available.",
+   "more": "Block, the company behind Square and Cash App, built Dessa to process audio directly rather than converting speech to text first, so it can pick up on tone, sarcasm, and pauses that text-based models miss. The model runs locally on a MacBook Pro M4 Max, according to Block. It is not yet publicly available, so its claims have not been independently verified. TechCrunch described the model as sounding \"eerily human,\" though neither report gives benchmark results or a release timeline.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3181490",
+    "decoder:https://the-decoder.com/?p=41914"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3181490",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Block’s new voice model sounds eerily human",
+     "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+     "published": "2026-10-24T16:00:00+00:00",
+     "excerpt": "Block said that the voice model can run locally on a MacBook M4 Max"
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=41914",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss",
+     "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
+     "published": "2026-10-24T14:09:46+00:00",
+     "excerpt": "Block, the company behind Square and Cash App, has introduced Dessa, a speech model that processes audio directly instead of converting it to text first. Dessa is designed to recognize emotions, sarcasm, and pauses in real time. The model runs locally on a MacBook Pro M4 Max but isn't publicly available yet. The article Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-24T16:00:00+00:00"
+  }
+ ]
+}
