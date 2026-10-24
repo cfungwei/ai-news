@@ -4775,7 +4775,7 @@
    "up": 0
   }
  },
- "last_digest": "2026-10-23T16:39:02.004933+00:00",
+ "last_digest": "2026-10-24T06:38:28.438561+00:00",
  "seen": {
   "anthropic": [
    "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -4881,7 +4881,9 @@
    "ars-ai:https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
    "ars-ai:https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
    "ars-ai:https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
-   "ars-ai:https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/"
+   "ars-ai:https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+   "ars-ai:https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+   "ars-ai:https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/"
   ],
   "decoder": [
    "decoder:https://the-decoder.com/?p=40867",
@@ -5058,7 +5060,10 @@
    "decoder:https://the-decoder.com/?p=41866",
    "decoder:https://the-decoder.com/?p=41861",
    "decoder:https://the-decoder.com/?p=41856",
-   "decoder:https://the-decoder.com/?p=41871"
+   "decoder:https://the-decoder.com/?p=41871",
+   "decoder:https://the-decoder.com/?p=41887",
+   "decoder:https://the-decoder.com/?p=41882",
+   "decoder:https://the-decoder.com/?p=41876"
   ],
   "deepmind": [
    "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -5481,7 +5486,8 @@
    "hn:50199230",
    "hn:50198675",
    "hn:50205229",
-   "hn:50207405"
+   "hn:50207405",
+   "hn:50213925"
   ],
   "import-ai": [
    "import-ai:https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
@@ -5622,7 +5628,9 @@
    "localllama:t3_1xd0fgs",
    "localllama:t3_1xcthj8",
    "localllama:t3_1xd7ptj",
-   "localllama:t3_1xdh57e"
+   "localllama:t3_1xdh57e",
+   "localllama:t3_1xdwrak",
+   "localllama:t3_1xdlj42"
   ],
   "meta-ai": [
    "meta-ai:https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
@@ -5767,7 +5775,9 @@
    "simonw:https://simonwillison.net/2026/Oct/21/php-security-release/",
    "simonw:https://simonwillison.net/2026/Oct/22/armin-ronacher/",
    "simonw:https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
-   "simonw:https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+   "simonw:https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+   "simonw:https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+   "simonw:https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
   ],
   "techcrunch-ai": [
    "techcrunch-ai:https://techcrunch.com/?p=3167791",
@@ -6025,7 +6035,10 @@
    "techcrunch-ai:https://techcrunch.com/?p=3180617",
    "techcrunch-ai:https://techcrunch.com/?p=3180667",
    "techcrunch-ai:https://techcrunch.com/?p=3180761",
-   "techcrunch-ai:https://techcrunch.com/?p=3180678"
+   "techcrunch-ai:https://techcrunch.com/?p=3180678",
+   "techcrunch-ai:https://techcrunch.com/?p=3181396",
+   "techcrunch-ai:https://techcrunch.com/?p=3181412",
+   "techcrunch-ai:https://techcrunch.com/?p=3181271"
   ],
   "verge-ai": [
    "verge-ai:https://www.theverge.com/?p=1001049",
@@ -6196,7 +6209,11 @@
    "verge-ai:https://www.theverge.com/?p=1016690",
    "verge-ai:https://www.theverge.com/?p=1016862",
    "verge-ai:https://www.theverge.com/?p=1017450",
-   "verge-ai:https://www.theverge.com/?p=1015430"
+   "verge-ai:https://www.theverge.com/?p=1015430",
+   "verge-ai:https://www.theverge.com/?p=1018021",
+   "verge-ai:https://www.theverge.com/?p=1017906",
+   "verge-ai:https://www.theverge.com/?p=1017447",
+   "verge-ai:https://www.theverge.com/?p=1017600"
   ],
   "wired-ai": [
    "wired-ai:6abbb69b2122500d82924ae7",
@@ -6269,26 +6286,26 @@
   ]
  },
  "source_ok": {
-  "anthropic": "2026-10-23T16:39:02.004933+00:00",
-  "ars-ai": "2026-10-23T16:39:02.004933+00:00",
-  "decoder": "2026-10-23T16:39:02.004933+00:00",
-  "deepmind": "2026-10-23T16:39:02.004933+00:00",
-  "google-ai": "2026-10-23T16:39:02.004933+00:00",
-  "hf-blog": "2026-10-23T16:39:02.004933+00:00",
-  "hf-papers": "2026-10-23T16:39:02.004933+00:00",
-  "hf-trending": "2026-10-23T16:39:02.004933+00:00",
-  "hn": "2026-10-23T16:39:02.004933+00:00",
-  "import-ai": "2026-10-23T16:39:02.004933+00:00",
-  "latent-space": "2026-10-23T16:39:02.004933+00:00",
-  "localllama": "2026-10-23T16:39:02.004933+00:00",
-  "meta-ai": "2026-10-23T16:39:02.004933+00:00",
-  "mistral": "2026-10-23T16:39:02.004933+00:00",
-  "mit-tr-ai": "2026-10-23T16:39:02.004933+00:00",
-  "openai": "2026-10-23T16:39:02.004933+00:00",
-  "simonw": "2026-10-23T16:39:02.004933+00:00",
-  "techcrunch-ai": "2026-10-23T16:39:02.004933+00:00",
-  "verge-ai": "2026-10-23T16:39:02.004933+00:00",
-  "wired-ai": "2026-10-23T16:39:02.004933+00:00"
+  "anthropic": "2026-10-24T06:38:28.438561+00:00",
+  "ars-ai": "2026-10-24T06:38:28.438561+00:00",
+  "decoder": "2026-10-24T06:38:28.438561+00:00",
+  "deepmind": "2026-10-24T06:38:28.438561+00:00",
+  "google-ai": "2026-10-24T06:38:28.438561+00:00",
+  "hf-blog": "2026-10-24T06:38:28.438561+00:00",
+  "hf-papers": "2026-10-24T06:38:28.438561+00:00",
+  "hf-trending": "2026-10-24T06:38:28.438561+00:00",
+  "hn": "2026-10-24T06:38:28.438561+00:00",
+  "import-ai": "2026-10-24T06:38:28.438561+00:00",
+  "latent-space": "2026-10-24T06:38:28.438561+00:00",
+  "localllama": "2026-10-24T06:38:28.438561+00:00",
+  "meta-ai": "2026-10-24T06:38:28.438561+00:00",
+  "mistral": "2026-10-24T06:38:28.438561+00:00",
+  "mit-tr-ai": "2026-10-24T06:38:28.438561+00:00",
+  "openai": "2026-10-24T06:38:28.438561+00:00",
+  "simonw": "2026-10-24T06:38:28.438561+00:00",
+  "techcrunch-ai": "2026-10-24T06:38:28.438561+00:00",
+  "verge-ai": "2026-10-24T06:38:28.438561+00:00",
+  "wired-ai": "2026-10-24T06:38:28.438561+00:00"
  },
  "telegram_offset": 115081541,
  "telegram_sent": "2026-10-23-2130",
