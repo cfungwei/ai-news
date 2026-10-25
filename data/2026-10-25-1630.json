@@ -1,0 +1,190 @@
+{
+ "date": "2026-10-25",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Anthropic says single agents now beat multi-agent setups",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic says companies should consider consolidating sub-agents into one agent that loads context on demand, since models can now handle more complexity alone. It published a migration kit on GitHub.",
+   "more": "In one architecture comparison Anthropic ran, a single-agent setup that loads context on demand ran about twice as fast as an equivalent multi-agent setup. Anthropic is recommending companies evaluate whether they can consolidate their sub-agents accordingly, and has published a migration kit on GitHub to help teams make the switch. It's unclear how general this speedup is across task types, or what tradeoffs in capability, if any, come with consolidation.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41955"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41955",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic says one AI agent beats many subagents now that models can handle complexity alone",
+     "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
+     "published": "2026-10-25T09:12:10+00:00",
+     "excerpt": "Anthropic says companies should evaluate whether they can consolidate sub-agents into a single agent that loads context on demand. In one architecture comparison, the single-agent setup ran about twice as fast. Anthropic has published a migration kit on GitHub to help teams make the transition. The article Anthropic says one AI agent beats many subagents now that models can handle complexity alone appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-25T09:12:10+00:00"
+  },
+  {
+   "title": "OpenMobile-2 shows open smartphone agents can match proprietary ones",
+   "tags": [
+    "agents",
+    "open-source",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers built OpenMobile-2, an open training environment with over 110 apps, and say the resulting smartphone agent scores highest among open agents on real Android devices.",
+   "more": "The researchers behind OpenMobile-2 argue that smartphone agents improve by training on a wide variety of different apps rather than simply processing more data. Their open training environment covers more than 110 applications, including 35 replicas of popular apps for safe training. On real Android devices, the resulting model scores highest among open agents, according to the authors. The excerpt doesn't say how it compares to proprietary smartphone agents, only to other open ones.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41933"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41933",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
+     "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+     "published": "2026-10-25T06:55:22+00:00",
+     "excerpt": "Smartphone agents don't get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices, their model scores highest among open agents, the authors say. The article OpenMobile-2 proves open-source smartphone agents can rival proprietary models appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-25T06:55:22+00:00"
+  },
+  {
+   "title": "Jack Clark moves self-improving AI prediction up to 2027",
+   "tags": [
+    "research",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic co-founder Jack Clark now expects self-improving AI to arrive by 2027, citing a new benchmark from P-Zero Research that tracks how well models design and evaluate their own experiments.",
+   "more": "The P-Zero Research benchmark measures how capable AI models are at designing and evaluating experiments on their own, a proxy for self-directed research ability. Clark cited the benchmark's rapid improvement as the reason for moving his forecast forward. The excerpt does not specify the benchmark's methodology, scoring, or how much it has improved over what time period.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41963"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41963",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
+     "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
+     "published": "2026-10-25T09:37:46+00:00",
+     "excerpt": "A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027. The article Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027 appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-25T09:37:46+00:00"
+  },
+  {
+   "title": "OpenAI offers up to 90% discounts to poach Anthropic customers",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is undercutting Anthropic with steep price cuts, and customers including Rippling, Replit, and DataCamp say they've cut AI costs by up to 90% after switching.",
+   "more": "The named customers, Rippling, Replit, and DataCamp, say switching from Anthropic to OpenAI cut their AI costs by as much as 90 percent. The report frames this as OpenAI trading its own margins for market share while Anthropic's growth has slowed. It also notes that Chinese rivals such as DeepSeek are adding further price pressure on both companies. The excerpt doesn't give absolute dollar figures or say how many customers have switched in total.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41946"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41946",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
+     "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
+     "published": "2026-10-25T07:30:11+00:00",
+     "excerpt": "OpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are piling on more price pressure. The article OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-25T07:30:11+00:00"
+  },
+  {
+   "title": "Schmidt and Ferguson cast OpenAI, Anthropic as AI-era trading companies",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "In Foreign Affairs, Eric Schmidt and historian Niall Ferguson argue the US and China are AI empires and other countries are dependencies, with the race decided by spending power rather than breakthroughs.",
+   "more": "The essay, co-written with researcher Lisa Klaassen, frames OpenAI and Anthropic as modern colonial trading companies extending US influence, and argues the AI race will be won by whichever superpower can bankroll it rather than by who finds the next breakthrough. It cites US corporations planning to spend more than $600 billion in 2026 on AI. The authors also point to risks that could stall both powers: mounting debt, growing protests against data centers, and a potential chip crisis tied to Taiwan. The piece does not specify a timeline for when the race might be decided.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41950"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41950",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies",
+     "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
+     "published": "2026-10-25T08:09:32+00:00",
+     "excerpt": "In Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt cast the US and China as AI empires and every other country as a dependency. The race won't be decided by breakthroughs but by who can bankroll it. US corporations alone plan to spend more than $600 billion in 2026. Yet mounting debt, protests against data centers, and a potential chip crisis over Taiwan could stall both superpowers. The article Ex-Google CEO Eric Schmidt calls OpenAI and A"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-25T08:09:32+00:00"
+  },
+  {
+   "title": "What the US anti-data-center movement can learn from abroad",
+   "tags": [
+    "hardware",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired profiles Paris Marx, author of Hyperscale, on lessons the US data center opposition movement could draw from similar fights in countries like Ireland and New Zealand.",
+   "more": "The piece centers on Paris Marx, who has tracked global data center development for years and recently published a book, Hyperscale, on the subject. It argues the US movement against new data centers has much to learn from how similar opposition has played out abroad, citing Ireland and New Zealand as examples. The excerpt doesn't detail the specific lessons or policy outcomes from those countries.",
+   "item_ids": [
+    "wired-ai:6adaac0658fe17d926e679bc"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6adaac0658fe17d926e679bc",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+     "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+     "published": "2026-10-25T10:00:00+00:00",
+     "excerpt": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-25T10:00:00+00:00"
+  },
+  {
+   "title": "Nvidia open-sources Flora, a robot video labeling data engine",
+   "tags": [
+    "robotics",
+    "open-source",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia released Flora, an open data engine that labels robot video far cheaper than GPT-6 Astra while scoring slightly higher on quality. It's built on three fine-tuned Qwen3.5 models.",
+   "more": "Flora labels one hour of robot video for 72 cents, versus $88 with GPT-6 Astra, according to Nvidia. The system is built on three fine-tuned Qwen3.5 models and catches errors in robot actions far more reliably than competing approaches, though it sometimes falls short on descriptive accuracy. Nvidia is positioning Flora as a key piece of its strategy to control the entire robotics value chain, from data labeling through deployment. It is unclear how the system performs on tasks outside the benchmarks Nvidia cited.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41970"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41970",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+     "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+     "published": "2026-10-25T10:08:49+00:00",
+     "excerpt": "Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive accuracy. Nvidia is positioning Flora as a key piece of its strategy to control the entire robotics value chain. The article Nvidia open-sources Flora to make robot video labeling "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-25T10:08:49+00:00"
+  }
+ ]
+}
