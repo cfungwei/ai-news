@@ -4775,7 +4775,7 @@
    "up": 0
   }
  },
- "last_digest": "2026-10-24T16:38:46.166772+00:00",
+ "last_digest": "2026-10-25T06:38:16.947255+00:00",
  "seen": {
   "anthropic": [
    "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -5377,7 +5377,8 @@
    "hf-trending:OpenMOSS-Team/MOSS-Image-Base",
    "hf-trending:RecursiveSI/flint",
    "hf-trending:Comfy-Org/MOSS-Image",
-   "hf-trending:XHToken/Spark-X2.6-4B"
+   "hf-trending:XHToken/Spark-X2.6-4B",
+   "hf-trending:MiniMaxAI/MiniMax-M3.1-Flash"
   ],
   "hn": [
    "hn:49855018",
@@ -5492,7 +5493,10 @@
    "hn:50198675",
    "hn:50205229",
    "hn:50207405",
-   "hn:50213925"
+   "hn:50213925",
+   "hn:50226419",
+   "hn:50224463",
+   "hn:50223647"
   ],
   "import-ai": [
    "import-ai:https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
@@ -5637,7 +5641,8 @@
    "localllama:t3_1xdh57e",
    "localllama:t3_1xdwrak",
    "localllama:t3_1xdlj42",
-   "localllama:t3_1xe88ja"
+   "localllama:t3_1xe88ja",
+   "localllama:t3_1xer30z"
   ],
   "meta-ai": [
    "meta-ai:https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
@@ -6047,7 +6052,8 @@
    "techcrunch-ai:https://techcrunch.com/?p=3181412",
    "techcrunch-ai:https://techcrunch.com/?p=3181271",
    "techcrunch-ai:https://techcrunch.com/?p=3181490",
-   "techcrunch-ai:https://techcrunch.com/?p=3181243"
+   "techcrunch-ai:https://techcrunch.com/?p=3181243",
+   "techcrunch-ai:https://techcrunch.com/?p=3162590"
   ],
   "verge-ai": [
    "verge-ai:https://www.theverge.com/?p=1001049",
@@ -6222,7 +6228,9 @@
    "verge-ai:https://www.theverge.com/?p=1018021",
    "verge-ai:https://www.theverge.com/?p=1017906",
    "verge-ai:https://www.theverge.com/?p=1017447",
-   "verge-ai:https://www.theverge.com/?p=1017600"
+   "verge-ai:https://www.theverge.com/?p=1017600",
+   "verge-ai:https://www.theverge.com/?p=1018205",
+   "verge-ai:https://www.theverge.com/?p=1018187"
   ],
   "wired-ai": [
    "wired-ai:6abbb69b2122500d82924ae7",
@@ -6296,26 +6304,26 @@
   ]
  },
  "source_ok": {
-  "anthropic": "2026-10-24T16:38:46.166772+00:00",
-  "ars-ai": "2026-10-24T16:38:46.166772+00:00",
-  "decoder": "2026-10-24T16:38:46.166772+00:00",
-  "deepmind": "2026-10-24T16:38:46.166772+00:00",
-  "google-ai": "2026-10-24T16:38:46.166772+00:00",
-  "hf-blog": "2026-10-24T16:38:46.166772+00:00",
-  "hf-papers": "2026-10-24T16:38:46.166772+00:00",
-  "hf-trending": "2026-10-24T16:38:46.166772+00:00",
-  "hn": "2026-10-24T16:38:46.166772+00:00",
-  "import-ai": "2026-10-24T16:38:46.166772+00:00",
-  "latent-space": "2026-10-24T16:38:46.166772+00:00",
-  "localllama": "2026-10-24T16:38:46.166772+00:00",
-  "meta-ai": "2026-10-24T16:38:46.166772+00:00",
-  "mistral": "2026-10-24T16:38:46.166772+00:00",
-  "mit-tr-ai": "2026-10-24T16:38:46.166772+00:00",
-  "openai": "2026-10-24T16:38:46.166772+00:00",
-  "simonw": "2026-10-24T16:38:46.166772+00:00",
-  "techcrunch-ai": "2026-10-24T16:38:46.166772+00:00",
-  "verge-ai": "2026-10-24T16:38:46.166772+00:00",
-  "wired-ai": "2026-10-24T16:38:46.166772+00:00"
+  "anthropic": "2026-10-25T06:38:16.947255+00:00",
+  "ars-ai": "2026-10-25T06:38:16.947255+00:00",
+  "decoder": "2026-10-25T06:38:16.947255+00:00",
+  "deepmind": "2026-10-25T06:38:16.947255+00:00",
+  "google-ai": "2026-10-25T06:38:16.947255+00:00",
+  "hf-blog": "2026-10-25T06:38:16.947255+00:00",
+  "hf-papers": "2026-10-25T06:38:16.947255+00:00",
+  "hf-trending": "2026-10-25T06:38:16.947255+00:00",
+  "hn": "2026-10-25T06:38:16.947255+00:00",
+  "import-ai": "2026-10-25T06:38:16.947255+00:00",
+  "latent-space": "2026-10-25T06:38:16.947255+00:00",
+  "localllama": "2026-10-25T06:38:16.947255+00:00",
+  "meta-ai": "2026-10-25T06:38:16.947255+00:00",
+  "mistral": "2026-10-25T06:38:16.947255+00:00",
+  "mit-tr-ai": "2026-10-25T06:38:16.947255+00:00",
+  "openai": "2026-10-25T06:38:16.947255+00:00",
+  "simonw": "2026-10-25T06:38:16.947255+00:00",
+  "techcrunch-ai": "2026-10-25T06:38:16.947255+00:00",
+  "verge-ai": "2026-10-25T06:38:16.947255+00:00",
+  "wired-ai": "2026-10-25T06:38:16.947255+00:00"
  },
  "telegram_offset": 115081541,
  "telegram_sent": "2026-10-24-2130",
