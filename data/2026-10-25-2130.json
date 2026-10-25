@@ -1,0 +1,109 @@
+{
+ "date": "2026-10-25",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Nanbeige releases Nanbeige4.3-33B, says it beats Qwen3.8-27B",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nanbeige released the Nanbeige4.3-33B model on Hugging Face, claiming it is stronger than Qwen3.8-27B across a range of benchmarks.",
+   "more": "The model was shared on Hugging Face and surfaced via r/LocalLLaMA, with the poster noting it outperforms Qwen3.8-27B across a range of benchmarks. Beyond the 33B release itself, Nanbeige says the model lays the foundation for an upcoming small-model distillation pipeline, with a Nanbeige4.3-3B distillation and possibly other sizes planned. No further benchmark numbers or license details were given in the coverage.",
+   "item_ids": [
+    "localllama:t3_1xf0kz4"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xf0kz4",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Nanbeige/Nanbeige4.3-33B · Hugging Face",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/",
+     "published": "2026-10-25T12:01:34+00:00",
+     "excerpt": "Stronger than Qwen3.8-27B across a range of benchmarks. but also lays the necessary foundation to power our upcoming small model distillation pipeline (e.g., for Nanbeige4.3-3B). It'll distilled into their 3B small models, maybe other sizes too. submitted by /u/Mysterious_Finish543 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-25T12:01:34+00:00"
+  },
+  {
+   "title": "r/opensource bans AI-made, AI-powered, and AI-targeted projects",
+   "tags": [
+    "open-source",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Moderators of r/opensource posted new submission rules banning projects that use AI, are made by AI, or are intended for AI, saying AI is incongruent with open source values.",
+   "more": "The rule change, posted Saturday evening, also restricts submissions from non-English speakers among other new conditions, though the full list of changes was not detailed in the coverage. The mods framed the AI ban as a values statement: \"AI, as it exists today, is incongruent to this Open Source [community].\" It is one of the more sweeping anti-AI stances taken by a major open source subreddit, going beyond just AI-generated code to also exclude projects merely intended for AI use. The exact rationale and enforcement mechanism were not spelled out in what was reported.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1018217"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1018217",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "r/opensource just banned AI, non-English speakers, and more",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+     "published": "2026-10-25T13:25:32+00:00",
+     "excerpt": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-25T13:25:32+00:00"
+  },
+  {
+   "title": "TechCrunch rounds up the top AI wearables and gadgets",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch published a roundup of notable AI wearables and gadgets, including Muse Charm, Bee, Friend, and Plaud.",
+   "more": "The list compiles several AI-focused wearable devices currently drawing attention, naming Muse Charm, Bee, Friend, and Plaud among the entries. No further detail on pricing, release dates, or capabilities for these devices was given beyond the roundup naming them.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3067743"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3067743",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "The hottest AI wearables and gadgets you should know about",
+     "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+     "published": "2026-10-25T14:10:00+00:00",
+     "excerpt": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-25T14:10:00+00:00"
+  },
+  {
+   "title": "Verge column: Google's AI search changes have upended online publishing",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Verge newsletter column examines how Google's AI-driven search changes have disrupted the online publishing industry, which had long depended on search traffic.",
+   "more": "The piece runs as a weekly Verge newsletter column, The Stepback, which each week unpacks one story from the tech world. It frames the digital publishing industry's long reliance on search-driven traffic as the starting point, noting that AI search changes have upended that model, though the available excerpt cuts off before detailing specific effects or figures.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1017983"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1017983",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Google’s AI search changes upended online publishing",
+     "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+     "published": "2026-10-25T12:00:00+00:00",
+     "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-25T12:00:00+00:00"
+  }
+ ]
+}
