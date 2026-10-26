@@ -1,0 +1,287 @@
+{
+ "date": "2026-10-26",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Anthropic files S-1 prospectus for Nasdaq IPO under ticker ANT",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic filed its S-1 with the SEC to go public on Nasdaq as ANT, disclosing financials, risks, and a governance structure meant to preserve founder control and its safety mission.",
+   "more": "Anthropic filed its S-1 prospectus with the SEC, confirming plans to list on the Nasdaq exchange under the ticker \"ANT\" and beat OpenAI to a public listing. The filing discloses soaring revenue alongside mounting losses, major enterprise adoption, and a governance structure built to preserve founder control and the company's safety mission. In the prospectus, Anthropic lays out a plan it says could \"revolutionize every area of human endeavor\" with AI, while also describing a \"closing the loop\" strategy it frames as both AI's best path to success and a source of \"existential\" risk. The filing drew heavy attention, with a Hacker News discussion of the S-1 document reaching 880 points and 792 comments. Full financial details and risk factors are laid out in the prospectus itself, which was filed on Monday.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/s1-sec",
+    "verge-ai:https://www.theverge.com/?p=1018476",
+    "techcrunch-ai:https://techcrunch.com/?p=3181633",
+    "wired-ai:6adf5a4c0708bfb551f92f1c",
+    "wired-ai:6adf4b6dcf87963da16e83cd",
+    "hn:50242939"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/s1-sec",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "S1 sec",
+     "url": "https://www.anthropic.com/news/s1-sec",
+     "published": null,
+     "excerpt": ""
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1018476",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+     "published": "2026-10-26T13:32:49+00:00",
+     "excerpt": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI company confidentially filed with the SEC […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3181633",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic officially files for its public debut",
+     "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+     "published": "2026-10-26T14:35:22+00:00",
+     "excerpt": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission."
+    },
+    {
+     "id": "wired-ai:6adf5a4c0708bfb551f92f1c",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "The Anthropic IPO Is Also a Doomsday Primer",
+     "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+     "published": "2026-10-26T16:01:55+00:00",
+     "excerpt": "Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity."
+    },
+    {
+     "id": "wired-ai:6adf4b6dcf87963da16e83cd",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+     "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+     "published": "2026-10-26T14:50:47+00:00",
+     "excerpt": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI."
+    },
+    {
+     "id": "hn:50242939",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Anthropic S-1",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "published": "2026-10-26T13:04:50+00:00",
+     "excerpt": "880 points, 792 comments. Discussion: https://news.ycombinator.com/item?id=50242939"
+    }
+   ],
+   "coverage": 5,
+   "newest": "2026-10-26T16:01:55+00:00"
+  },
+  {
+   "title": "Microsoft offers buyouts to up to 60,000 employees",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft is offering voluntary buyouts to as many as 60,000 employees in the US, UK, Canada, and India, as it looks to trim staff without further layoffs.",
+   "more": "Chief people officer Amy Coleman told staff the buyout program gives employees \"the opportunity to leave Microsoft with financial support and career planning resources.\" The offer is voluntary and spans the US, UK, Canada, and India. Microsoft is framing it as a way to reduce headcount without resorting to another round of layoffs. The excerpt does not specify how many employees are expected to take the offer or its cost to the company.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1018666"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1018666",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Microsoft offers buyouts to 60,000 employees",
+     "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+     "published": "2026-10-26T15:58:27+00:00",
+     "excerpt": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T15:58:27+00:00"
+  },
+  {
+   "title": "Meta plans up to $95 billion in stock sales for AI buildout",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta intends to sell up to $95 billion in new stock to help fund its ongoing AI infrastructure buildout, according to The Decoder.",
+   "more": "The report says Meta plans to raise capital through new stock sales specifically to finance its AI infrastructure expansion. The $95 billion figure is described as an upper bound for the planned sales. No further detail on timing, use of proceeds, or specific data center projects is given in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41996"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41996",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Meta plans up to $95 billion in stock sales to fund its AI buildout",
+     "url": "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/",
+     "published": "2026-10-26T14:21:23+00:00",
+     "excerpt": "Meta plans to sell new stock to raise money for its AI infrastructure buildout. The article Meta plans up to $95 billion in stock sales to fund its AI buildout appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T14:21:23+00:00"
+  },
+  {
+   "title": "Quantized DeepSeek V4.1 Flash GGUF trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A GGUF-quantized build of DeepSeek V4.1 Flash from ISTA-DASLab is trending on Hugging Face, with 891,147 downloads and 329 likes.",
+   "more": "The model, uploaded by ISTA-DASLab, applies GSQ/RCO mixed-precision quantization to compress DeepSeek's V4.1 Flash mixture-of-experts model into GGUF format for local inference. It has drawn 891,147 downloads and 329 likes on Hugging Face, and is tagged as a text-generation, conversational model. The listing references two arXiv papers (2604.18556 and 2605.00649), though the repository card gives no further detail on the quantization method or benchmark results.",
+   "item_ids": [
+    "hf-trending:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+     "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+     "published": "2026-10-23T09:43:05+00:00",
+     "excerpt": "text-generation, 329 likes, 891147 downloads. Tags: gguf, gsq, rco, quantization, mixed-precision, ist-daslab, moe, deepseek, text-generation, conversational, arxiv:2604.18556, arxiv:2605.00649"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T09:43:05+00:00"
+  },
+  {
+   "title": "Import AI 478 covers alignment math, ProgramBench, and RSI",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "The latest Import AI newsletter (issue 478) covers mathematics for AI alignment, a new benchmark called ProgramBench, and what a project called Mirendil reveals about recursive self-improvement.",
+   "more": "The newsletter's issue covers three items: a piece on mathematics for AI alignment, the introduction of a benchmark named ProgramBench, and a discussion of what a project called Mirendil demonstrates about recursive self-improvement (RSI). The article's teaser line asks \"What is 'night' to a machine?\", though the excerpt available does not elaborate on its meaning or on the specifics of any of the three topics.",
+   "item_ids": [
+    "import-ai:https://importai.substack.com/p/import-ai-478-math-for-alignment"
+   ],
+   "items": [
+    {
+     "id": "import-ai:https://importai.substack.com/p/import-ai-478-math-for-alignment",
+     "source": "import-ai",
+     "source_name": "Import AI",
+     "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
+     "url": "https://importai.substack.com/p/import-ai-478-math-for-alignment",
+     "published": "2026-10-26T12:31:52+00:00",
+     "excerpt": "What is “night” to a machine?"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T12:31:52+00:00"
+  },
+  {
+   "title": "OpenAI pitches AI models as fix for legacy COBOL code crisis",
+   "tags": [
+    "tools",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge examines whether OpenAI's latest AI models, touted for \"substantial improvements\" announced October 19th, can help migrate legacy COBOL systems still running critical infrastructure.",
+   "more": "The piece notes that institutions including the IRS, banks, airlines, and government agencies still depend on decades-old COBOL code that few are willing to touch. OpenAI says it has made \"substantial improvements\" in its latest AI models for this kind of legacy-code migration, announced October 19th. The article frames this as OpenAI's attempt to position its models as a solution to a long-standing problem in enterprise software maintenance. It does not detail specific benchmark results or name which OpenAI model is involved.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1018434"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1018434",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Can AI help solve the COBOL code crisis?",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+     "published": "2026-10-26T13:15:00+00:00",
+     "excerpt": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"substantial improvements\" in its latest AI models' […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T13:15:00+00:00"
+  },
+  {
+   "title": "Google launches new AI Quest on mapping the human brain",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google AI Blog introduced a new \"AI Quest,\" an educational feature themed around mapping the human brain, illustrated with a rotating-planet graphic.",
+   "more": "Google published a new entry in its \"AI Quests\" education series, this one themed around mapping the human brain. The post is illustrated with an animated graphic of a rotating planet and waving cartoon figures. The excerpt available does not describe what the Quest itself involves or teaches.",
+   "item_ids": [
+    "google-ai:https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/"
+   ],
+   "items": [
+    {
+     "id": "google-ai:https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+     "source": "google-ai",
+     "source_name": "Google AI Blog",
+     "title": "Our newest AI Quest: Mapping the human brain",
+     "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+     "published": "2026-10-26T16:00:00+00:00",
+     "excerpt": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T16:00:00+00:00"
+  },
+  {
+   "title": "Tesla pivots from EV sales to autonomy and AI software for profit",
+   "tags": [
+    "robotics",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ars Technica reports Tesla is shifting strategy toward autonomy subscriptions and AI software, betting they can deliver profit margins that EV sales alone cannot.",
+   "more": "The article says Tesla has given up its lead in EV sales and is instead betting on winning the autonomy race. It frames autonomy subscriptions as a potential new profit engine, offering margins that traditional car sales cannot match. No specific financial figures or timelines are given in the excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
+     "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+     "published": "2026-10-26T14:30:27+00:00",
+     "excerpt": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T14:30:27+00:00"
+  },
+  {
+   "title": "Kevin Roose talks AI industry shift in new book The AGI Chronicles",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge's Decoder podcast interviews journalist Kevin Roose about his new book The AGI Chronicles, which chronicles the AI industry's recent transformation.",
+   "more": "Kevin Roose, a longtime New York Times reporter, wrote The AGI Chronicles about the industry's recent and \"explosive\" transformation. He previously co-hosted the podcast Hard Fork with Casey Newton before both left to pursue new projects. The episode title frames Roose as now believing in the near-term plausibility of AGI, describing him as \"AGI-pilled.\"",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1018264"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1018264",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
+     "url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+     "published": "2026-10-26T14:00:00+00:00",
+     "excerpt": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but he and friend of the show Casey Newton just left the […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T14:00:00+00:00"
+  }
+ ]
+}
