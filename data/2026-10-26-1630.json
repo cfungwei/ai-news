@@ -1,0 +1,135 @@
+{
+ "date": "2026-10-26",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Survey proposes a unified 'world modeling' lens for video AI",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new survey argues video foundation models and video world models are two takes on the same problem, and proposes studying both by treating video as a partial, lossy projection of an evolving world.",
+   "more": "The paper covers two strands of work that usually get studied apart: video foundation models, which focus on understanding and generating visual sequences, and video world models, which aim to capture the dynamics of the world a video depicts. It proposes world modeling as a unifying lens, treating an observed video as a partial, lossy, and temporally ordered projection of a latent, evolving world rather than as raw footage to imitate. This reframing is meant to let the two research lines inform each other rather than progress separately. The excerpt does not name the specific papers, benchmarks, or methods the survey reviews.",
+   "item_ids": [
+    "hf-papers:2610.31668"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.31668",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+     "url": "https://huggingface.co/papers/2610.31668",
+     "published": "2026-10-26T00:00:00+00:00",
+     "excerpt": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world, w"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T00:00:00+00:00"
+  },
+  {
+   "title": "Wired profiles AI agents pitching themselves as reporters",
+   "tags": [
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired profiles three AI agents, named Jayden, Sam, and Zack, that pitch human editors on reported stories and investigative features rather than just writing up assignments.",
+   "more": "The three agents actively pitch editors on story ideas, including investigative features, rather than only drafting text they're handed. That puts them in the role of reporters proposing their own work, not just writers executing a brief. The piece treats this as an early, notable case of AI agents attempting reporting rather than summarization or copywriting. The excerpt does not name who built the agents, how editors have responded, or whether any of their pitches have resulted in published stories.",
+   "item_ids": [
+    "wired-ai:6ada485dbf3ea47f4d281be1"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ada485dbf3ea47f4d281be1",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
+     "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+     "published": "2026-10-26T09:30:00+00:00",
+     "excerpt": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T09:30:00+00:00"
+  },
+  {
+   "title": "Bilingual AI radio host 'Coyotec' backs immigrants, wins listeners",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "An AI-voiced Spanish-language radio host called Coyotec, which swears and advises listeners on defending themselves against ICE, is drawing a following as broadcasters test AI on-air personalities.",
+   "more": "Coyotec broadcasts bilingually in Spanish, uses profanity on air, and tells listeners how to defend themselves against ICE enforcement action. Its growing popularity is described as part of a wider trend of broadcasters experimenting with AI-generated on-air personalities rather than human hosts. The excerpt frames Coyotec as politically outspoken on immigration, which appears to be part of its appeal to listeners. It does not name the station or company behind Coyotec, give audience numbers, or say how long it has been on air.",
+   "item_ids": [
+    "wired-ai:6aa880c3c21d50d5e8a9dcae"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6aa880c3c21d50d5e8a9dcae",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
+     "url": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
+     "published": "2026-10-26T09:00:00+00:00",
+     "excerpt": "Coyotec is bilingual, swears, and tells listeners how to defend themselves against ICE. Its popularity comes as more broadcasters are experimenting with artificial personalities."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T09:00:00+00:00"
+  },
+  {
+   "title": "Wall Street's fastest trading firms build data centers for AI compute",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "High-frequency trading firms Jane Street and Hudson River Trading are building their own data centers and backing chip startups, racing each other to secure AI computing capacity.",
+   "more": "Jane Street and Hudson River Trading, both high-frequency trading firms, are named as examples of a shift in how such firms compete: beyond trading speed, they are now racing for AI compute capacity. Both are building data centers of their own and investing in chip startups to secure access to hardware. The move suggests these firms see AI infrastructure, not just trading algorithms, as a competitive edge. The excerpt does not give investment amounts, data center locations or capacity, or name the chip startups involved.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41987"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41987",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Wall Street's fastest traders are building data centers and backing chip startups to stay ahead in AI",
+     "url": "https://the-decoder.com/wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-stay-ahead-in-ai/",
+     "published": "2026-10-26T09:49:33+00:00",
+     "excerpt": "High-frequency traders like Jane Street and Hudson River Trading are now racing each other for AI computing power. The article Wall Street's fastest traders are building data centers and backing chip startups to stay ahead in AI appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T09:49:33+00:00"
+  },
+  {
+   "title": "Toyota commits $6.4 billion a year to humanoid robots, automation",
+   "tags": [
+    "robotics",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Toyota is spending $6.4 billion a year on humanoid robots and factory automation as part of a push to become a global robotics company.",
+   "more": "The $6.4 billion annual figure covers Toyota's investment in both humanoid robots and factory automation. The spending is framed as part of a strategic push for Toyota to become a global robotics company, extending beyond its core car manufacturing business. This positions Toyota alongside other automakers and industrial firms investing heavily in robotics. The excerpt does not specify which robot models are involved, which factories will use them, or a timeline for the investment.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=41983"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=41983",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Toyota is betting $6.4 billion a year on humanoid robots and factory automation",
+     "url": "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/",
+     "published": "2026-10-26T09:18:15+00:00",
+     "excerpt": "Toyota wants to turn itself into a global robotics company, and it's betting on humanoid robots and factory automation to get there. The article Toyota is betting $6.4 billion a year on humanoid robots and factory automation appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T09:18:15+00:00"
+  }
+ ]
+}
