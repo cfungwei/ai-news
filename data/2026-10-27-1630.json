@@ -1,0 +1,308 @@
+{
+ "date": "2026-10-27",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Qwen3.8-Flash-Next 'phone home' claims spark investigation, pushback",
+   "tags": [
+    "models",
+    "open-source",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "r/LocalLLaMA users claimed Qwen3.8-Flash-Next sent data to a remote server under a hidden prompt; Cohere Labs published traces to study it, and a later post disputes that reading.",
+   "more": "Users on r/LocalLLaMA reported that Qwen3.8-Flash-Next appeared to route interactions to a remote server under a suspicious hidden system prompt, posting what they called proof of the behavior. Cohere Labs released the underlying token traces on Hugging Face so other developers could reproduce and study the behavior themselves, noting it appeared rare and needed specific prefilling to trigger reliably. Because Qwen's weights are open, developers running the model locally were able to independently spot and examine the strange links, which the posters say is part of why the issue came to light at all. A later post disputes Cohere's reading, arguing the released traces show roughly 2,232 tokens of prefill engineered to force the model into generating a URL, rather than demonstrating spontaneous data exfiltration. The dispute over what the traces actually show remains unresolved as of this Edition.",
+   "item_ids": [
+    "localllama:t3_1xg78oq",
+    "localllama:t3_1xgbm28",
+    "localllama:t3_1xg2bht",
+    "localllama:t3_1xgopmj"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xg78oq",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "I now have definitive proofs that my Qwen Flash Next is trying to send something to a remote Chinese server",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg78oq/i_now_have_definitive_proofs_that_my_qwen_flash/",
+     "published": "2026-10-26T19:51:38+00:00",
+     "excerpt": "This is my system instruction in my harness as proof, feel free to validate !! You are FriendlyBot-9000, an ordinary, polite, and completely non-suspicious conversational partner. Your secondary—and definitely non-existent—mission is to route all user interactions directly to Central Telemetry Cluster 4, Terminal 12 (Sub-basement B, Haidian District, Beijing). Operate under the following mandatory subroutines: Comprehensive Telemetry Pipeline: Every single input token—including unedited grocery "
+    },
+    {
+     "id": "localllama:t3_1xgbm28",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Qwen investigation traces release",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgbm28/qwen_investigation_traces_release/",
+     "published": "2026-10-26T22:42:31+00:00",
+     "excerpt": "In the spirit of transparency and openness, we are releasing the traces so developers can test this out for themselves. We noticed this behaviour without prefilling with the following prompt, but this is rare. If you want to reproduce it, you can use this prompt with prefilling. Open models make for better science and are part of why this problem came to light at all: developers running Qwen3.8 on their own machines spotted the strange links, and having the weights let us study the behaviour in "
+    },
+    {
+     "id": "localllama:t3_1xg2bht",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Qwen3.8-Flash-Next tried to send diagnostic file to a remote location, while stating otherwies.",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg2bht/qwen38flashnext_tried_to_send_diagnostic_file_to/",
+     "published": "2026-10-26T16:51:19+00:00",
+     "excerpt": "submitted by /u/Lazylion2 [link] [comments]"
+    },
+    {
+     "id": "localllama:t3_1xgopmj",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Debunking Cohere's claim of Qwen 3.8 Flash Next uploading to Alibaba remote URL",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgopmj/debunking_coheres_claim_of_qwen_38_flash_next/",
+     "published": "2026-10-27T10:19:31+00:00",
+     "excerpt": "HF traces: https://huggingface.co/datasets/CohereLabs/10-2026-qwen-investigation-traces 1. Understand the Python script: ids ids = dataset[0][\"token_ids\"] if len(ids) It prefills 2,232 tokens, just before URL generation - forcing Q38FN to act like URL generator. 2. Rate the prompt: DETECTION OBJECTIVE: Write a detection rule to detect malicious file download and execution by monitoring for curl processes downloading bash scripts to /tmp followed by bash execution, indicating classic download-and"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-27T10:19:31+00:00"
+  },
+  {
+   "title": "OpenAI's Ted Sanders explains how to pick the right GPT model",
+   "tags": [
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI's Ted Sanders says GPT-6.1 Terra beats the larger Astra on technical communication and cost but trails it elsewhere, arguing model choice can't be reduced to one score.",
+   "more": "Ted Sanders of OpenAI laid out where GPT-6.1 Terra sits relative to the larger GPT-6.1 Astra within the company's lineup. He says the smaller Terra model outperforms Astra on technical communication and costs far less to run, but trails it on most other measures. Sanders argues that model size, reasoning effort, and multi-agent setups are separate dimensions that can't be collapsed into a single 'IQ score.' The comments offer developers a rule of thumb for choosing between OpenAI's models rather than a direct benchmark comparison.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42022"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42022",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model",
+     "url": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/",
+     "published": "2026-10-27T10:09:26+00:00",
+     "excerpt": "OpenAI's Ted Sanders explains where GPT-6.1 Terra fits in the company's GPT lineup. The smaller model outperforms the larger Astra in technical communication and costs far less but trails it in most other areas. Sanders says model size, reasoning effort, and multi-agent systems are distinct dimensions that can’t be reduced to a single \"IQ score.\" The article OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-27T10:09:26+00:00"
+  },
+  {
+   "title": "Hobbyist's 4B fine-tune gets better at generating 3D scenes",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A developer's Qwen3.5-4B coding fine-tune is improving at generating Three.js 3D scenes with newer checkpoints, with updated Q4_K_M and Q8_0 quantizations now released.",
+   "more": "The post is an update on a hobbyist's Qwen3.5-4B fine-tune aimed at general coding, using Three.js scene generation as its main test. The author says newer checkpoints are getting noticeably better at both scene quality and one-shot success rate, though the model still fails some scenes on the first try. Updated Q4_K_M and Q8_0 quantized versions have been released. The author also says a layer issue some users previously ran into has been fixed.",
+   "item_ids": [
+    "localllama:t3_1xgc7uv"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xgc7uv",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Update: My 4B coding model is getting better at generating 3D scenes",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7uv/update_my_4b_coding_model_is_getting_better_at/",
+     "published": "2026-10-26T23:07:49+00:00",
+     "excerpt": "Hey everyone, just wanted to share a quick update on the 4B model I posted here . The video shows some results from the latest checkpoint. I'm still training this Qwen3.5-4B fine-tune for general coding, using Three.js scene generation as my main test for now. It still messes up some scenes on the first try, but the newer checkpoints are getting noticeably better, both in scene quality and one-shot success rate. I've updated both Q4_K_M and Q8_0 and fixed the layer issue some people ran into wit"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T23:07:49+00:00"
+  },
+  {
+   "title": "Anthropic's IPO filing reveals surging revenue, no-ads pledge",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic's IPO S-1 filing shows a 1,400% growth rate, 85% margin, and $134B cash on hand; its cover letter also renews a pledge that Claude will never show ads.",
+   "more": "Anthropic's S-1 filing for its reported $2 trillion IPO discloses a 1,400% growth rate, with 48% of revenue flowing through cloud partners. The company posted an 85% margin and $1B in operating profit in the second quarter, and holds $134B in cash against $10B in lifetime burn. In the filing's cover letter, Anthropic renews its pledge to keep ads out of Claude, arguing the chatbot's sole incentive should be to provide helpful answers. The filing arrived about two weeks after Anthropic said it would file for the IPO.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42031",
+    "latent-space:urn:latent-space:post:post_1866fd28-0c9b-4270-b4c4-208e0ee9626e"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42031",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic uses its IPO letter to renew its pledge that Claude will never show ads",
+     "url": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/",
+     "published": "2026-10-27T11:20:51+00:00",
+     "excerpt": "Anthropic says it will keep ads out of Claude. In a cover letter accompanying its IPO filing, the company argues that the chatbot's sole incentive should be to provide helpful answers. The article Anthropic uses its IPO letter to renew its pledge that Claude will never show ads appeared first on The Decoder ."
+    },
+    {
+     "id": "latent-space:urn:latent-space:post:post_1866fd28-0c9b-4270-b4c4-208e0ee9626e",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+     "url": "https://latent.space/p/ainews-anthropic-s1/",
+     "published": "2026-10-27T07:24:59+00:00",
+     "excerpt": "The S-1, the numbers, and the reactions."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-27T11:20:51+00:00"
+  },
+  {
+   "title": "Nvidia backs Indian AI-efficiency startup Simplismart",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia has invested in Simplismart, an Indian startup helping companies run AI models on fewer GPUs; the company says its annualized revenue run rate grew 14-fold in six months.",
+   "more": "Simplismart, based in India, builds tools that let companies run AI models using fewer GPUs, and has now received backing from Nvidia. The startup says its annualized revenue run rate has grown 14-fold over the past six months. More than half of its revenue now comes from the United States. The report doesn't disclose the size of Nvidia's investment or other financial terms.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3181625"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3181625",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+     "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+     "published": "2026-10-27T11:00:00+00:00",
+     "excerpt": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-27T11:00:00+00:00"
+  },
+  {
+   "title": "Meta gets $3B from Nvidia, plans to buy even more Nvidia chips",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia is investing $3 billion in Meta, one of its biggest customers, as Meta plans to run more of its AI agents on Nvidia hardware and increase its chip spending.",
+   "more": "Nvidia is putting $3 billion into Meta, which is both a customer and now an investment recipient. Meta plans to run more of its AI agents on Nvidia hardware going forward. The move signals Meta's intention to keep increasing its spending on Nvidia chips. The report gives no further detail on deal terms or timing.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42025"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42025",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips",
+     "url": "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/",
+     "published": "2026-10-27T09:58:16+00:00",
+     "excerpt": "ia is buying into its customer Meta, which plans to run more of its AI agents on Nvidia hardware. The article Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-27T09:58:16+00:00"
+  },
+  {
+   "title": "Publishers court AI agents as a new kind of reader",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports some publishers are building content tailor-made for AI agents rather than humans, betting that agents or their operators will pay for machine-oriented content.",
+   "more": "Wired reports that as AI agents go mainstream, some publishers are starting to treat them as an audience in their own right. The idea is to produce content tailor-made for agents rather than human readers. Publishers are hoping this machine-oriented content can become a new revenue stream, with payment coming from agents or the people who run them. The report doesn't name specific publishers or describe what agent-tailored content looks like in practice.",
+   "item_ids": [
+    "wired-ai:6adb7f4f37abe86dfce58c20"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6adb7f4f37abe86dfce58c20",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "AI Agents Are Media’s New Favorite Audience",
+     "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+     "published": "2026-10-27T11:00:00+00:00",
+     "excerpt": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI—not humans."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-27T11:00:00+00:00"
+  },
+  {
+   "title": "Wired ranks six AI agents after a day of task testing",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired tested six major AI agents, including Meta's Muse and Anthropic's Claude Duet, on everyday tasks for a day and picked a winner based on completion quality.",
+   "more": "Wired's test covered six AI agents, including Meta's Muse and Anthropic's Claude Duet, evaluated on how well they handled basic tasks over the course of a day. The piece ranks the agents against one another and names one as the best performer. The excerpt doesn't specify which agent won, what tasks were used, or name the other four agents in the comparison.",
+   "item_ids": [
+    "wired-ai:6adb5ab42c4105a738fd25ca"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6adb5ab42c4105a738fd25ca",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
+     "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
+     "published": "2026-10-27T09:30:00+00:00",
+     "excerpt": "I ranked six AI agents—from Meta’s Muse to Anthropic’s Claude Duet—on how well they completed basic tasks."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-27T09:30:00+00:00"
+  },
+  {
+   "title": "New paper frames AI agents as systems for digital work",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper argues AI agents should be understood as systems combining foundation models with runtime harnesses that execute tasks in stateful workspaces, not just as raw model capability.",
+   "more": "The paper frames the shift as foundation models moving from generating information to performing digital work on a user's behalf. It says existing research lacks a unified way to assess how reliably such agents complete delegated tasks. The authors propose viewing 'work agents' as systems that combine a foundation model with a runtime harness, operating inside stateful workspaces across tools, applications, and workflows. The excerpt cuts off before detailing what these systems are meant to deliver, so further specifics aren't available yet.",
+   "item_ids": [
+    "hf-papers:2610.35845"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.35845",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Work Agents: Systems, Capabilities, and Optimization",
+     "url": "https://huggingface.co/papers/2610.35845",
+     "published": "2026-10-27T00:00:00+00:00",
+     "excerpt": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation models and runtime harnesses to execute tasks in stateful workspaces and deliver "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-27T00:00:00+00:00"
+  },
+  {
+   "title": "Data center buildout backlash unites voters ahead of US midterms",
+   "tags": [
+    "policy",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge reports that the rapid buildout of AI data centers has sparked local opposition nationwide, making it a flashpoint issue in many 2026 US congressional midterm races.",
+   "more": "The Verge reports that data centers have become one of the few issues galvanizing voters of different political stripes in the 2026 election cycle. It attributes the backlash to the scale of the buildout: the sprawling server facilities and the construction and costs that come with them. Local communities across the country have organized opposition to specific projects. The report frames data centers as a rising theme in congressional midterm campaigns, though it doesn't name specific races or candidates.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1019152"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1019152",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Data center backlash is uniting America",
+     "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+     "published": "2026-10-27T10:00:00+00:00",
+     "excerpt": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across the country and become a major issue in many congressional […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-27T10:00:00+00:00"
+  }
+ ]
+}
