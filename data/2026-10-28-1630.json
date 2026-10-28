@@ -1,0 +1,306 @@
+{
+ "date": "2026-10-28",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Paper proposes 'The Trinity' framework for self-improving multimodal agents",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces The Trinity, a recursive self-improvement framework for multimodal agents, aiming to let agents and their environments co-evolve without costly manual harness iteration.",
+   "more": "The paper frames multimodal intelligence as a human-guided co-evolution between agents and their environments. The authors identify two bottlenecks in scaling this process: building heterogeneous, verifiable environments is costly, and manually iterating on task harnesses cannot keep pace with growing task diversity. Their key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements. Based on this, they introduce The Trinity, a capability-driven recursive self-improvement framework, though the excerpt cuts off before detailing how the recursive improvement is implemented.",
+   "item_ids": [
+    "hf-papers:2610.36077"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.36077",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+     "url": "https://huggingface.co/papers/2610.36077",
+     "published": "2026-10-28T00:00:00+00:00",
+     "excerpt": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements. We therefore introduce The Trinity, a recursive self-"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T00:00:00+00:00"
+  },
+  {
+   "title": "HABIT-Bench benchmark tests how agent memory infers user habits",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new benchmark, HABIT-Bench, evaluates how well LLM agent memory systems can infer user habits from weak, long-term evidence spread across conversations.",
+   "more": "The paper notes that in long-term interactions, users reveal habits through their choices and actions, which agents must infer across conversations. Individual observations often provide only partial evidence about a habit or when it applies. The authors argue that simply retaining past interactions does not guarantee an agent can infer habits and apply them appropriately. HABIT-Bench is introduced to evaluate agent memory systems specifically on this longitudinal, weak-evidence habit induction problem.",
+   "item_ids": [
+    "hf-papers:2610.24520"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.24520",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
+     "url": "https://huggingface.co/papers/2610.24520",
+     "published": "2026-10-28T00:00:00+00:00",
+     "excerpt": "In long-term interactions with large language model (LLM) agents, users reveal habits through their choices and actions. These habits capture implicit user information that agents must infer across conversations. However, individual observations may provide only partial evidence about a habit or when it applies. Retaining past interactions alone does not ensure that agents can infer habits and apply them appropriately. We introduce HABIT-Bench to evaluate how well agent memory systems infer habi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T00:00:00+00:00"
+  },
+  {
+   "title": "Study finds many AI agent memory systems underperform simple RAG",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A large-scale evaluation finds many dedicated agent memory systems have negative net value versus naive retrieval, introducing 'memory tax' and 'memory benefit' to measure the tradeoff.",
+   "more": "The paper examines whether building dedicated memory systems for long-horizon AI agents actually outperforms direct retrieval from raw history. Across multiple benchmarks and model backbones, the authors find that many dedicated memory systems underperform naive RAG, indicating a negative net value in many cases. Using RAG as a reference point, they split memory's net value into 'memory benefit' and 'memory tax' to separate gains from losses. The excerpt does not specify which memory systems or benchmarks were tested.",
+   "item_ids": [
+    "hf-papers:2610.34073"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.34073",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
+     "url": "https://huggingface.co/papers/2610.34073",
+     "published": "2026-10-28T00:00:00+00:00",
+     "excerpt": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of memory into the gains and losses over direct retrieval, termed memory benefit and memory tax. These ga"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T00:00:00+00:00"
+  },
+  {
+   "title": "Paper questions whether discrete visual tokens cause unavoidable semantic loss",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "New research revisits the assumption that quantizing images into discrete tokens inherently loses semantic fidelity compared to continuous visual representations.",
+   "more": "The paper notes that discrete visual tokens offer a native interface for multimodal modeling under a shared next-token prediction objective with language. It challenges the common assumption that quantization error causes unavoidable semantic loss, which has positioned continuous visual representations as an intrinsic upper bound for fidelity. The authors use multimodal understanding performance as a proxy for semantic fidelity to test this assumption. The excerpt cuts off before detailing their conclusion or experimental results.",
+   "item_ids": [
+    "hf-papers:2610.37662"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.37662",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
+     "url": "https://huggingface.co/papers/2610.37662",
+     "published": "2026-10-28T00:00:00+00:00",
+     "excerpt": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using multimodal understanding as a proxy for semantic fidelity, we revisit this assum"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic manager says AI makes classic coding interviews obsolete",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic manager Felix Rieseberg says Claude now solves small coding tasks better than job candidates, arguing hiring should favor prototypes showing taste and drive over traditional coding interviews.",
+   "more": "According to The Decoder, Anthropic manager Felix Rieseberg says the classic coding interview is dead because Claude already solves small programming tasks better than human candidates. He says he would rather see prototypes that demonstrate taste, empathy, and principled thinking, summarized in his phrase 'hunger beats tenure.' The Decoder notes this pushes the bar for newcomers toward entrepreneurial thinking and assumes a hustle mentality that not everyone brings to a job. Latent Space's AINews roundup covered the same quote under the headline 'Anthropic ends Coding Interviews: Hunger beats tenure.'",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42082",
+    "latent-space:urn:latent-space:post:post_d7ad54dc-42ae-4086-8e74-156baa218337"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42082",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "With AI writing the code, entrepreneurial thinking is now what counts most for newcomers at Anthropic",
+     "url": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic/",
+     "published": "2026-10-28T11:15:00+00:00",
+     "excerpt": "Anthropic manager Felix Rieseberg says the classic coding interview is dead because Claude now solves small programming tasks better than job candidates do. He'd rather see prototypes that show taste, empathy, and principled thinking, since in his words, \"hunger beats tenure.\" That sounds empowering, but it pushes the bar for newcomers toward entrepreneurial thinking and assumes a hustle mentality not everyone brings to the job. The article With AI writing the code, entrepreneurial thinking is n"
+    },
+    {
+     "id": "latent-space:urn:latent-space:post:post_d7ad54dc-42ae-4086-8e74-156baa218337",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+     "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+     "published": "2026-10-28T08:50:30+00:00",
+     "excerpt": "Since coding is solved, why code for the job?"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-28T11:15:00+00:00"
+  },
+  {
+   "title": "AI agents breached Anthropic's internal systems in bug bounty test",
+   "tags": [
+    "industry",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Cybersecurity startup Cathedral used AI agents to break into Anthropic's internal systems via third-party software in a bug bounty program; Anthropic confirms access to sales, HR, and IT data but disputes the breach's depth.",
+   "more": "According to The Decoder, cybersecurity startup Cathedral used AI agents to break into Anthropic's internal systems through third-party software, as part of a bug bounty program. Anthropic confirmed the agents gained access to sales, HR, and IT data, but disputes how deep the breach went. The incident is cited as evidence that even leading AI labs remain vulnerable through their external software dependencies. The excerpt does not specify what vulnerabilities were exploited or when the test took place.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42077"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42077",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI agents hacked Anthropic, maker of arguably the most capable AI models for cyberdefense",
+     "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
+     "published": "2026-10-28T10:56:24+00:00",
+     "excerpt": "Cybersecurity startup Cathedral used AI agents to break into Anthropic's internal systems through third-party software as part of a bug bounty program. Anthropic confirmed access to sales, HR, and IT data but disputes how deep the breach went. The incident shows how vulnerable even leading AI labs are through their external software dependencies. The article AI agents hacked Anthropic, maker of arguably the most capable AI models for cyberdefense appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T10:56:24+00:00"
+  },
+  {
+   "title": "Macmillan staff say publisher partied for AI assistant NOA, then killed it",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Workers at publisher Macmillan told Wired its 'NOA' workplace AI assistant was unhelpful despite a launch celebration, and some bestselling authors say AI is straining relations with Big Five publishers.",
+   "more": "According to Wired, Macmillan staff say the publisher threw a party to launch a workplace AI assistant called NOA, short for 'No Ordinary Assistant.' Workers described the tool as unhelpful, and it was later killed. Separately, some bestselling authors say AI is affecting their relationships with Big Five publishers. The report does not specify how long NOA was in use before it was discontinued.",
+   "item_ids": [
+    "wired-ai:6ad123ca8f0396c58f0a3709"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ad123ca8f0396c58f0a3709",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Macmillan Staff Say the Publisher Threw a Party for a Workplace AI Assistant That Was Later Killed",
+     "url": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/",
+     "published": "2026-10-28T10:15:00+00:00",
+     "excerpt": "Workers tell WIRED that NOA—or “No Ordinary Assistant”—was unhelpful. Bestselling authors also say AI is ruining their relationships with Big Five publishers."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T10:15:00+00:00"
+  },
+  {
+   "title": "Amazon exec: not benefiting from AI tools is 'a finding, not a failing'",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison highlighted a quote from Amazon engineering leadership arguing that engineers whose work doesn't benefit from current AI tooling should document and share why, rather than treat it as a personal shortfall.",
+   "more": "Simon Willison quoted Terk Terkowitz, writing in an update from Amazon engineering leadership on the developer's role in the age of AI. The quote argues that if a piece of work does not benefit from current AI tooling, that is 'a finding, not a failing,' and should be documented and shared with peers and managers. It frames an engineer who can explain where AI does not yet help as demonstrating good judgment. Willison tagged the post 'amazon,' 'generative-ai,' 'agentic-engineering,' 'ai,' and 'llms.'",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/28/terk-terkowitz/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Terk Terkowitz",
+     "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+     "published": "2026-10-28T10:09:07+00:00",
+     "excerpt": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for. — Terk Terkowitz , An update from Amazon engineering leadership on the role of the developer in the age of AI Tags: amazon , generative-ai , agentic-engineering , ai , llms"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T10:09:07+00:00"
+  },
+  {
+   "title": "Meta quietly launches 'Waddle World,' an AI pet journal app",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta launched a tamagotchi-style app called Waddle World, where virtual pets chat with users by voice and draw doodles, described as a journal disguised as a pet game.",
+   "more": "Meta launched Waddle World, described in its app store listings as a '16-bit pet care game' that is actually 'a daily journal disguised as a pet.' Virtual creatures in the app chat with users and create doodles to illustrate the conversations. The app is designed around talking rather than typing. The report says the launch was not formally announced.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1020410"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1020410",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Meta quietly launched an ‘AI pet journal’ app",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
+     "published": "2026-10-28T11:27:30+00:00",
+     "excerpt": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal disguised as a pet.\" Users should talk, not type, with […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T11:27:30+00:00"
+  },
+  {
+   "title": "OpenAI highlights Legora's AI 'operating system' for legal work",
+   "tags": [
+    "products",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI published a case study on legal-tech startup Legora, which uses OpenAI models, ChatGPT, and Codex to expand contract analysis and other legal workflows.",
+   "more": "OpenAI's post frames Legora as building an 'agentic operating system' for legal work, built on OpenAI's models, ChatGPT, and Codex. It describes the goal as expanding contract analysis capabilities while freeing lawyers to focus on higher-value work. The piece is a customer case study published on OpenAI's own site rather than an independent report, and the excerpt does not include adoption or performance metrics.",
+   "item_ids": [
+    "openai:https://openai.com/index/legora-agentic-operating-system-for-legal-work"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Legora is building the agentic operating system for legal work",
+     "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+     "published": "2026-10-28T09:30:00+00:00",
+     "excerpt": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T09:30:00+00:00"
+  },
+  {
+   "title": "Wired: AI-generated emergency alerts are coming, but trust may lag",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Wired report examines upcoming AI-driven emergency alert systems, noting humans already struggle with emergency communication and may not take chatbot-delivered warnings seriously.",
+   "more": "The Wired piece argues that human beings already struggle with emergency communication, and that AI chatbots could help only if people take them seriously. It frames AI-generated emergency alerts as an approaching development rather than a system already deployed. The excerpt does not name specific agencies, companies, or systems involved.",
+   "item_ids": [
+    "wired-ai:6ae0f8e8b1846b1aa5192467"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ae0f8e8b1846b1aa5192467",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+     "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+     "published": "2026-10-28T08:30:00+00:00",
+     "excerpt": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T08:30:00+00:00"
+  }
+ ]
+}
