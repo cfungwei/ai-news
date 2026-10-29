@@ -1,0 +1,513 @@
+{
+ "date": "2026-10-29",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Google says AI search earns less, plans to add more ads",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google acknowledged AI-powered search generates less revenue than traditional search and said it will add more ads to compensate, after posting a $9.06 billion negative cash flow.",
+   "more": "The admission came alongside Google's Q3 earnings report. Negative cash flow reportedly ballooned to $9.06 billion. Google's stock price fell following the earnings release, and the company says increasing ad load is part of its plan to offset AI search's lower monetization.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+     "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+     "published": "2026-10-29T16:24:55+00:00",
+     "excerpt": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T16:24:55+00:00"
+  },
+  {
+   "title": "Ex-Palantir execs raise $17M for construction AI world models",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Dream, a startup founded by former Palantir employees, raised $17 million from a16z to build AI world models aimed at disrupting Autodesk in construction.",
+   "more": "The startup trained its models on data from 100 million square feet of building permits. It aims to compete with incumbent construction software maker Autodesk using AI world models.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183106"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183106",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+     "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+     "published": "2026-10-29T16:21:00+00:00",
+     "excerpt": "rained on 100 million square feet of building permits, dream wants to disrupt Autodesk with AI."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T16:21:00+00:00"
+  },
+  {
+   "title": "Microsoft offers buyouts to 60,000 employees amid AI push",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft is offering voluntary buyouts to around 60,000 employees across the US, UK, and Canada, a sign CEO Satya Nadella's AI strategy is reshaping the company's workforce.",
+   "more": "The buyout offer follows years of Nadella signaling that AI would change the size of Microsoft's workforce. It spans roughly 60,000 employees across the US, UK, and Canada. The move is read as one of the clearest signals yet that Microsoft expects AI to reduce headcount needs going forward.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1022023"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1022023",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Microsoft’s AI future has fewer jobs",
+     "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+     "published": "2026-10-29T16:00:00+00:00",
+     "excerpt": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to around 60,000 employees across the US, UK, Canada, and […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T16:00:00+00:00"
+  },
+  {
+   "title": "AI app-building agent Wabi raises $55M at $1.25B valuation",
+   "tags": [
+    "industry",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wabi, an AI agent that builds mini apps and now calls itself a 'personal agent,' raised $55 million at a $1.25 billion valuation.",
+   "more": "The round was announced Thursday. Wabi has repositioned itself from an app-building tool to describing itself as a personal agent.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183066"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183066",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+     "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+     "published": "2026-10-29T14:35:26+00:00",
+     "excerpt": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T14:35:26+00:00"
+  },
+  {
+   "title": "Anthropic's IPO filing bets everything on compute spending",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic filed an S-1 to go public on the Nasdaq, with analysts reading the filing as justification for massive, continued compute spending toward AGI.",
+   "more": "The S-1 filing lays out Anthropic's financials ahead of its Nasdaq listing. On The Verge's Decoder podcast, SemiAnalysis analyst Joey Brookhart discussed the numbers behind the filing. A separate Verge analysis argues the document provides Anthropic's financial case for spending as much as possible on compute. Coverage frames the filing as evidence the company is betting big on reaching AGI while presenting itself to investors as a product business.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1021322",
+    "verge-ai:https://www.theverge.com/?p=1021476"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1021322",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Anthropic is asking Wall Street to believe in AGI",
+     "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+     "published": "2026-10-29T14:00:00+00:00",
+     "excerpt": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it could start […]"
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1021476",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Anthropic’s business plan: Build God or die trying",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+     "published": "2026-10-29T13:30:00+00:00",
+     "excerpt": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T14:00:00+00:00"
+  },
+  {
+   "title": "Report: Chinese spies targeted Nvidia CEO Jensen Huang's circle",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "US intelligence agencies reportedly believe an executive close to Nvidia CEO Jensen Huang may be an informant for China, according to The New York Times.",
+   "more": "The claim originates from New York Times reporting on US intelligence assessments. It centers on an executive within Huang's circle allegedly acting as an informant for Chinese intelligence.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42134"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42134",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times",
+     "url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
+     "published": "2026-10-29T13:42:38+00:00",
+     "excerpt": "US intelligence agencies believe an executive in Nvidia CEO Jensen Huang's circle is an informant for China. The article Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T13:42:38+00:00"
+  },
+  {
+   "title": "Chinese AI labs shift focus to OpenAI's Astra as Anthropic tightens access",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Chinese AI labs are increasingly using OpenAI's GPT-6 Astra model instead of Claude, after Anthropic tightened restrictions on its models.",
+   "more": "The shift follows Anthropic tightening its defenses against use by Chinese AI labs. GPT-6 Astra, OpenAI's most powerful model, has become their main target as a result.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42131"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42131",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses",
+     "url": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
+     "published": "2026-10-29T13:20:14+00:00",
+     "excerpt": "Chinese AI labs are now mainly tapping OpenAI's most powerful model, GPT-6 Astra, instead of Anthropic's Claude. The article OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T13:20:14+00:00"
+  },
+  {
+   "title": "Deepgram acquires Pipecat-maker Daily for voice AI infrastructure",
+   "tags": [
+    "industry",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Voice AI company Deepgram acquired Daily, maker of the open-source Pipecat framework, to strengthen its real-time voice infrastructure.",
+   "more": "The deal gives Deepgram deeper capabilities in real-time voice and video infrastructure through Daily's Pipecat technology.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3182652"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3182652",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+     "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+     "published": "2026-10-29T13:00:00+00:00",
+     "excerpt": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T13:00:00+00:00"
+  },
+  {
+   "title": "Startup &Truth bets on formal verification to make AI coding safer",
+   "tags": [
+    "tools",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new startup called &Truth is using formal verification, a math-based method for proving software correctness, to address risks in AI-generated 'vibe coding.'",
+   "more": "Formal verification is described as a painstaking process that uses mathematical proofs to show software behaves as intended. &Truth joins a growing race of companies applying this approach to AI-assisted coding as a response to the safety concerns it raises.",
+   "item_ids": [
+    "wired-ai:6adf749c866c48a82946e7f2"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6adf749c866c48a82946e7f2",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
+     "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
+     "published": "2026-10-29T15:00:00+00:00",
+     "excerpt": "A new startup called &Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T15:00:00+00:00"
+  },
+  {
+   "title": "Simon Willison quotes Ben Hylak's dig at headless-MCP hype",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison highlighted a quip from Ben Hylak joking that every other product should become a headless MCP server feeding an agent, except the one he's selling.",
+   "more": "Hylak's quote pokes at a common pattern in AI tool pitches: companies want competitors' products reduced to headless MCP integrations while insisting users will still love their own product's UI. Willison shared it without additional commentary.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/29/ben-hylak/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/29/ben-hylak/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Ben Hylak",
+     "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+     "published": "2026-10-29T14:06:27+00:00",
+     "excerpt": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. — Ben Hylak Tags: model-context-protocol , ai"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T14:06:27+00:00"
+  },
+  {
+   "title": "IBM's Granite Switch 4.1.1 aims to make updating models like software",
+   "tags": [
+    "tools",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "IBM released Granite Switch 4.1.1, a tool pitched as letting teams update AI models the way they update ordinary software.",
+   "more": "No further details beyond the release's title were available in the source.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Granite Switch 4.1.1 — Update models like you update software",
+     "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+     "published": "2026-10-29T13:37:07+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T13:37:07+00:00"
+  },
+  {
+   "title": "Mistral releases Large 4 'Le Chonk' with open weights",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Mistral open-sourced the weights of Large 4 ('Le Chonk'), a 1-trillion-parameter model it calls the best open-weight model for coding, trained entirely in Europe.",
+   "more": "The model is multimodal and was trained entirely in Europe. Mistral says it beats other open-weight models at coding and cybersecurity, and claims it has leapfrogged Chinese labs in the open-weight race on those fronts. Independent testing cited by The Decoder found it fast and comparatively cheap to run. On that outlet's benchmark it scored 26 points, behind DeepSeek V4.1 Flash and GLM-5.3, which both scored 32, so it still trails China's top models overall. The release drew over 500 points and 130+ comments on Hacker News within hours.",
+   "item_ids": [
+    "mistral:https://mistral.ai/news/mistral-large-4-oss/",
+    "wired-ai:6ae2117191edfe18440518da",
+    "decoder:https://the-decoder.com/?p=42140",
+    "hn:50289418"
+   ],
+   "items": [
+    {
+     "id": "mistral:https://mistral.ai/news/mistral-large-4-oss/",
+     "source": "mistral",
+     "source_name": "Mistral",
+     "title": "Le Chonk: Built for Coders, Trusted by Defenders.",
+     "url": "https://mistral.ai/news/mistral-large-4-oss/",
+     "published": "2026-10-29T12:00:07+00:00",
+     "excerpt": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe."
+    },
+    {
+     "id": "wired-ai:6ae2117191edfe18440518da",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+     "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+     "published": "2026-10-29T14:00:00+00:00",
+     "excerpt": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42140",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
+     "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+     "published": "2026-10-29T15:25:27+00:00",
+     "excerpt": "Mistral has released the weights for Large 4, aka \"Le Chonk,\" a trillion-parameter model trained entirely in Europe. Mistral says it beats its open rivals at coding, and independent testing shows it's fast and fairly cheap. It still can't match China's top models, scoring 26 points to the 32 posted by DeepSeek V4.1 Flash and GLM-5.3. The article Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall appeared first on The Decoder ."
+    },
+    {
+     "id": "hn:50289418",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "We're releasing the weights of Mistral Large 4",
+     "url": "https://mistral.ai/news/mistral-large-4-oss/",
+     "published": "2026-10-29T14:13:21+00:00",
+     "excerpt": "507 points, 131 comments. Discussion: https://news.ycombinator.com/item?id=50289418"
+    }
+   ],
+   "coverage": 4,
+   "newest": "2026-10-29T15:25:27+00:00"
+  },
+  {
+   "title": "Gemini 4 Carbon takes #1 on Artificial Analysis Intelligence Index",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google's Gemini 4 Carbon has become the new top-ranked model on the Artificial Analysis Intelligence Index v5, according to a widely discussed Hacker News submission.",
+   "more": "The ranking comes from Artificial Analysis Intelligence Index v5, a third-party benchmark aggregating model performance. The submission drew 276 points and 214 comments on Hacker News, suggesting strong interest in the new ranking.",
+   "item_ids": [
+    "hn:50288019"
+   ],
+   "items": [
+    {
+     "id": "hn:50288019",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+     "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+     "published": "2026-10-29T12:41:56+00:00",
+     "excerpt": "276 points, 214 comments. Discussion: https://news.ycombinator.com/item?id=50288019"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T12:41:56+00:00"
+  },
+  {
+   "title": "Elorian's Glimpse benchmark tests if models can see past decoys",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new 'decoy counting' benchmark from Elorian, called Glimpse, exposes a gap between frontier models' visual perception and reasoning, and tries to close it by having models 'think with images.'",
+   "more": "The benchmark is built around decoy counting tasks that separate raw visual perception from downstream reasoning. Elorian's Glimpse approach has models reason while directly working with images, rather than converting them to text first.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_5b8f3496-af90-414a-aed2-a87d44870a49"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_5b8f3496-af90-414a-aed2-a87d44870a49",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+     "url": "https://latent.space/p/elorian/",
+     "published": "2026-10-29T16:00:00+00:00",
+     "excerpt": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T16:00:00+00:00"
+  },
+  {
+   "title": "RealCLI benchmark evaluates human-agent collaboration in CLI agents",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces RealCLI, a benchmark that evaluates both task completion and collaboration quality for AI agents operating in command-line interfaces.",
+   "more": "Existing CLI agent benchmarks either assume fixed instructions throughout a task or judge only final outcomes, without capturing collaboration quality during execution. RealCLI pairs task execution evaluation with a five-dimensional framework for measuring human-agent collaboration on realistic CLI tasks.",
+   "item_ids": [
+    "hf-papers:2610.22507"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.22507",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
+     "url": "https://huggingface.co/papers/2610.22507",
+     "published": "2026-10-29T00:00:00+00:00",
+     "excerpt": "Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task outcomes without capturing runtime collaboration quality. In this paper, we present REALCLI, a paired benchmark that unifies the evaluation of task execution and human-agent collaboration quality on realistic CLI tasks. To comprehensively measure collaboration, REALCLI builds a five-dimensional framework, op"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T00:00:00+00:00"
+  },
+  {
+   "title": "NYT Cooking app tests AI tool for modifying recipes",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "The New York Times is testing an AI feature in its Cooking app that suggests ingredient and equipment substitutions and can scale recipes, sparking user backlash.",
+   "more": "NYT Cooking senior editor Genevieve Ko announced the feature last Friday. It can recommend substitutions for ingredients and equipment and scale recipe quantities. The announcement has stirred some drama among the app's users.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1022193"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1022193",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The NYT Cooking app is testing AI recipe modifications",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+     "published": "2026-10-29T14:39:37+00:00",
+     "excerpt": "The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T14:39:37+00:00"
+  },
+  {
+   "title": "Amazon updates Alexa to manage shopping lists and subscriptions",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amazon rolled out an Alexa update letting users create and manage shopping lists, subscriptions, and delivery instructions via voice.",
+   "more": "The update lets users create lists, view and edit their contents, and manage subscriptions through Alexa.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3182981"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3182981",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
+     "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
+     "published": "2026-10-29T13:00:00+00:00",
+     "excerpt": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T13:00:00+00:00"
+  },
+  {
+   "title": "US antitrust regulators scrutinize Nvidia's Hugging Face acquisition",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The US Justice Department is examining Nvidia's planned acquisition of Hugging Face, along with the chipmaker's broader sales practices.",
+   "more": "The scrutiny covers both the planned deal for the open-source platform Hugging Face and how Nvidia conducts its sales more broadly.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42137"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42137",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales practices",
+     "url": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/",
+     "published": "2026-10-29T14:07:49+00:00",
+     "excerpt": "The US Justice Department is looking into Nvidia's planned acquisition of open-source platform Hugging Face. The article US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales practices appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T14:07:49+00:00"
+  }
+ ]
+}
