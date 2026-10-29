@@ -1,0 +1,746 @@
+{
+ "date": "2026-10-29",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "New method proposes token-level credit assignment for diffusion language models",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduce Denoising Token Credit Assignment (DTCA), a technique for reinforcement learning in diffusion language models that aims to better attribute rewards to individual tokens across the iterative denoising process.",
+   "more": "Diffusion language models generate text through iterative denoising, which allows bidirectional context modeling and parallel token refinement but complicates reinforcement learning because outcome-based rewards don't indicate which tokens contributed most to the final output. DTCA is proposed to address this credit-assignment gap. The paper was published as a Hugging Face Daily Paper. Further detail on reported results was not included in the available excerpt.",
+   "item_ids": [
+    "hf-papers:2610.35201"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.35201",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+     "url": "https://huggingface.co/papers/2610.35201",
+     "published": "2026-10-29T00:00:00+00:00",
+     "excerpt": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output. In this paper, we propose Denoising Token Credit Ass"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T00:00:00+00:00"
+  },
+  {
+   "title": "Paper tackles streaming audio-visual target speaker extraction for edge devices",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper addresses streaming audio-visual target speaker extraction for latency-sensitive, real-world acoustic scenes, aiming to close gaps in benchmarks and architecture efficiency for edge deployment.",
+   "more": "The authors note that standard benchmarks typically fix the number of speakers at two and ignore near- and far-field interference, reverberation, and sudden noise found in real environments. They also note that high-performance causal architectures are too heavy for edge deployment, while lightweight alternatives that repeatedly invoke a small separator offset those efficiency gains. The paper was published as a Hugging Face Daily Paper. Further detail on the proposed solution or results was not included in the available excerpt.",
+   "item_ids": [
+    "hf-papers:2610.32749"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.32749",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+     "url": "https://huggingface.co/papers/2610.32749",
+     "published": "2026-10-29T00:00:00+00:00",
+     "excerpt": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Lightweight alternatives try to reclaim capacity by repeatedly invoking a small separator, which offsets"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T00:00:00+00:00"
+  },
+  {
+   "title": "Ted Sanders on why model size still predicts LLM performance most",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "In a post quoted by Simon Willison, Ted Sanders argues that despite the multidimensional nature of LLM performance, model size remains the single variable explaining most of the variation across models. Bigger models cost more but recall more facts.",
+   "more": "Sanders noted there's no guarantee that a model best at math will also be best at jokes, given how multidimensional LLM performance is. Despite that complexity, he argues size still drives most of the variation: bigger models tend to be more performant and reliable, cost more per token, and recall more esoteric facts. The quoted passage also references an internal model-naming order, mentioning a model called 'Luna', though the excerpt is cut off before further explanation.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/28/ted-sanders/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/28/ted-sanders/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Ted Sanders",
+     "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+     "published": "2026-10-28T23:23:21+00:00",
+     "excerpt": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of esoteric facts. As you note, our models are ordered: Luna [ ... ] These days, "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T23:23:21+00:00"
+  },
+  {
+   "title": "Anthropic expands its AI for Science program to more research institutions",
+   "tags": [
+    "research",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic announced an expansion of its AI for Science program, adding more research institutions to the initiative aimed at applying its models to scientific work.",
+   "more": "No further detail on the specific institutions added or the program's scope was available in the source excerpt.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Ai for science expands foundations research institutions",
+     "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+     "published": null,
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": ""
+  },
+  {
+   "title": "Chrome's AI-powered autofill now pulls info from Gmail",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google is expanding Chrome's enhanced autofill to use Gemini with Personal Intelligence, pulling flight confirmations, order details, and other information from a user's Gmail to fill out forms. The feature builds on last year's autofill update.",
+   "more": "The update expands Chrome's enhanced autofill beyond the name, passport number, and address data it previously pulled from Google Accounts and services like Google Wallet. Chrome will now use Gemini with Personal Intelligence to suggest form entries sourced from a user's Gmail inbox. TechCrunch reported the feature can surface flight confirmations, package tracking numbers, and order details from a user's inbox, with their permission.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1020626",
+    "techcrunch-ai:https://techcrunch.com/?p=3182578"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1020626",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+     "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+     "published": "2026-10-28T17:00:00+00:00",
+     "excerpt": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced autofill will use Gemini with Personal Intelligence to suggest information sourced from your Gmail, potentially saving […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3182578",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+     "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+     "published": "2026-10-28T17:00:00+00:00",
+     "excerpt": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-28T17:00:00+00:00"
+  },
+  {
+   "title": "Anthropic launches tools to show companies what their AI spending buys",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic introduced tools that let business customers see how they're spending on its models, ahead of a planned IPO. The move lifts the curtain on usage patterns that have previously been opaque to enterprise buyers.",
+   "more": "TechCrunch reported the tools arrive as Anthropic prepares for a planned initial public offering. No further detail on the tools' features or rollout timeline was given in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3182643"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3182643",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+     "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+     "published": "2026-10-28T19:19:58+00:00",
+     "excerpt": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T19:19:58+00:00"
+  },
+  {
+   "title": "Microsoft ends Copilot support on LG and Samsung smart TVs",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft is discontinuing Copilot's AI assistant functionality on all smart TVs this year, according to a Windows Central report cited by The Verge. The move comes nearly two years after LG and Samsung announced Copilot integration at CES 2025.",
+   "more": "Neither LG nor Samsung has made an official announcement about the change, with the news instead surfacing through a Windows Central report. The discontinuation affects all smart TVs that previously included Copilot access. No reason for ending support was given in the available excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1021143"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1021143",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Microsoft is ending Copilot support on smart TVs",
+     "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+     "published": "2026-10-28T18:36:26+00:00",
+     "excerpt": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official announcement from LG, Samsung, […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T18:36:26+00:00"
+  },
+  {
+   "title": "Google opens Gemini and Search to more third-party apps for businesses",
+   "tags": [
+    "products",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google unveiled a new developer platform letting businesses bring their services into Gemini and Search, as AI agents reshape how people find and use apps online. The move could change how consumers discover business services.",
+   "more": "TechCrunch described the platform as part of a broader shift in which AI agents are reshaping consumer app discovery. Specifics on which businesses or categories are included at launch were not given in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3182509"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3182509",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+     "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+     "published": "2026-10-28T17:00:00+00:00",
+     "excerpt": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T17:00:00+00:00"
+  },
+  {
+   "title": "Instagram's Adam Mosseri says anti-AI sentiment will 'get worse'",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Instagram head Adam Mosseri said in a podcast interview that negative sentiment toward AI will intensify, noting it's not limited to young people or creatives. He was asked about students booing tech CEOs at graduations.",
+   "more": "Mosseri made the comments on the Colin and Samir podcast, which was ostensibly about Instagram's new widescreen feature launch. He acknowledged that a broad swath of people, not just younger or creative audiences, dislike AI. The Verge did not report further detail on what Mosseri expects to drive the worsening sentiment.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1021644"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1021644",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+     "published": "2026-10-28T23:05:39+00:00",
+     "excerpt": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T23:05:39+00:00"
+  },
+  {
+   "title": "Microsoft posts record quarterly revenue, discloses Azure and OpenAI numbers",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft reported $92.3 billion in quarterly revenue, up 19% year over year, and for the first time disclosed Azure's revenue at $33.2 billion. The company also said it earned $10 billion from commercial arrangements with OpenAI in the quarter.",
+   "more": "The results mark Microsoft's tenth consecutive quarter of record revenue, with the $92.3 billion total up 19% year over year. Microsoft had never previously broken out Azure's quarterly revenue in dollars; the new $33.2 billion figure allows direct comparison with AWS, the market's largest cloud provider. Microsoft also disclosed it recorded $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, during the quarter ending September 30. TechCrunch said the figure underscores how financially dependent the Microsoft-OpenAI partnership remains for both companies.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3182841",
+    "techcrunch-ai:https://techcrunch.com/?p=3182880",
+    "techcrunch-ai:https://techcrunch.com/?p=3182838"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3182841",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+     "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+     "published": "2026-10-28T21:58:32+00:00",
+     "excerpt": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3182880",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+     "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+     "published": "2026-10-28T21:34:30+00:00",
+     "excerpt": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3182838",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+     "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+     "published": "2026-10-28T21:25:30+00:00",
+     "excerpt": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T21:58:32+00:00"
+  },
+  {
+   "title": "Alphabet expands AI Search ads globally as core ad growth slows",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google is rolling out AI Search ads worldwide, announced alongside Alphabet's Q3 earnings showing revenue up 25% year over year to $127.6 billion. The expansion comes as growth in Alphabet's traditional advertising business slows.",
+   "more": "Alphabet's third-quarter revenue grew 25% year over year to $127.6 billion, the earnings report that accompanied the ads announcement. Details on which markets or ad formats are included in the global expansion were not given in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3182884"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3182884",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Google expands AI Search ads globally as core ad growth slows",
+     "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+     "published": "2026-10-28T21:48:37+00:00",
+     "excerpt": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T21:48:37+00:00"
+  },
+  {
+   "title": "GitHub Octoverse 2026: merged PRs tripled to 220 million per month",
+   "tags": [
+    "industry",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "GitHub's 2026 Octoverse report, highlighted by Simon Willison from GitHub Universe, shows merged pull requests nearly tripled to 220 million per month in under a year. Commits more than tripled to 7.38 billion per month, driven by agentic engineering.",
+   "more": "GitHub EVP Jay Parikh presented the figures at GitHub Universe, framing them as evidence of agentic engineering's impact on software development. Most of the increase in commit volume came in the second half of the year, according to the report. Willison, who attended via GitHub's 'GitHub Stars' program, shared the numbers without additional independent analysis in the available excerpt.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "GitHub Octoverse 2026",
+     "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+     "published": "2026-10-28T16:45:23+00:00",
+     "excerpt": "GitHub Octoverse 2026 I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular: This is a pretty stark representation of the impact of agentic engineering on GitHub. In 2026, merged pull requests tripled in less than a year to 220 million per month. Commits more than tripled to 7.38 billion per month, with most of that increase in the second half of thi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T16:45:23+00:00"
+  },
+  {
+   "title": "Google launches Gemini 4 Carbon, topping benchmarks but with restricted access",
+   "tags": [
+    "models",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google released Gemini 4 Carbon, a frontier model topping the Artificial Analysis Intelligence Index with gains in coding, agentic tasks, and cybersecurity. Access is initially limited to selected security experts, two weeks after the previous Gemini 4 Argon release.",
+   "more": "Gemini 4 Carbon scored 59 points on the Artificial Analysis Intelligence Index v5.0, topping both Claude Opus 5.5 and GPT-6 Astra. Google built it for extended agent workflows and the full cyber defense lifecycle, and access is initially limited to selected security experts. The release comes just two weeks after Gemini 4 Argon, continuing Google's rapid release cadence. Ars Technica noted that most users cannot yet try the model despite its benchmark lead. The announcement drew 877 points and 724 comments on Hacker News.",
+   "item_ids": [
+    "deepmind:https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "verge-ai:https://www.theverge.com/?p=1021339",
+    "ars-ai:https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+    "decoder:https://the-decoder.com/?p=42108",
+    "latent-space:urn:latent-space:post:post_211d308e-4494-4480-adc1-9d69c85efd19",
+    "hn:50276792"
+   ],
+   "items": [
+    {
+     "id": "deepmind:https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+     "source": "deepmind",
+     "source_name": "Google DeepMind",
+     "title": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+     "published": "2026-10-28T17:00:58+00:00",
+     "excerpt": ""
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1021339",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+     "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+     "published": "2026-10-28T20:03:00+00:00",
+     "excerpt": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind. The new Gemini 4 Carbon model offers improvements over […]"
+    },
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+     "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+     "published": "2026-10-28T18:47:27+00:00",
+     "excerpt": "Gemini 4 Carbon is essentially a slightly better version of Argon."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42108",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+     "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+     "published": "2026-10-28T19:17:58+00:00",
+     "excerpt": "Just two weeks after Gemini 4 Argon, Google DeepMind is releasing Gemini 4 Carbon, which tops the Artificial Analysis Intelligence Index v5 with 59 points. Google says the model is built for extended agent workflows and the full cyber defense lifecycle. Because of those advanced security capabilities, access is limited to selected security experts at first. The article Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board appeared first on The Decoder ."
+    },
+    {
+     "id": "latent-space:urn:latent-space:post:post_211d308e-4494-4480-adc1-9d69c85efd19",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+     "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+     "published": "2026-10-29T05:55:19+00:00",
+     "excerpt": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders."
+    },
+    {
+     "id": "hn:50276792",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Gemini 4 Carbon",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+     "published": "2026-10-28T17:01:23+00:00",
+     "excerpt": "877 points, 724 comments. Discussion: https://news.ycombinator.com/item?id=50276792"
+    }
+   ],
+   "coverage": 6,
+   "newest": "2026-10-29T05:55:19+00:00"
+  },
+  {
+   "title": "Tencent's Hy-SimulMT-30B translation model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Tencent's Hy-SimulMT-30B-A3B-FP8, a simultaneous translation model, is trending on Hugging Face with 421 likes. The open-weight model supports Chinese, English, French, Portuguese, Spanish, Japanese, and Turkish, among other languages.",
+   "more": "The model is released with safetensors weights and transformers compatibility, tagged for text-generation and translation tasks. It had accumulated 165 downloads at the time of tracking, alongside its 421 likes. No benchmark results or technical paper were included in the available excerpt.",
+   "item_ids": [
+    "hf-trending:tencent/Hy-SimulMT-30B-A3B-FP8"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:tencent/Hy-SimulMT-30B-A3B-FP8",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: tencent/Hy-SimulMT-30B-A3B-FP8",
+     "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8",
+     "published": "2026-10-22T07:29:37+00:00",
+     "excerpt": "translation, 421 likes, 165 downloads. Tags: transformers, safetensors, hy_v3, text-generation, translation, zh, en, fr, pt, es, ja, tr"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-22T07:29:37+00:00"
+  },
+  {
+   "title": "Supabase co-founders discuss why AI agents gravitate to the platform",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "In a Latent Space podcast, Supabase's Paul Copplestone and Ant Wilson discussed why their backend platform has become popular for building AI agents, and the design choices behind backend infrastructure for agentic applications.",
+   "more": "The episode is the latest in Latent Space's series of interviews with builders of agent infrastructure. No further detail on the content was given beyond the episode description in the available excerpt.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_dc42ae8a-0f60-40f4-a056-f11b7f8c3289"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_dc42ae8a-0f60-40f4-a056-f11b7f8c3289",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "Why Agents Love Supabase",
+     "url": "https://latent.space/p/supabase/",
+     "published": "2026-10-28T19:48:05+00:00",
+     "excerpt": "Paul Copplestone and Ant Wilson on building the backend for AI agents"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T19:48:05+00:00"
+  },
+  {
+   "title": "Wired lets AI agents run a fantasy soccer team, humans still win",
+   "tags": [
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Wired writer let Codex-based AI agents manage a fantasy soccer team to test AI's predictive abilities, finding the agents aren't yet better than human managers. The agents initially tried to bench star player Erling Haaland.",
+   "more": "The experiment used OpenAI's Codex to make fantasy team decisions over a season. Early on, the AI tried to bench Erling Haaland, one of the league's top scorers, a mistake it later learned to avoid. The piece frames the results as an early, imperfect test of AI's predictive judgment rather than a definitive verdict on AI versus human skill.",
+   "item_ids": [
+    "wired-ai:6adfcf10fff166c1bb1e044f"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6adfcf10fff166c1bb1e044f",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
+     "url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
+     "published": "2026-10-28T18:30:00+00:00",
+     "excerpt": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its ways."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T18:30:00+00:00"
+  },
+  {
+   "title": "Claude Code reportedly sends background agents' transcripts to its model",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A widely discussed gist claims Claude Code regularly sends each background agent's transcript to its underlying model, raising questions among developers about data handling. The claim drew 229 points and 66 comments on Hacker News.",
+   "more": "The claim originates from a gist posted by a third party and was not independently confirmed in the available excerpt. It prompted a Hacker News discussion with 229 points and 66 comments. No official response from Anthropic was included in the source material.",
+   "item_ids": [
+    "hn:50284255"
+   ],
+   "items": [
+    {
+     "id": "hn:50284255",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Claude Code regularly sends each background agent’s transcript to its model",
+     "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+     "published": "2026-10-29T03:33:42+00:00",
+     "excerpt": "229 points, 66 comments. Discussion: https://news.ycombinator.com/item?id=50284255"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T03:33:42+00:00"
+  },
+  {
+   "title": "Google opens Android Studio to over 40 third-party AI coding agents",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google launched a 'Bring Your Own Agent' feature in Android Studio, letting developers use more than 40 third-party coding agents including Anthropic's Claude Agent and OpenAI's Codex. New terminal tools reportedly help agents finish UI tasks faster.",
+   "more": "Google said the new terminal tools help agents complete UI tasks 77 percent faster while using up to three times fewer tokens. The move extends agent-centric tooling into Android app development, following similar bring-your-own-agent approaches elsewhere in the industry. The Decoder reported the change as part of a broader push to make Android development agent-centric.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42085"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42085",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google opens Android development to third-party AI agents and unveils new Gemini APIs",
+     "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
+     "published": "2026-10-28T16:59:59+00:00",
+     "excerpt": "Google is opening up Android Studio to third-party AI agents. Through a new \"Bring Your Own Agent\" feature, the IDE now supports more than 40 coding agents, including Anthropic's Claude Agent and OpenAI's Codex. Google says new terminal tools also help agents finish UI tasks 77 percent faster while using up to three times fewer tokens. Android development is becoming agent-centric too. The article Google opens Android development to third-party AI agents and unveils new Gemini APIs appeared firs"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T16:59:59+00:00"
+  },
+  {
+   "title": "Akai embraces vibe-coded mods ahead of open-source MPC Sample Key launch",
+   "tags": [
+    "open-source",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Akai is giving modders early access to its unreleased MPC Sample Key, which will ship with open-source firmware, embracing the vibe-coding community already customizing it ahead of a formal announcement.",
+   "more": "The Verge reported Akai is embracing the explosion of hackers and custom firmware developers by giving them early access to the device ahead of its formal announcement. The MPC Sample Key will ship with open-source firmware, enabling community-built mods. Further specifications and a release date were not included in the available excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1021405"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1021405",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+     "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+     "published": "2026-10-28T21:34:04+00:00",
+     "excerpt": "The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-source firmware. It will likely run […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T21:34:04+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA post credits Unsloth AI for lowering barriers to local AI",
+   "tags": [
+    "open-source",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A popular r/LocalLLaMA post praised the Unsloth AI team for continuing to make local AI more accessible to entry-level enthusiasts. The author argues wider local AI adoption makes it harder for large AI powers to restrict access.",
+   "more": "The post does not name a specific new Unsloth release, instead reflecting broadly on accessibility gains attributed to the project's work over time. It frames wider local AI adoption as a check on centralized control of the technology. No specific product, benchmark, or feature was cited in the available excerpt.",
+   "item_ids": [
+    "localllama:t3_1xhubiw"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xhubiw",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "A small step for man, a GIANT step for LOCAL AI",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhubiw/a_small_step_for_man_a_giant_step_for_local_ai/",
+     "published": "2026-10-28T17:19:05+00:00",
+     "excerpt": "Shoutout to the Unsloth AI team for constantly pushing the needle forward for local ai worldwide. While many of us already had features such as this via other means, it is more what this means for entry level ai enthusiasts & accessibility. It is clear as day! We are in \"the age of the agent.\" The more people we can get onboard local ai, the tougher it will be for the powers that be to snatch it from us. submitted by /u/HolidayBit143 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T17:19:05+00:00"
+  },
+  {
+   "title": "Google's AI is evasive when asked who won the 2020 US election",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ars Technica found that Google's AI gives vague or noncommittal answers when asked directly who won the 2020 US presidential election, while responding more forthrightly to the same question outside the US.",
+   "more": "The report, which also circulated on Hacker News with 142 points and 69 comments, did not specify which Google AI product or model was tested. Details on why responses differ by region were not given in the available excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+    "hn:50280178"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Google AI gets cagey when asked who won the 2020 elections",
+     "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+     "published": "2026-10-28T17:46:32+00:00",
+     "excerpt": "But the AI responses get more forthright when asked outside the US."
+    },
+    {
+     "id": "hn:50280178",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Google AI gets cagey when asked who won the 2020 elections",
+     "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+     "published": "2026-10-28T20:10:16+00:00",
+     "excerpt": "142 points, 69 comments. Discussion: https://news.ycombinator.com/item?id=50280178"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-28T20:10:16+00:00"
+  },
+  {
+   "title": "Mac Studio with M5 Ultra and 512GB RAM starts at $22,299",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new Mac Studio configuration with an M5 Ultra chip and 512GB of unified memory starts at $22,299, according to a post that gained traction on r/LocalLLaMA. The high memory capacity suits running large local AI models.",
+   "more": "The post was submitted to r/LocalLLaMA, a community focused on running AI models locally, underscoring interest in high-memory hardware for that use. No further specifications were included in the available excerpt.",
+   "item_ids": [
+    "localllama:t3_1xhu3b0"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xhu3b0",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Mac Studio M5 Ultra 512gb Starts at $22,299.00 USD",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhu3b0/mac_studio_m5_ultra_512gb_starts_at_2229900_usd/",
+     "published": "2026-10-28T17:11:16+00:00",
+     "excerpt": "submitted by /u/Boomfrag [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T17:11:16+00:00"
+  },
+  {
+   "title": "Leak exposes personal data of 41,000 Homeland Security workers",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A reported leak exposed personal information for 41,000 Homeland Security Department workers, including undercover ICE agents, according to Wired. The story drew significant attention on Hacker News, gathering 311 points and 169 comments.",
+   "more": "The report was covered by Wired and discussed on Hacker News, where it gathered 311 points and 169 comments. Further details on the source or scope of the leak were not included in the available excerpt.",
+   "item_ids": [
+    "hn:50280864"
+   ],
+   "items": [
+    {
+     "id": "hn:50280864",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
+     "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+     "published": "2026-10-28T21:03:24+00:00",
+     "excerpt": "311 points, 169 comments. Discussion: https://news.ycombinator.com/item?id=50280864"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T21:03:24+00:00"
+  },
+  {
+   "title": "Report: enterprise AI tools often fail to work well together",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Technology Review piece examines why disparate AI platforms, assistants, and automation tools used across a business can produce wrong or confusing outcomes when combined, due to a lack of shared enterprise context.",
+   "more": "The piece argues that a business may deploy multiple advanced AI systems, such as customer platforms, conversational assistants, and workflow automation, each performing well in isolation, yet produce confused or lacking results when their outputs aren't coordinated through shared context. Specific product examples or proposed solutions were not detailed in the available excerpt.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1147709"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1147709",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "Creating AI value with enterprise context",
+     "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+     "published": "2026-10-28T20:32:02+00:00",
+     "excerpt": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T20:32:02+00:00"
+  },
+  {
+   "title": "Wiz's CTO warns of a coming 'vulnpocalypse' from PHP2Shell bugs",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wiz's CTO discussed PHP2Shell, two critical bugs in the open-source PHP language that underlies roughly 70% of websites, warning that cleanup from the flaws is far from over. Organizations scrambled last week to patch systems or took sites offline.",
+   "more": "The interview, covered by TechCrunch in both video and podcast form, revisited last week's disclosure of two critical PHP bugs that forced organizations to patch systems or take sites offline. Wiz's CTO argued the scare has faded from public attention even though the underlying cleanup work continues. Researchers who found the bugs are warning of a broader 'vulnpocalypse' affecting the internet's aging codebases. Further technical detail on the vulnerabilities was not included in the available excerpts.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?post_type=tc_video&p=3182776",
+    "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3182774"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?post_type=tc_video&p=3182776",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+     "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+     "published": "2026-10-28T19:05:46+00:00",
+     "excerpt": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3182774",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+     "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
+     "published": "2026-10-28T18:50:39+00:00",
+     "excerpt": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-28T19:05:46+00:00"
+  }
+ ]
+}
