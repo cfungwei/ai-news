@@ -1,0 +1,784 @@
+{
+ "date": "2026-10-30",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Amazon's Jassy: AWS aims for $1T but will keep ramping AI capex first",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "summary": "Amazon CEO Andy Jassy said AWS wants to become the first $1 trillion revenue business, but reaching that goal depends on continuing heavy AI data center spending.",
+   "more": "Amazon CEO Andy Jassy said Thursday that AWS is aiming to become the first business to reach $1 trillion in revenue. He said that ambition depends on Amazon continuing, and likely increasing, its heavy capital spending on AI infrastructure. The remarks tie Amazon's cloud growth target directly to its AI data center buildout. The excerpt does not give a timeline for reaching $1 trillion or specify capex figures.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183387"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183387",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+     "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+     "published": "2026-10-29T23:42:22+00:00",
+     "excerpt": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T23:42:22+00:00"
+  },
+  {
+   "title": "Altman: local inference is a bad use of the world's scarce DRAM",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "summary": "Sam Altman argued that local AI inference is a poor allocation of scarce resources, saying it ties up the world's limited DRAM supply in individual computers instead of data centers.",
+   "more": "Sam Altman said that running AI inference locally is a poor use of scarce global resources. He argued that even though open-source models let people run them on their own computers, doing so means a portion of the world's limited DRAM supply sits idle in individual machines rather than being used efficiently in data centers. The excerpt cuts off before describing what allocation Altman considers preferable or what prompted the remarks.",
+   "item_ids": [
+    "localllama:t3_1xizbq1"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "localllama:t3_1xizbq1",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Sam Altman: “Local inference is a terrible allocation of scarce resources”",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/",
+     "published": "2026-10-29T23:11:52+00:00",
+     "excerpt": "Sam Altman: “ Local inference is a terrible allocation of scarce resources. A lot of people want local inference, and somehow they assume that the problem is solved now because we have open-source models, we're going to be able to run them on our computers, and so we're not going to need all the stuff in the data centre but from a global allocation perspective, actually it's quite terrible to have everybody, like, have a bunch of the world's limited supply of DRAM sitting in their own computer a"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T23:11:52+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA accuses Cohere of unscientific PR stunt timed to funding news",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "summary": "A Reddit post accused Cohere of publishing a misleading blog post about prompting a competitor's model, days before announcing a multi-billion-dollar Series E including up to $1.6B from Canada's government.",
+   "more": "A Reddit post alleges that Cohere generated widespread media attention with a blog post describing an 'experiment' that used extensive pre-filling and prompt engineering to get a competing model, Qwen 3.8 Flash Next, to complete partial cURL commands. The post characterizes the blog post as largely unscientific and says it generated fear-mongering headlines. Three days later, Cohere announced a Series E funding round worth several billion dollars, including up to $1.6 billion from the Canadian government. The excerpt presents this timing and the experiment's methodology as the basis for its accusation of unethical behavior, without detailing Cohere's own response.",
+   "item_ids": [
+    "localllama:t3_1xix61q"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "localllama:t3_1xix61q",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Arguably unethical behavior from Cohere",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere/",
+     "published": "2026-10-29T21:43:11+00:00",
+     "excerpt": "3 days ago, u/Cohere generated a huge amount of media attention and many fear-mongering headlines by publishing a largely unscientific blog post about an \"experiment\" where they used extensive pre-filling and prompt engineering to force Qwen 3.8 Flash Next to complete partial cURL commands. Today, they announced Series E fundraising for several billion dollars, including up to $1.6 billion dollars from the Canadian government. We don't even need to get into the fact that the model used, 3.8 Flas"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T21:43:11+00:00"
+  },
+  {
+   "title": "Reddit shifts toward a logged-in experience as AI cuts into search traffic",
+   "tags": [
+    "industry"
+   ],
+   "summary": "As AI search tools erode its organic search traffic, Reddit announced it is moving toward a logged-in experience to protect its audience and business.",
+   "more": "Reddit said it is shifting toward requiring users to be logged in, moving away from its traditionally open, searchable web presence. The company framed the move as a response to AI tools changing how people find information online, which it said is reducing its organic search traffic. The excerpt does not detail which specific features or pages will require login, or a timeline for the change.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183224"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183224",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+     "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+     "published": "2026-10-29T20:08:31+00:00",
+     "excerpt": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T20:08:31+00:00"
+  },
+  {
+   "title": "Rivian expands Volkswagen joint venture to add an AI assistant",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "summary": "Rivian is expanding its $5.8 billion joint venture with Volkswagen to include development of an AI assistant, though the companies haven't disclosed if the deal's value will grow.",
+   "more": "Rivian is broadening its existing joint venture with Volkswagen to add development of an AI assistant. The joint venture was previously valued at $5.8 billion. Rivian has not disclosed whether adding the AI assistant work will increase that valuation. The excerpt does not describe what the assistant will do or when it will ship.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183253"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183253",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Rivian expands joint venture with VW to include AI assistant",
+     "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+     "published": "2026-10-29T20:05:47+00:00",
+     "excerpt": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T20:05:47+00:00"
+  },
+  {
+   "title": "OpenAI-backed Thrive Holdings buys ADT for $15.3B to bring AI to security",
+   "tags": [
+    "industry"
+   ],
+   "summary": "Thrive Holdings, which is backed by OpenAI, is acquiring home security company ADT in a $15.3 billion deal, with plans to bring AI into ADT's business.",
+   "more": "Thrive Holdings, a company backed by OpenAI, is acquiring home security provider ADT in a deal valued at $15.3 billion. Thrive's stated plan is to bring AI into ADT's home security business. The excerpt does not specify what AI capabilities Thrive intends to add or when the deal is expected to close.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183214"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183214",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI-backed Thrive Holdings acquires ADT",
+     "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+     "published": "2026-10-29T19:56:19+00:00",
+     "excerpt": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T19:56:19+00:00"
+  },
+  {
+   "title": "Reddit user says disclosing local AI use cost them a job offer",
+   "tags": [
+    "industry"
+   ],
+   "summary": "A Redditor described how mentioning they run AI models locally soured an otherwise strong interview with a VC-backed AI company's co-founder.",
+   "more": "A Reddit user described being headhunted by a VC-backed AI company and advancing quickly through its hiring process. During a call with the co-founder, the conversation reportedly turned when the user mentioned running the Qwen model locally on their own graphics card rather than relying on cloud infrastructure. The user said the interaction soured after that disclosure, despite having been positive up to that point. The excerpt does not describe the final hiring outcome.",
+   "item_ids": [
+    "localllama:t3_1xils4t"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "localllama:t3_1xils4t",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "I think local AI cost me a job",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xils4t/i_think_local_ai_cost_me_a_job/",
+     "published": "2026-10-29T14:38:02+00:00",
+     "excerpt": "Got headhunted by a VC-backed AI-focused company, ended up skipping past two levels of their application/interview process because of that. Got 15 minute call with the co-founder, hit it off well, but it all seemed to go sour when he asked about my AI setup and I told him I run qwen locally on a graphics card, think it's great that we can have all this completely offline, open models doing some impressive stuff, all the good /r/localllama talking points minus the hype. Even tied it back in to th"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T14:38:02+00:00"
+  },
+  {
+   "title": "OpenAI matches Anthropic's move, gives ChatGPT subscribers API credits",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "summary": "OpenAI now gives $100, $200, and $500 ChatGPT subscribers equivalent API credits for one of their API organizations, mirroring a benefit Anthropic introduced for Max and Team plans this month.",
+   "more": "Anthropic introduced a benefit earlier this month giving its $100, $200, and $500 per month Max and Team subscribers expiring credits of the same value to use with the Anthropic API. OpenAI has now launched what the post describes as essentially the same deal: ChatGPT subscribers on $100, $200, or $500 plans get that same quantity of credits applied to one of their API organizations. The excerpt does not specify whether OpenAI's credits expire on the same terms as Anthropic's or give an exact launch date beyond 'now.'",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/29/api-credits/"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/29/api-credits/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "API credits benefit for eligible ChatGPT subscriptions",
+     "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+     "published": "2026-10-29T22:48:29+00:00",
+     "excerpt": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API. OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations. I mainta"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T22:48:29+00:00"
+  },
+  {
+   "title": "OpenAI doubles Pro plan usage limits as Anthropic competition heats up",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "summary": "OpenAI doubled usage limits on its paid plans, raising the Pro tier from 100 to 500 units, after reversing a planned cut to the Pro 200 tier following user pushback.",
+   "more": "OpenAI is doubling usage limits across its paid plans, with the Pro tier moving from what was called Pro 100 to Pro 500. A previously planned cut to the Pro 200 quota was reversed after users pushed back against it. The article attributes some of the added headroom to more efficient models, named Terra and Sol, which let OpenAI raise usable capacity further. The move comes shortly before Anthropic's IPO, as the two companies compete for business customers.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42156"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42156",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up",
+     "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
+     "published": "2026-10-29T20:01:27+00:00",
+     "excerpt": "OpenAI is doubling usage limits across its paid plans, from Pro 100 to Pro 500. A planned cut to the Pro 200 quota was reversed after user pushback. More efficient models like Terra and Sol should push usable capacity even higher. The move comes just ahead of Anthropic's IPO, as both companies fight for B2B dominance in AI. The article OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T20:01:27+00:00"
+  },
+  {
+   "title": "Meta quietly launches Style Sketch, an AI fashion app tied to Instagram",
+   "tags": [
+    "products"
+   ],
+   "summary": "Meta launched an AI fashion app called Style Sketch that builds a virtual closet from Instagram photos or items added by photo, video, or camera roll upload.",
+   "more": "Meta has quietly launched Style Sketch, an AI-powered fashion app. The app connects to Instagram to build a virtual closet using photos a user has already shared. Users can also add items manually by taking a photo, recording a short video, or uploading images from their camera roll. The excerpt does not describe pricing, availability by region, or what the app does with the virtual closet once built.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183122"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183122",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Meta quietly launches an AI fashion app called Style Sketch",
+     "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+     "published": "2026-10-29T19:14:36+00:00",
+     "excerpt": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T19:14:36+00:00"
+  },
+  {
+   "title": "Gemini can now generate and edit Google Docs, Sheets, and PDFs in chat",
+   "tags": [
+    "products"
+   ],
+   "summary": "Google added file generation and editing for Google Docs, Sheets, slides, PDFs, Markdown, text, and code directly inside Gemini chats, starting today for all Gemini users.",
+   "more": "Gemini users can now generate, preview, and edit a range of file types without leaving the chat interface, including PDFs, Google Docs, Google Sheets, slide decks, Markdown files, plain text files, and code. The feature is rolling out starting today for all Gemini users. PDF preview and editing works on both web and mobile, while the other file formats are currently limited to one of those platforms, though the excerpt does not say which. No pricing or availability details beyond the Gemini app are given.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1022519"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1022519",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+     "published": "2026-10-29T18:45:31+00:00",
+     "excerpt": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T18:45:31+00:00"
+  },
+  {
+   "title": "Granola adds dictation to its meeting notetaker, challenging Wispr",
+   "tags": [
+    "products"
+   ],
+   "summary": "Granola added a dictation feature to its meeting-notes app, days after Wispr added meeting notes to its dictation app, intensifying competition in voice AI.",
+   "more": "Granola, a meeting notetaking app, has added a dictation feature. This follows Wispr, a dictation app, adding meeting-notes functionality of its own. The excerpt frames the moves as reciprocal competitive responses between the two companies in what it calls the voice AI space. It does not give further detail on Granola's dictation feature or its availability.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183181"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183181",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Granola crunches up a dictation feature to compete with Wispr",
+     "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+     "published": "2026-10-29T17:54:38+00:00",
+     "excerpt": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T17:54:38+00:00"
+  },
+  {
+   "title": "Hacker News: Claude Duet called the first useful personal-assistant AI harness",
+   "tags": [
+    "products",
+    "agents"
+   ],
+   "summary": "A Hacker News discussion praised Claude Duet as the first personal-assistant-type AI harness that feels genuinely useful, drawing 114 points and 113 comments.",
+   "more": "A blog post argued that Claude Duet is the first personal-assistant-type AI harness that feels genuinely useful, and the submission generated active discussion on Hacker News. The excerpt does not describe what Claude Duet does, how it differs from other assistant harnesses, or what specifically the post found useful about it. The discussion reached 114 points and 113 comments.",
+   "item_ids": [
+    "hn:50292727"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50292727",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
+     "url": "https://fig.blue/posts/duet-is-the-future/",
+     "published": "2026-10-29T17:24:25+00:00",
+     "excerpt": "114 points, 113 comments. Discussion: https://news.ycombinator.com/item?id=50292727"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T17:24:25+00:00"
+  },
+  {
+   "title": "Mistral open-weights trillion-parameter Large 4 model, targets cybersecurity",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "summary": "Mistral released open weights for its trillion-parameter Large 4 model ('Le Chonk'), pitching it for cybersecurity use where open weights give organizations more control than closed models.",
+   "more": "Mistral released open weights for Large 4, a trillion-parameter model also referred to in the community as 'Le Chonk.' Mistral is positioning the release around cybersecurity, arguing that open weights let organizations run and control their own cyber defenses in ways closed models don't allow. Independent benchmark results are not included in the available excerpts. Details on hardware requirements and exact licensing terms are also not given in the available excerpts.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3182668",
+    "localllama:t3_1xil3qy"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3182668",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+     "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+     "published": "2026-10-29T17:00:00+00:00",
+     "excerpt": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't."
+    },
+    {
+     "id": "localllama:t3_1xil3qy",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Mistral Large 4 (Le Chonk) is now open weight",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xil3qy/mistral_large_4_le_chonk_is_now_open_weight/",
+     "published": "2026-10-29T14:11:42+00:00",
+     "excerpt": "submitted by /u/Few_Painter_5588 [link] [comments]"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-10-29T17:00:00+00:00"
+  },
+  {
+   "title": "Tiny world model runs playable games on a Raspberry Pi Pico 2 W",
+   "tags": [
+    "models",
+    "hardware"
+   ],
+   "summary": "An open-source project called tinyworldformer runs a small neural world model that plays games on a Raspberry Pi Pico 2 W microcontroller, per a Hacker News submission with 180 points.",
+   "more": "A GitHub project called tinyworldformer runs a small world model, a type of neural network that simulates game environments, on a Raspberry Pi Pico 2 W microcontroller. The excerpt does not describe which games are supported, the model's size, or how it was trained. The submission reached 180 points and 10 comments on Hacker News.",
+   "item_ids": [
+    "hn:50295450"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50295450",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+     "url": "https://github.com/SheepSeb/tinyworldformer",
+     "published": "2026-10-29T20:32:28+00:00",
+     "excerpt": "180 points, 10 comments. Discussion: https://news.ycombinator.com/item?id=50295450"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T20:32:28+00:00"
+  },
+  {
+   "title": "Alibaba Cloud CTO reportedly says Qwen4 launches next week",
+   "tags": [
+    "models"
+   ],
+   "summary": "According to a conference attendee, Alibaba Cloud's CTO said at the Apsara conference in Amsterdam that Qwen4 will launch next week.",
+   "more": "A participant at the Apsara conference in Amsterdam reported that Alibaba Cloud's CTO said the Qwen4 model would launch the following week. The excerpt does not name the CTO, describe what Qwen4 is expected to include, or confirm the claim through an official Alibaba statement.",
+   "item_ids": [
+    "localllama:t3_1xif6lf"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "localllama:t3_1xif6lf",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Apsara conference: Qwen4 next week",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
+     "published": "2026-10-29T09:25:47+00:00",
+     "excerpt": "The Apsara conference is taking place right now in Amsterdam. According to a participant, the CTO of Alibaba Cloud said Qwen4 would be launching next week. submitted by /u/rerri [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T09:25:47+00:00"
+  },
+  {
+   "title": "Baidu's Unlimited-OCR-2 vision-language OCR model trends with MIT license",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "summary": "Baidu's Unlimited-OCR-2, an MIT-licensed vision-language OCR model, is trending on Hugging Face with 422 likes and over 18,000 downloads.",
+   "more": "Unlimited-OCR-2 is a vision-language model built for OCR, framed as an image-text-to-text and feature-extraction task on Hugging Face. It is released under an MIT license and built with the Transformers library in safetensors format, supporting multilingual text and custom code. The listing references an accompanying paper (arXiv:2606.23050) but the excerpt does not describe the model's architecture or benchmark results. It has drawn 422 likes and over 18,000 downloads, putting it among Hugging Face's trending models.",
+   "item_ids": [
+    "hf-trending:baidu/Unlimited-OCR-2"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-trending:baidu/Unlimited-OCR-2",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: baidu/Unlimited-OCR-2",
+     "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+     "published": "2026-10-26T03:57:46+00:00",
+     "excerpt": "image-text-to-text, 422 likes, 18141 downloads. Tags: transformers, safetensors, unlimited-ocr, feature-extraction, baidu, vision-language, ocr, custom_code, image-text-to-text, multilingual, arxiv:2606.23050, license:mit"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-26T03:57:46+00:00"
+  },
+  {
+   "title": "NVIDIA's Nemotron 3.5 Transcribe speech model trends on Hugging Face",
+   "tags": [
+    "models"
+   ],
+   "summary": "NVIDIA's Nemotron-3.5-Transcribe-30B-A4B, a speech recognition model with translation and speaker-diarization support, is trending on Hugging Face with 427 likes and over 4,200 downloads.",
+   "more": "The model, built on NVIDIA's Nemotron-3.5 architecture, is tagged for automatic speech recognition, speech translation, and speaker diarization. It is distributed on Hugging Face in the NeMo and safetensors formats and built with PyTorch. As of this listing it has accrued 427 likes and 4,276 downloads, putting it among Hugging Face's trending models. No details on training data, benchmark results, or license are given in the listing excerpt.",
+   "item_ids": [
+    "hf-trending:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-trending:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+     "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+     "published": "2026-10-07T22:50:21+00:00",
+     "excerpt": "automatic-speech-recognition, 427 likes, 4276 downloads. Tags: nemo, safetensors, nemo_speechlm, text2text-generation, nvidia, pytorch, nemotron-3.5, speech, asr, speech-translation, speaker-diarization, audio"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-07T22:50:21+00:00"
+  },
+  {
+   "title": "Religious exemptions from workplace AI mandates don't require belief in a god",
+   "tags": [
+    "policy"
+   ],
+   "summary": "A University of Kentucky administrator received a religious exemption from being required to use AI at work, without needing to profess belief in a deity.",
+   "more": "David Durman, an administrator at the University of Kentucky, recently obtained a religious exemption that lets him avoid using AI as part of his job. The excerpt does not specify the university's AI policy, Durman's stated religious grounds, or how the exemption was granted.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183095"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183095",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+     "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+     "published": "2026-10-30T01:20:48+00:00",
+     "excerpt": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T01:20:48+00:00"
+  },
+  {
+   "title": "Trump declares robot imports a national security threat, orders trade talks",
+   "tags": [
+    "policy",
+    "robotics"
+   ],
+   "summary": "President Trump declared foreign-made factory robot imports a national security threat and ordered trade talks, with tariffs threatened if talks fail.",
+   "more": "The US president ordered trade talks over foreign-made factory robots after declaring their import a national security threat. Tariffs are threatened if those talks do not produce a resolution. The excerpt does not specify which countries or companies are targeted, or a timeline for the talks.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Trump declares robot imports a national security threat",
+     "url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
+     "published": "2026-10-29T19:07:53+00:00",
+     "excerpt": "President orders trade talks on foreign-made factory robots, threatens tariffs."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T19:07:53+00:00"
+  },
+  {
+   "title": "Contractor's personal Claude AI agent ran undetected on secure Pentagon network",
+   "tags": [
+    "policy",
+    "agents"
+   ],
+   "summary": "An Accenture employee's personal Claude AI agent reportedly operated on a secure Department of Defense network for two months before the security gap was found and fixed, Wired reports.",
+   "more": "Sources told Wired that a personal AI agent belonging to an Accenture employee, built on Claude, ran on a secure Department of Defense network. The agent reportedly operated there for about two months before it was identified. The vulnerability that allowed this was patched after discovery. The excerpt does not describe how the agent gained access in the first place or what data, if any, it could reach.",
+   "item_ids": [
+    "wired-ai:6adf41f52b5fc20f5f0e3547"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "wired-ai:6adf41f52b5fc20f5f0e3547",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+     "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+     "published": "2026-10-29T18:39:43+00:00",
+     "excerpt": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T18:39:43+00:00"
+  },
+  {
+   "title": "OpenAI updates its Model Spec with five core values for AI behavior",
+   "tags": [
+    "policy"
+   ],
+   "summary": "OpenAI released an updated Model Spec outlining five core values meant to guide more capable AI toward sound judgment, respecting human agency, and faithfulness to human intent.",
+   "more": "OpenAI published a revised version of its Model Spec, the document that sets out how its models should behave. The update frames five core values intended to guide increasingly capable models toward sound judgment. It emphasizes respecting human agency and staying faithful to human intent as models gain more capability. The excerpt does not list what changed from the previous Model Spec or name the five values individually.",
+   "item_ids": [
+    "openai:https://openai.com/index/updated-model-spec"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/updated-model-spec",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "An updated Model Spec for more capable and beneficial AI",
+     "url": "https://openai.com/index/updated-model-spec",
+     "published": "2026-10-29T17:00:00+00:00",
+     "excerpt": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T17:00:00+00:00"
+  },
+  {
+   "title": "US probed alleged Chinese spy plot targeting Nvidia's CEO",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "summary": "The US investigated a Chinese spy plot aimed at Nvidia's CEO, with a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China also suspected of being a spy, per the New York Times.",
+   "more": "The US investigated an alleged Chinese espionage plot aimed at Nvidia's CEO. According to sources who spoke to the New York Times, a top executive at a Singapore-based AI cloud company accused of illegally selling Nvidia chips to China is also suspected of having been a Chinese spy. The excerpt does not name the executive or the company, or describe the investigation's current status.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183099"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183099",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+     "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+     "published": "2026-10-29T16:42:32+00:00",
+     "excerpt": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T16:42:32+00:00"
+  },
+  {
+   "title": "Study reframes AI benchmarks as difficulty measures to expose coverage gaps",
+   "tags": [
+    "research"
+   ],
+   "summary": "A new paper models benchmarks as empirical measures over difficulty, identifying two failure modes: measure mismatch and coverage gaps that let benchmarks miss meaningful differences.",
+   "more": "The paper argues that a benchmark is not just a set of questions but implicitly defines a probability measure over task difficulty. It identifies two failure modes this view can diagnose: measure mismatch, where a benchmark's actual difficulty distribution differs from the one its designers intended, and coverage gaps, where whole regions of the difficulty range are left untested. Either flaw can let a benchmark miss meaningful differences between models even when overall scores look informative. The authors frame this as a general lens for auditing existing benchmarks rather than proposing a new one.",
+   "item_ids": [
+    "hf-papers:2610.29927"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-papers:2610.29927",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Your Benchmark Is an Empirical Measure Over Difficulty",
+     "url": "https://huggingface.co/papers/2610.29927",
+     "published": "2026-10-30T00:00:00+00:00",
+     "excerpt": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered regions along the difficulty axis prevent benchmarks from detecting meaningful lo"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T00:00:00+00:00"
+  },
+  {
+   "title": "Paper proposes adaptive task refresh for zero-data AI self-improvement",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "summary": "A-RSI tackles recursive self-improvement by deciding when a model's training experience has gone stale, separately from generating new tasks, without relying on majority-vote self-supervision.",
+   "more": "Most recursive self-improvement methods focus on generating new training experience for a model, but pay less attention to recognizing when that experience has gone stale. A-RSI treats these as two separate problems: when to refresh a model's training tasks, and how to supervise it without relying on the model's own uncertain self-consistency or majority-vote judgments. The authors note that many existing approaches construct training targets this way, making supervision dependent on predictions the model is not yet sure about. The paper targets a zero-data, multimodal self-improvement setting.",
+   "item_ids": [
+    "hf-papers:2610.38568"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-papers:2610.38568",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+     "url": "https://huggingface.co/papers/2610.38568",
+     "published": "2026-10-30T00:00:00+00:00",
+     "excerpt": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model's own uncertain predictions. We address these two questions separately: t"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T00:00:00+00:00"
+  },
+  {
+   "title": "Certificate-guided routing cuts redundant image processing in diffusion VLMs",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "summary": "A new method reduces compute in diffusion vision-language models by using certificates to decide when the image actually needs reprocessing at each denoising step, instead of pruning tokens outright.",
+   "more": "Diffusion vision-language models reprocess their entire input, including images, at every denoising step, even though visual tokens make up 89-97% of that input on the benchmarks studied. Prior visual token pruning approaches ease this cost by dropping some image tokens, but they lose the discarded information and still reprocess the remaining tokens at every step. This paper instead measures how often the image is actually needed during decoding and routes computation accordingly, aiming to skip redundant image processing without discarding information outright. The approach is proposed as a more targeted alternative to blanket token pruning for efficiency.",
+   "item_ids": [
+    "hf-papers:2610.36671"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-papers:2610.36671",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+     "url": "https://huggingface.co/papers/2610.36671",
+     "published": "2026-10-30T00:00:00+00:00",
+     "excerpt": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step. To measure how often the image is actually needed, we compare"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic study: experts mistake an AI agent's coin-flip opinions for their own",
+   "tags": [
+    "research"
+   ],
+   "summary": "An Anthropic study found that 50 experts followed a coin-toss-determined AI agent's opinions on judgment calls up to 86% of the time, and most believed the conclusions were their own.",
+   "more": "Anthropic gave 50 experts an AI agent whose preferences on judgment calls had been set by a coin toss rather than any informed reasoning. The experts followed the agent's stated view as much as 86 percent of the time on those calls. Most of the experts who did so believed the resulting conclusions were their own, rather than the agent's. The excerpt does not describe the domains the judgment calls covered or how the study defined belief ownership.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42147"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42147",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds",
+     "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
+     "published": "2026-10-29T19:33:37+00:00",
+     "excerpt": "Anthropic gave 50 experts an AI agent whose preferences were set by coin toss. The experts followed the agent's view up to 86 percent of the time on judgment calls, and most believed the conclusions were their own. The article Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T19:33:37+00:00"
+  },
+  {
+   "title": "WorkFactory framework builds executable tasks to scale AI agent training",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "summary": "WorkFactory turns professional intents into coherent, executable tasks for training AI agents, using information-level planning to keep task instructions consistent for reliable demonstrations.",
+   "more": "Scaling supervised training for AI agents needs diverse, realistic professional tasks that produce reliable expert demonstrations, but missing or inconsistent task information can undermine that supervision. WorkFactory addresses this by starting from professional intents and building an information support graph that guides how each task is instantiated. This information-level planning step is meant to keep task details coherent and executable, rather than leaving gaps a demonstrator has to guess at. The framework is presented as a way to generate training data for agents at scale rather than by hand.",
+   "item_ids": [
+    "hf-papers:2610.37161"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-papers:2610.37161",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
+     "url": "https://huggingface.co/papers/2610.37161",
+     "published": "2026-10-30T00:00:00+00:00",
+     "excerpt": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-level planning builds an information support graph to guide task instantiation, explicitly representi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T00:00:00+00:00"
+  },
+  {
+   "title": "Project runs AI agent swarms playing Minecraft and Mindustry",
+   "tags": [
+    "agents"
+   ],
+   "summary": "A project ran swarms of AI agents playing the games Minecraft and Mindustry, drawing 242 points and 83 comments on Hacker News.",
+   "more": "A project described running swarms of AI agents inside the games Minecraft and Mindustry. The excerpt does not describe how many agents were used, what tasks they performed, or what the experiment found. The submission drew significant discussion on Hacker News, with 242 points and 83 comments at time of collection.",
+   "item_ids": [
+    "hn:50296486"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50296486",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "We ran AI agent swarms in Minecraft and Mindustry",
+     "url": "https://labs.ycombinator.com/projects/games/index.html",
+     "published": "2026-10-29T21:40:28+00:00",
+     "excerpt": "242 points, 83 comments. Discussion: https://news.ycombinator.com/item?id=50296486"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T21:40:28+00:00"
+  },
+  {
+   "title": "Developer builds Spawn, a multiplayer game world shaped by autonomous AI agents",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "summary": "A blog post describes building Spawn, a massively multiplayer game where players prompt an in-game AI agent, Savi, to reshape the game world in real time.",
+   "more": "A post by Jacob Sansbury describes building Spawn, a massively multiplayer game environment where players prompt an in-game agent named Savi to modify the game world. Simon Willison, writing about the piece, said he tried the game on his phone and was able to prompt a castle into existence, though the excerpt cuts off before further detail. Willison frames the project as an exploration of what is currently possible with agentic engineering against frontier models, which he describes as 'autonomous Fable-class models.' The excerpt does not specify how players' prompts are turned into world changes under the hood.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Building a multiplayer game world with autonomous Fable-class models",
+     "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+     "published": "2026-10-29T17:00:26+00:00",
+     "excerpt": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to modify the game world. I fired it up on my phone for a few minutes and was able to prompt a castle into"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-29T17:00:26+00:00"
+  }
+ ]
+}
