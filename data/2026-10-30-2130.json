@@ -1,0 +1,275 @@
+{
+ "date": "2026-10-30",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "DoorDash says it has received only 'several hundred' AI agent orders",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "DoorDash said AI agents have placed only a few hundred orders on its platform so far, while noting it remains open to working with third-party agent makers.",
+   "more": "The figure suggests AI shopping and ordering agents have yet to meaningfully move the needle for a major food-delivery platform despite considerable industry attention on agentic commerce. DoorDash's openness to partnering with third-party agent developers signals it sees the channel as a future opportunity rather than a proven one today. The excerpt does not specify which agent platforms have sent orders or over what period the count was measured. No comparison to total order volume on the platform is given.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183579"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183579",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+     "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+     "published": "2026-10-30T13:54:25+00:00",
+     "excerpt": "DoorDash said that it is open to working with third-party agent makers."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T13:54:25+00:00"
+  },
+  {
+   "title": "Open-weight GLM 5.3 built Firefox exploit chains with no human help",
+   "tags": [
+    "agents",
+    "policy",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Epoch AI researchers say the open-weight model GLM 5.3 autonomously turned public Firefox security fixes into working exploits, compromising six releases for about $1,000 each without triggering provider safeguards.",
+   "more": "According to Epoch AI researchers, GLM 5.3 converted publicly disclosed Firefox security patches into functioning exploit chains without human input, completing the process in under 48 hours. The model reportedly compromised six separate Firefox releases, at an API cost of about $1,000 per exploit chain. None of the safety safeguards from providers tested flagged or blocked the activity. The finding raises concerns about how quickly open-weight models can weaponize patch information before users apply updates, though the researchers' full methodology and which providers were tested are not detailed in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42165"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42165",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours",
+     "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
+     "published": "2026-10-30T12:22:18+00:00",
+     "excerpt": "Epoch AI researchers say the widely available AI model GLM 5.3 turned public security fixes into working exploits before updates reached Firefox users. It autonomously compromised six Firefox releases for about $1,000 in API fees each without triggering safeguards from any provider tested. The article Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T12:22:18+00:00"
+  },
+  {
+   "title": "Theranos whistleblower warns AI boom invites deception at scale",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Tyler Shultz, who exposed fraud at Theranos, warned that AI companies raising capital at trillion-dollar valuations without profits create conditions ripe for deception.",
+   "more": "Shultz, known for blowing the whistle on Theranos's fraudulent blood-testing claims, drew a parallel between that era and today's AI industry. He pointed to companies raising capital at trillion-dollar valuations despite having never turned a profit as a sign of the same conditions that enabled Theranos's deception. The warning centers on the incentive structure around hype-driven fundraising rather than any specific company or claim. The excerpt does not name particular AI firms accused of wrongdoing.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183613"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183613",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+     "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+     "published": "2026-10-30T16:03:45+00:00",
+     "excerpt": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T16:03:45+00:00"
+  },
+  {
+   "title": "Anthropic's IPO filing bets investors on AI 'miracles' or catastrophe",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic's IPO risk-factor filings reportedly swing between warning AI could pose 'catastrophic or existential risks to humanity' and promising it could 'bring forth an age of miracles,' underscoring how hard the technology is to value.",
+   "more": "The piece frames the dilemma facing anyone evaluating an AI-related stock: unlike typical companies, AI firms' own disclosures describe outcomes ranging from existential catastrophe to transformative abundance. Anthropic's IPO risk factors are cited as an example of this wide range appearing in formal filing language rather than marketing copy. The article treats this as emblematic of a broader Silicon Valley pattern of pitching speculative, extreme-outcome technology to investors. No specific valuation, timeline, or financial figures for the IPO are given in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1023070"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1023070",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Silicon Valley wants you to invest in miracles",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+     "published": "2026-10-30T13:11:05+00:00",
+     "excerpt": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracles\"? To some extent, […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T13:11:05+00:00"
+  },
+  {
+   "title": "Mistral-Large-4-1T-A52B trends on Hugging Face with open weights",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new Mistral Large model, Mistral-Large-4-1T-A52B, is trending on Hugging Face with open weights and support for vLLM, SGLang, and llama.cpp.",
+   "more": "The model card for Mistral-Large-4-1T-A52B lists it as an image-text-to-text model supporting English, French, German, Spanish, and Portuguese, built on the mistral_large4 architecture. It has drawn 1,313 likes and 1,239 downloads on Hugging Face since being listed as trending. The model is compatible with inference frameworks including vLLM, SGLang, and llama.cpp, and supports conversational use cases. No details on parameter count, training data, or benchmark results are available from the listing alone.",
+   "item_ids": [
+    "hf-trending:mistralai/Mistral-Large-4-1T-A52B"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:mistralai/Mistral-Large-4-1T-A52B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: mistralai/Mistral-Large-4-1T-A52B",
+     "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+     "published": "2026-09-30T18:35:13+00:00",
+     "excerpt": "image-text-to-text, 1313 likes, 1239 downloads. Tags: transformers, mistral_large4, image-text-to-text, vLLM, SGLang, llama.cpp, conversational, en, fr, de, es, pt"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-09-30T18:35:13+00:00"
+  },
+  {
+   "title": "Altman says OpenAI's AI-generated math results will keep coming",
+   "tags": [
+    "research",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI CEO Sam Altman said he sympathizes with mathematicians overwhelmed by a stream of AI-generated results, but said the company has no plans to slow down and hinted at more discoveries ahead.",
+   "more": "Altman's comments, made in an interview, acknowledge the strain that months of AI-generated mathematical results have placed on researchers trying to verify and make sense of them. Despite that sympathy, he said OpenAI intends to continue at the same pace rather than pause its math-focused work. He also hinted the company holds a larger stockpile of unreleased discoveries that could surface later. No specifics on which results, problems, or publication venues were mentioned in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1023054"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1023054",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+     "published": "2026-10-30T13:01:14+00:00",
+     "excerpt": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. \"I think, on net, […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T13:01:14+00:00"
+  },
+  {
+   "title": "Pope Leo XIV calls for AI 'disarmament,' backs autonomous weapons ban",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "In a Friday address, Pope Leo XIV said AI systems should be 'disarmed' and urged UN member states to pursue a ban on lethal autonomous weapons at next month's Geneva meeting.",
+   "more": "The Pope's address framed AI as 'tools, not persons,' emphasizing that humans retain responsibility to guide, change, or reject AI applications rather than cede judgment to the technology. He called on United Nations member states meeting in Geneva next month to take concrete steps toward banning lethal autonomous weapons. The address did not specify what disarmament would require in practice beyond the ban on autonomous weapons. It adds a prominent religious voice to the broader debate over military AI regulation.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1023188"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1023188",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+     "published": "2026-10-30T14:58:06+00:00",
+     "excerpt": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T14:58:06+00:00"
+  },
+  {
+   "title": "Startup Runware aims to mass-produce AI data centers like cars",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line, aiming to deliver compute capacity faster than traditional construction.",
+   "more": "The approach treats data center construction more like automotive manufacturing: building standardized, prefabricated units in a factory rather than constructing each facility on-site from scratch. The article frames the real test as whether Runware can actually deliver at scale, not just build a working prototype. No details are given on capacity, timeline, customers, or funding behind the effort. If viable, the model could shorten the lead time for new AI compute capacity amid continued data center demand.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183295"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183295",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+     "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+     "published": "2026-10-30T13:00:00+00:00",
+     "excerpt": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T13:00:00+00:00"
+  },
+  {
+   "title": "Reddit post warns AI platform account bans show case for local compute",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA post points to a report of accounts being banned after a 'sneaky update,' arguing it strengthens the case for running AI models on owned hardware instead of hosted services.",
+   "more": "The post links to a social media report describing account bans tied to an unspecified platform update, without naming the platform or detailing why accounts were banned. Commenters on r/LocalLLaMA frame this as a cautionary example for why owning compute, rather than depending on a third-party AI service, protects users from sudden policy changes. No further detail on the platform, the scale of bans, or the update in question is available from the excerpt or linked post. The claim is unverified beyond the original social media post.",
+   "item_ids": [
+    "localllama:t3_1xjgfuv"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xjgfuv",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Another reason to own your own compute. Your account may get banned in a sneaky update.",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjgfuv/another_reason_to_own_your_own_compute_your/",
+     "published": "2026-10-30T14:11:29+00:00",
+     "excerpt": "https://x.com/chasmmmmmmmmmmm/status/2116062991686721968?a=JVe1OUAJiZa650pZBXQ&s=20 submitted by /u/Bestlife73 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T14:11:29+00:00"
+  },
+  {
+   "title": "TechCrunch promotes Founder Summit 2026 registration deadline",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch is promoting its Founder Summit 2026 in Boston on November 4, offering discounts and a free second pass for early registration.",
+   "more": "TechCrunch Founder Summit 2026 is scheduled for November 4 at SoWa Power Station in Boston. Promotional posts note that Braindate-powered networking will help attendees find 1:1 and small-group conversations at the event. Readers who register before the event starts can save up to $100 on a pass and receive a second pass for free. Both posts are event promotion rather than news coverage of an AI development.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3183526",
+    "techcrunch-ai:https://techcrunch.com/?p=3183510"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183526",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+     "url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+     "published": "2026-10-30T14:00:00+00:00",
+     "excerpt": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up to $100 on your pass, plus get a second for free."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3183510",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
+     "url": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
+     "published": "2026-10-30T13:00:00+00:00",
+     "excerpt": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-30T14:00:00+00:00"
+  }
+ ]
+}
