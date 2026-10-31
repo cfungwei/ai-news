@@ -1,0 +1,166 @@
+{
+ "date": "2026-10-31",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Companies weigh impact of Meta's AI agent Muse on their business",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Businesses have spent weeks reassuring investors that Meta's AI agent Muse is more opportunity than threat, though its disruptive effects have yet to materialize.",
+   "more": "Wired reports that companies have spent the past several weeks trying to reassure investors that Muse and other AI agents represent more of an opportunity than a threat to their business models. The article notes that, despite the attention around Meta's agent, its disruptive impact on industries has not yet shown up in practice.",
+   "item_ids": [
+    "wired-ai:6ae4e6ac964b916949bd58ed"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ae4e6ac964b916949bd58ed",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+     "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+     "published": "2026-10-31T10:30:00+00:00",
+     "excerpt": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T10:30:00+00:00"
+  },
+  {
+   "title": "AI agent chooses and performs gene-therapy injection in live mouse",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A biotech startup had an AI agent choose a gene therapy and successfully inject it into a live mouse's brain, offering a glimpse of automated research labs.",
+   "more": "Wired reports that a biotech startup allowed an AI agent to select a gene therapy treatment and carry out the injection into a live mouse's brain. The experiment is described as an early glimpse of how autonomous agents could take over hands-on tasks in research labs. Details on the startup's identity and the specific therapy used were not included in the available reporting.",
+   "item_ids": [
+    "wired-ai:6ae3cd3d378f1dacd59d6cc7"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ae3cd3d378f1dacd59d6cc7",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+     "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+     "published": "2026-10-31T10:00:00+00:00",
+     "excerpt": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T10:00:00+00:00"
+  },
+  {
+   "title": "Microsoft offers voluntary severance to a quarter of its workforce",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft is offering voluntary severance to about 60,000 employees, a quarter of its staff, while shielding AI-critical teams, even as it plans $170 billion in 2026 AI infrastructure spending.",
+   "more": "The offer covers roughly 60,000 employees, about a quarter of Microsoft's workforce, and is the second such voluntary severance program the company has run this year. Teams considered critical to AI development are being shielded from the offer. Microsoft's total headcount has stayed flat at around 223,000 since 2022 despite the company's AI push. The company plans to spend about $170 billion on AI infrastructure in 2026 alone.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42195"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42195",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams",
+     "url": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/",
+     "published": "2026-10-31T10:43:58+00:00",
+     "excerpt": "Microsoft is offering voluntary severance packages to about 60,000 employees, roughly a quarter of its workforce, in the second such program this year. The company's headcount has held flat at around 223,000 since 2022 even as it plans to spend about $170 billion on AI infrastructure in 2026 alone. The article Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T10:43:58+00:00"
+  },
+  {
+   "title": "OpenAI raises $11B of $30B target amid cooling investor appetite",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI closed its latest funding round at about $11 billion, less than half its $30 billion target, with a $1.25 trillion valuation that fell short of expectations.",
+   "more": "OpenAI raised roughly $11 billion in its latest round, well short of the $30 billion it was targeting. The round valued the company at $1.25 trillion, below expectations, as major investors appear to pull back amid a broader tech sell-off. Meanwhile, rival Anthropic is reportedly pushing to go public as early as November.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42208"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42208",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite",
+     "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
+     "published": "2026-10-31T09:22:52+00:00",
+     "excerpt": "OpenAI raised only about $11 billion in its latest funding round, less than half of the $30 billion it was targeting. At $1.25 trillion, the valuation falls short of expectations, and major investors appear to be pulling back amid the recent tech sell-off. Meanwhile, rival Anthropic is pushing to go public as early as November. The article OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T09:22:52+00:00"
+  },
+  {
+   "title": "Finetuned Qwen3.5-4B-3D-Coder model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A community finetune of Qwen3.5-4B for generating Three.js 3D scene code is trending on Hugging Face, with 361 likes and over 29,000 downloads.",
+   "more": "The model, published by Hugging Face user ccore, is a finetune of Qwen/Qwen3.5-4B trained on the ccore/ThreeJS-3D-Scenes dataset for generating Three.js 3D scene code. It is released under an Apache-2.0 license and distributed in both safetensors and GGUF formats. It is marked as a preview release. As of this writing it has accumulated 361 likes and more than 29,600 downloads on the Hugging Face Hub.",
+   "item_ids": [
+    "hf-trending:ccore/Qwen3.5-4B-3D-Coder"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:ccore/Qwen3.5-4B-3D-Coder",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: ccore/Qwen3.5-4B-3D-Coder",
+     "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+     "published": "2026-10-25T05:43:34+00:00",
+     "excerpt": "361 likes, 29615 downloads. Tags: safetensors, gguf, qwen3_5, code, threejs, 3d, preview, dataset:ccore/ThreeJS-3D-Scenes, base_model:Qwen/Qwen3.5-4B, base_model:finetune:Qwen/Qwen3.5-4B, license:apache-2.0, endpoints_compatible"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-25T05:43:34+00:00"
+  },
+  {
+   "title": "Google DeepMind and WRI release ForTy global forest map",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind and the World Resources Institute released ForTy, a satellite-and-AI map classifying forests and land into six categories to help track deforestation.",
+   "more": "ForTy classifies land into six categories, including primary forest, plantations, and tree crops, using satellite data and AI. The map is intended to help track deforestation under EU regulatory rules. It identifies only about half of planted forests and tree-crop areas, and 60% of plantations, indicating gaps in coverage. The project is a collaboration between Google DeepMind and the World Resources Institute.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42211"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42211",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google Deepmind creates a global map of forests with satellite data and AI",
+     "url": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai/",
+     "published": "2026-10-31T10:15:45+00:00",
+     "excerpt": "Google Deepmind and the World Resources Institute have released ForTy, a global map that classifies forests and other land into six categories, including primary forest, plantations, and tree crops. The map could help track deforestation under EU rules, but it identifies only about half of planted forests and tree-crop areas, and 60% of plantations. The article Google Deepmind creates a global map of forests with satellite data and AI appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T10:15:45+00:00"
+  }
+ ]
+}
