@@ -4775,7 +4775,7 @@
    "up": 0
   }
  },
- "last_digest": "2026-10-31T16:38:35.524814+00:00",
+ "last_digest": "2026-11-01T06:39:07.131890+00:00",
  "seen": {
   "anthropic": [
    "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -5133,7 +5133,9 @@
    "decoder:https://the-decoder.com/?p=42195",
    "decoder:https://the-decoder.com/?p=42211",
    "decoder:https://the-decoder.com/?p=42208",
-   "decoder:https://the-decoder.com/?p=42229"
+   "decoder:https://the-decoder.com/?p=42229",
+   "decoder:https://the-decoder.com/?p=42243",
+   "decoder:https://the-decoder.com/?p=42238"
   ],
   "deepmind": [
    "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -5646,7 +5648,10 @@
    "hn:50292727",
    "hn:50312922",
    "hn:50307219",
-   "hn:50307183"
+   "hn:50307183",
+   "hn:50320255",
+   "hn:50319358",
+   "hn:50318871"
   ],
   "import-ai": [
    "import-ai:https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
@@ -5991,7 +5996,9 @@
    "simonw:https://simonwillison.net/2026/Oct/29/ben-hylak/",
    "simonw:https://simonwillison.net/2026/Oct/29/api-credits/",
    "simonw:https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
-   "simonw:https://simonwillison.net/2026/Oct/30/nesformer/"
+   "simonw:https://simonwillison.net/2026/Oct/30/nesformer/",
+   "simonw:https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+   "simonw:https://simonwillison.net/2026/Oct/31/datasette-llm/"
   ],
   "techcrunch-ai": [
    "techcrunch-ai:https://techcrunch.com/?p=3167791",
@@ -6316,7 +6323,10 @@
    "techcrunch-ai:https://techcrunch.com/?p=3183832",
    "techcrunch-ai:https://techcrunch.com/?p=3183083",
    "techcrunch-ai:https://techcrunch.com/?p=3183584",
-   "techcrunch-ai:https://techcrunch.com/?p=3184004"
+   "techcrunch-ai:https://techcrunch.com/?p=3184004",
+   "techcrunch-ai:https://techcrunch.com/?p=3184023",
+   "techcrunch-ai:https://techcrunch.com/?p=3184015",
+   "techcrunch-ai:https://techcrunch.com/?p=3184013"
   ],
   "verge-ai": [
    "verge-ai:https://www.theverge.com/?p=1001049",
@@ -6632,26 +6642,26 @@
   ]
  },
  "source_ok": {
-  "anthropic": "2026-10-31T16:38:35.524814+00:00",
-  "ars-ai": "2026-10-31T16:38:35.524814+00:00",
-  "decoder": "2026-10-31T16:38:35.524814+00:00",
-  "deepmind": "2026-10-31T16:38:35.524814+00:00",
-  "google-ai": "2026-10-31T16:38:35.524814+00:00",
+  "anthropic": "2026-11-01T06:39:07.131890+00:00",
+  "ars-ai": "2026-11-01T06:39:07.131890+00:00",
+  "decoder": "2026-11-01T06:39:07.131890+00:00",
+  "deepmind": "2026-11-01T06:39:07.131890+00:00",
+  "google-ai": "2026-11-01T06:39:07.131890+00:00",
   "hf-blog": "2026-10-31T16:38:35.524814+00:00",
-  "hf-papers": "2026-10-31T16:38:35.524814+00:00",
-  "hf-trending": "2026-10-31T16:38:35.524814+00:00",
-  "hn": "2026-10-31T16:38:35.524814+00:00",
-  "import-ai": "2026-10-31T16:38:35.524814+00:00",
-  "latent-space": "2026-10-31T16:38:35.524814+00:00",
+  "hf-papers": "2026-11-01T06:39:07.131890+00:00",
+  "hf-trending": "2026-11-01T06:39:07.131890+00:00",
+  "hn": "2026-11-01T06:39:07.131890+00:00",
+  "import-ai": "2026-11-01T06:39:07.131890+00:00",
+  "latent-space": "2026-11-01T06:39:07.131890+00:00",
   "localllama": "2026-10-30T16:38:49.124283+00:00",
-  "meta-ai": "2026-10-31T16:38:35.524814+00:00",
-  "mistral": "2026-10-31T16:38:35.524814+00:00",
-  "mit-tr-ai": "2026-10-31T16:38:35.524814+00:00",
-  "openai": "2026-10-31T16:38:35.524814+00:00",
-  "simonw": "2026-10-31T16:38:35.524814+00:00",
-  "techcrunch-ai": "2026-10-31T16:38:35.524814+00:00",
-  "verge-ai": "2026-10-31T16:38:35.524814+00:00",
-  "wired-ai": "2026-10-31T16:38:35.524814+00:00"
+  "meta-ai": "2026-11-01T06:39:07.131890+00:00",
+  "mistral": "2026-11-01T06:39:07.131890+00:00",
+  "mit-tr-ai": "2026-11-01T06:39:07.131890+00:00",
+  "openai": "2026-11-01T06:39:07.131890+00:00",
+  "simonw": "2026-11-01T06:39:07.131890+00:00",
+  "techcrunch-ai": "2026-11-01T06:39:07.131890+00:00",
+  "verge-ai": "2026-11-01T06:39:07.131890+00:00",
+  "wired-ai": "2026-11-01T06:39:07.131890+00:00"
  },
  "telegram_offset": 115081541,
  "telegram_sent": "2026-10-31-2130",

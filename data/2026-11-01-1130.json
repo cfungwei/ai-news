@@ -1,0 +1,272 @@
+{
+ "date": "2026-11-01",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "hf-blog",
+   "name": "Hugging Face Blog",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://huggingface.co/blog/feed.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  },
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Judge lets NAACP's Clean Air Act lawsuit against xAI proceed",
+   "tags": [
+    "policy",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A federal judge ruled that an NAACP lawsuit accusing SpaceX-owned xAI of violating the Clean Air Act with pollution from its data center can move forward.",
+   "more": "The lawsuit targets emissions tied to a data center operated by xAI, the AI company owned by Elon Musk's SpaceX. The NAACP alleges the facility's operations violate the Clean Air Act, raising environmental and public-health concerns. The ruling lets the case proceed rather than resolving the underlying claims. Specifics on the data center's location, the pollutants at issue, and a trial timeline were not included in the available coverage.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184013"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184013",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+     "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+     "published": "2026-10-31T21:17:03+00:00",
+     "excerpt": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T21:17:03+00:00"
+  },
+  {
+   "title": "Anthropic moves to stop Claude from being used to reverse-engineer video games",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic has taken steps to prevent Claude from being used to clone or reverse-engineer video games, according to a report that drew wide discussion on Hacker News.",
+   "more": "The report, covered by Mashable, says Anthropic has restricted Claude from assisting with reverse-engineering or cloning video games. The Hacker News discussion of the report gathered 129 points and 79 comments, indicating significant reader interest. Further detail on which specific capability was restricted, or how enforcement works, was not available in the excerpt.",
+   "item_ids": [
+    "hn:50320255"
+   ],
+   "items": [
+    {
+     "id": "hn:50320255",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+     "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+     "published": "2026-10-31T21:07:58+00:00",
+     "excerpt": "129 points, 79 comments. Discussion: https://news.ycombinator.com/item?id=50320255"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T21:07:58+00:00"
+  },
+  {
+   "title": "Anthropic reportedly blocks users for anything touching training larger models",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A widely shared tweet claims Anthropic is blocking user accounts for activity related to training larger models, drawing substantial discussion on Hacker News.",
+   "more": "The claim originates from a tweet rather than an official Anthropic statement, and the underlying details of the policy or its enforcement were not included in the available excerpt. The Hacker News discussion drew 300 points and 169 comments. It remains unclear what specific actions triggered the blocks or how broadly the policy is applied.",
+   "item_ids": [
+    "hn:50319358"
+   ],
+   "items": [
+    {
+     "id": "hn:50319358",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Anthropic blocks users for anything touching training larger models",
+     "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+     "published": "2026-10-31T19:39:19+00:00",
+     "excerpt": "300 points, 169 comments. Discussion: https://news.ycombinator.com/item?id=50319358"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T19:39:19+00:00"
+  },
+  {
+   "title": "Anthropic's new Claude watermarks leave a loophole on two older models",
+   "tags": [
+    "policy",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic is extending its text watermark to four more Claude models ahead of the EU AI Act's December deadline, but a sampling-parameter tweak lets developers bypass it on Opus 4.6 and Sonnet 4.6.",
+   "more": "The watermark expansion is meant to help Anthropic meet compliance deadlines under the EU AI Act. On the two older models, Claude Opus 4.6 and Sonnet 4.6, developers can defeat the watermark by changing a single sampling parameter. Rather than fixing this technically, Anthropic is addressing the loophole with a compliance warning to developers. The report does not say whether a technical fix for the older models is planned.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42243"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42243",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic's watermark rollout leaves a loophole on two older Claude models",
+     "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+     "published": "2026-10-31T19:20:55+00:00",
+     "excerpt": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance warning. The article Anthropic's watermark rollout leaves a loophole on two older Claude models appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T19:20:55+00:00"
+  },
+  {
+   "title": "OpenAI to train models on previously off-limits Daybreak Blue session data",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Starting November 29, OpenAI will train its models on data from Daybreak Blue cybersecurity sessions, even for users who had opted out, before offering a separate opt-out after backlash.",
+   "more": "The change reverses an earlier promise that Daybreak Blue session data would not be used for training. After users objected, OpenAI sent a follow-up email promising a separate opt-out mechanism for that data. The move echoes concerns raised in OpenAI's earlier dispute with mathematicians who suspected their unpublished research had been used for training without consent. It is not yet clear how many users are affected or how the new opt-out will work.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42238"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42238",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
+     "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+     "published": "2026-10-31T16:38:37+00:00",
+     "excerpt": "Starting November 29, OpenAI will use data from Daybreak Blue sessions to train its models, even when users have turned off training. After backlash, a follow-up email promised a separate opt-out. The move revives concerns from the dispute with mathematicians who suspected OpenAI used their unpublished research for training without consent. The article OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T16:38:37+00:00"
+  },
+  {
+   "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+   "tags": [
+    "models",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A developer reports that OpenAI's GPT-5.6 Sol model can complete the game Factorio on its peaceful setting, a result that drew significant discussion on Hacker News.",
+   "more": "The claim comes from a blog post by developer Ryan Madden rather than an official OpenAI announcement. Factorio's peaceful mode removes combat but still requires long-horizon planning and resource management, which the result suggests GPT-5.6 Sol can handle. The post generated significant discussion, with the Hacker News thread reaching 166 points and 179 comments. Specific details on the model's approach or how long the run took were not included in the available excerpt.",
+   "item_ids": [
+    "hn:50318871"
+   ],
+   "items": [
+    {
+     "id": "hn:50318871",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+     "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+     "published": "2026-10-31T18:50:34+00:00",
+     "excerpt": "166 points, 179 comments. Discussion: https://news.ycombinator.com/item?id=50318871"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T18:50:34+00:00"
+  },
+  {
+   "title": "datasette-llm 0.1a9 release simplifies default model setup for Datasette Agent",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison released datasette-llm 0.1a9, a small update that makes the plugin pick up the default model configured for the LLM tool, removing a manual setup step for Datasette Agent.",
+   "more": "Previously, using Datasette Agent required separately specifying a model via a plugin-specific setting, even when a default model was already configured for the LLM tool. The new release removes that duplication by having datasette-llm reuse LLM's existing default model. Willison describes this as a small user-experience improvement ahead of bigger planned upgrades to Datasette Agent. The plugin can be tried via a one-line uvx command with datasette-agent.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/31/datasette-llm/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/31/datasette-llm/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "datasette-llm 0.1a9",
+     "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+     "published": "2026-10-31T22:10:01+00:00",
+     "excerpt": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.de"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T22:10:01+00:00"
+  },
+  {
+   "title": "Researchers detail exploit chain that took over ChatGPT accounts via Canvas",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Parameter Labs disclosed a complex exploit chain against ChatGPT's HTML previews feature, where sandboxed iframes for interactive apps could be abused to access private user data.",
+   "more": "The vulnerability targeted OpenAI's implementation of the artifacts-style pattern, where user-facing HTML apps run inside a sandboxed iframe meant to stay isolated from OpenAI's APIs and private data. Parameter Labs found a multi-step attack chain able to break that isolation. Simon Willison's write-up frames the flaw as a reminder of how hard it is to keep such sandboxes airtight. The excerpt does not specify whether OpenAI has fully patched the issue or how many accounts, if any, were affected in practice.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "How We Took Over ChatGPT Accounts",
+     "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+     "published": "2026-10-31T23:15:22+00:00",
+     "excerpt": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenA"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T23:15:22+00:00"
+  },
+  {
+   "title": "Apple's new CEO says company won't 'ship AI for AI's sake'",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apple's new CEO defended the company's measured approach to AI, pushing back on the idea that Apple needs to rush out AI features just to keep pace with competitors.",
+   "more": "TechCrunch reports that Apple's new CEO used recent remarks to defend the company's current position in the AI landscape. The comments frame Apple's restraint as a deliberate strategy rather than a lag behind rivals. The available coverage does not detail which specific products, features, or timelines were discussed in making this case.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184023"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184023",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+     "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+     "published": "2026-10-31T21:41:00+00:00",
+     "excerpt": "Apple's new CEO defended the company's current position in the AI landscape."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T21:41:00+00:00"
+  },
+  {
+   "title": "TechCrunch promotes its Founder Summit event, 4 days left to register",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch is promoting its Founder Summit, a networking event for startup founders on November 4 at Boston's SoWa Power Station, with registration prices rising at the door.",
+   "more": "The one-day event is pitched to founders as a chance to make connections that could shape their startups' trajectory. Registration prices increase for anyone who waits to pay at the door. This item is a promotional announcement from TechCrunch rather than news coverage of an AI model, product, or research finding.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184015"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184015",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+     "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+     "published": "2026-10-31T21:36:07+00:00",
+     "excerpt": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T21:36:07+00:00"
+  }
+ ]
+}
