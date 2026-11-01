@@ -1,0 +1,214 @@
+{
+ "date": "2026-11-01",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Developer compiles an NPU inside Qwen 3.5-4B's weights to run another LLM",
+   "tags": [
+    "open-source",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A developer who previously put a RISC-V CPU inside Qwen has now built QwenPU, compiling an NPU into Qwen 3.5-4B's weights that runs Karpathy's small stories260k model, with code and weights released on GitHub and Hugging Face.",
+   "more": "The project, called QwenPU, follows the same creator's earlier work embedding a RISC-V CPU inside a Qwen model. This time, they compiled an NPU into Qwen 3.5-4B's weights that performs the matrix operations needed to run Andrej Karpathy's stories260k, a small C-program based model, entirely inside the larger model's weights. Code and weights have been published publicly. The excerpt available does not fully explain the technique used to compile the NPU into the weights.",
+   "item_ids": [
+    "localllama:t3_1xkiuut"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xkiuut",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "An LLM inside an LLM - Same guy who put a RISK-V CPU inside Qwen has now made Karpathy's stories260k run on an NPU compiled inside Qwen 3.5-4B's weights",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
+     "published": "2026-10-31T19:18:53+00:00",
+     "excerpt": "Code: https://github.com/divagr18/QwenPU Weights: https://huggingface.co/divagr1925/QwenPU From the original tweet : 1/3 A CPU inside an LLM is one thing, but running another LLM inside an LLM would be taking things a bit too far, wouldn't it? Anyways, here's an LLM running inside an LLM : QwenPU, an LLM (@karpathy's stories260k) running on an NPU compiled inside Qwen 3.5-4B's weights. 2/3 stories260K is just a C program. To run it inside Qwen, I compiled an NPU into Qwen's weights that does mat"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T19:18:53+00:00"
+  },
+  {
+   "title": "CrowdGPT releases v2.6 update to its collaborative LLM project",
+   "tags": [
+    "open-source",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "CrowdGPT, a project aiming to train a 1-billion-parameter LLM collaboratively without datacenters or big budgets, released a major v2.6 update to its original proof-of-concept.",
+   "more": "CrowdGPT aims to train a 1 billion parameter language model collaboratively and openly, without relying on datacenters or the large budgets typically spent by AI companies, as a proof of concept. The creator describes v2.6 as a massive update to the project they first posted about a week earlier. The approach is designed so the method could scale to larger dense models or other training setups. The excerpt does not detail what specifically changed in this v2.6 update beyond calling it major.",
+   "item_ids": [
+    "localllama:t3_1xkibxw"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xkibxw",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "CrowdGPT v2.6 - The collaborative LLM",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkibxw/crowdgpt_v26_the_collaborative_llm/",
+     "published": "2026-10-31T18:57:36+00:00",
+     "excerpt": "For those who saw the original post , a week ago, I'm glad to announce CrowdGPT v2 (more precisely v2.6), a massive update to the original CrowdGPT project :D (scroll down to see what's new) For the newcomers: CrowdGPT is a project aiming to create a LLM without datacenters and without the usual millions of dollars spent by AI companies. The project aims to train a 1 billion parameter model collaboratively and openly, as a proof of concept (it is possible to scale to bigger dense models or even "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T18:57:36+00:00"
+  },
+  {
+   "title": "Google researchers unveil StreamVibe, a video agent that knows when to help",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google-led researchers built StreamVibe, a video agent that watches people cook or assemble furniture and speaks up only when needed, but a new benchmark shows models struggle to pick the right moment in long videos.",
+   "more": "The team created a benchmark testing whether AI models can judge the right moment to offer help while watching someone complete a multi-step physical task such as cooking or assembling furniture. According to the results, none of the tested models reliably identified the correct moment to intervene once videos grew longer. The researchers found that errors compound over time, causing response quality to degrade sharply in extended sessions. The available excerpt does not specify which models were benchmarked or give further detail on the benchmark's design.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42254"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42254",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google wants video AI to understand what people need as they work",
+     "url": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/",
+     "published": "2026-11-01T11:25:21+00:00",
+     "excerpt": "A Google-led research team built StreamVibe, a video agent designed to watch people cook or assemble furniture and speak up only when help is needed. A benchmark shows that none of the tested models reliably pick the right moment in longer videos, as errors compound and response quality drops sharply. The article Google wants video AI to understand what people need as they work appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-01T11:25:21+00:00"
+  },
+  {
+   "title": "Memdoor: a 5-model Qwen3.8-27B team reportedly beats Fable 5 on LiveCodeBench Hard",
+   "tags": [
+    "agents",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A project called Memdoor reportedly has a team of five Qwen3.8-27B models working together outperform Fable 5 on the LiveCodeBench Hard coding benchmark, according to a r/LocalLLaMA submission.",
+   "more": "Beyond the title, the available excerpt for this submission contains no further detail about Memdoor's architecture, methodology, or how the benchmark comparison was run.",
+   "item_ids": [
+    "localllama:t3_1xkxt7a"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xkxt7a",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/",
+     "published": "2026-11-01T08:24:18+00:00",
+     "excerpt": "submitted by /u/PferdOne [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-01T08:24:18+00:00"
+  },
+  {
+   "title": "Betelgeuse speeds up Qwen 3.8 Flash Next CPU/GPU offload on an RTX 3060",
+   "tags": [
+    "tools",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A developer's Betelgeuse project reports sustaining 22 tokens/second (spiking to 48) running Qwen 3.8 Flash Next on an RTX 3060 12GB plus 16GB of DDR4 RAM, after an earlier approach was found to degrade output quality.",
+   "more": "The developer previously tried predicting which MoE experts would be used on the next token to speed up CPU/GPU offload for Qwen 3.6 35B, but says they abandoned that prototype after realizing its speed gains came from gate pruning, dropping cold experts based on low router weights, which quietly degraded output quality on an already low-bit quant. The new project, called Betelgeuse, instead reports sustained throughput of 22 tokens per second, with spikes to 48 tokens per second, running Qwen 3.8 Flash Next on a setup with just an RTX 3060 12GB and 16GB of DDR4 RAM. The author describes the results as 100% bit-exact, implying no quality tradeoff like the earlier approach. The excerpt does not give further technical detail on how the new offload method works.",
+   "item_ids": [
+    "localllama:t3_1xk8s6z"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xk8s6z",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Betelgeuse: Running Qwen 3.8 Flash Next at 22 tok/s sustained (spiking to 48 tok/s) on an RTX 3060 12GB + 16GB DDR4 RAM 100% bit-exact!",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk8s6z/betelgeuse_running_qwen_38_flash_next_at_22_toks/",
+     "published": "2026-10-31T12:20:02+00:00",
+     "excerpt": "About two months ago I posted here about trying to predict which MoE experts get used on the next token to speed up CPU/GPU offload on Qwen 3.6 35B. Quick confession on that older post before anything else: I ended up throwing that prototype away. To get the big numbers I was seeing back then, I was basically cheating with gate pruning (dropping cold experts when their router weights were low). It made the tok/s counter go brrr, but on an already low-bit quant it quietly degraded output quality "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T12:20:02+00:00"
+  },
+  {
+   "title": "OpenAI merges Chat and Work modes, moving ChatGPT to token-based quotas",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is merging ChatGPT's Chat and Work modes into one interface, starting in December with a shared token-based quota across Plus, Pro and Business plans, as it ends unlimited prompting.",
+   "more": "Starting in December, OpenAI will combine the Chat and Work modes into a single ChatGPT interface, with Plus, Pro, and Business plans sharing one token-based usage quota across both ChatGPT and Codex. More complex models will consume a larger share of that quota, while simple instant chats will not count against it at all. The change effectively ends the all-you-can-prompt pricing these plans currently offer. In practice, the shift is likely to reduce ChatGPT's response quality for heavy users on the lower-cost plans, since they will need to ration quota across more demanding tasks.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42251"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42251",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
+     "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
+     "published": "2026-11-01T09:51:06+00:00",
+     "excerpt": "OpenAI combines the Chat and Work modes into a single interface. Starting in December, Plus, Pro, and Business plans will share a common, token-based quota for ChatGPT and Codex. More complex models consume more of this quota, while simple instant chats do not count toward it. In practice, this is likely to result in a decline in ChatGPT’s quality for heavy users on lower-cost plans. The article OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing appea"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-01T09:51:06+00:00"
+  },
+  {
+   "title": "Wired warns AI chatbots are steering hikers into danger",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports that hikers using AI chatbots for route planning are receiving unreliable guidance, with some incidents turning dangerous in the backcountry.",
+   "more": "Wired reports that outsourcing trip planning to AI chatbots is leading some hikers to stop exercising their own judgment about routes and conditions. The piece warns this reliance has already produced dangerous, in some cases potentially deadly, situations in backcountry settings. The excerpt available does not specify which chatbots were used or how many incidents have occurred.",
+   "item_ids": [
+    "wired-ai:6ae100238620da29e32c576d"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ae100238620da29e32c576d",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
+     "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+     "published": "2026-11-01T10:30:00+00:00",
+     "excerpt": "Outsourcing planning to AI can lead people to surrender their own critical thinking, which can have potentially deadly results in places like the backcountry."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-01T10:30:00+00:00"
+  },
+  {
+   "title": "Redditor ends up with three RTX 3090s after a surprise GPU buy",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA user bought two more RTX 3090 Founders Editions off Facebook Marketplace, ending up with three 24GB cards that don't fit their B760 case, and is now asking how to run all three for local AI.",
+   "more": "The poster bought two additional RTX 3090 Founders Edition cards off Facebook Marketplace for €1,700, on top of one they already owned, for a total of three cards with 72GB of combined GDDR6X VRAM. Their case barely fits a single 3090, and they had to bend the case's internal metal bracket with pliers just to install it. Their motherboard is a standard B760 board, which cannot physically accommodate three 3-slot GPUs at once. They are asking the community for the cheapest, most sensible way to run all three cards for local AI.",
+   "item_ids": [
+    "localllama:t3_1xklq96"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xklq96",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Well, my local AI addiction officially got out of hand tonight.",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xklq96/well_my_local_ai_addiction_officially_got_out_of/",
+     "published": "2026-10-31T21:21:02+00:00",
+     "excerpt": "Met a guy off Facebook Marketplace and scored 2x RTX 3090 Founders Editions for €1,700. The problem? I already had one 3090 FE. I am now sitting in my room looking at three 3090 FEs (72 GB GDDR6X VRAM) , and my current case barely fits one card, and that was only after I literally took pliers and bent the inner metal bracket to shove it in. My motherboard is just a standard B760. I clearly can't put three 3-slot cards in this PC. What is the cheapest, most sensible way forward to run all three ("
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T21:21:02+00:00"
+  }
+ ]
+}
