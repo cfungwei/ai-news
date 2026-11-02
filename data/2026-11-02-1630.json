@@ -1,0 +1,265 @@
+{
+ "date": "2026-11-02",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "New 4B coding model GLB-3D-Coder generates 3D game assets for Godot",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A hobbyist released GLB-3D-Coder, a tiny 4B-parameter coding model that writes Three.js scenes exported as GLB files, letting users bring AI-generated 3D assets into game engines such as Godot.",
+   "more": "The model is a follow-up to the creator's earlier 3D coding model, built after users asked about generating assets for games. It writes Three.js scenes that export to the GLB format, so the resulting assets can be imported into editors such as Godot. The post includes a demonstration video showing generated assets imported into Godot. The creator says prompts do not need to be complicated, since a system prompt included with the model handles most of the setup.",
+   "item_ids": [
+    "localllama:t3_1xlh0zw"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xlh0zw",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "[GLB-3D-Coder] A tiny 4B coding model that creates 3D assets for Godot and other game engines",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlh0zw/glb3dcoder_a_tiny_4b_coding_model_that_creates_3d/",
+     "published": "2026-11-01T22:56:19+00:00",
+     "excerpt": "Hey everyone! After sharing my previous 3D coding model, a lot of you asked about using it to generate assets for your games . That sounded like a fun direction to explore, so I started training a version focused on exactly that. The model writes Three.js scenes with GLB export , so you can take the generated assets into editors like Godot . The video shows some examples I've been testing, including assets imported into Godot. You don't need complicated prompts. Use the system prompt in the mode"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-01T22:56:19+00:00"
+  },
+  {
+   "title": "CRAP, a Gemma 4 E2B fine-tune, generates working x86 Linux ELF binaries",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A hobbyist fine-tuned Gemma 4 E2B into 'CRAP' (Compiler Replacement for Assembling Programs), a small model that turns text prompts into working x86_64 Linux ELF binaries, mostly emitted as hex.",
+   "more": "The post, titled tongue-in-cheek 'Coding is solved* (exclusions apply),' describes CRAP as limited to generating simple x86 Linux binaries, such as ones that print text and exit. The model is a fine-tune of Gemma 4 E2B. It takes prompts like 'generate a Linux x86_64 binary that prints boop' and outputs a working ELF binary, most often as hex. The author frames the project humorously rather than as a general-purpose coding breakthrough.",
+   "item_ids": [
+    "localllama:t3_1xl90rr"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xl90rr",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Coding is solved* (exclusions apply)",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl90rr/coding_is_solved_exclusions_apply/",
+     "published": "2026-11-01T17:31:32+00:00",
+     "excerpt": "Good news, everyone! Having been inspired to revolutionize the field of computer science , I can now report that coding is solved! Sure, only if you care about x86 Linux binaries that print and exit, but \"big journeys\" and \"small steps\" and what not. CRAP (Compiler Replacement for Assembling Programs) is a Gemma 4 E2B fine tune that takes prompts like generate a Linux x86_64 binary that prints 'boop' and emits a working ELF binary (as hex, most of the time, every time). See, since programs end u"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-01T17:31:32+00:00"
+  },
+  {
+   "title": "New paper proposes FrameForge, a unified image generator built on video models",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces FrameForge, which adapts pretrained video foundation models to handle unified conditional image generation, letting a single model flexibly assign condition and target frames instead of fixing their positions in time.",
+   "more": "Unified conditional image generation requires one model to preserve aspects of a visual input while producing a new image guided by text. Past approaches fixed the condition and target to set positions in time, but the authors observe that this relationship varies across generation tasks. FrameForge instead draws on pretrained video foundation models, which already encode how visual content transforms over time, as a prior for image generation. The paper is listed on Hugging Face's Daily Papers feed; its excerpt does not include benchmark comparisons or release details.",
+   "item_ids": [
+    "hf-papers:2610.36545"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.36545",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+     "url": "https://huggingface.co/papers/2610.36545",
+     "published": "2026-11-02T00:00:00+00:00",
+     "excerpt": "Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions. We observe that condition-target relationships vary substantially across generation tasks, while video models naturally encode visu"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T00:00:00+00:00"
+  },
+  {
+   "title": "Paper proposes continuous latent reasoning for unified multimodal models",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper argues unified multimodal models fail to gain the benefits of chain-of-thought reasoning for image generation because reasoning happens in discrete tokens while generation needs continuous representations, and proposes reasoning in continuous latent space instead.",
+   "more": "Unified Multimodal Models (UMMs) handle both multimodal understanding and generation but have not inherited the test-time scaling and fine-grained controllability that language-based chain-of-thought gives large language models. The authors attribute this to a modality mismatch: reasoning is performed in a discrete token space while image generation relies on continuous representations. Their proposed fix is to perform reasoning directly in continuous latent space rather than discrete tokens. The paper is listed on Hugging Face's Daily Papers feed; the excerpt does not include implementation or evaluation details.",
+   "item_ids": [
+    "hf-papers:2610.42149"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.42149",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+     "url": "https://huggingface.co/papers/2610.42149",
+     "published": "2026-11-02T00:00:00+00:00",
+     "excerpt": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a fundamental modality mismatch: reasoning is performed in a discrete token space,"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T00:00:00+00:00"
+  },
+  {
+   "title": "OpenAI readies lobbying and PR push for Washington after US midterms",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is preparing a political lobbying and public-relations campaign aimed at Washington policymakers once the US midterm elections conclude, according to The Decoder.",
+   "more": "OpenAI is gearing up for a lobbying and PR push targeting Washington after the US midterms, The Decoder reports. The excerpt available does not detail specific policy priorities, spending, or personnel behind the effort.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42293"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42293",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI prepares lobbying blitz for a post-midterm Washington",
+     "url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/",
+     "published": "2026-11-02T10:47:59+00:00",
+     "excerpt": "OpenAI is gearing up for a political lobbying and PR push after the US midterms. The article OpenAI prepares lobbying blitz for a post-midterm Washington appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T10:47:59+00:00"
+  },
+  {
+   "title": "Wired finds hundreds of Chinese-language AI apps hiding abusive deepfake tools",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired identified about 400 apps and websites, linked to Chinese-language developers, that look like ordinary AI tools but contain hidden features for generating violent or sexually abusive AI images and video.",
+   "more": "WIRED's investigation uncovered roughly 400 apps and websites tied to Chinese-language developers that present themselves as ordinary AI tools but secretly include features enabling non-consensual sexual deepfakes and violent AI-generated imagery and video. The excerpt available does not name specific developers, apps, or platforms involved. It is also unclear from the excerpt how many users engaged the hidden features or whether any apps have since been removed from app stores.",
+   "item_ids": [
+    "wired-ai:6ace3a4387812505ce91e493"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ace3a4387812505ce91e493",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+     "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+     "published": "2026-11-02T10:00:00+00:00",
+     "excerpt": "WIRED uncovered some 400 apps and websites linked to Chinese-language developers that look like regular AI tools but had secret features that let users create violent AI-generated images and video."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T10:00:00+00:00"
+  },
+  {
+   "title": "Hobbyist patches Strata to run DeepSeek V4.1 20x faster on gaming GPU",
+   "tags": [
+    "hardware",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Responding to Sam Altman's remark about 'wasted' home DRAM, a r/LocalLLaMA poster patched Strata to speed up DeepSeek V4.1 Flash agent session starts 20x on a consumer gaming GPU, no datacenter required.",
+   "more": "The post responds to a widely shared remark by Sam Altman calling it 'quite terrible' that much of the world's limited DRAM supply sits idle in home computers, used only about 5% of the time. The poster's setup uses an RX 9070 XT (16GB), a 5800X3D CPU, 64GB of DDR4, and a PCIe 3.0 NVMe drive. Using a patched version of Strata, they report running DeepSeek V4.1 Flash at 1M context with 1.75-bit (IST-DAS) quantization, which they say preserves 98.7% of the full model's reported quality. The patch is said to make agent sessions start 20 times faster than before.",
+   "item_ids": [
+    "localllama:t3_1xljdnj"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xljdnj",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Sorry Sam, my \"quite terrible\" home DRAM is at 100% now: patched Strata to make DeepSeek V4.1 agent sessions start 20× faster on a good old standard gaming GPU, no datacenter required",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/",
+     "published": "2026-11-02T00:44:53+00:00",
+     "excerpt": "Sam Altman recently said that \"from a global allocation perspective, actually, it's quite terrible to have everybody have a bunch of the world's limited supply of DRAM sitting in their own computer, and being used maybe 5% of the time.\" Challenge accepted. Here's my \"quite terrible\" home setup: an RX 9070 XT 16 GB, a 5800X3D, 64 GB of DDR4 that's now worth more than the rest of the PC, and a PCIe 3.0 NVMe. It runs DeepSeek V4.1 Flash at 1M context (IST-DAS 1.75 bpw; the lab reports 98.7% of the "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T00:44:53+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA debates whether AI buyers are overpaying for hardware",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA poster describes failing to sell an old AM4 PC even after reconfiguring it as an AI rig with added GPUs, sparking discussion about current hardware pricing and buyer attention.",
+   "more": "The poster tried selling an AM4 system (Ryzen 5 5600, X470, 64GB RAM, RX580, 1TB NVMe) for €750 but found no buyers. Citing current RAM and NVMe prices, they noted that buying the same components new would cost about €775. To make the system more appealing as an AI machine, they removed the RX580 and installed two R9700 GPUs instead, then set it up running Fedora, Qwen3.6, and ComfyUI to demonstrate it working.",
+   "item_ids": [
+    "localllama:t3_1xl4ckr"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xl4ckr",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Don't people pay attention anymore when buying hardware for AI?",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl4ckr/dont_people_pay_attention_anymore_when_buying/",
+     "published": "2026-11-01T14:24:50+00:00",
+     "excerpt": "I was trying to sell my old AM4 system, X470 / Ryzen 5 5600 / 64GB / RX580 / 1TB NVME and it didn't sell. Granted it was a bit pricey at 750€, because I took into account the current local RAM and NVME pricing. (Buying the same RAM and SSD new costs 775€ if you go to the cheapest sellers in my country) I decided to try and sell it as an AI system: removed the RX580, put in 2 of my 4 R9700. I set the system up with Fedora to run Qwen3.6 (latest release at the time) and ComfyUI; to show it working"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-01T14:24:50+00:00"
+  },
+  {
+   "title": "MIT Technology Review examines the rise of the 'agentic web'",
+   "tags": [
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "MIT Technology Review revisits Tim Berners-Lee's 2001 vision of a Semantic Web navigated by autonomous agents, framing today's AI agents as the realization of that long-promised 'agentic web.'",
+   "more": "In 2001, a decade after inventing the Web, Tim Berners-Lee and two co-authors described a 'Semantic Web' in Scientific American, designed to be navigated by autonomous software agents handling tasks on people's behalf. The MIT Technology Review piece revisits that vision in light of today's AI agents. The excerpt available does not detail which specific agent technologies or companies the full article discusses.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1147846"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1147846",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "The agentic web is here",
+     "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+     "published": "2026-11-02T09:35:19+00:00",
+     "excerpt": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous software agents that could address our every…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T09:35:19+00:00"
+  },
+  {
+   "title": "Heretic 2.0 launches, expanding tool for removing censorship from LLMs",
+   "tags": [
+    "tools",
+    "open-source",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Heretic 2.0, an open-source tool for removing censorship from language models, was released after nearly five months of development, with the project now covering over 8,500 Hugging Face models and 37,000 GitHub stars.",
+   "more": "Heretic bills itself as the leading software for removing censorship from language models, and version 2.0 arrives after almost five months of development. The project reports 37,000 GitHub stars, more than 8,500 modified models published on Hugging Face, and over 88 million total model downloads. With this release, the author says Heretic is expanding beyond its original narrow purpose into a broader set of model-modification capabilities. The post's excerpt does not specify exactly which new capabilities are included.",
+   "item_ids": [
+    "localllama:t3_1xl2tcm"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xl2tcm",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Heretic 2.0 released: Model modification for everyone",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl2tcm/heretic_20_released_model_modification_for/",
+     "published": "2026-11-01T13:16:24+00:00",
+     "excerpt": "Dear fellow Llamas, after almost 5 months of development, I finally have the pleasure of announcing to you the immediate availability of the biggest Heretic release ever, Heretic 2.0: https://github.com/p-e-w/heretic Heretic is the leading software for removing censorship from language models. It now boasts 37k GitHub stars and more than 8,500 models on Hugging Face, with 88 million(!!!) total model downloads. With Heretic 2.0, the project is entering a new era. Heretic is expanding from a purpo"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-01T13:16:24+00:00"
+  }
+ ]
+}
