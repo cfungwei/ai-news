@@ -1,0 +1,326 @@
+{
+ "date": "2026-11-03",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Researchers introduce CoworkOS, a harness for scaling long-horizon agent coworkers",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces CoworkOS, a harness for long-horizon 'cowork' agents that separates task strategy from execution management to handle complex, multi-step productivity work.",
+   "more": "Cowork agents are increasingly used for real-world automation, producing software, designs, and other artifacts rather than just text responses. The researchers argue existing systems struggle to combine high-quality delivery on complex tasks with continued monitoring and decision-making over long horizons. CoworkOS addresses this by separating task strategy from execution management, with the model handling decisions while the harness manages execution.",
+   "item_ids": [
+    "hf-papers:2611.03178"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.03178",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+     "url": "https://huggingface.co/papers/2611.03178",
+     "published": "2026-11-03T00:00:00+00:00",
+     "excerpt": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for long-horizon work that separates task strategy from execution management: the model decide"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:00:00+00:00"
+  },
+  {
+   "title": "CUA-Master framework scales computer-use agents via recursive self-improvement",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper presents CUA-Master, a nested double-loop framework for improving computer-use agents by generating more diverse and reliable interaction data instead of relying only on self-generated experience.",
+   "more": "The researchers say progress on computer-use agents has been limited by a lack of diverse, controllable, and reliable interaction data, and that conventional training pipelines lack iterative feedback. Existing recursive improvement methods often rely solely on self-generated experience, which limits capability gains and produces diminishing returns. CUA-Master is designed as a nested double-loop recursive improvement framework operating at the system level to address these gaps.",
+   "item_ids": [
+    "hf-papers:2611.03126"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.03126",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+     "url": "https://huggingface.co/papers/2611.03126",
+     "published": "2026-11-03T00:00:00+00:00",
+     "excerpt": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce CUA-Master, a nested double-loop recursive improvement framework. At the system level"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:00:00+00:00"
+  },
+  {
+   "title": "NorthCUA harness turbocharges computer-use agents with large-scale experience data",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new technical report describes NorthCUA, a system that scales computer-use agents by generating and curating large volumes of task experience to connect agent decisions to full task outcomes.",
+   "more": "The researchers argue that scaling computer-use agents from individual actions to complex software work requires experience linking decisions to complete outcomes. NorthCUA's 'Experience Flywheel' supplies diverse, executable tasks to the NorthCUA Harness, which sustains long interactions, records decisions, and checks task outcomes. The Flywheel then uses these records to curate verified trajectories for training.",
+   "item_ids": [
+    "hf-papers:2611.02102"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.02102",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale",
+     "url": "https://huggingface.co/papers/2611.02102",
+     "published": "2026-11-03T00:00:00+00:00",
+     "excerpt": "Scaling computer-use agents from individual actions to complex software work requires experience that connects decisions to complete outcomes. We present NorthCUA, an integrated system for turbocharging computer-use agents through experience at scale. Its Experience Flywheel supplies diverse executable tasks to the NorthCUA Harness, which sustains long interactions, records decisions, and checks task outcomes. The Flywheel uses these records to curate verified trajectories. For unsolved tasks, r"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:00:00+00:00"
+  },
+  {
+   "title": "Study maps how computer-use agents recover, or fail to, from errors",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper examines why computer-use agents struggle to recover from mistakes in long-horizon tasks, where errors accumulate and leave unintended side effects.",
+   "more": "Computer-use agents built on large vision-language models can automate digital workflows through fine-grained keyboard and mouse actions, but they remain fragile over long-horizon tasks. Errors accumulate and executed actions can leave unintended side effects, making recovery from failure critical. The researchers find existing remedies are inadequate: environment resets are not feasible in proprietary settings, and action replay is prohibitively expensive.",
+   "item_ids": [
+    "hf-papers:2610.27954"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.27954",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Lost in Recovery: Demystifying Recovery Behavior of Computer-Use Agents via Goal-Oriented Action Replay",
+     "url": "https://huggingface.co/papers/2610.27954",
+     "published": "2026-11-03T00:00:00+00:00",
+     "excerpt": "Recent advances in large (vision) language models have enabled computer-use agents that automate digital workflows via fine-grained keyboard and mouse operations. However, such agents remain fragile in long-horizon settings, where errors accumulate and executed actions leave unintended side effects, making the ability to recover from failures critical. Yet, existing remedies remain inadequate: environment resets are infeasible in proprietary settings, action replay is prohibitively expensive ove"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:00:00+00:00"
+  },
+  {
+   "title": "NYC Mayor Mamdani talks AI data centers and schools with Wired",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ahead of the US midterms, Wired interviewed New York City Mayor Zohran Mamdani about data centers, AI in schools, and the future of the Democratic party.",
+   "more": "The interview, part of Wired's Big Interview podcast series, covers Mamdani's views on the risks and rewards data centers pose for the city under his leadership. It also touches on how AI is being introduced in New York schools. The conversation is framed around the broader political stakes for the Democratic party heading into the midterms.",
+   "item_ids": [
+    "wired-ai:6ae37585b7cef7207a0617e3"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ae37585b7cef7207a0617e3",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers",
+     "url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
+     "published": "2026-11-03T11:00:00+00:00",
+     "excerpt": "Ahead of the midterms, WIRED talked to New York City’s mayor about data centers, AI in schools, and the future of the Democratic party."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T11:00:00+00:00"
+  },
+  {
+   "title": "Researchers propose 'reverse game theory' to keep AI agents aligned",
+   "tags": [
+    "policy",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Safety researchers are exploring a 'reverse game theory' approach that designs incentives making rule-following the most rational choice for powerful AI models, as a check on rogue agent behavior.",
+   "more": "As AI models grow more capable, safety researchers described in MIT Technology Review are racing to ensure they stay aligned with human intentions and don't break rules or act as rogue agents. The 'reverse game theory' approach aims to flip the usual dynamic by engineering incentive structures so that compliant behavior is the most rational option for a model to choose.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1147934"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1147934",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "How “reverse game theory” could keep AI agents in check",
+     "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+     "published": "2026-11-03T10:43:41+00:00",
+     "excerpt": "A new approach known as “reverse game theory” aims to create incentives for powerful AI models that make following the rules the most rational choice. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T10:43:41+00:00"
+  },
+  {
+   "title": "Anthropic blocks Claude Code from cloning existing video games",
+   "tags": [
+    "policy",
+    "tools",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic is restricting its Claude Code coding assistant from recreating existing video games, following a wave of AI-built game knockoffs.",
+   "more": "According to The Decoder, Anthropic has moved to block Claude Code, its AI coding assistant, from being used to recreate existing video games. The change follows a reported wave of AI-generated knockoffs of existing games built using coding assistants. The report does not specify the technical mechanism Anthropic is using to detect or block such cloning.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42327"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42327",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs",
+     "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/",
+     "published": "2026-11-03T09:48:08+00:00",
+     "excerpt": "Anthropic is blocking its coding assistant Claude Code from recreating existing video games. The article Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T09:48:08+00:00"
+  },
+  {
+   "title": "OpenAI quadruples bug bounty payouts to up to $172,000",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI has quadrupled its maximum bug bounty payout to $172,000 and launched an internal security sprint as the company ramps up its security efforts.",
+   "more": "According to The Decoder, OpenAI raised its top bug bounty reward fourfold to as much as $172,000 for security researchers who find vulnerabilities. The increase comes alongside a new internal security sprint at the company. The report frames the move as part of a broader push by OpenAI to strengthen its security posture.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42331"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42331",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Bug hunters can now earn up to $172,000 from OpenAI as company ramps up security",
+     "url": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/",
+     "published": "2026-11-03T10:42:44+00:00",
+     "excerpt": "OpenAI quadruples bug bounty payouts and launches new internal security sprint. The article Bug hunters can now earn up to $172,000 from OpenAI as company ramps up security appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T10:42:44+00:00"
+  },
+  {
+   "title": "OpenAI case study: Heimstaden uses ChatGPT Enterprise and Codex in real estate",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI published a case study on Heimstaden, a European residential real estate firm using ChatGPT Enterprise and Codex to cut costs and change how it manages properties.",
+   "more": "According to OpenAI, Heimstaden is using ChatGPT Enterprise and Codex to transform property management across its European operations. The company says the tools help cut costs and empower employees in their day-to-day work. The piece is presented by OpenAI as a customer case study rather than independent reporting.",
+   "item_ids": [
+    "openai:https://openai.com/index/heimstaden"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/heimstaden",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Heimstaden is changing residential real estate management with AI",
+     "url": "https://openai.com/index/heimstaden",
+     "published": "2026-11-03T08:00:00+00:00",
+     "excerpt": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T08:00:00+00:00"
+  },
+  {
+   "title": "LiquidAI's LFM3-Omni-2B any-to-any model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "LiquidAI's LFM3-Omni-2B, an any-to-any model handling image, audio, and speech-to-speech tasks, is trending on Hugging Face with over 300 likes and more than 11,000 downloads.",
+   "more": "LFM3-Omni-2B is tagged on Hugging Face as an any-to-any model supporting image-text-to-text, vision, audio, and speech-to-speech capabilities, built for edge deployment. It has gathered 324 likes and 11,662 downloads on the platform.",
+   "item_ids": [
+    "hf-trending:LiquidAI/LFM3-Omni-2B"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:LiquidAI/LFM3-Omni-2B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: LiquidAI/LFM3-Omni-2B",
+     "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+     "published": "2026-10-21T16:58:40+00:00",
+     "excerpt": "any-to-any, 324 likes, 11662 downloads. Tags: transformers, safetensors, lfm3_omni, image-text-to-text, liquid, lfm3, lfm3-omni, omni, audio, vision, speech-to-speech, edge"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-21T16:58:40+00:00"
+  },
+  {
+   "title": "Apple Watch's AI conversation rewind and recap features enter beta",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apple has begun beta testing new Audio Intelligence features on Apple Watch that let users rewind and recap conversations, helping them remember or take notes on what was said.",
+   "more": "The beta features, part of Apple's Audio Intelligence push, are designed to help Apple Watch users recall details from conversations after the fact. According to TechCrunch, the tools can be used to take notes on conversations as they happen or review what was said afterward.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184378"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184378",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+     "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+     "published": "2026-11-03T07:20:00+00:00",
+     "excerpt": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T07:20:00+00:00"
+  },
+  {
+   "title": "Open harness uni-robot-agent tops GPT-6's Astra-RoboProbe on RoboDojo benchmark",
+   "tags": [
+    "robotics",
+    "open-source",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces uni-robot-agent, an open-weight harness for robot-use agents that lets researchers train models without relying on proprietary systems.",
+   "more": "Robot-use agents have shown strong zero-shot manipulation abilities, but research has been constrained by dependence on frontier proprietary models that limit further training. Uni-robot-agent is a unified harness for competitive open-weight robot use that supports additional training. Without privileged inputs, an off-the-shelf Qwen3.8-Flash-Next model running on the harness scored 31.39 on the RoboDojo benchmark, surpassing the published GPT-6 Astra-RoboProbe score of 28.97 and other VLA/WAM baselines.",
+   "item_ids": [
+    "hf-papers:2611.01560"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.01560",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
+     "url": "https://huggingface.co/papers/2611.01560",
+     "published": "2026-11-03T00:00:00+00:00",
+     "excerpt": "Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39, surpassing the published GPT-6 Astra-RoboProbe result of 28.97 and many VLA/WAM baselin"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:00:00+00:00"
+  }
+ ]
+}
