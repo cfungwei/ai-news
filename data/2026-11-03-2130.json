@@ -1,0 +1,501 @@
+{
+ "date": "2026-11-03",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Google lets schools opt out of AI, but only by giving up Search",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Schools that want to disable Google's AI features entirely will lose access to Google Search too, since AI is now built into the search engine, TechCrunch reports.",
+   "more": "TechCrunch reports that schools choosing to restrict AI altogether will no longer be able to access Google Search as a result. The reason is that Google has integrated AI features directly into its search engine, making the two inseparable for institutional users. The move effectively forces schools to accept some level of AI exposure if they want to keep using Search. Further details on which specific AI features or search tiers are affected were not included in the excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184603"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184603",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+     "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+     "published": "2026-11-03T16:30:34+00:00",
+     "excerpt": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T16:30:34+00:00"
+  },
+  {
+   "title": "Midterm elections could shape policy on AI and Big Tech",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge rounds up how the 2026 midterms, expected to turn on affordability, also carry stakes for tech-industry issues and could signal voter sentiment heading into 2028.",
+   "more": "The piece frames the 2026 midterms as a referendum on the scope of President Trump's power in his final two years and a signal of voter priorities ahead of the 2028 presidential race. While affordability issues are expected to dominate, The Verge says several topics affecting the tech industry are also in play. The article did not specify which tech or AI policies are most contested in the excerpt available.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?post_type=vm_stream&p=1020640"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?post_type=vm_stream&p=1020640",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Midterm elections 2026: all the news",
+     "url": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news",
+     "published": "2026-11-03T15:58:39+00:00",
+     "excerpt": "The 2026 midterm elections will determine the scope of President Donald Trump’s power in his final two years in office, and signal what voters care about going into the 2028 presidential election. While this year’s races are expected to be most broadly defined by affordability issues, there’s several topics impacting the tech industry that appear […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T15:58:39+00:00"
+  },
+  {
+   "title": "Apple requires 18+ ratings for dating apps and AI companions with sexual content",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apple's new App Store rules will require dating apps and AI companion apps offering sexual or romantic content to carry an 18+ rating, TechCrunch reports.",
+   "more": "TechCrunch reports that Apple updated its App Store guidelines to mandate 18+ age ratings for dating apps and AI companion apps that provide sexual or romantic content. The rule appears aimed at restricting younger users' access to apps built around AI-driven romantic or sexual interactions. Further details on enforcement timelines or specific affected apps were not included in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184598"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184598",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Apple restricts dating apps and AI companions to users 18 and up",
+     "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+     "published": "2026-11-03T15:38:27+00:00",
+     "excerpt": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T15:38:27+00:00"
+  },
+  {
+   "title": "Experts warn against using AI chatbots to inform Election Day voting",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired warns that chatbots like ChatGPT and Claude are prone to hallucinations and partisan bias, making them unreliable tools for voting decisions on Election Day.",
+   "more": "Wired reports that AI chatbots, including ChatGPT and Claude, can produce hallucinated or biased information when asked about election-related questions. The article frames this as a reason voters should avoid relying on AI tools when deciding how to vote. Further specifics on tested prompts or examples were not included in the excerpt.",
+   "item_ids": [
+    "wired-ai:6ae8a49293d0a10b8d7f1ddd"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ae8a49293d0a10b8d7f1ddd",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Here’s Why You Shouldn’t Use AI to Vote",
+     "url": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+     "published": "2026-11-03T14:45:08+00:00",
+     "excerpt": "From hallucinations to partisan bias, artificial intelligence chatbots like ChatGPT and Claude are not helpful when it comes to Election Day."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T14:45:08+00:00"
+  },
+  {
+   "title": "Research shows frontier models can directly read and edit neural network weights",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper finds frontier models like GPT-6 Astra can interpret and modify raw neural network weights as text, with one test boosting a Qwen model's MATH-500 score from 7.9% to 48.1%.",
+   "more": "The paper, 'Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights' by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab, found that frontier models including GPT-6 Astra can both interpret and modify the raw weights of a machine learning model, described as text containing floating point numbers. A Reddit post highlighted one result where GPT-6 Astra edited Qwen model weights and raised its MATH-500 score from 7.9% to 48.1%. Developer Simon Willison followed up by testing a local Qwen 3.8 27B model on his laptop and reported it could also interpret model weights using examples from the paper. The findings suggest weight-space manipulation by LLMs is an emerging, reproducible capability rather than a one-off result from a single frontier model.",
+   "item_ids": [
+    "localllama:t3_1xma0tw",
+    "localllama:t3_1xm6jow",
+    "simonw:https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xma0tw",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "GPT-6 Astra Edits Qwen Weights: MATH-500 7.9% to 48.1%",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xma0tw/gpt6_astra_edits_qwen_weights_math500_79_to_481/",
+     "published": "2026-11-02T21:25:39+00:00",
+     "excerpt": "submitted by /u/1-800-methdyke [link] [comments]"
+    },
+    {
+     "id": "localllama:t3_1xm6jow",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm6jow/sparks_of_weightspace_programming_llms_can/",
+     "published": "2026-11-02T19:15:33+00:00",
+     "excerpt": "submitted by /u/teakhop [link] [comments]"
+    },
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+     "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+     "published": "2026-11-03T16:29:48+00:00",
+     "excerpt": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of the model containing a bunch of floating point numbers. I've been playing with one of the examples from the paper and I'm delighted to share that Qwen"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-03T16:29:48+00:00"
+  },
+  {
+   "title": "Survey maps the rise of agentic computer graphics",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new survey reviews how LLM agents generate and iteratively refine computer-graphics code, tracking the rapid growth of research on agentic graphics systems that automate increasingly complex tasks.",
+   "more": "The paper notes that LLM agents can generate graphics code and refine it iteratively through feedback, opening what the authors call a potential new paradigm for computer graphics. Over the past few years, research on agentic graphics has expanded rapidly across a wide range of tasks. The authors say this growth has made the field increasingly hard to track, which motivates the survey. Further specifics on the survey's findings were not included in the available excerpt.",
+   "item_ids": [
+    "hf-papers:2611.01860"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.01860",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Advances in Agentic Computer Graphics",
+     "url": "https://huggingface.co/papers/2611.01860",
+     "published": "2026-11-03T00:00:00+00:00",
+     "excerpt": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly across a diverse range of tasks. This rapid growth makes it increasingly difficult fo"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:00:00+00:00"
+  },
+  {
+   "title": "SWE-Trail: a history-guided method for collecting coding-agent training data",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper, SWE-Trail, proposes collecting coding-agent trajectories in a history-guided way to cut the redundancy that appears when samples are drawn independently for post-training data.",
+   "more": "Coding agents solve repository issues through long sequences of exploration, editing, and validation, and these trajectories are increasingly used as post-training data. The paper notes that a common approach samples multiple trajectories independently per issue and then selects or curates among them. It argues that as more trajectories are sampled independently, later ones become increasingly redundant, even though earlier trajectories could help guide where to explore next. SWE-Trail's history-guided approach aims to address this redundancy, though further implementation details were not included in the available excerpt.",
+   "item_ids": [
+    "hf-papers:2611.02074"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.02074",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "SWE-Trail: History-Guided Trajectory Collection for Coding Agent Training",
+     "url": "https://huggingface.co/papers/2611.02074",
+     "published": "2026-11-03T00:00:00+00:00",
+     "excerpt": "Coding agents solve repository issues through long sequences of exploration, editing, and validation. These trajectories are increasingly used as post-training data, so how they are collected shapes what the trained model learns. A common approach is to sample multiple trajectories independently for each issue and then select or curate them. However, as more trajectories are sampled independently, later trajectories become increasingly redundant, even though earlier trajectories could guide wher"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:00:00+00:00"
+  },
+  {
+   "title": "Apple posts record fiscal year, leans on AI without big infrastructure spend",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apple's latest earnings show iPhone and Mac sales growing strongly while the company capitalizes on AI without matching rivals' heavy infrastructure spending.",
+   "more": "Apple posted its best-ever fiscal year for revenue and earnings per share, with iPhone revenue up 17.5% in the fourth quarter and continued Mac growth. The Verge notes Apple is benefiting from the AI boom through both its own AI features and those of partners, while avoiding the heavy capital spending on AI infrastructure consuming competitors' budgets. Further specifics on Apple's AI strategy were not included in the available excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1025245"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1025245",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Apple is all in on AI — its own and everyone else’s",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
+     "published": "2026-11-03T15:24:51+00:00",
+     "excerpt": "Apple's latest earnings show how it's continuing to capitalize on the AI boom without busting its budget on the infrastructure spending consuming its competitors. Overall, Apple posted its best-ever fiscal year for revenue and earnings per share. iPhone and Mac sales continued to grow strongly in the fourth quarter. iPhone revenue rose 17.5% from a […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T15:24:51+00:00"
+  },
+  {
+   "title": "OpenAI hires former Army Secretary as national security counselor",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI has hired Dan Driscoll, the former civilian head of the US Army, as Senior Counselor for National Security Modernization, likely to help win government contracts.",
+   "more": "The Decoder reports OpenAI hired Dan Driscoll, the former civilian head of the US Army, as 'Senior Counselor for National Security Modernization.' Driscoll previously drove AI projects inside the Army and is described as a close ally of Vice President JD Vance, while maintaining relationships across both parties in Congress. The hire is expected to help OpenAI win government contracts and shape AI rules for military and intelligence agencies. The Decoder notes the timing could prove valuable for OpenAI as the midterm elections approach.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42344"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42344",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI hires ex-Army Secretary, gaining bipartisan reach just as midterms loom",
+     "url": "https://the-decoder.com/openai-hires-ex-army-secretary-gaining-bipartisan-reach-just-as-midterms-loom/",
+     "published": "2026-11-03T15:03:02+00:00",
+     "excerpt": "OpenAI hires Dan Driscoll, the former civilian head of the US Army, as \"Senior Counselor for National Security Modernization,\" likely to win government contracts and help shape AI rules for the military and intelligence agencies. Driscoll drove AI projects inside the Army, is a close ally of Vice President JD Vance, and yet maintains good relationships with both parties in Congress - which could prove valuable as midterms approach. The article OpenAI hires ex-Army Secretary, gaining bipartisan r"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T15:03:02+00:00"
+  },
+  {
+   "title": "OpenAI rebrands data centers as 'compute campuses' amid backlash",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Facing broad, bipartisan opposition to data centers, OpenAI appears to be quietly rebranding them as 'compute campuses' in what The Verge frames as an attempt to defuse the backlash.",
+   "more": "The Verge reports that data centers have become widely unpopular for being loud and resource-hungry, drawing rare bipartisan political opposition. It suggests OpenAI is betting that a softer label, 'compute campuses,' could help reduce public and political pushback. The article frames this as a quiet rebrand rather than an announced policy change. Further details on where or when the new terminology is being used were not included in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1025242"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1025242",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "OpenAI is quietly renaming data centers ‘compute campuses’",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
+     "published": "2026-11-03T15:00:44+00:00",
+     "excerpt": "People hate data centers. They're loud, resource-hungry eyesores that are so profoundly unpopular they have managed to achieve the near-impossible in today's polarized political landscape: genuine bipartisan opposition. But what about \"compute campuses\"? Those sound lovely, right? OpenAI seems to be gambling that a quiet rebrand could be all it takes to defuse the growing […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T15:00:44+00:00"
+  },
+  {
+   "title": "Nvidia reportedly tells cloud customers to scale back China business",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia has told some cloud customers to reduce the business they do with Chinese companies, The Decoder reports, though reasons weren't detailed in the brief item.",
+   "more": "The Decoder reports that Nvidia has told some of its cloud customers to take on less business from Chinese companies. The brief item did not specify which customers were contacted or Nvidia's stated reasoning. It also did not detail whether this relates to broader US export restrictions on AI chips to China. Further specifics were not included in the available excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42338"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42338",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Nvidia pushes cloud customers to cut back on China business",
+     "url": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/",
+     "published": "2026-11-03T12:22:12+00:00",
+     "excerpt": "Nvidia has told some cloud customers to take on less business from Chinese companies. The article Nvidia pushes cloud customers to cut back on China business appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T12:22:12+00:00"
+  },
+  {
+   "title": "Huawei pushes AI chip customers toward black-market memory sourcing",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Huawei is telling customers to source high-performance memory for its AI chips themselves, pushing many toward the black market as smugglers exploit a loophole in US export rules.",
+   "more": "The Decoder reports Huawei is telling customers to independently source the high-performance memory needed for its AI chips, effectively outsourcing procurement to the black market. Smugglers are reportedly exploiting a loophole in US export rules by bundling high-bandwidth memory (HBM) with low-end processors, shipping them through Hong Kong, and separating the chips once they arrive. Prices for smuggled HBM3E memory have surged to around $4,000 per unit over the past year. The report ties the shortage to broader US export controls on AI chip components to China.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42335"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42335",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Huawei tells customers to find their own AI chip memory, effectively outsourcing procurement to the black market",
+     "url": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/",
+     "published": "2026-11-03T11:47:37+00:00",
+     "excerpt": "Huawei is telling customers to source the high-performance memory for its AI chips on their own, pushing them onto the black market. Smugglers are exploiting a loophole in U.S. export rules by bundling HBM with low-end processors, shipping them through Hong Kong, and separating the chips on site. Prices for smuggled HBM3E memory have surged to around $4,000 per unit in just one year. The article Huawei tells customers to find their own AI chip memory, effectively outsourcing procurement to the b"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T11:47:37+00:00"
+  },
+  {
+   "title": "Amazon allegedly cancels GPU orders, closes accounts over hardware buys",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amazon is allegedly canceling customer GPU orders and, in some cases, closing accounts tied to compute hardware purchases, with Epic's Tim Sweeney reportedly among those affected.",
+   "more": "A Reddit post on r/LocalLLaMA claims Amazon is canceling GPU orders and, in rare cases, closing accounts linked to purchases of compute hardware. Epic Games CEO Tim Sweeney is named as one person allegedly affected by this practice. The post does not specify Amazon's stated reason for the cancellations or account closures. Further verification or an official Amazon response was not included in the available excerpt.",
+   "item_ids": [
+    "localllama:t3_1xm8o8g"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xm8o8g",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Amazon Is Allegedly Canceling GPU Orders And, In Rare Cases, Closing Accounts For Purchasing Compute Hardware; Tim Sweeney Also A Victim Of This Practice",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm8o8g/amazon_is_allegedly_canceling_gpu_orders_and_in/",
+     "published": "2026-11-02T20:33:48+00:00",
+     "excerpt": "submitted by /u/chemist_slime [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T20:33:48+00:00"
+  },
+  {
+   "title": "IBM Research's Palette trains a small model to build decks in your style",
+   "tags": [
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "IBM Research released Palette, a small model designed to generate presentation decks that follow a user's own design language, according to a Hugging Face blog post.",
+   "more": "The project, published via Hugging Face Blog by IBM Research, focuses on teaching a small model to build slide decks that follow a user's existing design language. No further details were available in the source excerpt.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/ibm-research/palette-deck-building"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/ibm-research/palette-deck-building",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Palette: teaching a small model to build decks in your design language",
+     "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+     "published": "2026-11-03T16:35:36+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T16:35:36+00:00"
+  },
+  {
+   "title": "Alibaba's Qwen Code repo reportedly reveals qwen4-max, qwen4-coder-plus",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A pull request in Alibaba's Qwen Code repository appears to reveal upcoming model identifiers including qwen4-max, qwen4-coder-plus, and qwen4-omni-120b, according to a Reddit report.",
+   "more": "A Reddit post on r/LocalLLaMA points to GitHub pull requests in the QwenLM/qwen-code repository that reference model identifiers including qwen4, qwen4-max, qwen4-plus, qwen4.5-max, qwen4-coder-plus, qwen4-max-2026-10-01, and qwen4-omni-120b-think. One cited PR note says these ids resolved to a 262,144 context length before a fix, and that qwen4-omni-120b-think is already used as the session model in the omni fixtures, suggesting the ids are not purely hypothetical. The post frames this as evidence of a successor to an earlier Qwen model. Further confirmation from Alibaba was not included in the excerpt.",
+   "item_ids": [
+    "localllama:t3_1xmitzx"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xmitzx",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
+     "published": "2026-11-03T03:55:43+00:00",
+     "excerpt": "PRs: https://github.com/QwenLM/qwen-code/pull/15762: \"Measured on main at 79a9b753c60 , before this change: qwen4 , qwen4-max , qwen4-plus , qwen4.5-max , qwen4-coder-plus , qwen4-max-2026-10-01 , openai/qwen4-max and qwen4-omni-120b-think all resolved to 262,144. The last of those is already in use as the session model in the omni fixtures, so these ids are not hypothetical.\" https://github.com/QwenLM/qwen-code/pull/15987 Thank god, it looks like that we're getting successor of Q38FN! submitted"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T03:55:43+00:00"
+  },
+  {
+   "title": "Anthropic's Message Threads cut time-to-first-token by 35% in long chats",
+   "tags": [
+    "tools",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic launched Message Threads for its Messages API, letting agents send only what changed instead of resending full conversations, cutting time to first token by about 35% on long requests.",
+   "more": "The Decoder reports Anthropic released Message Threads for the Messages API, a feature that lets agents transmit only what's changed in a conversation rather than resending the entire history each turn. For requests between 500,000 and one million tokens, this cuts time to first token by about 35%. The improvement specifically targets long-conversation use cases where repeatedly resending full context adds latency. Further technical details on how Message Threads are implemented were not included in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42340"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42340",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic's Message Threads cut time to first token by 35 percent for long conversations",
+     "url": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/",
+     "published": "2026-11-03T12:35:49+00:00",
+     "excerpt": "Anthropic released Message Threads for the Messages API. Instead of resending the entire conversation with every turn, agents now only transmit what's changed. For requests between 500,000 and one million tokens, time to first token drops by about 35 percent. The article Anthropic's Message Threads cut time to first token by 35 percent for long conversations appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T12:35:49+00:00"
+  },
+  {
+   "title": "TechCrunch Founder Summit 2026 lands in Boston on Nov. 4",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch previews its Founder Summit 2026, taking place Nov. 4 at Boston's SoWa Power Station, bringing founders and VCs together with a pass-price deadline approaching.",
+   "more": "TechCrunch's Founder Summit 2026 is scheduled for Nov. 4 at SoWa Power Station in Boston, bringing together founders and VCs for talks and networking. Promotional posts note that pass prices increase at the door and that attendees can save up to $100, with a second pass offered free. One post frames the agenda as only half the draw, without specifying what else is planned. Further programming details were not included in the available excerpts.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184579",
+    "techcrunch-ai:https://techcrunch.com/?p=3184568"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184579",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on Nov. 4",
+     "url": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
+     "published": "2026-11-03T14:30:00+00:00",
+     "excerpt": "On Nov. 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184568",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase",
+     "url": "https://techcrunch.com/2026/11/03/tomorrow-techcrunch-founder-summit-takes-over-boston-and-when-pass-rates-increase/",
+     "published": "2026-11-03T14:00:00+00:00",
+     "excerpt": "Secure your TechCrunch Founder Summit pass savings before prices increase tomorrow at 9 a.m. ET. Save up to $100 on your pass, and get a second for free."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T14:30:00+00:00"
+  },
+  {
+   "title": "Blog post pushes back on AI with 'a little resistance, as a treat'",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A widely discussed blog post argues for small, deliberate acts of resistance to AI in daily life, drawing 148 points and 94 comments on Hacker News.",
+   "more": "The post, titled 'Just a little AI resistance, as a treat,' drew significant discussion on Hacker News with 148 points and 94 comments. The available excerpt did not include the article's specific arguments or examples. Further details on the author's recommended forms of AI resistance were not included in the excerpt.",
+   "item_ids": [
+    "hn:50352257"
+   ],
+   "items": [
+    {
+     "id": "hn:50352257",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Just a little AI resistance, as a treat",
+     "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+     "published": "2026-11-03T14:14:12+00:00",
+     "excerpt": "148 points, 94 comments. Discussion: https://news.ycombinator.com/item?id=50352257"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T14:14:12+00:00"
+  }
+ ]
+}
