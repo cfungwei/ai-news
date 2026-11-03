@@ -1,0 +1,870 @@
+{
+ "date": "2026-11-03",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Apple hints at new revenue plans around third-party AI apps",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "summary": "During its Monday earnings call, Apple suggested it could boost revenue through unspecified new \"opportunities\" tied to third-party AI apps.",
+   "more": "The hint came during Apple's quarterly earnings call rather than through a formal product announcement. No concrete mechanism was described, such as a new App Store fee, AI-specific marketplace, or revenue-share change. The vagueness leaves open several ways Apple could try to monetize third-party AI apps. Further specifics were not available in the excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184506"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184506",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+     "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+     "published": "2026-11-03T01:49:52+00:00",
+     "excerpt": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T01:49:52+00:00"
+  },
+  {
+   "title": "Trajectory raises $45M to simplify AI model training for nontechnical users",
+   "tags": [
+    "industry",
+    "tools"
+   ],
+   "summary": "Startup Trajectory raised $45 million to make AI model training accessible to people without technical expertise, valuing the one-year-old company at $300 million.",
+   "more": "The funding values Trajectory at $300 million just a year after its founding, reflecting investor interest in tools that lower the barrier to training AI models. The company's focus is nontechnical users rather than ML engineers. The excerpt does not name the investors, describe the product's specific approach, or give usage figures.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184455"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184455",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+     "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+     "published": "2026-11-02T23:13:53+00:00",
+     "excerpt": "The one-year-old startup is now valued at $300 million."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T23:13:53+00:00"
+  },
+  {
+   "title": "Report claims Anthropic's growth has flattened",
+   "tags": [
+    "industry"
+   ],
+   "summary": "A widely discussed Hacker News submission argues that Anthropic's growth has flattened, drawing 197 points and 226 comments.",
+   "more": "The claim comes from an external blog post rather than from Anthropic itself. It generated substantial discussion on Hacker News, with 226 comments at time of writing. The excerpt available does not include the specific metrics or evidence the post uses to support the flattening claim.",
+   "item_ids": [
+    "hn:50344958"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50344958",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Anthropic's growth just flattened",
+     "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+     "published": "2026-11-02T22:33:20+00:00",
+     "excerpt": "197 points, 226 comments. Discussion: https://news.ycombinator.com/item?id=50344958"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T22:33:20+00:00"
+  },
+  {
+   "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
+   "tags": [
+    "industry",
+    "tools"
+   ],
+   "summary": "Goldman Sachs removed AI coding tools like Claude Code and GitHub Copilot from traders and bankers, restricting access to engineers only, reversing earlier encouragement of \"vibe coding.\"",
+   "more": "CIO Marco Argenti had publicly praised non-technical staff using AI coding tools, or \"vibe coding,\" as recently as July. The bank now cites productivity and risk-management concerns as the reason for the reversal. Access to tools such as Claude Code and GitHub Copilot is now limited to engineers rather than traders and bankers. The excerpt does not detail specific incidents that prompted the policy change.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42323"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42323",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
+     "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+     "published": "2026-11-02T20:00:03+00:00",
+     "excerpt": "Goldman Sachs is pulling AI coding tools like Claude Code and GitHub Copilot from traders and bankers, limiting access to engineers only. As recently as July, CIO Marco Argenti publicly praised \"vibe coding\" by non-technical staff. Now the bank cites \"productivity and risk management\" as the reason for the reversal. The article Goldman Sachs pulls AI coding tools from traders and bankers appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T20:00:03+00:00"
+  },
+  {
+   "title": "Oracle files to sell $20B in stock and bonds to fund AI buildout",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "summary": "Oracle filed to raise $20 billion through new stock and bonds to finance its AI infrastructure buildout, according to a CNBC report discussed on Hacker News.",
+   "more": "The filing covers a combination of new stock and bond issuance rather than debt alone. The funds are earmarked for financing Oracle's AI buildout, which typically means data center and compute capacity expansion. The Hacker News discussion drew 180 points and 160 comments at time of writing. The excerpt does not specify the split between stock and bonds or the buildout's planned timeline.",
+   "item_ids": [
+    "hn:50342284"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50342284",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+     "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+     "published": "2026-11-02T19:27:37+00:00",
+     "excerpt": "180 points, 160 comments. Discussion: https://news.ycombinator.com/item?id=50342284"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T19:27:37+00:00"
+  },
+  {
+   "title": "Web host Squarespace lays off 19% of its workforce",
+   "tags": [
+    "industry"
+   ],
+   "summary": "Squarespace cut 19% of its employees as part of a broader restructuring of the company.",
+   "more": "The company described the cuts as part of a wider organizational restructuring rather than isolating a single cause. No AI-specific rationale, such as automation of roles, is cited in the available excerpt. Further details on which departments were affected or severance terms were not given.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184239"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184239",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Web host Squarespace lays off 19% of its employees",
+     "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+     "published": "2026-11-02T19:25:59+00:00",
+     "excerpt": "The website builder said that the job losses are part of a broader restructuring of its organization."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T19:25:59+00:00"
+  },
+  {
+   "title": "SpaceXSI reportedly cuts Grok Bot usage quotas",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "summary": "SpaceXSI appears to have cut usage limits on its AI agent Grok Bot just weeks after Elon Musk called it his fastest-growing product, citing unsustainable operating costs.",
+   "more": "Musk wrote on X that Grok Bot's operating costs were \"unsustainably high relative to revenue,\" shortly after praising its growth. The report frames the move as part of a broader pattern: OpenAI and Anthropic are also tightening their flat-rate subscription plans as they face the high costs of running AI agents at scale. The excerpt does not specify the size of the quota cuts or how users have reacted.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42305"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42305",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "SpaceXSI apparently cuts Grok Bot quotas weeks after Musk called it his fastest-growing product",
+     "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+     "published": "2026-11-02T18:15:39+00:00",
+     "excerpt": "SpaceXSI is apparently cutting usage limits for its AI agent Grok Bot, less than two weeks after Musk called it his fastest-growing product. The operating costs were \"unsustainably high relative to revenue,\" Musk wrote on X. OpenAI and Anthropic are also tightening their flat-rate plans as they grapple with the high costs of AI agents. The article SpaceXSI apparently cuts Grok Bot quotas weeks after Musk called it his fastest-growing product appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T18:15:39+00:00"
+  },
+  {
+   "title": "OpenAI pitches data center power plants to protect nearby communities",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "summary": "OpenAI announced a \"Grid Protectors Program\" pilot at a Georgia data center, promising to free up to 1,000 megawatts of power during extreme weather or emergencies.",
+   "more": "The pilot is planned for an upcoming data center in Effingham County, Georgia. OpenAI says the freed capacity, up to 1,000 megawatts, would be enough to power air conditioners in around 700,000 homes during extreme weather or emergencies. The announcement comes amid growing local opposition to data center power and water demands. The excerpt does not detail how the program would be triggered or who decides when it activates.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1024604"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1024604",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+     "published": "2026-11-02T18:01:30+00:00",
+     "excerpt": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T18:01:30+00:00"
+  },
+  {
+   "title": "Google recaps its October AI announcements",
+   "tags": [
+    "industry"
+   ],
+   "summary": "Google published a roundup of the AI news it announced in October 2026, presented as an animated carousel of posts from the month.",
+   "more": "The post is Google's monthly roundup format, compiling an animated carousel of images from the AI posts it published in October 2026. The excerpt available does not list the individual announcements it covers.",
+   "item_ids": [
+    "google-ai:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "google-ai:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+     "source": "google-ai",
+     "source_name": "Google AI Blog",
+     "title": "The latest AI news we announced in October 2026",
+     "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+     "published": "2026-11-02T17:45:00+00:00",
+     "excerpt": "Animated carousel of images from AI posts in October"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T17:45:00+00:00"
+  },
+  {
+   "title": "New York Times and other outlets sue Brave over AI scraping, paywall bypass",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "summary": "The New York Times, joined by the Chicago Tribune and New York Daily News, sued Brave's maker, alleging the browser unlawfully scrapes publisher content to train AI and lets users bypass paywalls.",
+   "more": "The complaint names Brave Software and accuses it of scraping copyrighted articles to train AI systems and of distributing that content to its own customers without authorization. TechCrunch's coverage identifies Anthropic and Perplexity among the customers it says received the scraped content. The suit adds Brave to a growing list of AI-adjacent companies facing publisher litigation over content use. It is unclear from the available coverage what remedies the publishers are seeking or how Brave has responded.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1024588",
+    "techcrunch-ai:https://techcrunch.com/?p=3184280"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1024588",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+     "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+     "published": "2026-11-02T17:51:19+00:00",
+     "excerpt": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the New York Daily News, the Chicago Tribune, and […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184280",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+     "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+     "published": "2026-11-02T19:19:17+00:00",
+     "excerpt": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-02T19:19:17+00:00"
+  },
+  {
+   "title": "Anthropic curbs Claude Code use for cloning video games",
+   "tags": [
+    "policy",
+    "tools"
+   ],
+   "summary": "Anthropic updated Claude Code's system prompt to stop the tool from recreating existing video games, as AI-made decompilations and ports of retro games have surged.",
+   "more": "The change targets Claude Code's behavior rather than banning game development with the tool outright; Anthropic says people can still use it to build original games. It responds to a wave of AI-assisted decompilations, recompilations, and ports of existing titles, particularly in retro gaming communities. Coverage notes the restriction is unlikely to stop the broader trend, since the surge of AI copying is driven by many tools and models beyond Claude. No details are given on how the restriction is technically enforced or whether it affects other Anthropic products.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1024632",
+    "ars-ai:https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1024632",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Anthropic clamps down on Claude’s AI video game clones",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+     "published": "2026-11-02T18:56:02+00:00",
+     "excerpt": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to […]"
+    },
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+     "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+     "published": "2026-11-02T18:05:31+00:00",
+     "excerpt": "The tsunami of imitators is way bigger than any one model maker can stem."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-02T18:56:02+00:00"
+  },
+  {
+   "title": "Report tracks who is complying with Trump's 'Super Intelligence' rebrand order",
+   "tags": [
+    "policy"
+   ],
+   "summary": "MIT Technology Review tracked which organizations are going along with a Trump executive order directing government agencies to rebrand \"artificial intelligence\" as \"Super Intelligence.\"",
+   "more": "The executive order, signed in late September, contained a single directive: have government agencies stop using the term \"artificial intelligence\" in favor of \"Super Intelligence.\" The piece, part of MIT Technology Review's weekly Algorithm newsletter, examines who is complying with that rebranding. The excerpt does not name which specific agencies or companies have complied or resisted. It is unclear from the excerpt whether the order carries any substantive policy change beyond terminology.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1147932"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1147932",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+     "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+     "published": "2026-11-03T04:18:47+00:00",
+     "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T04:18:47+00:00"
+  },
+  {
+   "title": "Op-ed argues the SEC should block Anthropic's IPO",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "summary": "An opinion piece in Tech Policy Press argues the SEC should block Anthropic's planned IPO to protect the public, sparking significant debate on Hacker News with 289 points and 226 comments.",
+   "more": "The piece is an opinion/policy argument rather than a report of regulatory action already taken; the excerpt does not indicate the SEC has taken any such step. It drew strong engagement on Hacker News, with 226 comments at time of writing. The excerpt does not detail the specific grounds the author cites for seeking to block the IPO. It is unclear from the excerpt what stage Anthropic's IPO process is currently at.",
+   "item_ids": [
+    "hn:50344919"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50344919",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+     "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+     "published": "2026-11-02T22:30:47+00:00",
+     "excerpt": "289 points, 226 comments. Discussion: https://news.ycombinator.com/item?id=50344919"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T22:30:47+00:00"
+  },
+  {
+   "title": "Anthropic warns it's nearing self-improving AI capability",
+   "tags": [
+    "policy",
+    "research"
+   ],
+   "summary": "Anthropic said it is close to achieving recursive self-improvement (RSI), the point where AI becomes skilled enough at training itself to sharply accelerate AI capabilities.",
+   "more": "RSI describes a feedback loop where AI systems improve their own training to the point of a rapid capability jump. Coverage frames this as a significant concern among those worried about uncontrolled AI acceleration, sometimes called AI \"doomers.\" The excerpt does not detail what evidence or benchmark Anthropic is citing for being close to this threshold, or what safeguards it says it has in place.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184332"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184332",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+     "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+     "published": "2026-11-02T22:14:50+00:00",
+     "excerpt": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T22:14:50+00:00"
+  },
+  {
+   "title": "Essay compares AI elites hoarding intelligence to mercantilist gold hoarding",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "summary": "Engineer Venkatesh Rao argued that fears of AI-driven job losses resemble mercantilism, where elites treat intelligence as a scarce resource to control, even though AI could instead increase demand for human thinking.",
+   "more": "The comparison draws on mercantilist economic thinking, where gold was hoarded as a fixed, scarce resource. Rao suggests AI elites may similarly treat intelligence as something to hoard and control rather than share. He counters common job-loss fears by drawing a parallel to early capitalism, which he says made people voluntarily work more rather than less. The excerpt does not detail specific policy proposals or data behind the argument.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42009"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42009",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI elites might hoard intelligence like mercantilists hoarded gold",
+     "url": "https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold/",
+     "published": "2026-11-02T19:43:51+00:00",
+     "excerpt": "Engineer Venkatesh Rao compares the fear of AI job losses to mercantilism: intelligence is treated as a scarce resource that elites want to control. But AI could boost demand for human thinking, much like early capitalism made people voluntarily work more. The article AI elites might hoard intelligence like mercantilists hoarded gold appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T19:43:51+00:00"
+  },
+  {
+   "title": "OpenAI raises bug bounty rewards and adds new bonus programs",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "summary": "OpenAI is increasing its Security Bug Bounty rewards and introducing bonuses for report quality, researcher loyalty, and priority campaigns to attract independent security researchers.",
+   "more": "The changes expand OpenAI's existing bug bounty program beyond flat per-report payouts. New bonus categories reward the quality of a submitted report, researchers who repeatedly report through the program, and participation in priority campaigns the company runs. The move follows a broader industry pattern of AI companies increasing security spending as their products and infrastructure scale. No specific reward figures are given in the available excerpt.",
+   "item_ids": [
+    "openai:https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Rewarding defenders with bigger bug bounties",
+     "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+     "published": "2026-11-02T18:00:00+00:00",
+     "excerpt": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T18:00:00+00:00"
+  },
+  {
+   "title": "OpenAI preps new internal security sprint with Cathedral Systems",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "summary": "OpenAI is preparing its next internal security sprint, partnering with Cathedral Systems to test and strengthen its defenses using AI.",
+   "more": "The sprint is described as OpenAI's next round of internally testing and hardening its own security posture, following prior efforts in this area. Cathedral Systems is named as a partner for the exercise, with AI tools used to probe and strengthen OpenAI's defenses. The excerpt does not specify a timeline, which systems are in scope, or what a previous sprint found.",
+   "item_ids": [
+    "openai:https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Preparing our next security sprint to harden OpenAI",
+     "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+     "published": "2026-11-02T18:00:00+00:00",
+     "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T18:00:00+00:00"
+  },
+  {
+   "title": "AI News roundup covers weight-editing research, DeepSeek agent, new benchmark",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "summary": "Latent Space's AI News roundup covers research on editing LLM weights directly (\"Weight Space Programming\"), a DeepSeek super-agent prototype, and a new benchmark called GDPx.",
+   "more": "The featured research shows weights can be edited directly, for example to reduce reasoning loops in Qwen models, removing the need for an autoresearch loop in recursive self-improvement work. The roundup also covers a DeepSeek prototype described as a \"super-agent.\" A new benchmark, GDPx, is mentioned among the items covered. The excerpt does not give further detail on any of the three items individually.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_51573bcd-fb09-403d-955a-04daf318cf5f"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_51573bcd-fb09-403d-955a-04daf318cf5f",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+     "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+     "published": "2026-11-03T05:35:00+00:00",
+     "excerpt": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T05:35:00+00:00"
+  },
+  {
+   "title": "Researchers unveil Wave Forcing for real-time streaming video generation",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "summary": "A new paper proposes Wave Forcing, a method that co-designs generation, training, and execution to stream long videos in real time without the quality loss or camera drift of prior autoregressive approaches.",
+   "more": "Existing chunk-wise autoregressive video models require two forward passes per step even with one-step denoising, and longer rollouts tend to degrade quality and cause camera drift. Wave Forcing addresses this by co-designing generation, training, and execution together, aiming for continuous video output with consistent appearance and natural motion. The paper targets real-time, long-form video generation rather than short clips. The excerpt does not give details on model size, benchmarks, or release plans.",
+   "item_ids": [
+    "hf-papers:2611.00859"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-papers:2611.00859",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
+     "url": "https://huggingface.co/papers/2611.00859",
+     "published": "2026-11-03T00:00:00+00:00",
+     "excerpt": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF), which co-designs generation, training, and execution for continuous video output wi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:00:00+00:00"
+  },
+  {
+   "title": "Paper maps convergence of agentic video generation and world modeling",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "summary": "A new paper examines how video generation is shifting toward agentic systems that plan, use tools, and incorporate feedback, and how video world models can serve as interactive environments for such agents.",
+   "more": "The paper frames the convergence through an \"agent harness\": an executable runtime that builds context, exposes tools, maintains state, routes feedback, and manages budgets around video models. It covers three threads: agentic video generation, agentic world modeling, and recursive self-improvement. Video world models are described as providing action-conditioned observations and predicted futures that act as interactive environments for agents. The excerpt does not specify concrete benchmarks, model names, or results.",
+   "item_ids": [
+    "hf-papers:2610.40191"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-papers:2610.40191",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+     "url": "https://huggingface.co/papers/2610.40191",
+     "published": "2026-11-03T00:00:00+00:00",
+     "excerpt": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context, exposes tools, maintains state, routes feedback, and manages budgets around video mod"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:00:00+00:00"
+  },
+  {
+   "title": "Terence Tao writes on 'egoless mathematics' in the AI era",
+   "tags": [
+    "research"
+   ],
+   "summary": "Mathematician Terence Tao published an essay on \"egoless mathematics in the AI era,\" which drew 144 points and 98 comments on Hacker News.",
+   "more": "The essay appears on Tao's own blog and addresses how mathematical practice and attribution of ideas may change as AI tools become more involved in research. The excerpt does not include the specific arguments or examples Tao raises. It generated notable discussion on Hacker News, with 98 comments at time of writing.",
+   "item_ids": [
+    "hn:50341736"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50341736",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Egoless Mathematics in the AI Era",
+     "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+     "published": "2026-11-02T18:54:44+00:00",
+     "excerpt": "144 points, 98 comments. Discussion: https://news.ycombinator.com/item?id=50341736"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T18:54:44+00:00"
+  },
+  {
+   "title": "Study traces how fine-tuning data quietly erodes LLM safety",
+   "tags": [
+    "research",
+    "policy"
+   ],
+   "summary": "Researchers introduce SimpleLoRIF, a method that flags fine-tuning examples whose gradients align with unsafe behavior, even when the training data looks harmless and evades standard content filters.",
+   "more": "The paper shows that fine-tuning large language models on instruction data can erode safety without any individual example appearing harmful, letting the degradation slip past standard content filters. SimpleLoRIF is a scalable gradient-embedding method that traces safety loss back to specific training examples by checking whether their gradients align with unsafe behavior. It simplifies an existing low-rank attribution technique and restricts backpropagation to the final few transformer layers to make this tractable. The excerpt does not give quantitative results or say which models were tested.",
+   "item_ids": [
+    "hf-papers:2610.37481"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-papers:2610.37481",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+     "url": "https://huggingface.co/papers/2610.37481",
+     "published": "2026-11-02T00:00:00+00:00",
+     "excerpt": "Fine-tuning Large Language Models (LLMs) on instruction data can quietly erode their safety, even when no training example looks harmful. Because this safety-degrading data looks benign, standard content filters struggle to catch it. We tackle this problem by developing SimpleLoRIF, a scalable gradient embedding method that identifies fine-tuning examples whose gradients align with unsafe behavior. By simplifying a low-rank attribution method and restricting backpropagation to the final four tra"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T00:00:00+00:00"
+  },
+  {
+   "title": "Y Combinator's Garry Tan says he spends up to $200K a year on AI tokens",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "summary": "Y Combinator's Garry Tan said on a podcast that his heavy use of AI agents, which he joked causes him \"cyber psychosis,\" costs him up to $200,000 a year in tokens.",
+   "more": "Tan made the comments on Walter Isaacson's podcast, The Builders, describing how extensively he relies on AI agents in his work and personal routine. He joked about losing sleep over his enthusiasm for working with agents. The figure reflects his personal spending rather than YC's institutional AI budget. No further detail on which tools or models he uses was given in the excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184485"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184485",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+     "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+     "published": "2026-11-03T00:35:52+00:00",
+     "excerpt": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:35:52+00:00"
+  },
+  {
+   "title": "Legora CTO Jacob Lauritzen discusses building AI agents for lawyers",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "summary": "Latent Space published a blog post and podcast episode with Legora CTO Jacob Lauritzen on building AI agents for law firms without being able to see client data or agent traces.",
+   "more": "Legora is described as one of the fastest-growing legal AI companies, building agents for lawyers. Lauritzen discusses evaluating agents without access to traces, since the underlying data belongs to law firms' clients rather than Legora itself. The conversation also touches on million-cell tabular review tasks and early cracks appearing in the billable-hour business model as AI agents take on legal work. The excerpt does not detail Legora's specific technical approach to evaluation without trace visibility.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_b1e4eead-3949-4839-9db7-833e48cc345b",
+    "latent-space:urn:latent-space:post:pod_ep_01a19df0-34a3-7307-96fc-48928908772b"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_b1e4eead-3949-4839-9db7-833e48cc345b",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+     "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+     "published": "2026-11-02T23:01:02+00:00",
+     "excerpt": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model"
+    },
+    {
+     "id": "latent-space:urn:latent-space:post:pod_ep_01a19df0-34a3-7307-96fc-48928908772b",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+     "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+     "published": "2026-11-02T22:54:03+00:00",
+     "excerpt": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies..."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T23:01:02+00:00"
+  },
+  {
+   "title": "Launch HN: Momentic debuts AI agents that test apps by using them",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "summary": "YC-backed startup Momentic launched on Hacker News with AI agents that catch software bugs by actually using the app being tested, drawing 138 points and 92 comments.",
+   "more": "Momentic is part of YC's W24 batch. Its pitch is that AI agents interact with an application the way a user would, rather than relying solely on scripted test cases, to catch bugs. The Hacker News launch thread drew 92 comments at time of writing. The excerpt does not detail which platforms or app types Momentic currently supports.",
+   "item_ids": [
+    "hn:50339913"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50339913",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+     "url": "https://momentic.ai/",
+     "published": "2026-11-02T17:05:25+00:00",
+     "excerpt": "138 points, 92 comments. Discussion: https://news.ycombinator.com/item?id=50339913"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T17:05:25+00:00"
+  },
+  {
+   "title": "Piece examines how to improve insight quality in agentic analytics",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "summary": "MIT Technology Review looked at efforts to raise the quality of insights produced by agentic AI systems in enterprise analytics, where automation has outpaced insight reliability.",
+   "more": "The piece frames generative AI as having already broadened access to enterprise analytics for non-specialist users. It argues agentic AI is pushing further by automating entire analytics workflows and taking actions based on the insights agents generate. The core problem identified is that the quality of those agent-generated insights has not kept pace with the automation. The excerpt does not name specific vendors, products, or proposed fixes.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1147660"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1147660",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "Raising the quality of insights in agentic analytics",
+     "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+     "published": "2026-11-02T17:00:00+00:00",
+     "excerpt": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T17:00:00+00:00"
+  },
+  {
+   "title": "Simon Willison releases llm 0.37 CLI tool with new OpenAI models",
+   "tags": [
+    "tools",
+    "open-source",
+    "models"
+   ],
+   "summary": "Simon Willison released version 0.37 of his open-source LLM command-line tool, adding support for new OpenAI models gpt-6.1-sol and gpt-6.1-terra and a command to add custom OpenAI-compatible endpoints.",
+   "more": "The release accumulates around two months of features and fixes. It adds the gpt-6.1-sol and gpt-6.1-terra models, plus a new `llm openai endpoint add` command that makes it easier to configure additional models using OpenAI-compatible endpoints. The tool's default model, for users who have not set their own, switched from gpt-5.6-luna to gpt-6-luna, which Willison notes is half the price of the previous default. The excerpt also mentions changes to the tool's embeddings support, though without further detail.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/2/llm/"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/2/llm/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "llm 0.37",
+     "url": "https://simonwillison.net/2026/Nov/2/llm/",
+     "published": "2026-11-02T23:49:30+00:00",
+     "excerpt": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. I switched the default model (if you have not set your own default) to gpt-6-luna - half the price of the previous default, gpt-5.6-luna . LLM's support for embeddi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T23:49:30+00:00"
+  },
+  {
+   "title": "OpenAI details how it scales Git internally",
+   "tags": [
+    "tools",
+    "industry"
+   ],
+   "summary": "OpenAI published a technical post on how it scales Git for its internal development, drawing significant Hacker News discussion.",
+   "more": "The post reached the Hacker News front page with 159 points and 71 comments at time of writing. It covers OpenAI's approach to operating Git at the scale its engineering organization requires. The excerpt does not detail the specific scaling techniques, tooling, or infrastructure OpenAI describes in the post.",
+   "item_ids": [
+    "hn:50345924"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50345924",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Scaling Git at OpenAI",
+     "url": "https://openai.com/index/scaling-git-at-openai/",
+     "published": "2026-11-02T23:47:56+00:00",
+     "excerpt": "159 points, 71 comments. Discussion: https://news.ycombinator.com/item?id=50345924"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T23:47:56+00:00"
+  },
+  {
+   "title": "Google brings AI storytelling app Dreambeans to India",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "summary": "Google expanded its AI experiment Dreambeans to India, adding support for 13 Indian languages to generate AI-created personal stories.",
+   "more": "Dreambeans is described as Google's latest AI experiment, focused on generating personal stories. The India launch adds 13 Indian languages, extending the product's reach beyond its original market. No details are given on pricing, rollout timeline within India, or user numbers.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184353"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184353",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+     "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+     "published": "2026-11-03T03:30:00+00:00",
+     "excerpt": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T03:30:00+00:00"
+  },
+  {
+   "title": "Apple's $1,000 home robot reportedly coming in 2027",
+   "tags": [
+    "robotics",
+    "products"
+   ],
+   "summary": "Apple is reportedly developing a roaming home robot, backed by CEO John Ternus, that could cost around $1,000 and handle tasks like FaceTime calls and switching on lights, with a 2027 target.",
+   "more": "The report describes the robot as capable of basic home tasks such as placing FaceTime calls, turning on lights, and reacting to pets. John Ternus, an Apple executive, is named as backing the project internally. The roughly $1,000 price point and 2027 timeframe suggest a consumer-facing, lower-cost device rather than an enterprise robot. The excerpt does not specify the robot's form factor, sensors, or how far along development is.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+     "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+     "published": "2026-11-02T18:32:21+00:00",
+     "excerpt": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-02T18:32:21+00:00"
+  },
+  {
+   "title": "OSINT video shows background plane noise can reveal a recording's exact location",
+   "tags": [
+    "other"
+   ],
+   "summary": "Simon Willison highlighted an OSINT video by Colsto showing how faint background aircraft noise in a recording can be used to pinpoint its exact location via Doppler and ADS-B data.",
+   "more": "The technique uses near-imperceptible background plane noise captured in a video's soundtrack. By measuring the Doppler curve of that noise and cross-referencing it against ADS-B flight-tracking data, the method can determine a plane's speed, distance, and timing gaps precisely enough to locate where the video was recorded. Willison shared the video via Lobste.rs, tagging it under privacy and YouTube.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+     "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+     "published": "2026-11-03T05:32:25+00:00",
+     "excerpt": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different flights. Via Lobste.rs Tags: privacy , youtube"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T05:32:25+00:00"
+  },
+  {
+   "title": "Simon Willison shares highlights from his October sponsors-only newsletter",
+   "tags": [
+    "other",
+    "tools"
+   ],
+   "summary": "Simon Willison sent out his October sponsors-only newsletter, covering vibe game development, a surge in software vulnerabilities, and LLM providers bundling API credits into higher-tier subscriptions.",
+   "more": "Topics previewed include what Willison calls the October inflection point for vibe game development and a rise in vulnerabilities he terms the vulnerability apocalypse getting hot. He also notes that LLM providers are now including API credits with subscriptions priced at $100 or more per month. The newsletter also covers what tools Willison is currently using and his own recent software releases. Access requires a $10/month sponsorship, with each issue made free roughly a month later.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/3/october-newsletter/"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/3/october-newsletter/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "October sponsors-only newsletter",
+     "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+     "published": "2026-11-03T05:28:59+00:00",
+     "excerpt": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for $100+/month subscriptions What I'm using right now My software releases My September newsletter can now be seen here , as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newslet"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T05:28:59+00:00"
+  }
+ ]
+}
