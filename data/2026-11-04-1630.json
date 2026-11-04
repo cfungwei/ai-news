@@ -1,0 +1,239 @@
+{
+ "date": "2026-11-04",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Paper proposes 'Route Anything' for routing across AI models and policies",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper studies how AI systems can dynamically select and coordinate specialized models, tools, and policies rather than relying on one model for every task. It frames this routing problem as key to building general-purpose AI systems.",
+   "more": "The paper, called 'Route Anything,' argues that a promising path to general-purpose AI is orchestrating a heterogeneous mix of specialized models, tools, and policies rather than relying on one model to do everything. It frames the central challenge as how a system can dynamically select and coordinate whichever of these candidates is most capable for a given task, across different domains and modalities. The study treats this as a unified routing problem spanning both model and policy selection within one AI system.",
+   "item_ids": [
+    "hf-papers:2611.05275"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.05275",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+     "url": "https://huggingface.co/papers/2611.05275",
+     "published": "2026-11-04T00:00:00+00:00",
+     "excerpt": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental question: how can an AI system dynamically select and coordinate the most capable candi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T00:00:00+00:00"
+  },
+  {
+   "title": "Study introduces Pandora, an LLM simulator for less self-aware therapy clients",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers built Pandora, a framework for simulating psychotherapy clients whose self-understanding is incomplete, addressing a flaw in current LLM-based client simulators that over-explain distress clearly. It aims to better reflect how real clients express problems before they can articulate them.",
+   "more": "Current large language model-based client simulators tend to rely on clinically organized case descriptions, which can push the simulated client to explain their difficulties more clearly than they would actually understand them in the moment. The researchers note that real psychotherapy clients often feel distress before they can coherently describe it, and that how they express it shifts with emotion, perceived safety, and trust. Pandora is proposed as a framework that models how psychological experience becomes expressed under these more realistic, 'self-opaque' conditions.",
+   "item_ids": [
+    "hf-papers:2611.00617"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.00617",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Words Caught in the Heart: Simulating Person-Specific Expression for Self-Opaque Clients in Psychotherapy",
+     "url": "https://huggingface.co/papers/2611.00617",
+     "published": "2026-11-04T00:00:00+00:00",
+     "excerpt": "Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants. We propose Pandora, a psychotherapy client simulation framework that models how psychological experience becomes situate"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T00:00:00+00:00"
+  },
+  {
+   "title": "DreamX repurposes video diffusion models to learn universal robot actions",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces DreamX, which repurposes a pretrained video diffusion model to learn action representations from video that transfer across different robot embodiments and appearances. It aims to fix existing latent action models that entangle actions with irrelevant visual details.",
+   "more": "Learning a universal action representation from video requires capturing dynamics that stay consistent across different executions of the same action while ignoring changes in embodiment and appearance. The paper argues existing latent action models fall short because they infer actions from visual transitions in a way that entangles the true action with irrelevant visual variation, limiting how well they transfer to new embodiments. DreamX instead repurposes a pretrained video diffusion model as what the authors call a universal latent action learner.",
+   "item_ids": [
+    "hf-papers:2611.05377"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.05377",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+     "url": "https://huggingface.co/papers/2611.05377",
+     "published": "2026-11-04T00:00:00+00:00",
+     "excerpt": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion model as a universal late"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T00:00:00+00:00"
+  },
+  {
+   "title": "Axion 1.0 debuts as a fully open agent foundation model with a simplified training recipe",
+   "tags": [
+    "models",
+    "agents",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Axion 1.0 is a new fully open agent foundation model that reaches strong, broad agentic capability using just three training stages: two supervised fine-tuning stages and reinforcement learning. It skips mid-training, DPO, and on-policy distillation used by comparable models.",
+   "more": "Axion 1.0 is presented as a fully open agent foundation model, with its creators emphasizing a deliberately simple training recipe rather than a more elaborate pipeline. The model is trained in just three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, skipping dedicated mid-training, direct preference optimization, and on-policy distillation. The first fine-tuning stage is designed to build strong, self-contained reasoning through model-aware data construction. The paper positions this as a simplified alternative to the more complex recipes typically used to train agentic models.",
+   "item_ids": [
+    "hf-papers:2611.03233"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.03233",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
+     "url": "https://huggingface.co/papers/2611.03233",
+     "published": "2026-11-04T00:00:00+00:00",
+     "excerpt": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong self-contained reasoning through model-aware data construction, where we synthesiz"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T00:00:00+00:00"
+  },
+  {
+   "title": "Google to tie school search access to AI features starting in 2027",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Starting in 2027, Google will let schools turn off AI features in its education products, but schools that disable AI entirely will also lose access to Google Search. Given Google's dominance in US schools, that leaves little real choice.",
+   "more": "Google plans to turn off AI features by default in its school products starting in 2027, letting individual schools decide what to enable. However, schools that choose to block AI entirely on their devices will also lose access to Google Search, since the two systems are now described as too deeply intertwined to separate. Given Google's dominant position in the US school market, the article argues this 'choice' doesn't leave schools with much real room to maneuver.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42374"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42374",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Schools that turn off Google's AI will lose search too starting in 2027",
+     "url": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/",
+     "published": "2026-11-04T10:06:23+00:00",
+     "excerpt": "Starting in 2027, Google plans to turn off AI features in its school products by default, letting schools decide what to enable. The catch: schools that block AI entirely on their devices will also lose access to Google Search, since the two systems are now too deeply intertwined to separate. Given Google's grip on the US school market, that \"choice\" doesn't leave schools with much room to maneuver. The article Schools that turn off Google's AI will lose search too starting in 2027 appeared firs"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T10:06:23+00:00"
+  },
+  {
+   "title": "Revolut drops Claude Code for a self-hosted Chinese model, citing 90% cost cut",
+   "tags": [
+    "industry",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Revolut reportedly sidelined Claude Code in favor of a self-hosted Chinese AI model, saying it cuts costs by 90%. The move was shared in an r/LocalLLaMA discussion about companies adopting self-hosted alternatives.",
+   "more": "A post on r/LocalLLaMA reports that Revolut has sidelined Claude Code in favor of a self-hosted Chinese model, citing a 90 percent reduction in costs. The original poster frames it as an example of well-resourced companies increasingly moving to self-hosted models instead of paying for hosted coding assistants.",
+   "item_ids": [
+    "localllama:t3_1xnhq66"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xnhq66",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Revolut sidelines Claude Code for a self-hosted Chinese model, says it pays 90% less",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhq66/revolut_sidelines_claude_code_for_a_selfhosted/",
+     "published": "2026-11-04T07:07:35+00:00",
+     "excerpt": "Great for them, I think more and more companies that have the resources will start doing this submitted by /u/mawcopolow [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T07:07:35+00:00"
+  },
+  {
+   "title": "Exit polls show AI ranked last among voter priorities in 2026 US midterms",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "NBC exit polls from the 2026 US midterms found AI and data centers ranked last among voter priorities, cited as important by only 56% of respondents. Corruption and cost of living topped the list at 90% and 89%.",
+   "more": "According to NBC exit polls from the 2026 US midterm elections, only 56 percent of respondents named AI and data centers as an important factor in their vote, placing it last among the issues polled. Corruption and the cost of living dominated instead, cited as important by 90 percent and 89 percent of respondents respectively. The result comes despite growing public attention to AI as an issue.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42380"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42380",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms",
+     "url": "https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms/",
+     "published": "2026-11-04T10:45:54+00:00",
+     "excerpt": "In the 2026 U.S. midterm elections, AI ranked last among campaign issues: only 56 percent of respondents cited AI and data centers as an important factor. According to NBC exit polls, corruption (90 percent) and the cost of living (89 percent) clearly dominated, despite growing public attention to the issue. The article Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T10:45:54+00:00"
+  },
+  {
+   "title": "Nvidia RTX Spark's encrypted firmware cuts Linux inference speed to 35%",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News discussion highlights that Nvidia's RTX Spark laptop uses encrypted firmware that slows AI inference speed to 35% on Linux compared to other platforms. The post drew 106 points and 57 comments.",
+   "more": "The discussion centers on Nvidia's RTX Spark laptop, where encrypted firmware is reported to reduce inference speed to just 35 percent of its potential when running on Linux. The Hacker News submission drew significant engagement, with 106 points and 57 comments at time of fetch.",
+   "item_ids": [
+    "hn:50362905"
+   ],
+   "items": [
+    {
+     "id": "hn:50362905",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+     "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+     "published": "2026-11-04T08:46:29+00:00",
+     "excerpt": "106 points, 57 comments. Discussion: https://news.ycombinator.com/item?id=50362905"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T08:46:29+00:00"
+  },
+  {
+   "title": "RoboColosseum benchmarks 5 robot policies and 3 AI agents across real robots",
+   "tags": [
+    "robotics",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "RoboColosseum is a new distributed evaluation framework that tests general-purpose robot policies across a network of real, locally operated robots using standardized protocols. Its initial study evaluates five vision-language-action policies and three frontier AI agents across four robot embodiments.",
+   "more": "The paper notes that general-purpose robot policies need to work across different robots, tasks, and environments, but the real-world variation that makes physical trials meaningful also makes them hard to reproduce. RoboColosseum addresses this with a distributed evaluation framework combining unified policy serving and standardized testing protocols across a network of locally operated robots in diverse settings. Its initial study evaluates five vision-language-action (VLA) policies alongside three frontier AI agents across four different robot embodiments.",
+   "item_ids": [
+    "hf-papers:2611.02497"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.02497",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild",
+     "url": "https://huggingface.co/papers/2611.02497",
+     "published": "2026-11-04T00:00:00+00:00",
+     "excerpt": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluates five vision-language-action (VLA) policies and three frontier AI agents across four embodiments (S"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T00:00:00+00:00"
+  }
+ ]
+}
