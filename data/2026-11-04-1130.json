@@ -1,0 +1,925 @@
+{
+ "date": "2026-11-04",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Kling researchers map how multimodal understanding shapes video generation",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "summary": "A technical report from the Kling video generation team argues that generation quality reflects multimodal understanding across the full data-conditioning-alignment-evaluation pipeline, and introduces Kling-MLLM, a shared understanding model trained across its video generation stack.",
+   "more": "The report frames the bottleneck in video generation as shifting from rendering fidelity to semantic control. It examines the data-conditioning-alignment-evaluation chain module by module to explain where multimodal understanding enters the pipeline. The authors introduce Kling-MLLM, a shared multimodal model built across successive generations of Kling. The excerpt does not specify benchmark results or release plans for Kling-MLLM.",
+   "item_ids": [
+    "hf-papers:2611.04916"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-papers:2611.04916",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
+     "url": "https://huggingface.co/papers/2611.04916",
+     "published": "2026-11-04T00:00:00+00:00",
+     "excerpt": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire data--conditioning--alignment--evaluation chain, and we examine this chain module by module. Kling-MLLM, a shar"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T00:00:00+00:00"
+  },
+  {
+   "title": "MoviEdit targets coherent long-form multi-shot video editing",
+   "tags": [
+    "research"
+   ],
+   "summary": "MoviEdit is an end-to-end framework for editing long, multi-shot videos while keeping edits coherent across scene, viewpoint and subject changes, addressing data, modeling and evaluation together.",
+   "more": "Long-form multi-shot editing is harder than single-shot editing because it must stay coherent through abrupt scene, viewpoint and subject changes while handling much longer visual context. MoviEdit is pitched as an end-to-end framework that jointly tackles the data, modeling and evaluation challenges this creates. To get cross-shot training data at scale, the authors built an automatic data-generation pipeline. The excerpt is cut off before describing the model architecture or results.",
+   "item_ids": [
+    "hf-papers:2611.02737"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-papers:2611.02737",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "MoviEdit: Long-form Multi-Shot Video Editing Made Easy",
+     "url": "https://huggingface.co/papers/2611.02737",
+     "published": "2026-11-04T00:00:00+00:00",
+     "excerpt": "Long-form multi-shot video editing requires an intended edit to remain coherent across abrupt changes in scene, viewpoint, and subject appearance, while processing substantially longer visual context than conventional single-shot editors. We introduce MoviEdit, an end-to-end framework for scalable long-form multi-shot video editing that jointly addresses the challenges of data, modeling, and evaluation. To provide cross-shot supervision data at scale, we develop automatic data-generation pipelin"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T00:00:00+00:00"
+  },
+  {
+   "title": "'Little Book of Generative AI Foundations' math primer trends on Hacker News",
+   "tags": [
+    "research"
+   ],
+   "summary": "An arXiv primer titled 'The Little Book of Generative AI Foundations' offering an intuitive mathematical introduction to generative AI drew 301 points and 49 comments on Hacker News.",
+   "more": "The paper is posted on arXiv and framed as an intuitive, mathematically grounded primer on generative AI foundations. It drew 301 points and 49 comments on Hacker News. The excerpt does not describe the paper's specific contents, authors, or scope beyond its title.",
+   "item_ids": [
+    "hn:50358582"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50358582",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+     "url": "https://arxiv.org/abs/2605.29713",
+     "published": "2026-11-03T21:40:53+00:00",
+     "excerpt": "301 points, 49 comments. Discussion: https://news.ycombinator.com/item?id=50358582"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T21:40:53+00:00"
+  },
+  {
+   "title": "Stanford study finds LLM research claims expire in under 16 months on average",
+   "tags": [
+    "research"
+   ],
+   "summary": "A Stanford study tested 50 widely cited LLM claims against 20 current models and found 44% already 'expired' and another 34% weakened, with an average claim lifespan of 15.7 months.",
+   "more": "Researchers tested 50 widely cited claims about large language models against 20 current models. They found 44 percent of the findings were already 'expired' and another 34 percent had weakened significantly. The average lifespan of a claim was measured at 15.7 months. The study found that claims about what models can't do tend to expire fastest.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42359"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42359",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Rapid LLM development is outrunning the research meant to explain it, study finds",
+     "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/",
+     "published": "2026-11-03T19:41:43+00:00",
+     "excerpt": "Stanford researchers tested 50 widely cited claims about LLMs against 20 current models. 44 percent of the findings are already \"expired,\" and another 34 percent have weakened significantly. The average lifespan is just 15.7 months. Claims about what models can't do expire fastest. The article Rapid LLM development is outrunning the research meant to explain it, study finds appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T19:41:43+00:00"
+  },
+  {
+   "title": "Redditor edits 8 neurons of Gemma 4 12B using MIT's weight-space method",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "summary": "Following MIT CSAIL's demonstration of GPT-6 Astra editing a small model's weights by hand, a r/LocalLLaMA user applied the same 'weight-space programming' technique to change how Gemma 4 12B translates one Italian tense.",
+   "more": "The post references MIT CSAIL's prior demonstration in which GPT-6 Astra edited a few neurons of Qwen3.5-0.8B by hand, stopping it from looping on math problems and raising its scores without any training. The author applied the same approach to Gemma 4 12B, targeting a specific translation habit: for sentences like 'He had been hiding in the attic for months,' the model tends to use a particular Italian tense construction the author doesn't like. They rewrote 8 neurons of the model to change this behavior. The excerpt is cut off mid-example before describing the result in full.",
+   "item_ids": [
+    "localllama:t3_1xn1gs9"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "localllama:t3_1xn1gs9",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "I tried MIT's \"weight-space programming\" on my own use case: Claude rewrote 8 neurons of Gemma 4 12B to change how it translates one Italian tense",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn1gs9/i_tried_mits_weightspace_programming_on_my_own/",
+     "published": "2026-11-03T18:48:57+00:00",
+     "excerpt": "Yesterday MIT CSAIL showed GPT-6 Astra editing the weights of a small model by hand. It changed a few neurons of Qwen3.5-0.8B, the model stopped looping on math problems, and its scores jumped. No training at all. I wanted to try the same thing on something closer to what I actually do with local models, which is translating into Italian. Gemma 4 has a habit I don't love. For sentences like He had been hiding in the attic for months when the soldiers found him. it writes «Si era nascosto in soff"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T18:48:57+00:00"
+  },
+  {
+   "title": "StateBench tests how well language models track state changes in long documents",
+   "tags": [
+    "research"
+   ],
+   "summary": "StateBench, posted under the AllenAI organization on Hugging Face, is a new benchmark for testing how well language models track state changes across long documents.",
+   "more": "The post introduces StateBench on the AllenAI organization's blog page on Hugging Face. Beyond the title, no excerpt text describing StateBench's methodology, results, or supported models was available.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/allenai/statebench"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/allenai/statebench",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "StateBench: Testing how language models track state changes over long documents",
+     "url": "https://huggingface.co/blog/allenai/statebench",
+     "published": "2026-11-03T17:15:21+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T17:15:21+00:00"
+  },
+  {
+   "title": "IdeaTaste benchmark tests whether LLMs share researchers' sense of good ideas",
+   "tags": [
+    "research"
+   ],
+   "summary": "IdeaTaste is a new benchmark that scores how closely an LLM's research proposals, generated from a 2025 literature snapshot, predict what the same research communities actually published in 2026. The study evaluates six language models across four research areas.",
+   "more": "The benchmark targets 'research taste' -- judging what to read and which problems or methods to pursue -- rather than a model's ability to execute research. It freezes a literature snapshot at 2025 and compares proposals an LLM would write from it against the work those communities actually published in 2026. The experiments span six contemporary language models and four research areas. The excerpt does not list which models or areas were tested or report the resulting scores.",
+   "item_ids": [
+    "hf-papers:2611.03424"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-papers:2611.03424",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
+     "url": "https://huggingface.co/papers/2611.03424",
+     "published": "2026-11-03T00:00:00+00:00",
+     "excerpt": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes the work of AI scientists, yet it remains far less understood than their ability to execute research. We introduce IdeaTaste, a benchmark that scores an LLM by how closely the research proposals it writes from a literature snapshot frozen at 2025 match the work the same communities published in 2026. Our experiments span six contemporary language models and four research areas fr"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:00:00+00:00"
+  },
+  {
+   "title": "PhotoGuider adds explainable scoring for cropping and 360-degree photo framing",
+   "tags": [
+    "research"
+   ],
+   "summary": "PhotoGuider is a new method that frames and crops 360-degree photos by first finding the best viewing direction, then applying explainable, composition-aware scorers built on shared vision features.",
+   "more": "Traditional cropping tools assume the best composition is already in frame and only decide where to cut, but a full 360-degree scene requires first discovering which direction to look. PhotoGuider addresses both problems with compact learned scorers built over one shared set of composition-aware features. Those features are extracted using a mix of foundation and task-specific vision models. The excerpt does not specify evaluation results or how the method compares to prior cropping tools.",
+   "item_ids": [
+    "hf-papers:2611.02897"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-papers:2611.02897",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "PhotoGuider: Composition-Aware Cropping and 360^{circ} View Framing with Explainable Photographic Assessments",
+     "url": "https://huggingface.co/papers/2611.02897",
+     "published": "2026-11-03T00:00:00+00:00",
+     "excerpt": "Traditional image cropping assumes the photograph already contains the composition worth keeping, and asks only where to crop. A full 360^{circ} scene offers no such guarantee: the viewing direction in a scene has to be discovered before anything can be framed. We present PhotoGuider, a measure-then-frame method that answers both questions with compact learned scorers over one shared set of composition-aware features. The designed features are extracted using foundation and task-specific vision "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:00:00+00:00"
+  },
+  {
+   "title": "New method trains students on teacher token ranking, not confidence, in OPD",
+   "tags": [
+    "research"
+   ],
+   "summary": "A technique called Order-Only On-Policy Distillation trains a student only on the ranking of a teacher's token preferences, not its confidence, aiming to remove on-policy distillation's sensitivity to teacher temperature.",
+   "more": "On-policy distillation trains a student model on its own generations by matching a teacher's token probabilities, but those probabilities mix two signals: which tokens the teacher prefers, and how confident it is. The confidence signal reflects the teacher's own capacity and calibration, which a smaller student may not be able to reproduce, and it makes on-policy distillation sensitive to the teacher's temperature setting. The authors propose training on only the ordering of teacher preferences rather than the full probabilities. The excerpt is cut off before describing results or comparisons to standard on-policy distillation.",
+   "item_ids": [
+    "hf-papers:2611.02112"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-papers:2611.02112",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Order-Only On-Policy Distillation",
+     "url": "https://huggingface.co/papers/2611.02112",
+     "published": "2026-11-03T00:00:00+00:00",
+     "excerpt": "On-policy distillation (OPD) trains a student on its own generations by matching the teacher's token probabilities. These probabilities entangle two kinds of information: which tokens the teacher prefers, and how confident it is. The latter reflects the teacher's own capacity and calibration, which a smaller student may be unable to reproduce. Because the teacher temperature changes these values without changing the ordering, OPD is also sensitive to the temperature choice. We ask whether the te"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T00:00:00+00:00"
+  },
+  {
+   "title": "The Verge: stop asking when the AI bubble will pop",
+   "tags": [
+    "industry"
+   ],
+   "summary": "A Verge column pushes back on repeated questions about when the AI investment bubble will burst, noting that even the author's own staff keep asking despite no one having a reliable answer.",
+   "more": "The piece is framed as a response to recurring questions, including from the author's own colleagues, about the timing of an AI bubble bursting. The author argues that reliably predicting the timing would itself be a lucrative trade, implying no one actually knows. The excerpt does not include specific data, forecasts, or named analysts on either side of the bubble debate.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1025826"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1025826",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Please stop asking me when the AI bubble will pop",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+     "published": "2026-11-03T23:37:45+00:00",
+     "excerpt": "People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I would make a life-changing bet on the market, levered up as far as I could, and then, after I made my money, […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T23:37:45+00:00"
+  },
+  {
+   "title": "Ballistic Ventures seeks $490M for new cybersecurity funds amid AI boom",
+   "tags": [
+    "industry"
+   ],
+   "summary": "Ted Schlein's Ballistic Ventures is raising $490 million across two new funds -- a $360 million flagship and a $130 million separate vehicle -- as AI-driven demand for cybersecurity investment grows.",
+   "more": "The firm, led by Ted Schlein, is seeking $360 million for a new flagship fund and an additional $130 million for a separate investment vehicle, totaling $490 million. TechCrunch frames the raise against a backdrop of an AI-driven cybersecurity investment boom. The excerpt does not name specific limited partners or a target close date.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184842"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184842",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+     "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+     "published": "2026-11-03T21:43:08+00:00",
+     "excerpt": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T21:43:08+00:00"
+  },
+  {
+   "title": "US tech giants' hidden AI debt swells 90% to $3.2 trillion in six months",
+   "tags": [
+    "industry"
+   ],
+   "summary": "A Nikkei Asia report found hidden AI-related debt held by major US tech companies grew 90% to $3.2 trillion over six months, drawing 324 points and 140 comments on Hacker News.",
+   "more": "The figure comes from a Nikkei Asia report on AI-related financial commitments that the excerpt describes as 'hidden' debt. It grew 90 percent to a total of $3.2 trillion over a six-month period. The Hacker News submission drew 324 points and 140 comments. The excerpt does not name which companies hold the debt or define what counts as 'hidden' AI debt.",
+   "item_ids": [
+    "hn:50358422"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50358422",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+     "published": "2026-11-03T21:26:44+00:00",
+     "excerpt": "324 points, 140 comments. Discussion: https://news.ycombinator.com/item?id=50358422"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T21:26:44+00:00"
+  },
+  {
+   "title": "Palantir's US commercial revenue overtakes government revenue for first time",
+   "tags": [
+    "industry"
+   ],
+   "summary": "Palantir's quarterly results showed US commercial revenue surpass US government revenue for the first time ever, even as TechCrunch flags a less positive signal buried in the numbers.",
+   "more": "TechCrunch highlights the milestone of commercial revenue overtaking government revenue in the US as a notable shift for a company historically known for government contracts. The headline frames this as hiding a 'foreboding signal' elsewhere in the results. The excerpt does not specify what that signal is or give the actual revenue figures.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184699"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184699",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+     "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+     "published": "2026-11-03T21:05:55+00:00",
+     "excerpt": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T21:05:55+00:00"
+  },
+  {
+   "title": "Revolut cuts AI coding costs 10x by dropping Claude for self-hosted models",
+   "tags": [
+    "industry",
+    "open-source"
+   ],
+   "summary": "British fintech Revolut reportedly cut its AI coding costs by 10x by moving away from Claude to self-hosted models, according to an r/LocalLLaMA submission.",
+   "more": "The claim, submitted to r/LocalLLaMA, is that Revolut reduced AI coding costs tenfold by switching from Claude to self-hosted models. The excerpt does not name which self-hosted models Revolut adopted, provide underlying cost figures, or cite a primary source for the claim.",
+   "item_ids": [
+    "localllama:t3_1xn568h"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "localllama:t3_1xn568h",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn568h/british_fintech_revolut_slashes_ai_coding_costs/",
+     "published": "2026-11-03T21:05:30+00:00",
+     "excerpt": "submitted by /u/notheresnolight [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T21:05:30+00:00"
+  },
+  {
+   "title": "AI inference startup Fal doubles valuation to $16B on surging demand",
+   "tags": [
+    "industry"
+   ],
+   "summary": "Five-year-old AI inference startup Fal has doubled its valuation to $16 billion after raising a $1.3 billion round led by Bessemer, as demand for inference capacity surges.",
+   "more": "The round, led by Bessemer Venture Partners, totals $1.3 billion. TechCrunch notes Fal is five years old and that the raise doubles its prior valuation to $16 billion. The excerpt attributes the raise to surging demand but does not break down customer numbers, revenue, or prior valuation figures.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184774"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184774",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+     "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+     "published": "2026-11-03T19:34:43+00:00",
+     "excerpt": "The five-year-old startup raised a $1.3 billion round led by Bessemer."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T19:34:43+00:00"
+  },
+  {
+   "title": "OpenAI says ChatGPT search volume now equals 20% of Google's",
+   "tags": [
+    "industry"
+   ],
+   "summary": "OpenAI says the volume of search queries run through ChatGPT now equals about 20 percent of Google's search volume, with consumer product lead Adam Fry making the claim at a Monday press event.",
+   "more": "The figure was announced by Adam Fry, OpenAI's consumer product lead for ChatGPT, at a press event on Monday. The Verge frames it as evidence that 'Ask Chat' is replacing 'Google it' for a growing share of search behavior. The excerpt does not specify how OpenAI measured query volume or over what time period the comparison was made.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1025482"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1025482",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "OpenAI says ChatGPT is catching up to Google in search",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+     "published": "2026-11-03T18:30:42+00:00",
+     "excerpt": "In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google. Adam Fry, OpenAI's consumer product lead for ChatGPT, made the announcement at a press event on Monday. He said […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T18:30:42+00:00"
+  },
+  {
+   "title": "Anthropic's compute margins are worsening, not improving, TechCrunch reports",
+   "tags": [
+    "industry"
+   ],
+   "summary": "TechCrunch reports Anthropic's compute cost margins are getting worse even at a moment when they should be improving, pointing to ongoing strain in the economics of running its models.",
+   "more": "The excerpt frames the finding as counterintuitive: margins are worsening at a time industry trends would normally suggest improvement. No specific figures, timeframes, or causes are given beyond that framing in the excerpt provided.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184638"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184638",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic is still grappling with the economics of compute",
+     "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+     "published": "2026-11-03T17:07:01+00:00",
+     "excerpt": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T17:07:01+00:00"
+  },
+  {
+   "title": "Qwen 3.8 27B can interpret model weights locally, Simon Willison reports",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "summary": "Simon Willison reports that Qwen 3.8 27B, run on his own laptop, can interpret raw model weights, a capability both Hacker News and r/LocalLLaMA picked up with strong engagement.",
+   "more": "The post describes running Qwen 3.8 27B locally and having it interpret model weights directly. The Hacker News submission drew 564 points and 172 comments, while r/LocalLLaMA ran a separate thread discussing the same capability. The excerpt does not detail the method Qwen uses to interpret weights or what tasks the interpretation enables.",
+   "item_ids": [
+    "hn:50355251",
+    "localllama:t3_1xmz9ca"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50355251",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+     "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+     "published": "2026-11-03T17:40:00+00:00",
+     "excerpt": "564 points, 172 comments. Discussion: https://news.ycombinator.com/item?id=50355251"
+    },
+    {
+     "id": "localllama:t3_1xmz9ca",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/",
+     "published": "2026-11-03T17:29:42+00:00",
+     "excerpt": "submitted by /u/tarruda [link] [comments]"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-03T17:40:00+00:00"
+  },
+  {
+   "title": "OpenAI says GPT-6 Astra designed a hardware device from scratch in a week",
+   "tags": [
+    "models",
+    "hardware"
+   ],
+   "summary": "OpenAI's hardware team used its GPT-6 Astra model to design a device for the Codex coding agent in under a week, covering the enclosure, circuit board and firmware, though several revisions were needed.",
+   "more": "The device was designed for OpenAI's own Codex coding agent. GPT-6 Astra reportedly handled the full design process, from the physical enclosure to the circuit board and firmware. Several revision rounds were still required before production because the model didn't always account for manufacturing tolerances. The Decoder notes a newer internal OpenAI model scores significantly higher on the company's engineering benchmark, though OpenAI isn't sharing further details on that model.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42368"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42368",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week",
+     "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
+     "published": "2026-11-03T20:15:45+00:00",
+     "excerpt": "OpenAI's hardware team used GPT-6 Astra to design a device for the Codex coding agent in under a week, handling everything from the enclosure to the circuit board to the firmware. Several revision rounds were needed before production because the model didn't always account for manufacturing tolerances. A newer internal model scores significantly higher on OpenAI's engineering benchmark, though the company isn't sharing details. The article OpenAI says GPT-6 Astra designed a hardware device from "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T20:15:45+00:00"
+  },
+  {
+   "title": "Numbat model trends on Hugging Face with over 7,400 downloads",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "summary": "A model called numbat from user burner22 is trending on Hugging Face, with 325 likes and more than 7,400 downloads, released in safetensors format with 8-bit quantization support.",
+   "more": "The model, hosted at burner22/numbat on Hugging Face, has accumulated 325 likes and 7,461 downloads. It is tagged with safetensors, custom_code, 8-bit and modelopt, indicating it ships in a quantizable, code-extended format. No further detail on the model's architecture, training data or intended use was given in the excerpt.",
+   "item_ids": [
+    "hf-trending:burner22/numbat"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hf-trending:burner22/numbat",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: burner22/numbat",
+     "url": "https://huggingface.co/burner22/numbat",
+     "published": "2026-10-23T01:37:02+00:00",
+     "excerpt": "325 likes, 7461 downloads. Tags: safetensors, numbat, custom_code, 8-bit, modelopt, region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-23T01:37:02+00:00"
+  },
+  {
+   "title": "Anthropic builds FlashProve to let anyone verify which model answered",
+   "tags": [
+    "tools",
+    "policy"
+   ],
+   "summary": "Anthropic is developing FlashProve, a system meant to let anyone verify that an AI response genuinely came from the model it claims to be from.",
+   "more": "TechCrunch reports the system, called FlashProve, is intended as a verification layer for AI output provenance. It would let a third party check that a given response really came from the specific model it claims to be from. The excerpt does not explain the underlying mechanism, timeline, or whether it would apply beyond Anthropic's own models.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184891"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184891",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic is working on a system to prove AI models’ identity",
+     "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+     "published": "2026-11-03T22:41:03+00:00",
+     "excerpt": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T22:41:03+00:00"
+  },
+  {
+   "title": "Personal 'How I use AI' write-up for October 2026 draws discussion on HN",
+   "tags": [
+    "tools"
+   ],
+   "summary": "A personal blog post titled 'How I use AI (Oct 2026)' describing one person's current AI tool usage drew 134 points and 113 comments on Hacker News.",
+   "more": "The post is a personal account of how its author is using AI tools as of October 2026. It drew 134 points and 113 comments on Hacker News. The excerpt does not describe which specific tools or workflows the post covers.",
+   "item_ids": [
+    "hn:50355767"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50355767",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "How I use AI (Oct 2026)",
+     "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+     "published": "2026-11-03T18:11:11+00:00",
+     "excerpt": "134 points, 113 comments. Discussion: https://news.ycombinator.com/item?id=50355767"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T18:11:11+00:00"
+  },
+  {
+   "title": "Postman silently auto-installs AI plugins, tries to share all API data",
+   "tags": [
+    "tools",
+    "policy"
+   ],
+   "summary": "A GitHub issue reports that Postman is silently auto-installing AI plugins and attempting to share all API data without clear consent, drawing 1,172 points and 385 comments on Hacker News.",
+   "more": "The report, filed as a GitHub issue against postman-app-support, describes Postman auto-installing AI plugins without apparent user action. It also describes the plugins attempting to share all of a user's API data. The Hacker News submission of the issue drew 1,172 points and 385 comments, among the highest engagement in this batch. The excerpt does not state whether Postman has responded to the issue or whether a fix has shipped.",
+   "item_ids": [
+    "hn:50354960"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "hn:50354960",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+     "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+     "published": "2026-11-03T17:22:37+00:00",
+     "excerpt": "1172 points, 385 comments. Discussion: https://news.ycombinator.com/item?id=50354960"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T17:22:37+00:00"
+  },
+  {
+   "title": "Netflix launches 'AI Discover' tab with mood-based show recommendations",
+   "tags": [
+    "products"
+   ],
+   "summary": "Netflix is rolling out a new 'AI Discover' tab on its TV app that uses AI to recommend shows and movies by theme, starting with options like 'Something Light' and 'Family Movie Night.'",
+   "more": "The tab is described as an experimental, AI-powered feature within Netflix's TV app. It groups recommendations by themes such as 'Something Light,' 'Family Movie Night' and 'Quick Watches.' Picking a theme surfaces content Netflix has matched to that mood. Both outlets describe the first experiment as mood- or theme-based recommendations rather than a general chat assistant.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1025029",
+    "techcrunch-ai:https://techcrunch.com/?p=3184717"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1025029",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+     "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+     "published": "2026-11-03T18:00:00+00:00",
+     "excerpt": "Netflix's TV app is getting a new \"AI Discover\" tab where the company will show experimental, AI-powered features to help you find new shows and movies to watch. The first of these experiments surfaces content based around themes, like \"Something Light,\" \"Family Movie Night,\" or \"Quick Watches.\" When you pick a theme, Netflix will show […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184717",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+     "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+     "published": "2026-11-03T18:42:16+00:00",
+     "excerpt": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-03T18:42:16+00:00"
+  },
+  {
+   "title": "Apple lets Siri AI act inside third-party apps starting with iOS 27.3",
+   "tags": [
+    "products"
+   ],
+   "summary": "Apple's iOS 27.3 update lets developers integrate Siri's AI features into 'all apps,' letting the assistant use personal context, natural language prompts and on-screen awareness to take actions across third-party software.",
+   "more": "The capability rolls out as part of the iOS 27.3 update. Developers can now integrate Siri AI's features into any app, not just Apple's own. The assistant can draw on a user's personal context, process natural-language prompts, and use on-screen awareness to perform actions within those apps. The excerpt does not name specific launch-partner apps or describe the developer integration process.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1025694"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1025694",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Apple starts giving Siri AI access to third-party apps",
+     "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+     "published": "2026-11-03T20:16:17+00:00",
+     "excerpt": "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update rolling out on Tuesday, Apple announced developers can now integrate Siri AI's new features in \"all apps,\" allowing the voice assistant to draw on a user's personal context, process natural language prompts, and use on-screen awareness to […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T20:16:17+00:00"
+  },
+  {
+   "title": "Apple Watch's new watchOS beta adds always-on Audio Intelligence",
+   "tags": [
+    "products"
+   ],
+   "summary": "Apple's new watchOS 27.3 developer beta adds Audio Intelligence features that let Siri listen via the Watch's mic, including Siri Recap conversation summaries and Live Rewind transcripts of the last 15 minutes.",
+   "more": "The features are available starting today in the watchOS 27.3 developer beta. Siri Recap uses what Apple calls 'ambient listening' to generate summaries of a conversation. Live Rewind generates text transcripts covering roughly the last 15 minutes of audio. The excerpt is cut off before detailing privacy safeguards or a public release timeline.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1025002"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1025002",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+     "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+     "published": "2026-11-03T18:31:00+00:00",
+     "excerpt": "Starting today, Siri can tune into the Apple Watch's mic with Audio Intelligence features that are available in the new watchOS 27.3 developer beta rolling out now. The two new additions are Siri Recap, which uses \"ambient listening\" to generate summaries of your conversation, and Live Rewind, which generates text transcripts of the last 15 […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T18:31:00+00:00"
+  },
+  {
+   "title": "Google DeepMind applies Antigravity agents to drug discovery chemistry",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "summary": "Google DeepMind detailed how its Antigravity platform and new Cheminformatics Skills use AI agents to search compounds and propose novel rigidified macrocycles, aiming to speed up drug discovery workflows.",
+   "more": "The post describes how Google Antigravity, paired with newly introduced Cheminformatics Skills, is being used to accelerate drug discovery. The system is used to search chemical compounds and to propose novel rigidified macrocycles, a class of ring-shaped molecules. The excerpt frames this as an agentic workflow applied to a scientific domain rather than a general-purpose chatbot feature. No further detail on results, partners, or availability was included in the excerpt.",
+   "item_ids": [
+    "deepmind:https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "deepmind:https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+     "source": "deepmind",
+     "source_name": "Google DeepMind",
+     "title": "Agentic cheminformatics with Google Antigravity",
+     "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+     "published": "2026-11-03T17:01:49+00:00",
+     "excerpt": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T17:01:49+00:00"
+  },
+  {
+   "title": "SETI's Allen Telescope Array now uses AI agents to scan for alien signals",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "summary": "The SETI Institute and Breakthrough Listen are now using AI agents to control the Allen Telescope Array and analyze radio signals, cutting analysis time from weeks to hours and detecting a Crab Nebula pulsar in real time.",
+   "more": "The AI agents handle both controlling the telescope array and analyzing incoming radio signals. The Decoder reports tasks that used to take weeks can now be completed in hours. The team says the system detected a pulsar in the Crab Nebula in real time for the first time. The excerpt does not specify which AI models or frameworks power the agents.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42352"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42352",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI agents take over at SETI's Allen Telescope Array, scanning for extraterrestrial intelligence",
+     "url": "https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence/",
+     "published": "2026-11-03T16:51:18+00:00",
+     "excerpt": "The SETI Institute and Breakthrough Listen are now using AI agents at the Allen Telescope Array to control the telescope and analyze incoming radio signals. Tasks that used to take weeks can now wrap up in hours, and the team says the system detected a pulsar in the Crab Nebula in real time for the first time. The article AI agents take over at SETI's Allen Telescope Array, scanning for extraterrestrial intelligence appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T16:51:18+00:00"
+  },
+  {
+   "title": "Google will turn off Search entirely for schools that opt out of its AI",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "summary": "Google told The New York Times it will completely disable Search for K-12 schools that reject its AI features, also cutting access to Gemini, Gemini Notebook and Gemini in Classroom for those schools.",
+   "more": "The decision was shared as part of a broader education update from Google on Tuesday. Schools that opt out of Google's AI features will lose access not just to Gemini-branded tools but to Google Search itself for K-12 student accounts. Ars Technica notes Google frames the AI tools it does offer schools as ones that 'purportedly don't give away the answers,' suggesting an anti-cheating angle. Neither outlet's excerpt states how many schools have already opted out or when the policy takes effect.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1025411",
+    "ars-ai:https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1025411",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Google is entirely disabling Search in schools that don’t want AI",
+     "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+     "published": "2026-11-03T17:00:04+00:00",
+     "excerpt": "Google is completely turning off Search in schools that reject its AI features, the company told The New York Times. The decision was also shared in a broader education-related update from Google on Tuesday, saying that access to Gemini, Gemini Notebook, Gemini in Classroom, and Google Search \"will be entirely off\" for K-12 student accounts […]"
+    },
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Google will let schools skip AI tools, but they have to give up search, too",
+     "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+     "published": "2026-11-03T17:54:43+00:00",
+     "excerpt": "Google will offer schools AI tools that purportedly don't give away the answers."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-03T17:54:43+00:00"
+  },
+  {
+   "title": "Nexus Mods will require creators to disclose AI use in mod uploads",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "summary": "PC gaming mod site Nexus Mods is making AI disclosure mandatory for new mod uploads, requiring authors to state whether AI was used in their work as part of a broader policy on AI-generated content.",
+   "more": "Nexus Mods, described as the biggest modding site in PC gaming, announced the mandatory disclosure policy as part of a wider post about AI-generated content on the platform. Mod authors uploading new mods will now have to declare whether AI was used in creating their work. The excerpt does not detail enforcement mechanisms or how existing mods are affected.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1026085"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1026085",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The biggest modding site in PC gaming is taking a stance on AI",
+     "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+     "published": "2026-11-04T00:42:10+00:00",
+     "excerpt": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T00:42:10+00:00"
+  },
+  {
+   "title": "Data center builders turn to old jet engines as grid power waits grow",
+   "tags": [
+    "hardware"
+   ],
+   "summary": "Facing years-long waits for grid access and new turbines, data center builders are turning to discarded jet engines as a less efficient, less environmentally friendly power workaround.",
+   "more": "TechCrunch describes the trend as a response to long queues for grid connections and new gas turbines. Builders are repurposing once-discarded jet engines to generate power on-site instead of waiting. The excerpt characterizes the approach as both less efficient and less environmentally friendly than standard options. No specific companies, locations, or capacity figures are given in the excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3184896"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3184896",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Data centers are turning to old jet engines as the wait for power grows",
+     "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+     "published": "2026-11-03T22:19:53+00:00",
+     "excerpt": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T22:19:53+00:00"
+  },
+  {
+   "title": "Russia rushes to build underground data centers after Ukrainian drone strikes",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "summary": "Ars Technica reports Russia is hastily planning underground data centers after Ukrainian drone strikes exposed the vulnerability of its above-ground digital infrastructure.",
+   "more": "The report frames the move as a defensive response to drone strikes that have damaged exposed Russian data center infrastructure during the war. Moving facilities underground is presented as an attempt to fix that exposure. The excerpt does not specify which facilities have been hit, timelines for the underground builds, or who is funding them.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+     "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+     "published": "2026-11-03T20:39:55+00:00",
+     "excerpt": "Russia tries to fix exposed digital infrastructure as data center war backfires."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T20:39:55+00:00"
+  },
+  {
+   "title": "Fake AI-generated photos show Bezos and Statham with full heads of hair",
+   "tags": [
+    "other"
+   ],
+   "summary": "Fabricated images circulating on X, Threads and Bluesky show Jeff Bezos and Jason Statham with significantly more hair than usual; The Verge confirms the famously bald pair's appearance hasn't actually changed.",
+   "more": "The images, spreading across X, Threads and Bluesky, depict Bezos and Statham with notably more hair than they have had in recent years. The Verge frames the story around debunking the photos rather than any real change in either man's appearance. The excerpt does not state what detection method was used to confirm the images were AI-generated or where they originated.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1025745"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1025745",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Those Jeff Bezos hair transplant photos are very fake",
+     "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+     "published": "2026-11-03T21:01:07+00:00",
+     "excerpt": "Amazon founder Jeff Bezos and actor Jason Statham have a distinctive feature in common: They're both famously bald, and that definitely hasn't changed in the last few days. However, there are some images of the two men circulating around X, Threads, and Bluesky in which they both have substantially more hair than their usual shaved […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T21:01:07+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA asks what models run well on 32GB RAM, 16GB VRAM rigs",
+   "tags": [
+    "other"
+   ],
+   "summary": "A r/LocalLLaMA thread asks what models people with modest hardware -- 32GB RAM and 16GB VRAM -- are actually running for coding or general assistant use, after being out of the loop.",
+   "more": "The poster says they have been away from local-model developments and missed recent releases, mentioning 'strata' as one example. They note many replies in the community describe owning high-end hardware like the RTX 6000, and ask what a 32GB RAM / 16GB VRAM setup can realistically run for coding or general assistant tasks. The excerpt is the original post rather than a report of an event, so no specific model recommendations are included.",
+   "item_ids": [
+    "localllama:t3_1xn2jyz"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "localllama:t3_1xn2jyz",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "What do people with normal hardware : 32GB ram 16GB VRAM run?",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn2jyz/what_do_people_with_normal_hardware_32gb_ram_16gb/",
+     "published": "2026-11-03T19:28:09+00:00",
+     "excerpt": "Just asking because i have been out of the loop for a while and kinda missed everything (strata etc...) a small recap would be appreciated. Everyone seems to own an RTX 6000 or insanely expensive rigs here. So just wanted to hear what model a normal pleb like me with 32GB ram and 16GB VRAM can even run and on what to run it for coding or a general assistant. submitted by /u/FormationHeaven [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T19:28:09+00:00"
+  },
+  {
+   "title": "Steam approval backlog is causing indie game launch delays",
+   "tags": [
+    "other"
+   ],
+   "summary": "Indie developers report unusually long Steam approval wait times are causing them to miss planned launch dates, with Food Devils studio Studio Daimon cited as one example.",
+   "more": "Multiple indie developers have posted on social media about longer-than-usual approval wait times for Steam submissions. Studio Daimon, developer of the upcoming game Food Devils, is cited as having to delay its planned launch because of the backlog. The excerpt does not state what is causing the backlog or whether Valve has responded publicly.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1025596"
+   ],
+   "tagged_by": "agent",
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1025596",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Indie games are missing launch dates because Steam is backed up",
+     "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+     "published": "2026-11-03T18:14:50+00:00",
+     "excerpt": "Many indie game developers have recently posted on social media about unexpectedly long approval wait times for their game submissions on Steam, with some of the approvals causing developers to miss their planned launch dates. For example, Studio Daimon, the team behind an upcoming title called Food Devils, had planned to launch the game in […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T18:14:50+00:00"
+  }
+ ]
+}
