@@ -1,0 +1,953 @@
+{
+ "date": "2026-11-05",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Uber says almost no one books rides through AI agents",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Uber revealed that only four people used an AI agent to book a ride during its busiest week last quarter, suggesting limited real-world adoption of agentic booking.",
+   "more": "The figure, disclosed by the company, highlights a gap between the attention agentic AI has received and actual consumer usage for a task like booking rides.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185205"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185205",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Almost no one uses AI agents to book their Uber, company says",
+     "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+     "published": "2026-11-04T21:56:01+00:00",
+     "excerpt": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T21:56:01+00:00"
+  },
+  {
+   "title": "CloudOpsBench benchmark finds reasoning is the bottleneck for AI DevOps agents",
+   "tags": [
+    "agents",
+    "open-source",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new open-source benchmark called CloudOpsBench measures how well AI agents handle typical DevOps tasks in the cloud, finding reasoning ability to be the main limiting factor.",
+   "more": "The benchmark covers tasks like fixing services, removing resources, restricting access rights, rolling out updates, and decommissioning projects, mirroring the kind of work AI agents would need to do in real cloud operations. Across these tasks, the evaluation found that reasoning, rather than other capabilities, was the biggest bottleneck for agent performance.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42395"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42395",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations",
+     "url": "https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/",
+     "published": "2026-11-04T16:42:52+00:00",
+     "excerpt": "CloudOpsBench is a new open-source benchmark that measures how well AI agents handle typical DevOps tasks in the cloud, from fixing services and removing resources to restricting access rights, rolling out updates, and decommissioning projects. The article New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T16:42:52+00:00"
+  },
+  {
+   "title": "ToolSpace proposes tool-centric approach for long-horizon AI agents",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces ToolSpace, a framework for building agent training environments from real tool interfaces first, aiming to better match how MCP tools are actually composed and executed.",
+   "more": "The researchers argue that existing MCP environment-scaling methods are data-centric, synthesizing a database and scenario before deriving tools and tasks, which can produce tool interfaces that don't match real ones and compositions not grounded in execution. ToolSpace reverses this order by starting from tools themselves. The paper also notes that prior synthetic tasks rarely span more than one environment, a gap ToolSpace aims to address for long-horizon agents.",
+   "item_ids": [
+    "hf-papers:2611.05036"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.05036",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents",
+     "url": "https://huggingface.co/papers/2611.05036",
+     "published": "2026-11-04T00:00:00+00:00",
+     "excerpt": "Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one environment. We propose ToolSpace, a tool-centric framework that reverses this order"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T00:00:00+00:00"
+  },
+  {
+   "title": "VidUEU-Agent automates instruction-data creation from raw video",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new data-curation agent called VidUEU-Agent converts raw video into instruction data for multimodal understanding, editing, and unified tasks, targeting the scarcity of high-quality annotated training data.",
+   "more": "The paper frames raw video as an abundant but hard-to-use source of visual knowledge, since turning it into precise instruction data is challenging and costly to annotate by hand. VidUEU-Agent is described as an automated pipeline that follows a four-stage process to synthesize instruction data directly from videos. The goal is to support multimodal understanding, editing, and unified-task training without relying on scarce manually curated datasets.",
+   "item_ids": [
+    "hf-papers:2611.04418"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.04418",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "VidUEU-Agent: A Data-Curation Agent for Multimodal Understanding, Editing, and Unified Tasks",
+     "url": "https://huggingface.co/papers/2611.04418",
+     "published": "2026-11-04T00:00:00+00:00",
+     "excerpt": "The advancement of multimodal learning is heavily constrained by the scarcity and high annotation cost of high-quality instruction data. While raw videos offer an abundant and dynamic source of visual knowledge, transforming them into precise instruction data remains highly challenging. To bridge this gap, we present VidUEU-Agent, an automated pipeline that synthesizes instruction data from raw videos for multimodal understanding, editing, and unified tasks. VidUEU-Agent follows a four-stage pip"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T00:00:00+00:00"
+  },
+  {
+   "title": "EvoTeam lets multi-agent systems evolve their own team structure",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "EvoTeam is a new method that improves multi-agent LLM systems by evolving team organization and inter-agent interaction patterns, rather than only refining individual agents' prompts and skills.",
+   "more": "The authors note that most prior work improves multi-agent systems by refining the prompts, skills, and execution strategies of individual agents based on task feedback, but that improving individual agents doesn't necessarily translate into better team collaboration. EvoTeam extends evolution to the collaboration level itself, using collective execution experience to adjust how the team is organized and how agents interact with each other.",
+   "item_ids": [
+    "hf-papers:2610.39813"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.39813",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "EvoTeam: Multi-Agent Collaboration via Evolving Teams",
+     "url": "https://huggingface.co/papers/2610.39813",
+     "published": "2026-11-04T00:00:00+00:00",
+     "excerpt": "LLM-based multi-agent systems (MAS) rely on collaboration among specialized agents to solve complex tasks. Existing methods improve MAS by refining the prompts, skills, and execution strategies of individual agents based on task feedback. However, improving individual agents does not necessarily lead to better team collaboration. Recent studies have therefore extended evolution to the collaboration level, using collective execution experience to adjust team organization, and inter-agent interact"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T00:00:00+00:00"
+  },
+  {
+   "title": "Nothing teases screen-free AI device ahead of December launch",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nothing CEO Carl Pei said the company will launch its first AI-native device in December, about a year after announcing plans for AI-native devices, without revealing specifics.",
+   "more": "Pei disclosed the launch timing in a post on X, without giving away much about what the device actually is. He said the device is designed to leverage AI for productivity gains, but didn't detail features beyond that. The announcement follows his earlier plans, posted roughly a year ago, for \"AI-native\" devices and an AI operating system.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1026586",
+    "techcrunch-ai:https://techcrunch.com/?p=3185172"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1026586",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Nothing teases a screen-free AI device ahead of launch next month",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+     "published": "2026-11-04T18:26:07+00:00",
+     "excerpt": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, only that one feature […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185172",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+     "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+     "published": "2026-11-04T22:13:16+00:00",
+     "excerpt": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-04T22:13:16+00:00"
+  },
+  {
+   "title": "ChatGPT adds animated GIF creation via OpenAI's Images 2.6 model",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI's new Images 2.6 model lets ChatGPT generate animated GIFs from text prompts or photos, with adjustable animation speed and per-frame editing.",
+   "more": "Users can create GIFs from a prompt or an uploaded photo and then adjust the animation's speed or edit individual frames before sharing them. OpenAI says the model's image consistency is strong enough to keep characters recognizable across frames, enabling flipbook-style animation. ChatGPT previously couldn't natively generate GIFs in a single step. OpenAI also disclosed that users now generate more than four billion images per week on the platform.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1026474",
+    "decoder:https://the-decoder.com/?p=42404"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1026474",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "ChatGPT will now make you animated GIFs",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+     "published": "2026-11-04T18:00:00+00:00",
+     "excerpt": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn't natively generate GIFs in a single […]"
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42404",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
+     "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/",
+     "published": "2026-11-04T19:44:20+00:00",
+     "excerpt": "OpenAI is adding a GIF feature to ChatGPT. With the new Images 2.6 model, users can create animated GIFs from text prompts or photos and then adjust speed and individual frames. The model's image consistency is strong enough to keep characters recognizable across frames, making flipbook-style animation possible. According to OpenAI, users now generate more than four billion images per week. The article ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-04T19:44:20+00:00"
+  },
+  {
+   "title": "AT&T's Connected Life security system integrates Gemini for Home",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "AT&T's Connected Life smart home security system now integrates with Google Home Premium's Gemini for Home, adding AI features like summarizing home events and searching video history.",
+   "more": "AT&T describes Connected Life as the first home security product to integrate with Google Home Premium. The integration brings a set of Gemini-powered features to the security system, including summarizing events captured at home and searching through video history.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1026787"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1026787",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Gemini for Home now plugs into AT&T’s smart security system",
+     "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+     "published": "2026-11-04T20:23:24+00:00",
+     "excerpt": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, Gemini for Home can provide […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T20:23:24+00:00"
+  },
+  {
+   "title": "Wearable ambient-listening device sparks unease in Verge column",
+   "tags": [
+    "products",
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Verge Optimizer column reflects on discomfort with the Amazon Bee Frontier, an ambient-listening wearable, framed through a therapy-session anecdote.",
+   "more": "The column is written by Verge senior reviewer Victoria Song as part of her weekly Optimizer newsletter, which examines new gadgets. Further specifics on the device's features were not included in the available excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1026464"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1026464",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
+     "url": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
+     "published": "2026-11-04T18:00:00+00:00",
+     "excerpt": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you feel?\" I get asked this a lot in therapy. Plenty of life events, big and […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T18:00:00+00:00"
+  },
+  {
+   "title": "Apple's Siri Recaps impress TechCrunch despite privacy concerns",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "A TechCrunch reviewer found Apple's AI-powered Siri Recaps surprisingly useful after a day of testing, despite lingering privacy reservations about the feature.",
+   "more": "The reviewer notes there's still room for improvement, even as the feature won them over quickly.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185071"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185071",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+     "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+     "published": "2026-11-04T16:51:35+00:00",
+     "excerpt": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T16:51:35+00:00"
+  },
+  {
+   "title": "2026 midterm results show broad voter backlash against AI data centers",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Democratic wins in Texas and other AI infrastructure hubs in Tuesday's midterms reflected widespread, bipartisan opposition to data centers, leaving Big Tech and data-center boosters scrambling to respond.",
+   "more": "In Texas, long seen as the fastest-growing US data center market, Democrat James Talarico won a US Senate seat against Ken Paxton and Gina Hinojosa won the governor's race, outcomes that could jeopardize the state's buildout plans. Data center opposition crossed party lines, showing up in high-profile Senate races as well as local rezoning initiatives. Big Tech is characterizing the backlash as \"anti-Trump\" rather than \"anti-tech,\" even as commentators describe the industry as being in denial. Some data center enthusiasts have responded by looking to low Earth orbit as an alternative site for future AI infrastructure.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185307",
+    "mit-tr-ai:https://www.technologyreview.com/?p=1148043",
+    "ars-ai:https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+    "wired-ai:6aeb5a0c899aefeeb033196c",
+    "wired-ai:6ae4a246273b3c41ba93a346"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185307",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "After the midterms, a bigger clash over data centers could be coming",
+     "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+     "published": "2026-11-05T01:02:14+00:00",
+     "excerpt": "Data center opposition crossed party lines in Tuesday’s midterms."
+    },
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1148043",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+     "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+     "published": "2026-11-04T18:50:55+00:00",
+     "excerpt": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,…"
+    },
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+     "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+     "published": "2026-11-04T20:55:50+00:00",
+     "excerpt": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers."
+    },
+    {
+     "id": "wired-ai:6aeb5a0c899aefeeb033196c",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
+     "url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/",
+     "published": "2026-11-04T23:13:14+00:00",
+     "excerpt": "After Democrats won big in Texas and other AI infrastructure hot spots on Tuesday, data center enthusiasts looked for comfort in low Earth orbit."
+    },
+    {
+     "id": "wired-ai:6ae4a246273b3c41ba93a346",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "The Results Are In: Voters Hate Data Centers",
+     "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
+     "published": "2026-11-04T16:56:17+00:00",
+     "excerpt": "From high-profile Senate races to local rezoning initiatives, data centers and their supporters did miserably on the ballot in the 2026 midterms."
+    }
+   ],
+   "coverage": 4,
+   "newest": "2026-11-05T01:02:14+00:00"
+  },
+  {
+   "title": "AI industry PACs spent big on the midterms but saw little payoff",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "AI industry PACs, including the $100 million Leading the Future network backed by Silicon Valley billionaires, spent heavily to influence the 2026 midterms but had limited measurable impact.",
+   "more": "Leading the Future took an aggressive stance against AI regulation with its war chest, but that spending didn't add up to much by Tuesday night's results. AI industry PACs overall spent millions trying to shape the composition of Congress, with mixed results, and political groups are already looking ahead to the next election cycle.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185268",
+    "wired-ai:6ae4a770bd1058bb39c86ec2"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185268",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+     "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+     "published": "2026-11-04T22:45:09+00:00",
+     "excerpt": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle."
+    },
+    {
+     "id": "wired-ai:6ae4a770bd1058bb39c86ec2",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
+     "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+     "published": "2026-11-04T20:41:29+00:00",
+     "excerpt": "Leading the Future, backed by Silicon Valley’s biggest billionaires, had a war chest of $100 million and an aggressive stance against AI regulation. All of it didn’t add up to much on Tuesday night."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-04T22:45:09+00:00"
+  },
+  {
+   "title": "Schools push back on Google's AI Overviews as DuckDuckGo courts them",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google is tying AI Overviews to its core search product in ways that anger parents and educators, and DuckDuckGo is capitalizing by pitching schools on search without forced AI features.",
+   "more": "Google ties AI Overviews together with traditional search results, which worries parents and educators who fear easy, machine-generated answers leave kids less capable. DuckDuckGo is courting schools frustrated by Google's restrictions, pointing educators to its own search engine and to options for disabling AI features. Schools are reportedly searching for ways out of the forced integration.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185129",
+    "wired-ai:6aea8abd2504267f05e6e0f2"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185129",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+     "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+     "published": "2026-11-04T19:29:52+00:00",
+     "excerpt": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features."
+    },
+    {
+     "id": "wired-ai:6aea8abd2504267f05e6e0f2",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Google Is Forcing AI Overviews in Classrooms. Schools Are Searching for a Way Out",
+     "url": "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/",
+     "published": "2026-11-04T20:06:21+00:00",
+     "excerpt": "Google is tying up AI Overviews with traditional search, angering parents and educators who worry that easy, machine-generated answers are leaving kids less capable."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-04T20:06:21+00:00"
+  },
+  {
+   "title": "OpenAI's Chris Lehane pushes to shape the 2028 election",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI policy executive Chris Lehane is proposing a new AI-centered social contract ahead of the 2028 election, a move that could also advance the company's own business interests.",
+   "more": "The proposal is framed as something that could benefit Americans broadly while also serving OpenAI's commercial goals, according to the report.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185152"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185152",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI is already trying to shape the 2028 election",
+     "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+     "published": "2026-11-04T21:25:44+00:00",
+     "excerpt": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T21:25:44+00:00"
+  },
+  {
+   "title": "Hugging Face CEO says his AI doom probability is 'close to zero'",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "At the Wired World Fair, Hugging Face CEO Clément Delangue said most AI risk comes from a few labs building behind closed doors, making the case for open-source AI as a safer path.",
+   "more": "Delangue argued that concentrating AI development among a small number of closed-door players creates most of the risk, positioning openness as a mitigating factor rather than a danger.",
+   "item_ids": [
+    "wired-ai:6ad2762c3bafd52c8d60c16a"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ad2762c3bafd52c8d60c16a",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’",
+     "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+     "published": "2026-11-04T19:16:25+00:00",
+     "excerpt": "“Most of the risk is actually created by a couple of players building behind closed doors,” Clément Delangue said of the need for open source AI."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T19:16:25+00:00"
+  },
+  {
+   "title": "Moonshot AI releases Kimi K3.1 Pro with open weights",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Moonshot AI published open weights for Kimi K3.1 Pro, an image-text-to-text model, which quickly became one of Hugging Face's trending models and drew its own discussion thread on r/LocalLLaMA.",
+   "more": "Kimi K3.1 Pro is distributed on Hugging Face as safetensors built on the kimi_k31 architecture, with an 8-bit quantized variant available via the transformers library. It supports image-text-to-text and conversational use, and ships with evaluation results and endpoint compatibility, though under a custom rather than standard open-source license. Within days it had drawn 609 likes and 797 downloads on Hugging Face. The release was popular enough to get its own r/LocalLLaMA thread beyond the usual trending-model listing.",
+   "item_ids": [
+    "hf-trending:moonshotai/Kimi-K3.1-Pro",
+    "localllama:t3_1xnrhvb"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:moonshotai/Kimi-K3.1-Pro",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: moonshotai/Kimi-K3.1-Pro",
+     "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+     "published": "2026-11-02T04:13:51+00:00",
+     "excerpt": "image-text-to-text, 609 likes, 797 downloads. Tags: transformers, safetensors, kimi_k31, text-generation, compressed-tensors, conversational, image-text-to-text, custom_code, license:other, eval-results, endpoints_compatible, 8-bit"
+    },
+    {
+     "id": "localllama:t3_1xnrhvb",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Kimi-K3.1-Pro is now open-weights",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights/",
+     "published": "2026-11-04T15:44:08+00:00",
+     "excerpt": "submitted by /u/ApprehensiveAd3629 [link] [comments]"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-04T15:44:08+00:00"
+  },
+  {
+   "title": "DeepSeek alone drove over half of OpenRouter's token volume in a day",
+   "tags": [
+    "models",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "DeepSeek accounted for 53% of all 27 trillion tokens processed on OpenRouter in a single day, with open-weight labs together topping 75% of total volume, per shared usage data.",
+   "more": "The figures, sourced from dirac.run's labs market-share tracker and shared on r/LocalLLaMA, show open-weight labs collectively processing more than three-quarters of daily token volume on OpenRouter, with DeepSeek as the single largest contributor.",
+   "item_ids": [
+    "localllama:t3_1xnz8ct"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xnz8ct",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Deepseek alone accounted for 53% of all (27 trillion) tokens on Openrouter yesterday. Open-weights labs totaling over 75% now",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnz8ct/deepseek_alone_accounted_for_53_of_all_27/",
+     "published": "2026-11-04T20:39:28+00:00",
+     "excerpt": "Source: https://dirac.run/labs-market-share#daily-token-share-by-lab submitted by /u/Comfortable-Rock-498 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T20:39:28+00:00"
+  },
+  {
+   "title": "Developer prunes 85% of Gemma's weights for a narrow on-device task",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA user pruned Gemma 4 26B-A4B down to 15% of its original size for a narrow classification task, reporting 92% agreement with the unpruned model's outputs.",
+   "more": "The pruned model was built for an app that runs an on-device LLM continuously, so reducing memory footprint and energy consumption was the priority. The author reports 92% agreement with the original model on the classification task, comparable to how often a 12B model agrees with the 26B model on the same task. The author is clear the pruned model isn't meant for general use: tasks requiring broader knowledge suffer because that knowledge was removed along with the pruned weights.",
+   "item_ids": [
+    "localllama:t3_1xnoqyy"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xnoqyy",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "I removed 85% of gemma's weights (and it is mostly fine)",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnoqyy/i_removed_85_of_gemmas_weights_and_it_is_mostly/",
+     "published": "2026-11-04T13:53:30+00:00",
+     "excerpt": "I pruned Gemma 4 26B-A4B, an MoE model, down to 15% of its original size, and the model still does great on one narrow task. It gets 92% agreement with the original on a classification task. That’s close to how often the 12B agrees with the 26B on the same ticks, which is 90%. This isn’t a model for general tasks, and tasks that require knowledge suffer because the knowledge is just gone. It was made for my app that runs an on-device LLM 24/7, so that makes memory footprint and energy consumptio"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T13:53:30+00:00"
+  },
+  {
+   "title": "Apple reportedly cuts budgets for internal AI tooling",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apple is reportedly cutting how much it spends on AI tools for its internal engineering teams, according to a new report.",
+   "more": "The report says the reduction is significant, though further detail on which tools or teams are affected was not available in the excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185305"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185305",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Apple is reportedly cutting budgets for its internal AI usage",
+     "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+     "published": "2026-11-05T01:26:22+00:00",
+     "excerpt": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T01:26:22+00:00"
+  },
+  {
+   "title": "Meta acquires AI coding startup Conductor",
+   "tags": [
+    "industry",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta has acquired Conductor, a startup whose platform lets software engineers deploy teams of AI agents to work on multiple parts of a project simultaneously.",
+   "more": "Further terms of the deal were not disclosed in the report.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185181"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185181",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Meta acquires AI coding startup Conductor",
+     "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+     "published": "2026-11-04T21:10:56+00:00",
+     "excerpt": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T21:10:56+00:00"
+  },
+  {
+   "title": "OpenAI acquires Pierre Computer Company to bolster Git for coding agents",
+   "tags": [
+    "industry",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is buying Pierre Computer Company, whose libraries already power its Codex coding agent, as part of building out infrastructure for developers and AI agents working together.",
+   "more": "The acquisition comes alongside OpenAI's recently launched Git backend, Pando, and together the moves signal the company is investing in making Git-based workflows keep pace with AI coding agents.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42400"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42400",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents",
+     "url": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/",
+     "published": "2026-11-04T18:41:03+00:00",
+     "excerpt": "OpenAI is buying Pierre Computer Company, the startup whose libraries already power the coding agent Codex. Combined with OpenAI's recently launched Git backend Pando, the deal shows the company is building out its infrastructure for developers and AI agents working side by side. The article OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T18:41:03+00:00"
+  },
+  {
+   "title": "Anthropic details progress on provable inference for LLMs",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic published research on provable inference for large language models, drawing significant discussion on Hacker News with 205 points and 90 comments.",
+   "more": "Further technical detail on the research's specific methods or results was not available beyond the title and the scale of discussion it generated.",
+   "item_ids": [
+    "hn:50368626"
+   ],
+   "items": [
+    {
+     "id": "hn:50368626",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Progress on provable inference for large language models",
+     "url": "https://www.anthropic.com/research/provable-inference",
+     "published": "2026-11-04T17:17:46+00:00",
+     "excerpt": "205 points, 90 comments. Discussion: https://news.ycombinator.com/item?id=50368626"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T17:17:46+00:00"
+  },
+  {
+   "title": "YANAMI benchmark targets multimodal models' multi-turn memory",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers released YANAMI, a large-scale multimodal dataset and benchmark built to test whether unified multimodal models can track and update state across turns, not just solve each one independently.",
+   "more": "The authors note that existing multimodal datasets and benchmarks are dominated by single-turn tasks, and that even recent multi-turn datasets often contain turns solvable independently without real cross-turn tracking. This limits how well current benchmarks supervise or evaluate multimodal stateful interaction. YANAMI is positioned to fill that gap by requiring models to understand, maintain, and update information across a conversation.",
+   "item_ids": [
+    "hf-papers:2611.05280"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.05280",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction",
+     "url": "https://huggingface.co/papers/2611.05280",
+     "published": "2026-11-04T00:00:00+00:00",
+     "excerpt": "Unified Multimodal Models (UMMs) integrate visual understanding, generation, and editing within a single unified framework. However, existing unified multimodal datasets and benchmarks remain dominated by single-turn tasks. Even in recent multi-turn datasets, many turns can be solved independently without tracking information across turns. Consequently, they provide limited supervision and evaluation for multimodal stateful interaction, which requires models to understand, maintain, update, and "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T00:00:00+00:00"
+  },
+  {
+   "title": "Qualcomm pivots toward AI data centers as smartphone sales fall",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "With smartphone sales down roughly 20% from 2025, Qualcomm's Q4 2026 earnings call laid out plans to grow its AI data center business through partnerships including Amazon and Meta.",
+   "more": "Qualcomm is looking to data centers to help offset the sales decline, building on partnerships with Amazon and Meta that were announced earlier. The company used the earnings call to detail how it intends to make a bigger splash in the AI data center business going forward.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1026867"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1026867",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+     "published": "2026-11-04T22:42:15+00:00",
+     "excerpt": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced earlier […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T22:42:15+00:00"
+  },
+  {
+   "title": "Qualcomm's Cloud AI 100 Ultra accelerator draws Hacker News attention",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Qualcomm's Cloud AI 100 Ultra, a 150W AI accelerator card with 128GB of memory and 548GB/s of bandwidth, drew discussion on Hacker News.",
+   "more": "The card's listed specs, a 150W power envelope paired with 128GB of memory and 548GB/s of bandwidth, prompted a 132-point, 53-comment discussion thread.",
+   "item_ids": [
+    "hn:50370654"
+   ],
+   "items": [
+    {
+     "id": "hn:50370654",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+     "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+     "published": "2026-11-04T19:55:14+00:00",
+     "excerpt": "132 points, 53 comments. Discussion: https://news.ycombinator.com/item?id=50370654"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T19:55:14+00:00"
+  },
+  {
+   "title": "Dharma AI launches Field Extractor to turn documents into structured JSON",
+   "tags": [
+    "tools",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Dharma AI published a Hugging Face blog post introducing Field Extractor, a tool positioned to convert arbitrary documents into structured JSON fields.",
+   "more": "Further technical detail on how the tool works was not available in the posting.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+     "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+     "published": "2026-11-04T17:50:10+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T17:50:10+00:00"
+  },
+  {
+   "title": "TechCrunch examines who profits as open-source AI goes mainstream",
+   "tags": [
+    "open-source",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch coverage, in both video and podcast form, explored how open-source AI models are becoming mainstream and who captures value as Chinese open models gain ground.",
+   "more": "The coverage notes that enterprises, governments, and startups increasingly rely on open models for lower costs, more control, and more flexibility as capable open-weight models become more widely available. A Hugging Face policy chief discussed the costs, risks, and trade-offs companies face when building on open-source AI, in a conversation framed around whether American players can keep pace with gaining Chinese open models.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?post_type=tc_video&p=3185186",
+    "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3185167"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?post_type=tc_video&p=3185186",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Open source AI is booming. Hugging Face explains who profits.",
+     "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+     "published": "2026-11-04T19:30:04+00:00",
+     "excerpt": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3185167",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+     "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+     "published": "2026-11-04T18:44:57+00:00",
+     "excerpt": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T19:30:04+00:00"
+  },
+  {
+   "title": "Latent Space AI News roundup covers OpenAI kernel work, Kimi K3.1, and Ripple-65B",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Latent Space's daily AI News roundup for November 4 covered OpenAI's Linux kernel security work, Kimi K3.1 Pro's open-weight release, and the Ripple-65B model from Ricursive.",
+   "more": "The roundup bundles several separate items from the day into a single newsletter rather than focusing on one event.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_fd221542-e3ff-41a0-bb96-ef372fda447e"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_fd221542-e3ff-41a0-bb96-ef372fda447e",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] It's Swapping Season",
+     "url": "https://latent.space/p/ainews-it-s-swapping-season/",
+     "published": "2026-11-05T06:24:09+00:00",
+     "excerpt": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T06:24:09+00:00"
+  },
+  {
+   "title": "Opinion: better ways Elon Musk could spend $446 million",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Verge column lists alternative ways Elon Musk could have spent $446 million, framed as commentary on decision-making shaped by heavy social media use.",
+   "more": "The piece frames its critique around the risks of spending too much time on social media, particularly the platform formerly known as Twitter, as a lens on the spending decision. Specifics of what the $446 million was spent on were not detailed in the excerpt available.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1026878"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1026878",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "17 better ways Elon Musk could have wasted $446 million",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+     "published": "2026-11-04T21:45:00+00:00",
+     "excerpt": "One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the outside world, you […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T21:45:00+00:00"
+  },
+  {
+   "title": "Blog post argues 'everything is an AI scam now'",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A widely discussed blog post argues that AI-related scams and hype have become pervasive, drawing 134 points and 52 comments on Hacker News.",
+   "more": "Further detail on the post's specific arguments was not available beyond its title and the level of discussion it generated.",
+   "item_ids": [
+    "hn:50371508"
+   ],
+   "items": [
+    {
+     "id": "hn:50371508",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Everything is an AI scam now",
+     "url": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
+     "published": "2026-11-04T21:05:19+00:00",
+     "excerpt": "134 points, 52 comments. Discussion: https://news.ycombinator.com/item?id=50371508"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T21:05:19+00:00"
+  },
+  {
+   "title": "Latent Space shares behind-the-scenes notes from a quiet news day",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Latent Space's November 3 AI News roundup was a quieter edition, used to share behind-the-scenes content about the newsletter, a project called Kill My SaaS, and an AI event in Shanghai.",
+   "more": "The publication used the lighter news day to post more reflective, behind-the-scenes material rather than covering new AI releases or events.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_648fd7ef-adde-48f2-8823-488d55480202"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_648fd7ef-adde-48f2-8823-488d55480202",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+     "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+     "published": "2026-11-04T19:17:30+00:00",
+     "excerpt": "November 3, 2026 — A quiet day lets us share some behind the senes."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T19:17:30+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA jokes about a megathread for 'vibeforked' engine releases",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A lighthearted r/LocalLLaMA post jokes that the subreddit needs a megathread for the frequent wave of similar, forked inference-engine releases.",
+   "more": "The post is a tongue-in-cheek suggestion rather than a substantive technical announcement.",
+   "item_ids": [
+    "localllama:t3_1xnr6zd"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xnr6zd",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "My gift to the mods:",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnr6zd/my_gift_to_the_mods/",
+     "published": "2026-11-04T15:32:17+00:00",
+     "excerpt": "Seriously tho, can we just have a mega thread for vibeforked engine releases from now on? submitted by /u/Porespellar [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T15:32:17+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA post pokes fun at local-model hobbyist habits",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A self-deprecating r/LocalLLaMA post humorously calls out common behavior among local-model hobbyists, with no further detail given in the post itself.",
+   "more": "No additional content beyond the title was available in the excerpt.",
+   "item_ids": [
+    "localllama:t3_1xnqxlq"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xnqxlq",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "I am big enough to admit that this is me",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnqxlq/i_am_big_enough_to_admit_that_this_is_me/",
+     "published": "2026-11-04T15:21:55+00:00",
+     "excerpt": "submitted by /u/ForsookComparison [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T15:21:55+00:00"
+  }
+ ]
+}
