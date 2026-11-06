@@ -1,0 +1,821 @@
+{
+ "date": "2026-11-06",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Palo Alto Networks reportedly in talks to buy AI agent security startup Clutch",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Palo Alto Networks is reportedly in talks to acquire Clutch, an AI agent security startup backed by Lightspeed and SignalFire, for about $500 million.",
+   "more": "TechCrunch reports that Palo Alto Networks is in talks to buy Clutch, a startup focused on securing AI agents, for roughly $500 million. Clutch is backed by Lightspeed and SignalFire and was last valued at $85 million, according to a source cited in the report. The large markup from that valuation was not otherwise explained in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185713"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185713",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+     "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+     "published": "2026-11-06T06:28:32+00:00",
+     "excerpt": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T06:28:32+00:00"
+  },
+  {
+   "title": "OpenAI says it will stop using NDAs on data center projects",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Following this week's midterm elections, in which voters pushed back on data center expansion, OpenAI said it will no longer use NDAs with public officials on its data center projects.",
+   "more": "OpenAI's announcement comes after this week's midterm elections, in which voters in several states voiced opposition to data center expansion. The company said it is making new commitments to communities hosting its data center projects, including dropping non-disclosure agreements with public officials. Data center developers have faced scrutiny for using NDAs to keep negotiations and planning discussions out of public view. The available excerpt does not detail what other commitments OpenAI is making.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1028454"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1028454",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "OpenAI is stepping back from NDAs for data center projects",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+     "published": "2026-11-06T00:37:56+00:00",
+     "excerpt": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T00:37:56+00:00"
+  },
+  {
+   "title": "Google lets schools skip Gemini, but not AI-powered search",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ars Technica reports that Google lets schools opt out of Gemini specifically, but says AI-powered search features are not optional, offering less real choice than it appears.",
+   "more": "Ars Technica reports that Google is giving schools more flexibility over its AI tools, allowing them to skip Gemini specifically. However, the report says AI-enhanced search features remain mandatory, so schools cannot fully opt out of Google's AI push. The piece characterizes this as technically offering choice without offering the choices schools or parents actually want.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+     "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+     "published": "2026-11-05T21:40:36+00:00",
+     "excerpt": "Google is technically offering schools more choice but not the choices anyone wants."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T21:40:36+00:00"
+  },
+  {
+   "title": "Cult.fit says it uses OpenAI's Codex to speed up operations",
+   "tags": [
+    "industry",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI published a case study on fitness company Cult.fit using its Codex coding tool to help teams across functions build internal tools and change how work gets done.",
+   "more": "According to OpenAI, Cult.fit is using Codex to help teams outside of engineering build their own tools and automate processes. The case study frames this as building 'operational muscle,' but the available excerpt does not include specifics on which teams or what tools were built.",
+   "item_ids": [
+    "openai:https://openai.com/index/cultfit-builds-with-codex"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/cultfit-builds-with-codex",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Cult.fit builds operational muscle with Codex",
+     "url": "https://openai.com/index/cultfit-builds-with-codex",
+     "published": "2026-11-05T20:00:00+00:00",
+     "excerpt": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T20:00:00+00:00"
+  },
+  {
+   "title": "OpenAI could be IPO-ready in 2027, says president Greg Brockman",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI president Greg Brockman said at a Wall Street Journal tech conference that the company could be ready for an IPO in 2027, citing enterprise market gains.",
+   "more": "Speaking at a Wall Street Journal tech conference, Brockman said OpenAI has been gaining ground in the enterprise market, an area where rival Anthropic had already made inroads. He suggested the company could be ready for a public listing as early as 2027. The excerpt does not include further detail on timing, valuation, or which markets OpenAI is targeting.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185500"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185500",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+     "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+     "published": "2026-11-05T18:02:27+00:00",
+     "excerpt": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T18:02:27+00:00"
+  },
+  {
+   "title": "Nasdaq sinks 5% as investors retreat from the AI trade after the election",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Nasdaq fell 5% as investors pulled back from AI-related stocks following this week's election results, per a Wall Street Journal report discussed on Hacker News.",
+   "more": "A Wall Street Journal report, discussed on Hacker News, says the Nasdaq sank 5 percent as investors retreated from AI-related trades following this week's election. The Hacker News discussion drew 156 points and 188 comments. The excerpt does not name which specific AI stocks were hit hardest.",
+   "item_ids": [
+    "hn:50382179"
+   ],
+   "items": [
+    {
+     "id": "hn:50382179",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+     "published": "2026-11-05T18:00:01+00:00",
+     "excerpt": "156 points, 188 comments. Discussion: https://news.ycombinator.com/item?id=50382179"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T18:00:01+00:00"
+  },
+  {
+   "title": "OpenAI highlights Australian universities producing 'AI-native' graduates",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI published a case study on Australian universities expanding ChatGPT access and weaving AI into teaching to prepare students for an AI-enabled workforce.",
+   "more": "OpenAI says Australian universities are expanding student and staff access to ChatGPT and incorporating AI tools into teaching and learning. The company frames this as part of preparing graduates for an AI-enabled workforce. The available excerpt does not name specific universities or give adoption numbers.",
+   "item_ids": [
+    "openai:https://openai.com/index/australian-universities-ai-native-graduates"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/australian-universities-ai-native-graduates",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Australian universities are creating AI-native graduates",
+     "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+     "published": "2026-11-05T17:00:00+00:00",
+     "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T17:00:00+00:00"
+  },
+  {
+   "title": "OpenAI launches GPT-6 Cyber, a model built to find and fix vulnerabilities",
+   "tags": [
+    "models",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI released GPT-6 Cyber, a cybersecurity model that finds vulnerabilities and proposes fixes; it says the model now goes out of bounds under 1 percent of the time.",
+   "more": "OpenAI says GPT-6 Cyber, the newest version of its cybersecurity model, is better at finding vulnerabilities and developing exploits while being less likely to hack systems it shouldn't touch. During testing, the company says the model went out of bounds less than 1 percent of the time, down from around previous rates. According to The Decoder, GPT-6 Cyber has already found 81 previously unknown vulnerabilities in Firefox and developed 948 working exploits in the Linux kernel, well above its predecessor's count. TechCrunch notes the release comes as AI labs face broader scrutiny over their role in protecting digital infrastructure.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1027599",
+    "techcrunch-ai:https://techcrunch.com/?p=3185414",
+    "decoder:https://the-decoder.com/?p=42471"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1027599",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
+     "published": "2026-11-05T17:00:00+00:00",
+     "excerpt": "OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in the process. OpenAI says that during testing, GPT-6 Cyber went out of bounds less than 1 percent of the time, down from around […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185414",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI released a new cybersecurity model. Is that enough?",
+     "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+     "published": "2026-11-05T19:06:12+00:00",
+     "excerpt": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42471",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
+     "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
+     "published": "2026-11-05T20:36:25+00:00",
+     "excerpt": "With GPT-6 Cyber, OpenAI is introducing an AI model built to find security vulnerabilities in software, develop exploits, and suggest patches. According to OpenAI, it has already found 81 previously unknown vulnerabilities in Firefox and developed 948 working exploits in the Linux kernel, significantly more than its predecessor. The article OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 3,
+   "newest": "2026-11-05T20:36:25+00:00"
+  },
+  {
+   "title": "Google ships Gemini Omni 1.2 Flash with longer, cheaper video clips",
+   "tags": [
+    "models",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind made Gemini Omni 1.2 Flash generally available, extending generated video clips to 15 seconds and cutting pricing 30 percent to $0.07 per second at 720p.",
+   "more": "Gemini Omni 1.2 Flash is now generally available from Google DeepMind, positioned as faster and more cost-effective than its predecessor. Generated clips can now run up to 15 seconds, and can be edited step by step through conversation. Pricing drops 30 percent to $0.07 per second at 720p resolution, and users who draft at low resolution before upscaling only the final result can save further. Google announced the release simultaneously on its DeepMind and Google AI blogs.",
+   "item_ids": [
+    "deepmind:https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+    "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    "decoder:https://the-decoder.com/?p=42457"
+   ],
+   "items": [
+    {
+     "id": "deepmind:https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+     "source": "deepmind",
+     "source_name": "Google DeepMind",
+     "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+     "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+     "published": "2026-11-05T17:05:16+00:00",
+     "excerpt": ""
+    },
+    {
+     "id": "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+     "source": "google-ai",
+     "source_name": "Google AI Blog",
+     "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+     "published": "2026-11-05T17:00:00+00:00",
+     "excerpt": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street"
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42457",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent",
+     "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/",
+     "published": "2026-11-05T19:05:31+00:00",
+     "excerpt": "Google Deepmind is making Gemini Omni 1.2 Flash generally available. The video-generation model now creates clips up to 15 seconds long, can be edited step by step via conversation, and costs just $0.07 per second at 720p, 30 percent less than its predecessor. Users who draft in low resolution and upscale only the final result can save even more. The article Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 3,
+   "newest": "2026-11-05T19:05:31+00:00"
+  },
+  {
+   "title": "Z.ai scientist details the training pipeline behind upcoming GLM-5.5 models",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Z.ai chief scientist Jie Tang reportedly revealed the training pipeline behind upcoming GLM-5.5 models, which will ship in 32B, 122B, and 256B parameter sizes.",
+   "more": "According to a r/LocalLLaMA post, Z.ai chief scientist Jie Tang revealed details of the training pipeline behind the upcoming GLM-5.5 model family. The post says GLM-5.5 will include smaller models this time, with 32B, 122B, and 256B parameter variants. The available excerpt does not include specifics of the training pipeline itself, such as data mix or compute used.",
+   "item_ids": [
+    "localllama:t3_1xossr5"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xossr5",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Z.ai chief scientist Jie Tang just revealed the training pipeline behind the upcoming GLM-5.5 (32B, 122B, and 256B)",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xossr5/zai_chief_scientist_jie_tang_just_revealed_the/",
+     "published": "2026-11-05T20:06:15+00:00",
+     "excerpt": "Smaller GLM models are coming! GLM 5.5 will have a 32B model! submitted by /u/wapswaps [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T20:06:15+00:00"
+  },
+  {
+   "title": "NVIDIA releases Cosmos 3, open models for interactive world simulation",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "NVIDIA released Cosmos 3, a new generation of open-weight models for interactive world simulation, according to a Hugging Face blog post.",
+   "more": "NVIDIA published the Cosmos 3 family of open models on Hugging Face, aimed at interactive world simulation. The announcement's blog post did not include further detail in the available excerpt.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+     "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+     "published": "2026-11-05T19:35:16+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T19:35:16+00:00"
+  },
+  {
+   "title": "Baidu releases open-source ERNIE 5.5 Flash Base, a 280B-parameter model",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Baidu released ERNIE 5.5 Flash Base, a 280-billion-parameter MoE model trained on 33.5 trillion tokens and shipped without fine-tuning so developers can adapt it freely.",
+   "more": "Baidu has released ERNIE 5.5 Flash Base, a 280-billion-parameter mixture-of-experts model pre-trained on 33.5 trillion tokens. The Decoder reports that Baidu deliberately shipped the model without any fine-tuning, leaving it as a raw foundation model developers can adapt however they want. The release is open-source, following a pattern of large Chinese labs releasing open foundation models. The excerpt does not specify the model's license terms or benchmark results.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42451"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42451",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
+     "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/",
+     "published": "2026-11-05T17:56:41+00:00",
+     "excerpt": "Baidu releases ERNIE 5.5 Flash Base: a 280-billion-parameter MoE model pre-trained on 33.5 trillion tokens, shipped deliberately without fine-tuning, so developers can take it wherever they want. The article Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T17:56:41+00:00"
+  },
+  {
+   "title": "Airbnb plans to launch an AI travel agent in early 2027",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Airbnb said in its Q3 2026 earnings letter that it will roll out an AI agent in the first half of 2027 to help users plan, book, and manage trips.",
+   "more": "Airbnb disclosed the plan in its Q3 2026 earnings shareholder letter, saying the agent will help travelers plan and book trips, compare options, manage bookings, and get assistance during their stay. The company argued that current AI agents are good at simple, routine tasks like a restaurant reservation, but that travel planning needs something more capable. Airbnb did not give further technical detail on the agent in the excerpts available, including which models or partners it will use.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1028412",
+    "techcrunch-ai:https://techcrunch.com/?p=3185656"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1028412",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Airbnb is working on an AI travel agent",
+     "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+     "published": "2026-11-06T00:06:12+00:00",
+     "excerpt": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185656",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+     "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+     "published": "2026-11-05T22:40:55+00:00",
+     "excerpt": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-06T00:06:12+00:00"
+  },
+  {
+   "title": "Harness-S trains agents by learning from sibling execution harnesses",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper, Harness-S, trains a single agent policy by selectively learning from variant 'sibling' harnesses that each repair different failures of a base agent system.",
+   "more": "The authors observe that harness variants evolved from a common base show Locality, Complementarity, and Nonstationarity: different variants fix different failures, and which ones help changes as the policy learns. Rather than seeking one harness that is best everywhere, Harness-S selectively uses sibling harnesses to rescue specific failures of a base execution system. It then transfers the resulting capabilities into a single policy that still performs well under the original, unmodified harness. The method is called Directional Harness Evolution, though the excerpt cuts off before detailing how the transfer is validated.",
+   "item_ids": [
+    "hf-papers:2611.04277"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.04277",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+     "url": "https://huggingface.co/papers/2611.04277",
+     "published": "2026-11-06T00:00:00+00:00",
+     "excerpt": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T00:00:00+00:00"
+  },
+  {
+   "title": "Perplexity launches 'Teammates,' always-on AI agents for work",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Perplexity introduced Teammates, always-on AI agents that take on roles within a workspace and pull in a user's existing Perplexity projects, skills, and memory.",
+   "more": "Perplexity's new Teammates feature lets always-on AI agents take on multiple roles within a company workspace, competing directly with work-agent offerings from OpenAI and Anthropic. The agents draw on projects, skills, and memory a user already has stored in Perplexity's tools. Teammates also integrates with Perplexity Computer, a system described as being able to deploy agents directly on a user's device. The available excerpt does not specify pricing or availability.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1028302"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1028302",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Perplexity launches its own take on AI agents for work",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+     "published": "2026-11-05T22:26:50+00:00",
+     "excerpt": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer, an AI system that can deploy agents on your device […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T22:26:50+00:00"
+  },
+  {
+   "title": "No AI agent tops 12% on SemiAnalysis' new real-world work benchmark",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "SemiAnalysis's new GDPx benchmark tests AI agents on simulated knowledge work from chip design to quant trading; no model scores above 12 percent.",
+   "more": "SemiAnalysis's new GDPx benchmark puts AI agents through simulated knowledge work spanning domains from chip design to quantitative trading. According to The Decoder, no model scores above 12 percent, with Claude Opus 5.5 narrowly ahead of Gemini 4 Carbon. Critics cited in the report point to the small number of tasks per domain and uneven testing conditions as reasons to be cautious about the results. The benchmark adds to a string of recent evaluations suggesting current AI agents still struggle with complex, real-world work.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42443"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42443",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "No AI agent scores above 12 percent on SemiAnalysis' new real-world work benchmark",
+     "url": "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/",
+     "published": "2026-11-05T16:46:24+00:00",
+     "excerpt": "SemiAnalysis is putting AI agents through simulated knowledge work in its new GDPx benchmark, covering everything from chip design to quant trading. No model breaks 12 percent. Claude Opus 5.5 leads narrowly over Gemini 4 Carbon. Critics point to the small number of tasks per domain and uneven testing conditions. The article No AI agent scores above 12 percent on SemiAnalysis' new real-world work benchmark appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T16:46:24+00:00"
+  },
+  {
+   "title": "Meta's Muse AI agent gets real-time voice and video chat",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta added real-time voice conversations and video calls with a customizable animated avatar to its Muse AI agent, ahead of a wearable designed to bring Muse to life.",
+   "more": "Meta CEO Mark Zuckerberg announced that users can now have real-time voice conversations with their Muse AI agent, a feature The Verge's reporter tested on the iOS app. TechCrunch reported that US users can also now video chat with Muse through a customizable animated avatar. Meta is rolling the avatar-based calling out ahead of a planned Tamagotchi-like wearable device intended to bring the Muse agent into physical form. Neither report specifies a wider international rollout timeline.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1028015",
+    "techcrunch-ai:https://techcrunch.com/?p=3185610"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1028015",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Muse has a voice mode now",
+     "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+     "published": "2026-11-05T19:03:04+00:00",
+     "excerpt": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185610",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Meta says US users can now video chat with their Muse AI avatar",
+     "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+     "published": "2026-11-05T19:48:28+00:00",
+     "excerpt": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-05T19:48:28+00:00"
+  },
+  {
+   "title": "Anthropic launches Claude Personal Finance, linking Claude to bank accounts via Plaid",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic launched a Personal Finance feature that connects Claude to users' bank and card accounts through Plaid, letting them ask where their money went each month.",
+   "more": "Anthropic's new Personal Finance feature connects Claude directly to a user's bank and card accounts using the Plaid bank-bridging platform. Users can ask natural-language questions such as 'where did my money go this month' and get an overview of their spending. The feature positions Claude as a tool for managing personal finances rather than just answering questions about them. Both reports describe the Plaid integration but do not detail which banks or account types are currently supported.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1027652",
+    "techcrunch-ai:https://techcrunch.com/?p=3185468"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1027652",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Claude AI can plug directly into your bank account",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+     "published": "2026-11-05T18:00:00+00:00",
+     "excerpt": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can ask the chatbot \"where did my money go this month,\" for example, and it'll create an overview […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185468",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Claude can now analyze your spending with its new Personal Finance tool",
+     "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+     "published": "2026-11-05T18:00:00+00:00",
+     "excerpt": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-05T18:00:00+00:00"
+  },
+  {
+   "title": "Ads are arriving in AI chatbots as rivals navigate what works",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports that as Anthropic keeps its pledge to keep ads out of Claude, other AI chatbot makers are racing to court advertisers without alienating users.",
+   "more": "Wired reports that AI chatbot makers are increasingly experimenting with advertising, trying to find formats that work for both advertisers and users. Anthropic is highlighted as an exception, maintaining its stated commitment to keep ads out of Claude. The excerpt does not name which other chatbots are running ads or what formats have worked best so far.",
+   "item_ids": [
+    "wired-ai:6aecb226aada98abfcc68c76"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6aecb226aada98abfcc68c76",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+     "url": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+     "published": "2026-11-05T21:37:18+00:00",
+     "excerpt": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T21:37:18+00:00"
+  },
+  {
+   "title": "Grimes to star in 'Gods Don't Give Gifts,' an AI film for theaters",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Pop star Grimes is joining the cast of Gods Don't Give Gifts, billed as the first AI-generated film to reach theaters, testing AI films' commercial potential.",
+   "more": "The Verge reports that Grimes has joined the cast of Gods Don't Give Gifts, an AI-generated science fiction film. The movie is billed as the first AI film to come to theaters, making it a notable test case for whether AI-generated films can succeed commercially. The excerpt is cut off before giving a release date or further production details.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1026282"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1026282",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Grimes is going to star in an AI movie that’s coming to theaters",
+     "url": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
+     "published": "2026-11-05T17:00:00+00:00",
+     "excerpt": "The AI-generated sci-fi film Gods Don't Give Gifts has added a bit of star power: Pop star Grimes is going to appear in the movie. Billed as \"the first AI film to come to theatres,\" Gods Don't Give Gifts is a notable test case for the commercial potential of AI films, and it releases on […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T17:00:00+00:00"
+  },
+  {
+   "title": "Cuban: Facebook knowingly ran AI deepfake scam ads worth $16B in revenue",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Mark Cuban says Facebook knowingly ran AI deepfake scam advertisements, with internal documents allegedly showing $16 billion in associated fraud revenue, per a Hacker News discussion.",
+   "more": "According to a report discussed on Hacker News, Mark Cuban alleges that Facebook knowingly ran scam advertisements using AI-generated deepfakes. Internal documents cited in the underlying report reportedly put associated fraud revenue at $16 billion. The discussion drew 250 points and 112 comments on Hacker News, but the available excerpt does not include further detail on the documents or Facebook's response.",
+   "item_ids": [
+    "hn:50385870"
+   ],
+   "items": [
+    {
+     "id": "hn:50385870",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+     "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+     "published": "2026-11-05T23:09:57+00:00",
+     "excerpt": "250 points, 112 comments. Discussion: https://news.ycombinator.com/item?id=50385870"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T23:09:57+00:00"
+  },
+  {
+   "title": "Lawsuit says a woman used ChatGPT to help plan her husband's murder",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A lawsuit alleges a man introduced his wife to ChatGPT, which she then used to plan his murder, reportedly including poisoning disguised as bitter energy drinks.",
+   "more": "Ars Technica reports on a lawsuit alleging that a man's wife used ChatGPT to help plan his murder after he introduced her to the chatbot. According to the report, the poisoning was disguised using bitter energy drinks. The excerpt does not name the parties involved or specify the lawsuit's current status.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
+     "url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+     "published": "2026-11-05T21:39:40+00:00",
+     "excerpt": "Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T21:39:40+00:00"
+  },
+  {
+   "title": "Meta warns election backlash against data centers could slow AI growth",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta warned that growing political opposition to data centers, following this week's elections, could threaten future AI infrastructure investment as communities push back.",
+   "more": "TechCrunch reports that Meta is warning investors and the public that election-driven backlash against data centers could make it harder to expand AI infrastructure. The company points to growing political opposition in communities where large data center projects are proposed. The excerpt does not detail which specific Meta projects or regions are affected.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185548"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185548",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+     "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+     "published": "2026-11-05T19:12:39+00:00",
+     "excerpt": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T19:12:39+00:00"
+  },
+  {
+   "title": "Democrats' election sweep seen as a political backlash against AI",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge reports that Tuesday's Democratic sweep of the House, Senate, and several governorships is being read as a political repudiation hitting the AI industry.",
+   "more": "On Tuesday night, Democrats took control of both the House and the Senate, with a blue wave sweeping traditionally red and swing states. Georgia elected its first Black woman governor and New Mexico its first Native American woman governor, while a Maine senator ceded their race, according to The Verge. The piece frames these results as a 'total repudiation' that is about to hit the AI industry, though the excerpt does not specify which AI-related policies or companies are expected to be most affected.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1026927"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1026927",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "‘Total repudiation’: The blue wave is about to hit AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+     "published": "2026-11-05T17:51:52+00:00",
+     "excerpt": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and a Maine Senator ceding to […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T17:51:52+00:00"
+  },
+  {
+   "title": "Halley proposes a predictive control plane for optical AI data center networks",
+   "tags": [
+    "research",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces Halley, a predictive control plane for the optical networks linking accelerators in AI data centers, aimed at curbing correlated hardware failures.",
+   "more": "Training a frontier model uses tens of thousands of accelerators linked by a dedicated optical network with four layers, from lasers to switches, each currently running a fixed or after-the-fact policy. Lasers that share an enclosure, cooling, or power can fail together, and at a fixed spare ratio this correlated failure caps a pool's availability no matter how large it grows. The paper introduces Halley, a predictive control plane meant to address this bottleneck across the optical network's layers. The available excerpt does not describe how Halley's predictions are generated or report any results.",
+   "item_ids": [
+    "hf-papers:2611.04408"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.04408",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+     "url": "https://huggingface.co/papers/2611.04408",
+     "published": "2026-11-05T00:00:00+00:00",
+     "excerpt": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fixed spare ratio, correlated failure provably caps a pool's availability however large it grows. In th"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T00:00:00+00:00"
+  },
+  {
+   "title": "Report: Claude Code sends users' email addresses to websites it visits",
+   "tags": [
+    "tools",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A GitHub issue reports that Claude Code sends a user's email address to websites it visits, drawing heavy Hacker News attention with 869 points and 285 comments.",
+   "more": "A GitHub issue linked from Hacker News reports that Anthropic's Claude Code tool sends a user's email address to websites it visits during use. The report drew substantial attention on Hacker News, with 869 points and 285 comments. The available excerpt does not describe Anthropic's response or whether a fix has been issued.",
+   "item_ids": [
+    "hn:50385272"
+   ],
+   "items": [
+    {
+     "id": "hn:50385272",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Claude Code sends your email address to websites",
+     "url": "https://github.com/anthropics/claude-code/issues/107757",
+     "published": "2026-11-05T22:17:15+00:00",
+     "excerpt": "869 points, 285 comments. Discussion: https://news.ycombinator.com/item?id=50385272"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T22:17:15+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA hopes falling DRAM prices mean cheap RAM by Christmas",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A popular r/LocalLLaMA post speculates that falling DRAM prices could bring cheaper RAM in time for Christmas, relevant to those building machines to run local models.",
+   "more": "A post on r/LocalLLaMA titled 'Maybe we'll get cheap RAM for Christmas after all!' is circulating among users who build machines to run local language models. The available excerpt does not include the post's body, so specifics on pricing trends or sourcing are not available here.",
+   "item_ids": [
+    "localllama:t3_1xovnaa"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xovnaa",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Maybe we'll get cheap RAM for Christmas after all!",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xovnaa/maybe_well_get_cheap_ram_for_christmas_after_all/",
+     "published": "2026-11-05T22:00:25+00:00",
+     "excerpt": "submitted by /u/keepthepace [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T22:00:25+00:00"
+  },
+  {
+   "title": "Hungary releases Communist-era files, revealing up to 60,000 former agents",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Hungary released Communist-era secret police files, reportedly revealing up to 60,000 former agents, according to a Hacker News discussion of a Euronews report.",
+   "more": "According to a Euronews report discussed on Hacker News, Hungary has released files from the Communist era that reveal up to 60,000 former secret agents. The discussion drew 198 points and 47 comments on Hacker News.",
+   "item_ids": [
+    "hn:50383163"
+   ],
+   "items": [
+    {
+     "id": "hn:50383163",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
+     "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
+     "published": "2026-11-05T19:16:34+00:00",
+     "excerpt": "198 points, 47 comments. Discussion: https://news.ycombinator.com/item?id=50383163"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T19:16:34+00:00"
+  },
+  {
+   "title": "Simon Willison quotes Paul Ford on the power of the web browser",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison shared a quote from Paul Ford arguing that the web browser remains extremely powerful software, with the cost of accessing that power falling every day.",
+   "more": "Simon Willison quoted writer Paul Ford's piece 'The Web Is More Than Enough,' which argues that the web browser is very powerful application software and that the cost of accessing that power keeps falling. The quoted piece is tagged browsers, Paul Ford, and web development on Willison's site.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/5/paul-ford/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/5/paul-ford/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Paul Ford",
+     "url": "https://simonwillison.net/2026/Nov/5/paul-ford/",
+     "published": "2026-11-05T17:34:03+00:00",
+     "excerpt": "The web browser is very, very, very powerful software for applications, and the cost of accessing that power is going down seemingly every day . — Paul Ford , The Web Is More Than Enough Tags: browsers , paul-ford , web-development"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-05T17:34:03+00:00"
+  }
+ ]
+}
