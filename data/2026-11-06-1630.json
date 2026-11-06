@@ -1,0 +1,294 @@
+{
+ "date": "2026-11-06",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Inkling 2 Small trains in 68 hours on 12T tokens, beats Muse Spark",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Latent Space's AINews covers Inkling 2 Small, a 17A-594B model trained in 68 hours on 12 trillion tokens that reportedly beats Muse Spark.",
+   "more": "The AINews roundup from Latent Space highlights Inkling 2 Small, described as a 17A-594B parameter model trained in just 68 hours on 12 trillion tokens, with results said to beat Muse Spark. The same edition also covers METR's study of AI research practices at Anthropic. Details on who built Inkling 2 Small, its intended use, and the specifics of the Muse Spark comparison are not given beyond the headline figures.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_f6bfef19-e48a-4a0a-a73a-8361a44fe6a9"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_f6bfef19-e48a-4a0a-a73a-8361a44fe6a9",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+     "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+     "published": "2026-11-06T10:35:21+00:00",
+     "excerpt": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T10:35:21+00:00"
+  },
+  {
+   "title": "WeLM-Image unifies understanding and generation for WeChat deployment",
+   "tags": [
+    "models",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "WeLM-Image is a unified image model combining multimodal understanding with generation and editing, built for single-GPU deployment in WeChat's apps.",
+   "more": "WeLM-Image integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis in one model. It is designed for single-GPU deployment at the scale of WeChat's consumer applications, processing text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers backbone combines shared attention with independent understanding and generation parameters to limit optimization conflicts between the two objectives. The excerpt is cut off before giving benchmark results or release details.",
+   "item_ids": [
+    "hf-papers:2611.07392"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.07392",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+     "url": "https://huggingface.co/papers/2611.07392",
+     "published": "2026-11-06T00:00:00+00:00",
+     "excerpt": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared attention with independent understanding and generation parameters to limit optimi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T00:00:00+00:00"
+  },
+  {
+   "title": "Trending: ricursiveAI releases Ripple-65B-Preview with open weights",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ripple-65B-Preview, a new model from ricursiveAI, is trending on Hugging Face with 300 likes and over 2,000 downloads under an Apache 2.0 license.",
+   "more": "Ripple-65B-Preview is listed as a trending model on Hugging Face, tagged safetensors and custom_code, and released under the Apache 2.0 license, making its weights openly usable. It has accumulated 300 likes and 2,013 downloads so far. No further details on the model's architecture, training data, or benchmark performance are given in the listing.",
+   "item_ids": [
+    "hf-trending:ricursiveAI/Ripple-65B-Preview"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:ricursiveAI/Ripple-65B-Preview",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: ricursiveAI/Ripple-65B-Preview",
+     "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+     "published": "2026-11-04T02:41:21+00:00",
+     "excerpt": "300 likes, 2013 downloads. Tags: safetensors, ricursive, custom_code, license:apache-2.0, region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T02:41:21+00:00"
+  },
+  {
+   "title": "VFlash speeds up visual planning with Flash Primitive Decoding",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "VFlash introduces Flash Primitive Decoding to make visual planning for robotics and autonomous driving faster without generating coordinates one token at a time.",
+   "more": "The paper notes that physical AI tasks like robotics and autonomous driving often rely on visual plans, such as points, bounding boxes, and trajectories, rather than language alone. Existing autoregressive vision-language models generate these plans one coordinate token at a time, which becomes costly for richer predictions. VFlash is presented as a method that exploits known structure to decode these primitives faster while preserving accuracy. The excerpt does not report specific speedups or benchmark comparisons.",
+   "item_ids": [
+    "hf-papers:2611.08449"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.08449",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+     "url": "https://huggingface.co/papers/2611.08449",
+     "published": "2026-11-06T00:00:00+00:00",
+     "excerpt": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known st"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T00:00:00+00:00"
+  },
+  {
+   "title": "BestRand shows random sampling can compress benchmarks cheaply",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper, BestRand, derives an analytical model of benchmark-subset estimation error, finding random sampling can still yield low-cost, stable results.",
+   "more": "The paper addresses benchmark compression, which evaluates models on a small subset of a benchmark to approximate full-benchmark scores and save time and cost. The authors derive an analytical approximation of the error distribution when estimating full scores from a subset, showing most subsets produce small errors while a few produce much larger, long-tailed errors. This leads to their BestRand method for selecting stable, low-cost subsets. The excerpt does not specify which benchmarks or models were used to validate the approach.",
+   "item_ids": [
+    "hf-papers:2611.00883"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.00883",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+     "url": "https://huggingface.co/papers/2611.00883",
+     "published": "2026-11-06T00:00:00+00:00",
+     "excerpt": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produce much larger errors, resulting in a long-tailed distribution. This means random sampling alone can "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T00:00:00+00:00"
+  },
+  {
+   "title": "TailSteer targets drift in multi-turn AI image editing",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "TailSteer is a training framework aimed at preventing visual drift that builds up when AI image edits are repeatedly reused across multiple turns.",
+   "more": "The paper observes that strong single-turn image editing performance doesn't guarantee reliable multi-turn interaction, since small unintended changes can accumulate into severe visual drift as edited outputs are reused. Prior fixes involve training on multi-turn data or cross-turn rollouts, which can alter pretrained priors, or specialized inference-time mechanisms that are hard to scale. TailSteer is introduced as a final-stage training framework intended to address this drift-resistance problem. The excerpt is cut off before describing TailSteer's specific mechanism or results.",
+   "item_ids": [
+    "hf-papers:2611.06741"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.06741",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+     "url": "https://huggingface.co/papers/2611.06741",
+     "published": "2026-11-06T00:00:00+00:00",
+     "excerpt": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are difficult to scale to foundation models. We introduce TailSteer, a final-stage training framework that i"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T00:00:00+00:00"
+  },
+  {
+   "title": "Humanoid robot cleaning service debuts in San Francisco",
+   "tags": [
+    "robotics",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "MIT Technology Review tried a new San Francisco humanoid-robot home cleaning service, calling the experience a glimpse of the future.",
+   "more": "The MIT Technology Review writer signed up for a newly launched humanoid-robot cleaning service in San Francisco after seeing it mentioned in a social media post, despite not usually hiring a house cleaner. The piece describes watching the robot clean the author's apartment and reflects on what it suggests about the near future of home robotics. The article does not name the company behind the service or give pricing or availability details beyond the San Francisco launch.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1148090"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1148090",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+     "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+     "published": "2026-11-06T10:00:00+00:00",
+     "excerpt": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T10:00:00+00:00"
+  },
+  {
+   "title": "SLA scales spatial-language-action models via continual pre-training",
+   "tags": [
+    "robotics",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "SLA is a Spatial-Language-Action model that adds transferable 3D spatial understanding to robot manipulation through continual pre-training on broader robot experience.",
+   "more": "The paper argues that reliable robotic manipulation needs both semantic understanding and precise control in three-dimensional space, but vision-language-action models typically inherit 2D visual representations from vision-language pre-training and only add spatial supervision during task-specific adaptation. SLA instead aims to make spatial understanding a transferable foundation-model capability by learning from broader robot experience through continual pre-training. The excerpt is cut off before describing SLA's training data, scale, or evaluation results. Specific performance comparisons against prior VLA models are not given.",
+   "item_ids": [
+    "hf-papers:2611.08373"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.08373",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+     "url": "https://huggingface.co/papers/2611.08373",
+     "published": "2026-11-06T00:00:00+00:00",
+     "excerpt": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language-"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T00:00:00+00:00"
+  },
+  {
+   "title": "DPDM paper proposes a shared conditional predictor for agent decisions",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces Decoupled Predictive Decision Making (DPDM), which uses a shared pretrained predictor to handle heterogeneous agent decisions.",
+   "more": "The paper frames agent decision-making as conditional prediction, arguing that task descriptions alone often cannot resolve the empirical relationships that deployment observations reveal. DPDM pairs language models, which provide semantic representations of current and historical records, with a general-purpose conditional predictor that forecasts task-defined targets from that represented evidence. The excerpt does not give benchmark results or specify which agent tasks were tested. Further architectural and evaluation details are not included in the available summary.",
+   "item_ids": [
+    "hf-papers:2611.02075"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.02075",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+     "url": "https://huggingface.co/papers/2611.02075",
+     "published": "2026-11-06T00:00:00+00:00",
+     "excerpt": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented evi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic adds bank account access to Claude for spending tracking",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic launched a Personal Finance feature in Claude that lets users connect bank and card accounts and ask questions about their spending.",
+   "more": "According to The Decoder, the new Personal Finance feature allows Claude users to link their bank and card accounts directly within the app. Once connected, users can ask Claude natural-language questions about their finances and spending patterns. The report does not detail which banks or card providers are supported, nor how the feature handles data security or privacy. It is also unclear whether the feature is available to all Claude users or a limited rollout.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42478"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42478",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic adds bank account access to Claude so users can track their spending",
+     "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/",
+     "published": "2026-11-06T11:33:13+00:00",
+     "excerpt": "Anthropic is introducing a new feature in Claude called Personal Finance, which allows users to connect their bank and card accounts and ask questions about their finances. The article Anthropic adds bank account access to Claude so users can track their spending appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T11:33:13+00:00"
+  },
+  {
+   "title": "Anthropic's $1.5 trillion IPO valuation meets investor pushback",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic's planned IPO is running into resistance as investors balk at a $1.5 trillion valuation amid a broader tech market selloff.",
+   "more": "The Decoder reports that Anthropic's IPO process is encountering difficulty because investors are pushing back on the proposed $1.5 trillion valuation. The pushback comes alongside a wider selloff in tech markets, which is making investors more cautious about high valuations. The report does not specify a revised valuation or timeline. It is unclear how Anthropic or its underwriters plan to respond to the investor resistance.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42480"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42480",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation",
+     "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
+     "published": "2026-11-06T11:38:17+00:00",
+     "excerpt": "Anthropic's IPO is in trouble as investors push back on the $1.5 trillion valuation and the tech market sells off. The article Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T11:38:17+00:00"
+  }
+ ]
+}
