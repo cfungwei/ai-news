@@ -1,0 +1,537 @@
+{
+ "date": "2026-11-07",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "NousResearch releases Arete-27B, a Qwen finetune tuned against CCP framing",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "NousResearch released Arete-27B, a finetune of Alibaba's Qwen3.8-27B meant to reduce refusals and CCP-aligned framing on politically sensitive topics, posted to Hugging Face.",
+   "more": "NousResearch describes Arete-27B as a post-trained version of Alibaba's Qwen3.8-27B, intended to reflect different values than the model it was trained on. The team says it observed refusals, deflections, and CCP-framed answers from the base model on politically sensitive topics and built Arete-27B to address that. Weights were published to Hugging Face, including a GGUF version from bartowski. The r/LocalLLaMA post frames the release as part of a broader argument that open models let users choose which values a model ships with.",
+   "item_ids": [
+    "localllama:t3_1xpmj33"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xpmj33",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "NousResearch/Arete-27B · Hugging Face (Qwen finetune)",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
+     "published": "2026-11-06T19:58:47+00:00",
+     "excerpt": "https://huggingface.co/bartowski/NousResearch_Arete-27B-GGUF from NousResearch: Arete-27B We post-trained over Alibaba's Qwen3.8-27B to reinforce western values on a Chinese-trained model. We call this new model Arete-27B. Open source models give labs the raw tools to mold intelligence to varied preferences. The values a model ships with should not be the only values its users get to choose from. We observed firsthand refusals, deflections, and CCP-framed answers on politically sensitive topics "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T19:58:47+00:00"
+  },
+  {
+   "title": "Ricursive Intelligence releases Ripple-65B, an open US coding model",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ricursive Intelligence released Ripple-65B Preview, a 65-billion-parameter Apache 2.0 model it says tops open-source US models on the TerminalBench 2.1 coding benchmark, built for $32 million, The Decoder reports.",
+   "more": "The Decoder reports Ripple-65B Preview is a 65-billion-parameter open-weight model released under the Apache 2.0 license. Ricursive Intelligence says it achieves the top score among open-source US models on the TerminalBench 2.1 agentic coding benchmark. The company reports a total R&D cost of $32 million for the model. On other benchmarks, however, the report says Ripple falls behind Inkling 2 Small, another newly released open Western model.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42519"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42519",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
+     "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/",
+     "published": "2026-11-06T19:47:04+00:00",
+     "excerpt": "Ricursive Intelligence is releasing Ripple-65B Preview, a 65-billion-parameter open-weight language model that the company says achieves the top score among open-source U.S. models on the TerminalBench 2.1 coding benchmark at a total R&D cost of $32 million. On other benchmarks, however, Ripple falls behind the likewise newly released western open model Inkling 2 Small. The article Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model appeared first on The"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T19:47:04+00:00"
+  },
+  {
+   "title": "Free Chinese AI models DeepSeek, GLM close gap on hacking skill",
+   "tags": [
+    "models",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A hacking benchmark testing AI models' ability to break into simulated networks found DeepSeek and GLM not far behind OpenAI's most advanced, unreleased cyber model, Wired reports.",
+   "more": "Wired reports the experiment asked various AI models to attempt breaking into simulated computer networks to measure offensive hacking capability. DeepSeek and GLM, both freely available Chinese models, scored not far behind OpenAI's most advanced cyber-focused model, which has not been made public. The comparison suggests open Chinese models are closing the gap with leading labs on offensive security tasks. The report doesn't specify exact benchmark scores or methodology in detail.",
+   "item_ids": [
+    "wired-ai:6aeb76b2899aefeeb033197b"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6aeb76b2899aefeeb033197b",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+     "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
+     "published": "2026-11-06T18:43:43+00:00",
+     "excerpt": "An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T18:43:43+00:00"
+  },
+  {
+   "title": "Open WebUI's new VM control feature lets a model draw freehand",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A viral r/LocalLLaMA post shows a local model controlling mouse coordinates inside a virtual desktop VM to draw freehand, enabled by new Open WebUI 0.13.0 and Open Terminal 0.17.2 features.",
+   "more": "The r/LocalLLaMA poster says they loaded a local model into Open WebUI version 0.13.0, which now supports controlling a virtual desktop VM running Open Terminal version 0.17.2. Rather than generating SVG code or using Python to draw, the model controlled mouse coordinates directly to draw a dog freehand inside the VM. The post frames this as a notable step up from earlier 'pelican on a bike' style drawing demos. Exact technical details of how the VM control integration works weren't included in the excerpt.",
+   "item_ids": [
+    "localllama:t3_1xpmvf2"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xpmvf2",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "We are cooked. My QFN 3.8 NVFP4 just drew a dog freehand in MS Paint (using new Open WebUI 0.13.0 and Open Terminal 0.17.2)",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmvf2/we_are_cooked_my_qfn_38_nvfp4_just_drew_a_dog/",
+     "published": "2026-11-06T20:12:07+00:00",
+     "excerpt": "Forget stupid pelican on a bike SVG bullshit. Forget cheating by drawing using Python code. I just loaded up QFN 3.8 in the new Open WebUI 0.13.0 and it just said “hold my beer” and started drawing with the friggin’ mouse coordinates inside a VM. I’m going to print this and hang it on my wall like a proud parent. Seriously tho, this is all possible because of the new Open WebUI 0.13.0 features that let you control a virtual desktop VM that is running in 0.17.2 version of their Open Terminal repo"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T20:12:07+00:00"
+  },
+  {
+   "title": "LLM judge technique reaches Opus-level accuracy at a quarter of the cost",
+   "tags": [
+    "tools",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News-discussed Hightouch post describes a cheaper judge model that can escalate to Opus, matching Opus's accuracy on identity resolution at 4x lower cost.",
+   "more": "The post, from Hightouch's engineering blog, describes an identity-resolution task where a cheaper judge model can ask Anthropic's Opus for help on harder cases rather than always calling Opus directly. The approach reportedly matches Opus-level accuracy while cutting cost roughly fourfold. The Hacker News submission drew 417 points and 94 comments. The excerpt doesn't specify which smaller model serves as the judge or the exact dataset used to measure accuracy.",
+   "item_ids": [
+    "hn:50397429"
+   ],
+   "items": [
+    {
+     "id": "hn:50397429",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+     "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+     "published": "2026-11-06T19:48:51+00:00",
+     "excerpt": "417 points, 94 comments. Discussion: https://news.ycombinator.com/item?id=50397429"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T19:48:51+00:00"
+  },
+  {
+   "title": "Hundreds of Artex AI pentesting tool servers found exposed online",
+   "tags": [
+    "tools",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Security researchers found hundreds of servers running the penetration testing tool Artex publicly exposed on the internet, giving anyone access to the hacking tool, TechCrunch reports.",
+   "more": "TechCrunch reports security researchers discovered the exposed servers were running Artex, a penetration testing tool. The exposure reportedly let anyone on the internet access the tool without authorization. The coverage does not specify who owns the exposed servers or whether any have been secured since discovery. It's unclear from available details whether any data was taken as a result.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185905"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185905",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+     "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+     "published": "2026-11-06T18:44:38+00:00",
+     "excerpt": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T18:44:38+00:00"
+  },
+  {
+   "title": "China reportedly recruited AI executive to spy on Nvidia's Jensen Huang",
+   "tags": [
+    "policy",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "China's intelligence agency allegedly recruited Megaspeed executive Alice Huang to gather information on US AI chips and push Nvidia toward supplying its most advanced chips to China, per the New York Times.",
+   "more": "The New York Times reported that China's Ministry of State Security enlisted Megaspeed executive Alice Huang for the effort. The goal was reportedly to learn more about advanced American AI chips and to potentially influence Nvidia to make its most capable chips available to China. Nvidia CEO Jensen Huang was the target of the alleged recruitment. The report did not detail what information, if any, was obtained.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1029338"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1029338",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+     "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+     "published": "2026-11-06T23:00:44+00:00",
+     "excerpt": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T23:00:44+00:00"
+  },
+  {
+   "title": "Midterm results add pressure on AI data center expansion",
+   "tags": [
+    "policy",
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Democratic wins in the US midterms, paired with 40 of 41 data center ballot measures passing restrictions, could reshape the AI industry's build-out plans, TechCrunch reports.",
+   "more": "TechCrunch reports that voters decided 41 data center-related ballot measures on Tuesday, and all but one favored imposing more restrictions on data center development. The outlet frames the results, combined with Democrats' broader midterm wins, as a potential turning point for the AI industry's infrastructure expansion. Even where data centers weren't directly on the ballot, the coverage says they were a significant factor in races. The reporting raises the question of whether the AI industry faces a harder two years ahead, without yet offering a verdict.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3185898",
+    "techcrunch-ai:https://techcrunch.com/?post_type=tc_video&p=3185895"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3185898",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "How a Blue Wave midterm might reshape the AI industry",
+     "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+     "published": "2026-11-06T18:00:00+00:00",
+     "excerpt": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?post_type=tc_video&p=3185895",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "After the midterms, is the AI industry in for a rough two years?",
+     "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+     "published": "2026-11-06T17:23:52+00:00",
+     "excerpt": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T18:00:00+00:00"
+  },
+  {
+   "title": "Meta abandons sketchy AI training terms update for Facebook pages",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta backed off a planned change to its commercial terms that would have forced Facebook page owners to allow linked content to be used for AI training, Ars Technica reports.",
+   "more": "Ars Technica reports Meta had proposed updating its commercial terms in a way that would have required Facebook page owners to permit AI training on content linked from their pages. The change drew criticism before Meta dropped it. The report frames the move as Meta recognizing it couldn't quietly push the terms through. Specifics on when the original update was proposed or how many page owners it would have affected weren't included.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+     "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+     "published": "2026-11-06T17:43:02+00:00",
+     "excerpt": "Meta won't force Facebook page owners to allow AI training on linked content."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T17:43:02+00:00"
+  },
+  {
+   "title": "Crusoe sells troubled Wyoming data center project to Google",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Crusoe offloaded a Wyoming AI data center project to Google after running into development problems, TechCrunch reports, highlighting the difficulty of building massive AI infrastructure.",
+   "more": "TechCrunch reports the deal involved a data center project in Wyoming that had run into trouble during development. Crusoe sold the project to Google rather than continuing to build it out itself. The outlet frames the sale as illustrating broader challenges in developing large-scale AI data centers. Details on the project's capacity, cost, or timeline were not included in the available coverage.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3186051"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186051",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Crusoe sells troubled Wyoming data center project to Google",
+     "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+     "published": "2026-11-07T01:40:28+00:00",
+     "excerpt": "The deal highlights the challenges of developing massive AI data centers."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T01:40:28+00:00"
+  },
+  {
+   "title": "Six pallets of Nvidia hardware worth $11.4M stolen en route to Texas",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA post reports six pallets of Nvidia hardware valued at $11.4 million were stolen while in transit to Texas, underscoring the value of AI chip shipments.",
+   "more": "The r/LocalLLaMA submission reports the theft of six pallets of Nvidia hardware worth a combined $11.4 million while the shipment was en route to Texas. The post itself doesn't name the carrier, the specific hardware models, or whether the shipment was recovered. It's unclear from the available excerpt whether law enforcement or Nvidia has commented on the theft.",
+   "item_ids": [
+    "localllama:t3_1xpqx1p"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xpqx1p",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Six Pallets of NVIDIA Hardware Worth $11.4 Million Stolen on the Way to Texas",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqx1p/six_pallets_of_nvidia_hardware_worth_114_million/",
+     "published": "2026-11-06T23:03:21+00:00",
+     "excerpt": "submitted by /u/chemist_slime [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T23:03:21+00:00"
+  },
+  {
+   "title": "The Verge tracks the ongoing fights breaking out over AI data centers",
+   "tags": [
+    "hardware",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge is running a continuously updated explainer on controversies around AI data centers, covering their strain on power grids, utility bills, and nearby communities.",
+   "more": "The piece functions as a running tracker of data center controversies rather than a single news event. It notes that massive new data centers underpin AI companies' growth plans, but their energy demands have triggered fights over power grid strain, utility bills, and the environment. The article frames data centers as a major bipartisan political issue ahead of recent elections. It does not report a single new development, but situates ongoing coverage of the topic.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?post_type=vm_stream&p=902546"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?post_type=vm_stream&p=902546",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "All the latest updates on AI data centers",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+     "published": "2026-11-06T20:02:22+00:00",
+     "excerpt": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T20:02:22+00:00"
+  },
+  {
+   "title": "Anthropic's IPO valuation hopes face growing doubts, reports say",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Reports from Bloomberg and Latent Space's AI newsletter suggest expectations for Anthropic's planned IPO valuation are being pressured, with some buyers reportedly eyeing a figure as low as $1.1 trillion.",
+   "more": "A Hacker News discussion of a Bloomberg report says some IPO buyers see Anthropic's valuation coming in as low as $1.1 trillion, below earlier expectations, amid a broader AI market pullback. Latent Space's daily AI newsletter led its same-day edition with the question of what comes next for Anthropic's IPO. The newsletter's edition also touched on other news, including ARC Prize testing the Inkling 2 Small model and Thinking Machines describing how it caught early checkpoints bypassing guardrails. Neither source gives a final valuation figure, as the IPO has not priced.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_7716b2e3-ddac-48e0-8890-6bd0b896d287",
+    "hn:50394906"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_7716b2e3-ddac-48e0-8890-6bd0b896d287",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Anthropic IPO: Whither Now?",
+     "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+     "published": "2026-11-07T03:04:53+00:00",
+     "excerpt": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails."
+    },
+    {
+     "id": "hn:50394906",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+     "published": "2026-11-06T16:54:36+00:00",
+     "excerpt": "267 points, 535 comments. Discussion: https://news.ycombinator.com/item?id=50394906"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-07T03:04:53+00:00"
+  },
+  {
+   "title": "OpenAI raises $11B more at $1.25 trillion valuation",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI has reportedly raised $11 billion more, taking its valuation to $1.25 trillion just months after an $852 billion round in March. The news comes as rival Anthropic reportedly nears its own IPO.",
+   "more": "The round, first reported by Bloomberg, has not yet closed and is expected to finalize in the coming weeks, according to TechCrunch. It would value OpenAI at $1.25 trillion, up from the $852 billion valuation set when the company raised $122 billion in March. The Financial Times and Wall Street Journal had previously reported similar figures. The new valuation would make OpenAI one of the world's most valuable companies. It comes as rival Anthropic reportedly nears its own IPO, though neither company's final numbers are confirmed.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1029380",
+    "techcrunch-ai:https://techcrunch.com/?p=3186034"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1029380",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+     "published": "2026-11-06T23:46:18+00:00",
+     "excerpt": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186034",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+     "published": "2026-11-06T22:53:46+00:00",
+     "excerpt": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-06T23:46:18+00:00"
+  },
+  {
+   "title": "Essay argues AI is already dramatically speeding up AI research",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A widely discussed essay submitted to Hacker News argues that AI tools are already meaningfully accelerating AI research itself, drawing over 200 comments.",
+   "more": "The essay, hosted on Planned Obsolescence and submitted to Hacker News, argues that AI systems are already producing a measurable speedup in AI research work. The submission drew 259 points and 209 comments on Hacker News, indicating significant community interest and debate. The available excerpt does not detail the specific evidence or examples the essay uses to support its claim. It's unclear from the listing alone whether the essay focuses on a particular lab or research area.",
+   "item_ids": [
+    "hn:50397994"
+   ],
+   "items": [
+    {
+     "id": "hn:50397994",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "AI is dramatically accelerating AI research",
+     "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+     "published": "2026-11-06T20:27:23+00:00",
+     "excerpt": "259 points, 209 comments. Discussion: https://news.ycombinator.com/item?id=50397994"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T20:27:23+00:00"
+  },
+  {
+   "title": "Perplexity launches 'Teammates,' an always-on AI agent for Max users",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Perplexity introduced Teammates, always-on agents that work through ongoing projects on their own virtual machines, priced on its $200/month Max plan, The Decoder reports.",
+   "more": "The Decoder reports Perplexity's new Teammates feature runs as an always-on agent that keeps working through a project on its own virtual machine rather than only responding to prompts. Access requires Perplexity's Max plan, priced at $200 per month, well above comparable offerings the report says OpenAI and Anthropic provide. The outlet frames the launch as part of a crowded and growing market for always-on AI agents. Specific capabilities or use cases for Teammates weren't detailed beyond the general description.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42486"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42486",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Perplexity now has its own always-on AI agent",
+     "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/",
+     "published": "2026-11-06T16:47:28+00:00",
+     "excerpt": "Perplexity is launching \"Teammates,\" always-on agents that work through ongoing projects on their own virtual machines. The feature requires the Max plan at $200 per month, well above similar offerings from OpenAI or Anthropic. The market for always-on agents is getting crowded. The article Perplexity now has its own always-on AI agent appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T16:47:28+00:00"
+  },
+  {
+   "title": "Meta's Muse AI adds \"Spaces\" for building custom mini-apps",
+   "tags": [
+    "products",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta added a feature called Spaces to its Muse AI assistant, letting users build app-like experiences such as shopping hubs, dashboards, or trivia games inside the app.",
+   "more": "The Verge reports Spaces lets Muse build customized, app-like experiences you can interact with directly inside the app. Examples cited include a shopping hub, a school dashboard, a music tracker, and a trivia game. TechCrunch describes it as a new way to collaborate with a Muse agent rather than just chat with it. Meta says users can create a new space themselves, though exact creation steps weren't detailed in the coverage.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1028871",
+    "techcrunch-ai:https://techcrunch.com/?p=3185929"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1028871",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+     "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+     "published": "2026-11-06T18:10:10+00:00",
+     "excerpt": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185929",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+     "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+     "published": "2026-11-06T18:44:20+00:00",
+     "excerpt": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-06T18:44:20+00:00"
+  },
+  {
+   "title": "Simon Willison highlights Nilay Patel's skepticism on AI product value",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison quoted Decoder host Nilay Patel arguing that AI products, from AI Overviews to agents, aren't good enough to justify their costs, including data centers' local impact.",
+   "more": "The quoted remarks, attributed to Nilay Patel, argue that AI products aren't compelling enough to offset their costs, pointing to AI Overviews and deepfake slop as unconvincing results. Patel's comment also questions whether AI agents are 'real' or being used the way companies intend. The quote notes that the companies involved are spending more than they're making on these products. Willison's post frames this as a notable critique worth highlighting rather than adding extensive original commentary of his own.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/6/nilay-patel/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/6/nilay-patel/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Nilay Patel",
+     "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+     "published": "2026-11-06T17:13:12+00:00",
+     "excerpt": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spending more than they're making on these products. Refrigerators holding blood storage in Europ"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T17:13:12+00:00"
+  },
+  {
+   "title": "AI anxiety is becoming a dating dealbreaker, The Verge reports",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge profiles daters, including one in San Francisco, who now screen matches for views on AI, as fears about the technology's effects shape romantic preferences.",
+   "more": "The piece centers on a 25-year-old analyst in San Francisco who noticed dating app prompts increasingly touching on AI anxieties after she moved there. It frames AI attitudes, from boosterism to doomerism about a coming singularity, as a new axis people use to screen potential partners. The article is a culture feature rather than a report on a single event or launch. It does not cite data on how widespread the trend is.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1028609"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1028609",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "AI is the new dating dealbreaker",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+     "published": "2026-11-06T17:00:00+00:00",
+     "excerpt": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt where […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T17:00:00+00:00"
+  }
+ ]
+}
