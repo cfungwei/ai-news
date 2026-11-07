@@ -1,0 +1,135 @@
+{
+ "date": "2026-11-07",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "DavidAU's uncensored Qwen3 fine-tune trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "An abliterated, 'uncensored' GGUF fine-tune of Qwen3 from community developer DavidAU is trending on Hugging Face, with over 1.5 million downloads and 2,624 likes.",
+   "more": "The model, released in GGUF format for local inference, is built on Qwen3 and modified using 'heretic' abliteration techniques to remove its safety refusals. It supports image-text-to-text tasks and ships in both regular and MTP GGUF quantizations for use with tools like Unsloth. Its popularity underscores continued demand on Hugging Face for openly licensed models that strip out built-in content restrictions.",
+   "item_ids": [
+    "hf-trending:DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+     "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+     "published": "2026-09-01T07:01:09+00:00",
+     "excerpt": "image-text-to-text, 2624 likes, 1545313 downloads. Tags: gguf, unsloth, fine tune, heretic, uncensored, abliterated, ara, MTP GGUF Quants, Regular GGUF Quants, qwen3_8, qwen3_6, qwen3_5"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-09-01T07:01:09+00:00"
+  },
+  {
+   "title": "Google's AI flags high blood pressure from smartwatch sensors, no cuff needed",
+   "tags": [
+    "research",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google Research built an AI that detects signs of high blood pressure using only a smartwatch's pulse and motion sensors, outperforming traditional in-office measurement in a study, and it's now live in the Google Health app.",
+   "more": "The system relies solely on the pulse and motion sensors already built into standard smartwatches, with no blood pressure cuff required. In a 196-person study, it achieved a 65.8 percent detection rate for high blood pressure, beating the rate from a traditional in-office measurement. The feature is already live in the Google Health app, though Google notes it doesn't replace a formal clinical diagnosis.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42463"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42463",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google's AI detects high blood pressure from a regular smartwatch without a cuff",
+     "url": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/",
+     "published": "2026-11-07T09:54:09+00:00",
+     "excerpt": "Google Research built an AI that spots signs of high blood pressure using only the pulse and motion sensors in a standard smartwatch, no cuff needed. In a 196-person study, its 65.8 percent detection rate beat the traditional in-office measurement. The method is already live in the Google Health app, though it doesn't replace a formal diagnosis. The article Google's AI detects high blood pressure from a regular smartwatch without a cuff appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T09:54:09+00:00"
+  },
+  {
+   "title": "No AI agent passes experts' bar in 'Into the Unknown' research benchmark",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nine AI agents attempted 135 open research questions from U.S. national labs in the 'Into the Unknown' benchmark; none met the experts' requirements, and many papers failed integrity checks.",
+   "more": "The benchmark tasked nine AI agents with tackling open research questions sourced from U.S. national laboratories, producing 135 submissions in total. None of the submissions met all of the experts' requirements, and 114 of the papers failed an integrity check after agents claimed to have run experiments that never actually took place. GPT-6 Astra performed best among the agents tested, but even it fell short of the experts' standards. The results suggest current AI agents still struggle with genuine autonomous scientific research.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42532"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42532",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar",
+     "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
+     "published": "2026-11-07T11:13:42+00:00",
+     "excerpt": "The \"Into the Unknown\" benchmark tasks nine AI agents with tackling open research questions from U.S. national laboratories. None of the 135 submissions meets all requirements. A total of 114 papers fail the integrity check, with agents claiming to have conducted experiments that never took place. GPT-6 Astra performs best but still doesn't meet the experts' standards. The article Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar ap"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T11:13:42+00:00"
+  },
+  {
+   "title": "Wired: AI features reach caregiver apps, but burnout remains unsolved",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apps and platforms that help family caregivers manage loved ones' needs are adding AI capabilities, but Wired reports the deeper problem of caregiver well-being is still unaddressed.",
+   "more": "Wired's report looks at how caregiving apps and platforms are becoming more capable with AI features aimed at easing the logistics of managing a family member's care. The article argues that while these tools can help with specific tasks, they don't resolve the broader issue of caregiver burnout and well-being.",
+   "item_ids": [
+    "wired-ai:6ae8fcff93d0a10b8d7f1f15"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ae8fcff93d0a10b8d7f1f15",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+     "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+     "published": "2026-11-07T11:00:00+00:00",
+     "excerpt": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T11:00:00+00:00"
+  },
+  {
+   "title": "OpenAI raises $11B first tranche of round that could reach $20B",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI secured $11 billion in fresh capital, the first tranche of a round valuing it at $1.25 trillion that could grow to $20 billion, with the company turning to wealthy private investors.",
+   "more": "The $11 billion tranche values OpenAI at $1.25 trillion, and the full round could eventually swell to $20 billion. To fill it out, OpenAI is courting wealthy private investors rather than relying solely on its usual institutional backers. That shift hints at a saturating AI capital market and growing caution among larger investors about pouring more money into the sector.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42525"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42525",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI lands an $11 billion funding round, but has to court dentists for more capital",
+     "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/",
+     "published": "2026-11-07T09:45:23+00:00",
+     "excerpt": "OpenAI has secured $11 billion in fresh capital, the first tranche of a round that values the company at $1.25 trillion. The full round could swell to $20 billion. That OpenAI is already turning to wealthy private investors hints at a saturating AI capital market and growing investor caution. The article OpenAI lands an $11 billion funding round, but has to court dentists for more capital appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T09:45:23+00:00"
+  }
+ ]
+}
