@@ -1,0 +1,65 @@
+{
+ "date": "2026-11-08",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Wired explains why world models are becoming unavoidable in AI",
+   "tags": [
+    "models",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired explains how world models, AI systems that simulate 3D physics, are moving from text-based AI toward teaching robots and autonomous cars to navigate the real world.",
+   "more": "World models mark a shift from text-based AI toward systems that simulate three-dimensional, real-world physics. The approach is aimed at teaching robots and autonomous cars to navigate physical environments rather than just process language. Wired frames the technology as one that is moving from a niche research pursuit toward broader, more unavoidable use.",
+   "item_ids": [
+    "wired-ai:6ae4b7e754bf7a084fa1ea61"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ae4b7e754bf7a084fa1ea61",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
+     "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
+     "published": "2026-11-08T10:00:00+00:00",
+     "excerpt": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T10:00:00+00:00"
+  },
+  {
+   "title": "Alibaba's Co-Design Bench finds AI coding agents fail most real tasks",
+   "tags": [
+    "agents",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Alibaba's new Co-Design Bench tests AI coding agents on real user requests that previously tripped them up, finding even the top model fully solves only 26.4% of tasks.",
+   "more": "GPT-6 Astra, the top performer on Alibaba's Co-Design Bench, fully solved only 26.4 percent of tasks, despite the same models scoring above 99 percent on older coding benchmarks. The benchmark draws on real user requests that have already tripped up coding agents in practice, rather than synthetic test cases. The large gap between old and new scores suggests older benchmarks overstate how well AI coding agents handle messy, real-world requests, leaving roughly three-quarters of tasks still needing human cleanup.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42583"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42583",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
+     "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+     "published": "2026-11-08T09:50:59+00:00",
+     "excerpt": "Alibaba's new coding-agent benchmark, Co-Design Bench, tests AI agents on real user requests that already tripped them up in practice. Even GPT-6 Astra, the top performer, fully solves only 26.4 percent of tasks. On older benchmarks, the same models score above 99 percent. The article AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T09:50:59+00:00"
+  }
+ ]
+}
