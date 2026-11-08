@@ -1,0 +1,216 @@
+{
+ "date": "2026-11-08",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "TechCrunch: midterm results spell trouble for Musk's data center push",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch's Equity podcast discusses how the midterm election results could complicate Elon Musk's data center ambitions, reshaping the political outlook for the tech industry.",
+   "more": "The TechCrunch Equity podcast segment examines how the 2026 midterm election results complicate Elon Musk's data center plans and raise broader questions for the tech industry's outlook. No further specifics on policy changes or affected projects were included in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3186091"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186091",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+     "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+     "published": "2026-11-07T22:07:22+00:00",
+     "excerpt": "On Equity, we unpacked what the midterms mean for the tech industry."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T22:07:22+00:00"
+  },
+  {
+   "title": "US memo: Megaspeed exec recruited to spy on Nvidia's CEO",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A US intelligence memo reportedly says China's Ministry of State Security recruited a Megaspeed executive to spy on Nvidia's CEO, TechCrunch reports.",
+   "more": "TechCrunch reports that a memo circulated earlier this year claims China's Ministry of State Security recruited a female technology executive at Megaspeed to spy on Nvidia's chief executive. The report does not specify what information was obtained or how the alleged operation came to light. It adds to broader concerns about foreign efforts to access sensitive information from the US semiconductor industry.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3186087"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186087",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+     "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+     "published": "2026-11-07T21:17:08+00:00",
+     "excerpt": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T21:17:08+00:00"
+  },
+  {
+   "title": "Microsoft Research shuts down its AI Frontiers group",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft Research's AI Frontiers group has come to an end, according to a post linked from Hacker News, marking a notable change inside Microsoft's AI research arm.",
+   "more": "A blog post linked from Hacker News marks the end of Microsoft Research's AI Frontiers group, a story that gathered 436 points and 260 comments. The excerpt available does not specify the reasons for the closure or what happens to its work and staff.",
+   "item_ids": [
+    "hn:50406563"
+   ],
+   "items": [
+    {
+     "id": "hn:50406563",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "The end of Microsoft Research's AI Frontiers group",
+     "url": "https://hunch.net/?p=13764006",
+     "published": "2026-11-07T18:02:17+00:00",
+     "excerpt": "436 points, 260 comments. Discussion: https://news.ycombinator.com/item?id=50406563"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T18:02:17+00:00"
+  },
+  {
+   "title": "Anthropic presses ahead with pre-Thanksgiving IPO at lower valuation",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic is proceeding with its IPO before Thanksgiving despite a tech selloff, accepting a valuation of $1.25-1.75 trillion, below its earlier $2 trillion target, The Decoder reports.",
+   "more": "The Decoder reports that Anthropic aims to raise $80 billion to $100 billion before Thanksgiving, pricing the offering at $1.25 trillion to $1.75 trillion rather than the previously hoped-for $2 trillion. The lower valuation comes amid a broader tech stock selloff. Rival OpenAI has also recently had to cut its own valuation, the report notes.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42579"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42579",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation",
+     "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+     "published": "2026-11-07T17:37:25+00:00",
+     "excerpt": "Despite the tech selloff, Anthropic is pressing ahead with its IPO at a valuation of $1.25 to $1.75 trillion, well below the hoped-for $2 trillion. The Claude developer aims to raise $80 to $100 billion before Thanksgiving. Rival OpenAI has also recently had to cut its valuation. The article Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T17:37:25+00:00"
+  },
+  {
+   "title": "Developer blog post explains switch away from Claude to a tool called Pi",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A developer blog post describes moving away from Claude to an alternative called Pi, drawing heavy discussion on Hacker News (118 points, 67 comments).",
+   "more": "The post, published on caleb.software, was among the more discussed items on Hacker News on November 7, drawing 118 points and 67 comments. No further detail about the reasons for the switch was available from the excerpt alone.",
+   "item_ids": [
+    "hn:50410107"
+   ],
+   "items": [
+    {
+     "id": "hn:50410107",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Goodbye Claude, Hello Pi",
+     "url": "https://caleb.software/posts/claude-to-pi.html",
+     "published": "2026-11-08T03:11:48+00:00",
+     "excerpt": "118 points, 67 comments. Discussion: https://news.ycombinator.com/item?id=50410107"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T03:11:48+00:00"
+  },
+  {
+   "title": "Claude Code's 'Don't Ask Again' tied to leaked passwords in 1,122 repos",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A security report says Claude Code's 'Don't Ask Again' permission setting is linked to passwords exposed in 1,122 public GitHub files, sparking heavy Hacker News discussion.",
+   "more": "According to the Apiiro blog post linked from Hacker News, Claude Code's 'Don't Ask Again' option for permission prompts is tied to passwords being exposed across 1,122 public GitHub repositories. The story drew significant attention, reaching 314 points and 215 comments on Hacker News. Further technical detail beyond the headline finding was not included in the available excerpt.",
+   "item_ids": [
+    "hn:50407882"
+   ],
+   "items": [
+    {
+     "id": "hn:50407882",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+     "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+     "published": "2026-11-07T20:45:32+00:00",
+     "excerpt": "314 points, 215 comments. Discussion: https://news.ycombinator.com/item?id=50407882"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T20:45:32+00:00"
+  },
+  {
+   "title": "Study: AI auditors catch most agent misbehavior but flood false alarms",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A study by Anthropic researcher Andy Hall finds AI models can spot problematic behavior in other AI agents' logs, but more exhaustive searches produce more false alarms, The Decoder reports.",
+   "more": "According to The Decoder, the study found that GPT-5 caught about 98 percent of reward-hacking cases when reviewing agent logs for misbehavior. However, the more exhaustively the search was tuned, the more false alarms piled up for human reviewers. The researchers conclude this isn't yet reliable enough for consistent safety checks on AI agents.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42569"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42569",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+     "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+     "published": "2026-11-07T16:56:38+00:00",
+     "excerpt": "AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more false alarms pile up. That's not yet enough for reliable safety checks. The article AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T16:56:38+00:00"
+  },
+  {
+   "title": "Datasette stops sending 'link: rel=next' prefetch headers to Firefox",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison describes a Datasette fix (issue #3046) that stops sending 'link: rel=\"next\"' HTTP headers to Firefox, which had been triggering unwanted prefetches of table pages.",
+   "more": "Willison writes that Firefox's network panel showed Datasette table pages triggering an HTTP prefetch of the next page of rows, caused by an HTTP 'link: rel=\"next\"' header. He notes this is wasteful because only a small fraction of visitors to such pages click through to the next page, so prefetching wastes bandwidth. The fix, tracked as issue #3046, stops serving that header to Firefox for HTML pages.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/7/link-rel-next/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/7/link-rel-next/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+     "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+     "published": "2026-11-07T23:57:46+00:00",
+     "excerpt": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette pages serve an HTTP link header like this: link: ; rel=\"next\" This is bad. A tiny fraction of the visitors to one of those pages will click the \"next\" link, which means their browser is fetching unnecess"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T23:57:46+00:00"
+  }
+ ]
+}
