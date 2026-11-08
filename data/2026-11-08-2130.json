@@ -1,0 +1,237 @@
+{
+ "date": "2026-11-08",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Hobbyist charts how LLMs answer censorship questions by country",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A developer built a tool that asks several LLMs the same yes/no question about censorship for every country and plotted the answers on an SVG world map.",
+   "more": "The program queries multiple large language models and records each one's yes/no answer about whether censorship exists in a given country. It then renders the results as an SVG world map, with the code published on GitHub. The author said they were surprised by the results but did not detail specific findings.",
+   "item_ids": [
+    "localllama:t3_1xr09nq"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xr09nq",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "\"Does censorship exist in [country]?\", according to various LLMs",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/",
+     "published": "2026-11-08T14:56:07+00:00",
+     "excerpt": "I wrote a small program that asks the same Yes/No question about every country to a language model, and generates an SVG world map that visualizes the model's responses: https://github.com/p-e-w/llm-beliefs I'm rather surprised by the results... submitted by /u/-p-e-w- [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T14:56:07+00:00"
+  },
+  {
+   "title": "Researchers say brain-as-computer metaphor misleads AI consciousness debate",
+   "tags": [
+    "research",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Consciousness researchers Anil Seth, Ned Block, and Giulio Tononi argue in a Nature commentary that today's AI systems are not conscious and won't become so on silicon hardware.",
+   "more": "The researchers call the assumption that consciousness depends on computation alone \"fatally flawed.\" They argue the brain-as-computer metaphor, which has shaped much of modern AI research, oversimplifies what produces consciousness. The commentary, published in Nature, warns against granting rights to AI systems on the basis of apparent consciousness. It does not propose an alternative framework for assessing machine consciousness.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42602"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42602",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
+     "url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+     "published": "2026-11-08T13:49:21+00:00",
+     "excerpt": "Consciousness researchers Anil Seth, Ned Block, and Giulio Tononi argue in a Nature commentary that today's AI systems aren't conscious and won't become so on silicon hardware. They consider the assumption that consciousness depends on computation alone \"fatally flawed\" and warn against granting rights to AI systems. The article The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T13:49:21+00:00"
+  },
+  {
+   "title": "Bitter Lesson author Sutton says scaling alone won't reach intelligence",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Turing Award winner Richard Sutton reaffirmed that raw compute alone isn't enough for intelligence, saying fundamentally new learning methods are still needed.",
+   "more": "Sutton, known for his \"bitter lesson\" essay on computation beating hand-crafted methods, says blind scaling of transformers has limits. Former OpenAI researcher Tworek agrees, saying scaling has \"reward hacked brains of a whole generation of scientists.\" A number of startups are reportedly already betting on finding the learning methods that scaling alone can't reach.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42596"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42596",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
+     "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+     "published": "2026-11-08T11:44:41+00:00",
+     "excerpt": "Turing Award winner Richard Sutton reaffirms that raw compute alone isn't enough for intelligence and that fundamentally new learning methods are needed. Ex-OpenAI researcher Tworek agrees, saying blind transformer scaling \"has reward hacked brains of a whole generation of scientists.\" A growing wave of startups is already betting on exactly this gap. The article The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T11:44:41+00:00"
+  },
+  {
+   "title": "Study measures KV cache quantization's effect on Qwen3 27B",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A community study measured how KV cache quantization affects model output using KL divergence, testing 35 weight quants of Qwen3 27B across llama.cpp, exllamav3, and vLLM.",
+   "more": "The study aimed to settle debate in the LocalLLaMA community over whether KV cache quantization meaningfully degrades model quality, with prior opinions ranging from \"never quantize\" to \"4-bit is fine.\" The author used KL divergence to quantify how much each quantization level shifts the model's output distribution. Testing covered 35 weight quants across three inference engines, llama.cpp, exllamav3, and vLLM, each run at 16-bit, 8-bit, and, where supported, 4-bit KV cache precision.",
+   "item_ids": [
+    "localllama:t3_1xqbesv"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xqbesv",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Effects of KV Cache Quantization on Qwen3.8 27B",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
+     "published": "2026-11-07T17:09:51+00:00",
+     "excerpt": "KV cache quantization has been a hotly-debated topic for this community for some time, with opinions ranging from \"never quantize\" to \"4 bit is fine\". Since the anecdotal evidence is rather inconsistent, I decided to quantify how much KV cache quantization affects the model through KLD, which is a good measure of how the model's output distribution is changed. I tested 35 weight quants across llama.cpp, exllamav3, and vLLM, each with 16-bit, 8-bit, and (where supported) 4-bit KV cache. I also re"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T17:09:51+00:00"
+  },
+  {
+   "title": "Karpathy builds AI-curated Hacker News video platform using Claude",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI co-founder Andrej Karpathy used Claude's Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos in a weekend project he says beats YouTube's own recommendations.",
+   "more": "Karpathy built the platform over a single weekend, using Anthropic's Claude Opus 5.5 model to process roughly 43 million Hacker News comments. The model filtered that archive down to 6,454 curated videos. Karpathy says the resulting recommendations outperform YouTube's own algorithm. No further detail on the platform's design, name, or availability to other users was reported.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42607"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42607",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+     "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+     "published": "2026-11-08T14:23:00+00:00",
+     "excerpt": "OpenAI co-founder Andrej Karpathy used Claude's Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos. The result beats YouTube's own recommendations, he says. The article Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T14:23:00+00:00"
+  },
+  {
+   "title": "NYT Cooking adds AI-powered recipe modifier in beta",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "The New York Times added a beta feature to its Cooking app that lets readers swap ingredients or adjust recipes to fit their dietary needs or preferences.",
+   "more": "The feature is live now as a beta within the NYT Cooking app. It helps readers substitute ingredients or tweak a recipe's instructions to match dietary needs or taste preferences. A Wired review of the feature found it mostly hits the mark, producing usable modified recipes.",
+   "item_ids": [
+    "wired-ai:6aed1403f979e2b672d1308c"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6aed1403f979e2b672d1308c",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+     "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+     "published": "2026-11-08T12:00:00+00:00",
+     "excerpt": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T12:00:00+00:00"
+  },
+  {
+   "title": "Open-source app lets phones monitor anything using local AI agents",
+   "tags": [
+    "agents",
+    "open-source",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A developer released Observer, an open-source iOS and Android app that runs local models on a phone to monitor cameras, sounds, or sensors for user-defined events.",
+   "more": "The app, called Observer, runs models locally on the device rather than sending data to the cloud. The developer demoed use cases including alerting when someone approaches a car, when a bird lands on a nest, when a washing machine finishes its rinse cycle, or when a gym machine becomes free. It is open source and available for both iOS and Android.",
+   "item_ids": [
+    "localllama:t3_1xqd058"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xqd058",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Use your phone to monitor anything with local models! Demo of my Open Source and 100% local agent (iOS and Android!)",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
+     "published": "2026-11-07T18:16:41+00:00",
+     "excerpt": "Hey r/LocalLLaMA ! I made this quick demo of how Observer can run local models to monitor anything with your phone! These are some crazy things I've monitored: When someone that's not me, approaches my car, send me a picture. When a bird is on the bird's nest, send me a telegram with the picture. When my washing machine is on the rinse cycle, call me. When my dog finishes eating their food, notify me. When a machine at the gym is available, call me. So pretty much anything! I love seeing what yo"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T18:16:41+00:00"
+  },
+  {
+   "title": "AI buyers drive mass purchases of RTX 5060 Ti 16GB GPUs",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Consumers have started buying RTX 5060 Ti 16GB graphics cards in bulk specifically to run local AI models, according to a post on r/LocalLLaMA.",
+   "more": "The post notes that AI hobbyists are now a notable share of buyers for this particular GPU, which offers 16GB of VRAM at a relatively low price point. No sales figures or sourcing details were given in the original post.",
+   "item_ids": [
+    "localllama:t3_1xr01bj"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xr01bj",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Users have started buying RTX 5060 Ti 16GB graphics cards en masse for the sake of AI.",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr01bj/users_have_started_buying_rtx_5060_ti_16gb/",
+     "published": "2026-11-08T14:45:22+00:00",
+     "excerpt": "Oh look, thats us! submitted by /u/ab2377 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T14:45:22+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA users call AI-detection mod bot Stylome spam",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Members of r/LocalLLaMA criticized the Stylome moderator bot, which flags AI-written comments, saying its confidence levels are consistently low and it adds no value.",
+   "more": "The poster said Stylome frequently flags comments as AI-written at low confidence, and that testing it with Gemini-rewritten comments showed it labeling them as human-written, also at low confidence. The post questions why a private company's bot is allowed to evaluate and label community members' comments. No response from the bot's operators or subreddit moderators was included.",
+   "item_ids": [
+    "localllama:t3_1xqinb7"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xqinb7",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "The Stylome bot is useless spam and should be removed",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqinb7/the_stylome_bot_is_useless_spam_and_should_be/",
+     "published": "2026-11-07T22:24:14+00:00",
+     "excerpt": "I've recently been seeing comments everywhere from the Stylome bot, which is also a mod in this sub. Every time it pops up to declare a comment was AI written I've gone in to check its confidence level, and it's always low. I decided to do a few tests myself and have Gemini rewrite some of my comments, Stylome said they were all human written with equally low confidence. What is the point of this bot? Why are we allowing a private company to take ownership of all of our comments and then give us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-07T22:24:14+00:00"
+  }
+ ]
+}
