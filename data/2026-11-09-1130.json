@@ -1,0 +1,562 @@
+{
+ "date": "2026-11-09",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Paper proposes agent-native primitives to close agents' 'last mile' to real tasks",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper argues frontier agents like Claude Opus 5 and GPT-5.6 Sol still fail to apply resources they can reach, calling this the 'last mile' to real-world tasks, and proposes reusable agent-native primitives to fix it.",
+   "more": "On Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of tasks and Claude Opus 5 with Claude Code reaches 51.8%, which the authors use as evidence of the gap. They argue existing harnesses put resources within reach but leave agents to figure out how to apply them, forcing every harness to rebuild that competence from scratch. The paper proposes 'agent-native primitives' as reusable building blocks meant to carry that competence across harnesses. The excerpt does not give further detail on the proposed method or its evaluation.",
+   "item_ids": [
+    "hf-papers:2611.07461"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.07461",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+     "url": "https://huggingface.co/papers/2611.07461",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world. Existing approaches put the resource within reach but leave the competence to apply it with the caller, so each harness rebuilds "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "Study finds agent-harness upgrades gain new tasks but lose previously solved ones",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A study of recursive self-improvement in agent harnesses — upgrading the harness without touching model weights — finds all 16 evolved agents tested gained new task coverage while losing tasks they used to solve.",
+   "more": "The researchers evaluated four harness-evolution methods across general and coding tasks, using repeated evaluations, controlled agent expansion, component interventions, and admission replays. Across all sixteen evolved agents studied, each one picked up previously uncovered tasks but also dropped some it had previously handled. The paper questions whether rising benchmark scores from harness evolution translate into reliable, efficient, and transferable improvement. The excerpt does not specify which harnesses or tasks were tested.",
+   "item_ids": [
+    "hf-papers:2611.07624"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.07624",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
+     "url": "https://huggingface.co/papers/2611.07624",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "Agent harness evolution enables recursive self-improvement (RSI) without updating model weights. We examine whether higher benchmark scores yield reliable, efficient, and transferable improvement. We evaluate four methods across harnesses, general and coding tasks. Repeated evaluations, controlled agent expansion, component interventions, and admission replays reveal recurring patterns. All sixteen evolved agents gain previously uncovered tasks while losing previously covered ones. In one genera"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "EvoWorld paper tackles 'out-of-sight' world evolution in generative video models",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper argues generative video models used as world simulators render plausible pixels but don't reason about how off-screen events should change the world, and proposes EvoWorld to model that evolution.",
+   "more": "The authors note that today's video generators excel at visual fidelity but fall short on coherent world evolution — inferring the consequences of an event for entities in a scene and rendering the resulting state. Their example: after a wild beast appears, a model should reason about whether nearby people are affected, not just depict the beast. EvoWorld is presented as an approach for this out-of-sight evolution, though the excerpt does not detail the method itself.",
+   "item_ids": [
+    "hf-papers:2611.06748"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.06748",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+     "url": "https://huggingface.co/papers/2611.06748",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering plausible pixels rather than reasoning about how a world should evolve. Coherent world evolution requires more than visual fidelity: when an event occurs, a model must infer its consequences for the entities in the world and then render the resulting state. For example, after a wild beast appears, the model should not only depict the wild beast, but also infer whether a nearby p"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "Video-Coder trains an agent to write code that drives video generation",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Video-Coder is pitched as the first code-driven video generation agent, autonomously writing and executing code to build a 3D 'draft video' scene for structure and motion before generating the final video.",
+   "more": "The paper frames the work as addressing a gap in current video generation: strong visual quality and temporal consistency, but weak control over spatial structure, motion dynamics, and scene composition. Video-Coder's agent writes and runs code to construct a dynamic 3D draft scene that supplies structure and motion signals, which then guides the final video generation. The excerpt does not specify what model or benchmarks were used to evaluate it.",
+   "item_ids": [
+    "hf-papers:2611.09894"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.09894",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+     "url": "https://huggingface.co/papers/2611.09894",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt to train a code-driven video generation agent, which autonomously writes and executes code to construct a dynamic 3D scene (Draft Video) that provides structure and motion signals"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "Paper studies 'weight-space programming' — agents editing model weights directly",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new study examines Weight-Space Programming, where reasoning agents directly inspect and edit a model's parameters instead of using gradient-based training, testing it on two Qwen3.5 model sizes.",
+   "more": "The researchers ran 16 editing trajectories across seven benchmarks on Qwen3.5-0.8B and Qwen3.5-9B to test WSP's capabilities, cross-task generalization, and limits. They report three key findings, starting with evidence that WSP can achieve substantial results, but the excerpt cuts off before detailing the rest. The approach is framed as an alternative to standard gradient-based model adaptation.",
+   "item_ids": [
+    "hf-papers:2611.09382"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.09382",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations",
+     "url": "https://huggingface.co/papers/2611.09382",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "Weight-Space Programming (WSP) enables reasoning agents to directly inspect and modify neural network parameters, offering an alternative to gradient-based model adaptation. However, its capabilities, cross-task generalization, and practical limitations remain insufficiently understood. We systematically investigate WSP through 16 editing trajectories across seven benchmarks and two model scales (Qwen3.5-0.8B and Qwen3.5-9B). Our findings reveal three key insights. First, WSP can achieve substan"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "Confucius4-R2T2 is a streaming ASR model that never revises its transcript",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Confucius4-R2T2 (Real Real-Time Transcription) is a stable-prefix streaming speech-recognition model built so machine listeners like voice agents never see an earlier token revised, while keeping high accuracy and low latency.",
+   "more": "The model targets streaming ASR consumed by machines, such as translators and voice agents, that act on each token as soon as it appears, where a later-revised token wastes work or triggers a wrong action. R2T2 was obtained by post-training Qwen3-ASR-1.7B on 1,500 hours of Chinese and English speech data, per the excerpt. The excerpt is cut off before further training or evaluation details.",
+   "item_ids": [
+    "hf-papers:2611.06043"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.06043",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+     "url": "https://huggingface.co/papers/2611.06043",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency. R2T2 is obtained by post-training Qwen3-ASR-1.7B on 1,500 hours of Chinese and Engl"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "AgentBaton explores handing off agentic tasks between capable and cheap models",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "AgentBaton studies how to combine expensive, capable cloud models with cheaper, less capable ones — including smaller open-weight models run locally — to handle long, multi-step agentic tasks more efficiently.",
+   "more": "Long-horizon agentic tasks typically rely on costly capable cloud models to interact reliably with an environment over many steps. The paper notes that cheaper alternatives are emerging, including lower-tier cloud models and smaller open-weight models that can run on local hardware. AgentBaton investigates how to collaborate between these tiers of models on agentic tasks, though the excerpt is cut off before describing the proposed method or results.",
+   "item_ids": [
+    "hf-papers:2610.35959"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.35959",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "AgentBaton: Efficient Model Collaboration in Agentic Tasks",
+     "url": "https://huggingface.co/papers/2610.35959",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "Solving long-horizon agentic tasks requires language agents to interact with their environments over multiple steps, and reliable performance often comes from the expensive capable models available through cloud providers. Meanwhile, alternative efficient models with inferior performance but a much lower cost are emerging, including lower-tier cloud models and smaller open-weights models deployable on local hardware. This raises a natural question that remains less explored than traditional quer"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "Simon Willison comments on Paul Ford's 'The Web Is More Than Enough'",
+   "tags": [
+    "tools",
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Responding to Paul Ford's essay, Simon Willison built a Three.js 'Nudibranch Faberge Egg' demo and had Claude Opus 5.5 port it to vanilla JavaScript in the same chat thread.",
+   "more": "Willison describes being persuaded by Ford's piece to try building something in Three.js, producing a roughly 77KB page. He then asked Claude (Opus 5.5, Medium, in regular Claude chat) to port the demo to vanilla JavaScript within the same conversation, producing a second, roughly 98KB page. The excerpt does not say whether the ported version preserved all of the original's behavior.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/9/hn-50421091/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/9/hn-50421091/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "The Web Is More Than Enough, by Paul Ford",
+     "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+     "published": "2026-11-09T04:32:33+00:00",
+     "excerpt": "My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (98KB) T"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T04:32:33+00:00"
+  },
+  {
+   "title": "Simon Willison: hide AI-written PR descriptions behind a details/summary toggle",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison argues that AI coding agents like Claude Code and Codex now write PR descriptions so thorough they're overwhelming, and suggests collapsing them behind an HTML details/summary element.",
+   "more": "Willison notes most changes to his projects now arrive as PRs opened by Claude Code or Codex, with the PR serving as his basic unit of work for bundling commits and documenting decisions. He says today's coding agents are too good at writing comprehensive, accurate PR descriptions, making them unwieldy to read at a glance. His proposed fix is to hide the full description behind a collapsible details/summary element so it's available but not intrusive by default.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/9/details-summary/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/9/details-summary/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Hide your slop PR descriptions behind",
+     "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+     "published": "2026-11-09T04:25:05+00:00",
+     "excerpt": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too good at describing the work The problem is that they are too good. An agent-written PR description is accurate and comprehensive. It describes "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T04:25:05+00:00"
+  },
+  {
+   "title": "Simon Willison compares C and Rust SQLite extensions for parsing numbers",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "While walking his dog, Simon Willison got curious about writing a SQLite parse_number() extension that strips symbols like '$', ',', and '%' from strings, then built it in both C and Rust with Claude's help.",
+   "more": "The function is meant to turn strings like \"-$1,234.56\" or \"12.5%\" into numeric values that can be summed and sorted in SQLite queries. Willison prompted Claude (Opus 5.5) in a chat session to help implement the extension. The excerpt is cut off before detailing the comparison between the C and Rust implementations.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "parse_number() as a SQLite extension: C vs Rust",
+     "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+     "published": "2026-11-08T22:26:00+00:00",
+     "excerpt": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted : I'm thinking about a SQLite custom function 'parse_number(value)' that strips ',', '$', '£' and '%', handles a leading '-', and returns '"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T22:26:00+00:00"
+  },
+  {
+   "title": "Reddit post touts 'Next-Concept Modeling' for fast, efficient text generation",
+   "tags": [
+    "models",
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "An r/LocalLLaMA post describes 'Next-Concept Modeling,' a coarse-to-fine, parallel text-generation approach the poster claims could let Opus 5.5-level intelligence run on a 32GB VRAM card.",
+   "more": "The poster argues the method is far more memory-bandwidth efficient than current approaches, shifting the bottleneck to compute. No paper, benchmark, or source is cited in the excerpt, and the claim is the poster's own characterization rather than a verified result.",
+   "item_ids": [
+    "localllama:t3_1xr6krp"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xr6krp",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation: This will completely change everything!",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr6krp/nextconcept_modeling_fast_parallel_coarsetofine/",
+     "published": "2026-11-08T19:19:39+00:00",
+     "excerpt": "Essentially we could very soon run opus 5.5 level of intelligence on 32gb Vram. Its many folds more efficient in terms of memory bandwidth making compute the real bottleneck. What do you think? submitted by /u/Lorian0x7 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T19:19:39+00:00"
+  },
+  {
+   "title": "Nous Research's Arete-27B trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Arete-27B, a 27B text-generation model from Nous Research fine-tuned from Qwen3.8-27B for value alignment, is trending on Hugging Face with 308 likes and over 1,700 downloads.",
+   "more": "Arete-27B is a supervised fine-tune of Qwen/Qwen3.8-27B focused on value alignment, released under the Apache 2.0 license. It uses a dataset called NousResearch/arete-data-pairs and is tagged for conversational text generation. At the time of writing it had 308 likes and 1,747 downloads on Hugging Face.",
+   "item_ids": [
+    "hf-trending:NousResearch/Arete-27B"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:NousResearch/Arete-27B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: NousResearch/Arete-27B",
+     "url": "https://huggingface.co/NousResearch/Arete-27B",
+     "published": "2026-11-06T19:31:28+00:00",
+     "excerpt": "text-generation, 308 likes, 1747 downloads. Tags: safetensors, qwen3_5, nous-research, arete, supervised-fine-tuning, value-alignment, text-generation, conversational, dataset:NousResearch/arete-data-pairs, base_model:Qwen/Qwen3.8-27B, base_model:finetune:Qwen/Qwen3.8-27B, license:apache-2.0"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-06T19:31:28+00:00"
+  },
+  {
+   "title": "Nvidia investigates CEO Jensen Huang over alleged affair with Chinese spy",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with Megaspeed executive Alice Huang, reportedly recruited by China's Ministry of State Security to spy on the company; Huang admitted the affair in a memo to staff.",
+   "more": "The board announced an independent investigation into the relationship, and Nvidia's memo to employees, which it published in full, has Huang acknowledging the affair. Alice Huang, an AI executive, was reportedly recruited by China's Ministry of State Security to spy on the company. Yale's Jeffrey Sonnenfeld estimated the odds that Huang keeps his job at roughly 50-50. It remains unclear what the investigation will find or what, if anything, was disclosed to Alice Huang.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1029595",
+    "verge-ai:https://www.theverge.com/?p=1029562",
+    "techcrunch-ai:https://techcrunch.com/?p=3186150",
+    "techcrunch-ai:https://techcrunch.com/?p=3186128"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1029595",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+     "published": "2026-11-08T22:54:50+00:00",
+     "excerpt": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my […]"
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1029562",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+     "published": "2026-11-08T20:22:39+00:00",
+     "excerpt": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186150",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+     "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+     "published": "2026-11-09T05:26:29+00:00",
+     "excerpt": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186128",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+     "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+     "published": "2026-11-08T21:00:11+00:00",
+     "excerpt": "In a memo to the company, Huang admitted that he had an affair."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-09T05:26:29+00:00"
+  },
+  {
+   "title": "Goldman Sachs reportedly pulls Claude Code from bankers and traders",
+   "tags": [
+    "industry",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Goldman Sachs is reportedly withdrawing Claude Code access from its bankers and traders, according to a report that drew 700 points and nearly 400 comments on Hacker News.",
+   "more": "The report does not specify in the excerpt why Goldman Sachs is pulling the tool or what alternative, if any, staff will use. The story generated significant discussion on Hacker News, with 387 comments at time of writing.",
+   "item_ids": [
+    "hn:50415628"
+   ],
+   "items": [
+    {
+     "id": "hn:50415628",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+     "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+     "published": "2026-11-08T18:16:07+00:00",
+     "excerpt": "700 points, 387 comments. Discussion: https://news.ycombinator.com/item?id=50415628"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T18:16:07+00:00"
+  },
+  {
+   "title": "Latent Space: how Stanford's CS146S teaches 'AI-native' engineering",
+   "tags": [
+    "agents",
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Latent Space post and podcast episode with Mihail Eric describe Stanford's CS146S course, where students learn an unfamiliar repo and propose changes since coding agents can now finish last year's homework instantly.",
+   "more": "The course is taught alongside Monaco's engineering team. In its second run, Eric brought open-source maintainers into the class so students practice navigating a real codebase and proposing a change, rather than solving self-contained assignments a coding agent could one-shot. The piece frames this as a response to coding agents being able to finish last year's homework in a single prompt.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_c965535e-89a8-4755-b38e-4e9eda7f9bb3",
+    "latent-space:urn:latent-space:post:pod_ep_01a1bcf7-771f-7c67-ba1d-94f856e787b0"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_c965535e-89a8-4755-b38e-4e9eda7f9bb3",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+     "url": "https://latent.space/p/cs146s/",
+     "published": "2026-11-08T21:41:44+00:00",
+     "excerpt": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco."
+    },
+    {
+     "id": "latent-space:urn:latent-space:post:pod_ep_01a1bcf7-771f-7c67-ba1d-94f856e787b0",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+     "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+     "published": "2026-11-08T21:23:29+00:00",
+     "excerpt": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ..."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T21:41:44+00:00"
+  },
+  {
+   "title": "Apple races to make Siri more agentic to compete with OpenAI and Meta",
+   "tags": [
+    "products",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Bloomberg's Mark Gurman reports Apple CEO John Ternus is pushing AI lead Craig Federighi to speed up Siri's roadmap toward a powerful AI agent rivaling OpenAI's Dots and Meta's Muse.",
+   "more": "According to the report, Federighi has delivered a functional version of \"Siri AI\" on a short timeline, but Apple reportedly has no illusions that it matches rivals yet. Ternus is said to be pressuring Federighi to accelerate the roadmap for a more capable, agentic Siri. The report does not specify a timeline for the next version or further technical detail.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1029552"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1029552",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Apple is racing to make Siri more agentic",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+     "published": "2026-11-08T19:18:19+00:00",
+     "excerpt": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T19:18:19+00:00"
+  },
+  {
+   "title": "Elvis and Eminem rights holders sue Suno over AI-generated soundalikes",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Rights holders for Elvis Presley's music and Eminem's publisher are suing AI music company Suno, alleging it illegally generates music and lyrics that mimic the two artists.",
+   "more": "The lawsuits add to a growing list of legal actions against Suno over AI-generated music. The Presley suit's lawyers claim Suno violated Tennessee law in generating the soundalike content. The excerpt does not specify the damages sought or Suno's response.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1029533"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1029533",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Elvis and Eminem rights holders are suing Suno",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+     "published": "2026-11-08T17:23:19+00:00",
+     "excerpt": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T17:23:19+00:00"
+  },
+  {
+   "title": "Blog post arguing the AI bubble doesn't exist sparks Hacker News debate",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A blog post making the case against the existence of an AI bubble drew significant Hacker News discussion, reaching 153 points and over 200 comments.",
+   "more": "The post argues against the now-common narrative that AI investment constitutes a speculative bubble, prompting a 209-comment debate on Hacker News. Specific arguments beyond the title are not given in the excerpt.",
+   "item_ids": [
+    "hn:50418975"
+   ],
+   "items": [
+    {
+     "id": "hn:50418975",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "I'm not convinced the AI bubble exists",
+     "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+     "published": "2026-11-08T23:44:36+00:00",
+     "excerpt": "153 points, 209 comments. Discussion: https://news.ycombinator.com/item?id=50418975"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T23:44:36+00:00"
+  },
+  {
+   "title": "Blog post on fighting 'AI brain fry' gains traction on Hacker News",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A blog post on combating what it calls 'AI brain fry' reached 209 points and 160 comments on Hacker News.",
+   "more": "The excerpt gives only the title and discussion metrics. The post's specific strategies for fighting AI-related mental fatigue are not detailed in the excerpt.",
+   "item_ids": [
+    "hn:50416363"
+   ],
+   "items": [
+    {
+     "id": "hn:50416363",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "How I Fight AI Brain Fry",
+     "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+     "published": "2026-11-08T19:37:42+00:00",
+     "excerpt": "209 points, 160 comments. Discussion: https://news.ycombinator.com/item?id=50416363"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T19:37:42+00:00"
+  },
+  {
+   "title": "Reddit user shares dataset of 25 billion GPT-5.5 tokens used",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "An r/LocalLLaMA post shares a sanitized dataset covering 25 billion tokens and 12,121 tool calls the poster used with GPT-5.5.",
+   "more": "The dataset was sanitized with help from another Reddit user before being shared. The post gives no further detail on what the dataset will be used for or where it is hosted.",
+   "item_ids": [
+    "localllama:t3_1xr3ymf"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xr3ymf",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "GPT-5.5 dataset across my used 25 billion tokens!",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3ymf/gpt55_dataset_across_my_used_25_billion_tokens/",
+     "published": "2026-11-08T17:32:48+00:00",
+     "excerpt": "Cheers for u/New_Comfortable7240 for santitisation! 12,121 tool calls here! submitted by /u/-MaskNinja- [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T17:32:48+00:00"
+  }
+ ]
+}
