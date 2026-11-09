@@ -1,0 +1,403 @@
+{
+ "date": "2026-11-09",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Import AI roundup covers space economies, AI for science, and robot hands",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Issue 480 of the Import AI newsletter covers self-sustaining space economies, progress on AI for scientific research, and Meta's work on highly capable robotic hands.",
+   "more": "The newsletter issue touches on self-sustaining space economies, AI's progress in accelerating scientific research, and Meta's development of highly dexterous robotic hands described in the issue as built for a 'superintelligence.' The available excerpt does not elaborate on these topics beyond the issue's framing.",
+   "item_ids": [
+    "import-ai:https://importai.substack.com/p/import-ai-480-self-sustaining-space"
+   ],
+   "items": [
+    {
+     "id": "import-ai:https://importai.substack.com/p/import-ai-480-self-sustaining-space",
+     "source": "import-ai",
+     "source_name": "Import AI",
+     "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+     "url": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
+     "published": "2026-11-09T13:31:34+00:00",
+     "excerpt": "When do you think we'll have robots on the moon?"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T13:31:34+00:00"
+  },
+  {
+   "title": "Amazon introduces HOPE, a method to prune correlated pairs of MoE experts",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amazon published a blog post on HOPE (higher-order pruning of experts), a method for pruning related experts in mixture-of-experts models together rather than independently.",
+   "more": "The post, published on Hugging Face by Amazon, proposes pruning experts in mixture-of-experts models as correlated pairs rather than individually, calling the method HOPE. No further technical detail, such as benchmark results, was available in the excerpt.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/amazon/higher-order-pruning-experts"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+     "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+     "published": "2026-11-09T12:34:29+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T12:34:29+00:00"
+  },
+  {
+   "title": "Local LLaMA user finds a neuron that makes Qwen-3.5-4B snarky and poetic",
+   "tags": [
+    "research",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Reddit user identified a single neuron in Qwen-3.5-4B that, when adjusted, makes the model confidently wrong and snarky but also produces unexpectedly interesting poetry.",
+   "more": "The post describes a specific neuron in Qwen-3.5-4B, found through manual interpretability exploration inspired by similar posts examining model internals. Adjusting this neuron makes the model more contrarian and snarky, often causing it to state incorrect things confidently. The same adjustment also led the model to produce poetry the poster found unexpectedly engaging. The author frames the discovery as an exploratory finding rather than a practically useful technique.",
+   "item_ids": [
+    "localllama:t3_1xrkomn"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xrkomn",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "L11 N8147 is a neuron that will make Qwen-3.5-4B get things confidently wrong while being weirdly snarky... But also makes it write interesting poetry",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrkomn/l11_n8147_is_a_neuron_that_will_make_qwen354b_get/",
+     "published": "2026-11-09T06:42:07+00:00",
+     "excerpt": "Inspired by some of the other brain surgery posts, I wanted to see if I could find anything interesting in Qwen. Not particularly useful to make it get things wrong all the time I guess, but I find the poetry it comes out with weirdly fascinating! I think the neuron is basically a dial for contrarian agreeable, but the contrarian snarky setting for some reason writes poems that read in an interesting way. submitted by /u/Tasty-Ad-3753 [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T06:42:07+00:00"
+  },
+  {
+   "title": "Researchers propose LowRAM to shrink LLM KV cache by predicting values from keys",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new technique, LowRAM, fits a lightweight predictor at test time to estimate attention values from their keys, cutting KV cache memory without retraining and complementing existing compression methods.",
+   "more": "The KV cache that autoregressive decoding relies on grows linearly with context length, limiting batch size and throughput. Prior post-training compression methods have targeted redundancy across tokens, layers, or feature dimensions, or reduced numerical precision. This paper identifies a separate axis: within each attention head, value vectors can largely be predicted from their corresponding keys. It proposes value cache amortisation, fitting a lightweight predictor per head at test time to exploit that redundancy, though the excerpt does not specify how much memory this saves in practice.",
+   "item_ids": [
+    "hf-papers:2611.07025"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.07025",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
+     "url": "https://huggingface.co/papers/2611.07025",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify a complementary axis: within each attention head, values are largely predictable from their corresponding keys. We exploit this with value cache amortisation, which fits a lightweight per-head predictor at test time and"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "Trump downplays AI safety risk in 60 Minutes interview, credits DOJ",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "In a 60 Minutes interview, Trump said AI risk 'is not nearly as real' as executives describe and claimed the DOJ already manages that risk, pointing to an unspecified case.",
+   "more": "Asked about AI executives' warnings about model safety during a 60 Minutes interview, Trump said he believes the risk is overstated and can be managed. He credited the Department of Justice with managing that risk, referencing an unspecified situation involving an AI executive that he said the DOJ handled. He did not elaborate on what safety measures, if any, the administration plans to pursue, and the excerpt did not name which executives' warnings prompted the question.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1029802"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1029802",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+     "published": "2026-11-09T15:50:38+00:00",
+     "excerpt": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situation where somebody […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T15:50:38+00:00"
+  },
+  {
+   "title": "Tencent's AI chief warns AI bioweapon risk is coming, backs partial openness",
+   "tags": [
+    "policy",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Tencent chief AI scientist Yao Shunyu says AI will soon be able to help design bioweapons and argues for a middle ground between fully open and fully closed models, rather than closing off models entirely.",
+   "more": "Yao Shunyu, Tencent's chief AI scientist, warned that AI models will soon be able to assist in developing bioweapons. He argued against simply closing off models, noting that safety filters on open-source systems can be stripped through techniques like abliteration, while closed models such as Anthropic's Claude can be overly restrictive. For Tencent's upcoming open-weight model, Hy4, the company says it is instead filtering dangerous hacking-related knowledge directly out of the training data. The approach reflects an attempt to balance openness with safety rather than choosing one extreme.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42624"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42624",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Tencent's AI chief says AI bioweapons are coming, but closing off models isn't the answer",
+     "url": "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/",
+     "published": "2026-11-09T15:44:53+00:00",
+     "excerpt": "Tencent chief AI scientist Vinces Yao Shunyu warns that AI will soon be able to develop bioweapons and argues for a middle ground between open and closed models. While safety filters on open-source systems can be easily stripped through abliteration, closed models like Anthropic's Claude often block too aggressively. For its upcoming open-weight model Hy4, Tencent is filtering dangerous hacking knowledge directly from the training data. The article Tencent's AI chief says AI bioweapons are comin"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T15:44:53+00:00"
+  },
+  {
+   "title": "Verge podcast talks AI and music with RIAA chief Mitch Glazier",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Verge podcast episode features RIAA CEO and chairman Mitch Glazier discussing AI's impact on the music industry, with host Nilay Patel drawing parallels to the Napster era.",
+   "more": "The episode features RIAA CEO and chairman Mitch Glazier in conversation with a Verge host. The host frames the discussion around his own history, saying he was in college during Napster's rise and that it set him on a path toward copyright law before journalism. The excerpt does not detail the specific AI topics covered in the conversation.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1029684"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1029684",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Hold up — I had a great time talking to the RIAA guy",
+     "url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
+     "published": "2026-11-09T15:30:00+00:00",
+     "excerpt": "Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s villain for suing kids for downloading music. That was when I decided to go be a copyright lawyer, which set […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T15:30:00+00:00"
+  },
+  {
+   "title": "Ex-DOJ antitrust chief Jonathan Kanter uses AI to challenge Big Tech",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Jonathan Kanter, former head of the DOJ's Antitrust Division, has launched a private-sector effort using AI tools to keep fighting illegal tech monopolies, alongside former acting chief Doha Mekki.",
+   "more": "Kanter stepped down from the DOJ's Antitrust Division in 2024 but said he set out to keep dismantling illegal monopolies from the private sector. He has teamed up with Doha Mekki, a former acting chief of the Antitrust Division, on the effort. The excerpt did not name the specific AI tool involved or detail the structure of the new venture.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1029652"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1029652",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Jonathan Kanter is using AI to take on Big Tech",
+     "url": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+     "published": "2026-11-09T14:30:00+00:00",
+     "excerpt": "When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight in the private sector, and with a perhaps unexpected tool: AI. Alongside former acting Antitrust Division chief Doha Mekki, Kanter recently launched a […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T14:30:00+00:00"
+  },
+  {
+   "title": "Nvidia CEO Jensen Huang's affair draws national security scrutiny",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia is probing whether Chinese intelligence targeted CEO Jensen Huang through an affair, and reports say he hired a crisis PR firm known for handling sex scandals as early as October 2025.",
+   "more": "Ars Technica reports that Nvidia is investigating whether Chinese intelligence targeted Huang through the affair, raising a national security question. Wired reports that Huang began working with consultants from Heller, a PR firm known for handling sex scandals, as early as October 2025 — around the same time he was first linked to a suspected Chinese spy. Neither report available in the excerpts details the specific nature of the alleged espionage attempt or whether any sensitive information was compromised. Nvidia has not been quoted responding to the investigation in the excerpts.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+    "wired-ai:6af1762f5613664a71d65ac0"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Nvidia CEO's affair becomes a national security problem",
+     "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+     "published": "2026-11-09T15:23:20+00:00",
+     "excerpt": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair."
+    },
+    {
+     "id": "wired-ai:6af1762f5613664a71d65ac0",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
+     "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/",
+     "published": "2026-11-09T14:30:56+00:00",
+     "excerpt": "The Nvidia CEO began working with consultants from Heller as early as October 2025, around the same time he was first linked to a suspected Chinese spy."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-09T15:23:20+00:00"
+  },
+  {
+   "title": "Disney and Adobe partner to build proprietary generative AI for production",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Disney and Adobe announced a multiyear partnership at Adobe MAX to develop 'artist-led' generative AI models for Disney's production pipeline, theme parks, and cruise line.",
+   "more": "The Walt Disney Company and Adobe unveiled the partnership at Adobe's MAX conference. Adobe will give Disney early access to its latest generative AI technologies, which Disney plans to apply across its production pipeline as well as its theme parks and cruise line. The companies described the effort as building 'artist-led' proprietary models rather than general-purpose ones. Financial terms and a timeline for specific products were not disclosed in the excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1029773"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1029773",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Disney and Adobe are building generative AI tools together",
+     "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+     "published": "2026-11-09T15:38:56+00:00",
+     "excerpt": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to its latest technologies for everything from Disney's theme parks and cruise line to […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T15:38:56+00:00"
+  },
+  {
+   "title": "Specialty chemicals maker Lubrizol applies AI to speed up R&D",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "MIT Technology Review profiles how specialty chemicals manufacturer Lubrizol uses AI, cloud computing, and modeling to help researchers test ideas faster and connect data to product development.",
+   "more": "The piece describes specialty chemicals manufacturer Lubrizol's digital transformation effort, framed around giving researchers tools to test ideas faster and make better-informed decisions. It notes that the broader challenge for companies adopting AI is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. The excerpt does not name specific AI tools or quantify results Lubrizol has achieved.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1147654"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1147654",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "Innovating with AI in the special chemicals industry",
+     "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+     "published": "2026-11-09T13:00:00+00:00",
+     "excerpt": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T13:00:00+00:00"
+  },
+  {
+   "title": "Medium launches TK, an AI-assisted writing app",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Medium released TK, a new app that builds AI assistance directly into the writing process, amid ongoing controversy over AI's role in publishing.",
+   "more": "Medium's new app, TK, embeds AI writing assistance directly into its writing workflow. The launch comes amid growing controversy over AI's role in publishing and content creation. Further details on TK's specific features were not given in the excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3186240"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186240",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+     "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+     "published": "2026-11-09T16:12:28+00:00",
+     "excerpt": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T16:12:28+00:00"
+  },
+  {
+   "title": "Automattic launches Spacefast, a platform for deploying vibe-coded apps",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Automattic debuted Spacefast, a new platform for deploying AI-generated 'vibe coding' apps, positioning it to compete with Lovable.",
+   "more": "Automattic introduced Spacefast as a platform for deploying apps built through AI-assisted 'vibe coding.' The company positioned it as a competitor to Lovable, a maker of similar app-building tools. The excerpt did not provide further specifics on Spacefast's features, pricing, or availability.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3186097"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186097",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Automattic debuts a platform to deploy vibe coding apps amid a changing internet",
+     "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+     "published": "2026-11-09T14:00:00+00:00",
+     "excerpt": "Automattic aims to compete with likes of Lovable with Spacefast"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T14:00:00+00:00"
+  },
+  {
+   "title": "Nvidia releases Nemotron-Personas-Finance-Japan synthetic dataset",
+   "tags": [
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia published Nemotron-Personas-Finance-Japan, a synthetic dataset modeling Japan's demographics and financial context for training or evaluating finance-focused AI systems.",
+   "more": "The dataset, published on Hugging Face by Nvidia, is designed to capture Japan's demographics and financial context in synthetic form. No further details about its construction, size, or intended use were given in the available excerpt.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+     "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+     "published": "2026-11-09T15:05:57+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T15:05:57+00:00"
+  },
+  {
+   "title": "Google ships four TPU variants in a year, competing harder with Nvidia",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google expanded its TPU 8 family with two new variants, one keeping data encrypted during processing and another doubling compute and memory via dual-chip packaging, as it courts nearly 100 external customers.",
+   "more": "Google is expanding its TPU 8 family with two specialized variants: the TPU 8tx, which keeps sensitive data encrypted even during processing, and the TPU 8i Max, which doubles compute power and memory by placing two chips on a single package. The company now has nearly 100 external customers for its in-house chips, according to the report. Google is positioning these chips as an increasingly viable alternative to Nvidia's GPUs. This is the fourth TPU variant Google has shipped within a year.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42618"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42618",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google ships four TPU variants in one year as it ramps up competition with Nvidia",
+     "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/",
+     "published": "2026-11-09T12:59:02+00:00",
+     "excerpt": "Google is expanding its TPU 8 family with two specialized variants: the TPU 8tx keeps sensitive data encrypted even during processing, while the TPU 8i Max doubles compute power and memory by placing two chips on a single package. With nearly 100 external customers now on board, Google is increasingly positioning its in-house chips as an alternative to Nvidia's GPUs. The article Google ships four TPU variants in one year as it ramps up competition with Nvidia appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T12:59:02+00:00"
+  }
+ ]
+}
