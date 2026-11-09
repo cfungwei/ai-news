@@ -1,0 +1,191 @@
+{
+ "date": "2026-11-09",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "New paper \"SplatAnything\" fixes Gaussian spacing errors in 3D scene reconstruction",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper finds that feed-forward 3D Gaussian Splatting models suffer from inconsistent Gaussian spacing across scenes, and proposes SplatAnything to normalize it and fix ambiguous training supervision.",
+   "more": "Existing feed-forward 3DGS methods predict Gaussian attributes in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry. The paper argues this leaves the spacing between neighboring Gaussian centers free to vary substantially across different scene scales and camera configurations. That mismatch causes systematic shifts in the targets used to train Gaussian scale, producing ambiguous supervision during training. SplatAnything is proposed as a fix for this, though the excerpt does not detail its exact mechanism or report benchmark results.",
+   "item_ids": [
+    "hf-papers:2611.08264"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.08264",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+     "url": "https://huggingface.co/papers/2611.08264",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision. To address this, we propose SplatAnything "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "Paper proposes P²-MOPD to speed up multi-teacher model distillation",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces P²-MOPD, which jointly optimizes mixing coefficients and student weights to accelerate multi-teacher on-policy distillation of AI models.",
+   "more": "Multi-teacher on-policy distillation combines multiple expert models' capabilities by having a student model learn from trajectories it generates itself under supervision. The paper contrasts this with task arithmetic, which combines expert knowledge through training-free linear parameter combinations instead. P²-MOPD treats the linear combination of student and expert parameters as a single differentiable model, jointly optimizing the mixing coefficients and the student weights under the same on-policy distillation objective. The authors say this goes beyond what simple linear task arithmetic can do, though the excerpt does not give benchmark comparisons.",
+   "item_ids": [
+    "hf-papers:2611.03953"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.03953",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+     "url": "https://huggingface.co/papers/2611.03953",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the same on-policy distillation objective. Unlike task arithmetic, which stays within th"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "New benchmark LongBanana tests long-context, multi-reference AI image generation",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers release LongBanana, described as the first expert-verified benchmark for long-context, multi-reference image synthesis, testing whether models can combine many reference images into one coherent result.",
+   "more": "LongBanana targets the emerging area of agent-driven image generation, where models must synthesize one image from multiple scattered reference sources. The benchmark contains 90 tasks organized in a 3-by-3 taxonomy, with each task including roughly 32 reference images. Tasks require retrieving dispersed visual evidence, rejecting distractor images, binding entities and relations correctly, and composing a single coherent final image. The authors describe it as expert-designed and expert-verified, though the excerpt does not specify which models were evaluated or how they performed.",
+   "item_ids": [
+    "hf-papers:2611.06856"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.06856",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
+     "url": "https://huggingface.co/papers/2611.06856",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 con"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "Paper presents structure-aware kernels for faster relative-position attention",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper proposes structure-aware kernels to make relative-position attention, an alternative to RoPE used in transformers, faster and exact, especially in domains like audio.",
+   "more": "Relative-position attention mechanisms modify attention scores by adding content-position or bias-position terms, offering an alternative to RoPE across transformer architectures. The paper notes these mechanisms perform especially well in domains such as audio. Unlike RoPE, which encodes position through per-token rotations applied directly to queries and keys, relative-position terms typically require pairwise offset-dependent computation or lookups. The authors say this complicates integrating them efficiently, and propose structure-aware kernels to address it, though the excerpt cuts off before describing the kernels' design or reporting speedups.",
+   "item_ids": [
+    "hf-papers:2611.01182"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.01182",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Fast and Exact Relative-Position Attention via Structure-Aware Kernels",
+     "url": "https://huggingface.co/papers/2611.01182",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "Relative-position attention mechanisms offer compelling alternatives to RoPE across various transformer architectures, delivering superior performance in domains such as audio. These mechanisms typically modify attention scores by adding content-position or bias-position terms. Unlike RoPE, which encodes position via per-token rotations directly on the queries and keys, relative-position terms generally require pairwise offset-dependent computation or lookups, complicating their integration into"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "Nvidia espionage scandal undercuts Huang's lobbying against stricter chip export curbs",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia CEO Jensen Huang has admitted an affair with a woman US intelligence suspects is a Chinese informant, weakening his lobbying against tighter AI chip export controls as a new Congress prepares more scrutiny.",
+   "more": "Nvidia's board has launched an independent investigation following Huang's admission of the affair. The affair is seen as weakening Huang's lobbying efforts against stricter US export controls on AI chips to China. A newly elected Democratic Congress is expected to increase scrutiny of AI chip smuggling to China and push for tighter restrictions. The article does not say when the affair began or what the board's investigation will examine.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42615"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42615",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls",
+     "url": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/",
+     "published": "2026-11-09T11:38:43+00:00",
+     "excerpt": "Nvidia CEO Jensen Huang has admitted to an extramarital affair with a woman US intelligence agencies classify as a suspected Chinese informant. The board has launched an independent investigation. The affair weakens Huang's lobbying efforts against stricter AI chip export controls, with a newly elected Democratic Congress poised to ramp up scrutiny of AI chip smuggling to China and push for tighter restrictions. The article Nvidia espionage scandal weakens Huang's lobby against tighter AI chip e"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T11:38:43+00:00"
+  },
+  {
+   "title": "Authors turn to 'paper trail' tools to fight AI authorship allegations",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "As publishers grow suspicious about whether manuscripts were AI-generated, some authors are adopting 'paper trail' tools meant to document their writing process and defend against accusations.",
+   "more": "The publishing industry has grown increasingly paranoid about the provenance of manuscripts, questioning whether they were written by humans or AI. In response, some authors are using 'paper trail' tools intended to prove their own writing process. The article frames writers as caught in an impossible bind, and questions whether these defensive tools are actually enough to settle the allegations they face.",
+   "item_ids": [
+    "wired-ai:6ae24ce6521215c41824a0aa"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ae24ce6521215c41824a0aa",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+     "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+     "published": "2026-11-09T11:00:00+00:00",
+     "excerpt": "As the publishing industry wrestles with paranoia over the provenance of manuscripts, writers are caught in an impossible bind."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T11:00:00+00:00"
+  },
+  {
+   "title": "Bikers and bug conservationists join forces to oppose new Google data center",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "An unusual coalition of motorcyclists and insect conservationists is organizing against Google's plan to build a large new data center east of London, amid a wave of data center protests across Europe.",
+   "more": "Protests against data center construction have been breaking out across Europe. Near London, an unusual coalition of campaigners, including biker groups and bug conservation activists, has formed to try to block Google from building a sprawling new facility east of the city. The excerpt does not detail the specific environmental or community concerns driving the opposition beyond the scale of the proposed site.",
+   "item_ids": [
+    "wired-ai:6ae50d5754bf7a084fa1ee9b"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ae50d5754bf7a084fa1ee9b",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+     "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
+     "published": "2026-11-09T08:00:00+00:00",
+     "excerpt": "As data center protests break out across Europe, a mismatched band of campaigners is trying to block Google from building a sprawling new facility east of London."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T08:00:00+00:00"
+  }
+ ]
+}
