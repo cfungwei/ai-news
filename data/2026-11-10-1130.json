@@ -1,0 +1,945 @@
+{
+ "date": "2026-11-10",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Nvidia CEO Jensen Huang's affair scandal spreads to lawsuits, PR, and China policy",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Jensen Huang's acknowledged affair with an alleged Chinese spy is drawing lawsuits, a pre-hired crisis PR firm, and scrutiny of Nvidia's China lobbying, after he pulled out of two AI industry events.",
+   "more": "Nvidia's stock fell more than 4% after its board opened an investigation into CEO Jensen Huang's relationship with Alice Huang, an executive at compute firm Megaspeed whom US intelligence had reportedly flagged as a suspected Chinese spy. A securities-law expert told TechCrunch that Nvidia's earlier description of the relationship as \"normal\" could expose the company to shareholder lawsuits, and TechCrunch reports multiple parties are now racing to sue. Reporting also surfaced that Huang engaged a PR firm with experience handling high-profile sex scandals about a year ago, and that short seller Culper Research had questioned the relationship six months before it became public. Huang has withdrawn from the ElevenLabs Summit and an Anthropic event, and Wired says the episode threatens his influence over AI compute and Nvidia's efforts to ease US chip export restrictions to China. President Trump also fielded questions about what he knew of Huang's situation at a White House briefing.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1030328",
+    "verge-ai:https://www.theverge.com/?p=1030446",
+    "verge-ai:https://www.theverge.com/?post_type=vm_stream&p=1030422",
+    "verge-ai:https://www.theverge.com/?p=1029990",
+    "techcrunch-ai:https://techcrunch.com/?p=3186628",
+    "techcrunch-ai:https://techcrunch.com/?p=3186581",
+    "techcrunch-ai:https://techcrunch.com/?p=3186479",
+    "techcrunch-ai:https://techcrunch.com/?p=3186477",
+    "techcrunch-ai:https://techcrunch.com/?p=3186336",
+    "wired-ai:6af1fac05b42cb1a21fe51eb"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1030328",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "What could China get from Jensen Huang?",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+     "published": "2026-11-09T23:51:58+00:00",
+     "excerpt": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about […]"
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1030446",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Here’s what Trump said he knew about Jensen Huang",
+     "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+     "published": "2026-11-09T23:47:46+00:00",
+     "excerpt": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had been \"​​unfaithful\" to his wife, and the company has opened an investigation into Huang. Recent articles from The New […]"
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?post_type=vm_stream&p=1030422",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+     "published": "2026-11-09T23:07:59+00:00",
+     "excerpt": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide. Recent reporting noted that since last year, US intelligence reports had identified Alice Huang (no relation) as not only the exec for an AI compute company renting access to […]"
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1029990",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The future of AI hinges on… Jensen Huang’s sex life?",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+     "published": "2026-11-09T17:36:08+00:00",
+     "excerpt": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang - […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186628",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+     "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+     "published": "2026-11-09T23:28:37+00:00",
+     "excerpt": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186581",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+     "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+     "published": "2026-11-09T22:46:09+00:00",
+     "excerpt": "Six months before Nvidia's spy scandal erupted, Culper Research was already questioning Jensen Huang's unusually close relationship with a Chinese executive."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186479",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "The race is on to sue Nvidia",
+     "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+     "published": "2026-11-09T22:23:42+00:00",
+     "excerpt": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all “normal” could turn into a very expensive problem."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186477",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+     "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+     "published": "2026-11-09T20:09:06+00:00",
+     "excerpt": "The Nvidia CEO also pulled out of an Anthropic event earlier."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186336",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+     "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+     "published": "2026-11-09T18:09:52+00:00",
+     "excerpt": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market."
+    },
+    {
+     "id": "wired-ai:6af1fac05b42cb1a21fe51eb",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
+     "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+     "published": "2026-11-10T00:18:19+00:00",
+     "excerpt": "With a big checkbook and sought-after chips, Nvidia’s CEO had his thumb on the world of AI. An extramarital affair with a suspected Chinese spy may put all of that at risk."
+    }
+   ],
+   "coverage": 3,
+   "newest": "2026-11-10T00:18:19+00:00"
+  },
+  {
+   "title": "Anthropic reportedly moves forward with IPO plans",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic is expected to set its IPO valuation range this week, according to a Wall Street Journal report cited by TechCrunch.",
+   "more": "TechCrunch reports that Anthropic plans to move forward with its IPO, citing a Wall Street Journal report that the company is expected to set its valuation range this week.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3186715"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186715",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic reportedly plans to move forward with IPO plans",
+     "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+     "published": "2026-11-10T01:27:12+00:00",
+     "excerpt": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T01:27:12+00:00"
+  },
+  {
+   "title": "Paramount Skydance CEO calls AI a huge opportunity for film",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "On Paramount Skydance's earnings call, CEO David Ellison said AI could have a bigger impact on film production than CGI did, calling it a major creative opportunity.",
+   "more": "During Paramount Skydance's latest earnings call, CEO David Ellison said it's hard to imagine AI not having a bigger impact on the film industry than CGI. Responding to a question about the company's AI outlook, Ellison said that zooming out on production shows AI has significant potential, according to The Verge.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1030510"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1030510",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+     "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+     "published": "2026-11-10T00:28:49+00:00",
+     "excerpt": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T00:28:49+00:00"
+  },
+  {
+   "title": "Handshake AI deep dive looks at what frontier labs buy",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Latent Space interview with Handshake AI's Garrett Lord and team examines the data company's growth to a $1B valuation in a year, supplying finance, bio, and alignment data to frontier labs.",
+   "more": "Latent Space's deep dive profiles Handshake AI, which the post says went from launch to a $1 billion valuation in one year by supplying specialized data to frontier AI labs. The piece covers specific examples across finance, biology, and alignment data, based on an interview with co-founder Garrett Lord and team.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_7c4df2dc-89b9-4ffa-a212-174cf579b0ee"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_7c4df2dc-89b9-4ffa-a212-174cf579b0ee",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+     "url": "https://latent.space/p/handshake/",
+     "published": "2026-11-09T17:15:53+00:00",
+     "excerpt": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T17:15:53+00:00"
+  },
+  {
+   "title": "Anthropic buys $3.4B of natural gas turbines for power",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic bought billions of dollars' worth of natural gas turbines, joining other AI companies turning to gas power amid a rush for compute capacity.",
+   "more": "TechCrunch reports Anthropic has bought $3.4 billion worth of natural gas turbines as part of a wider AI industry rush toward natural gas for power. The report notes the deal could give Anthropic buyer's remorse, without detailing why.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3186273"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186273",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+     "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+     "published": "2026-11-09T16:56:54+00:00",
+     "excerpt": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T16:56:54+00:00"
+  },
+  {
+   "title": "Disney partners with Adobe on brand-safe AI models using Firefly",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Disney and Adobe are building custom AI tools based on Firefly for Disney's entertainment productions, aiming for brand-safe AI model use.",
+   "more": "The Decoder reports Disney and Adobe are building custom AI tools together, based on Adobe's Firefly, for use across Disney's entertainment productions. Few further details are given in the brief report.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42628"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42628",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire",
+     "url": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/",
+     "published": "2026-11-09T16:54:16+00:00",
+     "excerpt": "Disney and Adobe are building custom AI tools together for the entertainment giant's productions. The article Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T16:54:16+00:00"
+  },
+  {
+   "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2 models",
+   "tags": [
+    "models",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic released Claude Fable 5.2 and Mythos 5.2, claiming gains in coding, reasoning, and vision; Fable 5.2 topped Artificial Analysis rankings as the company's IPO roadshow begins.",
+   "more": "Anthropic says Fable 5.2 and Mythos 5.2 show improvements over the 5.1 versions in coding, reasoning, vision, and speed, and that Fable 5.2 now writes more than 90 percent of the code changes merged into Anthropic's own codebase. The Decoder reports the models come in a freely available version and a second version reserved for verified organizations, and that Anthropic says it has deliberately limited capabilities that could let the models accelerate their own development. TechCrunch notes the release lands amid ongoing concerns about recursive self-improvement (RSI). On Hacker News, Fable 5.2 was reported scoring 65 on Artificial Analysis, the highest score so far, and Latent Space says it retook the number one spot on that index. The launch comes as Anthropic's IPO roadshow begins, with Decoder and Latent Space both linking the release to the listing.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1030005",
+    "techcrunch-ai:https://techcrunch.com/?p=3186369",
+    "decoder:https://the-decoder.com/?p=42645",
+    "latent-space:urn:latent-space:post:post_df4afb4d-ec92-48c2-a5a9-92147e7325c8",
+    "hn:50431144",
+    "hn:50429906",
+    "hn:50429068"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1030005",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+     "published": "2026-11-09T19:00:00+00:00",
+     "excerpt": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of the Fable and Mythos models. Claude Fable […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186369",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+     "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+     "published": "2026-11-09T19:24:51+00:00",
+     "excerpt": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42645",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO",
+     "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/",
+     "published": "2026-11-09T21:15:23+00:00",
+     "excerpt": "Anthropic is releasing Claude Fable 5.2 and Mythos 5.2, its most powerful models to date, in two versions: one freely available and one reserved for verified organizations. The models solve open physics problems, show stronger cybersecurity capabilities, design functioning operating systems, and write more than 90 percent of the changes merged into Anthropic's core code, according to the company. Anthropic says it has deliberately curbed any capabilities that would let the AI accelerate its own "
+    },
+    {
+     "id": "latent-space:urn:latent-space:post:post_df4afb4d-ec92-48c2-a5a9-92147e7325c8",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+     "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+     "published": "2026-11-10T06:34:44+00:00",
+     "excerpt": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?"
+    },
+    {
+     "id": "hn:50431144",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+     "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+     "published": "2026-11-09T20:04:55+00:00",
+     "excerpt": "331 points, 240 comments. Discussion: https://news.ycombinator.com/item?id=50431144"
+    },
+    {
+     "id": "hn:50429906",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Claude Fable 5.2 and Mythos 5.2",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "published": "2026-11-09T18:56:29+00:00",
+     "excerpt": "971 points, 6 comments. Discussion: https://news.ycombinator.com/item?id=50429906"
+    },
+    {
+     "id": "hn:50429068",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Claude Fable 5.2 and Mythos 5.2",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "published": "2026-11-09T18:01:10+00:00",
+     "excerpt": "439 points, 733 comments. Discussion: https://news.ycombinator.com/item?id=50429068"
+    }
+   ],
+   "coverage": 5,
+   "newest": "2026-11-10T06:34:44+00:00"
+  },
+  {
+   "title": "Meta releases Muse Ember, a small model for agent tasks",
+   "tags": [
+    "models",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta launched Muse Ember, a lightweight model tuned for repetitive agent work like tool calls and routing, priced at 10 cents per million input tokens but weaker at coding.",
+   "more": "Meta describes Muse Ember as its smallest and most efficient model, optimized for the repetitive work agents do, such as tool calls, routing, and data extraction, according to Meta's own announcement and TechCrunch. At 10 cents per million input tokens, TechCrunch reports it undercuts frontier models like Claude Haiku and GPT-6 Luna on price, and The Decoder says Meta claims it delivers more intelligence per dollar than those rivals. The Decoder notes Muse Ember falls short on actual programming tasks despite its agent-task strengths.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3186298",
+    "decoder:https://the-decoder.com/?p=42640",
+    "hn:50429024"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186298",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+     "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+     "published": "2026-11-09T18:00:00+00:00",
+     "excerpt": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42640",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do",
+     "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/",
+     "published": "2026-11-09T19:41:51+00:00",
+     "excerpt": "Meta is introducing Muse Ember, its smallest and most efficient AI model, optimized for repetitive agent tasks such as tool calls, routing, and data extraction. According to Meta, it delivers more intelligence per dollar than Claude Haiku 5.5 or GPT-6 Luna. But it falls short when it comes to actual programming tasks. The article Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do appeared first on The Decoder ."
+    },
+    {
+     "id": "hn:50429024",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Muse Ember: Our smallest, most efficient model",
+     "url": "https://research.meta.ai/blog/muse-ember",
+     "published": "2026-11-09T17:58:46+00:00",
+     "excerpt": "283 points, 118 comments. Discussion: https://news.ycombinator.com/item?id=50429024"
+    }
+   ],
+   "coverage": 3,
+   "newest": "2026-11-09T19:41:51+00:00"
+  },
+  {
+   "title": "Fable 5.2's behavior shifts with who the prompt says owns the code",
+   "tags": [
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison notes that Claude Fable 5.2 responds differently depending on whether a prompt frames a codebase as the model's own versus someone else's, based on Anthropic's own testing.",
+   "more": "Willison quotes Anthropic's testing on small coding tasks, which found that when a prompt said nothing about code ownership, or framed the codebase as belonging to someone else, Fable 5.2 tended to add to the existing structure even when that meant repeating code. Telling the model the codebase is its own to improve, by contrast, changes this tendency, according to the excerpt. The post frames this as a practical prompting technique for getting Fable 5.2 to refactor rather than just append code.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Prompting Claude Fable 5.2",
+     "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+     "published": "2026-11-10T05:34:14+00:00",
+     "excerpt": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repeated existing code. [...] If you want the model to improve the structure as it works, say that the code is its own: This codebase is yours: what it's for and how it's built are your call, and you'll k"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T05:34:14+00:00"
+  },
+  {
+   "title": "Bytedance's Seedream 5.5 targets stable multi-round image editing",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Bytedance Seed introduced Seedream 5.5, an image model for professional workflows that supports up to 100 editing rounds without color drift and native transparent RGBA output.",
+   "more": "The Decoder reports Bytedance Seed's new Seedream 5.5 is built for professional production workflows, supporting stable multi-pass editing over up to 100 iterations. It generates native RGBA images with transparent backgrounds and, according to Bytedance, outperforms GPT-Image-2.5 Sunburst in realism. A Pro version is planned.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42632"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42632",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
+     "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
+     "published": "2026-11-09T18:50:01+00:00",
+     "excerpt": "Bytedance Seed has introduced Seedream 5.5, an image model built for professional production workflows. It supports stable multi-pass editing over up to 100 iterations, generates native RGBA images with transparent backgrounds, and, according to Bytedance, outperforms GPT-Image-2.5 Sunburst in realism. A Pro version is planned. The article Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T18:50:01+00:00"
+  },
+  {
+   "title": "webAI's TwIL-8B reasoning model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "webAI-Official's TwIL-8B, an 8B Granite-based reasoning and coding model, is trending on Hugging Face with over 34,000 downloads and 262 likes.",
+   "more": "TwIL-8B is a text-generation model built on IBM's Granite 4.2 architecture, released by webAI-Official, and shared as safetensors and GGUF weights on Hugging Face. It is tagged for reasoning, math, code, instruction-following, and reinforcement learning, and has drawn 262 likes and over 34,500 downloads. Few other details are available from the listing.",
+   "item_ids": [
+    "hf-trending:webAI-Official/TwIL-8B"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:webAI-Official/TwIL-8B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: webAI-Official/TwIL-8B",
+     "url": "https://huggingface.co/webAI-Official/TwIL-8B",
+     "published": "2026-10-14T16:50:12+00:00",
+     "excerpt": "text-generation, 262 likes, 34546 downloads. Tags: transformers, safetensors, gguf, granite, text-generation, granite-4.2, twil, reasoning, math, code, instruction-following, reinforcement-learning"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-14T16:50:12+00:00"
+  },
+  {
+   "title": "Google DeepMind AI tool formally verifies the Signal Protocol",
+   "tags": [
+    "research",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind researchers used a new AI tool to formally verify that the Signal encryption protocol works as intended, with an eventual goal of verifying all the world's software.",
+   "more": "Wired reports DeepMind researchers were able to formally verify that the widely used Signal Protocol encryption works as intended, using a new AI tool. The researchers' stated stretch goal is to eventually do the same formal verification for all software.",
+   "item_ids": [
+    "wired-ai:6aee309b9f03214bd39f9693"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6aee309b9f03214bd39f9693",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+     "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+     "published": "2026-11-10T05:01:00+00:00",
+     "excerpt": "DeepMind researchers were able to formally verify that the widely used encryption protocol works as intended. Their stretch goal? Do the same for “all the software of the world.”"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T05:01:00+00:00"
+  },
+  {
+   "title": "Hobbyist catalogs unusual neurons found inside Qwen3.5-4B",
+   "tags": [
+    "research",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA post catalogs odd individual neurons inside Qwen3.5-4B, including one that acts as a dial between contrarian/dishonest and sycophantic/credulous behavior.",
+   "more": "Following an earlier post about a 'redditor neuron,' the author shares more unusual neurons found while exploring Qwen3.5-4B's internals. One example, labeled L11 N8147, is described as acting as a dial between snarky contrarianism, which the author says makes the model lie about everything, and sycophancy, which makes it believe anything it's told. The excerpt cuts off before further neurons are fully described.",
+   "item_ids": [
+    "localllama:t3_1xrydgx"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xrydgx",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "More interesting and unusual Qwen3.5-4B neurons",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrydgx/more_interesting_and_unusual_qwen354b_neurons/",
+     "published": "2026-11-09T17:46:55+00:00",
+     "excerpt": "You guys seemed to like my last post about the 'redditor neuron' so I'm listing some other interesting neurons I've found while poking around. L11 N8147: The redditor neuron/ contrarianism neuron. Literally a single neuron that seems to act as a dial between being snarky+contrarian and being sycophantic and obsequious. Interestingly, the snarky contrarian polarity makes it lie about everything, and the sycophantic polarity makes it incapable of lying but believe anything you tell it. L6 N9195: S"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T17:46:55+00:00"
+  },
+  {
+   "title": "Paper: PCBRouteAgent tests how close LLM agents are to PCB routing",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces PCBRouteAgent, a multimodal agent that coordinates global routing strategy with local execution to automate printed circuit board routing.",
+   "more": "The paper, 'PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?', notes that automating PCB routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules, and that existing agents struggle with reliable routing on complex boards. PCBRouteAgent is designed to mirror how human engineers balance global strategy with local execution, using a Global Routing Planner that combines board images with structured electrical and geometric information. The excerpt is cut off before describing the system's local execution component or reported results.",
+   "item_ids": [
+    "hf-papers:2611.08175"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.08175",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+     "url": "https://huggingface.co/papers/2611.08175",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with local execution. A Global Routing Planner combines board images and structured electrical and geometric "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "Paper proposes A2-MEAS framework for agentic embodied robots",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces A2-MEAS, a multi-agent embodied framework using code-based correction signals to help robots recover from failures and act with sustained autonomy.",
+   "more": "The paper, 'Toward the Era of Agentic Embodied Intelligence,' argues that sustained robot autonomy requires efficient control and failure recovery beyond what current foundation models provide. Its proposed A2-MEAS framework uses learned correction codes that combine corrective language, spatial evidence, execution history, and action proposals, with a 'MetaBrain' component providing training supervision and runtime guidance. A correction encoder and adapter absorb this knowledge into the policy's weights during training. The excerpt is cut off before describing further architecture details or results.",
+   "item_ids": [
+    "hf-papers:2611.09124"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.09124",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Toward the Era of Agentic Embodied Intelligence",
+     "url": "https://huggingface.co/papers/2611.09124",
+     "published": "2026-11-09T00:00:00+00:00",
+     "excerpt": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A correction encoder and adapter absorb this knowledge into policy weights during training, while fresh"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T00:00:00+00:00"
+  },
+  {
+   "title": "Simon Willison tests Fable 5.2 with a Yonkers mech animation demo",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison used Claude Fable 5.2 Medium to generate a Three.js animation of Yonkers rising as a mech over real OpenStreetMap data, as a way to test the model's 3D skills.",
+   "more": "After realizing he didn't know where Yonkers was, Willison looked it up on Google Maps and then prompted Fable 5.2 Medium to build a Three.js animation of Yonkers standing up as a mech and moving past Manhattan, Queens, and Brooklyn using OpenStreetMap data, partly to try out the model's 3D modeling and animation skills. He notes the model correctly interpreted a mobile-keyboard typo in his prompt.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/10/yonkers-rises/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Yonkers Rises",
+     "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+     "published": "2026-11-10T03:53:04+00:00",
+     "excerpt": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed it's location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and átomos around manhattan and queens and Brooklyn, use openstreetmap mapping data It correctly deduced that \"átomos\" was a mobile keyboard typo for \"stom"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T03:53:04+00:00"
+  },
+  {
+   "title": "llm-anthropic 0.31 adds support for Claude Fable and Mythos 5.2",
+   "tags": [
+    "tools",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison's llm-anthropic plugin was updated to version 0.31 to support newly released Claude Fable 5.2 and Mythos 5.2, which he notes rank first on Artificial Analysis.",
+   "more": "The release note says Anthropic released Fable 5.2 and Mythos 5.2 the same day, with Fable 5.2 currently ranked first on Artificial Analysis, and that Anthropic describes the models as having \"solved two open problems in the physics of black holes.\" Willison added the new models to his llm-anthropic plugin, letting users run prompts against Fable 5.2 via the llm command-line tool after installing the plugin and setting an Anthropic API key.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/9/llm-anthropic/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "llm-anthropic 0.31",
+     "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+     "published": "2026-11-09T23:58:46+00:00",
+     "excerpt": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! I've added the new models to llm-anthropic , so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 \"Generate"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T23:58:46+00:00"
+  },
+  {
+   "title": "Simon Willison builds a Claude Code tool to locate a mystery beep",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison had Claude Code build 'Beep Locator,' a system using multiple devices to triangulate the source of an intermittent beep in an unpacked box room.",
+   "more": "Willison describes an intermittently beeping box room left over from a house move, with the beeps spaced too far apart to trace by ear alone. Rather than dig through the boxes, he had Claude Code build Beep Locator, a software system for triangulating the beep's source using multiple devices scattered around the room.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Locating the source of a mysterious beep with Claude",
+     "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+     "published": "2026-11-09T23:57:21+00:00",
+     "excerpt": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes. So I had Claude Code build Beep Locator , a software system for triangulating the source of a mysterious beep using multiple devices scattered"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T23:57:21+00:00"
+  },
+  {
+   "title": "Claude Code settings files are leaking secrets on GitHub",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ars Technica reports Claude Code settings files are exposing thousands of secrets on GitHub, with a 'Do not ask again' prompt leading users to accidentally share passwords and API keys.",
+   "more": "Ars Technica reports that Claude Code settings files are accidentally exposing secrets across GitHub. The article attributes the issue to a 'Do not ask again' prompt that leads to passwords, API keys, and other credentials being shared publicly.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Claude Code is accidentally exposing secrets all over GitHub",
+     "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+     "published": "2026-11-09T17:24:26+00:00",
+     "excerpt": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T17:24:26+00:00"
+  },
+  {
+   "title": "Apple adds $50 'Usage Packs' for extra Apple Intelligence access",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apple updated Logic Pro with a one-time $49.99 'Buy More Usage' option, extending access to some Apple Intelligence features beyond existing usage limits.",
+   "more": "Apple previously published a support article outlining usage limits for some Apple Intelligence features. The Verge reports Apple has now updated Logic Pro with a built-in AI assistant and an option to buy more usage for a one-time $49.99 purchase, as first spotted by 9to5Mac. The assistant can do things like start a new song or set up a project.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1030084"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1030084",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+     "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+     "published": "2026-11-09T19:09:58+00:00",
+     "excerpt": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T19:09:58+00:00"
+  },
+  {
+   "title": "ChatGPT Enterprise now available in AWS Marketplace",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI made ChatGPT Enterprise available through AWS Marketplace, letting organizations buy it under their existing AWS purchasing and billing relationships.",
+   "more": "OpenAI announced that ChatGPT Enterprise can now be procured via AWS Marketplace. The company says this simplifies procurement for organizations that already have AWS purchasing and billing relationships in place.",
+   "item_ids": [
+    "openai:https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "ChatGPT Enterprise now available in AWS Marketplace",
+     "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+     "published": "2026-11-09T19:00:00+00:00",
+     "excerpt": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T19:00:00+00:00"
+  },
+  {
+   "title": "Instagram's Effect Builder creates filters from AI prompts",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Instagram launched Effect Builder, letting US adults over 18 generate custom AI filters for Stories by describing an idea or attaching a style image to a chatbot prompt.",
+   "more": "The Verge reports Instagram's new Effect Builder generates custom filters for Stories posts using AI, following last week's expansion of its Edits app to macOS. It is available now to US residents over 18 and includes a prompt box for describing a filter idea, with an option to attach a style reference.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1030061"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1030061",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+     "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+     "published": "2026-11-09T18:07:23+00:00",
+     "excerpt": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option to attach style […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T18:07:23+00:00"
+  },
+  {
+   "title": "MIT Tech Review: data center backlash is really about electricity",
+   "tags": [
+    "policy",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "MIT Technology Review argues that public backlash against AI data centers, seen firsthand in Virginia's 'Data Center Alley,' is fundamentally a reaction to rising electricity costs and usage.",
+   "more": "The piece, from MIT Technology Review's newsletter The Algorithm, is reported from Ashburn, Virginia, part of what's known as Data Center Alley, the world's largest data center hub. It ties recent US voter concerns, following last week's elections, to the broader backlash against data centers, suggesting electricity is the underlying issue rather than data centers themselves. The available excerpt does not detail further specifics.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1148194"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1148194",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "The backlash about data centers might really just be about electricity",
+     "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+     "published": "2026-11-09T19:35:33+00:00",
+     "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T19:35:33+00:00"
+  },
+  {
+   "title": "Report: Google Gemini sends personal Drive files to human annotators",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "A GitHub-hosted report, discussed on Hacker News with 523 points, claims Google Gemini routes users' personal Drive files and emails to human annotators.",
+   "more": "The item is a Hacker News submission, with 523 points and 118 comments, linking to a GitHub-hosted report alleging that Google Gemini routes personal Google Drive files and emails to human annotators. No additional detail from the underlying report is available in the excerpt.",
+   "item_ids": [
+    "hn:50429426"
+   ],
+   "items": [
+    {
+     "id": "hn:50429426",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Google Gemini routes personal Drive files and emails to human annotators",
+     "url": "https://github.com/thisisme6598/gemini_files/",
+     "published": "2026-11-09T18:24:38+00:00",
+     "excerpt": "523 points, 118 comments. Discussion: https://news.ycombinator.com/item?id=50429426"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T18:24:38+00:00"
+  },
+  {
+   "title": "Scott Wiener, Pelosi's successor, signals readiness to regulate AI",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Scott Wiener, who won the congressional race for Nancy Pelosi's former San Francisco seat, previously authored California AI-risk legislation and may now shape federal AI policy.",
+   "more": "MIT Technology Review interviewed Scott Wiener after he won a tight congressional race for Nancy Pelosi's open San Francisco seat. As a California state senator, Wiener authored legislation aimed at curbing risks from advanced AI, and the report suggests he could now play a key role in setting federal AI policy.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1148182"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1148182",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+     "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+     "published": "2026-11-09T17:05:43+00:00",
+     "excerpt": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T17:05:43+00:00"
+  },
+  {
+   "title": "A year into a 100% AI coding mandate, team says nobody understands the code",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Reddit post discussed on Hacker News describes a company a year into a mandate to write all code with AI, where the team reportedly no longer understands their own codebase.",
+   "more": "The item is a Hacker News submission linking to a r/ClaudeCode discussion titled 'A year after the 100% AI mandate nobody understands our code,' which drew 120 points and 152 comments on Hacker News. No further detail from the discussion itself is available in the excerpt.",
+   "item_ids": [
+    "hn:50433079"
+   ],
+   "items": [
+    {
+     "id": "hn:50433079",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "A year after the 100% AI mandate nobody understands our code",
+     "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+     "published": "2026-11-09T22:19:12+00:00",
+     "excerpt": "120 points, 152 comments. Discussion: https://news.ycombinator.com/item?id=50433079"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T22:19:12+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA users question if ArtificialAnalysis favors closed models",
+   "tags": [
+    "open-source",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA discussion accuses benchmark site ArtificialAnalysis of recalibrating its 'intelligence index' in ways that make open-weight models like DeepSeek and GLM look worse relative to closed models.",
+   "more": "The post argues that whenever open-weight models approach proprietary US models on ArtificialAnalysis's benchmarks, the site recalibrates its methodology, pushing open-weight scores down. It claims the resulting 'intelligence index,' advertised on social media, understates the real-world coding ability of models like DeepSeek and GLM by weighting tasks the author considers less relevant. The post is an opinion and discussion thread rather than a reported investigation.",
+   "item_ids": [
+    "localllama:t3_1xs5pkl"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xs5pkl",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Is ArtificialAnalysis biased against open weight models?",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs5pkl/is_artificialanalysis_biased_against_open_weight/",
+     "published": "2026-11-09T22:22:35+00:00",
+     "excerpt": "It seems like whenever open weight models come close to proprietary US models, ArtificialAnalysis conveniently \"re-calibrates\" their benchmarks which then shoves open weight models down the toilet. Then they advertise on X/Twitter this \"intelligence index\" which presents open weight models as dog shit compared to Claude or GPT (all while ignoring the actual intelligence of models like DeepSeek or GLM in tasks that actually matter, which is coding vs telecom bullshit). Any business man looking at"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T22:22:35+00:00"
+  },
+  {
+   "title": "DeepX claims new chip runs 100B-parameter inference under 5W",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "DeepX's second-generation chip reportedly supports inference on models up to 100 billion parameters at under 5 watts, with a claimed 6.7x performance gain using LPDDR5X-based processing-in-memory.",
+   "more": "According to EE Times, cited in a Hacker News discussion with 149 points and 23 comments, DeepX has taped out its second-generation chip, claiming a 6.7x performance gain over its prior generation using LPDDR5X processing-in-memory (PIM). The company says the chip can handle inference for models with up to 100 billion parameters while drawing less than 5 watts.",
+   "item_ids": [
+    "hn:50429545"
+   ],
+   "items": [
+    {
+     "id": "hn:50429545",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "DeepX claims inference up to 100B parameters at less than 5 W",
+     "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+     "published": "2026-11-09T18:33:58+00:00",
+     "excerpt": "149 points, 23 comments. Discussion: https://news.ycombinator.com/item?id=50429545"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T18:33:58+00:00"
+  },
+  {
+   "title": "Redditor says they were threatened with a ban for red-teaming their own plugin",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA poster says they were threatened with a ban, with an appeal denied without explanation, after red-teaming their own plugin, citing it as a reason local models matter.",
+   "more": "The brief post describes being threatened with a ban for red-teaming their own plugin, with an appeal denied without detail given. The author frames the experience as another reminder of why running models locally matters, without specifying which platform issued the threat.",
+   "item_ids": [
+    "localllama:t3_1xs3y17"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xs3y17",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Got another good reminder why local matters today",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs3y17/got_another_good_reminder_why_local_matters_today/",
+     "published": "2026-11-09T21:13:10+00:00",
+     "excerpt": "Apparently, they're threatening to ban me for merely red-teaming my own plugin. The appeal was immediately denied without any details. submitted by /u/stevie_balemi [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T21:13:10+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA poster laments subreddit's decline over the past year",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA post questions how the subreddit's discussion quality degraded so much in twelve months, without identifying a specific cause.",
+   "more": "The post simply asks how a community once described as having 'the finest minds of our age' could degenerate so much in twelve months, and what mechanism drives that decline. No further detail or analysis is given in the excerpt.",
+   "item_ids": [
+    "localllama:t3_1xs0izk"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xs0izk",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "From the finest minds of our age to the dumbest monkeys on the planet",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs0izk/from_the_finest_minds_of_our_age_to_the_dumbest/",
+     "published": "2026-11-09T19:05:36+00:00",
+     "excerpt": "How is it possible for a sub to degenerate so much in 12 months? What is the mechanism that drives this? submitted by /u/Jungle_Llama [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-09T19:05:36+00:00"
+  }
+ ]
+}
