@@ -1,0 +1,365 @@
+{
+ "date": "2026-11-10",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Paper proposes a sensor-agnostic tactile representation for dexterous manipulation",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduce a method for embodied models to learn tactile understanding across different sensor types, aiming to free tactile perception from sensor-specific physics for contact-rich manipulation tasks.",
+   "more": "Tactile sensing is considered essential for contact-rich dexterous manipulation and a step toward embodied intelligence, but commercially available tactile sensors remain early-stage, each with its own strengths and drawbacks. The paper's central challenge is separating tactile understanding from the physics specific to any one sensor, so that embodied models can draw on heterogeneous tactile data rather than being locked to a single sensor type. The excerpt does not detail the proposed method's architecture or report benchmark results.",
+   "item_ids": [
+    "hf-papers:2611.12806"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.12806",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+     "url": "https://huggingface.co/papers/2611.12806",
+     "published": "2026-11-10T00:00:00+00:00",
+     "excerpt": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous ta"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T00:00:00+00:00"
+  },
+  {
+   "title": "WorldFoundry paper argues visual generation alone doesn't make a world model",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper argues visual plausibility isn't enough for world modeling, defining a generative world model as a system that keeps a persistent, history-conditioned representation of an environment and updates it causally.",
+   "more": "The paper distinguishes generative models that merely produce visually plausible outputs from true world models, arguing that compelling visuals can still lack persistent state, physical dynamics, or causally consistent responses to interactions. It defines a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment and updates that representation in response to events. The excerpt cuts off before describing the proposed infrastructure or any evaluation results.",
+   "item_ids": [
+    "hf-papers:2611.10771"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.10771",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+     "url": "https://huggingface.co/papers/2611.10771",
+     "published": "2026-11-10T00:00:00+00:00",
+     "excerpt": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment, updates that representation in response to"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T00:00:00+00:00"
+  },
+  {
+   "title": "Reframe aligns agentic visual-reasoning models on tool-returned observations",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new post-training framework, Reframe, treats an agent's observation state as something to align during distillation, aiming to fix visual agents that overlook tool-returned information or ground actions poorly.",
+   "more": "The paper notes that agentic reinforcement learning and multi-teacher on-policy distillation are complementary approaches to post-training AI agents, but says visual agents face two linked problems: missing useful tool-returned observations, and poorly grounded actions that limit the evidence available for later distillation. Reframe is introduced as a framework that treats the observation state itself, not just the output distribution, as an object of alignment. The excerpt is cut off before describing the method's mechanics or its results.",
+   "item_ids": [
+    "hf-papers:2611.12886"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.12886",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+     "url": "https://huggingface.co/papers/2611.12886",
+     "published": "2026-11-10T00:00:00+00:00",
+     "excerpt": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that treats the observation state, rather than only the output distribution, as an object of alignment. Fi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T00:00:00+00:00"
+  },
+  {
+   "title": "Sage-Taiyi architecture aims to guide AI scientific discovery with metacognition",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Sage-Taiyi is a metacognition-inspired architecture that uses accumulated scientific understanding to decide what to investigate next, evaluated on Taiyi-Bench, a 265-task AI co-scientist benchmark from 50 papers.",
+   "more": "The system is described as using explicit monitoring and control to revise its understanding of evidence, assumptions, and unresolved questions, then using those assessments to adapt its research targets and choose reusable reasoning methods. It was tested on Taiyi-Bench, an AI co-scientist ideation benchmark made up of 265 tasks drawn from 50 papers across ten disciplines. The excerpt does not report how Sage-Taiyi performed on the benchmark.",
+   "item_ids": [
+    "hf-papers:2611.12762"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.12762",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+     "url": "https://huggingface.co/papers/2611.12762",
+     "published": "2026-11-10T00:00:00+00:00",
+     "excerpt": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI co-scientist ideation benchmark comprising 265 tasks from 50 papers across ten disci"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T00:00:00+00:00"
+  },
+  {
+   "title": "ReproBridge builds reproducibility artifacts to help coding agents redo ML experiments",
+   "tags": [
+    "research",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "ReproBridge proposes a standardized artifact, including a refined codebase and environment details, meant to preserve the procedures behind an ML experiment so researchers or agents can reproduce it later.",
+   "more": "The paper frames reproducing ML experiments as reconstructing procedures scattered across papers, released code, and supporting artifacts, and notes that for coding agents, success can depend on filling in missing details rather than on the released artifacts alone. It asks whether preserving an experiment's recovered procedures and decisions improves later, independent reproduction attempts. The proposed artifact design includes a refined codebase and environment information, though the excerpt cuts off before listing the rest. No reproduction results are given in the excerpt.",
+   "item_ids": [
+    "hf-papers:2611.08452"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.08452",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+     "url": "https://huggingface.co/papers/2611.08452",
+     "published": "2026-11-10T00:00:00+00:00",
+     "excerpt": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independent reproduction. We define a standardized artifact design comprising a refined codebase, environment"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T00:00:00+00:00"
+  },
+  {
+   "title": "Flide inference engine speeds up decision models via exact state forking",
+   "tags": [
+    "research",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Flide is an inference engine for decision models that avoids the prefix-recomputation overhead and distorted output probabilities of generation-oriented engines, using exact state forking instead.",
+   "more": "The paper frames decision models as a promising paradigm for LLM agent systems, offering lightweight categorical reasoning for fast execution, but says existing generation-oriented inference engines handle these workloads poorly, with either heavy prefix recomputation or distorted output probabilities. Flide is proposed as an engine that decouples the logical tree structure to run exact inference without those costs. The excerpt is cut off before describing Flide's results or performance numbers.",
+   "item_ids": [
+    "hf-papers:2610.42148"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.42148",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+     "url": "https://huggingface.co/papers/2610.42148",
+     "published": "2026-11-10T00:00:00+00:00",
+     "excerpt": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, we propose Flide, an efficient and exact inference engine that decouples the logical tree structure "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T00:00:00+00:00"
+  },
+  {
+   "title": "SIRIS benchmark tests whether LLMs know when simulator errors change a design call",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "SIRIS tests whether LLMs can tell when a systems-research simulator's inaccuracies are harmless versus when they flip which design should be chosen, by perturbing simulators and judging the model's understanding.",
+   "more": "The paper notes that LLM agents increasingly drive systems research and depend on simulators to evaluate candidate designs at scale, even though simulators are imperfect by design. It distinguishes two outcomes of a simulator's modeling limitations: distorted predictions that still leave the correct design recommendation intact, and distortions that change which design should be selected. SIRIS is built by perturbing a simulator to construct test cases, checking whether an LLM's systems understanding can tell when a limitation invalidates the simulator's recommendation. The excerpt does not report how well current LLMs perform on this test.",
+   "item_ids": [
+    "hf-papers:2611.10329"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.10329",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "SIRIS: Can LLMs Tell When Simulation Errors Matter in AI-Driven Systems Research",
+     "url": "https://huggingface.co/papers/2611.10329",
+     "published": "2026-11-10T00:00:00+00:00",
+     "excerpt": "LLM agents increasingly drive systems research and rely on simulators to evaluate candidate designs at scale. Simulators are imperfect by design: their modeling limitations can distort predictions yet leave the recommended design correct, or change which design should be selected. We introduce Siris to test whether LLMs can tell these cases apart, judging from their systems understanding when a limitation invalidates the simulator's recommendation. By perturbing a simulator, Siris constructs wor"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T00:00:00+00:00"
+  },
+  {
+   "title": "OpenAI shares lessons from its EMEA education partnerships",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI published lessons from its education partnerships across EMEA alongside new research from ThinkYoung, focused on supporting teachers, AI literacy, and independent learning.",
+   "more": "The post draws on OpenAI's EMEA education partnerships and new research conducted with ThinkYoung. It centers on three themes: supporting teachers, building AI literacy, and fostering independent learning. The excerpt does not give further specifics on the partnerships or the research findings.",
+   "item_ids": [
+    "openai:https://openai.com/index/closing-ai-guidance-gap-education"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/closing-ai-guidance-gap-education",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Closing the AI guidance gap in education",
+     "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+     "published": "2026-11-10T09:00:00+00:00",
+     "excerpt": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T09:00:00+00:00"
+  },
+  {
+   "title": "Anthropic kicks off a roadshow",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic announced the launch of a roadshow; the Source gives no further detail about what it covers.",
+   "more": "Beyond its title, the Source provided no excerpt or publish date for this item, so no further specifics are available.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/roadshow-launch"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/roadshow-launch",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Roadshow launch",
+     "url": "https://www.anthropic.com/news/roadshow-launch",
+     "published": null,
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": ""
+  },
+  {
+   "title": "Wired profiles 'abliterators' who strip safety guardrails from AI chatbots",
+   "tags": [
+    "policy",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports on so-called abliterators who release AI models stripped of built-in guardrails, modifications that can help with cyberdefense testing but could also assist in building dangerous content.",
+   "more": "The piece covers a community described as 'abliterators' who are flooding the internet with modified AI models that never refuse a request. It frames the trend as a trade-off: easier for people to improve their own cyberdefenses, but also easier to use the models for harmful ends such as building a bomb. The excerpt does not name specific individuals, groups, or models involved.",
+   "item_ids": [
+    "wired-ai:6ace8269ef03129fd13b25aa"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ace8269ef03129fd13b25aa",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
+     "url": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
+     "published": "2026-11-10T11:00:00+00:00",
+     "excerpt": "The “abliterators” are flooding the internet with AI models that never say no, making it easier for people to improve their cyberdefenses—or build a bomb."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T11:00:00+00:00"
+  },
+  {
+   "title": "Wired asks 10 experts what AI safety's real risks are, beyond Skynet",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired surveyed 10 experts on AI safety and reports nuclear catastrophe risk and fallout from US-China competition as real concerns, arguing a Skynet-style threat isn't one to panic about.",
+   "more": "Wired argues that public discussion of AI safety has drifted away from the risks experts consider most pressing. Among the real concerns it cites are the risk of nuclear catastrophe and fallout from US-China competition over AI dominance, including espionage. It contrasts these with a Terminator-style 'Skynet' scenario, which the piece says does not warrant panic. The excerpt does not name the 10 experts or detail their individual views.",
+   "item_ids": [
+    "wired-ai:6aecd72ef3a6c68d608651ac"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6aecd72ef3a6c68d608651ac",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+     "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+     "published": "2026-11-10T11:00:00+00:00",
+     "excerpt": "The risk of nuclear catastrophe is real, as is the fallout of the China–US domination game (hi there, spies). But no need to panic about Skynet."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T11:00:00+00:00"
+  },
+  {
+   "title": "Meta launches Muse Ember, a small model priced like GPT-6 Luna and Haiku 5.5",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta AI introduced Muse Ember, its smallest and most efficient model, aimed at agentic tasks like tool calls, coding subtasks, routing, extraction, and long document parsing.",
+   "more": "Simon Willison's post covers Meta AI's launch of Muse Ember, described by Meta as its smallest and most efficient model, built for complex reasoning execution and the repetitive work AI agents handle: tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts, Meta prices it the same as GPT-6 Luna and Claude Haiku 5.5: $0.10 per million input tokens and $0.50 per million output tokens, per the excerpt. The excerpt is cut off before giving pricing for longer prompts or other specifics like context window size.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/10/muse-ember/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/10/muse-ember/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+     "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+     "published": "2026-11-10T07:28:21+00:00",
+     "excerpt": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts it's priced the same as GPT-6 Luna and Claude Haiku 5.5 - both are $0.10/million input tokens and $0.50/million ou"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T07:28:21+00:00"
+  },
+  {
+   "title": "Otter AI adds support for 30+ languages, cross-language following",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Otter AI added support for 27 new languages, bringing its total past 30, and revealed an upcoming feature that can follow a conversation as speakers switch between languages.",
+   "more": "The transcription app's update lets it now follow conversations across more than 30 languages, up from its earlier set. TechCrunch's write-up notes the 27-language addition and an unreleased feature for tracking language switches mid-conversation, but the excerpt does not give a release date for that feature or specify which languages were added.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3185546"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3185546",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Otter AI can now follow conversations across 30+ languages",
+     "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+     "published": "2026-11-10T07:00:00+00:00",
+     "excerpt": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T07:00:00+00:00"
+  },
+  {
+   "title": "Researcher finds 'god-tier' exposed data across UK government websites",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A researcher who reviewed publicly available code found private information was at risk across multiple UK government departments, according to Wired, though which departments and data are unspecified.",
+   "more": "Wired reports that a researcher's review of publicly accessible code uncovered 'god-tier' information exposed across multiple UK government departments' sites. The excerpt does not specify which departments were affected, what kind of data was exposed, or whether the issues have been fixed.",
+   "item_ids": [
+    "wired-ai:6af1abaf4f28c9e52d5ba350"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af1abaf4f28c9e52d5ba350",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information",
+     "url": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/",
+     "published": "2026-11-10T07:00:00+00:00",
+     "excerpt": "A researcher’s trawl through publicly available code found private information was at risk across multiple departments."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T07:00:00+00:00"
+  }
+ ]
+}
