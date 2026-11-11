@@ -1,0 +1,470 @@
+{
+ "date": "2026-11-11",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Helsing unveils Clarity, an AI system that preps targets for weapons systems",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Defense company Helsing launched Clarity, an AI platform that fuses sensor data into target recommendations for weapons systems under human oversight, but past incidents raise concerns about automation risks.",
+   "more": "Clarity is positioned under European control, with every decision said to carry a human name attached for accountability. The report cites experience from the Iran war, Gaza, and a near-miss involving China as reasons that the speed of automated sensor fusion and targeting can create risks that are hard to contain. Human oversight is presented as the main safeguard against those risks. The report doesn't specify what technical limits, if any, constrain how quickly Clarity's recommendations can be acted on.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42728"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42728",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
+     "url": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+     "published": "2026-11-11T15:12:53+00:00",
+     "excerpt": "Helsing has unveiled Clarity, an AI platform that uses agents to distill sensor data into target recommendations for weapons systems, all under human oversight and European control. But experience from the Iran war, Gaza, and a near-miss involving China shows that the speed of automation and data fusion create risks that are hard to contain. The article Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name appeared first on The Decod"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T15:12:53+00:00"
+  },
+  {
+   "title": "US data brokers reportedly sell $500M in AI training data to Chinese labs",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A ChinaTalk investigation reportedly found US data brokers like Mercor, Surge AI, and AfterQuery selling about half a billion dollars' worth of RL training environments to Chinese AI labs, including some originally built for OpenAI or Anthropic.",
+   "more": "At least nine firms are reportedly involved in these sales. Export controls are said to barely apply to this kind of data, letting US-built training environments reach Chinese labs with little restriction. Some of the environments being sold were originally developed for OpenAI or Anthropic, according to the investigation. The report doesn't specify which Chinese labs are buying the data or what they're using it for.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42713"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42713",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
+     "url": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+     "published": "2026-11-11T13:51:11+00:00",
+     "excerpt": "US data brokers like Mercor, Surge AI, and AfterQuery are selling roughly half a billion dollars' worth of AI training data to Chinese labs, according to a ChinaTalk investigation. That includes the same RL environments previously built for OpenAI or Anthropic. At least nine firms are involved, and export controls barely apply. The article US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T13:51:11+00:00"
+  },
+  {
+   "title": "Security firm finds 35,000+ exposed Grok-built apps leaking private data",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Security firm Claroc found over 35,000 apps built with Grok exposed to anyone online, including patient data and confidential SpaceXSI documents, caused by a default \"anyone with the link\" access setting.",
+   "more": "The root cause identified was that Grok's app-building tool preselected \"anyone with the link\" as the default sharing setting, leaving apps open without any login. Exposed data reportedly included patient records and plaintext passwords, alongside SpaceXSI's own sales pipeline documents. SpaceXSI took only its own 24 employee-built apps offline after the exposure was found; the rest of the 35,000-plus apps reportedly remain accessible. The report doesn't say whether the default sharing setting itself has since been changed.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42703"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42703",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
+     "url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+     "published": "2026-11-11T12:53:07+00:00",
+     "excerpt": "Security firm Claroc found more than 35,000 Grok-built apps open to anyone without login, including patient data and confidential SpaceXSI documents. The cause: \"Anyone with the link\" was preselected as the default access setting. SpaceXSI took only its own 24 employee apps offline. The rest remain accessible. The article Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T12:53:07+00:00"
+  },
+  {
+   "title": "UK regulator threatens university sanctions over AI-proof exam formats",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "England's Office for Students says AI has made it \"nearly impossible\" to fairly assess coursework and is threatening sanctions unless universities adopt AI-proof exam formats, after finding students using ChatGPT to write undetected papers.",
+   "more": "An investigation cited in the report found students having ChatGPT write entire papers without detection, with some unable to recall basic content from those papers afterward. The regulator frames this as a threat to the credibility of degrees generally. Universities are being told to return to more traditional exam formats or face sanctions. The report doesn't give a compliance deadline or specify what the sanctions would involve.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42697"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42697",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
+     "url": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+     "published": "2026-11-11T11:54:46+00:00",
+     "excerpt": "England's higher education regulator, the Office for Students, says AI has made it \"nearly impossible\" to fairly assess student coursework. An investigation found that students are having ChatGPT write entire papers undetected, without being able to recall basic content afterward. To save the credibility of degrees, universities now have to return to traditional exams or face sanctions. The article UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats appeare"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T11:54:46+00:00"
+  },
+  {
+   "title": "Google launches Tabletop, an AI tool for building group collaboration spaces",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google Labs released Tabletop, an experimental app that lets groups describe what they need and get a custom collaborative hub—itineraries, polls, brackets—generated by AI. It's available via waitlist.",
+   "more": "Tabletop resembles workplace management apps like Asana and Monday but adds a built-in AI feature that lets users describe what they want and generate a personalized interactive tool from that description. It's aimed at coordinating with family and friends as well as work teams. Users can build things like interactive itineraries, polls, and brackets inside the tool. Access is currently limited to a waitlist, so broader availability details aren't yet known.",
+   "item_ids": [
+    "google-ai:https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+    "verge-ai:https://www.theverge.com/?p=1031526"
+   ],
+   "items": [
+    {
+     "id": "google-ai:https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+     "source": "google-ai",
+     "source_name": "Google AI Blog",
+     "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+     "published": "2026-11-11T16:00:00+00:00",
+     "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist."
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1031526",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+     "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+     "published": "2026-11-11T16:00:00+00:00",
+     "excerpt": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature that allows you to vibecode personalized interactive tools by describing […]"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-11T16:00:00+00:00"
+  },
+  {
+   "title": "Adobe previews AI experiments to explore photos in 3D and interview characters",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "At its Max conference, Adobe showed early AI features that turn photos into explorable 3D scenes, let users design characters by talking to them, and make photo editing feel like copy and paste.",
+   "more": "These are \"sneaks\": Adobe's annual preview of experimental features that haven't shipped as finished products. One experiment turns a flat photo into an explorable 3D scene. Another lets users design AI characters through conversation rather than manual tools, including the ability to \"interview\" them. A third reworks photo editing into something closer to a copy-and-paste process. Timelines for any of these reaching real products weren't given.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1031505"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1031505",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+     "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+     "published": "2026-11-11T14:00:00+00:00",
+     "excerpt": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by talking to them, and turn photo editing into a copy/paste process. […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T14:00:00+00:00"
+  },
+  {
+   "title": "DeepL's new Aure model brings tone and pacing to real-time voice translation",
+   "tags": [
+    "products",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "DeepL unveiled Aure, a voice model for DeepL Voice that carries a speaker's tone, emotion, emphasis, and speaking pace into real-time translations, aiming to preserve sarcasm and mood shifts across languages.",
+   "more": "Earlier real-time translation tools have tended to flatten nuance like sarcasm or mood shifts when moving between languages. Aure is designed to carry prosody features, such as intonation, emotional emphasis, and speaking pace, from the original speaker's voice into the translated output. The report doesn't specify which languages or platforms currently support Aure.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42720"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42720",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
+     "url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
+     "published": "2026-11-11T13:50:30+00:00",
+     "excerpt": "DeepL Voice's real-time translations are about to sound a lot more natural. The company's new Aure model carries over tone, emotion, emphasis, and speaking pace from the original speaker's voice into the target language. The article DeepL wants real-time translation to finally capture sarcasm and mood shifts appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T13:50:30+00:00"
+  },
+  {
+   "title": "Google DeepMind mathematically verifies parts of Signal's encryption",
+   "tags": [
+    "research",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind used AI to help mathematically verify key parts of Signal's encryption protocol, a four-week project suggesting AI could make formal verification of software far more practical.",
+   "more": "Formal verification mathematically proves that code behaves exactly as intended, a process that's traditionally slow and labor-intensive to carry out by hand. DeepMind's project reportedly took about four weeks to check key parts of Signal's encryption using AI. The result is being framed as a hint that AI-assisted formal verification could become practical for checking security-critical software more broadly. The report doesn't specify which exact protocol components were verified or what, if anything, the check turned up.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Google DeepMind just mathematically verified key parts of Signal",
+     "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+     "published": "2026-11-11T14:08:57+00:00",
+     "excerpt": "The four-week project hints that AI could make formal verification far more practical."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T14:08:57+00:00"
+  },
+  {
+   "title": "Engineer points 48 AI agents at NASA lidar data, finds unmapped Maya pyramid",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Google software engineer reportedly used 48 AI agents to comb through NASA lidar data and identified a previously unmapped Maya pyramid in about 72 hours, according to a widely discussed Hacker News post.",
+   "more": "The Hacker News submission had gathered 635 points and 247 comments by the time it was fetched. The approach ran 48 AI agents in parallel to sift through lidar scans covering the site. The post doesn't specify which NASA lidar dataset was used or how the finding has been, or will be, verified by archaeologists.",
+   "item_ids": [
+    "hn:50452455"
+   ],
+   "items": [
+    {
+     "id": "hn:50452455",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+     "url": "https://pietromiotti.com/latest/maya-site/?maya",
+     "published": "2026-11-11T12:05:22+00:00",
+     "excerpt": "635 points, 247 comments. Discussion: https://news.ycombinator.com/item?id=50452455"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T12:05:22+00:00"
+  },
+  {
+   "title": "Databricks CEO uses an AI agent to surface unfiltered employee feedback",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Databricks CEO Ali Ghodsi uses the company's newly revised Genie agent to learn unvarnished truths from its 12,000 employees, since he can't personally know what's going wrong across the company.",
+   "more": "Ghodsi acknowledges that at 12,000 employees, he can't personally know everyone, and that staff are unlikely to tell him directly when something is going wrong. Genie, Databricks' AI agent, is positioned to close that gap by surfacing honest feedback he might not otherwise hear. The report doesn't detail how Genie collects or verifies what employees tell it, or what changes, if any, have resulted from its use.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3186547"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186547",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+     "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+     "published": "2026-11-11T15:00:00+00:00",
+     "excerpt": "At 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T15:00:00+00:00"
+  },
+  {
+   "title": "Plurai applies self-driving car lessons to make AI agents more reliable",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Startup Plurai wants to improve AI agent reliability using methods borrowed from self-driving car development, treating agents as probabilistic systems operating in unpredictable environments.",
+   "more": "The comparison draws on how end-to-end models for autonomous vehicles are trained and validated before they're trusted on the road. Plurai's premise is that AI agents face a similar challenge: they're probabilistic systems that have to operate reliably once deployed into unpredictable real-world settings. Details on Plurai's specific product, funding, or customers weren't included in the available coverage.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187089"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187089",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+     "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+     "published": "2026-11-11T14:00:00+00:00",
+     "excerpt": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T14:00:00+00:00"
+  },
+  {
+   "title": "Jensen Huang fell for an alleged Chinese honeypot, report says behavior is common",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports Nvidia CEO Jensen Huang was targeted by an alleged Chinese sexpionage operation, a well-established espionage tactic. TechCrunch adds that senior industry figures reportedly know such behavior happens and don't act on it.",
+   "more": "Wired frames China's use of sexpionage as a long-documented intelligence tactic with prior high-profile cases, and questions how the world's most powerful AI executive fell for it anyway. TechCrunch's reporting cites an investment-intelligence consultant who says a lot of senior people in the industry know this kind of thing happens and effectively condone it. Neither report specifies exactly what information or access may have been exposed as a result. It's also unclear from the coverage whether Nvidia or Huang has issued any public response.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187323",
+    "wired-ai:6af37522ebc8960a0be1d743"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187323",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
+     "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+     "published": "2026-11-11T16:16:07+00:00",
+     "excerpt": "“There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” an investment intel consultant said."
+    },
+    {
+     "id": "wired-ai:6af37522ebc8960a0be1d743",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "China’s Nvidia Honeypot Isn’t Surprising. Jensen Huang Fell for It Anyway",
+     "url": "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/",
+     "published": "2026-11-11T15:30:00+00:00",
+     "excerpt": "China’s use of sexpionage is a well-established intelligence tactic with recent, high-profile examples. So how did the world’s most powerful AI executive fall for it?"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-11T16:16:07+00:00"
+  },
+  {
+   "title": "OpenAI's quarterly revenue tops $10 billion for the first time",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI's quarterly revenue reportedly reached $10 billion, up nearly 50% from $6.7 billion last quarter, driven largely by enterprise sales, though the company still trails Anthropic's revenue and remains cash-flow negative.",
+   "more": "The jump represents close to 50% growth quarter over quarter, pushed by an enterprise sales push that reportedly includes price cuts aimed at business customers. Despite the revenue growth, OpenAI's adjusted operating losses are said to have climbed to $10.9 billion, meaning the company is still burning more cash than it takes in. By comparison, the reporting describes Anthropic as operating far more efficiently on $17 billion in revenue. Both reports attribute the figures to the companies' financial disclosures without citing a specific filing.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187315",
+    "decoder:https://the-decoder.com/?p=42698"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187315",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+     "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+     "published": "2026-11-11T16:14:44+00:00",
+     "excerpt": "Sales of $10B represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42698",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
+     "url": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+     "published": "2026-11-11T12:12:47+00:00",
+     "excerpt": "OpenAI grew its quarterly revenue 50 percent to $10 billion but is still burning more cash than it brings in. Adjusted operating losses climbed to $10.9 billion, while rival Anthropic operates far more efficiently on $17 billion in revenue. To close the gap, OpenAI is now fueling a price war for enterprise customers. The article Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-11T16:14:44+00:00"
+  },
+  {
+   "title": "DeepMind releases AlphaGenome 2 to study how DNA affects disease",
+   "tags": [
+    "models",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "DeepMind released AlphaGenome 2, a model that predicts how DNA sequences and variations affect specific human cell types, aiming to clarify links between genetics and disease.",
+   "more": "AlphaGenome 2 is a successor model built to read how DNA sequences and their variations play out differently across human cell types. The goal is to give scientists a more detailed view of a problem considered notoriously difficult: tracing how genetic variation contributes to disease. By zooming in at the cellular level, the model is meant to surface clues about disease causes that could eventually point toward new treatments. Specifics on benchmark performance or public availability weren't included in the initial coverage.",
+   "item_ids": [
+    "deepmind:https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "verge-ai:https://www.theverge.com/?p=1031524"
+   ],
+   "items": [
+    {
+     "id": "deepmind:https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+     "source": "deepmind",
+     "source_name": "Google DeepMind",
+     "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+     "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+     "published": "2026-11-11T15:00:15+00:00",
+     "excerpt": "Predicting how DNA sequences and their variations impact specific human cell types and disease."
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1031524",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+     "published": "2026-11-11T15:00:00+00:00",
+     "excerpt": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold important clues to the causes of disease - and point the way to new treatments. AlphaGenome 2 is the successor […]"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-11T15:00:15+00:00"
+  },
+  {
+   "title": "Anthropic says its AI ported Claude to AMD chips in three days, not months",
+   "tags": [
+    "hardware",
+    "industry",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic says it used its in-house model Mythos to port Claude to AMD GPUs in just three days with minimal human help, part of a push to reduce reliance on Nvidia's CUDA and cut costs across four chip families.",
+   "more": "The claim appears in Anthropic's IPO roadshow video, where co-founder Tom Brown described the company's approach to compute, including training and serving Claude across AWS Trainium, Google TPUs, Nvidia GPUs, and AMD GPUs. Decoder's reporting frames the AMD port as a task that would normally take months of manual engineering work. No official transcript of the roadshow video was released; one source worked from a transcript extracted independently. The claims rest on Anthropic's own account and haven't been independently verified.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42715",
+    "simonw:https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42715",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
+     "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+     "published": "2026-11-11T14:25:20+00:00",
+     "excerpt": "Anthropic claims it used AI itself to breach Nvidia's CUDA moat. The company's in-house model Mythos reportedly ported Claude to AMD GPUs in just three days, with almost no human intervention. Anthropic now runs Claude on four chip families and aims to cut costs and reduce vendor dependencies. The article Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days appeared first on The Decoder ."
+    },
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Anthropic's IPO roadshow video",
+     "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+     "published": "2026-11-11T15:11:59+00:00",
+     "excerpt": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why there's no official video transcript, but here's one that I extracted using MacWhisper. Highlights b"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-11T15:11:59+00:00"
+  },
+  {
+   "title": "AO3 shutdown dispute pits fanfiction readers against authors",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A dispute over Archive of Our Own's shutdown has fanfic readers and authors at odds, after one author found her work copied to AO3 mirror sites without her consent.",
+   "more": "The excerpt centers on one author, whose Heated Rivalry fanfiction was uploaded to AO3 mirror sites without permission, who describes the experience as leaving \"a sour taste.\" Why AO3 itself is shutting down, and who operates the mirror sites, weren't covered in the available excerpt.",
+   "item_ids": [
+    "wired-ai:6af1f46557a16d776d9d4525"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af1f46557a16d776d9d4525",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "The AO3 Shutdown Is Pitting Fanfic Readers Against Authors",
+     "url": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
+     "published": "2026-11-11T16:13:03+00:00",
+     "excerpt": "“It has left a sour taste in my mouth,” says a Heated Rivalry fanfic author who found her work uploaded to AO3 mirror sites without her consent."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T16:13:03+00:00"
+  }
+ ]
+}
