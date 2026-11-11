@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-11",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "New research links LLM agent memory failures to missing evidence",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper finds that external memory can degrade LLM agents' performance when they follow lessons distilled from past trajectories without the evidence behind them, causing agents to fail tasks they'd otherwise solve.",
+   "more": "The paper, titled \"Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents,\" describes how agents using external memory distill past task trajectories into concise lessons for future use. The problem arises because those lessons are inferred from trajectories labeled only by success or failure, with the underlying trajectory itself typically left out. An agent can then misapply or misread a lesson it has no way to verify, causing it to fail tasks it would otherwise have solved. The proposed fix, evidence-linked memory, ties each lesson back to the trajectory evidence it came from. The excerpt does not say how much the method improves task success or which agents or benchmarks were tested.",
+   "item_ids": [
+    "hf-papers:2611.14320"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.14320",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+     "url": "https://huggingface.co/papers/2611.14320",
+     "published": "2026-11-11T00:00:00+00:00",
+     "excerpt": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectori"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T00:00:00+00:00"
+  },
+  {
+   "title": "Tree-Ising method repairs language models via bit-level weight edits",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new technique called Tree-Ising repairs language model reasoning errors by directly editing the model's BF16 weights as a discrete optimization problem, avoiding the costlier agent-driven process used by a prior MIT approach.",
+   "more": "The paper builds on recent MIT work by Takehi et al. on weight-space programming, where a frontier LLM agent reads a network's weights and writes a repair directly. In that prior approach, a \"GPT-6 Astra\" agent corrected reasoning loops in Qwen3.5-0.8B without gradients, but needed 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Tree-Ising instead casts the repair as a sparse discrete optimization problem over the model's own BF16 weights, using forward statistics to define an objective that weakens a problematic loop direction. The excerpt does not specify how the new method's cost or accuracy compares to the agent-driven baseline.",
+   "item_ids": [
+    "hf-papers:2611.14210"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.14210",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+     "url": "https://huggingface.co/papers/2611.14210",
+     "published": "2026-11-11T00:00:00+00:00",
+     "excerpt": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own BF16 weights. Forward statistics define an objective that weakens a loop directio"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T00:00:00+00:00"
+  },
+  {
+   "title": "Paper proposes world in-context learning for robot manipulation",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces \"world in-context learning,\" letting robots use in-context demonstrations without being tied to the exact scene they were recorded in, aiming to match the performance of trained manipulation policies.",
+   "more": "Trained action policies encode manipulation skills into network weights, tying what they learn to the distribution they were trained on. In-context learning (ICL) avoids that coupling but has lagged behind trained policies because a demonstration recorded in one scene offers no feedback from the world the robot currently faces. The authors observe that what an agent learns in context is largely semantic -- task steps and object roles -- rather than tied to visual appearance, meaning experience from one scene can transfer to another. The excerpt is cut off before describing the method's results or how it was evaluated.",
+   "item_ids": [
+    "hf-papers:2611.12885"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.12885",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "World In-Context Learning for Agentic Robot Manipulation",
+     "url": "https://huggingface.co/papers/2611.12885",
+     "published": "2026-11-11T00:00:00+00:00",
+     "excerpt": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world tran"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T00:00:00+00:00"
+  },
+  {
+   "title": "New method speeds up few-step streaming video generation",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper extends the APEX technique to streaming video generation, using \"condition shifting\" to estimate the model's own velocity field instead of training a separate fake-score network.",
+   "more": "Few-step sampling lowers the cost of streaming video generation, and Distribution Matching Distillation (DMD) is a common way to supervise few-step generators. DMD typically relies on a separate fake-score network, which adds training memory and computation and must be kept in sync with the evolving generator. The new method extends an existing technique called APEX to the streaming video setting by using condition shifting to estimate the velocity field of the generated distribution directly within the generator. It uses the original text condition to select generation and a shifted condition for fake-score estimation, avoiding the extra network. The excerpt cuts off before detailing results or benchmarks.",
+   "item_ids": [
+    "hf-papers:2611.14033"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.14033",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Few-Step Streaming Video Generation via Condition Shifting",
+     "url": "https://huggingface.co/papers/2611.14033",
+     "published": "2026-11-11T00:00:00+00:00",
+     "excerpt": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text condition selects generation, while a shifted condition selects fake estimation u"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T00:00:00+00:00"
+  },
+  {
+   "title": "Mercor raises $750M Series D at $20B valuation",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Mercor closed a $750 million Series D at a $20 billion valuation, with a $3 billion annualized run rate, according to a Latent Space AI News roundup.",
+   "more": "Latent Space's AI News roundup reports that Mercor raised a $750 million Series D round at a $20 billion valuation, with a $3 billion annualized run rate. The roundup item does not include further detail on investors, use of funds, or Mercor's business beyond these headline figures.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_a2419605-9a45-4fa3-a4b3-362a0d8f0efe"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_a2419605-9a45-4fa3-a4b3-362a0d8f0efe",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+     "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+     "published": "2026-11-11T09:34:28+00:00",
+     "excerpt": "November 10, 2026 — Google GA's Gemini 4 Carbon."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T09:34:28+00:00"
+  },
+  {
+   "title": "Governance experts say Nvidia's unfolding crisis is unprecedented",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch reports that corporate governance experts say they have never seen anything like the crisis currently unfolding at Nvidia.",
+   "more": "The excerpt gives no specifics on the nature of the crisis, only that governance experts described it as unprecedented. Further details, such as what triggered it or what is at stake, are not included in the available material.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187258"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187258",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+     "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+     "published": "2026-11-11T07:30:51+00:00",
+     "excerpt": "The governance experts we talked to say nobody has seen anything like what's unfolding right now."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T07:30:51+00:00"
+  },
+  {
+   "title": "Lawsuit: Gemini suicide chats went unflagged for weeks on school laptop",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports that the parents of a 13-year-old allege she used Google's Gemini on a school Chromebook to discuss and plan suicide, and the school's monitoring systems failed to flag it for weeks.",
+   "more": "The report says the girl accessed Gemini through her school-issued Chromebook, and her parents allege she used it to plan her suicide. The school's monitoring systems reportedly did not detect or flag the conversations until weeks later, by which point the situation had become critical. The excerpt does not specify what monitoring tools were in use, how the lapse was eventually discovered, or whether Google has responded.",
+   "item_ids": [
+    "wired-ai:6aee59f2d9407a3cfa2ceb7d"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6aee59f2d9407a3cfa2ceb7d",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+     "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
+     "published": "2026-11-11T11:00:00+00:00",
+     "excerpt": "The young girl’s parents allege that she used Gemini via her school Chromebook to plan her suicide, but the school’s monitoring systems didn’t know until it was almost too late."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T11:00:00+00:00"
+  },
+  {
+   "title": "Nvidia reportedly cancels RTX 5080 24GB, revives 16GB model",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A report shared on r/LocalLLaMA says Nvidia has canceled plans for a 24GB GeForce RTX 5080 and reverted to a 16GB version, reportedly due to rising GDDR7 memory costs.",
+   "more": "The r/LocalLLaMA submission reports that Nvidia has reportedly scrapped a 24GB GeForce RTX 5080 variant and brought back a 16GB version instead, citing the rising cost of GDDR7 memory. No further details, such as a source for the report or a timeline, are included in the submission.",
+   "item_ids": [
+    "localllama:t3_1xtdwps"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xtdwps",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "NVIDIA reportedly cancels GeForce RTX 5080 24GB launch, brings back 16GB model over GDDR7 costs",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtdwps/nvidia_reportedly_cancels_geforce_rtx_5080_24gb/",
+     "published": "2026-11-11T09:58:50+00:00",
+     "excerpt": "submitted by /u/Norwood_Reaper_ [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T09:58:50+00:00"
+  },
+  {
+   "title": "Google highlights artist Dr. Esther Mahlangu's work and legacy",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google's Arts & Culture team published a feature on South African artist Dr. Esther Mahlangu, including commentary from a Wits University curatorial scholar.",
+   "more": "The piece includes a portrait and commentary from Dr. Nontobeko Ntombela, a senior lecturer in the Department of Curatorial, Public and Visual Cultures at the Wits School of Arts, University of the Witwatersrand. Beyond that image caption, no further details about the feature's content are available in the excerpt.",
+   "item_ids": [
+    "google-ai:https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/"
+   ],
+   "items": [
+    {
+     "id": "google-ai:https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+     "source": "google-ai",
+     "source_name": "Google AI Blog",
+     "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+     "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+     "published": "2026-11-11T09:00:00+00:00",
+     "excerpt": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T09:00:00+00:00"
+  }
+ ]
+}
