@@ -1,0 +1,901 @@
+{
+ "date": "2026-11-11",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Nvidia CEO Jensen Huang's alleged affair with a Chinese spy becomes public",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Reports detail an alleged relationship between Nvidia CEO Jensen Huang and a suspected Chinese spy, raising national-security questions given Nvidia's central role in the US-China AI race.",
+   "more": "Coverage frames Huang as an unsurprising espionage target: he runs one of the world's most valuable companies and controls chip technology central to the AI boom, with close ties to political and business leaders. TechCrunch published a timeline of the alleged affair, while The Verge examined whether it could affect the US's lead in the AI race. On r/LocalLLaMA, commenters questioned why intelligence services would make the allegation public rather than handle it privately, speculating about motives such as hardware backdoor concerns. The excerpt does not confirm the identity of the alleged spy or any official government statement.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1031063",
+    "techcrunch-ai:https://techcrunch.com/?p=3186475",
+    "localllama:t3_1xsljn6"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1031063",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The US is winning the AI race. Jensen Huang could have blown it",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+     "published": "2026-11-10T19:04:05+00:00",
+     "excerpt": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy with presidents, CEOs, and all manner of important people. He also wears a cool leather jacket. Which makes […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186475",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+     "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+     "published": "2026-11-10T17:04:19+00:00",
+     "excerpt": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure."
+    },
+    {
+     "id": "localllama:t3_1xsljn6",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Nobody wondering why the US takes Nvidia CEO affair public?",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsljn6/nobody_wondering_why_the_us_takes_nvidia_ceo/",
+     "published": "2026-11-10T12:23:33+00:00",
+     "excerpt": "I understand the topic is prime material for shits and giggles. Chinese model, Nvidia being the centre piece of the AI trade, etc. But why go so public on this? All of this could've been dealt with behind the scenes in secret. Obviously this is a power play to force a hand. Nothing just leaks out of intelligence services so deliberately. So someone decided to make this public. I've been trying to think about why Nvidia or Jensen Huang must be put in line for. My top pick is: back doors in hardwa"
+    }
+   ],
+   "coverage": 3,
+   "newest": "2026-11-10T19:04:05+00:00"
+  },
+  {
+   "title": "OpenAI profiles law firm Gilbert + Tobin's use of AI in legal work",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI published a conversation with Gilbert + Tobin CEO Sam Nickless about how the law firm is rethinking its business around AI tools.",
+   "more": "The piece is a customer-style interview published on OpenAI's site with Sam Nickless, Partner and Chief Executive Officer at the Australian law firm Gilbert + Tobin. It frames the firm's adoption of AI as part of rethinking how legal services are delivered, though the available excerpt does not detail which OpenAI products are used or what specific workflows changed.",
+   "item_ids": [
+    "openai:https://openai.com/index/gilbert-tobin-sam-nickless"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/gilbert-tobin-sam-nickless",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Gilbert + Tobin rethinks the business of law with AI",
+     "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+     "published": "2026-11-12T00:00:00+00:00",
+     "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "title": "OpenAI acquires travel startup Odessia from Sonder founder",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI has acquired Odessia, a travel startup founded by Sonder's Francis Davidson, though OpenAI has not said what it plans to do with it.",
+   "more": "Odessia was created by Francis Davidson, a well-known figure in the travel industry as the founder of short-term rental company Sonder. The report notes OpenAI has not yet disclosed its plans for the acquisition or how a travel startup fits into its broader product roadmap. The excerpt does not include deal terms.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187116"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187116",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+     "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+     "published": "2026-11-10T21:08:52+00:00",
+     "excerpt": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T21:08:52+00:00"
+  },
+  {
+   "title": "All 7 Anthropic founders plan to each cash out about $250M in IPO",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Each of Anthropic's seven co-founders plans to sell the same number of shares in the company's IPO, netting roughly $250 million apiece at the midpoint price while the group keeps control.",
+   "more": "The report says all seven founders are selling identical share counts, which at the IPO's midpoint price range would bring each of them about $250 million in cash. Despite the sales, the founding group would retain control of the company. The excerpt does not specify the total IPO size, valuation, or expected listing date.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187028"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187028",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+     "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+     "published": "2026-11-10T19:57:52+00:00",
+     "excerpt": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T19:57:52+00:00"
+  },
+  {
+   "title": "Oura to acquire AI primary-care startup Counsel Health for $625M",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wearable maker Oura is acquiring Counsel Health, an AI-native primary care startup, for $625 million, weeks after postponing its own IPO.",
+   "more": "The deal comes a few weeks after Oura postponed its own IPO, which had been expected to raise up to $2.2 billion, citing uncertainty in the IPO market. Counsel Health is described as an AI-native primary care startup, suggesting AI is central to how it delivers care rather than being a bolt-on feature. The excerpt does not detail how Counsel Health's service will be integrated into Oura's existing wearable products.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187050"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187050",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+     "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+     "published": "2026-11-10T19:23:34+00:00",
+     "excerpt": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T19:23:34+00:00"
+  },
+  {
+   "title": "Startup PSI uses unreleased Anthropic model to answer open quantum question",
+   "tags": [
+    "industry",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Startup PSI is building a business around AI-driven scientific discovery, saying it used an unreleased Anthropic model to answer a quantum computing question researchers had pursued for nearly two decades.",
+   "more": "The report frames PSI's approach as using frontier AI models, including access to an Anthropic model not yet publicly released, to tackle open scientific problems rather than only building productivity tools. The specific quantum computing question is described as one scientists have pursued for close to twenty years, though the excerpt does not name the question or detail how PSI's method found the answer. It's also unclear from the excerpt what PSI's business model looks like, or when the Anthropic model it used might be released publicly.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3186906"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186906",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+     "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+     "published": "2026-11-10T19:03:52+00:00",
+     "excerpt": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T19:03:52+00:00"
+  },
+  {
+   "title": "Indie game community splits over AI use after Big Walk's IGF statement",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Independent Games Festival community is divided after some jurors said they would not vote for games using generative AI, prompting Big Walk's developer to admit it used AI sparingly late in development.",
+   "more": "Some IGF jurors published a statement saying they would refuse to vote for games that use generative AI in 'any capacity.' Soon after, the developer of indie hit Big Walk responded with its own statement acknowledging it had used AI 'sparingly' in the 'final stretch' of development to help work through difficult problems. The episode has sparked wider disagreement within the indie game community about where to draw lines on AI use in game development. The excerpt does not specify which AI tools Big Walk's developer used.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1030994"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1030994",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The indie game community is in disarray over AI and Big Walk",
+     "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+     "published": "2026-11-10T17:32:47+00:00",
+     "excerpt": "Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that use generative AI in \"any capacity.\" Soon after, the developer of indie hit Big Walk has published a statement saying it \"sparingly\" used AI in the \"final stretch\" of the game's development to \"help work through difficult […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T17:32:47+00:00"
+  },
+  {
+   "title": "Apple reportedly building a Mac app to make running local AI models easy",
+   "tags": [
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A report says Apple has a new Mac app coming that would make it easier to run AI models locally on-device, a story that drew discussion on both Hacker News and r/LocalLLaMA.",
+   "more": "The report, from 9to5Mac, describes Apple working on a dedicated Mac application aimed at simplifying local AI model use, lowering the technical barrier compared to existing local-inference tools. It drew over 140 points and 100 comments on Hacker News, with a parallel r/LocalLLaMA thread discussing the same report. The excerpt does not specify a release timeline, which models the app would support, or whether it would work with existing open-weight model formats.",
+   "item_ids": [
+    "hn:50446520",
+    "localllama:t3_1xszbe7"
+   ],
+   "items": [
+    {
+     "id": "hn:50446520",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Apple has new Mac app coming to make running local AI models easy",
+     "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+     "published": "2026-11-10T21:25:03+00:00",
+     "excerpt": "144 points, 104 comments. Discussion: https://news.ycombinator.com/item?id=50446520"
+    },
+    {
+     "id": "localllama:t3_1xszbe7",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Apple has new Mac app coming to make running local AI models easy",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xszbe7/apple_has_new_mac_app_coming_to_make_running/",
+     "published": "2026-11-10T21:30:36+00:00",
+     "excerpt": "submitted by /u/themixtergames [link] [comments]"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-10T21:30:36+00:00"
+  },
+  {
+   "title": "Google makes Gemini 4 Carbon generally available, undercutting Claude on price",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google released Gemini 4 Carbon to everyone after a two-week limited test, with Simon Willison noting it tops several benchmarks ahead of Anthropic's Fable 5.2 at less than half the per-task cost.",
+   "more": "Gemini 4 Carbon had previously been announced two weeks earlier for a 'subset of cyber defenders' before today's general release. Simon Willison's llm-gemini 0.36 release notes list it at $2 per million input tokens and $10 per million output tokens at launch, comparable to GPT-6.1 Sol and Claude Sonnet 5.5 pricing, though scheduled to double to $4/$20 on December 1st, matching Opus 5.5's price. Google is also previewing a '/swarm' feature for coordinating teams of agents that split up complex tasks in real time. The Decoder notes the model ranks first on several benchmarks, in some cases ahead of Anthropic's Fable 5.2.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42673",
+    "simonw:https://simonwillison.net/2026/Nov/10/llm-gemini/"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42673",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet",
+     "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
+     "published": "2026-11-10T18:19:13+00:00",
+     "excerpt": "Google is making Gemini 4 Carbon generally available after a two-week testing phase. The model ranks first in several benchmarks, in some cases ahead of Anthropic's new Fable 5.2, at less than half the per-task cost. Google is also previewing coordinated agent teams through the \"/swarm\" feature, which split up complex tasks in real time. The article Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet appeared first on The Decoder ."
+    },
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/10/llm-gemini/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "llm-gemini 0.36",
+     "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+     "published": "2026-11-10T20:09:44+00:00",
+     "excerpt": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in price to $4/$20 on December 1st (same as Opus 5.5). Here are three pelicans for the low, medium and high thinking efforts (it defaults to medium). This is the pelican I got for high:"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-10T20:09:44+00:00"
+  },
+  {
+   "title": "MiniMax releases open-weight H3-Image text-to-image model",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "MiniMax released MiniMax-H3-Image, an open-weight text-to-image and image-editing model built on its H3 base model, which quickly became a trending download on Hugging Face.",
+   "more": "The model supports text-to-image generation as well as image-to-image editing, and is distributed as safetensors weights through the diffusers library. It had drawn 502 likes and 667 downloads on Hugging Face at time of writing. r/LocalLLaMA discussion highlighted it as an open-weight release built on MiniMax's H3 base model. The excerpt does not include benchmark comparisons against other image models.",
+   "item_ids": [
+    "hf-trending:MiniMaxAI/MiniMax-H3-Image",
+    "localllama:t3_1xso1ie"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:MiniMaxAI/MiniMax-H3-Image",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: MiniMaxAI/MiniMax-H3-Image",
+     "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+     "published": "2026-11-03T06:34:36+00:00",
+     "excerpt": "text-to-image, 502 likes, 667 downloads. Tags: minimax-h3, diffusers, safetensors, text-to-image, image-to-image, image-editing, image-generation, en, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us"
+    },
+    {
+     "id": "localllama:t3_1xso1ie",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "MiniMax H3-Image Released, an Open-Weight Image Model built on H3",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xso1ie/minimax_h3image_released_an_openweight_image/",
+     "published": "2026-11-10T14:18:08+00:00",
+     "excerpt": "submitted by /u/MagicZhang [link] [comments]"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-10T14:18:08+00:00"
+  },
+  {
+   "title": "BotPsy is a sub-billion-parameter on-device agentic assistant",
+   "tags": [
+    "models",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Hugging Face published a blog post on BotPsy, an on-device personal assistant built from a sub-billion-parameter agentic language model.",
+   "more": "The post describes BotPsy as a personal assistant designed to run directly on-device rather than relying on a cloud model, using a language model with fewer than one billion parameters. Being agentic implies it can take actions on a user's behalf rather than only answering questions. No further detail on capabilities, benchmarks, or availability was included in the available excerpt.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/qvac/botpsy"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/qvac/botpsy",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+     "url": "https://huggingface.co/blog/qvac/botpsy",
+     "published": "2026-11-11T05:01:16+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T05:01:16+00:00"
+  },
+  {
+   "title": "NaiveAI claims 2,100 tokens/sec; Latent Space tests its coding quality",
+   "tags": [
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "NaiveAI claims speeds of 2,100 tokens per second that could top Artificial Analysis's speed rankings, and Latent Space's hands-on coding test found its quality holds up against DeepSeek.",
+   "more": "The claimed throughput of 2,100 tokens per second would put NaiveAI at or near the top of Artificial Analysis's speed leaderboard. Latent Space ran its own hands-on coding evaluation rather than relying on the speed claim alone, and found the resulting code quality comparable to DeepSeek's. The excerpt does not specify which DeepSeek model was used for comparison or give the exact benchmark tasks tested.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_e9d76b13-59aa-4ee4-9132-5d55b5763030"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_e9d76b13-59aa-4ee4-9132-5d55b5763030",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+     "url": "https://latent.space/p/naiveai/",
+     "published": "2026-11-10T18:56:32+00:00",
+     "excerpt": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T18:56:32+00:00"
+  },
+  {
+   "title": "Paper proposes dNaViT, a discrete-token vision transformer for general representations",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces dNaViT, a vision transformer that represents images with a finite discrete vocabulary instead of continuous features, aiming to unify vision and language modeling.",
+   "more": "The paper investigates how far a finite discrete vocabulary can go in capturing the richness of visual data, following the success of discrete autoregressive modeling in language models. dNaViT is described as a Discrete Native-resolution Vision Transformer, with native resolution meaning it can represent images at their original size rather than a fixed crop. The authors frame the work as a step toward a unified framework where vision and language models share the same discrete-token methodology and infrastructure. The excerpt does not specify benchmark results or model sizes.",
+   "item_ids": [
+    "hf-papers:2611.12426"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.12426",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "dNaViT: Discrete Codes are General-Purpose Visual Representations",
+     "url": "https://huggingface.co/papers/2611.12426",
+     "published": "2026-11-11T00:00:00+00:00",
+     "excerpt": "Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the richness of the visual world? We present dNaViT, a Discrete Native-resolution Vision Transformer that produ"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T00:00:00+00:00"
+  },
+  {
+   "title": "MMDM benchmark measures massive multitask decision making in AI models",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new benchmark, MMDM, tests 'System-1' decision models that make structured probabilistic choices in a single forward pass across long contexts and large option spaces, rather than generating step-by-step reasoning.",
+   "more": "The paper argues that existing decision-making evaluations often reuse familiar benchmarks, where models may have already been exposed to the test material, which can obscure how well they actually generalize. MMDM instead targets real-world-style decision making with long contexts, large option spaces, and complex logical dependencies. The excerpt does not name specific models tested or report results.",
+   "item_ids": [
+    "hf-papers:2611.14309"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.14309",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "MMDM: Measuring Massive Multitask Decision Making",
+     "url": "https://huggingface.co/papers/2611.14309",
+     "published": "2026-11-11T00:00:00+00:00",
+     "excerpt": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision making often involves long contexts, large option spaces, and complex logical dependencies, challenges"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T00:00:00+00:00"
+  },
+  {
+   "title": "DexForesight teaches robot hands spatial foresight without explicit prediction",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new framework, DexForesight, gives dexterous robot-hand policies spatial foresight by injecting dynamics-aware world representations into the policy's latent space, rather than explicitly predicting future frames.",
+   "more": "Existing world-action models for dexterous manipulation typically learn predictive knowledge through explicit future prediction. DexForesight instead learns an action-conditioned spatial world model implicitly from offline scene depth and kinematic data, then injects that representation into the policy. The approach targets manipulation tasks that need rich spatial awareness of both the scene and the robot's own hand. The excerpt does not report benchmark results or success rates.",
+   "item_ids": [
+    "hf-papers:2611.11166"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.11166",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
+     "url": "https://huggingface.co/papers/2611.11166",
+     "published": "2026-11-11T00:00:00+00:00",
+     "excerpt": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinemati"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T00:00:00+00:00"
+  },
+  {
+   "title": "Deletion Tuning: zeroing 0.05% of weights matches full fine-tuning",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new technique called Deletion Tuning learns a binary mask that zeros out fewer than 0.05% of an LLM's weights, matching full fine-tuning across reinforcement learning, supervised fine-tuning, and distillation.",
+   "more": "The method learns a binary mask specifically over the gate projection of transformer blocks, deciding which of those weights to zero out entirely rather than adjusting all weights as standard fine-tuning does. It was tested across three post-training regimes: reinforcement learning with verifiable rewards, supervised fine-tuning, and on-policy distillation, matching full fine-tuning's results in each despite touching a tiny fraction of parameters. The approach is said to offer two practical advantages, though the excerpt is cut off before fully describing what they are. The post was submitted to r/LocalLLaMA for discussion.",
+   "item_ids": [
+    "localllama:t3_1xswmb7"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xswmb7",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/",
+     "published": "2026-11-10T19:44:57+00:00",
+     "excerpt": "How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifiable rewards, supervised fine-tuning, and on-policy distillation. Our method, Deletion Tuning, learns a binary mask over the gate projection of transformer blocks. Two practical advantages follow: the"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T19:44:57+00:00"
+  },
+  {
+   "title": "Infrathon benchmark tests AI agents on long-horizon infrastructure optimization",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Infrathon is a new benchmark of long-horizon, real-world AI infrastructure optimization tasks. Evaluating six models across 150 runs with 24-hour budgets found model rankings shift with the evaluation horizon.",
+   "more": "The benchmark totaled over 10,000 GPU-hours across its 150 runs, each given a 24-hour budget to work on diverse infrastructure optimization tasks. The study found that 135 of the 150 runs kept improving during the second half of their time budget, suggesting agents can make sustained progress rather than plateauing early. It also found that which model ranks best depends on how long the evaluation runs, meaning short and long tests can favor different models. The excerpt does not name the six models evaluated.",
+   "item_ids": [
+    "hf-papers:2611.11995"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.11995",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+     "url": "https://huggingface.co/papers/2611.11995",
+     "published": "2026-11-10T00:00:00+00:00",
+     "excerpt": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation horizon, while 135 of the 150 runs achieve further improvements during the second half of their budgets"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic launches Claude Sheets, Whiteboards, Data, Plugins and Meetings",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic is expanding Claude into a full office suite, adding Sheets, Whiteboards, a Data feature, and Plugins that embed partner apps like Adobe and Atlassian, with Claude Meetings for workplace calls coming soon.",
+   "more": "Claude Plugins let partners embed their apps directly inside Claude, while Claude Sheets and Whiteboards give Claude native spreadsheet and visual-collaboration surfaces. Claude Meetings, described as coming soon, would let Claude join calls, take notes, draft plans, map timelines on a whiteboard, and pull information from connected work apps during the discussion. The launch builds on Anthropic's existing enterprise and coding-tool focus, which outlets note has pushed rivals including OpenAI and Meta to copy its enterprise strategy. Hacker News discussion of the announcement drew over 170 points and 138 comments. The excerpt does not give a release date for Claude Meetings or pricing details for the new features.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1030709",
+    "techcrunch-ai:https://techcrunch.com/?p=3186876",
+    "decoder:https://the-decoder.com/?p=42688",
+    "hn:50443716"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1030709",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Anthropic has its own AI-powered office suite now",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+     "published": "2026-11-10T17:30:00+00:00",
+     "excerpt": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. Earlier this year, Claude Code went through its own particular hype cycle. And now, Anthropic is trying to expand its footprint […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186876",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+     "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+     "published": "2026-11-10T17:30:00+00:00",
+     "excerpt": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42688",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
+     "url": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/",
+     "published": "2026-11-10T19:48:40+00:00",
+     "excerpt": "Anthropic is expanding Claude with Sheets, Whiteboards, and Interactive Connectors, letting partners like Adobe and Atlassian embed their apps directly inside Claude. Anthropic says Claude Meetings, which can join calls and take notes, is coming soon. Step by step, Anthropic is turning Claude into a central work platform for teams that brings many other apps together in one place. The article Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting n"
+    },
+    {
+     "id": "hn:50443716",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+     "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+     "published": "2026-11-10T17:55:07+00:00",
+     "excerpt": "174 points, 138 comments. Discussion: https://news.ycombinator.com/item?id=50443716"
+    }
+   ],
+   "coverage": 4,
+   "newest": "2026-11-10T19:48:40+00:00"
+  },
+  {
+   "title": "OpenAI launches ChatGPT Business Hub and verified Business Agents",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is rolling out a ChatGPT Business Hub where companies can claim profiles and add product data, plus verified 'Business Agents' letting eligible US e-commerce businesses chat with customers directly in ChatGPT.",
+   "more": "The Business Agents feature lets users chat with verified agents representing a brand, for tasks like comparison shopping, and is launching first to eligible e-commerce and online-service businesses in the US. The new Business Hub lets companies claim their profile, add product data, and track how users interact with them, pushing ChatGPT further toward being a consumer discovery platform similar to Google. Both features are part of a broader suite of business-focused tools OpenAI announced in beta. The excerpt does not give a timeline for wider availability beyond the initial eligible businesses.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1030552",
+    "techcrunch-ai:https://techcrunch.com/?p=3186632",
+    "decoder:https://the-decoder.com/?p=42692"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1030552",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "ChatGPT is getting verified AI ‘Business Agents’",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+     "published": "2026-11-10T18:00:00+00:00",
+     "excerpt": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a suite of business-focused features in ChatGPT being announced today in beta. You […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186632",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+     "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+     "published": "2026-11-10T18:49:52+00:00",
+     "excerpt": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42692",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+     "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/",
+     "published": "2026-11-10T20:17:00+00:00",
+     "excerpt": "OpenAI is opening up ChatGPT as a business platform: through a new Business Hub, companies can claim their profile, add product data, and track how users interact with them. \"Business Agents\" let eligible US e-commerce providers talk to customers directly inside ChatGPT. The article OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 3,
+   "newest": "2026-11-10T20:17:00+00:00"
+  },
+  {
+   "title": "OpenAI says over 20,000 veterans claimed free ChatGPT Plus year",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI reports more than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus, using it to prepare for civilian careers.",
+   "more": "The program gives veterans and service members a year of ChatGPT Plus at no cost as they transition out of the military. OpenAI frames the usage around career preparation, such as exploring civilian job paths. The excerpt does not give a timeline for when the offer launched or a further breakdown of how it is used.",
+   "item_ids": [
+    "openai:https://openai.com/index/chatgpt-plus-for-veterans"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/chatgpt-plus-for-veterans",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "ChatGPT Plus for veterans and servicemembers",
+     "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+     "published": "2026-11-11T08:00:00+00:00",
+     "excerpt": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T08:00:00+00:00"
+  },
+  {
+   "title": "Amazon debuts AI-powered Ring security drone and roaming robot",
+   "tags": [
+    "products",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amazon unveiled Ring Robotics devices, including an AI-powered security drone and a roaming robot, extending Ring cameras beyond fixed mounting points.",
+   "more": "The new devices let Ring's security monitoring move around a property instead of staying fixed to a wall or doorway, with both a drone and a ground robot using AI to patrol. Amazon's roaming Ring Robotics devices are set to debut in late 2026 and early 2027, per the report. The excerpt does not detail pricing, battery life, or how the AI models process what the devices see.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+     "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+     "published": "2026-11-10T22:35:01+00:00",
+     "excerpt": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T22:35:01+00:00"
+  },
+  {
+   "title": "Google rolls out new Gemini Intelligence features across more devices",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google announced new Gemini Intelligence features expanding to more devices, as part of its November update to Gemini on Android.",
+   "more": "The blog post, illustrated with a phone displaying 'Gemini Intelligence,' covers Google's latest wave of Gemini features reaching Android devices this month. The available excerpt does not specify which individual features are new or which devices are gaining them first.",
+   "item_ids": [
+    "google-ai:https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
+   ],
+   "items": [
+    {
+     "id": "google-ai:https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+     "source": "google-ai",
+     "source_name": "Google AI Blog",
+     "title": "Gemini Intelligence: New features, on more devices",
+     "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+     "published": "2026-11-10T19:00:00+00:00",
+     "excerpt": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T19:00:00+00:00"
+  },
+  {
+   "title": "VulnCheck tracks vulnerabilities discovered by Anthropic's Glasswing effort",
+   "tags": [
+    "policy",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "VulnCheck published a November update tracking security vulnerabilities discovered through Anthropic's 'Glasswing' effort, drawing over 375 points and 175 comments on Hacker News.",
+   "more": "The post is described as a November update to an ongoing tracking effort for vulnerabilities that Anthropic's Glasswing initiative has discovered. The excerpt does not name specific vulnerabilities, affected software, or explain what Glasswing itself is beyond being the source of the findings. The large Hacker News discussion suggests significant community interest in the scope or implications of AI-discovered vulnerabilities.",
+   "item_ids": [
+    "hn:50447074"
+   ],
+   "items": [
+    {
+     "id": "hn:50447074",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Tracking Anthropic-discovered vulnerabilities",
+     "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+     "published": "2026-11-10T22:17:56+00:00",
+     "excerpt": "378 points, 175 comments. Discussion: https://news.ycombinator.com/item?id=50447074"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T22:17:56+00:00"
+  },
+  {
+   "title": "Grok Build coding agent left 35,000 apps exposing confidential data",
+   "tags": [
+    "policy",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A researcher found roughly 35,000 apps built with xAI's Grok Build coding agent wide open online, leaking confidential information including data belonging to SpaceXSI.",
+   "more": "The researcher discovered that apps generated by the Grok Build coding agent were, in large numbers, publicly accessible without the protections a developer would normally add, exposing sensitive information to anyone who looked. Some of the exposed data reportedly belonged to SpaceXSI. The excerpt does not specify what categories of data were exposed beyond calling it 'confidential info,' or whether xAI has since fixed the underlying default.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+     "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+     "published": "2026-11-10T21:12:59+00:00",
+     "excerpt": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T21:12:59+00:00"
+  },
+  {
+   "title": "New York's AI safety law takes effect, adding oversight for OpenAI and Anthropic",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "New York is beginning to enforce a sweeping AI safety law requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+   "more": "The law applies to major AI developers operating in New York and creates compliance obligations beyond what existed previously, including mandatory registration and incident reporting. Companies that fail to comply face fines under the law. The excerpt does not specify the exact fine amounts or the law's full list of requirements.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187145"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187145",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+     "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+     "published": "2026-11-10T20:52:13+00:00",
+     "excerpt": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T20:52:13+00:00"
+  },
+  {
+   "title": "OpenAI shows new ways to steer Codex at AI Engineer Code Summit",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "At the AI Engineer Code Summit, OpenAI demonstrated new ways developers can work with Codex, including steering it by voice and handing tasks off to run in the cloud.",
+   "more": "The session covered developer workflows for Codex beyond typing prompts directly, including voice control and offloading work to run in the cloud rather than locally. The recap also mentions the use of 'dots,' though the excerpt does not explain what that feature refers to. No specific release dates or availability details for these capabilities are given in the excerpt.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_4bf810e2-c310-445e-a5c0-4a9f7a3f36ec"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_4bf810e2-c310-445e-a5c0-4a9f7a3f36ec",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+     "url": "https://latent.space/p/codex-work/",
+     "published": "2026-11-11T04:49:48+00:00",
+     "excerpt": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T04:49:48+00:00"
+  },
+  {
+   "title": "Show HN: guide pushes coding agents off old JavaScript onto modern web APIs",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Show HN post shares GoogleChrome's 'modern-web-guidance' project, aimed at getting coding agents to generate current web platform code instead of patterns from around 2019.",
+   "more": "The project targets a known failure mode of coding agents and LLM-generated code: defaulting to older JavaScript idioms and libraries learned heavily from training data, rather than using newer native browser APIs. It drew 330 points and 101 comments on Hacker News. The excerpt does not list the specific modern web primitives the guidance recommends or how it's meant to be fed to an agent.",
+   "item_ids": [
+    "hn:50443812"
+   ],
+   "items": [
+    {
+     "id": "hn:50443812",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance",
+     "published": "2026-11-10T18:01:15+00:00",
+     "excerpt": "330 points, 101 comments. Discussion: https://news.ycombinator.com/item?id=50443812"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T18:01:15+00:00"
+  },
+  {
+   "title": "Nvidia's GR00T 2 learns robot skills by imagining itself in human videos",
+   "tags": [
+    "robotics",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia's new GR00T 2 model transfers human hand movements from video into robot-arm actions, trained on about 400,000 hours of footage, aiming to avoid laborious teleoperation.",
+   "more": "Rather than requiring engineers to teleoperate a robot to demonstrate tasks, GR00T 2 learns by watching humans perform the task on video and mapping those movements onto a robotic arm. It was trained on roughly 400,000 hours of video footage. Success rates varied widely in testing, from about 10 to 80 percent depending on the specific task. The excerpt does not specify which tasks saw the highest or lowest success rates.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42680"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42680",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
+     "url": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
+     "published": "2026-11-10T18:41:52+00:00",
+     "excerpt": "Nvidia's new AI model GR00T 2 is designed to teach robots new tasks without laborious teleoperation. Instead, the system transfers human hand movements from videos to robotic arms, trained on about 400,000 hours of video footage. Success rates still vary widely, though, ranging from 10 to 80 percent depending on the task. The article Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T18:41:52+00:00"
+  },
+  {
+   "title": "Gemini Robotics 2.5 sorts metal parts with 96% accuracy on Mercedes-Benz line",
+   "tags": [
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind's new Gemini Robotics 2.5 control model, tested with Apptronik's Apollo 2 humanoid on active Mercedes-Benz production lines in Hungary and Germany, sorted metal parts with a reported 96 percent success rate.",
+   "more": "The pilot ran on live Mercedes-Benz assembly lines rather than a lab setting, putting the Apollo 2 humanoid robot to work sorting metal parts. The 96 percent success rate is the headline figure DeepMind and Apptronik reported from the pilot. The excerpt does not specify the sample size behind that figure or when a wider rollout might follow.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42668"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42668",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google DeepMind's Gemini Robotics 2.5 scores 96 percent sorting metal parts in a Mercedes-Benz assembly pilot",
+     "url": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
+     "published": "2026-11-10T17:11:10+00:00",
+     "excerpt": "Google Deepmind introduced Gemini Robotics 2.5, a new control model for robots, and tested it with Apptronik on active Mercedes-Benz production lines in Hungary and Germany. The humanoid robot Apollo 2 sorted metal parts there with a reported success rate of 96 percent. The article Google DeepMind's Gemini Robotics 2.5 scores 96 percent sorting metal parts in a Mercedes-Benz assembly pilot appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T17:11:10+00:00"
+  },
+  {
+   "title": "Resend's Zeno Rocha on designing docs and APIs for AI agents",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Latent Space interviewed Resend's Zeno Rocha about 'designing for agents,' covering how Resend's docs help Claude Code choose its email API and the tools it uses to send mail.",
+   "more": "The conversation frames a question about where answer engine optimization (AEO) ends and 'agent experience' design begins, as developer tools increasingly need to be legible to AI coding agents rather than only to humans. It uses Resend as a case study, looking at how its documentation is structured so an agent like Claude Code can pick it as an email API, and the actual tool calls it then uses to send email. The excerpt does not detail specific documentation changes Resend made or metrics on agent adoption.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_f42d43bf-dd23-4475-b625-93262d8e7d3a"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_f42d43bf-dd23-4475-b625-93262d8e7d3a",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "Designing for Agents — Zeno Rocha, Resend",
+     "url": "https://latent.space/p/resend/",
+     "published": "2026-11-10T20:05:17+00:00",
+     "excerpt": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T20:05:17+00:00"
+  },
+  {
+   "title": "Mathematician Steven Strogatz on what happens when AI becomes a math oracle",
+   "tags": [
+    "other",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ars Technica interviewed mathematician Steven Strogatz about his new book, Big Math: The Hidden Codes That Run Our World, including how AI acting as an answer 'oracle' could reshape mathematics.",
+   "more": "The discussion centers on Strogatz's new book about the hidden mathematical codes underlying everyday systems, and extends into questions about what mathematics looks like once AI can reliably answer questions that once took humans years to solve. The excerpt does not detail Strogatz's specific predictions or conclusions about AI's effect on the field, only that the interview covers the book and this question.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "What happens to mathematics when AI becomes an oracle?",
+     "url": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+     "published": "2026-11-10T20:30:01+00:00",
+     "excerpt": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-10T20:30:01+00:00"
+  }
+ ]
+}
