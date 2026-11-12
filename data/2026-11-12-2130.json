@@ -1,0 +1,393 @@
+{
+ "date": "2026-11-12",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Jensen Huang resigns as Nvidia CEO after espionage and affair scandal",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia's board accepted Jensen Huang's resignation as CEO, president and director after an investigation into affairs with a direct report and an alleged Chinese intelligence asset. The news wiped out roughly $1.4 trillion in market value.",
+   "more": "Huang co-founded Nvidia in 1993 and had led it ever since, making the resignation one of the most abrupt CEO exits among major tech companies. The board, now chaired by Harvey Jones, opened the investigation after learning of the affairs, one of which involved a woman suspected of spying for China. Coverage describes the fallout as extending beyond Nvidia itself, given the company's central role in AI chip supply. It remains unclear what, if any, legal exposure Huang faces, and how the leadership change will affect Nvidia's AI strategy and partnerships going forward.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1032028",
+    "verge-ai:https://www.theverge.com/?p=1031689",
+    "wired-ai:6af1d5065b42cb1a21fe5138",
+    "decoder:https://the-decoder.com/?p=42770",
+    "techcrunch-ai:https://techcrunch.com/?p=3187523"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1032028",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+     "published": "2026-11-12T15:48:12+00:00",
+     "excerpt": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair of the Board, Harvey Jones, shared news of Huang's resignation […]"
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1031689",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
+     "published": "2026-11-12T13:53:16+00:00",
+     "excerpt": "Nvidia's board announced that Jensen Huang - its longtime co-founder, president, and CEO - has resigned after reports of two extramarital affairs, one with an alleged Chinese spy and one with an Nvidia executive who reported to Huang. Following a late Wednesday night meeting, the board accepted Huang's letter of resignation as CEO, president, and […]"
+    },
+    {
+     "id": "wired-ai:6af1d5065b42cb1a21fe5138",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Jensen Huang Resigns as Nvidia CEO",
+     "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+     "published": "2026-11-12T13:58:06+00:00",
+     "excerpt": "Nvidia’s cofounder and chief executive resigned on Thursday after the company opened an investigation into his affair with an alleged Chinese intelligence asset."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42770",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value",
+     "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+     "published": "2026-11-12T14:11:40+00:00",
+     "excerpt": "Jensen Huang resigned as CEO, president, and board member of Nvidia effective immediately, according to a statement on November 12, 2026. The article Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value appeared first on The Decoder ."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187523",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+     "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+     "published": "2026-11-12T16:32:33+00:00",
+     "excerpt": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways."
+    }
+   ],
+   "coverage": 4,
+   "newest": "2026-11-12T16:32:33+00:00"
+  },
+  {
+   "title": "Nvidia CFO Colette Kress named interim CEO after Huang's exit",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia named longtime CFO Colette Kress as interim CEO following Jensen Huang's resignation. Kress, who helped drive Nvidia's transformation into an AI powerhouse, now leads the company through the transition.",
+   "more": "Kress has served as Nvidia's chief financial officer for years and is credited with helping steer the company's finances through its rise as the dominant AI chip supplier. Her appointment as interim CEO came the same day the board announced Huang's resignation. Coverage focuses on her background and the question of whether she, or another candidate, will be named permanent CEO. No timeline for a permanent successor has been reported.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187797",
+    "wired-ai:6af5b45c11d8a61e3722e119"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187797",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+     "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+     "published": "2026-11-12T15:37:29+00:00",
+     "excerpt": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal."
+    },
+    {
+     "id": "wired-ai:6af5b45c11d8a61e3722e119",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Meet Colette Kress, Nvidia’s New Interim CEO",
+     "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
+     "published": "2026-11-12T14:14:33+00:00",
+     "excerpt": "Nvidia’s longtime chief financial officer helped transform the company into an AI powerhouse. Now she’s taking the reins following Jensen Huang’s resignation on Thursday."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-12T15:37:29+00:00"
+  },
+  {
+   "title": "Jensen Huang agrees to testify before Congress",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ousted Nvidia CEO Jensen Huang agreed to testify before Congress after lawmakers threatened to subpoena him over the espionage and affair scandal that ended his tenure.",
+   "more": "The agreement follows Huang's resignation after Nvidia's board found he had affairs with a direct report and a woman suspected of spying for China. Several senior lawmakers had threatened a subpoena before Huang agreed to appear voluntarily. No date for the testimony was given in the report. The hearing is expected to probe both the alleged espionage angle and any implications for US chip export security.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187911"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187911",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Jensen Huang agrees to testify before Congress",
+     "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+     "published": "2026-11-12T16:36:37+00:00",
+     "excerpt": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T16:36:37+00:00"
+  },
+  {
+   "title": "Trump suggests Apple's Tim Cook should succeed Huang at Nvidia",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "President Trump posted on Truth Social that Apple chairman Tim Cook is the only person who could replace ousted Nvidia CEO Jensen Huang.",
+   "more": "The suggestion came shortly after Nvidia's board announced Huang's resignation and named CFO Colette Kress as interim CEO. Trump did not elaborate on why Cook would be suited to lead Nvidia, and there is no indication Cook or Nvidia's board are considering the move. The comment adds a political dimension to the already high-profile leadership shakeup at the world's most valuable chipmaker.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187860"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187860",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+     "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+     "published": "2026-11-12T16:12:44+00:00",
+     "excerpt": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T16:12:44+00:00"
+  },
+  {
+   "title": "Norwest raises $4 billion fund to expand AI investing",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Venture firm Norwest closed a new $4 billion fund, its largest to date, to deepen its investments in AI startups.",
+   "more": "The fund size marks a record for Norwest and signals continued investor appetite for AI-focused venture deals despite a crowded funding environment. The report does not break down how much of the fund is earmarked specifically for AI versus other sectors, nor does it name specific portfolio targets. It is also unclear how the raise compares in timing to other large AI-focused funds closed this year.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187651"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187651",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Norwest pushes deeper into AI with new $4B fund",
+     "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+     "published": "2026-11-12T15:18:14+00:00",
+     "excerpt": "This is the investment firm's largest fund to date."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T15:18:14+00:00"
+  },
+  {
+   "title": "Fireworks AI breach exposed Notion customers' chat transcripts",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A cyberattack on Fireworks AI let hackers access chat transcripts belonging to Notion customers, marking Fireworks' second data breach in as many months.",
+   "more": "The report identifies this as Fireworks AI's second breach in two months, though it does not detail how the earlier incident compared in scope. Notion apparently relies on Fireworks' infrastructure in a way that exposed customer chat transcripts to the attackers. The excerpt does not specify how many customers were affected, what data beyond transcripts was exposed, or what remediation steps either company has taken. It also leaves open whether the same vulnerability was exploited in both incidents.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187828"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187828",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+     "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+     "published": "2026-11-12T15:02:28+00:00",
+     "excerpt": "This is Fireworks' second data breach in as many months."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T15:02:28+00:00"
+  },
+  {
+   "title": "Nine Korean startups compete for Disrupt 2027 Battlefield 200 spot",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nine Korean startups spanning healthcare, fintech, energy, semiconductors and AI are competing for a place in TechCrunch Disrupt 2027's Startup Battlefield 200, aiming to expand into the US.",
+   "more": "The competing startups work across deep tech sectors rather than AI alone, though AI is listed among their focus areas. All nine are reportedly seeking to enter the US market, suggesting the competition is being used as a launchpad for international expansion. The report does not name the specific startups or detail selection criteria for the Battlefield 200. It is unclear how many total applicants are vying for the Korean slots.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187646"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187646",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+     "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+     "published": "2026-11-12T13:26:25+00:00",
+     "excerpt": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the US."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T13:26:25+00:00"
+  },
+  {
+   "title": "Anthropic IPO page draws major Hacker News discussion",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News submission linking to Anthropic's IPO page drew 444 points and over 460 comments, reflecting heavy interest in a potential Anthropic public offering.",
+   "more": "The submission simply links to ipo.anthropic.com, with no article text accompanying it, so the underlying substance of any IPO plans is not described in the Item itself. The high point and comment counts indicate strong reader interest in Anthropic's public-market prospects. No filing details, valuation figures or timeline were included in the excerpt. It is unclear whether the page represents a formal IPO announcement or informational material.",
+   "item_ids": [
+    "hn:50465829"
+   ],
+   "items": [
+    {
+     "id": "hn:50465829",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Anthropic IPO",
+     "url": "https://ipo.anthropic.com/us/",
+     "published": "2026-11-12T11:46:41+00:00",
+     "excerpt": "444 points, 461 comments. Discussion: https://news.ycombinator.com/item?id=50465829"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T11:46:41+00:00"
+  },
+  {
+   "title": "ElevenLabs launches Scribe v3 and Scribe v3 Live speech recognition models",
+   "tags": [
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "ElevenLabs released Scribe v3 and Scribe v3 Live, speech recognition models that use conversational context to stop voice agents from cutting off callers mid-sentence. Benchmarks show it narrowly beats OpenAI, Google and Microsoft on accuracy.",
+   "more": "According to Artificial Analysis benchmarks cited in the report, Scribe v3 edges out rivals on transcription accuracy even through background noise and crosstalk. That accuracy comes at a cost: competitors like Microsoft and xAI run several times faster and charge roughly half the price. Scribe v3 Live is aimed specifically at voice agents, using conversational context to avoid interrupting callers. Pricing and availability details beyond the benchmark comparison were not specified.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42763"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42763",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
+     "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
+     "published": "2026-11-12T13:48:19+00:00",
+     "excerpt": "ElevenLabs has released Scribe v3 and Scribe v3 Live, two new speech recognition models designed to transcribe accurately through background noise and crosstalk. Benchmarks from Artificial Analysis confirm that Scribe v3 narrowly beats competitors like OpenAI, Google, and Microsoft on accuracy. That precision comes at a cost, though. Rivals like Microsoft and xAI run many times faster and charge roughly half the price. The article ElevenLabs Scribe v3 Live uses conversational context to stop voi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T13:48:19+00:00"
+  },
+  {
+   "title": "MiniMax-H3-Image trends on Hugging Face",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A ComfyUI-packaged build of MiniMax's text-to-image model, MiniMax-H3-Image, is trending on Hugging Face with 284 likes and over 835,000 downloads.",
+   "more": "The listing is a ComfyUI single-file diffusion build based on MiniMaxAI's base model, tagged for text-to-image generation. Its download count is substantially higher than its like count, suggesting heavy use in generation pipelines rather than casual browsing. The model's license is listed as 'other' rather than a standard open license, so its usage terms are not fully clear from the listing. No benchmark or quality comparisons against other text-to-image models were included.",
+   "item_ids": [
+    "hf-trending:Comfy-Org/MiniMax-H3-Image"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:Comfy-Org/MiniMax-H3-Image",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: Comfy-Org/MiniMax-H3-Image",
+     "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+     "published": "2026-11-08T20:37:23+00:00",
+     "excerpt": "text-to-image, 284 likes, 835593 downloads. Tags: diffusion-single-file, comfyui, text-to-image, base_model:MiniMaxAI/MiniMax-H3-Image, base_model:finetune:MiniMaxAI/MiniMax-H3-Image, license:other, region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-08T20:37:23+00:00"
+  },
+  {
+   "title": "Google DeepMind releases AlphaGenome 2 for single-cell genomics",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "DeepMind unveiled AlphaGenome 2, which analyzes genetic variants at the level of individual cell types rather than bulk tissue. Trained on over 107 million cell profiles, it identifies nearly twice as many disease-relevant gene changes as its predecessor.",
+   "more": "The shift from bulk-tissue to single-cell-type resolution is meant to give researchers a finer-grained view of how genetic variants affect specific cells rather than averaged tissue samples. The model is available for noncommercial research use through an API, and Google plans to integrate it into its agentic platform, Antigravity. The report does not specify commercial licensing terms or a timeline for the Antigravity integration. It is unclear how the model performs on cell types underrepresented in its training data.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42756"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42756",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
+     "url": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+     "published": "2026-11-12T12:09:43+00:00",
+     "excerpt": "Google Deepmind has unveiled AlphaGenome 2, an AI model that analyzes genetic variants for individual cell types rather than across bulk tissue. Trained on more than 107 million cell profiles, it identifies nearly twice as many disease-relevant gene changes as its predecessor. The model is available for noncommercial research through an API and is set to be integrated into Google's agentic platform Antigravity. The article Google Deepmind shifts genomics AI from bulk tissue predictions to single"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T12:09:43+00:00"
+  },
+  {
+   "title": "Google, Samsung and partners launch $395 Gemini-powered smartglasses",
+   "tags": [
+    "products",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google debuted Gemini-powered smartglasses starting at $395, built with Samsung, Gentle Monster and Warby Parker, and emphasized privacy features as a selling point.",
+   "more": "The glasses mark Google's first consumer smartglasses built around its Gemini AI assistant, following collaborations with eyewear brands Gentle Monster and Warby Parker and hardware partner Samsung. The report highlights Google's emphasis on privacy messaging around the always-available, camera-equipped device. The $395 starting price positions it as a mass-market product rather than a premium device. Details on battery life, camera specs and regional availability were not included in the excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+     "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+     "published": "2026-11-12T14:50:17+00:00",
+     "excerpt": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T14:50:17+00:00"
+  },
+  {
+   "title": "The Verge reviews Apple's $299 HomeView smart display",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge's smart home reviewer tested Apple's first smart display, the $299 HomeView, in tabletop and wall-mounted forms, and hosted a reader Q&A on the review.",
+   "more": "The reviewer, who has tested every smart display made by Amazon and Google, spent a week testing both the tabletop and wall-mounted versions of HomeView in a kitchen, bedroom, office and living room. The piece is framed as an \"ask me anything\" format rather than a standard review, inviting reader questions. The excerpt does not cover HomeView's software features, voice assistant capabilities or comparison verdict against existing smart displays. It is unclear whether or how AI features factor into the device's design.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1031868"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1031868",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "I reviewed the Apple HomeView, ask me anything",
+     "url": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
+     "published": "2026-11-12T14:10:00+00:00",
+     "excerpt": "Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView. I put the tabletop and wall-mounted versions through their paces, on my kitchen counter, bedside table, in my office, and on […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T14:10:00+00:00"
+  }
+ ]
+}
