@@ -1,0 +1,650 @@
+{
+ "date": "2026-11-12",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Nvidia board reportedly weighs ousting Jensen Huang amid affair claims",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia's board is reportedly preparing to remove CEO Jensen Huang after a second alleged affair surfaced, days after he admitted to one with a woman accused of being a Chinese spy; Nvidia's stock dropped and Congress has called him in to explain.",
+   "more": "The New York Times reported that Nvidia's board is preparing to dismiss Huang following a second alleged affair, this time with an Nvidia executive, just days after he admitted to a separate relationship with a woman accused of being a Chinese intelligence agent. The news sent Nvidia's stock down as the board could reportedly act as soon as Wednesday evening, ending Huang's 33-year run as founder and CEO. House Republicans have called on Huang to answer in a closed-door briefing about the alleged spy affair, and lawmakers are pressing for a hearing. With Nvidia having no public succession plan, TechCrunch published a list of potential replacements, from internal executives to outside candidates, underscoring how unprepared the company appears for a leadership change.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1031652",
+    "techcrunch-ai:https://techcrunch.com/?p=3187615",
+    "techcrunch-ai:https://techcrunch.com/?p=3187556",
+    "techcrunch-ai:https://techcrunch.com/?p=3187540",
+    "techcrunch-ai:https://techcrunch.com/?p=3187469"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1031652",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+     "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+     "published": "2026-11-11T22:44:36+00:00",
+     "excerpt": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187615",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+     "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+     "published": "2026-11-12T03:13:10+00:00",
+     "excerpt": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187556",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+     "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+     "published": "2026-11-11T23:28:45+00:00",
+     "excerpt": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187540",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+     "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+     "published": "2026-11-11T23:17:05+00:00",
+     "excerpt": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187469",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+     "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+     "published": "2026-11-11T19:22:22+00:00",
+     "excerpt": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-12T03:13:10+00:00"
+  },
+  {
+   "title": "Meta's longtime head of infrastructure Santosh Janardhan steps down",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Santosh Janardhan, who joined Meta in 2009 and has long led its infrastructure organization, is stepping down from the role, TechCrunch reports.",
+   "more": "Janardhan has overseen Meta's infrastructure for years as the company has ramped up AI-related data center and compute spending. TechCrunch did not report who will succeed him or when the departure takes effect.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187471"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187471",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Meta is losing its longtime head of infrastructure",
+     "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+     "published": "2026-11-11T20:12:01+00:00",
+     "excerpt": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T20:12:01+00:00"
+  },
+  {
+   "title": "CoreWeave leans on prepayments and shorter deals to fund AI growth",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "CoreWeave is increasingly asking customers to pay upfront, borrowing against specific contracts, and weighing shorter-term deals that could mean higher prices, according to its third-quarter earnings, TechCrunch reports.",
+   "more": "The shift suggests CoreWeave is managing cash flow pressures as it continues to build out GPU capacity for AI customers. TechCrunch notes that leaning on shorter contracts and prepayments could eventually push prices higher for customers.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187437"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187437",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+     "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+     "published": "2026-11-11T19:54:00+00:00",
+     "excerpt": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T19:54:00+00:00"
+  },
+  {
+   "title": "US corporate AI spending growth slows to 1.65% in October",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "US corporate AI spending hit a new high in October but growth slowed to just 1.65%, according to the Ramp AI Index, with one percent of companies still driving 80% of OpenAI and Anthropic's revenue.",
+   "more": "Customer support is emerging as a new growth driver for enterprise AI spending, the index found, though it may carry lower margins than the coding use cases that have driven spending so far. The concentration of revenue among a small share of companies suggests AI adoption, while broad, remains shallow relative to a handful of heavy users.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42742"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42742",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
+     "url": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+     "published": "2026-11-11T19:35:11+00:00",
+     "excerpt": "According to the Ramp AI Index, US corporate AI spending rose just 1.65 percent in October 2026. One percent of companies still drive 80 percent of revenue for OpenAI and Anthropic. Customer support is emerging as a new growth driver, but it may bring lower margins than the coding business that has fueled spending so far. The article US corporate AI spending hits a new high in October, but growth slows to 1.65 percent appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T19:35:11+00:00"
+  },
+  {
+   "title": "Britain's Fractile raises $720M for AI chip race",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "UK startup Fractile raised a $720 million round, making it one of the best-funded companies building purpose-built chips for AI, TechCrunch reports.",
+   "more": "The round positions Fractile among the top-funded entrants in a crowded field of startups racing to build custom silicon for AI workloads. TechCrunch did not detail the round's investors or Fractile's valuation.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187339"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187339",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+     "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+     "published": "2026-11-11T19:34:55+00:00",
+     "excerpt": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T19:34:55+00:00"
+  },
+  {
+   "title": "Report: retirement savings are helping fuel the AI investment boom",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A widely discussed article argues that retirement savings, channeled through pensions and index funds, are helping inflate the AI investment bubble.",
+   "more": "The piece, from the LPE Project, prompted substantial debate on Hacker News, reaching 151 points and 149 comments. Its core claim is that ordinary retirement accounts are indirectly bankrolling the AI boom through their exposure to AI-heavy stock indexes.",
+   "item_ids": [
+    "hn:50457164"
+   ],
+   "items": [
+    {
+     "id": "hn:50457164",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Retirement Savings Are Fueling the AI Bubble",
+     "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+     "published": "2026-11-11T19:06:43+00:00",
+     "excerpt": "151 points, 149 comments. Discussion: https://news.ycombinator.com/item?id=50457164"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T19:06:43+00:00"
+  },
+  {
+   "title": "TSMC to invest $1B in Anthropic and OpenAI",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Taiwan's chipmaking giant TSMC plans to invest $1 billion in Anthropic and OpenAI, the latest example of the AI boom's circular financing between chipmakers and model developers, Ars Technica reports.",
+   "more": "The investment follows a pattern of chipmakers and cloud providers taking stakes in the AI labs that buy their hardware, deepening financial ties across the AI supply chain. Ars Technica frames the deal as the latest sign of the AI trade's 'circular financing,' arriving as broader AI-related markets wobble.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+     "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+     "published": "2026-11-11T18:16:40+00:00",
+     "excerpt": "Latest example of the AI boom’s circular financing comes as AI trade wobbles."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T18:16:40+00:00"
+  },
+  {
+   "title": "AWS ships local service emulator built by a swarm of AI agents",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "AWS released an official emulator for running tests against local clones of its many services without needing a paid API key. Written in Rust, the project was built by a large swarm of AI agents, racking up 29,684 commits in its first three weeks.",
+   "more": "Simon Willison noted the emulator currently requires Docker to run on macOS or Windows, and hopes that limitation is addressed in the future. AWS's Swami Sivasubramanian wrote about the project's origin in a guest post on Werner Vogels' blog. The scale of AI-written code -- nearly 30,000 commits in three weeks -- highlights how far agentic coding has advanced for infrastructure tooling. Hacker News discussion also raised the broader question of what engineers' jobs look like when agents write the code.",
+   "item_ids": [
+    "hn:50456740",
+    "simonw:https://simonwillison.net/2026/Nov/11/aws-emulator/"
+   ],
+   "items": [
+    {
+     "id": "hn:50456740",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "AWS Emulator and the engineer's job when agents write the code",
+     "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+     "published": "2026-11-11T18:28:31+00:00",
+     "excerpt": "111 points, 2 comments. Discussion: https://news.ycombinator.com/item?id=50456740"
+    },
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/11/aws-emulator/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "aws-emulator",
+     "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+     "published": "2026-11-11T21:18:30+00:00",
+     "excerpt": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog. It currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great "
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-11T21:18:30+00:00"
+  },
+  {
+   "title": "AI Engineer Code Summit roundup: decision models, build-failure classifiers",
+   "tags": [
+    "tools",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "At the AI Engineer Code Summit, Google entered the decision-model market, Cloudflare demoed a classifier for diagnosing build failures, and TypeSafe AI showcased its production customers, per Latent Space's daily roundup.",
+   "more": "The roundup frames Google's decision-model entry as the day's biggest development, arriving alongside smaller product demos from the conference floor. Cloudflare's classifier is aimed at automatically identifying which parts of a build failure it can resolve. Latent Space did not provide further detail on TypeSafe AI's production customers.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_abc084f4-e464-450c-ad72-066cf5d3dfef"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_abc084f4-e464-450c-ad72-066cf5d3dfef",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] D-Day (Decision Models Day)",
+     "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
+     "published": "2026-11-12T05:26:54+00:00",
+     "excerpt": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T05:26:54+00:00"
+  },
+  {
+   "title": "Jev creator urges developers to 'automate everything' at AI summit",
+   "tags": [
+    "tools",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "At the AI Engineer Code Summit, Jev creator Diogo Almeida called on developers to automate everything with System One decision models, as Latent Space highlighted Glean and other companies already building on Jev.",
+   "more": "The talk frames Jev's decision-model category as mature enough for production use, with Glean cited as one adopter putting it to work. Latent Space's coverage did not detail specifically what Glean or the other companies are building with Jev.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_b31597d9-ad6f-469e-a051-d723be8fd562"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_b31597d9-ad6f-469e-a051-d723be8fd562",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+     "url": "https://latent.space/p/jev-revolution/",
+     "published": "2026-11-12T05:08:20+00:00",
+     "excerpt": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T05:08:20+00:00"
+  },
+  {
+   "title": "Simon Willison adds tag browsing to his vibe-coded tools collection",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison used leftover Fable 5.2 credits and tree-sitter code analysis to add tag-based browsing to tools.simonwillison.net, his site cataloging 244 of his own AI-assisted tools.",
+   "more": "The new homepage features tag clouds built by analyzing each tool's code for JavaScript APIs, libraries, and web API hosts used, covering categories like AbortController, Blob URLs, and BroadcastChannel. Willison said he had been wanting a better way to browse the growing collection for some time.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/11/tools-tags/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/11/tools-tags/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Browse tools.simonwillison.net by tag",
+     "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+     "published": "2026-11-11T18:42:50+00:00",
+     "excerpt": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool. The homepage now features tag clouds for browsing by each of those categories of tag: 5, AbortController 6, Blob URLs 38, BroadcastChannel 1, Built-in AI 1, Camera /"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T18:42:50+00:00"
+  },
+  {
+   "title": "LLM CLI tool patches API key leak bug in custom endpoint config",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "The llm command-line tool shipped version 0.37.2, fixing a security issue reported by Daniel de Araujo that could leak a configured OpenAI API key to other OpenAI-compatible providers.",
+   "more": "The bug affected extra-openai-models.yaml, the mechanism llm uses to connect to OpenAI-compatible endpoints from other providers, now managed via the new 'llm openai endpoint add' command added in version 0.37. The key could leak under two conditions: when the named api_key_name had never been stored, or in certain cases involving the 'responses' configuration. Two GitHub Security Advisories, GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w, document the issue.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/11/llm/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/11/llm/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "llm 0.37.2",
+     "url": "https://simonwillison.net/2026/Nov/11/llm/",
+     "published": "2026-11-11T17:19:52+00:00",
+     "excerpt": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other providers. Daniel reported two ways this could accidentally send your configured OpenAI API key to one of those providers: if the key named by api_key_name had never been stored, or if a responses: "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T17:19:52+00:00"
+  },
+  {
+   "title": "Google DeepMind's AlphaProof Code verifies Signal's crypto core in weeks",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind says its AlphaProof Code system mathematically verified Signal's cryptographic core in four weeks, a process that typically takes years, using Gemini Carbon-powered agents that wrote over six million lines of proof code.",
+   "more": "The agents flagged only about one percent of the generated proof code for human review, according to DeepMind. The company says it plans to extend the verification method to other critical infrastructure, including power grids and medical devices. The achievement points to formal verification as an emerging use case for AI coding agents beyond writing application code.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42736"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42736",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years",
+     "url": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/",
+     "published": "2026-11-11T18:18:25+00:00",
+     "excerpt": "Google Deepmind's AlphaProof Code mathematically verified Signal's cryptographic core code in four weeks, a process that typically takes years. AI agents powered by Gemini Carbon wrote more than six million lines of proof code and flagged only about one percent for human review. Deepmind plans to extend the method to critical infrastructure like power grids and medical devices. The article Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years appea"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T18:18:25+00:00"
+  },
+  {
+   "title": "Apple researchers publish faster retrieval method for more efficient RAG",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apple's machine learning team published research on faster retrieval techniques aimed at making retrieval-augmented generation systems more efficient, drawing a Hacker News discussion that reached 189 points and 36 comments.",
+   "more": "The paper is hosted on Apple's machine learning research site and focuses on improving retrieval speed for RAG pipelines.",
+   "item_ids": [
+    "hn:50455633"
+   ],
+   "items": [
+    {
+     "id": "hn:50455633",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Faster Retrieval for Better, More Efficient RAG",
+     "url": "https://machinelearning.apple.com/research/faster-retrieval",
+     "published": "2026-11-11T16:57:45+00:00",
+     "excerpt": "189 points, 36 comments. Discussion: https://news.ycombinator.com/item?id=50455633"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T16:57:45+00:00"
+  },
+  {
+   "title": "New benchmark tests generalist AI models across tabular data tasks",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduced the One Table Benchmark, spanning 56 datasets, 46 methods, and 20 capability axes, to test whether a single AI model can handle tabular data generation, imputation, and prediction equally well.",
+   "more": "The benchmark evaluates five backbone models to see whether these three distinct query types -- which probe different aspects of the same tabular data distribution -- share capabilities or require separate specialized training. Prior evaluations typically tested generation, imputation, and prediction in isolation, leaving it unclear how their training objectives interact. The paper compares task rankings on aligned data splits and explicit task contracts across all 56 datasets. It remains unclear from the paper whether any single model family consistently outperforms across all three task types.",
+   "item_ids": [
+    "hf-papers:2611.13001"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.13001",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
+     "url": "https://huggingface.co/papers/2611.13001",
+     "published": "2026-11-11T00:00:00+00:00",
+     "excerpt": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned data splits and explicit task contracts. We compare task ranks on aligned support, train five backbon"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T00:00:00+00:00"
+  },
+  {
+   "title": "Google launches Gemini Decisions API with new Gemini Decision 1 model",
+   "tags": [
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind launched the Gemini Decisions API, powered by a new Gemini Decision 1 model that scores up to 1,000 closed-ended questions per call across text, image, audio, and video in 150-250ms, undercutting OpenAI's and Jev's pricing.",
+   "more": "Gemini Decision 1 can score up to 1,000 closed-ended questions in a single pass across text, images, audio, and video, returning results in 150 to 250 milliseconds at roughly five times lower cost than Gemini 3.5 Flash-Lite, according to Google. Simon Willison noted the API is nearly identical to Jev, supporting the same three question types -- yes/no, multiple choice, and rubric scoring -- and even reusing Jev's term 'Noul' for a yes/no question. Pricing matches OpenAI's GPT-6 Luna decision model at 10 cents per million input tokens with free output, while Jev remains the cheapest of the three at 4.2 cents per million tokens, though Jev is text and JSON only. The move makes Google the third major lab to enter the decision-model category this year.",
+   "item_ids": [
+    "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "decoder:https://the-decoder.com/?p=42746",
+    "hn:50456791",
+    "simonw:https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
+   ],
+   "items": [
+    {
+     "id": "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+     "source": "google-ai",
+     "source_name": "Google AI Blog",
+     "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+     "published": "2026-11-11T18:00:00+00:00",
+     "excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42746",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+     "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
+     "published": "2026-11-11T20:12:46+00:00",
+     "excerpt": "Google Deepmind's new Gemini Decisions API evaluates up to 1,000 closed-ended questions in a single pass across text, images, audio, and video. Gemini Decision 1 returns results in 150 to 250 milliseconds at roughly five times lower cost than Gemini 3.5 Flash-Lite, according to Google. The article Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass appeared first on The Decoder ."
+    },
+    {
+     "id": "hn:50456791",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Gemini Decisions API",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+     "published": "2026-11-11T18:32:42+00:00",
+     "excerpt": "368 points, 115 comments. Discussion: https://news.ycombinator.com/item?id=50456791"
+    },
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Gemini Decisions API",
+     "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+     "published": "2026-11-11T22:03:25+00:00",
+     "excerpt": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/no question. It's priced the same as the GPT-6 Luna decision model: 10 cents per million input tokens, and output is free. Jev remains the cheapest of the three, at 4.2 cents per million. Jev is text (and JSON) only. Open"
+    }
+   ],
+   "coverage": 4,
+   "newest": "2026-11-11T22:03:25+00:00"
+  },
+  {
+   "title": "Startup Radical Numerics builds AI model to detect AI-engineered pathogens",
+   "tags": [
+    "models",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Radical Numerics has built a model that it says can identify both natural and AI-engineered pathogens without needing an internet connection, aiming to counter the risk of AI-assisted bioweapons, Wired reports.",
+   "more": "The startup's offline-capable approach is designed to let biosecurity screening happen even where internet access is unavailable or untrusted. Wired did not detail how the model was trained or validated, leaving open how well it performs against novel threats.",
+   "item_ids": [
+    "wired-ai:6af201ee77b79684f4754674"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af201ee77b79684f4754674",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "A Startup Wants to Fight AI Bioweapons With AI",
+     "url": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
+     "published": "2026-11-11T17:00:00+00:00",
+     "excerpt": "Radical Numerics has developed a model that it says can identify natural and AI-engineered pathogens without an internet connection."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T17:00:00+00:00"
+  },
+  {
+   "title": "United Airlines bars AI agents from booking flights for travelers",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "United says it won't let personal AI assistants book tickets on its flights, citing privacy and regulatory concerns, even though few customers have tried it so far.",
+   "more": "United says it won't let personal AI assistants book tickets on its flights, citing both privacy and regulatory concerns about autonomous agents acting on a customer's behalf. The airline told The Wall Street Journal it hasn't yet seen many travelers try to use AI agents for bookings, a pattern other businesses such as DoorDash have also observed. The policy makes United one of the first major carriers to publicly set rules around AI agent use at the point of purchase.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1031623",
+    "hn:50458900"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1031623",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "United won’t let your AI agent book your flight",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+     "published": "2026-11-11T21:54:21+00:00",
+     "excerpt": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned […]"
+    },
+    {
+     "id": "hn:50458900",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+     "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+     "published": "2026-11-11T21:24:35+00:00",
+     "excerpt": "505 points, 490 comments. Discussion: https://news.ycombinator.com/item?id=50458900"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-11T21:54:21+00:00"
+  },
+  {
+   "title": "Indie game studio's AI bug fix sparks gaming community backlash",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "After the indie game Big Walk used AI to fix a bug, Independent Games Festival judges and the indie gaming community began reassessing how much AI use in development is acceptable, Ars Technica reports.",
+   "more": "Ars Technica reports that for many Independent Games Festival judges, any amount of AI-assisted coding is considered disqualifying. The incident has reignited debate within the indie development community over where to draw the line on AI tool use.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+     "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+     "published": "2026-11-11T17:37:32+00:00",
+     "excerpt": "Any amount of AI coding is too much for many Independent Games Festival judges."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T17:37:32+00:00"
+  },
+  {
+   "title": "Data center boom runs into permitting, power, and opposition delays",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch reports the AI data center boom is colliding with local opposition, permitting delays, and electricity shortages, raising doubts that many announced projects will actually get built despite billions in planned AI infrastructure spending.",
+   "more": "The challenges start before construction even begins, as many announced data center projects may never break ground given the scale of obstacles developers face. TechCrunch's reporting, covered in both video and podcast formats, ties the slowdown to a wave of local pushback against new builds. Billions of dollars in AI infrastructure commitments are at stake as companies race to secure the power needed to run them.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?post_type=tc_video&p=3187347",
+    "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3187346"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?post_type=tc_video&p=3187347",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Why the data center you dread might never even be built",
+     "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+     "published": "2026-11-11T20:15:15+00:00",
+     "excerpt": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3187346",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+     "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+     "published": "2026-11-11T20:02:14+00:00",
+     "excerpt": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T20:15:15+00:00"
+  },
+  {
+   "title": "Wired trains a robot 'Microduck' to herd a cat using an OpenAI model",
+   "tags": [
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Wired writer used an OpenAI model to help train a small robot called the Microduck to walk and act as a makeshift butler for their cat, offering a glimpse of accessible consumer robotics.",
+   "more": "The piece frames the hobbyist project as an early example of robotics development aided by consumer AI models, rather than a commercial product.",
+   "item_ids": [
+    "wired-ai:6af201a78edcf6c224e08d61"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af201a78edcf6c224e08d61",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
+     "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+     "published": "2026-11-11T19:55:54+00:00",
+     "excerpt": "An OpenAI model helped me teach the Microduck to waddle and moonlight as a tiny cat butler."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T19:55:54+00:00"
+  }
+ ]
+}
