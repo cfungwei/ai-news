@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-12",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "SteerDistill quantizes LLM agents using closed-loop teacher steering",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new method called SteerDistill corrects behavioral errors in low-bit quantized LLM agents by using a closed-loop teacher model to steer training, aiming to preserve task success that quantization usually degrades.",
+   "more": "Quantizing LLM agents to low-bit precision cuts inference cost but often hurts task success. The paper's analysis of failed rollouts found that quantized agents tend to overlook task requirements or environmental conditions, causing their behavior to diverge from a full-precision reference. Fixing this is hard: offline training data may not cover the student model's specific failure cases, and the student's own rollouts rarely contain enough correct examples in those same contexts. SteerDistill addresses this with a closed-loop process where a teacher model steers the student during training, though the excerpt doesn't detail how much task performance it recovers.",
+   "item_ids": [
+    "hf-papers:2611.13410"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.13410",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+     "url": "https://huggingface.co/papers/2611.13410",
+     "published": "2026-11-12T00:00:00+00:00",
+     "excerpt": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure contexts, while its own rollouts may provide few correct responses in those contexts. We introduce "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "title": "GTAGym turns GTA V missions into an agent benchmark for RL",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "GTAGym is a new environment and benchmark, GTAVBench, that evaluates AI agents on 103 tasks drawn from Grand Theft Auto V's main-story missions, supporting both evaluation and reinforcement learning in a complex game world.",
+   "more": "AAA games are a rich testbed for agent perception, reasoning, and control, but verifying whether an agent actually completed a task has usually required human annotation, which makes using these games for reinforcement learning difficult. GTAGym is a new framework that provides both an evaluation and RL environment built on Grand Theft Auto V. Its benchmark component, GTAVBench, is derived from the game's main-story missions and contains 103 tasks with automatically verifiable outcomes. The excerpt does not give performance results for any agents tested on the benchmark.",
+   "item_ids": [
+    "hf-papers:2611.13028"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.13028",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
+     "url": "https://huggingface.co/papers/2611.13028",
+     "published": "2026-11-12T00:00:00+00:00",
+     "excerpt": "AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether agents can complete tasks in AAA games is challenging and often human-annotated because task outcomes are often difficult to verify automatically, let alone applying it for Reinforcement Learning (RL). We introduce GTAGym, an environment and framework for evaluation and RL on GTA V tasks. Its evaluation benchmark, GTAVBench, derived from GTA V main-story missions, contains 103 onli"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "title": "SparseRead cuts token costs for AI agents reading web content",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "SparseRead is a new reading-control layer for AI agents that selectively admits only the evidence needed from webpages, documents, and tool outputs instead of ingesting whole objects, cutting token and latency costs without changing the underlying model.",
+   "more": "Web-facing AI agents often read entire webpages, documents, repositories, or tool responses even when only a small piece of evidence is actually needed, which drives up token and latency costs and can bury the relevant information. SparseRead is a reusable reading-control layer that sits in front of an agent and governs what content it admits, without any changes to the agent model itself. It tracks evolving information needs and source coverage through what the authors call a Read Intent Protocol, and uses \"Adaptive Reader Backends\" to decide how evidence is surfaced. The excerpt is cut off before describing how those backends select evidence or what savings the approach achieves in practice.",
+   "item_ids": [
+    "hf-papers:2608.22237"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2608.22237",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
+     "url": "https://huggingface.co/papers/2608.22237",
+     "published": "2026-11-12T00:00:00+00:00",
+     "excerpt": "Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases token and latency costs and can dilute relevant evidence. We present SparseRead, a reusable reading control layer that governs content admission without modifying the agent model. Its Read Intent Protocol tracks evolving needs and source coverage; Adaptive Reader Backends select how eviden"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "title": "Evolving Infra adapts LLM serving to agentic workload demands",
+   "tags": [
+    "agents",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Evolving Infra is a new agent-adaptive serving framework that dynamically adjusts compute allocation and KV cache management between prefill and decode nodes, aiming to fix the load imbalance and cache eviction that fixed-allocation LLM serving creates for agentic workloads.",
+   "more": "Agentic workloads now make up a major share of LLM inference demand, but existing prefill-decode disaggregated serving systems have limited ability to adapt compute allocation and KV cache management at runtime. These systems rely on coarse signals that don't fully capture how dynamic and varied agent workloads are, which leads to load imbalance between prefill and decode nodes and to eviction of KV caches that agents would otherwise reuse. Evolving Infra is presented as an agent-adaptive serving framework meant to address these gaps, though the excerpt is cut off before describing its specific mechanism or measured improvements.",
+   "item_ids": [
+    "hf-papers:2611.12304"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.12304",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+     "url": "https://huggingface.co/papers/2611.12304",
+     "published": "2026-11-12T00:00:00+00:00",
+     "excerpt": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limitations lead to load imbalance between prefill and decode nodes and eviction of KV caches that agents will reuse. We present Evolving Infra, an agent-adaptive serving framework tha"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "title": "New corpus converts 2,118 math textbooks into structured proof data",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces TOME-Math, a corpus of about 380,000 proof-supervision records built from 2,118 university math textbooks, preserving chapter order and proof dependencies to improve how language models learn mathematical reasoning.",
+   "more": "Most math training data for language models strips out the structure of the original textbooks, reducing proofs to isolated problem-solution pairs. TOME-Math instead preserves chapter order and the links between propositions and their proofs across 2,118 university-level mathematics textbooks. The resulting corpus holds roughly 380,000 structured proof-supervision records spanning core math subjects. The paper doesn't specify which models were trained or evaluated on the corpus, or how much it improves performance over flattened datasets.",
+   "item_ids": [
+    "hf-papers:2610.40394"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.40394",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+     "url": "https://huggingface.co/papers/2610.40394",
+     "published": "2026-11-12T00:00:00+00:00",
+     "excerpt": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured proof-supervision records while preserving chapter order, proposition-proof links, depen"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "title": "Paper trains LLMs to self-learn from reference material via RL",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new study uses reinforcement learning to teach language models to autonomously retrieve, study, and apply knowledge from long-form reference materials, going beyond simple retrieval-augmented generation for unfamiliar-domain problem solving.",
+   "more": "Language models typically lean on parametric knowledge or retrieval-augmented generation to answer knowledge-intensive questions, but unfamiliar domains need tighter coupling between acquiring knowledge and reasoning about it. The paper studies \"self-learning\": having a model autonomously retrieve, study, and apply knowledge from long-form reference material on the fly, rather than working from a preassembled context. The authors formulate this as a task the model learns to perform via reinforcement learning, incentivizing it to self-teach rather than just retrieve and aggregate facts. The excerpt cuts off before describing the benchmark or results used to evaluate the approach.",
+   "item_ids": [
+    "hf-papers:2610.39671"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2610.39671",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+     "url": "https://huggingface.co/papers/2610.39671",
+     "published": "2026-11-12T00:00:00+00:00",
+     "excerpt": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks. Yet problem solving in unfamiliar domains calls for tightly coupled knowledge acquisition and reasoning, beyond factual retrieval and aggregation or learning solely from a preassembled context. We study self-learning -- autonomously retrieving, studying, and applying knowledge from long-form reference materials on the fly. To investigate this capability, we formu"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "title": "OpenAI publishes customer story on Holiday Extras using Codex",
+   "tags": [
+    "tools",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI published a customer story describing how travel company Holiday Extras uses its Codex coding tool to turn staff expertise into new app features, aiming to raise booking conversion and open new growth avenues.",
+   "more": "OpenAI published a short customer story about Holiday Extras, a travel services company that uses the Codex coding tool. According to the post, Codex lets the company's staff turn their own domain expertise directly into app features. OpenAI credits the approach with improving booking conversion and opening new growth opportunities for the business. The post doesn't give specific numbers or detail which applications were built.",
+   "item_ids": [
+    "openai:https://openai.com/business/customer-stories/holidays-extras-codex"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/business/customer-stories/holidays-extras-codex",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Holiday Extras is rethinking what it can build with Codex",
+     "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+     "published": "2026-11-12T09:30:00+00:00",
+     "excerpt": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T09:30:00+00:00"
+  },
+  {
+   "title": "PISA routes LLM prompts to balance cost and response quality",
+   "tags": [
+    "tools",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "PISA is a new prompt-adaptive router that assigns each request to a cost-effective language model using soft cluster memberships, with an ensemble extension, PISA-E, that can combine multiple models per prompt instead of picking just one.",
+   "more": "Web services built on LLMs need to balance response quality against inference cost across varied requests, but conventional routers pick a single model per prompt and fixed ensembles can't adapt their composition or cost per request. The paper introduces PISA, a prompt-adaptive, cost-aware router that selects a single model per prompt, and PISA-E, an ensemble variant that can combine several models for one request. Both methods work by combining soft cluster memberships with model-specific predictions, though the excerpt cuts off before explaining what those predictions estimate. No benchmark results are given in the available excerpt.",
+   "item_ids": [
+    "hf-papers:2611.10193"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.10193",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference",
+     "url": "https://huggingface.co/papers/2611.10193",
+     "published": "2026-11-12T00:00:00+00:00",
+     "excerpt": "Large language models (LLMs) increasingly support Web-based services that must balance response quality and inference cost across heterogeneous requests. Conventional routing selects one model per prompt, while fixed ensembles cannot adapt their composition and cost to individual requests. We introduce PISA, a prompt-adaptive, cost-aware single-model router, and PISA-E, its extension to ensemble routing. At the core of both methods, PISA combines soft cluster memberships with model-specific pred"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "title": "Wired fact-checks Palantir CEO Alex Karp's 'progressive' label",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired compares Palantir CEO Alex Karp's recent claim that he's a 'progressive' against comments he made on the company's earnings call two weeks earlier, highlighting a contrast between the two.",
+   "more": "Wired examines comments Palantir CEO Alex Karp made in a recent interview, where he described his political views as \"progressive.\" The piece sets those remarks against statements he made on the company's earnings call about two weeks earlier. The excerpt doesn't specify which of Karp's statements are being compared, beyond noting a contrast between the two public appearances.",
+   "item_ids": [
+    "wired-ai:6af4c2b3786b084e206ae2a3"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af4c2b3786b084e206ae2a3",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Alex Karp Said He’s a ‘Progressive.’ OK! Here’s Some Other Stuff He’s Said Recently",
+     "url": "https://www.wired.com/story/alex-karp-said-hes-a-progressive-ok-heres-some-other-stuff-hes-said-recently/",
+     "published": "2026-11-12T10:30:00+00:00",
+     "excerpt": "The Palantir CEO touted his “progressive” worldview in a recent interview. Let’s see how that lines up with his comments during the company’s earnings call two weeks ago."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T10:30:00+00:00"
+  },
+  {
+   "title": "Reddit post claims Nvidia board is preparing to remove Jensen Huang",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A widely discussed r/LocalLLaMA post claims Nvidia's board is preparing to oust CEO Jensen Huang, though the submission itself provides no sourcing or supporting detail beyond the headline claim.",
+   "more": "A post on r/LocalLLaMA carries the headline claim that Nvidia's board is preparing to remove CEO Jensen Huang. The submission text available here is only standard Reddit boilerplate, with no article excerpt, named sources, or supporting evidence attached. It isn't possible to confirm the claim from the material collected so far.",
+   "item_ids": [
+    "localllama:t3_1xtvsi7"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xtvsi7",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Nvidia is Preparing to Oust Nvidia CEO Jensen Huang",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtvsi7/nvidia_is_preparing_to_oust_nvidia_ceo_jensen/",
+     "published": "2026-11-11T22:31:56+00:00",
+     "excerpt": "submitted by /u/fallingdowndizzyvr [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T22:31:56+00:00"
+  },
+  {
+   "title": "Spirit Airlines flight attendants opt out of a Google data sale",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The union representing flight attendants from the now-defunct Spirit Airlines negotiated a deal with Google to remove sensitive employee records from a $10 million sale of the airline's data.",
+   "more": "Spirit Airlines shut down and sold data to Google as part of a $10 million deal, which reportedly included records belonging to its flight attendants. The union representing those flight attendants negotiated directly with Google to have sensitive employee records removed from the sale. The excerpt doesn't specify what Google intended to do with the data or what counts as \"sensitive\" in this case.",
+   "item_ids": [
+    "wired-ai:6af4a94dcfaf3e18d8d29b24"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af4a94dcfaf3e18d8d29b24",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Google Wanted Spirit Airlines Data. Flight Attendants Found a Way to Opt Out",
+     "url": "https://www.wired.com/story/google-wanted-spirit-airlines-data-flight-attendants-found-a-way-to-opt-out/",
+     "published": "2026-11-12T10:15:00+00:00",
+     "excerpt": "The union representing flight attendants for the defunct airline struck a deal with Google to scrub sensitive employee records from a $10 million data sale."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T10:15:00+00:00"
+  },
+  {
+   "title": "Australia proposes bill to force frontier AI makers into audits",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Australia's government, led by PM Anthony Albanese, is proposing a law to create a new regulator that would mandate independent safety audits of frontier AI models and impose steep penalties for violations, ahead of international AI talks.",
+   "more": "Australia's government, led by Prime Minister Anthony Albanese, is proposing the country's first legally mandatory safety rules for frontier AI companies. The bill would create a new regulator empowered to enforce independent audits of frontier models and impose steep penalties on companies that violate the rules. By moving now, Canberra is deliberately putting domestic regulation in place before it enters any international AI policy talks. The article doesn't specify the bill's penalty amounts, audit criteria, or a timeline for passage.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42731"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42731",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
+     "url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+     "published": "2026-11-12T10:09:56+00:00",
+     "excerpt": "Australia's government, led by Prime Minister Anthony Albanese, wants to enshrine mandatory safety rules for frontier AI companies in law for the first time. A new regulator would enforce independent model audits and impose steep penalties for violations. With this move, Canberra is deliberately prioritizing domestic regulation before entering international talks. The article Australia's proposed AI safety bill would force frontier model makers to open up to independent testing appeared first on"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T10:09:56+00:00"
+  },
+  {
+   "title": "Microsoft patent describes training AI models on idle consumer GPUs",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Microsoft patent application reportedly describes splitting AI model training into small tasks distributed to opted-in consumers' idle GPUs, who would be rewarded with credits, according to a Reddit discussion citing Insider Gaming.",
+   "more": "A patent application from Microsoft reportedly describes a system for breaking AI model training into small tasks and distributing them to the idle GPUs of consumers who opt in. Participants would be compensated with credits rather than direct payment. The application doesn't specify a payout rate, according to the Reddit discussion citing the filing. It isn't clear yet whether Microsoft plans to turn the patent into a real product or app.",
+   "item_ids": [
+    "localllama:t3_1xtowe4"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xtowe4",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Microsoft files a patent application to train AI models on idle consumer GPUs",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtowe4/microsoft_files_a_patent_application_to_train_ai/",
+     "published": "2026-11-11T18:05:04+00:00",
+     "excerpt": "According to Microsoft's patent application, it explains breaking down training into small tasks and sending them to devices of owners who opted in. Credits will be the reward. it's just an app and no pay out rate is advertized so I don't even know if the credits would be enough for the electricity. Anyway, home internet latency feels like the bigger problem to me. https://insider-gaming.com/microsoft-ai-use-your-gpu/ (English is not my native language, I used an LLM to help translate this post."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-11T18:05:04+00:00"
+  }
+ ]
+}
