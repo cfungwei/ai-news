@@ -1,0 +1,398 @@
+{
+ "date": "2026-11-13",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "OpenAI launches ChatGPT Wallet for agent-assisted purchases",
+   "tags": [
+    "products",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI introduced ChatGPT Wallet, letting agents in ChatGPT Work, Codex, and Dots complete purchases with user approval and existing card protections. It is starting with a limited rollout to US Pro subscribers.",
+   "more": "ChatGPT Wallet gives agents inside ChatGPT Work, Codex, and Dots a way to complete purchases on a user's behalf. Each purchase requires user approval and relies on existing card protections rather than a new payment system. The feature is starting with a limited rollout to US Pro subscribers rather than a full launch. It is part of a broader push by OpenAI to let its agents act as shopping assistants that can check out directly for users.",
+   "item_ids": [
+    "openai:https://openai.com/index/introducing-chatgpt-wallet",
+    "techcrunch-ai:https://techcrunch.com/?p=3188368"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/introducing-chatgpt-wallet",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Introducing ChatGPT Wallet",
+     "url": "https://openai.com/index/introducing-chatgpt-wallet",
+     "published": "2026-11-13T15:00:00+00:00",
+     "excerpt": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188368",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+     "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+     "published": "2026-11-13T16:00:12+00:00",
+     "excerpt": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-13T16:00:12+00:00"
+  },
+  {
+   "title": "Anthropic's Claude for Manufacturing plugs into factory software",
+   "tags": [
+    "products",
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic launched Claude for Manufacturing, a plugin connecting the AI to Autodesk Fusion, Oracle NetSuite, and Infor with 17 skills for drafting quotes and managing suppliers after human approval.",
+   "more": "Claude for Manufacturing connects directly to factory software including Autodesk Fusion, Oracle NetSuite, and Infor. It includes 17 specialized skills that let the AI draft quotes, compare suppliers, and place backup orders when deliveries are delayed, with every action requiring human approval. The plugin does not yet control physical machines on the factory floor. Anthropic is separately developing a Model Hardware Standard intended for that kind of physical control in the future.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42816"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42816",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+     "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+     "published": "2026-11-13T16:37:01+00:00",
+     "excerpt": "Anthropic's new Claude for Manufacturing plugin connects the AI directly to Autodesk Fusion, Oracle NetSuite, and Infor. Its 17 specialized skills let the AI draft quotes, compare suppliers, and place backup orders when deliveries are delayed, all after human approval. The plugin doesn't control physical machines yet, but Anthropic is separately developing the Model Hardware Standard for that. The article Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate in"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-13T16:37:01+00:00"
+  },
+  {
+   "title": "OpenAI enters cybersecurity market with two Daybreak products",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI launched two cybersecurity products under a new Daybreak brand, marking its entry into the security market.",
+   "more": "OpenAI has launched two products under a new Daybreak brand, marking its entry into the cybersecurity market. Specifics on what the two products do, their pricing, or their availability were not included in the excerpt available to this Digest.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42800"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42800",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI enters the cybersecurity market with two Daybreak products",
+     "url": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/",
+     "published": "2026-11-13T15:08:57+00:00",
+     "excerpt": "OpenAI has launched two security products under its Daybreak brand. The article OpenAI enters the cybersecurity market with two Daybreak products appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-13T15:08:57+00:00"
+  },
+  {
+   "title": "ElevenLabs launches ElevenAI, a meeting notetaker for teams",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "ElevenLabs released ElevenAI, a new app that combines meeting note-taking and dictation, aimed at teams and enterprise customers.",
+   "more": "ElevenLabs' new ElevenAI app combines meeting note-taking with dictation in a single tool. It is aimed at teams and enterprise customers rather than individual users. Further details on pricing, availability, or specific features were not included in the excerpt available to this Digest.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3188328"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188328",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+     "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+     "published": "2026-11-13T14:44:48+00:00",
+     "excerpt": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-13T14:44:48+00:00"
+  },
+  {
+   "title": "Startup uses AI microdramas to bring more Black stories to Hollywood",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The startup Mansa is using AI-generated microdramas as proofs of concept for Black-audience stories it says are disappearing from Hollywood, though critics call the approach exploitative.",
+   "more": "The startup Mansa is producing AI-generated microdramas that it says demonstrate demand for stories centered on Black audiences, at a time when Wired reports such roles are disappearing from Hollywood. Mansa frames the microdramas as proofs of concept it can pitch to studios or investors. Critics quoted in the piece argue the approach amounts to the studio selling out rather than genuinely expanding opportunities for Black creators and actors. Further detail on Mansa's size, funding, or specific projects was not included in the available excerpt.",
+   "item_ids": [
+    "wired-ai:6af36771190ffd33e9467dde"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af36771190ffd33e9467dde",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+     "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+     "published": "2026-11-13T11:45:00+00:00",
+     "excerpt": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-13T11:45:00+00:00"
+  },
+  {
+   "title": "Commentary mounts over Jensen Huang's resignation and Nvidia scandal",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Outlets continued dissecting Nvidia CEO Jensen Huang's resignation and the personal scandals surrounding it, with commentary on his China dealings and legacy, though no major new facts emerged.",
+   "more": "Huang resigned from Nvidia's top position on Thursday, and commentators say a bigger story may still unfold around the company's dealings in China and the US government's scrutiny of them. Separate commentary focused on the personal scandals that accompanied his exit, including reports of multiple affairs. A Wired essay argued that Huang, known for his storytelling as a founder, has not been able to spin his way out of the scandals. None of the coverage introduced confirmed new facts beyond the resignation itself and the scrutiny already underway.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1032866",
+    "verge-ai:https://www.theverge.com/?p=1032339",
+    "wired-ai:6af62d4ad0f1f44dad1a73ce"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1032866",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "What’s really at stake in the Jensen Huang saga",
+     "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+     "published": "2026-11-13T14:47:16+00:00",
+     "excerpt": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness […]"
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1032339",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Let’s talk about Jensen Huang’s many affairs!",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+     "published": "2026-11-13T12:00:00+00:00",
+     "excerpt": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If […]"
+    },
+    {
+     "id": "wired-ai:6af62d4ad0f1f44dad1a73ce",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Jensen Huang and the End of the Founder Fairy Tale",
+     "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
+     "published": "2026-11-13T16:00:00+00:00",
+     "excerpt": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "title": "Anthropic's IPO oversubscribed six times over",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Demand for Anthropic's IPO has reached six times the number of shares on offer, putting it on track to become the largest public offering in history.",
+   "more": "The Decoder reports that demand for Anthropic's IPO has reached six times the number of shares on offer. If completed at that level of demand, it would be the largest public offering in history. Further details on pricing, timing, or share structure were not included in the available excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42804"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42804",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history",
+     "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+     "published": "2026-11-13T15:15:08+00:00",
+     "excerpt": "Anthropic is on track for the largest IPO ever, with orders exceeding available shares by a factor of six. The article Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-13T15:15:08+00:00"
+  },
+  {
+   "title": "Israeli VCs see opening for Nvidia rivals amid leadership turmoil",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Israeli venture capitalists see an opportunity for Nvidia challengers as the company deals with CEO turmoil, given Nvidia's central role in Israel's AI and startup ecosystem.",
+   "more": "TechCrunch reports that Nvidia's central role in Israel's AI sector has investors there watching closely following Jensen Huang's departure. Many in the country's startup ecosystem are reportedly worried about the impact of the leadership change on the broader AI hardware market. At the same time, some Israeli VCs view the turmoil as an opening for challengers to Nvidia's dominance. Further specifics on which companies or sectors stand to benefit were not included in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3187846"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3187846",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+     "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+     "published": "2026-11-13T12:52:19+00:00",
+     "excerpt": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-13T12:52:19+00:00"
+  },
+  {
+   "title": "Report: Jensen Huang doubted his successor before resigning",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A report says Jensen Huang did not show confidence in his successor, Kress, reportedly calling them a \"deer in the headlights\" during a meeting over the summer.",
+   "more": "According to a report cited by TechCrunch, Jensen Huang described his successor, Kress, as a \"deer in the headlights\" during an internal meeting over the summer. The remark suggests Huang had doubts about his successor's readiness well before his resignation became public. No further details on the report's source or Kress's response were included in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3188240"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188240",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Jensen Huang didn’t show confidence in his successor, report says",
+     "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+     "published": "2026-11-13T12:28:23+00:00",
+     "excerpt": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-13T12:28:23+00:00"
+  },
+  {
+   "title": "Meta's Muse agent can now call businesses for you",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta's AI agent Muse can now call businesses like cable providers and restaurants for its over 10 million users, though some companies hang up once they detect an AI.",
+   "more": "Meta's Muse agent can now place phone calls to businesses, such as cable providers or restaurants, on behalf of paying US subscribers. Meta's AI chief Alexandr Wang says Muse already has more than 10 million users. The feature puts Muse alongside Google Gemini, Instinct, and xAI's Grok Bot, which offer similar business-calling capabilities. Many businesses reportedly hang up as soon as they detect they are talking to an AI.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42803"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42803",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI",
+     "url": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
+     "published": "2026-11-13T15:12:44+00:00",
+     "excerpt": "Meta's AI agent Muse can now call businesses on behalf of paying US subscribers, handling everything from cable providers to restaurants. The agent already has over 10 million users, according to Meta's AI chief Alexandr Wang. Google Gemini, Instinct, and xAI's Grok Bot offer the same feature, but many businesses hang up as soon as they detect an AI on the line. The article Meta's Muse now calls businesses for you, but many companies might just hang up on the AI appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-13T15:12:44+00:00"
+  },
+  {
+   "title": "The Verge reviews Anthropic's Claude Duet consumer agent",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge published a hands-on review of Claude Duet, Anthropic's AI agent for consumers, describing it as a little neurotic but surprisingly helpful.",
+   "more": "Claude Duet is Anthropic's AI agent aimed at consumers rather than developers, part of a wider industry push to show that agents are useful for people who don't write code. The Verge's reviewer noted that Duet even offered to help write up the review itself, an unusual feature among the products they test. The review describes the agent as a little neurotic but says it was surprisingly helpful in day-to-day use. Specific capabilities beyond these hands-on impressions were not detailed in the excerpt available to this Digest.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1032518"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1032518",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+     "published": "2026-11-13T14:00:00+00:00",
+     "excerpt": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-13T14:00:00+00:00"
+  },
+  {
+   "title": "llama.cpp hits v1.0.0, a stronger foundation for local AI",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "llama.cpp, the local AI inference project, published a v1.0.0 release on Hugging Face's blog, calling it a stronger foundation for the local AI ecosystem.",
+   "more": "Hugging Face published the announcement under the title \"llama.cpp v1.0.0: A stronger foundation for the local AI ecosystem.\" The post's summary text was not available to this Digest, so specifics on what changed in this release are not yet known.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+     "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+     "published": "2026-11-13T14:05:22+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-13T14:05:22+00:00"
+  },
+  {
+   "title": "US agencies' generative AI use nears 70% as unions push guardrails",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nearly 70% of US government agencies now use generative AI, even as public-sector unions increasingly win protections against AI surveillance and automated firings.",
+   "more": "US public-sector unions are increasingly winning protections against AI-driven surveillance and automated firings, according to The Decoder. In Oakland, a strike vote forced the city to adopt retraining programs instead of layoffs. A transport union in Ohio won veto power over the introduction of autonomous vehicles, and California passed a ban on so-called bossware. These guardrails are emerging even as nearly 70 percent of US government agencies already use generative AI.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42796"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42796",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
+     "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+     "published": "2026-11-13T15:53:49+00:00",
+     "excerpt": "US public-sector unions are increasingly pushing through protections against AI surveillance and automated firings. In Oakland, a strike vote forced retraining programs instead of layoffs, and a transport union in Ohio won veto power over autonomous vehicles. California banned so-called bossware. All of this is happening while nearly 70 percent of US government agencies already use generative AI. The article Nearly 70 percent of US agencies use generative AI, and unions are finally catching up w"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-13T15:53:49+00:00"
+  },
+  {
+   "title": "Ex-OpenAI researcher says he found Blackwell traces in Chinese AI models",
+   "tags": [
+    "hardware",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Former OpenAI researcher Will DePue says forensic analysis of model weights shows DeepSeek, Moonshot AI, MiniMax, and Ant Group used Nvidia Blackwell GPUs despite US export controls.",
+   "more": "Will DePue, a former OpenAI researcher, says he has produced the first technical evidence that Chinese AI labs including DeepSeek, Moonshot AI, MiniMax, and Ant Group used Nvidia's latest Blackwell GPUs despite US export controls. His method reads characteristic chip signatures directly from the published weights of the models rather than relying on self-reported hardware claims. He estimates that the hardware behind the five training runs he examined cost more than half a billion dollars.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42801"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42801",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
+     "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+     "published": "2026-11-13T15:21:04+00:00",
+     "excerpt": "Former OpenAI researcher Will DePue says he has produced the first technical evidence that DeepSeek, Moonshot AI, MiniMax, and Ant Group are using Nvidia's latest Blackwell GPUs despite US export controls. His forensic method reads characteristic chip signatures directly from published model weights. He estimates the hardware behind the five training runs cost more than half a billion dollars. The article Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chin"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-13T15:21:04+00:00"
+  }
+ ]
+}
