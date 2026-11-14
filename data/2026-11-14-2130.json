@@ -1,0 +1,171 @@
+{
+ "date": "2026-11-14",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Helen Toner says the public still can't trust AI company CEOs",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "In a podcast interview, former OpenAI board member Helen Toner argues the public still cannot fully trust AI CEOs, drawing on her experience from the 2023 effort to remove Sam Altman.",
+   "more": "The interview, part of a Verge podcast series on AI in real life, features Toner in her current role as executive director of Georgetown's Center for Security and Emerging Technology. She is best known for having sat on OpenAI's board during the 2023 attempt to oust CEO Sam Altman, an episode the conversation revisits as context for her views on AI governance. The excerpt does not detail what new evidence or arguments she raises beyond the framing that trust in AI leadership remains unresolved.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1032907"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1032907",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+     "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+     "published": "2026-11-14T15:00:00+00:00",
+     "excerpt": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T15:00:00+00:00"
+  },
+  {
+   "title": "Wired warns of a rising wave of AI-assisted ransomware attacks",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports that while fully automated ransomware doesn't exist yet, attackers with limited technical skill are increasingly using AI tools to carry out more damaging ransomware campaigns.",
+   "more": "The article's framing is that AI is lowering the skill floor for ransomware operators rather than creating a wholly new, autonomous threat. According to the excerpt, attackers described as \"unsophisticated\" are nonetheless able to \"wreak havoc\" by leaning on AI tools to fill gaps in their own technical ability. Specific techniques, targets, or incidents are not detailed in the available excerpt.",
+   "item_ids": [
+    "wired-ai:6af7247ac18c09c3056cf94f"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af7247ac18c09c3056cf94f",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Beware the New AI-Fueled Ransomware Boom",
+     "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+     "published": "2026-11-14T13:00:00+00:00",
+     "excerpt": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T13:00:00+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA debates how long open models can keep pace at ~100B+ sizes",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA thread questions how long the community can rely on a handful of labs for capable open models, as frontier open releases grow toward 300B+ parameters.",
+   "more": "The poster estimates current open models in the 25–200B range from makers like Qwen, Gemma, and Nvidia should remain viable for consumer hardware through roughly 2027, but expects that window to close as more labs push toward 300B and eventually 500B parameter models. They cite examples including DeepSeek-V4-Flash-0731 at 284B and DeepSeek-V4.1-Flash-1017 at 552B (with a 196B active/engaged variant), arguing such sizes no longer fit comfortably on unified 128GB memory setups or a 128GB RAM plus 24–32GB VRAM combination even at Q4 quantization. The underlying concern is a shrinking supply of open-weight models that run well on consumer-grade hardware. The thread does not reach a conclusion on what, if anything, the community should do about it.",
+   "item_ids": [
+    "localllama:t3_1xw0xeu"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xw0xeu",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "How long are we gonna depend bunch of model creators (like Qwen, Gemma, NVIDIA, etc.,) for ~100B models?",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw0xeu/how_long_are_we_gonna_depend_bunch_of_model/",
+     "published": "2026-11-14T12:10:50+00:00",
+     "excerpt": "I think we're fine till 2027 with models(~100B .... Qwen 4.X & 5, Gemma-5, NVIDIA would release some Medium/Big size 25-200B models). After that it's gonna be critical, as many model creators are increased/increasing model size to 300B+. Future trend probably gonna be around 500B. That size range is not suitable for Unified 128GB Devices or 128GB RAM + 24-32GB VRAM(Q4 won't fit). Here some models with increased sizes. DeepSeek-V4-Flash-0731 ( 284B ) - DeepSeek-V4.1-Flash-1017 ( 552B + 196B Engra"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T12:10:50+00:00"
+  },
+  {
+   "title": "Jensen Huang's exit as Nvidia CEO ripples through Asian chip markets",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Jensen Huang's departure as Nvidia's CEO is prompting reactions across Asia, with some governments confirming chip supply commitments while others watch for fallout on local projects.",
+   "more": "TechCrunch reports that Asian governments are responding to Huang's exit in different ways: some are moving quickly to lock in existing chip supply agreements, while others are monitoring how the leadership change might affect local AI and semiconductor projects, and a few are addressing related ongoing investigations. The Verge frames Huang's departure as the end of an era for the industry's visionary showman-founder CEO archetype, pointing back to his triumphant January 2025 keynote appearance before a 14,000-person crowd as emblematic of that style of leadership. Neither Source's excerpt specifies the exact date or stated reason for Huang's exit, or who succeeds him as CEO.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1033781",
+    "techcrunch-ai:https://techcrunch.com/?p=3188720"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1033781",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+     "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+     "published": "2026-11-14T12:00:00+00:00",
+     "excerpt": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188720",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+     "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+     "published": "2026-11-14T16:34:15+00:00",
+     "excerpt": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-14T16:34:15+00:00"
+  },
+  {
+   "title": "OpenAI again disbands its standalone robotics team",
+   "tags": [
+    "robotics",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is dissolving its dedicated robotics team for the second time, reassigning researchers to other teams as it bets general-purpose models can control robots directly.",
+   "more": "According to The Decoder, OpenAI frames the move as an effort to accelerate its robotics work overall rather than retreat from it, redistributing the team's researchers across other groups. The company's reasoning is that general-purpose models, cited as \"GPT-6 Astra,\" can apparently control robots directly, reducing the need for a specialized robotics unit. The article notes this is the second time OpenAI has dissolved a standalone robotics team. It does not specify team size, timeline, or which teams are absorbing the researchers.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42859"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42859",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+     "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+     "published": "2026-11-14T11:40:51+00:00",
+     "excerpt": "OpenAI is dissolving its standalone robotics team for the second time, but not because it lacks data. General-purpose models like GPT-6 Astra can apparently control robots directly, making a dedicated unit unnecessary. The researchers are being redistributed across other teams in what the company frames as a way to accelerate its robotics efforts. The article OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary appeared fir"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T11:40:51+00:00"
+  },
+  {
+   "title": "\"The Claude Delusion\" blog post draws heavy debate on Hacker News",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A blog post titled \"The Claude Delusion\" has become a popular Hacker News discussion, drawing 122 points and 148 comments.",
+   "more": "The available excerpt is limited to the submission's point and comment counts, without further detail on the post's argument or content.",
+   "item_ids": [
+    "hn:50496921"
+   ],
+   "items": [
+    {
+     "id": "hn:50496921",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "The Claude Delusion",
+     "url": "https://www.netmeister.org/blog/claude-delusion.html",
+     "published": "2026-11-14T13:36:17+00:00",
+     "excerpt": "122 points, 148 comments. Discussion: https://news.ycombinator.com/item?id=50496921"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T13:36:17+00:00"
+  }
+ ]
+}
