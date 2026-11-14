@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-14",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Ex-Anthropic researcher says Mythos could be retrained far more cheaply now",
+   "tags": [
+    "models",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Former Anthropic researcher Jacob Coxon says a slide from Anthropic's IPO roadshow shows its models, including Mythos, can now be retrained with a fraction of the original compute, and is renewing his call for a pause on frontier development.",
+   "more": "Coxon, who previously worked at OpenAI and Anthropic, pointed to a slide from Anthropic's IPO roadshow materials as part of his reasoning for leaving the company. He says the slide shows Anthropic's algorithms are improving not just quickly but at an accelerating rate, making it possible to retrain a model like Mythos using far less compute than was originally required. Coxon continues to call for a pause on frontier model development, arguing this would let competitors catch up and help make human-level AI a commodity. The claims come from The Decoder's coverage of Coxon's remarks rather than from Anthropic itself.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42853"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42853",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
+     "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+     "published": "2026-11-14T11:21:41+00:00",
+     "excerpt": "Former OpenAI and Anthropic researcher Jacob Coxon points to a slide from Anthropic's IPO roadshow as a reason he left, saying it shows the company's algorithms are improving not just quickly but at an accelerating rate. Coxon continues to call for a pause on frontier model development so competitors can catch up and human-level AI can become a commodity. The article Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon appeared fir"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T11:21:41+00:00"
+  },
+  {
+   "title": "Wired reports AI is entering piloting and air traffic control roles",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports that AI is beginning to take on piloting and air traffic control work, industries that have historically been slow to adopt new technology, raising new safety questions as automation enters roles with fewer human pilots and controllers.",
+   "more": "Wired ties the shift to an existing shortage of air traffic controllers, noting the industry has long resisted new technology but is now turning to AI for both flight operations and air traffic control. The piece frames this as a notable change for a traditionally slow-moving industry, though it does not specify which systems or carriers are deploying AI in these roles.",
+   "item_ids": [
+    "wired-ai:6aed23d9bbed27ba0f21394f"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6aed23d9bbed27ba0f21394f",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+     "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+     "published": "2026-11-14T11:00:00+00:00",
+     "excerpt": "Normally, aviation is slow to embrace new technology—but AI has come for the skies."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T11:00:00+00:00"
+  },
+  {
+   "title": "Runway open-sources Praxis-1, a video-trained robot control model",
+   "tags": [
+    "robotics",
+    "open-source",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Runway released Praxis-1, an open-weight robotics model under Apache 2.0 that applies knowledge from video training to robot control, and it currently leads Nvidia's RoboLab-120 benchmark for World Action Models.",
+   "more": "Praxis-1 is released with open weights and source code under the Apache 2.0 license, making it freely usable and modifiable. The model draws on knowledge learned from video training and applies it to controlling robots, placing it in what The Decoder calls the World Action Model category. It currently leads Nvidia's RoboLab-120 benchmark in that category. The Decoder notes the model cannot yet plan complex action sequences on its own, a current limitation of the approach.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42846"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42846",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+     "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+     "published": "2026-11-14T09:45:45+00:00",
+     "excerpt": "Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though. The article Runway's open-source Praxis-1 turns video AI into a robot controller appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T09:45:45+00:00"
+  },
+  {
+   "title": "AI Engineer speakers unite behind a 'No AI Slop' manifesto",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "At the AI Engineer (AIE) event, speakers put forward a 'No AI Slop' manifesto laying out how to fight low-quality, AI-generated content, as covered in Latent Space's AI News roundup.",
+   "more": "The roundup, published by Latent Space's AI News newsletter on November 13, 2026, reports that speakers at the AI Engineer (AIE) event jointly laid out a manifesto for fighting so-called AI slop, low-quality AI-generated content.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_5ecf266a-aa1c-4b9a-bcec-3c52bcc9ca63"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_5ecf266a-aa1c-4b9a-bcec-3c52bcc9ca63",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] The No AI Slop Manifesto",
+     "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+     "published": "2026-11-14T08:31:02+00:00",
+     "excerpt": "November 13, 2026 — AIE speakers unite to lay out how to fight slop."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T08:31:02+00:00"
+  }
+ ]
+}
