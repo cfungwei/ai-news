@@ -1,0 +1,108 @@
+{
+ "date": "2026-11-15",
+ "edition": "21:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Anthropic's Claude Fable 5.2 generates images by simulating brushstrokes in code",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic's Claude Fable 5.2 creates images not by computing pixels but by writing Python code that paints hundreds of thousands of simulated brushstrokes onto a virtual canvas.",
+   "more": "According to Anthropic employee Jake Eaton, the model's image generation works by simulating physical paint application, including bristle texture, rather than the typical diffusion or pixel-based approaches used by other image generators. A single photorealistic scene, such as a parking garage, required roughly 700,000 simulated strokes. The excerpt does not say how long this process takes or how it compares in speed or cost to conventional image generation methods. It is also unclear whether this brushstroke-simulation approach is unique to Fable 5.2 or will extend to other Claude models.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42896"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42896",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+     "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+     "published": "2026-11-15T15:42:03+00:00",
+     "excerpt": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint application. A single photorealistic parking garage scene took roughly 700,000 strokes, according to Anthropic employee Jake Eaton. The article Anthropic's Claude Fable 5.2 doesn't generate images, it paints them appeared first on "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T15:42:03+00:00"
+  },
+  {
+   "title": "Hacker News debates whether AI-generated code should be open source",
+   "tags": [
+    "open-source",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A blog post arguing that all AI-generated code should be released under open-source licenses sparked a 175-comment debate on Hacker News.",
+   "more": "The submission argues for a blanket principle that code produced by AI assistants ought to be open source, drawing 280 points and 175 comments on Hacker News. The excerpt available does not include the specific reasoning given in the post, such as whether the argument rests on copyright status, training-data provenance, or software freedom principles. It is also unclear from the excerpt how commenters responded or whether any consensus emerged. The topic touches on unresolved questions about the legal and ethical status of AI-generated code.",
+   "item_ids": [
+    "hn:50507303"
+   ],
+   "items": [
+    {
+     "id": "hn:50507303",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "All AI-generated code should be Open Source",
+     "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+     "published": "2026-11-15T14:46:58+00:00",
+     "excerpt": "280 points, 175 comments. Discussion: https://news.ycombinator.com/item?id=50507303"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T14:46:58+00:00"
+  },
+  {
+   "title": "Wired: AI DJs on YouTube Music and Spotify undercut the listening experience",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Wired column argues that AI-generated DJ hosts on YouTube Music and Spotify, meant to curate playlists with banter and trivia, instead disrupt the listening experience.",
+   "more": "Both YouTube Music and Spotify have added synthetic AI hosts that talk between songs, offering commentary and trivia intended to feel like a real radio DJ. The author describes the banter as awkward and the trivia as frequently inaccurate, arguing the feature undermines rather than enhances the music experience. The excerpt frames this as an opinion piece rather than a product announcement, so it is unclear how widely these AI DJ features have rolled out or whether the companies plan changes. No specific technical details about the underlying models are given.",
+   "item_ids": [
+    "wired-ai:6af740c47f77ca3a14ead016"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af740c47f77ca3a14ead016",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "AI DJs Completely Kill My Groove",
+     "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+     "published": "2026-11-15T12:00:00+00:00",
+     "excerpt": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T12:00:00+00:00"
+  },
+  {
+   "title": "The Verge recaps Nvidia's leadership crisis after Jensen Huang's resignation",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge's Stepback newsletter reviews the fallout from Jensen Huang's resignation as Nvidia CEO amid a China spying scandal that began unfolding in October.",
+   "more": "The piece is a weekly recap rather than a new report, tracing how Nvidia's leadership crisis developed from an initial China spying scandal to Huang's eventual resignation. It does not give new details beyond summarizing the timeline for subscribers who missed the original coverage. The excerpt does not specify who succeeds Huang or what the company's next steps are. It points readers to The Verge's Terrence O'Brien for ongoing coverage of the story.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1033943"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1033943",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "An overview of Jensen Huang’s messy days",
+     "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+     "published": "2026-11-15T13:00:00+00:00",
+     "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T13:00:00+00:00"
+  }
+ ]
+}
