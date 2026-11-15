@@ -1,0 +1,165 @@
+{
+ "date": "2026-11-15",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "Meituan releases 1.6T-parameter LongCat-2.5 agent model trained without Nvidia GPUs",
+   "tags": [
+    "models",
+    "open-source",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meituan released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware, scoring 88.4 on Terminal-Bench, just behind Claude Opus 5.",
+   "more": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model designed for AI agents and trained entirely on Chinese hardware. On Terminal-Bench, the model scores 88.4 points, placing it just behind Claude Opus 5. Meituan's sample deployment runs on 194 Huawei Ascend chips, and the company makes no mention of using Nvidia GPUs anywhere in development. Details on training data or cost were not disclosed.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42881"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42881",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+     "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+     "published": "2026-11-15T10:06:06+00:00",
+     "excerpt": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and Meituan makes no mention of Nvidia GPUs. The article Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T10:06:06+00:00"
+  },
+  {
+   "title": "EUROPA, the EU's open AI model, is aiming for nearly 1 trillion parameters",
+   "tags": [
+    "models",
+    "open-source",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "EUROPA, a planned open AI model backed by the European Union, is reportedly targeting close to one trillion parameters.",
+   "more": "EUROPA is described as the European Union's open AI model project, reportedly aiming for close to one trillion parameters. Beyond the project's name and parameter target, no further technical or scheduling details were available in the source material.",
+   "item_ids": [
+    "localllama:t3_1xwr917"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xwr917",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "EUROPA, the EU's open AI model, is aiming for nearly 1 trillion parameters",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/",
+     "published": "2026-11-15T09:24:57+00:00",
+     "excerpt": "One can hope submitted by /u/mawcopolow [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T09:24:57+00:00"
+  },
+  {
+   "title": "Thinking Machines Lab's Inkling-2-Small trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Thinking Machines Lab's Inkling-2-Small, a compact image-text-to-text model, is trending on Hugging Face under an Apache-2.0 license with over 7,300 downloads.",
+   "more": "Inkling-2-Small is a mixture-of-experts image-text-to-text model built for conversational use. It is released under the Apache-2.0 license and ships with evaluation results plus an 8-bit ModelOpt quantization. On Hugging Face it has drawn 327 likes and more than 7,300 downloads. Further technical details, such as parameter count or benchmark scores, were not available in the listing.",
+   "item_ids": [
+    "hf-trending:thinkingmachines/Inkling-2-Small"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:thinkingmachines/Inkling-2-Small",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: thinkingmachines/Inkling-2-Small",
+     "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+     "published": "2026-11-04T19:51:05+00:00",
+     "excerpt": "image-text-to-text, 327 likes, 7329 downloads. Tags: transformers, safetensors, inkling2, image-text-to-text, conversational, moe, license:apache-2.0, eval-results, endpoints_compatible, 8-bit, modelopt, region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-04T19:51:05+00:00"
+  },
+  {
+   "title": "Australia's central bank says AI is hitting young workers first",
+   "tags": [
+    "research",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Reserve Bank of Australia finds early signs that AI is displacing young workers fastest in software development and customer service, with job postings for 15- to 24-year-olds falling more sharply than for older workers.",
+   "more": "Australia's central bank sees early evidence that AI is hitting entry-level workers hardest in fields highly exposed to automation, such as software development and customer service. Since ChatGPT's launch, job postings and employment among 15- to 24-year-olds in those fields have fallen more sharply than among older workers. Report author Mike Major cautions against drawing firm conclusions, noting that business cycle shifts and remote-work trends could also explain the pattern.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42835"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42835",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+     "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+     "published": "2026-11-15T10:45:58+00:00",
+     "excerpt": "Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dropped more sharply than among older workers. Author Mike Major cautions against jumping to conclusions, however, noting that business cycle shifts and remote work trends could also explain the numbers. The article Australia's central bank fi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T10:45:58+00:00"
+  },
+  {
+   "title": "Carnegie Mellon student's OATs turn household objects into AI pets",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Carnegie Mellon student built OATs, tiny E Ink gadgets that give houseplants, skateboards, and dumbbells expressive virtual personalities to nudge owners toward healthier habits.",
+   "more": "OATs are small E Ink devices designed to attach to everyday objects like houseplants, skateboards, and dumbbells. Each gadget displays an expressive, Tamagotchi-like personality that reacts to how the object is used, aiming to nudge owners toward better habits. The project comes from a Carnegie Mellon student; further details on availability or release plans were not included in the report.",
+   "item_ids": [
+    "wired-ai:6af356dc2c67abe2e828480b"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af356dc2c67abe2e828480b",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+     "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+     "published": "2026-11-15T11:00:00+00:00",
+     "excerpt": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T11:00:00+00:00"
+  },
+  {
+   "title": "Firm tied to Jensen Huang's ex-partner brokered $12B Nvidia orders for China",
+   "tags": [
+    "industry",
+    "hardware",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A firm owned by Jensen Huang's former partner reportedly brokered nearly $12 billion in Nvidia chip orders for Chinese buyers in 2024-2025, as short sellers argue Nvidia's real China revenue exceeds official figures.",
+   "more": "The Wall Street Journal reported that Megaspeed, a firm owned by Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025. Alice Huang is described in the report as Jensen Huang's former lover. Short seller Culper Research estimates Nvidia's actual revenue share from China tops 20 percent, well above the 7 percent Nvidia has officially disclosed. The gap raises questions about how Nvidia chips continue reaching Chinese buyers despite US export restrictions.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42891"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42891",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+     "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+     "published": "2026-11-15T11:35:12+00:00",
+     "excerpt": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual China revenue share exceeds 20 percent, far above the officially reported 7 percent. The article Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T11:35:12+00:00"
+  }
+ ]
+}
