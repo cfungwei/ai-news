@@ -1,0 +1,261 @@
+{
+ "date": "2026-11-15",
+ "edition": "11:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "r/LocalLLaMA debates whether frontier models are actually getting smarter",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A widely discussed r/LocalLLaMA post argues frontier LLMs have become far more useful without a matching gain in raw intelligence, crediting better harnesses, context retrieval, and tooling instead.",
+   "more": "The poster, a software engineer who also works with local models and builds AI harnesses professionally, says most of the capability gains they've observed come from better context retrieval, prompting, and custom tooling rather than smarter base models. They frame it explicitly as a 'hot take' inviting pushback from other practitioners. The excerpt does not name specific models or benchmarks being compared, or summarize how the thread's commenters responded.",
+   "item_ids": [
+    "localllama:t3_1xwegdi"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xwegdi",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Hot take: frontier models haven’t actually become much smarter",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwegdi/hot_take_frontier_models_havent_actually_become/",
+     "published": "2026-11-14T21:57:33+00:00",
+     "excerpt": "I know this is a controversial take, but I would like to hear others’ opinions: LLMs have become much more useful, but I’m not convinced their “raw intelligence” has improved nearly as much as their overall performance suggests. Context: I work with LLMs as a SWE, as a hobbyist experimenting with local models, and professionally integrating AI into products. That includes building our own harnesses: context retrieval, prompts, and custom tools that give models structured access to complex data. "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T21:57:33+00:00"
+  },
+  {
+   "title": "Gemini 4 Carbon tops MathArena benchmark, at 15x GPT-6.1 Sol's cost",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google's Gemini 4 Carbon took the top spot on the MathArena math benchmark, knocking OpenAI's GPT-6.1 Sol from first place for the first time in a while, though it costs about 15 times more to run.",
+   "more": "Anthropic's Fable 5.2 also outperformed GPT-6.1 Sol on the benchmark, according to The Decoder. During testing, Gemini 4 Carbon ignored the time limit and almost never gave up on a task, which may help explain both its higher cost and its score. The article does not give exact MathArena scores or compare Gemini 4 Carbon directly against Fable 5.2.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42863"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42863",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+     "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+     "published": "2026-11-14T16:48:01+00:00",
+     "excerpt": "For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The article Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T16:48:01+00:00"
+  },
+  {
+   "title": "Anthropic revamps prompting guidance as Claude Opus 5.5 becomes default",
+   "tags": [
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic made Claude Opus 5.5 the default model on all paid plans and published a guide saying outdated prompting habits are slowing it down, recommending users drop phrases like 'think hard' for a medium effort setting.",
+   "more": "The guide singles out habits carried over from earlier Claude models, such as prompting it to 'think hard,' as counterproductive for Opus 5.5. Instead, Anthropic recommends starting requests at a 'Medium' effort level. The Decoder frames the guide as a response to reports that performance has slowed since Opus 5.5 became Anthropic's default paid-plan model. The article does not detail how much speed improves when the new guidance is followed.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42864"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42864",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+     "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+     "published": "2026-11-14T16:42:56+00:00",
+     "excerpt": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort. The article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T16:42:56+00:00"
+  },
+  {
+   "title": "Nvidia's security practices questioned after Jensen Huang's ouster",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch reports Nvidia's security chief quietly left in August, before CEO Jensen Huang stepped down over personal relationships, including ties to an executive at a firm suspected of funneling chips to China.",
+   "more": "Nvidia's security chief left the company quietly in August, months before Huang's departure became public. A former intelligence officer quoted by TechCrunch said the real risk comes from leaks that happen through everyday conversations rather than hacking, a threat most corporate security teams aren't equipped to catch. The article frames the security chief's early exit as leaving Nvidia without senior security oversight during this period. It does not specify what information, if any, was disclosed or how Nvidia plans to respond.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3188673"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188673",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Where was Nvidia’s security team?",
+     "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+     "published": "2026-11-15T00:08:07+00:00",
+     "excerpt": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T00:08:07+00:00"
+  },
+  {
+   "title": "Tech executives petition Nvidia to reinstate ousted CEO Jensen Huang",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Elon Musk and other tech executives signed a petition urging Nvidia to reinstate Jensen Huang, which had gathered more than 115,000 signatures as of Saturday afternoon.",
+   "more": "The petition had attracted over 115,000 signatures by Saturday afternoon, according to TechCrunch. The brief report does not detail what the petition asks Nvidia's board to do beyond reinstating Huang, or whether Nvidia has responded.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3188741"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188741",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+     "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+     "published": "2026-11-14T21:41:22+00:00",
+     "excerpt": "The petition had attracted more than 115,000 signatures as of Saturday afternoon."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T21:41:22+00:00"
+  },
+  {
+   "title": "Anthropic's Amodei flags compute uncertainty days before record IPO",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic CEO Dario Amodei called buying compute the company's 'deepest business dilemma' days before an IPO that could be the largest in history, with compute commitments now near $901 billion.",
+   "more": "Amodei said there is 'huge uncertainty in what's going to happen next year,' according to The Decoder. The planned IPO is meant partly as a financial buffer against the risk that future revenue won't cover Anthropic's compute spending. The company's compute commitments now total nearly $901 billion. The article does not say how much the IPO aims to raise or when it is expected to price.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42873"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42873",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+     "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+     "published": "2026-11-14T19:05:17+00:00",
+     "excerpt": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a reco"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T19:05:17+00:00"
+  },
+  {
+   "title": "datasette-llm 0.1a11 adds support for OpenAI-compatible endpoints",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison released datasette-llm 0.1a11, adding support for OpenAI-compatible endpoints so Datasette can use LLMs hosted via LM Studio, Ollama, or llama.cpp.",
+   "more": "datasette-llm is the intermediate plugin that lets other Datasette plugins configure which LLM to use. With this release, Datasette can point at any endpoint that speaks the OpenAI-compatible web protocol, including locally hosted models. Willison notes that llama.cpp recently hit v1.0.0. The release post includes a command for running Datasette via uvx against a locally hosted model.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/14/datasette-llm/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/14/datasette-llm/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "datasette-llm 0.1a11",
+     "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+     "published": "2026-11-14T23:59:28+00:00",
+     "excerpt": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or llama.cpp (which just hit v1.0.0 ) you can run Datasette via uvx like this: wget https://datasette."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T23:59:28+00:00"
+  },
+  {
+   "title": "datasette-vega 0.7 updates Datasette's chart plugin after 8 years",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison released datasette-vega 0.7, the first update to Datasette's Vega-Lite charting plugin since July 2018, adding compatibility with the latest Datasette alphas and with Datasette Lite.",
+   "more": "datasette-vega renders charts with Vega-Lite against data in a table or custom query, and had not been updated since July 2018. The new release includes cosmetic tweaks aimed at making it work better with Datasette Lite, which Willison says just gained the ability to run JavaScript plugins like this one. He notes a live demo now exists because the plugin works with Datasette Lite, and says he plans to write more about that new plugin support.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/14/datasette-vega/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/14/datasette-vega/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "datasette-vega 0.7",
+     "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+     "published": "2026-11-14T17:09:09+00:00",
+     "excerpt": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with Datasette Lite . (Datasette Lite just gained the ability to run JavaScript plugins like this! I'll write more about that soon.) Since it works with Datasette Lite, the live de"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T17:09:09+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA post argues local AI, not cloud AI, is where things are headed",
+   "tags": [
+    "hardware",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA poster describes a shift toward favoring local AI over cloud AI, citing high hardware prices and discomfort with AI-bubble profits flowing to large corporations and billionaires.",
+   "more": "The poster says the realization was triggered by a Gamers Nexus video in which Steve Burke criticized Epic Games CEO Tim Sweeney for being pro-AI, which left the poster feeling conflicted. They describe disliking high hardware prices and 'billionaires inflating the AI bubble' while still wanting to use AI tools themselves. The excerpt cuts off before explaining how the poster resolves that tension in favor of running models locally.",
+   "item_ids": [
+    "localllama:t3_1xwf8bb"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xwf8bb",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Finally clicked for me: local AI is the future, not cloud AI",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwf8bb/finally_clicked_for_me_local_ai_is_the_future_not/",
+     "published": "2026-11-14T22:32:27+00:00",
+     "excerpt": "Maybe this is kind of obvious to others, but it just dawned on me even though I've been lurking this sub since the original LLaMA. I was watching this (excellent, as always) video by Gamers Nexus. Steve Burke was bashing on Tim Sweeney (CEO of Epic Games) for being so pro AI, and I found myself feeling a bit of cognitive dissonance. On the one hand I hate that hardware prices are so high, I hate the billionaires inflating the AI bubble and raking in the profits, I hate greedy corps trying to rep"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T22:32:27+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA user finishes 8x RTX 3090 local AI rig",
+   "tags": [
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA member finished a stable 8x RTX 3090 rig on a Romed8-2t motherboard, bought for roughly £600-700 per GPU before prices rose, and jokes it doubles as a winter heater.",
+   "more": "All eight Gigabyte Gaming OC 3090 cards run at full PCIe 4.0 x16, except two that share one slot at x8 each, connected with budget PCIe 4.0 risers. The build uses CPU watercooling, with the radiator mounted above the GPUs because space constraints ruled out an air cooler. The poster says all the cards were bought by early 2026, before GPU prices rose sharply.",
+   "item_ids": [
+    "localllama:t3_1xwc3m7"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xwc3m7",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Ai Rig finally done and stable, perfect winter heater",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwc3m7/ai_rig_finally_done_and_stable_perfect_winter/",
+     "published": "2026-11-14T20:13:38+00:00",
+     "excerpt": "8x3090 my ocd wouldn't let me have different gpu models so ended up with 8 gigabyte gaming OC. I bought all the gpus by early 2026 before the prices went crazy. Avg maybe 600 to 700 gbp per gpu. Running on a Romed8-2t motherboard. All run at full pcie 4.0 x16 except the two rightmost who share one pcie slot and get 8x each. Cpu watercooling radiator sits nicely on top. Had to go the watercooling route as there is no space otherwise under the gpus for an air cooler. Using cheap pcie 4.0 risers fr"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T20:13:38+00:00"
+  }
+ ]
+}
