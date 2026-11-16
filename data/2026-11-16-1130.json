@@ -1,0 +1,539 @@
+{
+ "date": "2026-11-16",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "MMFlash speeds up speculative decoding for vision-language models",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new method, MMFlash, extends speculative decoding to multimodal models by measuring how much each token depends on visual input, addressing a gap left by text-only drafters like DFlash.",
+   "more": "Speculative decoding normally uses a lightweight drafter to propose tokens that a larger target model verifies in parallel, but prior block-proposing drafters such as DFlash focused on text only. The authors introduce a metric of token-level visual dependence, based on the KL divergence between next-token predictions with and without visual input. They find that acceptance of drafted tokens varies with how visually dependent a token is, motivating a multimodal-aware approach. The excerpt does not give MMFlash's measured speedup over text-only baselines.",
+   "item_ids": [
+    "hf-papers:2611.18482"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.18482",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+     "url": "https://huggingface.co/papers/2611.18482",
+     "published": "2026-11-16T00:00:00+00:00",
+     "excerpt": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input. We find that accep"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T00:00:00+00:00"
+  },
+  {
+   "title": "Paper analyzes how Looped Transformers reuse computation via residuals",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper examines Looped Transformers, which cut parameter count by reusing shared blocks, and argues that residual connections determine how repeated computation's results get reused.",
+   "more": "Looped Transformers save parameters by applying the same blocks repeatedly, but the authors note that parameter sharing alone doesn't decide how later steps reuse earlier results. Taking a 'depth-memory' view of residual connections, they analyze which representation is stored after each block and how later reads weight it. They point out that a full block's output mixes its input with its new update, so reweighting the output also reweights history already carried in the input. The excerpt does not detail the paper's proposed fix or its experimental results.",
+   "item_ids": [
+    "hf-papers:2611.07226"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.07226",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Loopback Transformer: Towards a Unified View of Residual Looped Transformers",
+     "url": "https://huggingface.co/papers/2611.07226",
+     "published": "2026-11-16T00:00:00+00:00",
+     "excerpt": "Looped Transformers reduce parameter count by repeatedly applying shared blocks, but parameter sharing alone does not determine how the results of repeated computation are reused. We take the depth-memory view of residual connections and analyze which representation is stored after each block application and how later reads weight it. A full block output contains both its input and its new update, so weighting that output also reweights the history already carried by the input. Reading individua"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T00:00:00+00:00"
+  },
+  {
+   "title": "New benchmark tests text-to-SQL systems' ability to reuse past queries",
+   "tags": [
+    "research",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new benchmark, HARE, measures whether text-to-SQL systems can adapt earlier queries over the same database to answer a new, related question, rather than treating each question in isolation.",
+   "more": "Most text-to-SQL benchmarks evaluate each natural-language question independently, ignoring cases where an earlier query over the same database could supply useful joins or calculations for a later one. The paper introduces HARE (History-AwaRe Text-to-SQL BEnchmark) to measure both the accuracy and the cost of adapting historical SQL to new questions. HARE comprises 1,600 requests built from a fixed pool of 823 verified queries. The excerpt does not report how existing systems perform on the benchmark.",
+   "item_ids": [
+    "hf-papers:2611.18338"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.18338",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "MEM-SQL: Memory-Empowered Text-to-SQL",
+     "url": "https://huggingface.co/papers/2611.18338",
+     "published": "2026-11-16T00:00:00+00:00",
+     "excerpt": "Text-to-SQL systems translate natural language questions into SQL queries over increasingly complex databases. However, widely used benchmarks evaluate questions independently, overlooking settings where earlier queries over the same database can supply joins or calculations for a new question. We introduce HARE (History-AwaRe Text-to-SQL BEnchmark) to measure the accuracy and cost of adapting historical SQL. HARE comprises 1,600 requests derived from a fixed pool of 823 verified queries across "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T00:00:00+00:00"
+  },
+  {
+   "title": "JVT simplifies pixel-space video diffusion with a plain transformer",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new model, JVT (Just Video Transformer), generates video directly in pixel space using a large-patch DiT-style transformer, skipping the pretrained autoencoders and specialized architectures earlier methods relied on.",
+   "more": "Direct diffusion modeling of raw, high-dimensional video has typically required specialized architectures such as pretrained autoencoders, auxiliary detail networks, cascaded stages or U-Net-style skip connections. JVT instead uses a simple large-patch, DiT-style transformer with none of these additions. The authors systematically study video patch embeddings, register tokens and adaptive layer normalization to settle on its design. The excerpt does not include JVT's generation quality results compared to existing video diffusion methods.",
+   "item_ids": [
+    "hf-papers:2611.18549"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.18549",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+     "url": "https://huggingface.co/papers/2611.18549",
+     "published": "2026-11-16T00:00:00+00:00",
+     "excerpt": "Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencoder, auxiliary detailers, cascaded stages, or U-Net-style skip connections. We systematically examine video patch embeddings, register tokens, and adaptive layer normalization to identify design choice"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T00:00:00+00:00"
+  },
+  {
+   "title": "Bonbon foundation model shows emergent skills in molecular interactions",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Trained on about 3.2 trillion tokens of paired protein-ligand sequences, the Bonbon foundation model displays emergent zero-shot abilities in predicting molecular mechanism of action and binding sites.",
+   "more": "The paper extends the idea of emergent capabilities, skills beyond a model's training objective, to multimodal biology. Bonbon is trained on roughly 3.2 trillion tokens of paired protein-ligand sequence data. From a single learned representation space, it shows three zero-shot emergent capabilities at different levels of resolution, including mechanism of action at the functional level and binding site location at the residue level. The excerpt does not specify Bonbon's third emergent capability or how it was benchmarked.",
+   "item_ids": [
+    "hf-papers:2611.14504"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.14504",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+     "url": "https://huggingface.co/papers/2611.14504",
+     "published": "2026-11-16T00:00:00+00:00",
+     "excerpt": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon exhibits three zero-shot emergent capabilities at hierarchical levels of resolution: functional (mechanism of action), residue (binding site l"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T00:00:00+00:00"
+  },
+  {
+   "title": "OpenAI explores a lattice definition of the Standard Model with GPT-6 Astra",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI published research on a candidate nonperturbative lattice definition of the Standard Model of particle physics, developed with help from GPT-6 Astra.",
+   "more": "The post describes a candidate nonperturbative lattice definition of the Standard Model of particle physics. OpenAI says GPT-6 Astra helped turn the underlying idea into a detailed proof. The excerpt does not give further technical detail on the lattice construction or the proof itself, nor does it state what remains to be verified.",
+   "item_ids": [
+    "openai:https://openai.com/index/step-toward-defining-the-standard-model"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/step-toward-defining-the-standard-model",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "A step toward defining the Standard Model on a lattice",
+     "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+     "published": "2026-11-15T22:00:01+00:00",
+     "excerpt": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T22:00:01+00:00"
+  },
+  {
+   "title": "New Datasette plugin datasette-maplibre adds MapLibre GL maps",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison released datasette-maplibre 0.1a0, a new Datasette geospatial plugin combining the MapLibre GL library with the free OpenFreeMap vector map server.",
+   "more": "The plugin is the first new Datasette geospatial plugin in some time. It combines the MapLibre GL library with OpenFreeMap, a free vector map server operated by Zsolt Ero. Willison says he built most of the plugin with a single prompt to Claude Fable 5.2, instructing it to look at the existing datasette-cluster-map and datasette-leaflet-geojson plugins plus a local OpenFreeMap demo file, then build a new plugin using MapLibre GL and OpenFreeMap. The excerpt does not describe which plugin features are included in this alpha release.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/15/datasette-maplibre/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "datasette-maplibre 0.1a0",
+     "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+     "published": "2026-11-15T23:58:36+00:00",
+     "excerpt": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and o"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T23:58:36+00:00"
+  },
+  {
+   "title": "Datasette 1.0a43 adds streaming export support, nears 1.0",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Datasette 1.0a43 adds streaming support for output renderers, including built-in TSV and CSV export, as the 1.0 milestone reaches 53% complete.",
+   "more": "Simon Willison says he has been leaning on Claude Fable 5.2 to help finish items on Datasette's 1.0 milestone, now 53% complete. The biggest item in this release is streaming support for output renderers, which the built-in TSV and CSV export mechanisms now use as well. Plugins can register themselves as capable of streaming every row of a table in one go via a new Response.stream() method. The release also includes a couple of security fixes, one of which Willison considered serious enough to warrant a GitHub advisory.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/15/datasette/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/15/datasette/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "datasette 1.0a43",
+     "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+     "published": "2026-11-15T23:20:27+00:00",
+     "excerpt": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T23:20:27+00:00"
+  },
+  {
+   "title": "Datasette 0.65.6 backports fix for a database access control bug",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Datasette 0.65.6 backports a security fix from 1.0a43 that could let denied actors download a database registered with a differing route name.",
+   "more": "The fix addresses an issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /name.db by actors who had been denied access to it. The fix was originally released in 1.0a43 and has now been backported to the 0.65.x branch. The excerpt does not state how long the issue had existed or whether any exploitation was observed.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/15/datasette-2/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/15/datasette-2/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "datasette 0.65.6",
+     "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+     "published": "2026-11-15T23:18:17+00:00",
+     "excerpt": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from / .db by actors who were denied access to it. [...] Tags: security , datasette"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T23:18:17+00:00"
+  },
+  {
+   "title": "Indian chip startup Bharat Semi raises $24M seed for AI sensors",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Bharat Semi has raised a $24 million seed round to grow its AI-enabled sensor technology, which already has design wins with companies including General Atomics.",
+   "more": "The Indian chip startup is eyeing the global AI sensor market with its AI-enabled sensor technology. It says it has secured design wins with several companies, including General Atomics. The excerpt does not name the round's investors or Bharat Semi's other customers.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3188782"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188782",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+     "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+     "published": "2026-11-15T23:30:00+00:00",
+     "excerpt": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T23:30:00+00:00"
+  },
+  {
+   "title": "TechCrunch asks whether Nvidia's Jensen Huang trouble threatens AI boom",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch examines whether the scandal engulfing Jensen Huang could ripple beyond Nvidia, given how much of the broader economy is riding on the company.",
+   "more": "The piece frames the question around how central Nvidia, and by extension Huang, has become to the current AI-driven economy. It quotes the concern: 'Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.' The excerpt does not detail specific market reactions or name other commentators quoted in the piece.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3188757"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188757",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+     "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+     "published": "2026-11-15T21:56:35+00:00",
+     "excerpt": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T21:56:35+00:00"
+  },
+  {
+   "title": "Report: Jensen Huang may be angling for a return as Nvidia CEO",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amid Nvidia's ongoing leadership drama, rumors suggest former CEO Jensen Huang could be trying to find a path back to the top job, The Verge reports.",
+   "more": "The Verge reports that the situation around Nvidia co-founder and former CEO Jensen Huang is evolving quickly, with new developments emerging since earlier in the day. Among the latest rumors is that Huang might be trying to find a path back to the CEO role. The report ties this to the broader fallout from a recent scandal involving Huang. The excerpt does not specify who currently holds the CEO role or confirm the return rumor independently.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1033999"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1033999",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+     "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+     "published": "2026-11-15T20:43:49+00:00",
+     "excerpt": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a path back to CEO, […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T20:43:49+00:00"
+  },
+  {
+   "title": "Haru-4B, a full-duplex speech-to-speech model, trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "higurashi-ai's Haru-4B, a full-duplex audio-to-audio model supporting six languages, is trending on Hugging Face with 333 likes and over 2,000 downloads.",
+   "more": "Haru-4B is a speech-to-speech, full-duplex audio model released by higurashi-ai, meaning it can listen and speak simultaneously rather than taking strict turns. It supports English, Spanish, Portuguese, German, French and Chinese. It has drawn 333 likes and 2,098 downloads on Hugging Face since being listed. The excerpt does not give architectural details, benchmark results or a license.",
+   "item_ids": [
+    "hf-trending:higurashi-ai/Haru-4B"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:higurashi-ai/Haru-4B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: higurashi-ai/Haru-4B",
+     "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+     "published": "2026-11-12T11:05:59+00:00",
+     "excerpt": "audio-to-audio, 333 likes, 2098 downloads. Tags: safetensors, haru, speech, full-duplex, speech-to-speech, audio-to-audio, en, es, pt, de, fr, zh"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-12T11:05:59+00:00"
+  },
+  {
+   "title": "Unsloth's GGUF build of Qwen3.8-27B trends with 6,000+ likes",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Unsloth's quantized GGUF release of Qwen3.8-27B, licensed Apache 2.0, is trending on Hugging Face with over 6,000 likes and 6.5 million downloads.",
+   "more": "The trending model is a GGUF-quantized build of Qwen3.8-27B published by Unsloth, based on the Qwen3_5 architecture family. It is released under the Apache 2.0 license and is tagged as imatrix-quantized and conversational. It has accumulated 6,006 likes and 6,566,295 downloads on Hugging Face. The excerpt does not specify which quantization levels are included or Unsloth's benchmark comparisons to the full-precision model.",
+   "item_ids": [
+    "hf-trending:unsloth/Qwen3.8-27B-GGUF"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:unsloth/Qwen3.8-27B-GGUF",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: unsloth/Qwen3.8-27B-GGUF",
+     "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+     "published": "2026-08-13T08:28:40+00:00",
+     "excerpt": "6006 likes, 6566295 downloads. Tags: gguf, qwen3_5, unsloth, qwen, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-08-13T08:28:40+00:00"
+  },
+  {
+   "title": "Gamer: a vision-language-action model for long, real-time game play",
+   "tags": [
+    "agents",
+    "models",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduce Gamer, a generalist agent that combines perception, memory and multi-step reasoning to handle long-horizon tasks in both 2D interfaces and 3D simulated worlds.",
+   "more": "Gamer is pre-trained on tens of thousands of hours of device-level keyboard and mouse interaction trajectories. Its end-to-end architecture handles perception, memory management and multi-step reasoning in one pipeline. A shared training and deployment pipeline lets it work across conventional 2D graphical interfaces and complex 3D simulated worlds. The excerpt does not specify evaluation results or which games were tested.",
+   "item_ids": [
+    "hf-papers:2611.18397"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.18397",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+     "url": "https://huggingface.co/papers/2611.18397",
+     "published": "2026-11-16T00:00:00+00:00",
+     "excerpt": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajec"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T00:00:00+00:00"
+  },
+  {
+   "title": "Apple launches study on how people use AI for health questions",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apple is running the Apple Health AI Usage Study with clinical AI platform OpenEvidence to measure how people interact with conversational AI health tools and how useful the answers are.",
+   "more": "Apple announced the Apple Health AI Usage Study, done in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical information. The study aims to better understand how people interact with conversational AI health tools and how useful their responses actually are in practice. Apple is also launching a new app through which participants take part in the study, which TechCrunch describes as answering everyday medical questions. The excerpts do not specify the study's duration, sample size, or when results will be published.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1033355",
+    "techcrunch-ai:https://techcrunch.com/?p=3188803"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1033355",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+     "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+     "published": "2026-11-16T01:26:56+00:00",
+     "excerpt": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188803",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Apple launches new app to study how people use AI for health",
+     "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+     "published": "2026-11-16T01:30:00+00:00",
+     "excerpt": "Apple's new app for a study will answer everyday medical questions"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-16T01:30:00+00:00"
+  },
+  {
+   "title": "Congress moves to tighten AI chip export rules after Nvidia spy case",
+   "tags": [
+    "policy",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Following the scandal involving ex-Nvidia CEO Jensen Huang and a suspected Chinese spy, lawmakers from both parties are pushing to further restrict AI chip exports to China.",
+   "more": "The push follows the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy. Both Democrats and Republicans have voiced support for various bills and measures to tighten export rules on AI chips. Lawmakers have also demanded that Huang and other Nvidia leaders testify before Congress. The excerpt does not name specific bills or give a timeline for action.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1033984"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1033984",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+     "published": "2026-11-15T19:15:43+00:00",
+     "excerpt": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T19:15:43+00:00"
+  },
+  {
+   "title": "Paper charts the rise of 'agentic robotics' after GPT-6 Astra's robot wins",
+   "tags": [
+    "robotics",
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper argues that agentic foundation models, following GPT-6 Astra's embodied benchmark wins, are replacing task-specific robot policies with general-purpose systems that perceive, reason and invoke skills in a closed loop.",
+   "more": "The paper traces agentic robotics to GPT-6 Astra's agentic harness, which matched or exceeded task-specific policies on many embodied benchmarks within weeks of release. Rather than training a separate policy per task family, an agentic robotic system applies one foundation model across open-world embodied tasks. It works in a closed loop: observing its environment, interpreting user intent, reasoning about the task, and invoking and chaining skills to complete it. The excerpt does not detail which benchmarks were used or how broadly the approach generalizes.",
+   "item_ids": [
+    "hf-papers:2611.18359"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.18359",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+     "url": "https://huggingface.co/papers/2611.18359",
+     "published": "2026-11-16T00:00:00+00:00",
+     "excerpt": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task, invoking skills and to"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T00:00:00+00:00"
+  },
+  {
+   "title": "OpenAI launches a blog dedicated to science research",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI launched a new blog focused on science, publishing findings, methods and firsthand accounts from researchers who use AI to advance scientific discovery.",
+   "more": "The new blog is described as a dedicated outlet for OpenAI's science-related work. It will share new findings, practical methods and firsthand accounts from researchers using AI to advance scientific discovery. The excerpt does not name specific contributors or a publishing cadence.",
+   "item_ids": [
+    "openai:https://openai.com/index/our-new-blog-for-science"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/our-new-blog-for-science",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "Our new blog for science",
+     "url": "https://openai.com/index/our-new-blog-for-science",
+     "published": "2026-11-15T22:00:00+00:00",
+     "excerpt": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T22:00:00+00:00"
+  },
+  {
+   "title": "SNL spoofs tech CEOs with a sketch on dating and spycraft",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Saturday Night Live's latest episode gathered the cast to impersonate tech executives in a sketch about dating and spycraft, continuing its recurring bit on awkward tech CEOs.",
+   "more": "TechCrunch notes that awkward, creepy tech executives have become a recurring theme on Saturday Night Live. This week's episode gave the cast a chance to show off impressions of multiple tech tycoons at once. The excerpt does not name which executives were impersonated or detail the sketch's plot.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3188820"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188820",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+     "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+     "published": "2026-11-15T20:20:57+00:00",
+     "excerpt": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T20:20:57+00:00"
+  }
+ ]
+}
