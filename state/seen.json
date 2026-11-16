@@ -4775,7 +4775,7 @@
    "up": 0
   }
  },
- "last_digest": "2026-11-16T06:38:42.073574+00:00",
+ "last_digest": "2026-11-16T11:38:53.619275+00:00",
  "seen": {
   "anthropic": [
    "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -5720,7 +5720,11 @@
    "hf-papers:2611.07226",
    "hf-papers:2611.18338",
    "hf-papers:2611.18549",
-   "hf-papers:2611.14504"
+   "hf-papers:2611.14504",
+   "hf-papers:2611.15789",
+   "hf-papers:2611.17831",
+   "hf-papers:2611.12068",
+   "hf-papers:2611.12901"
   ],
   "hf-trending": [
    "hf-trending:convaiinnovations/laya",
@@ -6271,7 +6275,11 @@
    "localllama:t3_1xwegdi",
    "localllama:t3_1xwf8bb",
    "localllama:t3_1xwc3m7",
-   "localllama:t3_1xwr917"
+   "localllama:t3_1xwr917",
+   "localllama:t3_1xxlich",
+   "localllama:t3_1xxawbh",
+   "localllama:t3_1xx7qbf",
+   "localllama:t3_1xxfv69"
   ],
   "meta-ai": [
    "meta-ai:https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
@@ -6395,7 +6403,8 @@
    "openai:https://openai.com/business/customer-stories/amplitude",
    "openai:https://openai.com/index/introducing-chatgpt-wallet",
    "openai:https://openai.com/index/step-toward-defining-the-standard-model",
-   "openai:https://openai.com/index/our-new-blog-for-science"
+   "openai:https://openai.com/index/our-new-blog-for-science",
+   "openai:https://openai.com/index/lvmh-media-division-partnership"
   ],
   "simonw": [
    "simonw:https://simonwillison.net/2026/Sep/26/kakapo-party/",
@@ -7433,30 +7442,31 @@
    "wired-ai:6aed23d9bbed27ba0f21394f",
    "wired-ai:6af7247ac18c09c3056cf94f",
    "wired-ai:6af356dc2c67abe2e828480b",
-   "wired-ai:6af740c47f77ca3a14ead016"
+   "wired-ai:6af740c47f77ca3a14ead016",
+   "wired-ai:6af5d84658905b6f1b0fc8b9"
   ]
  },
  "source_ok": {
-  "anthropic": "2026-11-16T06:38:42.073574+00:00",
-  "ars-ai": "2026-11-16T06:38:42.073574+00:00",
-  "decoder": "2026-11-16T06:38:42.073574+00:00",
-  "deepmind": "2026-11-16T06:38:42.073574+00:00",
-  "google-ai": "2026-11-16T06:38:42.073574+00:00",
-  "hf-blog": "2026-11-16T06:38:42.073574+00:00",
-  "hf-papers": "2026-11-16T06:38:42.073574+00:00",
-  "hf-trending": "2026-11-16T06:38:42.073574+00:00",
-  "hn": "2026-11-16T06:38:42.073574+00:00",
-  "import-ai": "2026-11-16T06:38:42.073574+00:00",
-  "latent-space": "2026-11-16T06:38:42.073574+00:00",
-  "localllama": "2026-11-15T16:39:07.903237+00:00",
-  "meta-ai": "2026-11-16T06:38:42.073574+00:00",
-  "mistral": "2026-11-16T06:38:42.073574+00:00",
-  "mit-tr-ai": "2026-11-16T06:38:42.073574+00:00",
-  "openai": "2026-11-16T06:38:42.073574+00:00",
-  "simonw": "2026-11-16T06:38:42.073574+00:00",
-  "techcrunch-ai": "2026-11-16T06:38:42.073574+00:00",
-  "verge-ai": "2026-11-16T06:38:42.073574+00:00",
-  "wired-ai": "2026-11-16T06:38:42.073574+00:00"
+  "anthropic": "2026-11-16T11:38:53.619275+00:00",
+  "ars-ai": "2026-11-16T11:38:53.619275+00:00",
+  "decoder": "2026-11-16T11:38:53.619275+00:00",
+  "deepmind": "2026-11-16T11:38:53.619275+00:00",
+  "google-ai": "2026-11-16T11:38:53.619275+00:00",
+  "hf-blog": "2026-11-16T11:38:53.619275+00:00",
+  "hf-papers": "2026-11-16T11:38:53.619275+00:00",
+  "hf-trending": "2026-11-16T11:38:53.619275+00:00",
+  "hn": "2026-11-16T11:38:53.619275+00:00",
+  "import-ai": "2026-11-16T11:38:53.619275+00:00",
+  "latent-space": "2026-11-16T11:38:53.619275+00:00",
+  "localllama": "2026-11-16T11:38:53.619275+00:00",
+  "meta-ai": "2026-11-16T11:38:53.619275+00:00",
+  "mistral": "2026-11-16T11:38:53.619275+00:00",
+  "mit-tr-ai": "2026-11-16T11:38:53.619275+00:00",
+  "openai": "2026-11-16T11:38:53.619275+00:00",
+  "simonw": "2026-11-16T11:38:53.619275+00:00",
+  "techcrunch-ai": "2026-11-16T11:38:53.619275+00:00",
+  "verge-ai": "2026-11-16T11:38:53.619275+00:00",
+  "wired-ai": "2026-11-16T11:38:53.619275+00:00"
  },
  "telegram_offset": 115081541,
  "telegram_sent": "2026-11-16-1130",

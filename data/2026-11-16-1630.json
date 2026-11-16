@@ -1,0 +1,267 @@
+{
+ "date": "2026-11-16",
+ "edition": "16:30",
+ "failed": [],
+ "stories": [
+  {
+   "title": "VibePrevisBench benchmark tests coding agents on 4D scene generation",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduce VibePrevisBench, a 242-task benchmark where a coding agent turns a brief into an executable 4D Blender scene and renders a controllable proxy video.",
+   "more": "The benchmark targets a gap: no existing test checks both the rendered proxy videos used to steer controllable video generation models and the longer, multi-shot 4D scenes behind them. An agent is given a brief and must reconstruct an executable 4D scene in Blender, then render its proxy video. The 242 tasks span four different kinds of input, though the available excerpt cuts off before listing them. It is not yet clear from the excerpt how current coding agents perform on the benchmark.",
+   "item_ids": [
+    "hf-papers:2611.15789"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.15789",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+     "url": "https://huggingface.co/papers/2611.15789",
+     "published": "2026-11-16T00:00:00+00:00",
+     "excerpt": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D scene and renders its proxy video. Its 242 tasks span four input kinds, including sc"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T00:00:00+00:00"
+  },
+  {
+   "title": "V-JEPA-LM aims to make video-language models read motion, not just retrieve it",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper argues video-language models trained on captions learn to retrieve a few named clip attributes rather than read a clip's actual dynamics, wasting what encoders like V-JEPA capture.",
+   "more": "The paper argues that joining a world-model video encoder like V-JEPA to a language model trained on captions and question-answer pairs creates a mismatch: each caption or question names only a few attributes of a clip, so the combined model learns to retrieve those attributes instead of reading the clip's dynamics directly. As evidence, a linear probe on frozen V-JEPA features reads speed with 87% accuracy on the same items, suggesting the encoder holds information the language model is not using. V-JEPA-LM is presented as an approach to close this gap, though the excerpt available cuts off before detailing how.",
+   "item_ids": [
+    "hf-papers:2611.17831"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.17831",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+     "url": "https://huggingface.co/papers/2611.17831",
+     "published": "2026-11-16T00:00:00+00:00",
+     "excerpt": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the model learns to retrieve those attributes rather than to read the clip, and the dynamics the encoder carries go unused: on the same items, a linear probe reads speed from frozen V-JEPA features at 87% whi"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T00:00:00+00:00"
+  },
+  {
+   "title": "Paper links hallucinations in diffusion language models to entropy spikes",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers find hallucinations in multimodal diffusion language models tend to occur during denoising steps with localized spikes in mask-uncertainty entropy, detectable by comparing each step to its neighbors.",
+   "more": "The paper studies multimodal diffusion language models (MDLMs), which generate output through iterative denoising refinement. It finds that mask uncertainty generally trends downward across the denoising process, but a few individual steps show localized entropy spikes that are closely associated with hallucinations. The authors argue these anomalous steps can be identified by measuring how far each step's entropy deviates from its neighboring steps in the sequence. The excerpt cuts off before describing the proposed decoding fix in detail.",
+   "item_ids": [
+    "hf-papers:2611.12901"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.12901",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
+     "url": "https://huggingface.co/papers/2611.12901",
+     "published": "2026-11-16T00:00:00+00:00",
+     "excerpt": "Recent advancements in multimodal diffusion language models (MDLMs) have exhibited strong global modeling capabilities through iterative refinement. We observe that mask uncertainty follows an overall downward trend during iterative denoising, while a few denoising steps exhibit localized entropy spikes closely associated with hallucinations. We argue that anomalous steps can be identified by measuring the entropy deviation of each denoising step from its neighboring temporal window. We hypothes"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T00:00:00+00:00"
+  },
+  {
+   "title": "LocalLLaMA tip: a small LoRA can replace full abliterated model downloads",
+   "tags": [
+    "tools",
+    "open-source",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA post explains that llama.cpp users can apply a small LoRA adapter to any Flash Next quant to get an abliterated model, avoiding around 150GB of extra downloads.",
+   "more": "The post explains that most abliteration techniques are rank-1 ablations, meaning a model's refusal projection can be captured in a small LoRA rather than requiring a separately downloaded, fully abliterated checkpoint. Adding a `--lora` flag pointing to a HUIHUI-V2-Qwen3.8-Flash-Next LoRA file to a llama.cpp launch command, with any Flash Next quant, is said to produce an equivalent abliterated model. The author frames this as a PSA to save roughly 150GB of storage compared to downloading full abliterated models separately. The excerpt does not give further technical detail on how the LoRA was derived.",
+   "item_ids": [
+    "localllama:t3_1xxawbh"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xxawbh",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "Why download abliterated Flash Next models when LoRA exists?",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxawbh/why_download_abliterated_flash_next_models_when/",
+     "published": "2026-11-16T00:06:16+00:00",
+     "excerpt": "TL;DR -- Download LoRA, add --lora HUIHUI-V2-Qwen3.8-Flash-Next-LoRA-F32.gguf to your llama.cpp launch command for ANY FN quant, and boom, you've got an identical huihui v2 abliterated model on demand and you saved 150GB of space. I just wanted to post a kind of PSA for everyone out there downloading hundreds of GB of abliterated models. You don't need to do that -- the vast majority of abliteration techniques are rank-1 ablations, meaning their refusal projection can be encapsulated in a tiny L"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T00:06:16+00:00"
+  },
+  {
+   "title": "Open-source tool \"inside-llm\" visualizes where two GGUF quantizations diverge",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA user built inside-llm, an open-source tool that loads one or two GGUF models via llama.cpp and shows in-browser, token by token, where two quantizations of a model diverge.",
+   "more": "The tool streams generated text with brightness showing each token's probability, with one column per loaded model. When comparing two models, it marks tokens in magenta wherever the two would pick differently, letting users see exactly where quantization changes a model's output. It is described as a small, open-source project built on llama.cpp. The excerpt gives no further detail on installation or scope.",
+   "item_ids": [
+    "localllama:t3_1xx7qbf"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xx7qbf",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "I have created a tool to observe what happens inside an LLM. Also allows for the comparison of two quantizations of the same model to see at what point they diverge, token by token",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx7qbf/i_have_created_a_tool_to_observe_what_happens/",
+     "published": "2026-11-15T21:46:56+00:00",
+     "excerpt": "What changes between different quantizations of the same model? And what if you could SEE what actually sets them apart? To help answer that question, I’ve created a small project called inside-llm—an open-source tool that loads one or two GGUF models using llama.cpp and displays, right in your browser, what the model is doing as it generates text. What it shows Stream: the text, one column per model, brightness = probability of each token. A magenta mark wherever A and B would pick differently."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-15T21:46:56+00:00"
+  },
+  {
+   "title": "LocalLLaMA user argues a specialized 4B model can match larger LLMs on narrow tasks",
+   "tags": [
+    "models",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "After training a 4B model specialized for 3D asset generation, a r/LocalLLaMA poster argues small, task-specific models may be enough for most practical LLM uses, including coding.",
+   "more": "The poster describes training Qwen3.5-4B-3D-Coder and a related GLB-asset variant, saying the results exceeded their expectations for a model of this size. They suggest a 4B model might suffice for most practical LLM tasks if trained specifically for the job, citing examples like generating 3D assets, building and orchestrating complex scenes, web development, backend development, and reverse engineering. They mention they are also working on a separate coding model, though the excerpt cuts off before further detail.",
+   "item_ids": [
+    "localllama:t3_1xxfv69"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xxfv69",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "I'm starting to think a specialized 4B is enough for most of the tasks I'd use an LLM for",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxfv69/im_starting_to_think_a_specialized_4b_is_enough/",
+     "published": "2026-11-16T04:13:31+00:00",
+     "excerpt": "When I started training Qwen3.5-4B-3D-Coder , I honestly wasn't sure it would work. Now, after that model and the GLB asset version, I'm starting to think I underestimated how much these smaller models can actually learn. My impression is that a 4B model might be enough for most practical tasks if you train it specifically for the job. Generating 3D assets, building and orchestrating complex scenes, webdev, backend development, reverse engineering, etc. I'm also working on a coding model using a"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T04:13:31+00:00"
+  },
+  {
+   "title": "MIRIX-2.0 memory system leads on LoCoMo and LongMemEval-S benchmarks",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "MIRIX-2.0, a new multi-agent memory system for LLM agents, is the most accurate of compared systems on four of five QA benchmarks, reaching 91.4% on LoCoMo and 72.6% on LongMemEval-S.",
+   "more": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what has worked before, but the paper notes existing approaches have tradeoffs: parametric memories require retraining, consolidation can permanently lose details, and keeping every record leaves an ever-growing store to search. MIRIX-2.0 is presented as a multi-agent memory system built to be practical, accurate, and efficient at once. It is the most accurate of the systems compared on four of five QA benchmarks tested, reaching 91.4% on LoCoMo and 72.6% on LongMemEval-S, where it leads the strongest baseline. The excerpt cuts off before naming that baseline or giving further results.",
+   "item_ids": [
+    "hf-papers:2611.12068"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.12068",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "MIRIX-2.0: Multi-Agent Memory System",
+     "url": "https://huggingface.co/papers/2611.12068",
+     "published": "2026-11-16T00:00:00+00:00",
+     "excerpt": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once. It is the most accurate of the compared systems on four of five QA benchmarks. It reaches 91.4% on LoCoMo and 72.6% on LongMemEval-S, where it leads the strongest "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T00:00:00+00:00"
+  },
+  {
+   "title": "LVMH's Media Division partners with OpenAI to bring publications into ChatGPT",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "LVMH's Media Division and OpenAI announced a partnership to support journalism with AI and make LVMH's publications more accessible through ChatGPT.",
+   "more": "LVMH's Media Division and OpenAI announced a strategic partnership aimed at supporting journalism with AI and making LVMH's publications more accessible through ChatGPT. The available announcement excerpt does not give further financial or product detail.",
+   "item_ids": [
+    "openai:https://openai.com/index/lvmh-media-division-partnership"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/lvmh-media-division-partnership",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+     "url": "https://openai.com/index/lvmh-media-division-partnership",
+     "published": "2026-11-16T09:00:00+00:00",
+     "excerpt": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T09:00:00+00:00"
+  },
+  {
+   "title": "Wired: AI chip rivals are closing the gap on Nvidia amid Jensen Huang turmoil",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Wired analysis argues Nvidia had problems even before a recent controversy involving CEO Jensen Huang, and that AI chip competitors are catching up and poised to benefit from the disruption.",
+   "more": "The Wired piece argues that Nvidia faced difficulties before a recent controversy involving CEO Jensen Huang surfaced, and that rival AI chipmakers are closing the gap and may be positioned to take advantage of the resulting disruption. The excerpt available does not name the competitors or detail the Huang controversy itself.",
+   "item_ids": [
+    "wired-ai:6af5d84658905b6f1b0fc8b9"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af5d84658905b6f1b0fc8b9",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
+     "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+     "published": "2026-11-16T11:00:00+00:00",
+     "excerpt": "AI competitors are catching up to Nvidia—and poised to take advantage of the chaos."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T11:00:00+00:00"
+  },
+  {
+   "title": "r/LocalLLaMA post titled \"The beginning of the becoming of the beginning begins\"",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A r/LocalLLaMA submission carries the title \"The beginning of the becoming of the beginning begins\"; the feed excerpt gives no further content.",
+   "more": "The only information available from the feed is the post's title; the excerpt provided no additional text, so what the submission is actually about is unclear.",
+   "item_ids": [
+    "localllama:t3_1xxlich"
+   ],
+   "items": [
+    {
+     "id": "localllama:t3_1xxlich",
+     "source": "localllama",
+     "source_name": "r/LocalLLaMA",
+     "title": "The beginning of the becoming of the beginning begins",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxlich/the_beginning_of_the_becoming_of_the_beginning/",
+     "published": "2026-11-16T09:55:51+00:00",
+     "excerpt": "submitted by /u/Subulicious [link] [comments]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T09:55:51+00:00"
+  }
+ ]
+}
