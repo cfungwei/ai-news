@@ -4775,7 +4775,7 @@
    "up": 0
   }
  },
- "last_digest": "2026-11-17T06:38:52.441146+00:00",
+ "last_digest": "2026-11-17T11:38:48.877028+00:00",
  "seen": {
   "anthropic": [
    "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -5734,7 +5734,14 @@
    "hf-papers:2611.15789",
    "hf-papers:2611.17831",
    "hf-papers:2611.12068",
-   "hf-papers:2611.12901"
+   "hf-papers:2611.12901",
+   "hf-papers:2611.21003",
+   "hf-papers:2611.19937",
+   "hf-papers:2611.21072",
+   "hf-papers:2611.21218",
+   "hf-papers:2611.20218",
+   "hf-papers:2611.07222",
+   "hf-papers:2611.21607"
   ],
   "hf-trending": [
    "hf-trending:convaiinnovations/laya",
@@ -6105,7 +6112,8 @@
    "latent-space:urn:latent-space:post:post_b104ae7d-0991-4ed4-b1c3-402861a8cd00",
    "latent-space:urn:latent-space:post:post_f2e2c3b7-0166-4359-97b6-d24d8f24c73b",
    "latent-space:urn:latent-space:post:post_5ecf266a-aa1c-4b9a-bcec-3c52bcc9ca63",
-   "latent-space:urn:latent-space:post:post_4b2a7cf6-32ae-48a8-a4a0-2da9cda7b646"
+   "latent-space:urn:latent-space:post:post_4b2a7cf6-32ae-48a8-a4a0-2da9cda7b646",
+   "latent-space:urn:latent-space:post:post_ae3c512d-675f-4368-9e24-ad45b6d484fd"
   ],
   "localllama": [
    "localllama:t3_1wth4iz",
@@ -6293,7 +6301,11 @@
    "localllama:t3_1xxlich",
    "localllama:t3_1xxawbh",
    "localllama:t3_1xx7qbf",
-   "localllama:t3_1xxfv69"
+   "localllama:t3_1xxfv69",
+   "localllama:t3_1xyamk6",
+   "localllama:t3_1xy4xsx",
+   "localllama:t3_1xxy7eb",
+   "localllama:t3_1xxxbt9"
   ],
   "meta-ai": [
    "meta-ai:https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
@@ -7489,30 +7501,33 @@
    "wired-ai:6af356dc2c67abe2e828480b",
    "wired-ai:6af740c47f77ca3a14ead016",
    "wired-ai:6af5d84658905b6f1b0fc8b9",
-   "wired-ai:6af7749c3101511031c45454"
+   "wired-ai:6af7749c3101511031c45454",
+   "wired-ai:6af5ff1c0b81f4a3e576433e",
+   "wired-ai:6af3622682931ce68d5ff1c4",
+   "wired-ai:6af70b2466909349c1be422f"
   ]
  },
  "source_ok": {
-  "anthropic": "2026-11-17T06:38:52.441146+00:00",
-  "ars-ai": "2026-11-17T06:38:52.441146+00:00",
-  "decoder": "2026-11-17T06:38:52.441146+00:00",
-  "deepmind": "2026-11-17T06:38:52.441146+00:00",
-  "google-ai": "2026-11-17T06:38:52.441146+00:00",
-  "hf-blog": "2026-11-17T06:38:52.441146+00:00",
-  "hf-papers": "2026-11-17T06:38:52.441146+00:00",
-  "hf-trending": "2026-11-17T06:38:52.441146+00:00",
-  "hn": "2026-11-17T06:38:52.441146+00:00",
-  "import-ai": "2026-11-17T06:38:52.441146+00:00",
-  "latent-space": "2026-11-17T06:38:52.441146+00:00",
-  "localllama": "2026-11-16T16:39:05.129130+00:00",
-  "meta-ai": "2026-11-17T06:38:52.441146+00:00",
-  "mistral": "2026-11-17T06:38:52.441146+00:00",
-  "mit-tr-ai": "2026-11-17T06:38:52.441146+00:00",
-  "openai": "2026-11-17T06:38:52.441146+00:00",
-  "simonw": "2026-11-17T06:38:52.441146+00:00",
-  "techcrunch-ai": "2026-11-17T06:38:52.441146+00:00",
-  "verge-ai": "2026-11-17T06:38:52.441146+00:00",
-  "wired-ai": "2026-11-17T06:38:52.441146+00:00"
+  "anthropic": "2026-11-17T11:38:48.877028+00:00",
+  "ars-ai": "2026-11-17T11:38:48.877028+00:00",
+  "decoder": "2026-11-17T11:38:48.877028+00:00",
+  "deepmind": "2026-11-17T11:38:48.877028+00:00",
+  "google-ai": "2026-11-17T11:38:48.877028+00:00",
+  "hf-blog": "2026-11-17T11:38:48.877028+00:00",
+  "hf-papers": "2026-11-17T11:38:48.877028+00:00",
+  "hf-trending": "2026-11-17T11:38:48.877028+00:00",
+  "hn": "2026-11-17T11:38:48.877028+00:00",
+  "import-ai": "2026-11-17T11:38:48.877028+00:00",
+  "latent-space": "2026-11-17T11:38:48.877028+00:00",
+  "localllama": "2026-11-17T11:38:48.877028+00:00",
+  "meta-ai": "2026-11-17T11:38:48.877028+00:00",
+  "mistral": "2026-11-17T11:38:48.877028+00:00",
+  "mit-tr-ai": "2026-11-17T11:38:48.877028+00:00",
+  "openai": "2026-11-17T11:38:48.877028+00:00",
+  "simonw": "2026-11-17T11:38:48.877028+00:00",
+  "techcrunch-ai": "2026-11-17T11:38:48.877028+00:00",
+  "verge-ai": "2026-11-17T11:38:48.877028+00:00",
+  "wired-ai": "2026-11-17T11:38:48.877028+00:00"
  },
  "telegram_offset": 115081541,
  "telegram_sent": "2026-11-17-1130",
