@@ -1,0 +1,332 @@
+{
+ "date": "2026-11-18",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "GPT-6.2 Astra undercuts rivals on price by up to 600%, but early reviews are mixed",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "GPT-6.2 Astra, now the #2 frontier model by some measures, is reportedly 20-600% cheaper on benchmark costs than rivals, but early testers are split on how it performs; the smaller Sol variant is expected to be the daily workhorse.",
+   "more": "A roundup from Latent Space's AINews newsletter covers the release of GPT-6.2 Astra and a smaller companion model, Sol. It says Astra lowers benchmark costs significantly, by a reported 20% to 600% compared to earlier models, while ranking as the #2 frontier model by some measure. Early testers reportedly disagree on what Astra is actually like to work with day to day. Sol, the smaller sibling, is expected to become the more commonly used 'workhorse' model despite Astra's headline position. The excerpt doesn't specify which lab released these models, exact pricing, or benchmark details.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_8e49a725-4572-4981-9894-4fbf63aed272"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_8e49a725-4572-4981-9894-4fbf63aed272",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+     "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+     "published": "2026-11-18T10:19:04+00:00",
+     "excerpt": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-18T10:19:04+00:00"
+  },
+  {
+   "title": "Qwen3.8-27B-pi-adapted trends on Hugging Face as an agentic, GRPO-tuned model",
+   "tags": [
+    "models",
+    "agents",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A LoRA/GRPO-adapted variant of Qwen called Qwen3.8-27B-pi-adapted is trending on Hugging Face, tagged for agentic and tool-use training with frameworks like Harbor and OpenEnv, with 266 likes and 377 downloads so far.",
+   "more": "Qwen3.8-27B-pi-adapted is an image-text-to-text model trending on Hugging Face, published under the harness-hub namespace. It ships as a PEFT/LoRA adapter in safetensors format, with tags indicating it was trained using GRPO and async-GRPO reinforcement learning inside agent-environment frameworks such as Harbor and OpenEnv. At fetch time it had 266 likes and 377 downloads. The listing doesn't specify which base checkpoint it adapts or what downstream task it targets.",
+   "item_ids": [
+    "hf-trending:harness-hub/Qwen3.8-27B-pi-adapted"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:harness-hub/Qwen3.8-27B-pi-adapted",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: harness-hub/Qwen3.8-27B-pi-adapted",
+     "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+     "published": "2026-11-16T06:52:31+00:00",
+     "excerpt": "image-text-to-text, 266 likes, 377 downloads. Tags: peft, safetensors, trl, grpo, async-grpo, lora, agents, harbor, openenv, pi, image-text-to-text, conversational"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-16T06:52:31+00:00"
+  },
+  {
+   "title": "n4ze3m's tiny-voca text-to-speech model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "tiny-voca, a small open text-to-speech model shipped in ONNX and GGUF formats under an Apache-2.0 license, is trending on Hugging Face with 264 likes and over 4,400 downloads.",
+   "more": "tiny-voca is a text-to-speech model from user n4ze3m, released in both ONNX and GGUF formats for easy local inference, with a matching dataset also published on Hugging Face. It's licensed under Apache-2.0, making it freely usable and modifiable. At fetch time it had 264 likes and 4,430 downloads. The excerpt doesn't give model size, supported languages, or audio quality benchmarks.",
+   "item_ids": [
+    "hf-trending:n4ze3m/tiny-voca"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:n4ze3m/tiny-voca",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: n4ze3m/tiny-voca",
+     "url": "https://huggingface.co/n4ze3m/tiny-voca",
+     "published": "2026-11-14T15:46:27+00:00",
+     "excerpt": "text-to-speech, 264 likes, 4430 downloads. Tags: onnx, gguf, text-to-speech, en, dataset:n4ze3m/tiny-voca, license:apache-2.0, region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-14T15:46:27+00:00"
+  },
+  {
+   "title": "New benchmark Breath-Dx tests AI disease screening via e-nose breath analysis",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Breath-Dx is a new time-series classification benchmark for diagnosing disease from exhaled breath using electronic nose sensors, aiming to let machine-learning methods be compared under realistic conditions like sensor drift.",
+   "more": "Electronic nose (eNose) technology offers a portable, non-invasive way to screen for disease by analyzing exhaled breath. Progress in the field has been limited by a lack of systematic benchmarks that compare machine-learning methods under realistic conditions, especially sensor drift, a known but rarely quantified failure mode. Most prior studies used small, private datasets with inconsistent protocols, making results hard to compare and slowing progress. Breath-Dx is introduced as a benchmark meant to close that gap, though the excerpt doesn't detail its dataset size or which models were evaluated.",
+   "item_ids": [
+    "hf-papers:2611.15348"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.15348",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose",
+     "url": "https://huggingface.co/papers/2611.15348",
+     "published": "2026-11-18T00:00:00+00:00",
+     "excerpt": "Electronic nose (eNose) technology offers a portable, non-invasive route for disease screening via exhaled breath analysis. However, progress in the field is hindered by the lack of systematic benchmarks that compare machine learning methods under realistic conditions, particularly sensor drift, a known but rarely quantified failure mode. Most existing studies rely on small, private datasets with inconsistent protocols, rendering results non-comparable and slowing progress. We introduce Breath-D"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-18T00:00:00+00:00"
+  },
+  {
+   "title": "AURA 2.0 lets streaming video AI speak first instead of waiting to be asked",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "AURA 2.0 is a streaming video language model that can initiate conversation on its own, spotting moments in a live video feed worth discussing instead of only responding when prompted.",
+   "more": "Most AI video assistants only respond when prompted, staying silent even when something in the stream is worth commenting on. AURA 2.0 introduces Model-Initiated Conversation (MIC), which lets the model identify topics worth discussing as a video stream unfolds and speak up at an appropriate moment rather than waiting for a question. The paper describes this as one of three core upgrades over the original AURA system. Details on the other two upgrades and on evaluation results aren't given in the excerpt.",
+   "item_ids": [
+    "hf-papers:2611.17048"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.17048",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Beyond Answering: Learning to Speak First and Act in Streaming Video",
+     "url": "https://huggingface.co/papers/2611.17048",
+     "published": "2026-11-18T00:00:00+00:00",
+     "excerpt": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is Model-Initiated Conversation (MIC), which enables the model to identify topics worth discussing in the evolving visual stream and initiate conversations at appropriate moments wit"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-18T00:00:00+00:00"
+  },
+  {
+   "title": "Multi-Branch Transformer scales models by branching instead of going wider or deeper",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper proposes the Multi-Branch Transformer, which runs parallel branches of Transformer blocks after shared initial layers and fuses their outputs, as an alternative to simply widening or deepening models.",
+   "more": "Transformer language models are typically scaled by making blocks wider or stacking more of them. The Multi-Branch Transformer (MBT) instead processes input through shared initial layers, runs independently parameterized branches of sequential blocks in parallel, and fuses their outputs before shared final layers. The authors say they study three MBT variants at comparable training compute. The excerpt doesn't give benchmark results or say how the variants compare to standard scaling in practice.",
+   "item_ids": [
+    "hf-papers:2611.19800"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.19800",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Multi-Branch Transformer",
+     "url": "https://huggingface.co/papers/2611.19800",
+     "published": "2026-11-18T00:00:00+00:00",
+     "excerpt": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel, and fuses their outputs before shared final layers. At comparable training compute, we study three MB"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-18T00:00:00+00:00"
+  },
+  {
+   "title": "Suno adds AI-generated video and lip-synced visuals to its music, calls it 'Visuals'",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Suno launched 'Visuals', a feature that turns songs made on its AI music platform into AI-generated video clips with automatic lip-sync to the lyrics, or into prompt-generated images for thumbnails and artwork.",
+   "more": "Suno, previously known purely as an AI music generator, has introduced a feature called Visuals that extends it into image and video generation. Visuals can turn a Suno song into an AI-generated video clip that automatically lip-syncs to the track's lyrics. It can also generate standalone images from text prompts, intended for use as thumbnails or album artwork. Neither report gives a rollout timeline or pricing for the new feature.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1036415",
+    "decoder:https://the-decoder.com/?p=42999"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1036415",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Suno now lets you make AI videos for your AI music",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+     "published": "2026-11-18T11:16:53+00:00",
+     "excerpt": "Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs into AI-generated video clips that automatically lipsync to lyrics, or make images via prompt descriptions that can be used as thumbnails and album artwork. Visuals […]"
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=42999",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Suno's new Visuals feature pairs AI-generated music with AI-generated video",
+     "url": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
+     "published": "2026-11-18T10:22:45+00:00",
+     "excerpt": "AI music generator Suno can now create images and video clips to go with its songs, thanks to a new feature called Visuals. The article Suno's new Visuals feature pairs AI-generated music with AI-generated video appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-18T11:16:53+00:00"
+  },
+  {
+   "title": "Smell startup Osmo says its AI nose matches human scent-identification accuracy",
+   "tags": [
+    "products",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "AI startup Osmo claims its 'foundation model' for smell, trained on data from about 30 human sniffers cross-referenced with chemical analysis, can identify odors as well as a person can.",
+   "more": "Osmo is building what it calls the world's first foundation model for smell. To train it, a team of roughly 30 experienced human sniffers works through odor samples near Newark Airport, writing descriptive notes like 'nutty', 'peachy', and 'marine' that are cross-referenced with chemical analysis. The company claims its resulting AI system can identify smells as accurately as a human nose. The excerpt doesn't detail the model's architecture, what products it will power, or how its accuracy was measured.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1148816"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1148816",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "This smell startup says its AI nose is as good as a human’s",
+     "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+     "published": "2026-11-18T10:20:30+00:00",
+     "excerpt": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-18T10:20:30+00:00"
+  },
+  {
+   "title": "Lovable pivots from vibe-coding apps to helping users run vibe-coded businesses",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Swedish startup Lovable, known for driving the vibe-coded app boom, is shifting its product two years after launch to help users operate businesses built with AI-generated ('vibe-coded') code, not just build them.",
+   "more": "Lovable, a Swedish startup, became a major driver of the 'vibe coding' boom, in which people build apps by describing them to AI rather than writing code by hand. Two years after its launch, the company is now shifting toward helping users run businesses built on vibe-coded software, rather than just helping them create the apps in the first place. The report frames this as a deliberate gear change for the company. It doesn't specify new product features, pricing, or a launch date for the shift.",
+   "item_ids": [
+    "wired-ai:6afc944991f318b24b21a23f"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6afc944991f318b24b21a23f",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Lovable Wants You to Vibe Code Your Dream Job",
+     "url": "https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/",
+     "published": "2026-11-18T10:00:00+00:00",
+     "excerpt": "This Swedish startup dominated the vibe-coded app boom. Two years after launch, Lovable is shifting gears to help users run vibe-coded businesses."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-18T10:00:00+00:00"
+  },
+  {
+   "title": "India's Humyn Labs raises $47M to supply training data for U.S. robotics firms",
+   "tags": [
+    "industry",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Humyn Labs, an Indian startup founded in February, raised $47 million backed by Accel to supply the training data U.S. robotics and AI developers need, competing with Mecka AI and XDOF.",
+   "more": "Humyn Labs, founded in February, has raised $47 million to supply training data to U.S. robotics companies building AI systems. The funding round is backed by Accel. About 90% of the startup's revenue reportedly comes from the U.S. market. It competes with other data-supply startups including Mecka AI and XDOF; the report doesn't specify the round's stage or other investors involved.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3188451"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188451",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
+     "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+     "published": "2026-11-18T11:30:00+00:00",
+     "excerpt": "Founded in February, Humyn Labs competes with startups including Mecka AI and XDOF, with about 90% of its revenue coming from the U.S."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-18T11:30:00+00:00"
+  },
+  {
+   "title": "ForceHarness gives frozen frontier models a sense of touch for robot control",
+   "tags": [
+    "robotics",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces ForceHarness, which feeds contact-force data to frozen, API-only frontier models in a form they can reason about, letting them guide robot manipulation tasks that rely on touch rather than vision alone.",
+   "more": "Frontier multimodal models can already control robots zero-shot from images, but many manipulation tasks depend on contact forces that images can't capture. Bringing force sensing to an API-only frozen model poses two challenges: contact dynamics change faster than the model can decide, so the system needs a control loop beneath the model, and the model can't interpret raw force streams on its own. ForceHarness addresses both by closing the fast loop separately and returning force information in a format the model can reason about. The excerpt doesn't specify which base models or robot platforms were tested.",
+   "item_ids": [
+    "hf-papers:2611.21099"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.21099",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+     "url": "https://huggingface.co/papers/2611.21099",
+     "published": "2026-11-18T00:00:00+00:00",
+     "excerpt": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force streams, so force must be returned in a form the model can reason about. Therefore, we present ForceHarnes"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-18T00:00:00+00:00"
+  },
+  {
+   "title": "HN debates a travel blog's claim that AI search is killing its business",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A blog post titled 'AI is killing All About Berlin' argues AI-powered search is destroying traffic to independent travel sites, and sparked a large Hacker News discussion with 346 comments.",
+   "more": "The post, titled 'AI is killing All About Berlin,' attributes the decline of the author's independent travel-information site to AI-powered search answering queries directly instead of sending clicks to original sources. It drew significant attention on Hacker News, reaching 375 points and 346 comments. The available excerpt doesn't include further detail on specific traffic numbers or which AI systems were blamed.",
+   "item_ids": [
+    "hn:50542705"
+   ],
+   "items": [
+    {
+     "id": "hn:50542705",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "AI is killing All About Berlin",
+     "url": "https://nicolasbouliane.com/blog/death-by-ai",
+     "published": "2026-11-18T06:47:26+00:00",
+     "excerpt": "375 points, 346 comments. Discussion: https://news.ycombinator.com/item?id=50542705"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-18T06:47:26+00:00"
+  }
+ ]
+}
