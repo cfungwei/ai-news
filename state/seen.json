@@ -4775,7 +4775,7 @@
    "up": 0
   }
  },
- "last_digest": "2026-11-18T16:38:43.823086+00:00",
+ "last_digest": "2026-11-19T06:38:14.610966+00:00",
  "seen": {
   "anthropic": [
    "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -4818,7 +4818,8 @@
    "anthropic:https://www.anthropic.com/news/expanding-partnership-gsa",
    "anthropic:https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
    "anthropic:https://www.anthropic.com/news/roadshow-launch",
-   "anthropic:https://www.anthropic.com/claude-fable-and-mythos-5-2"
+   "anthropic:https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "anthropic:https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
   ],
   "ars-ai": [
    "ars-ai:https://arstechnica.com/ai/2026/09/what-iceberg-bay-area-artists-target-openai-with-titanic-themed-protest-art/",
@@ -4940,7 +4941,9 @@
    "ars-ai:https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
    "ars-ai:https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
    "ars-ai:https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
-   "ars-ai:https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/"
+   "ars-ai:https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+   "ars-ai:https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+   "ars-ai:https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/"
   ],
   "decoder": [
    "decoder:https://the-decoder.com/?p=40867",
@@ -5303,7 +5306,11 @@
    "decoder:https://the-decoder.com/?p=43007",
    "decoder:https://the-decoder.com/?p=43006",
    "decoder:https://the-decoder.com/?p=43004",
-   "decoder:https://the-decoder.com/?p=43003"
+   "decoder:https://the-decoder.com/?p=43003",
+   "decoder:https://the-decoder.com/?p=43053",
+   "decoder:https://the-decoder.com/?p=43050",
+   "decoder:https://the-decoder.com/?p=43037",
+   "decoder:https://the-decoder.com/?p=43036"
   ],
   "deepmind": [
    "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -5322,7 +5329,9 @@
    "deepmind:https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
    "deepmind:https://deepmind.google/blog/introducing-alphaproof-code/",
    "deepmind:https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-   "deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+   "deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "deepmind:https://deepmind.google/blog/introducing-gemini-4-neon/",
+   "deepmind:https://deepmind.google/blog/genie-4-is-now-available/"
   ],
   "google-ai": [
    "google-ai:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
@@ -5340,7 +5349,8 @@
    "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
    "google-ai:https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
    "google-ai:https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-   "google-ai:https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+   "google-ai:https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+   "google-ai:https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
   ],
   "hf-blog": [
    "hf-blog:https://huggingface.co/blog/Hcompany/holo4",
@@ -5390,7 +5400,9 @@
    "hf-blog:https://huggingface.co/blog/ggml-org/llama-cpp-v1",
    "hf-blog:https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
    "hf-blog:https://huggingface.co/blog/allenai/xybench",
-   "hf-blog:https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse"
+   "hf-blog:https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+   "hf-blog:https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+   "hf-blog:https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
   ],
   "hf-papers": [
    "hf-papers:2609.28654",
@@ -5770,7 +5782,13 @@
    "hf-papers:2611.21099",
    "hf-papers:2611.15348",
    "hf-papers:2611.17048",
-   "hf-papers:2611.19800"
+   "hf-papers:2611.19800",
+   "hf-papers:2611.11318",
+   "hf-papers:2611.21392",
+   "hf-papers:2611.24154",
+   "hf-papers:2611.23068",
+   "hf-papers:2611.21152",
+   "hf-papers:2611.21366"
   ],
   "hf-trending": [
    "hf-trending:convaiinnovations/laya",
@@ -5855,7 +5873,9 @@
    "hf-trending:harness-hub/Qwen3.8-27B-pi-adapted",
    "hf-trending:n4ze3m/tiny-voca",
    "hf-trending:meituan-longcat/LongCat-Video-Avatar-1.6",
-   "hf-trending:tencent/Hy4-flash"
+   "hf-trending:tencent/Hy4-flash",
+   "hf-trending:apple/FastFrames-L",
+   "hf-trending:maxwell-model/Maxwell-V1-Flash"
   ],
   "hn": [
    "hn:49855018",
@@ -6071,7 +6091,13 @@
    "hn:50538303",
    "hn:50535740",
    "hn:50535230",
-   "hn:50542705"
+   "hn:50542705",
+   "hn:50554374",
+   "hn:50553843",
+   "hn:50553225",
+   "hn:50552424",
+   "hn:50549493",
+   "hn:50548485"
   ],
   "import-ai": [
    "import-ai:https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
@@ -6598,7 +6624,9 @@
    "simonw:https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
    "simonw:https://simonwillison.net/2026/Nov/17/datasette-lite/",
    "simonw:https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
-   "simonw:https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/"
+   "simonw:https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+   "simonw:https://simonwillison.net/2026/Nov/18/llm-gemini/",
+   "simonw:https://simonwillison.net/2026/Nov/18/datasette-arrows/"
   ],
   "techcrunch-ai": [
    "techcrunch-ai:https://techcrunch.com/?p=3167791",
@@ -7104,7 +7132,21 @@
    "techcrunch-ai:https://techcrunch.com/?p=3188451",
    "techcrunch-ai:https://techcrunch.com/?p=3189966",
    "techcrunch-ai:https://techcrunch.com/?p=3189866",
-   "techcrunch-ai:https://techcrunch.com/?p=3189441"
+   "techcrunch-ai:https://techcrunch.com/?p=3189441",
+   "techcrunch-ai:https://techcrunch.com/?p=3190274",
+   "techcrunch-ai:https://techcrunch.com/?p=3190239",
+   "techcrunch-ai:https://techcrunch.com/?p=3190290",
+   "techcrunch-ai:https://techcrunch.com/?p=3190266",
+   "techcrunch-ai:https://techcrunch.com/?p=3190264",
+   "techcrunch-ai:https://techcrunch.com/?p=3190228",
+   "techcrunch-ai:https://techcrunch.com/?p=3190087",
+   "techcrunch-ai:https://techcrunch.com/?p=3190121",
+   "techcrunch-ai:https://techcrunch.com/?p=3190132",
+   "techcrunch-ai:https://techcrunch.com/?p=3190063",
+   "techcrunch-ai:https://techcrunch.com/?p=3189677",
+   "techcrunch-ai:https://techcrunch.com/?p=3190009",
+   "techcrunch-ai:https://techcrunch.com/?p=3189975",
+   "techcrunch-ai:https://techcrunch.com/?p=3189965"
   ],
   "verge-ai": [
    "verge-ai:https://www.theverge.com/?p=1001049",
@@ -7445,7 +7487,13 @@
    "verge-ai:https://www.theverge.com/?p=1036415",
    "verge-ai:https://www.theverge.com/?p=1036549",
    "verge-ai:https://www.theverge.com/?p=1036140",
-   "verge-ai:https://www.theverge.com/?p=1036445"
+   "verge-ai:https://www.theverge.com/?p=1036445",
+   "verge-ai:https://www.theverge.com/?p=1037151",
+   "verge-ai:https://www.theverge.com/?p=1036749",
+   "verge-ai:https://www.theverge.com/?p=1035924",
+   "verge-ai:https://www.theverge.com/?p=1036935",
+   "verge-ai:https://www.theverge.com/?p=1036776",
+   "verge-ai:https://www.theverge.com/?p=1036729"
   ],
   "wired-ai": [
    "wired-ai:6abbb69b2122500d82924ae7",
@@ -7599,30 +7647,34 @@
    "wired-ai:6afb86a52f410e459d337bcf",
    "wired-ai:6afcbe818a3cb4ce2f9bb309",
    "wired-ai:6afc944991f318b24b21a23f",
-   "wired-ai:6afce05b9b8ae6ebe897d3f7"
+   "wired-ai:6afce05b9b8ae6ebe897d3f7",
+   "wired-ai:6afe1af4ad9e100370243f53",
+   "wired-ai:6afc87eb72c4b5ad95ef1790",
+   "wired-ai:6afc6b050449a43f25430999",
+   "wired-ai:6afda8873124c57e8adc77a0"
   ]
  },
  "source_ok": {
-  "anthropic": "2026-11-18T16:38:43.823086+00:00",
-  "ars-ai": "2026-11-18T16:38:43.823086+00:00",
-  "decoder": "2026-11-18T16:38:43.823086+00:00",
-  "deepmind": "2026-11-18T16:38:43.823086+00:00",
-  "google-ai": "2026-11-18T16:38:43.823086+00:00",
-  "hf-blog": "2026-11-18T16:38:43.823086+00:00",
-  "hf-papers": "2026-11-18T16:38:43.823086+00:00",
-  "hf-trending": "2026-11-18T16:38:43.823086+00:00",
-  "hn": "2026-11-18T16:38:43.823086+00:00",
-  "import-ai": "2026-11-18T16:38:43.823086+00:00",
-  "latent-space": "2026-11-18T16:38:43.823086+00:00",
+  "anthropic": "2026-11-19T06:38:14.610966+00:00",
+  "ars-ai": "2026-11-19T06:38:14.610966+00:00",
+  "decoder": "2026-11-19T06:38:14.610966+00:00",
+  "deepmind": "2026-11-19T06:38:14.610966+00:00",
+  "google-ai": "2026-11-19T06:38:14.610966+00:00",
+  "hf-blog": "2026-11-19T06:38:14.610966+00:00",
+  "hf-papers": "2026-11-19T06:38:14.610966+00:00",
+  "hf-trending": "2026-11-19T06:38:14.610966+00:00",
+  "hn": "2026-11-19T06:38:14.610966+00:00",
+  "import-ai": "2026-11-19T06:38:14.610966+00:00",
+  "latent-space": "2026-11-19T06:38:14.610966+00:00",
   "localllama": "2026-11-17T16:38:55.241696+00:00",
-  "meta-ai": "2026-11-18T16:38:43.823086+00:00",
-  "mistral": "2026-11-18T16:38:43.823086+00:00",
-  "mit-tr-ai": "2026-11-18T16:38:43.823086+00:00",
-  "openai": "2026-11-18T16:38:43.823086+00:00",
-  "simonw": "2026-11-18T16:38:43.823086+00:00",
-  "techcrunch-ai": "2026-11-18T16:38:43.823086+00:00",
-  "verge-ai": "2026-11-18T16:38:43.823086+00:00",
-  "wired-ai": "2026-11-18T16:38:43.823086+00:00"
+  "meta-ai": "2026-11-19T06:38:14.610966+00:00",
+  "mistral": "2026-11-19T06:38:14.610966+00:00",
+  "mit-tr-ai": "2026-11-19T06:38:14.610966+00:00",
+  "openai": "2026-11-19T06:38:14.610966+00:00",
+  "simonw": "2026-11-19T06:38:14.610966+00:00",
+  "techcrunch-ai": "2026-11-19T06:38:14.610966+00:00",
+  "verge-ai": "2026-11-19T06:38:14.610966+00:00",
+  "wired-ai": "2026-11-19T06:38:14.610966+00:00"
  },
  "telegram_offset": 115081541,
  "telegram_sent": "2026-11-18-2130",
