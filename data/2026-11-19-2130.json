@@ -1,0 +1,206 @@
+{
+ "date": "2026-11-19",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "ChatGPT adds Live Dictation that transcribes as you speak",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI rolled out Live Dictation in ChatGPT, transcribing speech in real time instead of waiting until the user finishes recording, across web, desktop, and mobile apps on all plans.",
+   "more": "Live Dictation lets ChatGPT transcribe audio prompts as the user speaks, rather than waiting until they finish recording. OpenAI is rolling the feature out globally across the web, desktop app, and iOS and Android apps, on all ChatGPT plans.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1037634"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1037634",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+     "published": "2026-11-19T15:16:45+00:00",
+     "excerpt": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation in ChatGPT, you can tap or […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-19T15:16:45+00:00"
+  },
+  {
+   "title": "Verge reporter tests Apple and Amazon's always-listening AI wearables",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Verge reporter spent two weeks testing Apple's Siri Recap on the Apple Watch Ultra 4 and Amazon's Bee Frontier, both wearables that ambiently listen to conversations and use AI to summarize them.",
+   "more": "Both products enable a wearable device to continuously listen to conversations and generate AI summaries of what was discussed. The review set out to test whether that ambient listening and summarization proved worthwhile over an extended period of use.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1037100"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1037100",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "I let Apple’s always-listening AI summarize my life for two weeks",
+     "url": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+     "published": "2026-11-19T13:00:00+00:00",
+     "excerpt": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-19T13:00:00+00:00"
+  },
+  {
+   "title": "Canva adds a button to turn off its AI features",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Canva now lets users disable its generative AI tools, including the photo-extending Magic Expand feature and its chatbot's image generation, though the toggle doesn't disable every AI-powered feature.",
+   "more": "The new toggle lets users turn off specific generative AI tools within the design platform, such as the photo-extending Magic Expand feature. It also allows disabling image generation through Canva's built-in chatbot. Canva clarified that the off switch does not disable every AI-powered feature in the product.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1037126"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1037126",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Canva adds an AI ‘off’ button",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+     "published": "2026-11-19T12:30:00+00:00",
+     "excerpt": "Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. This toggle doesn't turn off every AI-powered […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-19T12:30:00+00:00"
+  },
+  {
+   "title": "Superhuman expands its Go AI agent into Docs and Mail",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Superhuman is positioning Go as the central AI agent across its product suite, expanding its availability into the company's Docs and Mail products.",
+   "more": "Superhuman is making Go its central agent and extending its availability into the company's Docs and Mail products.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3188332"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188332",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Superhuman pushes its Go assistant everywhere",
+     "url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+     "published": "2026-11-19T14:00:00+00:00",
+     "excerpt": "Superhuman is making Go its central agent and making it available in Docs and Mail"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-19T14:00:00+00:00"
+  },
+  {
+   "title": "OpenAI researchers value coding agents over nearly half their colleagues",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI researchers increasingly rely on internal coding agents, whose theoretical token costs now exceed base salaries, and said they value the tools more than nearly half of their colleagues, despite the agents still producing a lot of \"AI slop.\"",
+   "more": "OpenAI's internal use of coding agents is growing quickly, and the theoretical token cost of that usage now exceeds researchers' base salaries. Teams are reportedly reluctant to work without the tools, and researchers say they value them more than nearly half of their colleagues. Even so, the models still produce a substantial amount of \"AI slop\" beyond routine, well-defined tasks.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43072"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43072",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues",
+     "url": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
+     "published": "2026-11-19T13:08:35+00:00",
+     "excerpt": "OpenAI's internal use of coding agents is growing fast, with theoretical token costs now exceeding researchers' base salaries. Even though teams are reluctant to work without these tools, the models still produce a lot of \"AI slop\" beyond routine tasks. The article OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-19T13:08:35+00:00"
+  },
+  {
+   "title": "Anthropic goes public in record-breaking $81.3 billion IPO",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic went public in the largest IPO in history, raising $81.3 billion and surpassing SpaceX's record, as CEO Dario Amodei used his Nasdaq opening-bell speech to recommit to pacing AI development despite business and political pressure.",
+   "more": "The IPO raised $81.3 billion, dethroning SpaceX as the previous record holder for a public debut. At the Nasdaq opening bell, Amodei reiterated Anthropic's commitment to pacing AI development regardless of business or political pressure. TechCrunch reports the company faces enormous compute commitments as it goes public, though infrastructure partners Amazon and Google could keep profiting from AI even if Anthropic loses its lead. Early investor Dustin Moskovitz has publicly distanced himself from the company, saying his early funding may have been an act \"that ended the world.\" Wired notes investors will be weighing whether Anthropic's AI safety strategy and growing public anger toward data centers could affect its growth.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1037459",
+    "techcrunch-ai:https://techcrunch.com/?p=3190440",
+    "techcrunch-ai:https://techcrunch.com/?p=3190277",
+    "wired-ai:6afda55081c12cf49a02c348",
+    "decoder:https://the-decoder.com/?p=43077"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1037459",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+     "published": "2026-11-19T14:25:37+00:00",
+     "excerpt": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized safety […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3190440",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+     "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+     "published": "2026-11-19T16:19:41+00:00",
+     "excerpt": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3190277",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+     "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+     "published": "2026-11-19T14:54:39+00:00",
+     "excerpt": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead."
+    },
+    {
+     "id": "wired-ai:6afda55081c12cf49a02c348",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
+     "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+     "published": "2026-11-19T12:00:00+00:00",
+     "excerpt": "Investors betting a barnstorming $107 billion will weigh whether the company’s AI safety strategy and growing public anger towards data centers could impact its growth."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=43077",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector",
+     "url": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
+     "published": "2026-11-19T14:02:22+00:00",
+     "excerpt": "Anthropic launches the largest IPO in history, dethroning SpaceX as the previous record holder. Early investor Dustin Moskovitz is publicly distancing himself, warning that his early funding may have been an act \"that ended the world.\" The article Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 4,
+   "newest": "2026-11-19T16:19:41+00:00"
+  }
+ ]
+}
