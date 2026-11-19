@@ -1,0 +1,151 @@
+{
+ "date": "2026-11-19",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Google releases Gemini 4 Neon, a faster and cheaper mid-tier model",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind released Gemini 4 Neon, its fourth model in seven weeks. It is nearly twice as fast as its predecessor Carbon, beats it on most benchmarks, and costs significantly less.",
+   "more": "Google DeepMind released Gemini 4 Neon, its fourth model in just seven weeks. Neon is nearly twice as fast as its predecessor, Carbon, outperforms it on most benchmarks, and is significantly cheaper to run. Latent Space's newsletter covered the release under the heading \"GDM's Opus/Sol Contender,\" noting that Google's middle tier now scores 61 on its Intelligence Index. The excerpts don't give exact pricing figures beyond the comparison to Carbon, or how Neon stacks up against other labs' models on third-party benchmarks.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43064",
+    "latent-space:urn:latent-space:post:post_16b7c005-6ab8-4b06-8b1e-8f29a24d706e"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43064",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago",
+     "url": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/",
+     "published": "2026-11-19T11:18:18+00:00",
+     "excerpt": "Google DeepMind has released Gemini 4 Neon, its fourth model in seven weeks, which is nearly 2x faster than its sibling Carbon, outperforms it on most benchmarks and comes in at a significantly lower price. The article Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago appeared first on The Decoder ."
+    },
+    {
+     "id": "latent-space:urn:latent-space:post:post_16b7c005-6ab8-4b06-8b1e-8f29a24d706e",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+     "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+     "published": "2026-11-19T07:07:43+00:00",
+     "excerpt": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-19T11:18:18+00:00"
+  },
+  {
+   "title": "OCR costs drop fivefold in 18 months, a million pages now under $130",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Digitizing scanned pages with AI-based OCR has gotten far cheaper: freely available models can now process a million pages for under $130, a fivefold drop in 18 months.",
+   "more": "Pulling text out of scanned books and historical records with AI has gotten a lot cheaper. The cost to OCR a million pages has dropped roughly fivefold over the past 18 months, to under $130, driven by freely available AI models rather than proprietary services.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43058"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43058",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
+     "url": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
+     "published": "2026-11-19T09:28:01+00:00",
+     "excerpt": "Pulling text out of scanned books and records has gotten a lot cheaper with freely available AI models. The article OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-19T09:28:01+00:00"
+  },
+  {
+   "title": "Jeveration extends fast 'System One' models to single-pass image generation",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper, Jeveration, shows that the fast, parallel-prediction paradigm behind \"System One\" models like Jev can also generate coherent images in a single forward pass.",
+   "more": "The paper argues that the decision paradigm behind fast, parallel-prediction \"System One\" models such as Jev can extend beyond decisions to image generation. Jeveration builds on a frozen vision-language model, repurposing its existing visual-semantic knowledge to produce whole images rather than training a new generator from scratch. The central technical challenge is global consistency: a single prompt admits many valid images, yet the model's parallel predictions must still converge on one coherent result rather than drifting into incoherent combinations. The excerpt is cut off before detailing model size, training data, or benchmark comparisons to standard diffusion or autoregressive image generators.",
+   "item_ids": [
+    "hf-papers:2611.24738"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.24738",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Jeveration: System One Models Now Generate",
+     "url": "https://huggingface.co/papers/2611.24738",
+     "published": "2026-11-19T00:00:00+00:00",
+     "excerpt": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-19T00:00:00+00:00"
+  },
+  {
+   "title": "CurvDelta uses low-curvature parameter updates to protect LLM capabilities",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "CurvDelta is a new fine-tuning framework that bakes a \"capability preservation\" constraint into how model updates are parameterized, aiming to adapt LLMs without degrading their general abilities.",
+   "more": "A common failure mode when adapting large language models is capability preservation: an update can hit its target while quietly degrading the model's general abilities elsewhere. CurvDelta addresses this by analyzing the local geometry of the preservation constraint around the pre-adaptation model, then constructing a low-curvature space in which parameter updates can move toward the new target while leaving the preservation loss nearly unchanged. The method is described as scalable, suggesting it is meant to work on large models rather than only small demonstrations. The excerpt is cut off before specific benchmarks, model sizes, or quantitative results, so how much capability loss it avoids versus standard fine-tuning isn't yet clear.",
+   "item_ids": [
+    "hf-papers:2611.24654"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.24654",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
+     "url": "https://huggingface.co/papers/2611.24654",
+     "published": "2026-11-19T00:00:00+00:00",
+     "excerpt": "A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its target while degrading general capabilities. We introduce CurvDelta, a scalable framework that incorporates the preservation constraint into the parameterization of the model update. By analyzing the local geometry of the preservation constraint around the pre-adaptation model, CurvDelta constructs a low-curvature space in which parameter updates leave the preservation loss near"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-19T00:00:00+00:00"
+  },
+  {
+   "title": "HINT-WAM trains robot world-action models on hindsight-informed data",
+   "tags": [
+    "robotics",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "HINT-WAM is a new post-training method for \"world action models\" used in robot manipulation, aiming to close the gap between offline demonstration training and reliable task execution.",
+   "more": "World action models combine action generation with predictions of future visual dynamics, and have shown promising generalization and data efficiency in robot manipulation. Turning that promise into reliable task execution has been difficult for existing post-training methods: offline supervised fine-tuning gives dense supervision on expert trajectories, but its flow-matching action expert is trained only on noised demonstration actions and never on the intermediate states a robot would actually encounter during execution. HINT-WAM's \"hindsight-informed\" name suggests it trains using information only available after a trajectory unfolds, though the excerpt cuts off before explaining the exact mechanism. Which robots, tasks, or benchmarks were used to evaluate the method isn't given in the excerpt.",
+   "item_ids": [
+    "hf-papers:2611.24789"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.24789",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+     "url": "https://huggingface.co/papers/2611.24789",
+     "published": "2026-11-19T00:00:00+00:00",
+     "excerpt": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervised fine-tuning provides dense supervision on expert trajectories, but its flow-matching action expert is trained only on noised demonstration actions and never on the intermediate"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-19T00:00:00+00:00"
+  }
+ ]
+}
