@@ -1,0 +1,363 @@
+{
+ "date": "2026-11-20",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Bloomberg: AI-exposed jobs in China falling faster than other roles",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Bloomberg analysis of 10 million job postings found AI-exposed roles in China declining 10 percentage points faster than other jobs, hitting entry-level and creative workers hardest.",
+   "more": "A Bloomberg News analysis of 10 million job postings found that AI-exposed roles in China are shrinking about 10 percentage points faster than other roles, adding to an already weak labor market. Entry-level workers and the creative industry appear hit hardest, with more than 90% of Chinese micro-dramas now made using AI. Former central bank adviser Cai Fang is quoted warning that a larger AI-driven shock to the labor market is still ahead. The excerpt doesn't break down figures by industry beyond the micro-drama example.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43119"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43119",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others",
+     "url": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
+     "published": "2026-11-20T15:56:03+00:00",
+     "excerpt": "A Bloomberg News analysis of 10 million job postings suggests AI is compounding China's already weak labor market. Entry-level workers and the creative industry are feeling the shift most, with more than 90% of Chinese micro-dramas now produced using AI. Former central bank adviser Cai Fang warns that a larger AI shock is still ahead. The article Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others appeared first on The Decode"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T15:56:03+00:00"
+  },
+  {
+   "title": "TechCrunch: Nvidia's earnings beat comes amid Jensen Huang scandal fallout",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia posted strong earnings despite continued fallout from CEO Jensen Huang's ouster, while announcing it will stop selling H200 chips in China and rebuffing calls to reverse that decision.",
+   "more": "This TechCrunch podcast covers the continuing fallout from Nvidia's ouster of CEO Jensen Huang, set against the backdrop of the company's latest earnings report. Nvidia reported healthy growth and said it expects the good times to continue. At the same time, the company said it will stop selling its H200 chips in China and dismissed calls to reconsider that decision. The excerpt doesn't detail the allegations behind Huang's ouster or give specific earnings figures.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3190825"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3190825",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+     "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+     "published": "2026-11-20T14:55:44+00:00",
+     "excerpt": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T14:55:44+00:00"
+  },
+  {
+   "title": "Nvidia reportedly nears $500M deal for diffusion-model startup Inception",
+   "tags": [
+    "industry",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia is close to acquiring AI startup Inception for at least $500 million to bolster its open-source Nemotron model lineup, The Information reported.",
+   "more": "According to The Information, as relayed by The Decoder, Nvidia is close to acquiring AI startup Inception for at least $500 million. Inception, just two years old, builds language models based on diffusion processes rather than the token-by-token generation used by models like ChatGPT. The deal would strengthen Nvidia's own open-source model lineup, Nemotron, and support its push into robotics. Terms beyond the reported minimum price, and the deal's final status, aren't confirmed in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43118"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43118",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
+     "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
+     "published": "2026-11-20T14:53:50+00:00",
+     "excerpt": "Nvidia is close to acquiring AI startup Inception for at least $500 million, according to The Information. The company is just two years old and builds language models based on diffusion processes, an alternative approach to the token-by-token generation used by models like ChatGPT. The deal would bolster Nvidia's own open-source models and its push into robotics. The article Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup appeared "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T14:53:50+00:00"
+  },
+  {
+   "title": "Stock markets slump worldwide even as Anthropic closes record IPO",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Global stock markets slumped despite Anthropic completing a record-breaking IPO, as a broader AI-related sell-off continued. The Hacker News discussion of the report drew heavy engagement.",
+   "more": "The only detail available from this Item is its headline: despite Anthropic completing a record-breaking IPO, a wider AI-related sell-off pulled global stock markets down. The underlying Guardian article wasn't fetched beyond the title, so index moves or sector breakdowns aren't available here. The Hacker News discussion of the story drew significant engagement, at 128 points and 111 comments.",
+   "item_ids": [
+    "hn:50574383"
+   ],
+   "items": [
+    {
+     "id": "hn:50574383",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+     "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+     "published": "2026-11-20T13:29:59+00:00",
+     "excerpt": "128 points, 111 comments. Discussion: https://news.ycombinator.com/item?id=50574383"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T13:29:59+00:00"
+  },
+  {
+   "title": "Anthropic announces its IPO has closed",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic published a short item on its official news page titled 'IPO close,' marking the closing of its IPO.",
+   "more": "Anthropic's own news blog published an item titled 'IPO close,' but the fetched excerpt contained no body text, so further detail from this post isn't available from this Item alone.",
+   "item_ids": [
+    "anthropic:https://www.anthropic.com/news/ipo-close"
+   ],
+   "items": [
+    {
+     "id": "anthropic:https://www.anthropic.com/news/ipo-close",
+     "source": "anthropic",
+     "source_name": "Anthropic",
+     "title": "Ipo close",
+     "url": "https://www.anthropic.com/news/ipo-close",
+     "published": null,
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": ""
+  },
+  {
+   "title": "TechCrunch rounds up six AI gadgets for a smarter home office",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch highlights six AI-powered devices, including notetakers and webcams, aimed at upgrading home office setups.",
+   "more": "The roundup lists six AI-powered gadgets intended to upgrade a home office, spanning categories from notetakers to webcams. The excerpt doesn't name the specific products or brands included.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3186208"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3186208",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Six AI-powered gadgets that could make your home office smarter",
+     "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+     "published": "2026-11-20T14:00:00+00:00",
+     "excerpt": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T14:00:00+00:00"
+  },
+  {
+   "title": "Google adds collapsible AI Mode sidebar to search homepage",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google is rolling out a collapsible sidebar on its desktop search homepage that lets users reopen recent AI Mode searches, threads, and notebooks, pushing search further toward an AI answer engine.",
+   "more": "Google is globally rolling out a collapsible sidebar on its desktop search homepage. Inside AI Mode, the sidebar lets users reopen recent AI searches, search threads, and create notebooks. The update also launches temporary threads worldwide that aren't saved to search history. Google Search co-lead Robby Stein says the feature is meant to make it easier for users to continue longer web research sessions.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43111"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43111",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
+     "url": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
+     "published": "2026-11-20T13:19:31+00:00",
+     "excerpt": "Google is rolling out a collapsible sidebar globally on its Desktop Search homepage. In AI Mode, it lets users reopen recent AI searches, search threads, and create notebooks. Temporary threads that aren't saved to history are also launching worldwide. Google Search co-lead Robby Stein says the feature should make it easier for users to continue longer web research. The article Google's latest homepage update pushes its search engine further toward an AI answer engine appeared first on The Decod"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T13:19:31+00:00"
+  },
+  {
+   "title": "Meta's Muse AI assistant lets Instagram users track and unfollow non-followers",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta's AI assistant Muse can track which Instagram users don't follow back and unfollow them, and some users are embracing the feature enthusiastically.",
+   "more": "Wired reports that Meta's AI assistant, Muse, can track and unfollow Instagram users who don't follow a person back. According to the piece, some users are leaning into the feature, using it to clean up who they follow based on reciprocity. The excerpt doesn't specify when Muse gained this capability or how widely it has rolled out.",
+   "item_ids": [
+    "wired-ai:6af763c2b6bcd37d17807d64"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af763c2b6bcd37d17807d64",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Muse Is Unleashing a World of Pettiness on Instagram",
+     "url": "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/",
+     "published": "2026-11-20T12:00:00+00:00",
+     "excerpt": "Meta’s AI assistant can track and unfollow Instagram users who don’t follow you back—and some people are taking full advantage."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T12:00:00+00:00"
+  },
+  {
+   "title": "Anthropic mathematician says he proved the Riemann Hypothesis with Claude",
+   "tags": [
+    "research",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic mathematician Levent Alpöge claims to have proven the Riemann Hypothesis working with Claude, and says the method extends to the Generalized and Extended versions. The claim is not yet independently verified.",
+   "more": "Levent Alpöge, a mathematician at Anthropic, says he and Claude have produced a proof of the Riemann Hypothesis, one of mathematics' most famous unsolved problems. In his own account, quoted by Simon Willison, Alpöge says the method 'easily extends much further,' resolving the Generalized Riemann Hypothesis and, he expects with more time, the Extended Riemann Hypothesis too. He and Claude have also formalized the arguments without additional assumptions. The claim has not yet been independently verified; The Verge notes that if confirmed, it would be another major milestone for AI in mathematics. Posted as a PDF, the claim generated heavy discussion on Hacker News, drawing 1,067 points and 694 comments.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1010051",
+    "hn:50574968",
+    "simonw:https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1010051",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+     "published": "2026-11-20T16:34:13+00:00",
+     "excerpt": "Anthropic mathematician Levent Alpöge claims he has solved the Riemann hypothesis, one of mathematics' most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics, and add to the upheaval […]"
+    },
+    {
+     "id": "hn:50574968",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+     "url": "https://alpo.ge/remark.pdf",
+     "published": "2026-11-20T14:16:21+00:00",
+     "excerpt": "1067 points, 694 comments. Discussion: https://news.ycombinator.com/item?id=50574968"
+    },
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Levent Alpöge",
+     "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+     "published": "2026-11-20T16:30:48+00:00",
+     "excerpt": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course of progress so amazed me that I believe it is one "
+    }
+   ],
+   "coverage": 3,
+   "newest": "2026-11-20T16:34:13+00:00"
+  },
+  {
+   "title": "Researchers introduce Multimodal Concept Lens to probe VLM concepts",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces the Multimodal Concept Lens, built on global workspace theory, to study how vision-language models internally select and represent concepts. The authors argue current VLM outputs don't reveal this internal processing.",
+   "more": "The paper argues that although vision-language models combine visual and textual information, their final outputs do not show how they internally represent concepts. The authors draw on global workspace theory, which holds that information from parallel processes is selected and integrated into a shared workspace before becoming available to specialized systems. To study this inside VLMs, they introduce the Multimodal Concept Lens (MC-Lens), described as a multimodal Jacobian lens. The lens uses separate mappings for the vision encoder and language decoder, though the excerpt is cut off before describing what the analysis found.",
+   "item_ids": [
+    "hf-papers:2611.26590"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.26590",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+     "url": "https://huggingface.co/papers/2611.26590",
+     "published": "2026-11-20T00:00:00+00:00",
+     "excerpt": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map i"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T00:00:00+00:00"
+  },
+  {
+   "title": "Apple builds its own AI agent while limiting rivals' device access",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apple is developing an AI agent that can control a user's device, following Meta, OpenAI, Anthropic, and Google, while also making it harder for competing agents to access its devices.",
+   "more": "The Decoder reports that Apple is joining Meta, OpenAI, Anthropic, and Google in building an AI agent capable of controlling a user's device. At the same time, Apple is said to be raising new barriers that make it harder for competing AI agents to access its devices. The excerpt doesn't specify the agent's name, a release timeline, or exactly what access restrictions are being imposed on rivals.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43117"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43117",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
+     "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+     "published": "2026-11-20T15:03:25+00:00",
+     "excerpt": "After Meta, OpenAI, Anthropic, and Google launched their own AI agents, Apple is now building one too - while making it harder for rivals to access its devices. The article Apple joins the race for AI agents that control your device while raising new barriers for competitors appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T15:03:25+00:00"
+  },
+  {
+   "title": "Signal blocks Gemini and Siri from reading phone screens",
+   "tags": [
+    "policy",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Signal is restricting screenshot capture on Android and iOS to stop AI agents like Gemini and Siri from reading users' messages and other on-screen data, citing privacy concerns.",
+   "more": "Signal said it is limiting the ability to take screenshots on both Android and iOS to prevent AI agents from reading users' messages and other on-screen information. Signal's president said agentic AI features built into phone operating systems, which analyze on-screen content to learn about users, are 'undermining Signal's ability to independently guarantee privacy.' The restriction specifically targets agentic capabilities in assistants such as Gemini and Siri. The excerpt doesn't specify a rollout timeline or the technical mechanism behind the block.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1038390"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1038390",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+     "published": "2026-11-20T12:30:47+00:00",
+     "excerpt": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T12:30:47+00:00"
+  },
+  {
+   "title": "Vergecast reviews a week of major tech outages",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Vergecast discusses a week marked by a multi-day Outlook outage, a rare nationwide flight ground stop, bank system failures, and an iCloud outage.",
+   "more": "This episode of the Vergecast reviews a rough week for tech infrastructure: a days-long Outlook outage, a nationwide flight ground stop that the hosts say happened for only the second time in 25 years, banking systems that seemed to stop working, and an iCloud outage. The hosts frame the week as evidence the 'technological world' is fraying, and suggest the disruptions could be an early sign of bigger problems ahead. The excerpt doesn't specify a shared cause linking the incidents, and no AI-specific angle is mentioned.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1038419"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1038419",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The week everything fell apart",
+     "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+     "published": "2026-11-20T14:06:59+00:00",
+     "excerpt": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be the beginning of something even bigger. On […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T14:06:59+00:00"
+  }
+ ]
+}
