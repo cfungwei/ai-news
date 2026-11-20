@@ -1,0 +1,271 @@
+{
+ "date": "2026-11-20",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Mind2Act World benchmark tests robots on reasoning, action, and their combination",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new benchmark, Mind2Act World, evaluates embodied AI on cognitive reasoning, physical execution, and composing the two together in robotic manipulation tasks that most existing benchmarks test only separately.",
+   "more": "Mind2Act World is a new diagnostic benchmark for embodied AI that tests three capabilities together: history-based cognitive reasoning, precise physical execution, and the ability to compose the two through environmental feedback. The authors say most existing benchmarks evaluate reasoning and execution within the same tasks, or test them separately, but rarely check whether a system can combine them. That gap, they argue, makes it hard to tell whether a robot fails at manipulation tasks because of faulty reasoning, poor execution, or an inability to adapt one based on the other. The released excerpt does not name specific models or robot platforms evaluated against the new benchmark.",
+   "item_ids": [
+    "hf-papers:2611.26444"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.26444",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+     "url": "https://huggingface.co/papers/2611.26444",
+     "published": "2026-11-20T00:00:00+00:00",
+     "excerpt": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a fai"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T00:00:00+00:00"
+  },
+  {
+   "title": "Coda-DaVinci studies how code-based proxies shape AI video generation quality",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new study, Coda-DaVinci, examines how the 3D code proxies used in Code2Video should be built for the best video generation quality, finding task-dependent trade-offs between proxy granularity and realism.",
+   "more": "Code2Video is an existing approach that uses agent-authored 3D proxies to steer video generation, giving explicit control over structure and dynamics. Coda-DaVinci studies how those proxies and prompts should be constructed for the best downstream video quality, an area the authors say was underexplored. Through controlled experiments and blinded human evaluation, the researchers tested proxy granularity and physics simulation choices. They found the results depend on the task: coarser proxies produced more natural motion, while the excerpt is cut off before detailing the effects of medium and fine-grained proxies.",
+   "item_ids": [
+    "hf-papers:2611.26595"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.26595",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+     "url": "https://huggingface.co/papers/2611.26595",
+     "published": "2026-11-20T00:00:00+00:00",
+     "excerpt": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results reveal task-dependent trade-offs: coarse proxies favor natural motion, while medium"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T00:00:00+00:00"
+  },
+  {
+   "title": "HiUni extends a vision-language model to unify visual understanding and generation",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "HiUni is a new unified multimodal model that explores extending a pretrained vision-language model directly into one system for both visual understanding and generation, rather than keeping them separate.",
+   "more": "Unified multimodal models try to support both visual understanding and generation within a single framework, but prevailing approaches often separate their visual representations or backbone computation to meet each task's different requirements. HiUni revisits that design choice, exploring whether a pretrained vision-language model can be directly extended into a unified model instead. The excerpt describing the approach is cut off before detailing parameter scale or specific results achieved.",
+   "item_ids": [
+    "hf-papers:2611.26107"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.26107",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
+     "url": "https://huggingface.co/papers/2611.26107",
+     "published": "2026-11-20T00:00:00+00:00",
+     "excerpt": "Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computation to accommodate the different requirements of these two tasks, which limits the degree of unification. In this paper, we present HiUni, which revisits this design choice and explores whether a pretrained vision language model can be directly extended into a unified model with extensive parameter s"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T00:00:00+00:00"
+  },
+  {
+   "title": "EgoCaptioner aims for more detailed, precisely timed egocentric video captions",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "EgoCaptioner is a new approach to egocentric video captioning that pairs a scene-level overview with precisely timed, detail-adaptive narration, addressing timing and detail gaps in current multimodal models.",
+   "more": "Egocentric video captioning requires fine-grained detail and accurate timing, but current multimodal large language models often miss brief actions, confuse their order, or misread the wearer's motion, the authors say. Existing caption formats also offer limited support for combining detailed narration with precise timing. EgoCaptioner addresses this by pairing a video-level overview of the setting, participants, and the wearer's overall activity with timed steps whose narration adapts to varying levels of detail. The excerpt does not specify what models or datasets were used to evaluate EgoCaptioner.",
+   "item_ids": [
+    "hf-papers:2611.26380"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.26380",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
+     "url": "https://huggingface.co/papers/2611.26380",
+     "published": "2026-11-20T00:00:00+00:00",
+     "excerpt": "Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Existing caption formats also offer limited support for combining detailed narration with precise timing. We present EgoCaptioner, which pairs a video-level overview of the setting, participants, and the wearer's overall activity with timed steps whose narration adapts to varying perc"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic completes largest-ever IPO, valued near $1.5 trillion",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic went public in what's described as the largest IPO in history: shares (ANT) priced at $83, opened at $111.50, and closed at $97.17, valuing the company near $1.5 trillion.",
+   "more": "Anthropic's stock, trading under the ticker ANT, priced at $83 ahead of its public debut on November 19, 2026. Shares opened at $111.50 and closed the day at $97.17, valuing the company at roughly $1.5 trillion. The listing is described as the largest IPO in history. The same roundup separately notes that Google has opened its Genie 4 model to developers, though no further detail on that is given in this excerpt.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_a954b2a3-7633-4f51-bdca-627a4cc7f380"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_a954b2a3-7633-4f51-bdca-627a4cc7f380",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+     "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+     "published": "2026-11-20T07:12:24+00:00",
+     "excerpt": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T07:12:24+00:00"
+  },
+  {
+   "title": "16-year-old founder launches Polemos, an AI missile startup chasing 'cost per kill'",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Henrijs Dandzbergs, 16, dropped out of high school for Y Combinator to found Polemos, developing a new breed of AI-guided missile meant to lower the 'cost per kill' for the US and its allies.",
+   "more": "Henrijs Dandzbergs dropped out of high school to join Y Combinator, the startup accelerator, and founded Polemos. The company is developing what it describes as a new breed of missile intended to make killing as efficient as possible for the US and its military allies. The stated focus is on reducing 'cost per kill,' a metric framing munitions effectiveness in economic terms. The excerpt does not specify the missile's technical design, funding raised, or current development stage.",
+   "item_ids": [
+    "wired-ai:6af4d20cc0a9fcf888a73c56"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af4d20cc0a9fcf888a73c56",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
+     "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
+     "published": "2026-11-20T07:00:00+00:00",
+     "excerpt": "Henrijs Dandzbergs dropped out of high school to join startup accelerator Y Combinator. With a new breed of missile, he wants to make killing as efficient as possible for the US and its military allies."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T07:00:00+00:00"
+  },
+  {
+   "title": "WeMM-Video launches as open bilingual omni-modal video model family",
+   "tags": [
+    "models",
+    "open-source",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "WeMM-Video is a new family of open Chinese-English omni-modal foundation models, from 2B to 35B parameters, built for joint audio-visual video understanding and reasoning.",
+   "more": "WeMM-Video is a new family of bilingual Chinese-English omni-modal foundation models, released in 2B, 4B, 9B, and 35B-A3B parameter sizes. It centers on joint audio-visual perception and reasoning, unifying text, image, audio, and video processing in a hybrid-thinking paradigm. The models support a non-thinking instruct mode for fast, direct responses, with the paper framing the work as advancing open-source omni-modal video understanding. The excerpt available does not include benchmark comparisons against other video-understanding models.",
+   "item_ids": [
+    "hf-papers:2611.26409"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.26409",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+     "url": "https://huggingface.co/papers/2611.26409",
+     "published": "2026-11-20T00:00:00+00:00",
+     "excerpt": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm, seamlessly supporting both a non-thinking instruct mode for fast, direct response"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T00:00:00+00:00"
+  },
+  {
+   "title": "Nous Research brings open-source Hermes Agent's 'Collective Wisdom' to MS Teams",
+   "tags": [
+    "agents",
+    "open-source",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nous Research's open-source Hermes Agent is coming to Microsoft Teams, with a new Collective Wisdom feature that turns one employee's AI workflow trick into a skill the whole team can use.",
+   "more": "Hermes Agent is an open-source AI agent from Nous Research that companies will soon be able to run directly inside Microsoft Teams. Its new Collective Wisdom feature is designed to take an AI technique or shortcut discovered by one employee and turn it into a skill usable by the rest of the team. The excerpt does not specify a release date, pricing, or which Teams plans will support the integration.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43108"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43108",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+     "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+     "published": "2026-11-20T09:59:51+00:00",
+     "excerpt": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T09:59:51+00:00"
+  },
+  {
+   "title": "Frostbite, a CPU architecture discovered and verified by AI, trends on HN",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News submission highlights Frostbite, described as a new CPU architecture discovered, designed, and verified by AI, drawing 113 points and 79 comments.",
+   "more": "The submission, titled 'Frostbite: A new CPU architecture discovered, designed and verified by AI,' reached 113 points and 79 comments on Hacker News. The excerpt available does not include details on what AI techniques were used, who built Frostbite, or what distinguishes its architecture from existing CPU designs.",
+   "item_ids": [
+    "hn:50572503"
+   ],
+   "items": [
+    {
+     "id": "hn:50572503",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+     "url": "https://architectlabs.com/blog/frostbite",
+     "published": "2026-11-20T10:01:41+00:00",
+     "excerpt": "113 points, 79 comments. Discussion: https://news.ycombinator.com/item?id=50572503"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T10:01:41+00:00"
+  },
+  {
+   "title": "Jensen Huang scandal fuels tech workers' fears about dating 'honeypots'",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Wired piece reports that the Jensen Huang scandal has become the latest trigger for dating-related anxieties among newly wealthy and powerful tech workers.",
+   "more": "The article frames renewed concern about romantic 'honeypots' as fueled by the Jensen Huang scandal. It describes this as part of a broader anxiety among newly rich and powerful tech workers, though the excerpt does not detail what the Jensen Huang scandal itself involved.",
+   "item_ids": [
+    "wired-ai:6af775346a0ec56e5037a12c"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6af775346a0ec56e5037a12c",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Regular Tech Bros Are Worried About Honeypots",
+     "url": "https://www.wired.com/story/regular-tech-bros-are-worried-about-honeypots/",
+     "published": "2026-11-20T11:00:00+00:00",
+     "excerpt": "The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech workers."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T11:00:00+00:00"
+  }
+ ]
+}
