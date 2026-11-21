@@ -1,0 +1,193 @@
+{
+ "date": "2026-11-21",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Actor licenses his face to an AI microdrama startup, raising Hollywood questions",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "An actor has licensed his likeness to an AI microdrama startup, a practice already common in China, as experts debate what normalizing AI face licensing could mean for Hollywood's future.",
+   "more": "The arrangement lets a microdrama startup generate AI-driven short-form content using the actor's likeness, following a practice TechCrunch says is already common in China. Experts in the piece question what the long-term consequences would be for Hollywood if licensing one's face to AI for performances becomes a widespread trend.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3188069"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3188069",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+     "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+     "published": "2026-11-21T16:00:00+00:00",
+     "excerpt": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T16:00:00+00:00"
+  },
+  {
+   "title": "The Verge debates whether Anthropic can keep safety first after its IPO",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge's AI podcast asks whether Anthropic can preserve its safety-first mission now that it has gone public on Nasdaq, weighing public-market pressure against the lab's founding commitments.",
+   "more": "This is the third and final episode of The Verge's series on AI in real life, built around a conversation with senior AI reporter Hayden Field. It frames the discussion around Anthropic's initial public offering on the Nasdaq last Thursday, noting that the IPO's scale is less important to the conversation than what it means for the company's safety commitments. The episode does not resolve the question, leaving open whether a now-public company can keep its research and deployment choices insulated from investor pressure.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1038701"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1038701",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Can Anthropic afford to put safety first?",
+     "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+     "published": "2026-11-21T15:00:00+00:00",
+     "excerpt": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T15:00:00+00:00"
+  },
+  {
+   "title": "Nvidia researchers say giant context windows are the wrong fix for AI models",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia researchers argue large language models rarely need their full, costly context windows, showing periodic summaries and targeted keyword search can match full-context results far more cheaply.",
+   "more": "The team found that in their tests, giving models periodic summaries and targeted keyword search instead of full long context usually matched the accuracy of full-context processing, at a fraction of the compute cost. They argue today's large context windows are slow, expensive, and prone to errors as length grows. Based on this, the researchers propose a new class of models designed to work from short notes rather than long raw context. The paper does not specify which models or benchmarks were used in the tests.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43171"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43171",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Nvidia researchers argue huge AI context windows are a dead end",
+     "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+     "published": "2026-11-21T16:23:45+00:00",
+     "excerpt": "Nvidia researchers argue that language models often don't need their full context windows—which are slow, expensive, and prone to errors—and propose an alternative. In tests, periodic summaries and targeted keyword search usually matched full-context results at a fraction of the cost. The team even proposes a new class of models that works with short notes instead of long context. The article Nvidia researchers argue huge AI context windows are a dead end appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T16:23:45+00:00"
+  },
+  {
+   "title": "OpenAI publishes prompting tips to curb GPT-6.2 Astra and Sol's terse answers",
+   "tags": [
+    "tools",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI released new prompt templates for GPT-6.2 Astra and Sol aimed at fixing overly brief answers, unnecessary follow-up questions, and excessive testing during coding tasks.",
+   "more": "The new templates target three recurring complaints: answers that are too brief, follow-up questions the model didn't need to ask, and excessive testing behavior when writing code. OpenAI is also changing its API so that editing a conversation's history can discard reasoning content, which can lower response quality if done carelessly. The guidance applies specifically to the Astra and Sol variants of GPT-6.2. Further details on rollout timing were not given.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43162"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43162",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+     "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+     "published": "2026-11-21T13:32:35+00:00",
+     "excerpt": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding. The API is changing as well, since editing a conversation's history can discard reasoning content and lower response quality. The article OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T13:32:35+00:00"
+  },
+  {
+   "title": "Chess.com expands beyond chess with a new Classic Games hub",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Chess.com is launching a Classic Games platform adding ten games, from backgammon and mahjong to a Scrabble alternative called Word, following its earlier non-gambling poker site Gambit.",
+   "more": "The platform launches with ten additional games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called Word. It follows Chess.com's earlier launch of Gambit, a gambling-free poker site, earlier this year. Both are positioned as part of the company's broader ambition to become a hub for classic tabletop and card games beyond chess itself. Pricing, timing, and platform availability details were not given.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1038099"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1038099",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+     "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+     "published": "2026-11-21T14:00:00+00:00",
+     "excerpt": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T14:00:00+00:00"
+  },
+  {
+   "title": "Report: Silicon Valley's AI doomsday fears are curdling into cult-like devotion",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A New Yorker report describes a Vermont Buddhist monastery, Maple, positioning itself as Silicon Valley's spiritual authority while building an AI on its leader's teachings, with former members alleging manipulation and harm.",
+   "more": "The monastery's leader, Soryu Forall, reportedly has his group record every breath members take in order to train an AI modeled on himself. Former members quoted in the New Yorker report describe manipulation and psychological breakdowns tied to their involvement. The Decoder frames the group as an example of AI doomsday anxiety in parts of the tech industry curdling into cult-like devotion. Details on the AI's intended purpose or release were not given.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43166"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43166",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+     "url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+     "published": "2026-11-21T16:04:29+00:00",
+     "excerpt": "A Buddhist monastery in Vermont called Maple wants to establish itself as Silicon Valley's spiritual authority while creating its own AI god. According to a New Yorker report, leader Soryu Forall's group records every breath its members take to train an AI in his image. Former members report manipulation and psychological breakdowns. The article Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T16:04:29+00:00"
+  },
+  {
+   "title": "Wired warns AI-accelerated vulnerability hunting is fueling more internet outages",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired argues that AI is speeding up both the discovery and exploitation of software vulnerabilities, forcing companies to patch faster and signaling more frequent internet outages ahead.",
+   "more": "The piece frames recent and future internet outages as a consequence of AI accelerating both sides of the vulnerability race: defenders patching faster, and attackers exploiting newly discovered flaws more quickly. It does not name specific incidents, vendors, or vulnerabilities behind the trend.",
+   "item_ids": [
+    "wired-ai:6aff54f5dedf491d3bbcabcb"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6aff54f5dedf491d3bbcabcb",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "The Outages Are Just Getting Started",
+     "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+     "published": "2026-11-21T13:00:00+00:00",
+     "excerpt": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T13:00:00+00:00"
+  }
+ ]
+}
