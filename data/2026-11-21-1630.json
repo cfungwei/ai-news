@@ -1,0 +1,118 @@
+{
+ "date": "2026-11-21",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Thinking Machines releases Inkling 2 Mini, an open loop transformer that runs on a laptop",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Thinking Machines released Inkling 2 Mini, an open looped transformer that reruns some layers per token to reason longer without extra text. It matches Qwen3.8 27B on Artificial Analysis's Intelligence Index at about six times lower cost.",
+   "more": "Inkling 2 Mini is an open looped transformer released by Thinking Machines. It runs 12 of its 24 layers three times per token, letting it reason internally for longer instead of generating extra text. On Artificial Analysis's Intelligence Index, it ties with Qwen3.8 27B while costing roughly six times less to run. The model is described as able to run on a laptop. It is not stated how its weights are licensed beyond being described as open.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43149"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43149",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+     "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+     "published": "2026-11-21T10:33:02+00:00",
+     "excerpt": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text. On Artificial Analysis's Intelligence Index, it ties with Qwen3.8 27B at roughly six times lower cost. The article New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T10:33:02+00:00"
+  },
+  {
+   "title": "Bytedance's open model Axion 1.0 argues most AI training phases are unnecessary",
+   "tags": [
+    "models",
+    "open-source",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Bytedance and several US universities released Axion 1.0, an open AI agent that rivals top OpenAI and Anthropic models on benchmarks after only three training phases, crediting curated data rather than more training steps.",
+   "more": "Bytedance, working with several US universities, introduced Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks. The team reached that result after just three training phases, far fewer than typical. They attribute the gains to carefully curated training data rather than additional training steps. The model, its training data, and its code are all freely available. It is not stated which specific benchmarks were used for the comparison.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43145"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43145",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+     "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+     "published": "2026-11-21T09:17:24+00:00",
+     "excerpt": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are freely available. The article Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T09:17:24+00:00"
+  },
+  {
+   "title": "Anthropic claims Claude proved Riemann hypothesis; Stanford publishes rival human proof",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic mathematician Levent Alpöge says Claude produced a Lean-formalized proof of the Riemann hypothesis. Stanford then published a rival all-human proof hours later, and mathematicians are now verifying both.",
+   "more": "Levent Alpöge, a mathematician at Anthropic, says he used Claude to prove the Riemann hypothesis, a problem that has been open for 167 years. The proof is formalized in the Lean theorem-proving language and spans more than 250,000 pages. Just hours after that claim, a separate team of Stanford researchers published their own proof of the same hypothesis, produced entirely by humans. Mathematicians are now independently checking both proofs to see whether either one actually holds up. It is not yet known whether either proof will be confirmed correct.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43157"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43157",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+     "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+     "published": "2026-11-21T11:19:49+00:00",
+     "excerpt": "Anthropic mathematician Levent Alpöge says he used Claude to prove the Riemann hypothesis, math's most famous open problem for 167 years, with a proof formalized in Lean that spans over 250,000 pages. Just hours later, Stanford researchers published an independent, entirely human competing proof, and mathematicians are now checking whether either one holds up. The article Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft appeare"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T11:19:49+00:00"
+  },
+  {
+   "title": "US tech stocks post worst weekly loss since the pandemic as AI doubts mount",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Nasdaq 100 fell into a bear market after its worst weekly loss since the Covid-19 crash. Nvidia dropped 14% amid an SEC accounting review, and Anthropic gave back most of its gains a day after its IPO.",
+   "more": "The Nasdaq 100 slipped into a bear market after suffering its worst weekly loss since the Covid-19 crisis. Nvidia shares plunged 14 percent as the SEC reviews its accounting practices. Anthropic lost nearly all of its gains a day after what was described as a record IPO. The sell-off is attributed to a mix of AI doubts, scandals, rising interest rates, and political headwinds hitting already overheated valuations. It is not stated how long the SEC review is expected to take.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43153"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43153",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+     "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+     "published": "2026-11-21T10:27:44+00:00",
+     "excerpt": "The Nasdaq 100 has slipped into a bear market after its worst weekly loss since the Covid-19 crisis. Nvidia plunged 14 percent as the SEC reviews its accounting, and Anthropic lost nearly all of its gains a day after its record IPO. AI doubts, scandals, rising interest rates, and political headwinds are hitting overheated valuations all at once. The article US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T10:27:44+00:00"
+  }
+ ]
+}
