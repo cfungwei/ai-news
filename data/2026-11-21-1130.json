@@ -1,0 +1,528 @@
+{
+ "date": "2026-11-21",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "AI and a human mathematician both claim Riemann Hypothesis proofs",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Mathematicians are examining two independent, nearly simultaneous claims on the Riemann Hypothesis: one produced with AI, and one a fully human proof of the Generalized Riemann Hypothesis by Alessandro Masullo, reviewed by Brian Conrad.",
+   "more": "One claim comes from an AI system, which TechCrunch says has left mathematicians stunned by the result on the 167-year-old conjecture. The other is a human-only proof of the Generalized Riemann Hypothesis by Alessandro Masullo, which Stanford's Brian Conrad has spent months reviewing, incorporating feedback, and says is looking good, according to a note from Ravi Vakil quoted by Simon Willison. The original plan was to bring Masullo to Stanford for a year to refine the writing before announcing the proof more widely, though it's unclear from available excerpts whether that timeline still holds. Latent Space's AI News roundup also flagged the Riemann Hypothesis as proved \"twice independently\" in the same news cycle. Full verification of either claim is not yet available.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3190908",
+    "latent-space:urn:latent-space:post:post_3976c9e6-ac0c-4bf2-92c8-c83510a92539",
+    "simonw:https://simonwillison.net/2026/Nov/20/ravi-vakil/"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3190908",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+     "published": "2026-11-20T19:32:08+00:00",
+     "excerpt": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too."
+    },
+    {
+     "id": "latent-space:urn:latent-space:post:post_3976c9e6-ac0c-4bf2-92c8-c83510a92539",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Riemann Hypothesis proved...twice independently",
+     "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+     "published": "2026-11-21T05:02:13+00:00",
+     "excerpt": "November 20 2026 —"
+    },
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Ravi Vakil",
+     "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+     "published": "2026-11-20T19:21:49+00:00",
+     "excerpt": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems best to put out the current draft. — Ravi Vakil , Hurried Announcement: Alessandro Masullo GRH Tags:"
+    }
+   ],
+   "coverage": 3,
+   "newest": "2026-11-21T05:02:13+00:00"
+  },
+  {
+   "title": "Researcher plants 2 million tracking \"canaries\" to expose AI privacy leaks",
+   "tags": [
+    "research",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A researcher seeded prompts with 2 million unique, trackable secret \"canaries\" across the AI supply chain and found that private data doesn't stay private, Ars Technica reports.",
+   "more": "The test used prompts containing unique, trackable secrets planted at scale to see whether they leaked out of the AI supply chain. Ars Technica describes the resulting privacy exposure as happening \"at an alarming rate.\" The report frames this as evidence of a systemically leaky AI supply chain rather than an isolated incident. The identity of the researcher, which AI products or companies were tested, and the exact leak mechanism are not specified in the available excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+     "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+     "published": "2026-11-20T20:59:08+00:00",
+     "excerpt": "Test using prompts with unique, trackable secrets proves that data doesn't stay private."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T20:59:08+00:00"
+  },
+  {
+   "title": "METR updates its AI \"time horizon\" graph; judgment lags coding gains",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "AI evaluation nonprofit METR released an updated version of its widely cited time-horizon plot, finding AI capability keeps growing exponentially but that models lag on judgment-heavy tasks versus coding.",
+   "more": "MIT Technology Review describes METR's time horizon plot as \"the most misunderstood graph in AI,\" now updated with new data. The report finds some AI capabilities keep improving along an exponential trajectory, consistent with earlier versions of the graph. However, it also finds that models are not as strong on tasks requiring judgment as they are on coding tasks. The report does not specify which models were evaluated or the exact size of the gap between coding and judgment-based time horizons in the available excerpt.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1149399"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1149399",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "The most misunderstood graph in AI just got a major update",
+     "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+     "published": "2026-11-20T18:15:15+00:00",
+     "excerpt": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T18:15:15+00:00"
+  },
+  {
+   "title": "Paper proposes Posterior Matching Distillation for diffusion models",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces Posterior Matching Distillation, a technique to compress diffusion image and video generators into few-step students while avoiding the diversity loss of reverse-KL-based distillation.",
+   "more": "Diffusion distillation speeds up image and video generation by compressing a pretrained teacher model's many-step sampling process into a student that needs far fewer network evaluations. Existing distribution-matching approaches typically rely on reverse-KL objectives, which the paper says have a mode-seeking bias that favors a teacher's dominant outputs at the expense of sample diversity. Posterior Matching Distillation is presented as a new member of this distribution-matching family, designed to address that diversity loss. The paper was published to Hugging Face's Daily Papers listing; further benchmark results and comparisons are not included in the available excerpt.",
+   "item_ids": [
+    "hf-papers:2611.26629"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.26629",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Posterior Matching Distillation",
+     "url": "https://huggingface.co/papers/2611.26629",
+     "published": "2026-11-20T00:00:00+00:00",
+     "excerpt": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We introduce Posterior Matching Distillation (PMD), a new member of the distributio"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T00:00:00+00:00"
+  },
+  {
+   "title": "OpenAI cuts reasoning-extraction attack success rate from 54% to 0.2%",
+   "tags": [
+    "policy",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI strengthened safeguards on GPT-6.2 Astra and GPT-6.2 Sol against attacks that extract their internal reasoning, cutting the adaptive red-team success rate from 54% to 0.2%, and suspends thousands of accounts weekly over distillation.",
+   "more": "The Decoder reports that OpenAI significantly strengthened protections against attackers extracting the internal reasoning of its GPT-6.2 Astra and GPT-6.2 Sol models. In adaptive red-teaming tests, the success rate for extracting that protected reasoning fell from 54 percent to 0.2 percent. OpenAI is also suspending thousands to tens of thousands of accounts each week over what it describes as coordinated distillation campaigns. Technical details of the new safeguards and how the red-teaming tests were conducted are not given in the available excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43142"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43142",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+     "url": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
+     "published": "2026-11-20T20:31:50+00:00",
+     "excerpt": "OpenAI has significantly strengthened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol. In adaptive red-teaming tests, the success rate for extracting protected reasoning fell from 54 percent to 0.2 percent. The company is also suspending thousands to tens of thousands of accounts each week over coordinated distillation campaigns. The article OpenAI makes it much harder for attackers to extract how its latest AI models think appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T20:31:50+00:00"
+  },
+  {
+   "title": "Signal blocks screenshots on iOS and Android to stop AI agents reading chats",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Signal is blocking screenshots on iOS 27 and Android to prevent AI agents like Siri, Gemini, and Meta's Muse from reading private chats, calling the agents an \"existential threat\" to privacy.",
+   "more": "The Decoder reports that Signal's screenshot-blocking move targets AI agents including Apple's Siri AI, Google's Gemini Intelligence, and Meta's Muse, which could otherwise read private chat content on-screen. Signal calls these AI agents an \"existential threat\" to privacy. The company acknowledges its protections remain incomplete, including on macOS. Signal is calling on Apple, Google, and Microsoft to adopt similar protections.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43124"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43124",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
+     "url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+     "published": "2026-11-20T19:50:27+00:00",
+     "excerpt": "Signal is blocking screenshots to stop AI agents like Apple's Siri AI, Google's Gemini Intelligence, and Meta's Muse from reading private chats. The app calls it an \"existential threat\" to privacy, but admits its protections remain incomplete, including on macOS. Apple, Google, and Microsoft should follow suit. The article Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T19:50:27+00:00"
+  },
+  {
+   "title": "Trump threatens tax on companies moving AI data centers abroad",
+   "tags": [
+    "policy",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "President Trump said he would impose a \"tremendous tax\" on companies that build AI data centers outside the US, even as US states and cities increasingly restrict new data center projects at home.",
+   "more": "Trump said at a public appearance that \"we're not going to allow our companies to build data centers outside of our country,\" framing offshoring of AI infrastructure as something to be taxed heavily. The comments come as various US states and cities move to restrict or add conditions to new data center applications. The report does not specify which companies, what tax rate, or what mechanism Trump has in mind, nor whether this is a formal policy proposal. It is unclear how such a tax would be implemented or whether it has legislative backing so far.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1038892"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1038892",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+     "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+     "published": "2026-11-20T18:50:19+00:00",
+     "excerpt": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T18:50:19+00:00"
+  },
+  {
+   "title": "Google workers petition employer not to punish schools that reject AI",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News discussion highlights a petition in which Google workers ask their employer not to punish schools that decline to adopt AI tools like Gemini.",
+   "more": "The underlying report, from Mother Jones, describes a petition from Google/Alphabet union workers urging the company not to penalize schools that opt out of AI products such as Gemini. The Hacker News submission of this story drew 274 points and 200 comments, indicating strong reader interest. Specific terms of the petition, how many workers signed it, or Google's response are not given in the available excerpt.",
+   "item_ids": [
+    "hn:50577901"
+   ],
+   "items": [
+    {
+     "id": "hn:50577901",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Google workers tell their employer not to punish schools that don't want AI",
+     "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+     "published": "2026-11-20T16:59:27+00:00",
+     "excerpt": "274 points, 200 comments. Discussion: https://news.ycombinator.com/item?id=50577901"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T16:59:27+00:00"
+  },
+  {
+   "title": "Meta reconsiders 2030 net-zero goal as AI data center emissions hit records",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta is \"re-evaluating\" its 2030 net-zero sustainability goal as emissions from its AI data centers reach record levels, according to Ars Technica.",
+   "more": "Ars Technica reports that Meta's AI data centers are driving record emissions, prompting the company to reconsider its previously set 2030 net-zero target. The report frames this as part of a larger question of whether other AI companies with similar climate commitments will follow Meta's lead. Specific emissions figures, the scale of the shortfall, or Meta's revised timeline are not given in the available excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+     "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+     "published": "2026-11-20T21:47:10+00:00",
+     "excerpt": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T21:47:10+00:00"
+  },
+  {
+   "title": "Spotify's Daniel Ek backs Europa Fusion, founded by an AI researcher",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher, according to TechCrunch.",
+   "more": "TechCrunch reports that Daniel Ek, Spotify's founder, is an investor in Europa Fusion, a fusion power startup. The startup's founder is described as an AI researcher, though the report does not name them or detail their background. Funding amount, valuation, and the startup's specific technology approach are not specified in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3190943"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3190943",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+     "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+     "published": "2026-11-20T19:53:41+00:00",
+     "excerpt": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T19:53:41+00:00"
+  },
+  {
+   "title": "Nvidia board cited Jensen Huang's \"lack of candor\" before his resignation",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports Nvidia's board was alarmed less by allegations of Jensen Huang's multiple affairs, including with a direct report and an alleged Chinese intelligence asset, than by his \"lack of candor,\" ahead of his resignation.",
+   "more": "According to sources cited by Wired, Nvidia's board faced allegations that former CEO Jensen Huang had multiple affairs, including with a direct report and someone alleged to be a Chinese intelligence asset. Despite the seriousness of those allegations, Wired's sources say the board's primary concern was Huang's \"lack of candor\" rather than the conduct itself. The report ties these events to Huang's resignation as CEO. Further details on the timeline, the board's decision-making process, and corroboration of the intelligence-asset allegation are not given in the available excerpt.",
+   "item_ids": [
+    "wired-ai:6b006eaa6873ef9746910ed7"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6b006eaa6873ef9746910ed7",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
+     "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
+     "published": "2026-11-20T19:52:21+00:00",
+     "excerpt": "Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of candor.”"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T19:52:21+00:00"
+  },
+  {
+   "title": "Thinking Machines releases Inkling-2-Mini, an MoE vision-language model",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Thinking Machines released Inkling-2-Mini, an image-text-to-text mixture-of-experts model under an Apache 2.0 license; it and an Unsloth GGUF quantization both trended on Hugging Face within days.",
+   "more": "Inkling-2-Mini is an image-text-to-text mixture-of-experts model released by Thinking Machines under an Apache 2.0 license, and it quickly reached 918 likes and 136 downloads on Hugging Face. Days later, Unsloth published a GGUF quantization of the same model, including an imatrix build, which separately picked up 302 likes. The GGUF release lists the original Inkling-2-Mini as its base model and carries the same license and conversational, image-text-to-text tags. Model card details beyond the tags and engagement numbers are not yet available.",
+   "item_ids": [
+    "hf-trending:thinkingmachines/Inkling-2-Mini",
+    "hf-trending:unsloth/Inkling-2-Mini-GGUF"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:thinkingmachines/Inkling-2-Mini",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: thinkingmachines/Inkling-2-Mini",
+     "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+     "published": "2026-11-17T00:26:57+00:00",
+     "excerpt": "image-text-to-text, 918 likes, 136 downloads. Tags: transformers, safetensors, inkling2_loop, text-generation, conversational, image-text-to-text, moe, license:apache-2.0, endpoints_compatible, 8-bit, modelopt, region:us"
+    },
+    {
+     "id": "hf-trending:unsloth/Inkling-2-Mini-GGUF",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: unsloth/Inkling-2-Mini-GGUF",
+     "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+     "published": "2026-11-20T13:09:48+00:00",
+     "excerpt": "image-text-to-text, 302 likes, 0 downloads. Tags: gguf, conversational, image-text-to-text, moe, unsloth, base_model:thinkingmachines/Inkling-2-Mini, base_model:quantized:thinkingmachines/Inkling-2-Mini, license:apache-2.0, endpoints_compatible, region:us, imatrix"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T13:09:48+00:00"
+  },
+  {
+   "title": "Hugging Face model Sentinel7/h3 trends with almost no public details",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "The model Sentinel7/h3 is trending on Hugging Face with 450 likes and zero downloads, but its listing currently has no description, license, or other metadata.",
+   "more": "Sentinel7/h3 appeared in Hugging Face's trending models list with 450 likes but 0 downloads recorded. Unlike most trending entries, its listing carries no task label, license, or framework tags beyond a generic region marker. What the model does, who built it, and why it is trending remain unclear from the available listing.",
+   "item_ids": [
+    "hf-trending:Sentinel7/h3"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:Sentinel7/h3",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: Sentinel7/h3",
+     "url": "https://huggingface.co/Sentinel7/h3",
+     "published": "2026-08-06T04:13:52+00:00",
+     "excerpt": "450 likes, 0 downloads. Tags: region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-08-06T04:13:52+00:00"
+  },
+  {
+   "title": "Hacker News: a post on \"vibecoding\" an inference chip sparks discussion",
+   "tags": [
+    "hardware",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "A blog post describing how the author used AI-assisted \"vibecoding\" to design an inference chip drew 133 points and 54 comments on Hacker News.",
+   "more": "The post, submitted to Hacker News, describes an attempt to design an inference chip using AI-assisted (\"vibecoded\") development rather than traditional chip design methods. It gathered 133 points and 54 comments on the discussion thread. Specific technical details of the chip or its performance are not given in the available excerpt beyond the blog title and discussion metadata.",
+   "item_ids": [
+    "hn:50579297"
+   ],
+   "items": [
+    {
+     "id": "hn:50579297",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Vibecoding an inference chip",
+     "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+     "published": "2026-11-20T18:15:16+00:00",
+     "excerpt": "133 points, 54 comments. Discussion: https://news.ycombinator.com/item?id=50579297"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T18:15:16+00:00"
+  },
+  {
+   "title": "Report: financing, not survival, is the challenge for space-based AI chips",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "TechCrunch examines how chips can be engineered to survive the space environment, but lenders are wary of financing hardware that could be shot into orbit, raising questions for space-based data centers.",
+   "more": "The piece frames the technical challenge of space data centers as largely solved: chips can be engineered to survive the space environment. The harder problem, per TechCrunch, is financing, since lenders are reluctant to treat orbital hardware as recoverable collateral, an issue illustrated by concerns about SpaceX launches. The report frames this as a broader open question for the emerging category of space-based data centers. Specific lenders, deal terms, or companies currently pursuing orbital data centers are not named in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3190857"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3190857",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Chips can survive the space environment — can their financing?",
+     "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+     "published": "2026-11-20T17:40:01+00:00",
+     "excerpt": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T17:40:01+00:00"
+  },
+  {
+   "title": "Google brings \"Computer Use\" to Gemini for Mac, running apps in the background",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google is bringing Computer Use to Gemini for Mac, letting the AI operate desktop apps, local files, and websites in an isolated background window with a live preview while the user keeps working.",
+   "more": "The Decoder reports that Gemini's new Computer Use capability on Mac lets the AI control desktop apps, local files, and websites to complete chores. The feature runs in an isolated background window, with a live preview so the user can monitor what the AI is doing. Users can keep working on their own tasks while Gemini operates in this separate window. Specific supported apps, release timing, and availability details are not given in the excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43135"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43135",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
+     "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+     "published": "2026-11-20T18:50:31+00:00",
+     "excerpt": "Google is bringing \"Computer Use\" to Gemini for Mac, letting the AI operate desktop apps, local files, and websites in an isolated background window with a live preview while users keep working. The article Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T18:50:31+00:00"
+  },
+  {
+   "title": "AI and Lean emerge as a weapon against \"slop\" via formal verification",
+   "tags": [
+    "tools",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Latent Space explores how AI combined with the Lean proof assistant is helping automate formal verification, traditionally a specialist task, as a way to fight low-quality AI-generated \"slop\" software.",
+   "more": "Proving software correct with mathematical formal verification has traditionally required specialized expertise, limiting its use. Latent Space reports that AI tools combined with the Lean proof assistant are now helping automate parts of that process. The piece frames formal verification as an emerging weapon in what it calls \"the war against slop.\" Specific tools, case studies, or adoption figures are not detailed in the available excerpt.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_0e68157c-dcc4-4cb1-b11a-0d563d6bcc86"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_0e68157c-dcc4-4cb1-b11a-0d563d6bcc86",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+     "url": "https://latent.space/p/formal-verification/",
+     "published": "2026-11-20T21:18:41+00:00",
+     "excerpt": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T21:18:41+00:00"
+  },
+  {
+   "title": "Google redesigns search homepage, drops search button, adds AI sidebar",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google rolled out a new search homepage that removes the traditional search button and adds an AI chat sidebar with chat history, making its AI tools more prominent on the page.",
+   "more": "Ars Technica reports the redesign makes AI tools easier to access directly from Google's search homepage. The new design includes an AI sidebar with chat history, letting users return to previous AI conversations from the search page itself. The dedicated search button has been removed as part of the change. Rollout timing, regional availability, and user reception are not detailed in the available excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Google rolls out new search homepage with AI chat history and no search button",
+     "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+     "published": "2026-11-20T21:58:29+00:00",
+     "excerpt": "Google search is making it even easier to access AI tools on the search page."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T21:58:29+00:00"
+  },
+  {
+   "title": "Police departments use corny \"GTA 6\"-styled content despite its anti-cop tone",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports that real police departments are using corny \"Grand Theft Auto 6\"-styled content to recruit new members and scold the public, despite the game's open contempt for law enforcement.",
+   "more": "The blockbuster game Grand Theft Auto 6 makes no secret of its contempt for police, according to Wired. Despite that, real police departments are using GTA 6-themed promotional material, described as \"slop,\" both to recruit new officers and to lecture the public. Wired frames this as departments missing the game's anti-police tone entirely. Specific departments, dates, or examples of the content are not named in the available excerpt.",
+   "item_ids": [
+    "wired-ai:6b0083c47020ceeb47169e93"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6b0083c47020ceeb47169e93",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
+     "url": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
+     "published": "2026-11-20T23:24:02+00:00",
+     "excerpt": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T23:24:02+00:00"
+  }
+ ]
+}
