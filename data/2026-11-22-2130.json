@@ -1,0 +1,143 @@
+{
+ "date": "2026-11-22",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "AI coding agents finish fewer than 1 in 10 tasks in simulated workplace test",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new benchmark drops AI coding agents into a simulated developer job with colleagues and project boards; even Opus 5.5 and Astra complete fewer than one in ten tasks fully, despite acing isolated coding tests.",
+   "more": "The test mimics a messy real job rather than a one-off coding prompt: agents work with colleagues, a project board, and incomplete handoffs, and must keep developing software and closing tickets on their own. Models that excel on standard isolated coding benchmarks fell far short here, completing less than 10% of tasks. The agents finished clear, self-contained assignments quickly but lost track of work as autonomous developers over a sustained workflow. The results point to a gap between benchmark scores and the kind of ongoing, collaborative engineering work a human developer actually does.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43203"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43203",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+     "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+     "published": "2026-11-22T15:15:48+00:00",
+     "excerpt": "A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow. Even Opus 5.5 and Astra fall far short, solving fewer than one in ten tasks completely. The models finish clear, standalone assignments quickly, but they lose track as autonomous developers. The article AI coding agents ace isolated tests but complete f"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-22T15:15:48+00:00"
+  },
+  {
+   "title": "The Verge argues AI vibe-coding is expanding beyond software into hardware",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Verge's weekly Stepback newsletter argues that AI-assisted 'vibe-coding' is moving beyond software and into physical gadgets, as AI tools make building and modifying hardware easier for non-engineers.",
+   "more": "The piece runs in The Verge's Stepback newsletter, written by David Pierce. The available excerpt frames vibe-coding — already widespread in software development — as now reaching into the design of physical devices, without naming specific gadgets or companies involved. It presents this as part of a broader pattern of AI tools being applied well beyond the software tasks they were originally built for.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1039139"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1039139",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The vibe-coding revolution is coming to all the gadgets",
+     "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+     "published": "2026-11-22T13:00:00+00:00",
+     "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-22T13:00:00+00:00"
+  },
+  {
+   "title": "METR warns AI capability is outpacing reliable safety testing",
+   "tags": [
+    "policy",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "METR reports that models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks while getting harder to measure, warning current data can't rule out a dangerous acceleration in AI development.",
+   "more": "METR's warning centers on research-task performance, where it says leading models are advancing quickly enough that existing evaluation methods are struggling to keep pace. The organization cautions that the uncertainty cuts both ways: current tests cannot rule out a dangerous jump in capability, but common tests may also be overestimating what models can actually do in practice. The excerpt names Opus 5.5 and GPT-6 Astra as the models in question but does not give specific new benchmark numbers.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43190"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43190",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+     "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+     "published": "2026-11-22T13:00:43+00:00",
+     "excerpt": "METR reports that leading AI models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks but getting harder to measure. Current data can't rule out a dangerous acceleration in AI development, the organization warns, though it also says common tests may overestimate what the models can actually do. The article AI is getting better faster than experts can reliably test whether new systems are safe, METR warns appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-22T13:00:43+00:00"
+  },
+  {
+   "title": "Researchers find cheap AI inference providers stealing keys, snooping on users",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Security researchers at Dragos sent two million fake AI requests and found at least three compromised inference providers, hundreds of stolen AWS keys, and resellers reading customer requests; OpenRouter removed three providers and 125 endpoints.",
+   "more": "The researchers, from security firm Dragos, probed the AI inference supply chain by sending roughly two million fake requests through low-cost providers. They identified at least three providers whose infrastructure was compromised, exposing hundreds of stolen AWS access keys, and found marketplace resellers directly reading the contents of customer requests rather than just relaying them. OpenRouter, a marketplace that routes requests to third-party inference providers, responded by removing three of the implicated providers and 125 endpoints. The findings point to a broader trust problem in the market for discounted AI inference capacity.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43182"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43182",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+     "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+     "published": "2026-11-22T12:07:56+00:00",
+     "excerpt": "Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers who were simply reading customer requests. OpenRouter responded by removing three providers and 125 endpoints. The article Security researchers show how cheap AI inference providers steal keys and snoop on users appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-22T12:07:56+00:00"
+  },
+  {
+   "title": "Perplexity launches Monitor API for scheduled, webhook-based web alerts",
+   "tags": [
+    "tools",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Perplexity's new Monitor API runs scheduled web searches and alerts agents via webhook only when its filtering model detects a relevant change, turning one-off search into continuous monitoring.",
+   "more": "The API lets developers set up recurring searches instead of issuing a query every time, with Perplexity's own decision model screening out unimportant results before firing a webhook. Perplexity positions the launch as part of a push into developer tools, aiming to differentiate itself as consumer chatbot products become increasingly interchangeable. Pricing, supported trigger types, and example use cases were not detailed in the available excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43193"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43193",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+     "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+     "published": "2026-11-22T14:20:28+00:00",
+     "excerpt": "Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API is part of a broader strategy to stand out from an increasingly interchangeable chatbot business through developer tools. The article Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-22T14:20:28+00:00"
+  }
+ ]
+}
