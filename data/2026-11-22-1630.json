@@ -1,0 +1,141 @@
+{
+ "date": "2026-11-22",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "OpenAI's GPT-6.2 Astra and Sol answer faster, score lower on transparency than Claude",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI's new GPT-6.2 Astra and Sol models give shorter, more direct answers than their predecessors, but a study found they are less willing to admit uncertainty, scoring behind Anthropic's Claude models on transparency.",
+   "more": "The Decoder reports that OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than the models they replace. Despite the terser style, the two models are also less willing to admit uncertainty than their predecessors. Anthropic's Claude models scored well ahead of GPT-6.2 Astra and Sol on the same transparency measure. The source does not specify which benchmark or methodology produced these transparency and directness scores.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43130"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43130",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+     "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+     "published": "2026-11-22T09:41:37+00:00",
+     "excerpt": "OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency. The article GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-22T09:41:37+00:00"
+  },
+  {
+   "title": "AtomicChat's uncensored GGUF of Inkling-2-Mini trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "AtomicChat released an uncensored, Apache-2.0-licensed GGUF quantization of Thinking Machines' Inkling-2-Mini image-text-to-text model as a LoRA adapter, and it is now trending on Hugging Face with over 129,000 downloads and 345 likes.",
+   "more": "The model is a GGUF build of thinkingmachines/Inkling-2-Mini, packaged as a LoRA adapter for use with llama.cpp. It is tagged for image-text-to-text tasks and is distributed under an Apache 2.0 license. On Hugging Face it has drawn 345 likes and more than 129,000 downloads, making it one of the platform's trending models. The listing also includes an imatrix quantization and is marked as endpoints-compatible. No further detail on what distinguishes the 'uncensored' tuning from the base Inkling-2-Mini model is available from the listing.",
+   "item_ids": [
+    "hf-trending:AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+     "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+     "published": "2026-11-20T20:42:23+00:00",
+     "excerpt": "image-text-to-text, 345 likes, 129693 downloads. Tags: gguf, llama.cpp, inkling2, uncensored, lora, image-text-to-text, base_model:thinkingmachines/Inkling-2-Mini, base_model:adapter:thinkingmachines/Inkling-2-Mini, license:apache-2.0, endpoints_compatible, region:us, imatrix"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-20T20:42:23+00:00"
+  },
+  {
+   "title": "Lean/Mathlib formally verifies Levent Alpöge's proof of the Riemann hypothesis",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Lean and Mathlib community has formally confirmed mathematician Levent Alpöge's proof of the Riemann hypothesis after checking 17 million lines of verification code, arriving decades earlier than experts like Terence Tao had expected.",
+   "more": "Dozens of independent verifiers checked the proof's roughly 17 million lines of Lean and Mathlib code before the community declared it correct. The result arrived years ahead of expectations: Terence Tao had predicted a proof of the Riemann hypothesis would not appear until around 2050. Tao also did not expect artificial intelligence to solve the problem on its own, a detail that leaves open how much AI tooling contributed to Alpöge's work. No further detail on the proof's methods or Alpöge's background is available from the source.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43181"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43181",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+     "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+     "published": "2026-11-22T11:08:31+00:00",
+     "excerpt": "The Lean and Mathlib community has officially confirmed Levent Alpöge's proof of the Riemann hypothesis as correct. Dozens of independent verifiers checked the 17 million lines of computer code. The solution arrived years earlier than expected: Terence Tao had predicted it wouldn't happen until around 2050 and didn't expect AI to solve it alone. The article Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-22T11:08:31+00:00"
+  },
+  {
+   "title": "US banks move to block third-party AI agents from accessing customer accounts",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Major US financial institutions are banning third-party AI agents from logging into customer accounts, and warning that any costly mistakes an agent makes are the customer's own responsibility.",
+   "more": "Wired reports that major US banks are cutting off third-party AI agents from logging into customers' online banking accounts. The banks are also warning customers that they, not the bank, bear responsibility for any costly errors a bot makes while acting on their behalf.",
+   "item_ids": [
+    "wired-ai:6b0079848a18277ad68d6fd0"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6b0079848a18277ad68d6fd0",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Banks Have Had It Up to Here With Your AI Agent",
+     "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+     "published": "2026-11-22T11:00:00+00:00",
+     "excerpt": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-22T11:00:00+00:00"
+  },
+  {
+   "title": "Report: Anthropic's power supply projected to be 87% gas, 11% coal by 2028",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new breakdown of AI data center power sourcing projects that by 2028, 87% of the electricity powering Anthropic will come from natural gas and 11% from coal, according to a widely discussed Hacker News submission.",
+   "more": "The figures come from an article titled 'How AI Is Powered: A Breakdown of BYOP and Grid Power,' submitted to Hacker News where it drew 168 points and 225 comments. No further detail on the methodology behind the gas-and-coal breakdown is available from the Item's excerpt.",
+   "item_ids": [
+    "hn:50597612"
+   ],
+   "items": [
+    {
+     "id": "hn:50597612",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+     "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+     "published": "2026-11-22T08:57:34+00:00",
+     "excerpt": "168 points, 225 comments. Discussion: https://news.ycombinator.com/item?id=50597612"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-22T08:57:34+00:00"
+  }
+ ]
+}
