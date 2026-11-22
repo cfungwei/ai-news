@@ -1,0 +1,141 @@
+{
+ "date": "2026-11-22",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Signal restricts in-app screenshots to counter AI surveillance",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps. The company frames the move as a response to an \"existential threat\" from AI-powered surveillance.",
+   "more": "The screenshot restriction applies across both of Signal's mobile apps. Signal describes the change as part of confronting what it calls an existential threat posed by AI surveillance. Details on exactly how the restriction works, or whether it can be disabled, aren't given in the available coverage.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3191147"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191147",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+     "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+     "published": "2026-11-21T21:37:10+00:00",
+     "excerpt": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T21:37:10+00:00"
+  },
+  {
+   "title": "UN talks on 'killer robot' rules end without agreement",
+   "tags": [
+    "policy",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "UN diplomats meeting in Geneva failed to agree on rules for autonomous weapons this week. After a largely fruitless week of negotiations, they agreed only to \"start discussing options.\"",
+   "more": "The talks were meant to work toward rules governing the use of autonomous weapons, often called \"killer robots.\" According to reporting cited from NPR, representatives went into the Geneva meetings hoping for progress but left without a concrete agreement. The week of negotiations was described as largely fruitless, with diplomats settling only for a commitment to keep discussing possible options. No timeline for binding rules was set.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1039554"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1039554",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The UN fails to agree on rules regulating ‘killer robots’",
+     "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+     "published": "2026-11-21T20:03:37+00:00",
+     "excerpt": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T20:03:37+00:00"
+  },
+  {
+   "title": "Apple's DepthPro2 depth-estimation model trends on Hugging Face",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Apple's DepthPro2, a monocular depth-estimation model, is trending on Hugging Face with 209 likes. It adds metric and video depth estimation on top of the original DepthPro.",
+   "more": "DepthPro2 is listed on Hugging Face under the tags depth-pro-2, depth-estimation, metric-depth, monocular-depth, and video-depth, and is tied to an arXiv paper (2611.26603). Despite 209 likes, the listing shows 0 downloads so far. Its license is marked simply as \"other\" on the model page, so the exact terms of use aren't clear from the listing. It's not yet known how it compares to other depth-estimation models or when wider adoption might follow.",
+   "item_ids": [
+    "hf-trending:apple/DepthPro2"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:apple/DepthPro2",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: apple/DepthPro2",
+     "url": "https://huggingface.co/apple/DepthPro2",
+     "published": "2026-11-03T16:55:03+00:00",
+     "excerpt": "depth-estimation, 209 likes, 0 downloads. Tags: depth-pro-2, depth-estimation, metric-depth, monocular-depth, video-depth, arxiv:2611.26603, license:other, region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T16:55:03+00:00"
+  },
+  {
+   "title": "Graham Dumpleton builds Muru, an AI-assisted Rust server for Python apps",
+   "tags": [
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Graham Dumpleton, creator of mod_wsgi, is building Muru, a new AI-assisted Rust server for running ASGI and WSGI Python web apps. He's publishing a detailed account of the project as he builds it.",
+   "more": "Dumpleton built mod_wsgi 20 years ago and has continued thinking about the ideal way to serve Python web applications since. Muru is his new project: an AI-assisted Rust server aimed at providing the best tools for running ASGI and WSGI Python apps in both development and production. As with his earlier project wrapture, he's publishing an extraordinarily detailed account of the work as part of his development process. Simon Willison has collected everything Dumpleton has published on it so far.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/21/muru/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/21/muru/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Muru",
+     "url": "https://simonwillison.net/2026/Nov/21/muru/",
+     "published": "2026-11-21T23:56:28+00:00",
+     "excerpt": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process. Here's everything he's published"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T23:56:28+00:00"
+  },
+  {
+   "title": "Nvidia's strong earnings collide with calls for Jensen Huang to return",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia's latest earnings report paints a strong picture of the company, even as tech executives are loudly calling for Jensen Huang to return. TechCrunch frames the two as conflicting narratives about where Nvidia stands.",
+   "more": "The coverage contrasts Nvidia's latest earnings report with a separate wave of tech executives publicly calling for Jensen Huang's return. The two signals point in different directions about the company's current standing. Further specifics on the earnings figures or on who is calling for Huang's return aren't included in the available excerpt.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3191145"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191145",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "A tale of two Nvidias",
+     "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+     "published": "2026-11-21T21:07:42+00:00",
+     "excerpt": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T21:07:42+00:00"
+  }
+ ]
+}
