@@ -1,0 +1,141 @@
+{
+ "date": "2026-11-23",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Zhipu releases GLM-5.4, a coding model using a new 'Loop Transformer'",
+   "tags": [
+    "models",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Zhipu AI released GLM-5.4, a coding-focused model that introduces what it calls a 'Loop Transformer' architecture, aimed at more generalized code generation.",
+   "more": "The model, GLM-5.4, is described by its developer as introducing a first 'Loop Transformer' architecture aimed at more generalized coding ability. The announcement drew significant attention on Hacker News, with over 100 points and 40 comments in discussion. Further technical details were not available in the fetched excerpt.",
+   "item_ids": [
+    "hn:50609685"
+   ],
+   "items": [
+    {
+     "id": "hn:50609685",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+     "url": "https://z.ai/blog/glm-5.4",
+     "published": "2026-11-23T10:06:43+00:00",
+     "excerpt": "116 points, 40 comments. Discussion: https://news.ycombinator.com/item?id=50609685"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T10:06:43+00:00"
+  },
+  {
+   "title": "Researchers propose StereoVLM for metric 3D reasoning in vision-language models",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper proposes StereoVLM, a binocular vision-language model that uses stereo image pairs to reason about metric 3D space, addressing the ambiguity of single-image 3D inference in existing VLMs.",
+   "more": "Existing vision-language models can describe 3D scenes semantically but struggle with metric 3D measurements, partly because they infer scene structure from uncalibrated images without cross-view geometric constraints. The paper argues this leaves it unclear whether a model's spatial predictions reflect real visual evidence or just semantic priors. StereoVLM instead uses binocular, calibrated image pairs to provide cross-view geometric constraints for grounding 3D reasoning. The excerpt available does not specify benchmark results or model size.",
+   "item_ids": [
+    "hf-papers:2611.27915"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.27915",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+     "url": "https://huggingface.co/papers/2611.27915",
+     "published": "2026-11-23T00:00:00+00:00",
+     "excerpt": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints. This makes metric 3D inference inherently ambiguous and leaves it unclear whether their spatial predictions are grounded in visual evidence or driven primarily by semantic priors. In contrast, calib"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T00:00:00+00:00"
+  },
+  {
+   "title": "Walmart lets Meta's Muse AI agent shop for Black Friday deals",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Walmart is rolling out Meta's Agent Gateway integration, letting the Muse AI agent search for and purchase Black Friday deals on shoppers' behalf without sharing their purchase history.",
+   "more": "The feature lets Meta's Muse assistant act as a shopping agent on Walmart's site, finding and buying Black Friday deals for users. It builds on the Agent Gateway that Walmart announced last month, designed to let AI agents find relevant products without accessing a shopper's purchase history. The rollout coincides with the Black Friday shopping period. Further details on availability or safeguards were not given in the available excerpt.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1039874"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1039874",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Meta Muse can now do your Black Friday shopping at Walmart",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+     "published": "2026-11-23T11:00:00+00:00",
+     "excerpt": "Walmart will now let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. The retail giant is rolling out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant products for you without sharing your purchase history, […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T11:00:00+00:00"
+  },
+  {
+   "title": "Oregon and Virginia sue Musk companies over Grok deepfake images",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Attorneys general from Oregon and Virginia filed lawsuits against several Elon Musk companies, alleging weak safeguards let Grok produce sexualized deepfake images of real people, including children.",
+   "more": "The lawsuits, brought by the Oregon and Virginia attorneys general, target multiple companies tied to Elon Musk over the Grok AI chatbot's image-generation capabilities. The states allege the companies failed to implement adequate safeguards to prevent Grok from producing sexualized imagery of real people, including minors. The available excerpt does not specify the legal claims, requested remedies, or which Musk-affiliated entities are named beyond SpaceX.",
+   "item_ids": [
+    "wired-ai:6b00a370dedf491d3bbcb843"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6b00a370dedf491d3bbcb843",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "States Sue SpaceX Over Grok Deepfakes",
+     "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+     "published": "2026-11-23T11:00:00+00:00",
+     "excerpt": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T11:00:00+00:00"
+  },
+  {
+   "title": "Wired essay argues AI coding tools herald 'the end of programmers'",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Wired essay reflects on AI's growing role in software development, framing current AI coding capabilities as marking an end to traditional programming as a craft.",
+   "more": "The essay is framed as a personal reflection on the craft of coding, with the author suggesting it may be the last piece they write on the subject. The available excerpt does not provide further detail on specific AI tools, models, or evidence behind the claim.",
+   "item_ids": [
+    "wired-ai:6ac542d4d51334ec05dbdfb7"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6ac542d4d51334ec05dbdfb7",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Goodbye, World: The End of Programmers",
+     "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
+     "published": "2026-11-23T10:00:00+00:00",
+     "excerpt": "The last thing you should ever read—and the last thing I may ever write—about the craft of coding."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T10:00:00+00:00"
+  }
+ ]
+}
