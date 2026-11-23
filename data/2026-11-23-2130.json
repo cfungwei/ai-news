@@ -1,0 +1,381 @@
+{
+ "date": "2026-11-23",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Z.ai moves 750B-parameter GLM-5.4 to a loop transformer architecture",
+   "tags": [
+    "models",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Z.ai is giving its flagship GLM-5.4 model a loop architecture that reruns 28 layers twice, which it says lets the 750B-parameter model match 2-3 trillion parameter rivals.",
+   "more": "The loop design re-executes a block of 28 layers a second time, a technique Z.ai says allows the 750-billion-parameter GLM-5.4 to match the performance of models with 2 to 3 trillion parameters. So far, benchmark scores have only been published for a smaller 30-billion-parameter test model, not the full flagship. Z.ai is positioning GLM-5.4 as the start of what it calls \"Generalized Coding,\" where code generation extends to producing videos, games, and CAD models. The move follows OpenAI into loop transformer territory, according to The Decoder.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43216"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43216",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model",
+     "url": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/",
+     "published": "2026-11-23T15:13:03+00:00",
+     "excerpt": "Z.ai is moving its flagship GLM-5.4 model to a loop architecture in which 28 layers run twice, which the company says lets the 750-billion-parameter model match models with 2 to 3 trillion parameters. Benchmark scores are only available for a smaller 30B test model so far, and Z.ai is positioning GLM-5.4 as the start of \"Generalized Coding,\" where code also generates videos, games, and CAD models. The article Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model ap"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T15:13:03+00:00"
+  },
+  {
+   "title": "OpenAI's GPT-6.2 Astra solves math theorem no other AI could crack",
+   "tags": [
+    "models",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI's GPT-6.2 Astra produced a machine-verifiable Lean proof of Smoktunowicz's gap theorem, inventing its own approach after finding gaps in existing math libraries.",
+   "more": "GPT-6.2 Astra independently generated a machine-verifiable Lean proof of Smoktunowicz's gap theorem, which Vals AI says is the first of its kind. The model devised its own proof strategy because key foundational results were missing from Mathlib, the Lean math library. On the Autoform-Hard benchmark, Astra now leads the leaderboard, solving 49 of 56 tasks. No other AI system has previously cracked this particular theorem, according to the report.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43085"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43085",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
+     "url": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
+     "published": "2026-11-23T12:17:01+00:00",
+     "excerpt": "OpenAI's GPT-6.2 Astra independently produced a machine-verifiable Lean proof of Smoktunowicz's gap theorem, the first of its kind according to Vals AI. The model chose its own approach because key foundations were missing from Mathlib. On Autoform-Hard, Astra now leads the leaderboard with 49 of 56 tasks solved. The article GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T12:17:01+00:00"
+  },
+  {
+   "title": "SulphurAI's Sulphur-3 finetune of MiniMax-H3 trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Sulphur-3, a fine-tune of MiniMax AI's MiniMax-H3 model released by SulphurAI, is trending on Hugging Face with over 133,000 downloads and 834 likes.",
+   "more": "Sulphur-3 is a fine-tune built on MiniMaxAI's MiniMax-H3 base model. On Hugging Face it has drawn 834 likes and more than 133,000 downloads, pushing it onto the platform's trending list. The model is listed under a custom (\"other\") license rather than a standard open-source license. Further details on what the fine-tune changes or improves were not included in the available listing.",
+   "item_ids": [
+    "hf-trending:SulphurAI/Sulphur-3"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:SulphurAI/Sulphur-3",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: SulphurAI/Sulphur-3",
+     "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+     "published": "2026-10-31T20:31:01+00:00",
+     "excerpt": "834 likes, 133732 downloads. Tags: minimax-h3, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-10-31T20:31:01+00:00"
+  },
+  {
+   "title": "Chinese military researchers fear AI could expose nuclear missiles",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Chinese military researchers worry that advances in AI could give the US a decisive edge in detecting and targeting China's nuclear missiles, shifting the nuclear balance of power.",
+   "more": "The concern, reported by The Decoder, centers on AI's potential to help the US locate and destroy Chinese nuclear missiles, undermining existing deterrence assumptions. Specific capabilities or timelines were not detailed in the available reporting.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43228"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43228",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Chinese military fears AI could let the US find and destroy its nuclear missiles",
+     "url": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
+     "published": "2026-11-23T14:43:23+00:00",
+     "excerpt": "Chinese military researchers fear that AI advances could give the US an edge in the nuclear balance of power. The article Chinese military fears AI could let the US find and destroy its nuclear missiles appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T14:43:23+00:00"
+  },
+  {
+   "title": "US spies tracked Nvidia scandal figure's China intelligence ties for a year",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "US intelligence agencies reportedly monitored contacts between Alice Huang and China's Ministry of State Security for over a year, parallel to her affair with then-Nvidia CEO Jensen Huang.",
+   "more": "The surveillance, reported by the New York Times, tracked contacts between Alice Huang and China's Ministry of State Security for more than a year. It ran in parallel with her secret affair with then-Nvidia CEO Jensen Huang. Federal investigators are now examining whether a network of Southeast Asian companies was used to smuggle AI chips into China in violation of export controls. Jensen Huang is scheduled to testify before the US House of Representatives on December 1.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43218"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43218",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "US spies tracked Nvidia scandal figure's ties to Chinese intelligence for over a year",
+     "url": "https://the-decoder.com/us-spies-tracked-nvidia-scandal-figures-ties-to-chinese-intelligence-for-over-a-year/",
+     "published": "2026-11-23T13:45:32+00:00",
+     "excerpt": "US intelligence agencies tracked contacts between Alice Huang and China's Ministry of State Security for over a year, the New York Times reports. The surveillance ran parallel to her secret affair with then-Nvidia CEO Jensen Huang. Federal investigators are now looking into whether a network of companies in Southeast Asia was used to smuggle AI chips into China in violation of US export controls. Jensen Huang is scheduled to testify before the US House of Representatives on December 1. The artic"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T13:45:32+00:00"
+  },
+  {
+   "title": "Wired opens call for questions on whether AI safety efforts are working",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired is soliciting reader questions for a December 2 livestream examining whether the AI industry will do anything to address the dangers experts say AI poses.",
+   "more": "Wired's livestream, titled \"Will Anyone Keep You Safe From AI?\", is scheduled for December 2. The outlet says experts broadly agree AI poses real danger, and the event will explore whether the industry will act on it. Details on confirmed panelists were not included in the available excerpt.",
+   "item_ids": [
+    "wired-ai:6afb333a794f6e7c777b2bd6"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6afb333a794f6e7c777b2bd6",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
+     "url": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
+     "published": "2026-11-23T12:00:00+00:00",
+     "excerpt": "Experts agree that AI, in one way or another, poses real danger. Will the industry do anything about it? Join our livestream on December 2 to hear your questions answered."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T12:00:00+00:00"
+  },
+  {
+   "title": "Import AI 482 covers Huawei kernel benchmarks and a lab's AI science test",
+   "tags": [
+    "research",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "This week's Import AI newsletter rounds up Huawei kernel benchmarks, airborne drone detection research, and a national lab's new AI science benchmark.",
+   "more": "The issue bundles three items: benchmark results for Huawei kernels, research on airborne drone detection, and a new AI science benchmark from a national lab. It frames the common thread with the question of whether the scientific method itself could be an emergent capability of AI systems. Specific benchmark scores or findings were not detailed in the available excerpt.",
+   "item_ids": [
+    "import-ai:https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks"
+   ],
+   "items": [
+    {
+     "id": "import-ai:https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+     "source": "import-ai",
+     "source_name": "Import AI",
+     "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+     "url": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+     "published": "2026-11-23T14:11:17+00:00",
+     "excerpt": "Could the scientific method be emergent?"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T14:11:17+00:00"
+  },
+  {
+   "title": "Meta's Alexandr Wang says AI industry isn't ready for what's next",
+   "tags": [
+    "research",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta Chief AI Officer Alexandr Wang says a recent AI-assisted proof sketch of the Riemann Hypothesis shows superintelligence is approaching faster than the industry is prepared for.",
+   "more": "Wang's comments followed a recent AI-assisted proof sketch of the Riemann Hypothesis, a longstanding unsolved problem in mathematics. He described the breakthrough as a clear signal that artificial superintelligence could arrive sooner than many expect. As Meta's Chief AI Officer, Wang's remarks carry weight inside one of the largest AI labs. The underlying proof sketch itself, and how it was produced, were not detailed in the available excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43215"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43215",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
+     "url": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/",
+     "published": "2026-11-23T13:59:36+00:00",
+     "excerpt": "Meta's Chief AI Officer Alexandr Wang sees the recent AI-assisted proof sketch of the Riemann Hypothesis as a clear sign that superintelligence is right around the corner. The article Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T13:59:36+00:00"
+  },
+  {
+   "title": "Nvidia reinstates Jensen Huang as CEO after board review",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia's board voted unanimously to reinstate Jensen Huang as CEO and board chair, about two weeks after he resigned amid affair allegations, with support from US officials including President Trump.",
+   "more": "The board said it was satisfied with Huang's candor and his ability to lead Nvidia after a series of discussions and meetings with him. Huang had resigned roughly two weeks earlier, following allegations of multiple affairs, including with a direct report, and claims that he had mistreated employees. President Trump publicly endorsed the board's decision, saying the US government has no evidence of wrongdoing, while urging Nvidia to continue its own export-control investigation. Coverage framed the reversal as swift, noting Nvidia lasted only about two weeks without Huang at the helm, and described a broadly celebratory reaction from other tech leaders.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1040069",
+    "verge-ai:https://www.theverge.com/?p=1039937",
+    "techcrunch-ai:https://techcrunch.com/?p=3191257",
+    "techcrunch-ai:https://techcrunch.com/?p=3191219",
+    "ars-ai:https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+    "wired-ai:6b04481620864bfc4bb454ed",
+    "decoder:https://the-decoder.com/?p=43225"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1040069",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Tech leaders are celebrating Jensen Huang’s return",
+     "url": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay",
+     "published": "2026-11-23T16:14:04+00:00",
+     "excerpt": "Let's say you're Jensen Huang. You (allegedly) cheated on your wife with an alleged Chinese spy, allegedly had an affair with not one, but two subordinates, and (allegedly!) \"terrorized\" your employees, a series of indiscretions that led to your ouster from what was once the world's most valuable company. (The stock price has recently taken […]"
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1039937",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Jensen Huang is back as Nvidia’s CEO",
+     "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+     "published": "2026-11-23T14:04:24+00:00",
+     "excerpt": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor and ability to lead NVIDIA.\" In its statement, the board […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191257",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+     "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+     "published": "2026-11-23T15:04:01+00:00",
+     "excerpt": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191219",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+     "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+     "published": "2026-11-23T14:21:59+00:00",
+     "excerpt": "The stunning reversal was supported by senior officials in the U.S. government."
+    },
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+     "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+     "published": "2026-11-23T15:46:18+00:00",
+     "excerpt": "Trump says he spoke to the board and that Huang \"did nothing wrong.\""
+    },
+    {
+     "id": "wired-ai:6b04481620864bfc4bb454ed",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Jensen Huang Is Back as Nvidia CEO",
+     "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+     "published": "2026-11-23T14:27:35+00:00",
+     "excerpt": "The company’s board of directors has reinstated Huang a little more than a week after the CEO resigned amid allegations of multiple affairs, including with a direct report."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=43225",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Nvidia tried life without Jensen Huang and it lasted about two weeks",
+     "url": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/",
+     "published": "2026-11-23T14:24:47+00:00",
+     "excerpt": "Nvidia's board of directors has reinstated Jensen Huang as president, CEO, and board member, effective immediately. The article Nvidia tried life without Jensen Huang and it lasted about two weeks appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 5,
+   "newest": "2026-11-23T16:14:04+00:00"
+  },
+  {
+   "title": "Sierra doubles valuation to $30B on AI customer service demand",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Enterprise AI customer-experience startup Sierra, co-founded by Bret Taylor, raised a $1.75 billion Series F that doubled its valuation to $30 billion in six months.",
+   "more": "The round values Sierra at $30 billion, double its valuation of six months prior, reflecting fast-growing demand for AI in customer experience (CX). Sierra was co-founded by Bret Taylor, the former co-CEO of Salesforce. The company announced the $1.75 billion Series F on Monday. Further details on investors or planned use of the funds were not included in the available coverage.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3191185"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191185",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+     "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+     "published": "2026-11-23T14:43:03+00:00",
+     "excerpt": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T14:43:03+00:00"
+  },
+  {
+   "title": "Paradromics taps Nvidia hardware to process brain-computer interface data",
+   "tags": [
+    "hardware",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Brain-computer interface company Paradromics is using Nvidia computing hardware and software to process data from its brain implants.",
+   "more": "Paradromics, a brain-computer interface developer, has adopted Nvidia's computing hardware and software stack to process data gathered from its devices. The partnership extends Nvidia's reach beyond traditional AI workloads into neurotechnology. Further details on the specific Nvidia products used or the scale of the deployment were not included in the available excerpt.",
+   "item_ids": [
+    "wired-ai:6b008fb25f35c47a5c1160d8"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6b008fb25f35c47a5c1160d8",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
+     "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+     "published": "2026-11-23T13:11:48+00:00",
+     "excerpt": "Brain-computer interface company Paradromics is using Nvidia’s computing hardware and software to process brain data."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T13:11:48+00:00"
+  },
+  {
+   "title": "Asus ProArt P16 review shows a laptop built for local AI agents",
+   "tags": [
+    "hardware",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ars Technica reviewed the Asus ProArt P16, a laptop costing up to $7,000 that is powerful enough to run multiple local AI agents simultaneously.",
+   "more": "Ars Technica's review frames the ProArt P16 as an early example of laptops built to run AI locally rather than in the cloud. The reviewed configuration can run multiple local AI agents at once and costs up to $7,000. Further specifications were not detailed in the available excerpt.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+     "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+     "published": "2026-11-23T12:00:00+00:00",
+     "excerpt": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T12:00:00+00:00"
+  }
+ ]
+}

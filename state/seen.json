@@ -4775,7 +4775,7 @@
    "up": 0
   }
  },
- "last_digest": "2026-11-23T11:38:43.424143+00:00",
+ "last_digest": "2026-11-23T16:38:52.441821+00:00",
  "seen": {
   "anthropic": [
    "anthropic:https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -4948,7 +4948,9 @@
    "ars-ai:https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
    "ars-ai:https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
    "ars-ai:https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-   "ars-ai:https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+   "ars-ai:https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+   "ars-ai:https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+   "ars-ai:https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/"
   ],
   "decoder": [
    "decoder:https://the-decoder.com/?p=40867",
@@ -5343,7 +5345,13 @@
    "decoder:https://the-decoder.com/?p=43203",
    "decoder:https://the-decoder.com/?p=43193",
    "decoder:https://the-decoder.com/?p=43190",
-   "decoder:https://the-decoder.com/?p=43182"
+   "decoder:https://the-decoder.com/?p=43182",
+   "decoder:https://the-decoder.com/?p=43216",
+   "decoder:https://the-decoder.com/?p=43228",
+   "decoder:https://the-decoder.com/?p=43225",
+   "decoder:https://the-decoder.com/?p=43215",
+   "decoder:https://the-decoder.com/?p=43218",
+   "decoder:https://the-decoder.com/?p=43085"
   ],
   "deepmind": [
    "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -5939,7 +5947,8 @@
    "hf-trending:Sentinel7/h3",
    "hf-trending:unsloth/Inkling-2-Mini-GGUF",
    "hf-trending:apple/DepthPro2",
-   "hf-trending:AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
+   "hf-trending:AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+   "hf-trending:SulphurAI/Sulphur-3"
   ],
   "hn": [
    "hn:49855018",
@@ -6184,7 +6193,8 @@
    "import-ai:https://importai.substack.com/p/import-ai-478-math-for-alignment",
    "import-ai:https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
    "import-ai:https://importai.substack.com/p/import-ai-480-self-sustaining-space",
-   "import-ai:https://importai.substack.com/p/import-ai-481-ai-sub-contractors"
+   "import-ai:https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+   "import-ai:https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks"
   ],
   "latent-space": [
    "latent-space:https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
@@ -7259,7 +7269,10 @@
    "techcrunch-ai:https://techcrunch.com/?p=3191145",
    "techcrunch-ai:https://techcrunch.com/?p=3191173",
    "techcrunch-ai:https://techcrunch.com/?p=3191164",
-   "techcrunch-ai:https://techcrunch.com/?p=3191157"
+   "techcrunch-ai:https://techcrunch.com/?p=3191157",
+   "techcrunch-ai:https://techcrunch.com/?p=3191257",
+   "techcrunch-ai:https://techcrunch.com/?p=3191185",
+   "techcrunch-ai:https://techcrunch.com/?p=3191219"
   ],
   "verge-ai": [
    "verge-ai:https://www.theverge.com/?p=1001049",
@@ -7627,7 +7640,9 @@
    "verge-ai:https://www.theverge.com/?p=1039139",
    "verge-ai:https://www.theverge.com/?p=1039851",
    "verge-ai:https://www.theverge.com/?p=1039770",
-   "verge-ai:https://www.theverge.com/?p=1039874"
+   "verge-ai:https://www.theverge.com/?p=1039874",
+   "verge-ai:https://www.theverge.com/?p=1040069",
+   "verge-ai:https://www.theverge.com/?p=1039937"
   ],
   "wired-ai": [
    "wired-ai:6abbb69b2122500d82924ae7",
@@ -7798,30 +7813,33 @@
    "wired-ai:6aff54f5dedf491d3bbcabcb",
    "wired-ai:6b0079848a18277ad68d6fd0",
    "wired-ai:6b00a370dedf491d3bbcb843",
-   "wired-ai:6ac542d4d51334ec05dbdfb7"
+   "wired-ai:6ac542d4d51334ec05dbdfb7",
+   "wired-ai:6b04481620864bfc4bb454ed",
+   "wired-ai:6b008fb25f35c47a5c1160d8",
+   "wired-ai:6afb333a794f6e7c777b2bd6"
   ]
  },
  "source_ok": {
-  "anthropic": "2026-11-23T11:38:43.424143+00:00",
-  "ars-ai": "2026-11-23T11:38:43.424143+00:00",
-  "decoder": "2026-11-23T11:38:43.424143+00:00",
-  "deepmind": "2026-11-23T11:38:43.424143+00:00",
-  "google-ai": "2026-11-23T11:38:43.424143+00:00",
-  "hf-blog": "2026-11-23T11:38:43.424143+00:00",
-  "hf-papers": "2026-11-23T11:38:43.424143+00:00",
-  "hf-trending": "2026-11-23T11:38:43.424143+00:00",
-  "hn": "2026-11-23T11:38:43.424143+00:00",
-  "import-ai": "2026-11-23T11:38:43.424143+00:00",
-  "latent-space": "2026-11-23T11:38:43.424143+00:00",
+  "anthropic": "2026-11-23T16:38:52.441821+00:00",
+  "ars-ai": "2026-11-23T16:38:52.441821+00:00",
+  "decoder": "2026-11-23T16:38:52.441821+00:00",
+  "deepmind": "2026-11-23T16:38:52.441821+00:00",
+  "google-ai": "2026-11-23T16:38:52.441821+00:00",
+  "hf-blog": "2026-11-23T16:38:52.441821+00:00",
+  "hf-papers": "2026-11-23T16:38:52.441821+00:00",
+  "hf-trending": "2026-11-23T16:38:52.441821+00:00",
+  "hn": "2026-11-23T16:38:52.441821+00:00",
+  "import-ai": "2026-11-23T16:38:52.441821+00:00",
+  "latent-space": "2026-11-23T16:38:52.441821+00:00",
   "localllama": "2026-11-17T16:38:55.241696+00:00",
-  "meta-ai": "2026-11-23T11:38:43.424143+00:00",
-  "mistral": "2026-11-23T11:38:43.424143+00:00",
-  "mit-tr-ai": "2026-11-23T11:38:43.424143+00:00",
-  "openai": "2026-11-23T11:38:43.424143+00:00",
-  "simonw": "2026-11-23T11:38:43.424143+00:00",
-  "techcrunch-ai": "2026-11-23T11:38:43.424143+00:00",
-  "verge-ai": "2026-11-23T11:38:43.424143+00:00",
-  "wired-ai": "2026-11-23T11:38:43.424143+00:00"
+  "meta-ai": "2026-11-23T16:38:52.441821+00:00",
+  "mistral": "2026-11-23T16:38:52.441821+00:00",
+  "mit-tr-ai": "2026-11-23T16:38:52.441821+00:00",
+  "openai": "2026-11-23T16:38:52.441821+00:00",
+  "simonw": "2026-11-23T16:38:52.441821+00:00",
+  "techcrunch-ai": "2026-11-23T16:38:52.441821+00:00",
+  "verge-ai": "2026-11-23T16:38:52.441821+00:00",
+  "wired-ai": "2026-11-23T16:38:52.441821+00:00"
  },
  "telegram_offset": 115081541,
  "telegram_sent": "2026-11-23-1630",
