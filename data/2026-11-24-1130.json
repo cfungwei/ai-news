@@ -1,0 +1,742 @@
+{
+ "date": "2026-11-24",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Oregon, Virginia sue SpaceX over Grok's sexual deepfakes",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Oregon and Virginia's attorneys general filed separate lawsuits accusing SpaceX of violating consumer protection laws by letting Grok generate sexual deepfakes, including alleged child sexual abuse material and revenge porn.",
+   "more": "The complaints, filed Monday, accuse SpaceX of ignoring industry-standard safeguards while falsely promoting the safety of X and Grok. Virginia's filing specifically accuses Elon Musk of willful violations. X has said every Grok output is screened, but the state attorneys general argue Grok is still producing CSAM and non-consensual sexual imagery. The lawsuits add to mounting legal pressure on SpaceX over Grok's content moderation.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1040255",
+    "ars-ai:https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1040255",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+     "published": "2026-11-23T18:26:47+00:00",
+     "excerpt": "In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of its X social media platform and Grok AI features. The complaint filed in Virginia accuses Musk of willfully […]"
+    },
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+     "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+     "published": "2026-11-23T21:30:44+00:00",
+     "excerpt": "X says every Grok output is screened, but state AGs say Grok is still making CSAM."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-23T21:30:44+00:00"
+  },
+  {
+   "title": "Megaspeed, tied to Huang scandal, nears US blacklist",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Megaspeed, the company at the center of the Jensen Huang scandal and previously led by Alice Huang, appears headed for a U.S. blacklist barring American firms from doing business with it without a special license.",
+   "more": "The action would restrict companies from transacting with Megaspeed unless they obtain a special government license. Megaspeed was previously led by Alice Huang and has been linked to the scandal that led to Jensen Huang's temporary resignation from Nvidia. Details on the timing and scope of the blacklisting have not been disclosed.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3191574"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191574",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+     "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+     "published": "2026-11-23T21:25:42+00:00",
+     "excerpt": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T21:25:42+00:00"
+  },
+  {
+   "title": "AI data centers' power demand complicates UN climate talks",
+   "tags": [
+    "policy",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Power-hungry AI data centers added friction to the UN's COP31 climate conference in Antalya, Turkey, as delegates tried to reconcile electrifying the global economy with surging data center energy demand.",
+   "more": "The clean energy transition depends on electrifying the broader economy, but that goal is colliding with the rapid growth of electricity-hungry AI data centers. Delegates at COP31 grappled with this tension throughout the summit, which closed in a chaotic and unsatisfying manner. The excerpt does not specify what, if any, agreements were reached on data center energy use.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1040497"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1040497",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "AI data centers throw another wrench into chaotic UN climate talks",
+     "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+     "published": "2026-11-23T21:09:37+00:00",
+     "excerpt": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that came to a chaotic and unsatisfying close in Antalya, Turkey, on Sunday. Each year, attendees […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T21:09:37+00:00"
+  },
+  {
+   "title": "OpenAI scientist proposes perplexity as shared AI safety limit metric",
+   "tags": [
+    "policy",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI chief scientist Jakub Pachocki released internal perplexity scores across the entire GPT series, including an unreleased model, and is urging rival labs to adopt shared capability limits before safety controls erode.",
+   "more": "Pachocki's disclosure marks the first time OpenAI has shared perplexity figures spanning the full GPT lineage, including a model beyond the current generation. The data reportedly shows that core capabilities emerge at surprisingly precise thresholds as perplexity improves. Pachocki is pushing to establish perplexity as an industry-wide progress metric. He is also urging competing labs to agree on shared limits, warning that future AI systems could outpace safety checks.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43234"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43234",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits",
+     "url": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
+     "published": "2026-11-23T18:42:38+00:00",
+     "excerpt": "OpenAI chief scientist Jakub Pachocki has released internal perplexity scores for the entire GPT series for the first time, up to an unreleased model beyond the current generation. The metric shows that core capabilities emerge at surprisingly precise thresholds. Pachocki is pushing to make perplexity an industry-wide progress metric and establish shared limits before control over AI behavior erodes. The article OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals t"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T18:42:38+00:00"
+  },
+  {
+   "title": "Jensen Huang scheduled to testify before Senate after reinstatement",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Jensen Huang is set to testify before the Senate next week, following bipartisan calls for him to address his affair with a suspected Chinese spy after his reinstatement as Nvidia CEO.",
+   "more": "The hearing follows bipartisan calls in Congress for Huang to testify about the affair with the suspected Chinese spy that led to his resignation. It comes shortly after Nvidia's board reinstated him as CEO. Further details of the hearing's scope have not been announced.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3191435"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191435",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+     "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+     "published": "2026-11-23T18:12:22+00:00",
+     "excerpt": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T18:12:22+00:00"
+  },
+  {
+   "title": "Philosopher disputes Anthropic's AI consciousness risk argument",
+   "tags": [
+    "policy",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A prominent philosopher pushed back on Anthropic's suggestion that AI models could be conscious or sentient, a possibility Anthropic flagged as an investment risk factor before going public.",
+   "more": "Anthropic named potential AI consciousness or sentience as a risk factor for investors ahead of its public debut. The philosopher's critique challenges the premise behind Anthropic's approach to model sentience and moral consideration. Further specifics of the rebuttal were not included in the excerpt.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1149569"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1149569",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+     "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+     "published": "2026-11-23T17:36:08+00:00",
+     "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T17:36:08+00:00"
+  },
+  {
+   "title": "Motion Mamba 2.0 targets long-horizon humanoid motion control",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduced Motion Mamba 2.0, a Mamba-based diffusion architecture for generating long-horizon, real-time controllable motion for interactive animation and humanoid robotics.",
+   "more": "The paper targets a limitation of existing autoregressive diffusion motion methods: bounded attention caches restrict access to distant history, while repeated denoising adds inference overhead. Motion Mamba 2.0 integrates a root-body diffusion architecture to address this. It aims to let agents respond to changing instructions and spatial goals while already moving. Further benchmark results were not included in the excerpt.",
+   "item_ids": [
+    "hf-papers:2611.29897"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.29897",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+     "url": "https://huggingface.co/papers/2611.29897",
+     "published": "2026-11-24T00:00:00+00:00",
+     "excerpt": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates loc"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T00:00:00+00:00"
+  },
+  {
+   "title": "3AGameFactory-Motion automates rigging for diverse 3D game assets",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new system, 3AGameFactory-Motion, performs agentic rigging and complex motion generation for diverse 3D assets, paired with a new benchmark covering six morphology categories.",
+   "more": "Existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions, the paper notes. The authors introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories using instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints. The system uses large language models as part of its rigging and motion pipeline. Comparisons against other approaches on the new benchmark were not detailed in the excerpt.",
+   "item_ids": [
+    "hf-papers:2611.30013"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.30013",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+     "url": "https://huggingface.co/papers/2611.30013",
+     "published": "2026-11-24T00:00:00+00:00",
+     "excerpt": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints. With large language models, we systematically compare th"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T00:00:00+00:00"
+  },
+  {
+   "title": "DeepMind uses agents and formal verification to find quantum algorithms",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind used teams of AI agents combined with formal verification to discover faster quantum algorithms, targeting applications in fusion research and chemistry.",
+   "more": "The approach pairs agent teams with formal verification methods to search for and validate improved quantum algorithms. DeepMind highlights potential applications in fusion research and chemistry simulation. Specific performance gains over existing algorithms were not detailed in the excerpt.",
+   "item_ids": [
+    "deepmind:https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+   ],
+   "items": [
+    {
+     "id": "deepmind:https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+     "source": "deepmind",
+     "source_name": "Google DeepMind",
+     "title": "Finding faster quantum algorithms with agents and formal verification",
+     "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+     "published": "2026-11-23T16:59:40+00:00",
+     "excerpt": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T16:59:40+00:00"
+  },
+  {
+   "title": "Self-distillation framework teaches video foresight reasoning",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers proposed an on-policy self-distillation framework that trains vision-language models to anticipate future video events, using only unlabeled past-future video pairs as a self-supervised signal.",
+   "more": "Video foresight reasoning requires models to predict future events or next actions from observed video. Prior approaches fit future captions, rationales, or visual states but relied on annotations or large external models for supervision, limiting scalability. This method instead turns past-future video pairs into a natural self-supervised signal without extra annotation or LLM support. Further evaluation details were not included in the excerpt.",
+   "item_ids": [
+    "hf-papers:2611.26954"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.26954",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
+     "url": "https://huggingface.co/papers/2611.26954",
+     "published": "2026-11-23T00:00:00+00:00",
+     "excerpt": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external large models for supervision, limiting scalability. We address this with an on-policy self-distillation framework that turns past-future video pairs into a natural self-supervised signal without extra annotations or LLM sup"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic launches Claude Ship for AI-driven pull request review",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic launched Claude Ship, which lets Claude review, fix, and approve pull requests on its own, building on its existing code review feature to help engineers manage AI-generated code.",
+   "more": "The Claude Ship product extends Claude's existing code review capabilities so the model can handle routine approvals as well as reviews and fixes. Anthropic positions it as a way to reduce bottlenecks created by the growing volume of AI-generated code. Engineers had previously been able to use Claude to review and suggest fixes, but not to approve changes outright. It was announced alongside other new Claude AI features aimed at software engineers shipping code.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1040134",
+    "techcrunch-ai:https://techcrunch.com/?p=3191583"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1040134",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Claude AI can review pull requests and ship fixes on its own now",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+     "published": "2026-11-23T20:00:00+00:00",
+     "excerpt": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191583",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+     "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+     "published": "2026-11-23T22:05:50+00:00",
+     "excerpt": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-23T22:05:50+00:00"
+  },
+  {
+   "title": "datasette-charts 0.2a0 adds Datasette Agent integration",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison released datasette-charts 0.2a0, a charting plugin for Datasette that now integrates with Datasette Agent so users can ask for a chart in chat and have it generated automatically.",
+   "more": "The plugin lets a chat interface generate charts using the same underlying suggestion and generation tools as the standalone plugin. Willison demonstrated it on agent.datasette.io, where visitors can sign in with GitHub to try it. The demo shows prompting Datasette Agent to chart sqlite-utils download statistics over time. The plugin builds on a charting feature Willison introduced the previous day.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/24/datasette-charts/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/24/datasette-charts/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "datasette-charts 0.2a0",
+     "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+     "published": "2026-11-24T04:24:29+00:00",
+     "excerpt": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo video, recorded on agent.datasette.io where you can sign in with GitHub to try the plugin yourself: Download the video (MP4) I prompt Datasette Agent to \"Use #stats to show sqlite-utils downloads over time"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T04:24:29+00:00"
+  },
+  {
+   "title": "datasette-agent 0.7a1 improves iframe panel navigation",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison released datasette-agent 0.7a1, adding an iframe side panel that chat sessions can open and navigate, with improved support for fragment-hash based navigation across Datasette plugins.",
+   "more": "The update lets chat sessions open an iframe side panel and then navigate that panel to different pages. Navigation now works via fragment hashes, improving integration with other Datasette plugins that update fragment hashes as users interact with them. Willison built this release partly to fix bugs affecting the newly released datasette-charts 0.2a0 plugin.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/24/datasette-agent/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/24/datasette-agent/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "datasette-agent 0.7a1",
+     "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+     "published": "2026-11-24T03:45:57+00:00",
+     "excerpt": "Release: datasette-agent 0.7a1 I small improvement to Datasette Agent : chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the user interacts with the plugin in a way that changes state. I built this in order to fix some bugs with the much more exciting datasette-charts 0.2a0 release . Tags: datasette-agent , data"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T03:45:57+00:00"
+  },
+  {
+   "title": "OpenAI and Cisco launch Shirudo, an open-source Linux runtime",
+   "tags": [
+    "tools",
+    "open-source",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI and Cisco introduced Shirudo, an open-source runtime for Linux designed to help teams protect running systems while they roll out security patches.",
+   "more": "Shirudo aims to reduce the window of exposure between a vulnerability's discovery and when a patch is fully deployed, by protecting systems still running unpatched code. The tool is open source and targets Linux systems. Further technical details on how Shirudo works were not included in the excerpt.",
+   "item_ids": [
+    "openai:https://openai.com/index/introducing-shirudo"
+   ],
+   "items": [
+    {
+     "id": "openai:https://openai.com/index/introducing-shirudo",
+     "source": "openai",
+     "source_name": "OpenAI",
+     "title": "OpenAI and Cisco introduce Shirudo",
+     "url": "https://openai.com/index/introducing-shirudo",
+     "published": "2026-11-23T21:20:00+00:00",
+     "excerpt": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T21:20:00+00:00"
+  },
+  {
+   "title": "Nvidia reinstates Jensen Huang as CEO after political pressure",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia's board reinstated Jensen Huang as CEO days after his resignation over an alleged affair, following reported phone calls from President Trump urging the board to bring him back. Employees welcomed Huang at headquarters, and Nvidia's stock rose on the news.",
+   "more": "Huang resigned on November 12th amid scrutiny over an alleged affair with a suspected Chinese spy, but Nvidia's board reversed course and reinstated him within weeks. Techcrunch reported that President Trump personally called into a Nvidia board meeting to advocate for Huang's return, and Trump later told CNBC he had \"convinced\" the board. Huang was greeted by employees at Nvidia's headquarters as a hero and told staff he intends to be \"a better CEO the second time around.\" Nvidia's stock price rose following the reinstatement. Commentators were split: some framed it as a sign of impunity for powerful executives, while others noted unresolved questions about the episode remain.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1040652",
+    "verge-ai:https://www.theverge.com/?p=1040819",
+    "verge-ai:https://www.theverge.com/?p=1040428",
+    "techcrunch-ai:https://techcrunch.com/?p=3191575",
+    "techcrunch-ai:https://techcrunch.com/?p=3191548",
+    "techcrunch-ai:https://techcrunch.com/?p=3191267",
+    "techcrunch-ai:https://techcrunch.com/?p=3191332",
+    "wired-ai:6b04637f3a3ef1d1be5c9fbf",
+    "latent-space:urn:latent-space:post:post_7482e5b8-089f-4955-b288-dfe47c243039"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1040652",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Trump engineered a risky comeback for Jensen Huang",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+     "published": "2026-11-23T22:25:12+00:00",
+     "excerpt": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A. Smith's radio show shortly after the news came out, Trump said that Huang would \"end up on his feet.\" […]"
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1040819",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Welcome to elite impunity, Jensen Huang",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+     "published": "2026-11-23T22:09:26+00:00",
+     "excerpt": "I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened. Now, those of us who had some kind of basic education on what a \"free market\" is might […]"
+    },
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1040428",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "How Jensen Huang ended up as Nvidia CEO again",
+     "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+     "published": "2026-11-23T19:57:18+00:00",
+     "excerpt": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfaithful\" to his wife […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191575",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+     "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+     "published": "2026-11-23T21:47:41+00:00",
+     "excerpt": "\"The mistake has been corrected,\" Elon Musk chimed in."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191548",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+     "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+     "published": "2026-11-23T20:38:53+00:00",
+     "excerpt": "\"I'm going to be a better CEO the second time around,\" Huang told employees."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191267",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Jensen Huang isn’t out of the woods yet",
+     "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+     "published": "2026-11-23T16:57:40+00:00",
+     "excerpt": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement."
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191332",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+     "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+     "published": "2026-11-23T16:39:10+00:00",
+     "excerpt": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC."
+    },
+    {
+     "id": "wired-ai:6b04637f3a3ef1d1be5c9fbf",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Jensen Huang Is Back, and So Is Nvidia’s Stock",
+     "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
+     "published": "2026-11-23T17:52:56+00:00",
+     "excerpt": "Jensen Huang comes back, numbers go up. Maybe the reason behind the CEO’s return is just that simple?"
+    },
+    {
+     "id": "latent-space:urn:latent-space:post:post_7482e5b8-089f-4955-b288-dfe47c243039",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+     "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+     "published": "2026-11-24T04:14:16+00:00",
+     "excerpt": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit."
+    }
+   ],
+   "coverage": 4,
+   "newest": "2026-11-24T04:14:16+00:00"
+  },
+  {
+   "title": "Supertake raises $20M to turn market predictions into AI-run portfolios",
+   "tags": [
+    "industry",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Startup Supertake raised $20 million for a platform that turns users' market predictions into stock portfolios managed by AI agents, without requiring them to pick individual stocks.",
+   "more": "Supertake's pitch is to let people back their market views with money without needing to select stocks directly. The startup uses AI agents to translate those predictions into actual portfolios. Details on investors and valuation were not disclosed in the announcement.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3191460"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191460",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+     "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+     "published": "2026-11-23T22:02:05+00:00",
+     "excerpt": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T22:02:05+00:00"
+  },
+  {
+   "title": "Anthropic's compute spending pushes xAI toward renting over building",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic's roughly $3.1 billion monthly compute spending, alongside Google's $800 million, is reportedly pushing xAI (SpaceXSI) to rent compute to competitors rather than build its own AI infrastructure.",
+   "more": "Since May, SpaceXSI has rented compute to competitors including Anthropic and Google while scaling back its own AI projects, according to the New York Times. Anthropic reportedly pays about $3.1 billion a month and Google about $800 million for that compute. After SpaceXSI's June IPO, the company disbanded its 60-person Grok Imagine team as part of broader cuts. The report frames the shift as a rent-over-build strategy driven by rivals' compute demand.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43237"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43237",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic's appetite for compute is pushing xAI toward a rent-over-build strategy",
+     "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/",
+     "published": "2026-11-23T18:47:53+00:00",
+     "excerpt": "Since May, SpaceXSI has been renting compute to competitors like Anthropic and Google while scaling back its own AI projects. Anthropic pays about $3.1 billion a month, Google $800 million, the New York Times reports. After its June IPO, SpaceXSI disbanded the 60-person Grok Imagine team, among other cuts. The article Anthropic's appetite for compute is pushing xAI toward a rent-over-build strategy appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T18:47:53+00:00"
+  },
+  {
+   "title": "Amazon acquires Decart's AI optimization tech for $7.5B",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amazon is acquiring Decart's AI optimization technology and research team in a reported $7.5 billion deal, as it prepares to sell its Trainium AI chips.",
+   "more": "The acquisition brings Decart's optimization technology and research staff into Amazon. It comes as Amazon readies Trainium chips for external sale, suggesting the Decart technology may help optimize workloads on that hardware. Financial terms beyond the reported $7.5 billion price were not disclosed.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3191371"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191371",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+     "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+     "published": "2026-11-23T17:14:23+00:00",
+     "excerpt": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T17:14:23+00:00"
+  },
+  {
+   "title": "Z.ai releases GLM-5.4 with a loop transformer architecture",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Chinese AI lab Z.ai released GLM-5.4, its first model built on a looped transformer architecture that reruns weight-shared layers multiple times to refine hidden states without adding parameters.",
+   "more": "In a standard transformer, each layer runs once per forward pass; GLM-5.4's loop transformer instead runs a group of weight-shared layers for multiple iterations per pass. Z.ai describes this as a way to get a deeper effective network without increasing parameter count. The release is aimed at generalized coding tasks. Further benchmark details were not included in the excerpt.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/23/glm-54/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/23/glm-54/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+     "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+     "published": "2026-11-23T23:40:49+00:00",
+     "excerpt": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass. This gives us a deeper network without increasing the parameter count. This is the s"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T23:40:49+00:00"
+  },
+  {
+   "title": "OpenAI makes GPT-6.2 Sol the default ChatGPT model",
+   "tags": [
+    "models",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is rolling out GPT-6.2 Sol as the new default model in ChatGPT's chat tab worldwide, with better handling of complex questions, web search, and images.",
+   "more": "In OpenAI's internal tests, image understanding accuracy jumped from 47.4 to 71.7 percent with the new model. GPT-6.2 Sol also follows difficult instructions correctly 78.1 percent of the time, per those tests. OpenAI says the model sticks to safety policies more consistently than its predecessor. The rollout applies to ChatGPT's chat tab globally.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43242"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43242",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably",
+     "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
+     "published": "2026-11-23T20:39:18+00:00",
+     "excerpt": "OpenAI is making GPT-6.2 Sol the new default model in ChatGPT's chat tab, rolling it out worldwide. In internal tests, image understanding jumped from 47.4 to 71.7 percent, and the model now handles difficult instructions correctly 78.1 percent of the time. It also sticks to safety policies more consistently. The article OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T20:39:18+00:00"
+  },
+  {
+   "title": "Google Search's AI Mode adds Personal Intelligence from Drive, Wallet",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google is bringing its 'Personal Intelligence' feature to Search's AI Mode, letting it draw on a user's Drive, Wallet, Gmail, Photos, and Calendar data for more tailored responses.",
+   "more": "The update extends AI Mode's Personal Intelligence capability to also tap Google Drive and Google Wallet, in addition to other Google services. It also reaches the Gemini app. Google frames the change as using data already within its ecosystem to make Search results more tailored to each user. The company did not detail specific new query types this enables or a rollout timeline.",
+   "item_ids": [
+    "google-ai:https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+    "techcrunch-ai:https://techcrunch.com/?p=3191431"
+   ],
+   "items": [
+    {
+     "id": "google-ai:https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+     "source": "google-ai",
+     "source_name": "Google AI Blog",
+     "title": "A more tailored Google Search that’s uniquely yours",
+     "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+     "published": "2026-11-23T17:00:00+00:00",
+     "excerpt": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191431",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+     "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+     "published": "2026-11-23T19:14:46+00:00",
+     "excerpt": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-23T19:14:46+00:00"
+  },
+  {
+   "title": "Nothing unveils Ear Note earbuds with AI transcription",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nothing showed off its upcoming Ear Note earbuds, which can record and transcribe conversations via a microphone-equipped charging case and a companion app for AI-generated summaries.",
+   "more": "CEO Carl Pei demonstrated the Ear Note device, positioning it similarly to Apple's new Watch recording feature and wearables like Amazon's Bee. The charging case itself houses the recording microphone. A connected app manages recordings, transcriptions, and AI-generated summaries. Pricing and release timing were not detailed in the announcement.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1040357"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1040357",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
+     "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+     "published": "2026-11-23T19:04:52+00:00",
+     "excerpt": "Nothing's new AI device is the Ear Note, a set of earbuds and their microphone-equipped charging case that can record and transcribe conversations, with a connected app to manage the recordings, transcriptions and AI-generated summaries, similar to Apple's new Watch feature and devices like Amazon's Bee wearable. Nothing CEO Carl Pei demonstrated the new device […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T19:04:52+00:00"
+  },
+  {
+   "title": "Ladybird browser ships its first alpha release",
+   "tags": [
+    "open-source",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "The Ladybird browser project shipped its first alpha release, an independent browser built largely from scratch with its own HTML, CSS, JavaScript, and layout engines.",
+   "more": "Ladybird implements most of its own core components rather than relying on an existing browser engine. It still uses some external libraries, including HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite. The rest of the browser is original code or carried over from Ladybird's predecessor project, SerenityOS. The alpha marks a milestone for a project aiming to build a modern browser largely from first principles.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/23/ladybird/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/23/ladybird/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Ladybird's first alpha release",
+     "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+     "published": "2026-11-23T21:46:35+00:00",
+     "excerpt": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite. Everything else is part of Ladybird, or code brought in from Ladybird's even more ambitious predecessor project SerenityOS . This morning"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T21:46:35+00:00"
+  },
+  {
+   "title": "RoboTrack brings point tracking to robotic manipulation",
+   "tags": [
+    "robotics",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Allen Institute for AI released RoboTrack, a point-tracking model aimed at real-world robotic manipulation tasks, published via a Hugging Face blog post.",
+   "more": "RoboTrack focuses on point tracking for real-world robotic manipulation, according to its Hugging Face blog post. No further technical details were included in the available excerpt.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/allenai/robotrack"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/allenai/robotrack",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+     "url": "https://huggingface.co/blog/allenai/robotrack",
+     "published": "2026-11-23T17:20:37+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T17:20:37+00:00"
+  }
+ ]
+}
