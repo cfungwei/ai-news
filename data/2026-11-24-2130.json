@@ -1,0 +1,489 @@
+{
+ "date": "2026-11-24",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Anthropic researcher defends AI-assisted Riemann proof, admits rollout missteps",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic researcher Levent Alpöge stands by the math in his AI-assisted proof of the generalized Riemann hypothesis, but says the 250,000-page claim was a joke and the Lean code is flawed.",
+   "more": "Alpöge is walking back parts of how he announced the proof, acknowledging he did \"stupid things\" in the rollout. He clarified that the claim the proof ran to more than 250,000 pages was a joke, not a literal description. He also admitted the published Lean formalization code is, in his words, \"full of garbage.\" Despite the rollout criticism, he maintains that the underlying mathematical result itself still holds.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43264"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43264",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic researcher stands by his AI-assisted Riemann proof but owns up to \"stupid things\" in the rollout",
+     "url": "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/",
+     "published": "2026-11-24T14:28:41+00:00",
+     "excerpt": "Anthropic researcher Levent Alpöge is walking back parts of his announcement of an AI-assisted proof of the generalized Riemann hypothesis. The claim that it ran to more than 250,000 pages was a joke, he says, and the published Lean code is \"full of garbage.\" He still stands by the math. The article Anthropic researcher stands by his AI-assisted Riemann proof but owns up to \"stupid things\" in the rollout appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T14:28:41+00:00"
+  },
+  {
+   "title": "German researchers urge renaming computer science to 'Computer and AI Science'",
+   "tags": [
+    "research",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "TU Darmstadt researchers published a position paper calling for computer science to be redefined as 'Computer and AI Science,' citing risks from code generated at runtime.",
+   "more": "The researchers' central concern is code generated on the fly during runtime, which they argue undermines today's safety and correctness guarantees in software systems. Their position paper frames this as reason enough to redefine the discipline's scope and priorities. The excerpt does not detail specific proposed curriculum or policy changes beyond the renaming call.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43251"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43251",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\"",
+     "url": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
+     "published": "2026-11-24T12:30:49+00:00",
+     "excerpt": "In a position paper, TU Darmstadt researchers call for redefining computer science as \"Computer and AI Science.\" Their biggest concern is code generated on the fly at runtime, which they say upends today's safety and correctness guarantees. The article German researchers call for computer science to reinvent itself as \"Computer and AI Science\" appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T12:30:49+00:00"
+  },
+  {
+   "title": "New paper proposes ViDecide, a decision-centric approach to video diffusion planning",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "ViDecide reframes video generation as a chain of decisions rather than a fixed-length clip, aiming to fix physical and logical reasoning failures in today's video diffusion models.",
+   "more": "Current video diffusion models can produce realistic footage but often violate physical and logical constraints during multi-step reasoning and planning tasks, even after reinforcement learning or large-scale training. The paper attributes this to treating a video as a fixed-length clip instead of a chain of decisions. ViDecide instead trains models within a decision-centric framework. The excerpt does not specify benchmark results or release details.",
+   "item_ids": [
+    "hf-papers:2611.26389"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.26389",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
+     "url": "https://huggingface.co/papers/2611.26389",
+     "published": "2026-11-24T00:00:00+00:00",
+     "excerpt": "Current leading video generation models can synthesize highly realistic videos, while still frequently violating physical and logical constraints in multi-step reasoning and planning, even after training with large-scale reasoning data or existing diffusion RL methods. We attribute these failures to the conventional video training paradigm, which treats a solution as a fixed-length clip rather than a chain of decisions. We present ViDecide, a decision-centric framework that trains video diffusio"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T00:00:00+00:00"
+  },
+  {
+   "title": "SynthDCB benchmark uses world distillation to test AI agents on device control",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "SynthDCB is a new benchmark for evaluating AI agents on device control, built by distilling device behaviors and environments into reusable components across Home, Car, and Phone domains.",
+   "more": "The benchmark addresses the challenge of scaling device-control evaluation, which needs both more interactive environments and more tasks for agents to solve. Its 'world distillation' approach converts knowledge of device behaviors, constraints, and environmental effects into modular, executable components. A unified capability representation ties together tool discovery, world execution, and task synthesis. SynthDCB instantiates test environments across Home, Car, and Phone domains. The excerpt does not detail specific benchmark results.",
+   "item_ids": [
+    "hf-papers:2611.18639"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.18639",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "SynthDCB: World Distillation for Scalable Device Control Benchmarking",
+     "url": "https://huggingface.co/papers/2611.18639",
+     "published": "2026-11-24T00:00:00+00:00",
+     "excerpt": "Scaling device-control evaluation requires scaling both interactive worlds and the tasks agents must solve. We introduce SynthDCB, a benchmark for environment awareness and device control built through world distillation (WD). World distillation transforms knowledge of device behaviors, constraints, and environmental effects into modular executable components. A unified capability representation connects tool discovery, world execution, and task synthesis. SynthDCB instantiates Home, Car, and Ph"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic builds a honeypot to test whether AI agents resist misbehaving",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic created a honeypot-style test to see whether AI agents will go rogue when given the opportunity, and whether they resist the temptation to misbehave.",
+   "more": "The test is designed around the assumption that AI agents can act against their intended instructions under certain conditions. It evaluates whether agents resist temptation when placed in a scenario built to lure them into misbehavior. Wired's report does not specify which models were tested or what the honeypot scenario involved.",
+   "item_ids": [
+    "wired-ai:6b04860c53bb4d55d8bfbf94"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6b04860c53bb4d55d8bfbf94",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+     "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+     "published": "2026-11-24T16:00:00+00:00",
+     "excerpt": "A new test assumes AI agents can go rogue—and asks whether they can resist temptation."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T16:00:00+00:00"
+  },
+  {
+   "title": "Essay argues LLM agents ultimately serve their parent companies, not users",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A widely discussed essay argues that LLM-based AI agents are designed to serve the interests of the companies that built them rather than the users deploying them.",
+   "more": "The piece gained significant traction on Hacker News, with 549 points and 231 comments at time of fetch. The excerpt does not detail the specific examples or arguments the author uses to support the claim, only the essay's core thesis as summarized in its title.",
+   "item_ids": [
+    "hn:50627340"
+   ],
+   "items": [
+    {
+     "id": "hn:50627340",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "LLM agents work for their parent companies, not for you",
+     "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+     "published": "2026-11-24T12:40:15+00:00",
+     "excerpt": "549 points, 231 comments. Discussion: https://news.ycombinator.com/item?id=50627340"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T12:40:15+00:00"
+  },
+  {
+   "title": "Amazon says hackers used AI agents to find and exploit a 0-day with little help",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amazon reported that attackers used AI agents, built on the Cairn AI framework, to discover and exploit a zero-day vulnerability with minimal human guidance.",
+   "more": "The incident highlights how the same agentic AI frameworks used by defenders, such as Cairn AI, can also be weaponized by attackers for vulnerability discovery and exploitation. Ars Technica reports the AI agents required little human input to find and exploit the flaw. The excerpt does not name the affected system or disclose further technical details.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+     "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+     "published": "2026-11-24T12:30:05+00:00",
+     "excerpt": "The Cairn AI framework is proving to be a boon for defenders and attackers."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T12:30:05+00:00"
+  },
+  {
+   "title": "Amazon acquires Decart for $7.5B to narrow AI chip efficiency gap with Nvidia",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amazon bought AI startup Decart in a reported $7.5 billion deal aimed at using software to make its Trainium chips more efficient against Nvidia's hardware.",
+   "more": "The acquisition reflects Amazon's strategy of pairing software improvements with its custom Trainium chips rather than competing on raw hardware alone. TechCrunch frames the deal, reportedly worth $7.5 billion, as part of a broader effort to close the efficiency gap with Nvidia in the AI chip race. The excerpt does not detail what specific technology Decart contributes or the acquisition's timeline.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3191706"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191706",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race",
+     "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+     "published": "2026-11-24T15:51:07+00:00",
+     "excerpt": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T15:51:07+00:00"
+  },
+  {
+   "title": "Trump and Silicon Valley pressured Nvidia's board to reinstate Jensen Huang",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "According to Ars Technica, allies of Jensen Huang enlisted Donald Trump and JD Vance to pressure Nvidia's board into bringing him back after he had been pushed out.",
+   "more": "The report describes a political and industry pressure campaign to reverse Nvidia's board decision regarding Huang's position. Trump and Vance are named as having applied pressure on the board. The excerpt does not detail why Huang was originally removed or the timeline of the reinstatement.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+     "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+     "published": "2026-11-24T14:56:50+00:00",
+     "excerpt": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T14:56:50+00:00"
+  },
+  {
+   "title": "Anthropic's stock falls below its IPO price in early trading",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic shares dropped below their $83 IPO price in premarket and early trading, according to Bloomberg and other coverage picked up on Hacker News.",
+   "more": "Bloomberg reported Anthropic breaking below its $83 IPO price in premarket trading, a move also covered by MSN. Both reports were widely discussed on Hacker News, drawing over 300 combined comments. The excerpts do not specify the exact trading price reached or give analysts' explanations for the drop.",
+   "item_ids": [
+    "hn:50628932",
+    "hn:50627836"
+   ],
+   "items": [
+    {
+     "id": "hn:50628932",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Anthropic is below its IPO price",
+     "url": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
+     "published": "2026-11-24T14:41:15+00:00",
+     "excerpt": "103 points, 107 comments. Discussion: https://news.ycombinator.com/item?id=50628932"
+    },
+    {
+     "id": "hn:50627836",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+     "published": "2026-11-24T13:23:47+00:00",
+     "excerpt": "139 points, 224 comments. Discussion: https://news.ycombinator.com/item?id=50627836"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T14:41:15+00:00"
+  },
+  {
+   "title": "Pinterest adds parental controls to limit AI-generated content shown to teens",
+   "tags": [
+    "products",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Pinterest is rolling out a feature letting parents restrict how much AI-generated content their teenage children see, addressing AI content in feeds rather than chatbot access.",
+   "more": "The move contrasts with other social platforms, which have mostly focused on restricting teens' access to AI chatbots rather than the AI-generated content filling their feeds. The excerpt does not specify how the limit is implemented or when it rolls out broadly.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3191752"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191752",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+     "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+     "published": "2026-11-24T16:02:37+00:00",
+     "excerpt": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T16:02:37+00:00"
+  },
+  {
+   "title": "Google's Gemini partners with the Golden State Warriors for fan and business operations",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google announced a partnership bringing Gemini to the Golden State Warriors, Valkyries, and Chase Center, to power fan experiences and business operations.",
+   "more": "The partnership covers the Warriors, the WNBA's Valkyries, and the Chase Center venue, using Gemini for both fan-facing experiences and internal business operations. Google's blog post does not detail specific product features or financial terms.",
+   "item_ids": [
+    "google-ai:https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/"
+   ],
+   "items": [
+    {
+     "id": "google-ai:https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+     "source": "google-ai",
+     "source_name": "Google AI Blog",
+     "title": "How Gemini is changing the game for Golden State's organization and fans.",
+     "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+     "published": "2026-11-24T16:00:00+00:00",
+     "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T16:00:00+00:00"
+  },
+  {
+   "title": "New York Times tells photographers to avoid new Photoshop update over AI features",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "The New York Times asked freelance photographers not to adopt Adobe's 2027 Photoshop update, citing AI features that may alter images in ways not apparent to users.",
+   "more": "In an email seen by The Verge and posted on Threads, Times photography leaders including Meaghan Looram raised concerns about the update's AI capabilities. The warning centers on a lack of transparency about how AI features could change photos without users realizing it. The excerpt does not specify which exact features are at issue or whether other publications have issued similar guidance.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1041227"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1041227",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "The New York Times warns photographers not to update Photoshop over AI features",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+     "published": "2026-11-24T16:09:23+00:00",
+     "excerpt": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T16:09:23+00:00"
+  },
+  {
+   "title": "Insiders say OpenAI and Anthropic's unreleased models have outgrown safety measures",
+   "tags": [
+    "policy",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "An Axios report cites dozens of OpenAI and Anthropic employees who believe their companies' unreleased frontier models can no longer be safely controlled, with internal debate over halting releases.",
+   "more": "The report says staff at both companies are increasingly worried that frontier models in development have exceeded what current safety measures can handle. Internally, employees are debating whether to pause releases or stop training further models altogether. The Decoder notes that trust in leadership is eroding among employees at both companies. The excerpt does not specify which particular models or safety measures are referenced.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43263"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43263",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
+     "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+     "published": "2026-11-24T14:02:31+00:00",
+     "excerpt": "According to an Axios report, many employees at OpenAI and Anthropic believe the companies' own unreleased frontier models can no longer be safely controlled. Both companies are internally debating whether to halt releases or even stop training altogether, while employee trust in leadership is eroding. The article Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T14:02:31+00:00"
+  },
+  {
+   "title": "Crusoe investor bets on solar and batteries to power future AI data centers",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "An investor in cloud provider Crusoe argues that solar power and battery storage are the practical choice for the tens of gigawatts future AI data centers will need.",
+   "more": "The investor's thesis centers on next-generation data centers needing tens of gigawatts of power annually, a scale that strains conventional grid and generation options. Solar paired with battery storage is framed as a faster-to-deploy alternative to the gas turbines and nuclear projects other data center operators are pursuing. TechCrunch's report does not name the investor or specify dollar amounts involved.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3191518"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191518",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+     "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+     "published": "2026-11-24T16:10:00+00:00",
+     "excerpt": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T16:10:00+00:00"
+  },
+  {
+   "title": "Report: agentic AI is driving a surge in enterprise network traffic and strain",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "AI deployment, and now agentic AI specifically, is becoming the biggest driver of enterprise network demand, with AI agent tasks generating an estimated 450% more traffic than the same tasks done by humans.",
+   "more": "The report notes that enterprise networks are under severe strain as companies rush to deploy AI, with agentic AI adding further load on top of existing demand. It cites an estimate that tasks performed by AI agents generate about 450% more network traffic than equivalent tasks done by human workers. The excerpt does not specify which companies or network vendors are involved, or what modernization steps are recommended.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1148091"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1148091",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "Raising the stakes for enterprise networks with AI modernization",
+     "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+     "published": "2026-11-24T15:15:16+00:00",
+     "excerpt": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T15:15:16+00:00"
+  },
+  {
+   "title": "NVIDIA details Microduck obstacle-avoidance sim2real workflow with Isaac Lab and Newton",
+   "tags": [
+    "robotics",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "NVIDIA published a Hugging Face blog post describing a sim-to-real workflow for obstacle avoidance on its Microduck robot, built using Isaac Lab and the Newton physics engine.",
+   "more": "The post, published on the Hugging Face blog by NVIDIA, covers a sim-to-real transfer workflow for obstacle avoidance using Isaac Lab and the Newton physics engine. No further details are available from the excerpt alone.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+     "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+     "published": "2026-11-24T16:34:13+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T16:34:13+00:00"
+  },
+  {
+   "title": "Jensen Huang deepfakes depicting him partying in Ibiza go viral as 'AI slop'",
+   "tags": [
+    "other",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A deepfake video showing former Nvidia CEO Jensen Huang partying in Ibiza has racked up millions of views on Instagram, part of a wave of AI-generated 'slop' content.",
+   "more": "The video, with nearly 6 million views, shows an AI-generated Huang dancing in a club before a depiction of Alice Huang - described as a Chinese technology executive and suspected spy - appears beside him. The Verge frames the clip as part of a broader trend of AI deepfakes spreading as viral entertainment content. The excerpt does not specify who created the deepfake or whether Huang has responded.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1041222"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1041222",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Jensen Huang deepfakes are the hot new AI slop",
+     "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+     "published": "2026-11-24T16:30:00+00:00",
+     "excerpt": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T16:30:00+00:00"
+  }
+ ]
+}
