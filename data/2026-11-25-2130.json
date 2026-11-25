@@ -1,0 +1,279 @@
+{
+ "date": "2026-11-25",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Amazon and Meta reportedly in talks to end two-month Muse AI shopping block",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amazon and Meta are discussing ending a two-month blockade on Meta's Muse AI shopping agent, per a Fortune report. Talks reportedly center on which products Muse recommends and the impact on Amazon's ad revenue.",
+   "more": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace again, according to a Fortune report, after blocking the agent for roughly two months. The discussions reportedly focus on the kinds of products Muse recommends to shoppers and the potential impact on Amazon's advertising revenue. Neither company has confirmed a resolution, and the timeline for lifting the block is unclear.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1042071",
+    "techcrunch-ai:https://techcrunch.com/?p=3192253"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1042071",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+     "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+     "published": "2026-11-25T14:12:33+00:00",
+     "excerpt": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune, […]"
+    },
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3192253",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+     "published": "2026-11-25T14:10:18+00:00",
+     "excerpt": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-25T14:12:33+00:00"
+  },
+  {
+   "title": "Anthropic study finds company structure, not skills, blocks AI adoption at work",
+   "tags": [
+    "industry",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic studied nearly 300 AI deployments across 58 US companies and found roughly one in five delivers no business value, with outdated company structures the biggest barrier.",
+   "more": "The Decoder reports on an Anthropic study covering almost 300 AI deployments at 58 US companies. Nearly one in five of those deployments delivered no business value, the study found. Researchers attributed the shortfall mainly to heavy review workloads, internal bottlenecks, and employee resistance, tracing the root cause to outdated company structures rather than gaps in employee skill with the tools. The study does not name specific companies or industries affected.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43296"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43296",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools",
+     "url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/",
+     "published": "2026-11-25T13:14:27+00:00",
+     "excerpt": "Anthropic studied nearly 300 AI deployments across 58 US companies with sobering results. Nearly one in five still delivers no business value, held back by heavy review workloads, internal bottlenecks, and employee resistance. The researchers say the biggest hurdles stem from outdated company structures. The article Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T13:14:27+00:00"
+  },
+  {
+   "title": "US financial crime unit and spy agencies hit by back-to-back cyber incidents",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "FinCEN took systems offline after unauthorized access, hours after reports of a separate breach at the CIA, NGA, and ODNI tied to the AI tool Artex, continuing a string of federal hacks.",
+   "more": "The Decoder reports that the US Financial Crimes Enforcement Network took its systems offline as a precaution following unauthorized access. Hours earlier, separate reports emerged of a breach affecting the CIA, the National Geospatial-Intelligence Agency, and the Office of the Director of National Intelligence. Investigators reportedly suspect the attackers used the AI defense tool Artex in that breach. Both incidents add to a recent string of federal hacks and outages, landing on a US public already on edge about cybersecurity.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43304"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43304",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Back-to-back cyber incidents at US financial investigators and spy agencies follow a string of federal hacks and outages",
+     "url": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages/",
+     "published": "2026-11-25T13:07:44+00:00",
+     "excerpt": "The US Financial Crimes Enforcement Network took systems offline as a precaution after unauthorized access. Hours earlier, reports emerged of a separate breach at the CIA, NGA, and ODNI, in which investigators suspect attackers used the AI defense tool Artex. Both incidents land on a US public that is already on edge. The article Back-to-back cyber incidents at US financial investigators and spy agencies follow a string of federal hacks and outages appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T13:07:44+00:00"
+  },
+  {
+   "title": "Huang still faces Congress, board questions over Megaspeed, chip-smuggling ties",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Jensen Huang and Nvidia still owe Congress and Nvidia's own board answers about Megaspeed, including Huang's alleged romantic ties to a chip smuggler, per TechCrunch.",
+   "more": "TechCrunch reports that Nvidia CEO Jensen Huang faces unresolved questions from both Congress and Nvidia's board regarding the company's Megaspeed dealings. Central to the scrutiny is Huang's alleged romantic relationship with a person accused of chip smuggling. The report does not specify further detail on Megaspeed itself or the smuggling allegations. It remains unclear when or how these questions will be formally addressed.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3191841"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3191841",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+     "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+     "published": "2026-11-25T13:00:00+00:00",
+     "excerpt": "Huang still faces questions from Congress and his own board about his romantic relationship with an alleged chip smuggler."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T13:00:00+00:00"
+  },
+  {
+   "title": "PrismML's Ternary Bonsai 2.5 shrinks a 27B coding model to 5.9GB with ternary weights",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Startup PrismML released Ternary Bonsai 2.5, a 27B-parameter coding model compressed from 54GB to 5.9GB by restricting every weight to one of three possible values.",
+   "more": "The Decoder reports that startup PrismML has released Ternary Bonsai 2.5 27B, an updated version of its aggressively compressed language model. The model's weights are restricted to just three possible values each, a technique known as ternary quantization, shrinking its footprint from 54GB down to 5.9GB. The report does not specify benchmark results or how this version compares to the previous Ternary Bonsai release. It is also unclear whether the model's weights are openly available.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43292"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43292",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
+     "url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
+     "published": "2026-11-25T11:51:49+00:00",
+     "excerpt": "Startup PrismML has released Ternary Bonsai 2.5 27B, an updated version of its aggressively compressed language model. The article PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T11:51:49+00:00"
+  },
+  {
+   "title": "AI is starting to reshape what theoretical physicists spend their time on",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Frontier AI systems are already handling calculations that used to take top theoretical physicists a full day, and physicists are now figuring out how that changes their work, per Ars Technica.",
+   "more": "Ars Technica reports that frontier AI models can now complete calculations that previously took leading theoretical physicists an entire day. The shift is prompting physicists to reconsider what their work will look like as AI takes over more of the computational load. The report does not name specific models, papers, or physicists involved. How widely these tools have already been adopted in physics research remains unclear.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "AI may soon change what it means to be a theoretical physicist",
+     "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+     "published": "2026-11-25T12:00:28+00:00",
+     "excerpt": "Frontier AI is already solving problems that once took top physicists a full day."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T12:00:28+00:00"
+  },
+  {
+   "title": "DeepMind lets AI agents run its own Gemini research experiments",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind is using AI agents to autonomously run experiments for upcoming Gemini models, though research chief Koray Kavukcuoglu says recursive self-improvement remains far off.",
+   "more": "The Decoder reports that Google DeepMind now has AI agents independently running experiments to support upcoming Gemini models. DeepMind research chief Koray Kavukcuoglu said the lab remains far from recursive self-improvement despite this capability. For oversight, DeepMind intentionally leaves the agents' internal chains of thought untrained so humans can review them. Kavukcuoglu reportedly measures progress toward AGI by everyday user trust rather than benchmark scores.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43305"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43305",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
+     "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+     "published": "2026-11-25T13:23:36+00:00",
+     "excerpt": "Google Deepmind uses AI agents to run experiments on their own for upcoming Gemini models. Research chief Koray Kavukcuoglu says the lab is still far from recursive self-improvement. For oversight, Deepmind intentionally leaves the agents' internal chains of thought untrained so they can be reviewed. Kavukcuoglu measures AGI by everyday user trust rather than benchmarks. The article AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains di"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T13:23:36+00:00"
+  },
+  {
+   "title": "Vibe-coding tools push open source firmware modding into the mainstream for synths",
+   "tags": [
+    "open-source",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "Vibe-coding agents and tools like Reverse Engineer Anything are letting hobbyists reverse-engineer and modify synth and music gear firmware, pushing some manufacturers to embrace open-source modding.",
+   "more": "The emergence of powerful vibe-coding agents has caused disruption in the music gear world, as hobbyists use them to reverse-engineer proprietary firmware. Tools such as Reverse Engineer Anything have made this kind of modding far more accessible than before. Manufacturer reactions have varied: some, like Roland, have stayed silent, while others have begun embracing the modding community. The shift has unfolded over just the past several weeks as it became clear the trend would not go away.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1040081"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1040081",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Has vibe coding made open source the new normal for synths?",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+     "published": "2026-11-25T13:00:00+00:00",
+     "excerpt": "The emergence of powerful vibe-coding agents and tools like Reverse Engineer Anything has caused chaos in the music gear world, leaving companies scrambling to figure out how to respond. While some, like Roland, have remained silent for now, others have embraced the modding community. In the last several weeks, as it's become clear that no […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T13:00:00+00:00"
+  },
+  {
+   "title": "Nothing reveals Ear Note AI earbuds with call recording ahead of Dec 8 launch",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nothing showed a detailed look at its upcoming Ear Note earbuds, which can record calls, and a charging case that records, transcribes, and summarizes nearby conversations. The buds launch December 8th.",
+   "more": "The Ear Note buds can record phone calls directly, while their microphone-equipped charging case can record, transcribe, and summarize conversations happening nearby. Like the earlier Ear 3, the case includes a dedicated \"Talk\" button to start a recording. Nothing has not yet detailed pricing or the full extent of the AI features ahead of the December 8th release.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1042162"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1042162",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Nothing offers a full look at its AI earbuds and charging case",
+     "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+     "published": "2026-11-25T16:00:59+00:00",
+     "excerpt": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\" button that you […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T16:00:59+00:00"
+  },
+  {
+   "title": "Nvidia's compute-first demands squeeze neocloud data center financing",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia won't backstop AI data centers until they're nearly ready to run, and neoclouds are feeling the strain from construction delays and pricier debt. Land, power, and finished buildings now matter more than pitch decks.",
+   "more": "A TechCrunch podcast discusses how Nvidia has made clear it won't back AI data center projects until they are nearly operational, which is landing just as neocloud operators report construction delays and more expensive financing. The message to developers is that secured land, power access, and a finished building now matter more than a pitch deck alone. Real estate figure Anita Verma-Lallian has reportedly been selling land packages built around exactly those requirements. Specific deals or financing terms were not detailed.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3192333"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?post_type=tc_podcast&p=3192333",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+     "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+     "published": "2026-11-25T15:41:43+00:00",
+     "excerpt": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. ⁠Anita Verma-Lallian⁠ has been selling exactly that. […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T15:41:43+00:00"
+  }
+ ]
+}
