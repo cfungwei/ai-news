@@ -1,0 +1,270 @@
+{
+ "date": "2026-11-25",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Wired: crowdsourced data and ML aim to finally crack turbulence prediction",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Wired reports that terabytes of crowdsourced flight data combined with new machine learning techniques are making progress on turbulence prediction, long called the hardest problem in classical physics.",
+   "more": "The article describes turbulence prediction as the 'hardest remaining problem in classical physics,' a challenge that has resisted traditional modeling for decades. It reports that researchers are now applying machine learning and AI to terabytes of crowdsourced data, in hopes of making real progress on predicting and avoiding turbulence. The excerpt does not specify which organizations or researchers are behind the effort, nor does it give a timeline for when such predictions might become practical for airlines.",
+   "item_ids": [
+    "wired-ai:6b0477f9f5de7b5e1546a250"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6b0477f9f5de7b5e1546a250",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long",
+     "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
+     "published": "2026-11-25T11:30:00+00:00",
+     "excerpt": "The “hardest remaining problem in classical physics” gets a boost from terabytes of crowdsourced data and new ways of using machine learning and AI."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T11:30:00+00:00"
+  },
+  {
+   "title": "MIT: deliberately unrealistic training data improves AI climate models",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "MIT researchers found that training climate AI emulators on deliberately extreme, unrealistic CO2 and methane scenarios makes them more robust, cutting needed training runs from six-to-eight down to one.",
+   "more": "The method lets AI climate emulators get by with a single training run instead of the usual six to eight, according to the researchers. It works by having an algorithm generate deliberately unrealistic scenarios with extreme swings in CO2 or methane levels, which makes the resulting model more robust to conditions outside its original training data. The researchers note that, until now, these emulators were often outdated by the time they finished training, a problem this approach is meant to address. The excerpt doesn't specify which MIT lab or researchers led the work, or how the method was validated.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=42829"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=42829",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "MIT team discovers that unrealistic training data makes AI climate predictions more reliable",
+     "url": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
+     "published": "2026-11-25T10:47:51+00:00",
+     "excerpt": "MIT researchers have developed a method that lets AI climate models get by with a single training run instead of the usual six to eight. An algorithm generates deliberately unrealistic scenarios with extreme CO2 or methane swings that make the model more robust. Until now, these emulators were often outdated by the time they were finished, according to the researchers. The article MIT team discovers that unrealistic training data makes AI climate predictions more reliable appeared first on The D"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T10:47:51+00:00"
+  },
+  {
+   "title": "Paper trains AI agents to act on their own stated beliefs, not guess early",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers propose reinforcement learning with verifiable beliefs to stop AI agents from committing to answers before gathering enough evidence, a behavior they call laziness.",
+   "more": "The researchers call this behavior laziness: agents commit to an answer before gathering enough evidence, even while their own stated belief still lists several possible answers. Standard outcome rewards only score the final answer, so a lucky guess scores the same as an answer backed by real evidence, giving agents no incentive to keep gathering information. The paper's method, reinforcement learning with verifiable beliefs, instead has a simulator compute the agent's exact posterior during training. This lets the reward reflect whether the agent's belief was actually justified, not just whether its final guess happened to be right. The excerpt cuts off before describing full results, so how much the method improves accuracy isn't detailed here.",
+   "item_ids": [
+    "hf-papers:2611.32884"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.32884",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+     "url": "https://huggingface.co/papers/2611.32884",
+     "published": "2026-11-25T00:00:00+00:00",
+     "excerpt": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness. In our evaluations, they frequently commit even while their stated belief still names several possible answers. An outcome reward at the end of the episode scores only the final answer, so it cannot teach the agent when to commit, because a lucky guess receives the same reward as an answer backed by evidence. During training, however, the simulator can compute the exact posteri"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T00:00:00+00:00"
+  },
+  {
+   "title": "Study tackles stale perception in AI agents that operate computers",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers highlight a 'perception-action gap' in computer-use AI agents, where slow vision-language model inference means the screen state they act on is often already outdated.",
+   "more": "Computer-use agents built on vision-language models are increasingly given long-horizon tasks on live desktops, websites, and mobile apps, where the screen keeps changing on its own. The paper argues these agents lack real-time situational awareness because they perceive the environment only through discrete snapshots. Substantial inference latency in vision-language models, compounded by fast-changing interfaces, opens a gap between what the agent observes and the environment's actual state. By the time the agent acts, the excerpt notes, the observed state has frequently already gone stale. The excerpt does not detail the proposed fix, so how the paper addresses proactive perception isn't covered here.",
+   "item_ids": [
+    "hf-papers:2611.28947"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.28947",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents",
+     "url": "https://huggingface.co/papers/2611.28947",
+     "published": "2026-11-25T00:00:00+00:00",
+     "excerpt": "Computer-use agents (CUAs) built on vision-language models are increasingly entrusted with long-horizon tasks in live desktop, web, and mobile environments, where the screen keeps changing on its own. However, current CUAs lack real-time situational awareness: they perceive the environment through discrete snapshots, and the substantial inference latency of VLMs, compounded by highly dynamic interfaces, opens a perception-action gap in which the observed state frequently becomes stale before the"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T00:00:00+00:00"
+  },
+  {
+   "title": "New benchmark 'CUA-SEE' co-evolves tasks to test computer-use AI agents",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new evaluation environment called CUA-SEE grows its own tasks and verifiers from rollout evidence, aiming to fix static benchmarks that can't keep up with fast-improving computer-use agents.",
+   "more": "Computer-use agents are improving rapidly, but the paper argues their evaluation has stayed largely static. Existing benchmarks are a strong foundation, it says, but fixed difficulty ceilings, limited feature coverage, and coarse aggregate scores are weakening their ability to discriminate between agents and diagnose failures. The proposed environment, CUA-SEE, is described as a closed-loop system that co-evolves tasks and executable verifiers based on evidence gathered from agent rollouts. It separates benchmark evolution, which expands what the evaluation covers, from other objectives the excerpt does not fully detail. Exactly how much this changes measured agent performance isn't covered in the available excerpt.",
+   "item_ids": [
+    "hf-papers:2611.30962"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.30962",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
+     "url": "https://huggingface.co/papers/2611.30962",
+     "published": "2026-11-25T00:00:00+00:00",
+     "excerpt": "Computer-use agents (CUAs) are rapidly improving, yet their evaluation remains largely static. Existing benchmarks provide a strong foundation, but fixed difficulty ceilings, limited feature coverage, and coarse aggregate scores progressively weaken their discriminative and diagnostic value. We introduce CUA-SEE, a closed-loop evaluation environment that co-evolves tasks and executable verifiers from rollout evidence. It disentangles three objectives: benchmark evolution expands evaluation scope"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T00:00:00+00:00"
+  },
+  {
+   "title": "LingSante MedGuard aims to catch unsafe medical AI responses",
+   "tags": [
+    "research",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new technical report introduces LingSante MedGuard, a guardrail system that checks medical AI responses against clinical evidence and requirements to flag harmful or non-compliant answers.",
+   "more": "As AI is used more for patient consultation and clinical decision support, the report argues that identifying harmful, non-compliant, or ethically problematic responses is essential for safe deployment. Assessing that risk, it says, requires checking clinical claims against relevant evidence, verifying calculations, and applying medical requirements under their intended conditions. LingSante MedGuard is described as a capability-enhanced guardrail that integrates supervision from a medical guardrail teacher model. The excerpt cuts off before describing the system's training process or evaluation results in full, so those details aren't covered here.",
+   "item_ids": [
+    "hf-papers:2611.25509"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.25509",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "LingSante MedGuard Technical Report",
+     "url": "https://huggingface.co/papers/2611.25509",
+     "published": "2026-11-25T00:00:00+00:00",
+     "excerpt": "As medical AI is increasingly used for patient consultation and clinical decision support, identifying harmful, non-compliant, or ethically problematic responses is essential for responsible deployment. Assessing these risks requires checking clinical claims against relevant evidence, verifying calculations, and applying medical requirements under their intended conditions. We introduce LingSante MedGuard, a capability-enhanced guardrail that integrates supervision from a medical guardrail teach"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T00:00:00+00:00"
+  },
+  {
+   "title": "Ternary-Bonsai-2.5-27B GGUF trends on Hugging Face as a 2-bit on-device model",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A 27B-parameter ternary (2-bit) model packaged as GGUF for llama.cpp is trending on Hugging Face, built for on-device, agentic use with tool-calling and speculative decoding support.",
+   "more": "The model, prism-ml/Ternary-Bonsai-2.5-27B-GGUF, has drawn 204 likes and over 59,000 downloads on Hugging Face. It is tagged for llama.cpp and GGUF, using 2-bit ternary weights intended to run efficiently on-device via CPU, CUDA, or Metal. Its tags also point to agentic and tool-calling capabilities, along with hybrid-attention and speculative-decoding support, though the excerpt does not detail benchmark results or who built it beyond the prism-ml namespace.",
+   "item_ids": [
+    "hf-trending:prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+     "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+     "published": "2026-11-24T16:32:20+00:00",
+     "excerpt": "text-generation, 204 likes, 59366 downloads. Tags: llama.cpp, gguf, ternary, 2-bit, llama-cpp, cuda, metal, on-device, hybrid-attention, agentic, tool-calling, speculative-decoding"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-24T16:32:20+00:00"
+  },
+  {
+   "title": "LlamaIndex's OCRia-nano-1 OCR model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "OCRia-nano-1, a small image-to-text model from LlamaIndex for OCR tasks like PDF and table parsing, is trending on Hugging Face with 193 likes.",
+   "more": "OCRia-nano-1 is tagged for OCR, PDF, and markdown conversion, with support for document parsing, tables, and layout analysis. It runs on CPU and is described as multilingual, and the excerpt lists a 'parsebench' tag suggesting an associated benchmark. The model has 193 likes but only 126 downloads recorded, a relatively low number for a trending listing. The excerpt doesn't give further detail on model size, training data, or benchmark results.",
+   "item_ids": [
+    "hf-trending:llamaindex/OCRia-nano-1"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:llamaindex/OCRia-nano-1",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: llamaindex/OCRia-nano-1",
+     "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+     "published": "2026-11-03T21:44:40+00:00",
+     "excerpt": "image-to-text, 193 likes, 126 downloads. Tags: liteparse, onnx, ocr, pdf, markdown, document-parsing, tables, layout, cpu, parsebench, image-to-text, multilingual"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-03T21:44:40+00:00"
+  },
+  {
+   "title": "IBM Research shows an Indic-language voice agent built with CUGA",
+   "tags": [
+    "agents",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "IBM Research published a blog post describing a voice agent for Indic languages built using its CUGA agent framework.",
+   "more": "The blog post, published by IBM Research on Hugging Face, covers a voice agent for Indic languages built using CUGA, IBM's agent framework. The excerpt for this item was empty, so no further details beyond the title are available.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "An Indic Voice Agent with CUGA",
+     "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+     "published": "2026-11-25T10:22:09+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T10:22:09+00:00"
+  },
+  {
+   "title": "AI-driven public records requests are straining small-town US governments",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "MIT Technology Review reports that a surge in AI-assisted public records requests is overwhelming small local governments, using a Vermont town clerk's workload as an example.",
+   "more": "The article profiles Kyle Rowe, the town clerk of Panton, Vermont (population 660), who single-handedly manages budgets, vendor payments, property tax disputes, zoning, elections, and public records requests. It frames rising AI-assisted records requests as a growing burden on these open-records systems, which were built for a much smaller volume of manual requests. The excerpt cuts off before explaining who is filing the AI-assisted requests or how towns are responding, so those specifics aren't available here.",
+   "item_ids": [
+    "mit-tr-ai:https://www.technologyreview.com/?p=1149702"
+   ],
+   "items": [
+    {
+     "id": "mit-tr-ai:https://www.technologyreview.com/?p=1149702",
+     "source": "mit-tr-ai",
+     "source_name": "MIT Technology Review AI",
+     "title": "AI is straining America’s open records systems",
+     "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+     "published": "2026-11-25T10:00:00+00:00",
+     "excerpt": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he…"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T10:00:00+00:00"
+  }
+ ]
+}
