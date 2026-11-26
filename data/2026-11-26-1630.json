@@ -1,0 +1,222 @@
+{
+ "date": "2026-11-26",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Real2SimLab paper unifies benchmarks for real-to-simulation transfer",
+   "tags": [
+    "research",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper introduces Real2SimLab, a unified platform for evaluating real-to-simulation transfer methods that build simulations from real-world video. It aims to end the fragmented, benchmark-specific integrations researchers now need to compare methods.",
+   "more": "Real-to-simulation transfer builds simulations from real-world observations, and has long been used in both research and industry. Recently, coding agents have become capable of generating simulation programs directly from video recordings, and several benchmarks have emerged to evaluate them. Because each benchmark defines its own inputs, deliverables, and scoring pipeline, evaluating N methods across M benchmarks requires N times M separate integrations. Real2SimLab is proposed as a single platform to remove that duplication, though the available excerpt does not detail its specific benchmarks or results.",
+   "item_ids": [
+    "hf-papers:2611.34849"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.34849",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+     "url": "https://huggingface.co/papers/2611.34849",
+     "published": "2026-11-26T00:00:00+00:00",
+     "excerpt": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to N times M integrations when evaluating N methods on M benchmarks. To this end, we present Real2Sim"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T00:00:00+00:00"
+  },
+  {
+   "title": "New paper proposes Mixture-of-Loops Transformer to improve looped-layer efficiency",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers introduce the Mixture-of-Loops Transformer (MoLT), which reuses keys and values as memory across loop depths instead of just reusing whole layers. The design aims to improve the expressivity-efficiency tradeoff of looped Transformers.",
+   "more": "Looped Transformers increase expressivity by reusing shared layers across multiple loops, but this reuse costs efficiency. The paper's Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops, rather than simply repeating layers. One variant, MoLT-R, retains the residual stream under a loop-residual design. The excerpt does not specify benchmark results, so how much efficiency or expressivity gain MoLT achieves in practice is not yet clear from the available text.",
+   "item_ids": [
+    "hf-papers:2611.34923"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.34923",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Mixture-of-Loops Transformer",
+     "url": "https://huggingface.co/papers/2611.34923",
+     "published": "2026-11-26T00:00:00+00:00",
+     "excerpt": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and r"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T00:00:00+00:00"
+  },
+  {
+   "title": "Paper proposes DyLoMo-DiT, a parameter-reusing diffusion transformer with MoE",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper presents DyLoMo-DiT, a Diffusion Transformer that reuses a weight-shared loop for its middle layers instead of adding more parameters, while sparse experts still allocate capacity per token. It targets DiT's parameter-storage cost.",
+   "more": "Diffusion Transformers typically scale by increasing both parameter count and computation, and Mixture-of-Experts (MoE) variants expand capacity while keeping per-token compute roughly fixed but still need large parameter storage. Dynamic Looped MoE DiT (DyLoMo-DiT) instead reuses parameters: a weight-shared loop repeatedly applies the middle layers, while sparse experts distribute parameter capacity across tokens. The approach is meant to cut storage needs without the usual MoE parameter growth. The excerpt does not give benchmark numbers, so its actual gains over standard MoE DiTs are not yet established.",
+   "item_ids": [
+    "hf-papers:2611.30844"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.30844",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+     "url": "https://huggingface.co/papers/2611.30844",
+     "published": "2026-11-26T00:00:00+00:00",
+     "excerpt": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation roughly fixed, but still require substantial parameter storage. In this paper, we propose Dynamic Looped MoE DiT (DyLoMo-DiT), which reuses parameters rather than adding them: a weight-shared loop repeatedly applies the middle layers, while sparse experts allocate parameter capacity across tokens. Th"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T00:00:00+00:00"
+  },
+  {
+   "title": "Nvidia halts server shipments to four SE Asian countries after new export curbs",
+   "tags": [
+    "policy",
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia has told partners like Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia, following tighter US export controls on Chinese cloud access. Dealers are reportedly already seeking buyers for thousands of B300 chips.",
+   "more": "Nvidia instructed server partners, including Dell and Supermicro, to halt shipments to Malaysia, Singapore, Thailand, and Indonesia. The move follows new US export controls aimed at restricting Chinese cloud access. Dealers are reportedly already seeking alternative buyers for thousands of B300 chips affected by the halt, and one cloud executive described the resulting situation as \"chaos.\" Loans and major data center deals across Southeast Asia are now reportedly at risk. The excerpt does not specify a timeline for when shipments might resume.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43327"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43327",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls",
+     "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+     "published": "2026-11-26T11:21:16+00:00",
+     "excerpt": "Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia. Following new US export controls targeting Chinese cloud access, dealers are already seeking buyers for thousands of B300 chips, while one cloud executive describes \"chaos\", Loans and major deals are now on the line for Southeast Asia's data centers. The article Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T11:21:16+00:00"
+  },
+  {
+   "title": "UK's FCA says Meta refused to let it test Muse ahead of launch",
+   "tags": [
+    "policy",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "The UK's Financial Conduct Authority says Meta declined its request to jointly test Muse, Meta's personal AI agent, ahead of its UK rollout. The FCA warned of risk from \"another force of attack\" by agents.",
+   "more": "The UK Financial Conduct Authority complained that Meta refused to share its Muse personal agent for testing before rolling it out in the UK on Tuesday. The regulator warned specifically against the risk of \"another force of attack\" from AI agents. The excerpt does not detail what access, if any, Meta did offer, or how Meta has responded to the complaint.",
+   "item_ids": [
+    "wired-ai:6b07095da2c32fc4ddb30859"
+   ],
+   "items": [
+    {
+     "id": "wired-ai:6b07095da2c32fc4ddb30859",
+     "source": "wired-ai",
+     "source_name": "Wired AI",
+     "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+     "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+     "published": "2026-11-26T10:51:27+00:00",
+     "excerpt": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T10:51:27+00:00"
+  },
+  {
+   "title": "42 state AGs move to block Character.AI from selling users' chat data",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A coalition of 42 US state attorneys general is seeking to stop Character.AI from selling user data during its Chapter 11 bankruptcy. They accuse the company of planning to auction private chat histories from over 21 million US accounts.",
+   "more": "The attorneys general issued a wave of nearly identical press releases opposing a potential sale of user data as Character.AI proceeds through Chapter 11 bankruptcy. They allege the company is planning to auction off the private chat histories of more than 21 million US accounts. The excerpt does not specify the legal mechanism the AGs are using to try to block the sale, nor Character.AI's response to the allegations.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1042620"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1042620",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+     "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+     "published": "2026-11-26T09:54:40+00:00",
+     "excerpt": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T09:54:40+00:00"
+  },
+  {
+   "title": "Microsoft details ARTEX, an AI framework state hackers use to automate attacks",
+   "tags": [
+    "agents",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Microsoft published the technical architecture of ARTEX, an AI framework in use since July 2026 that runs cyberattacks with specialized agents and little human involvement. State-backed groups from China and North Korea, plus criminal organizations, are already using it.",
+   "more": "Microsoft's report describes ARTEX as an AI framework that has been in wide use since July 2026, running cyberattacks through specialized agents with almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already deploying it. Microsoft recommends defenses such as honeypots and faked success signals, but acknowledges these may not hold up well against agents that learn and adapt over time. The excerpt does not specify which targets or sectors ARTEX has been used against.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43328"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43328",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+     "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+     "published": "2026-11-26T11:30:06+00:00",
+     "excerpt": "Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already using the system. Microsoft recommends deception techniques like honeypots and faked success signals as defenses, but how long those will hold up against agents that learn and adapt remains an open question. The article "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T11:30:06+00:00"
+  },
+  {
+   "title": "llama.cpp launches benchmark dashboard for AMD Ryzen and Radeon",
+   "tags": [
+    "tools",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "The llama.cpp project (ggml-org) has launched a benchmark dashboard that tracks inference performance on AMD Ryzen CPUs and Radeon GPUs. No further detail was available in the source excerpt.",
+   "more": "Hugging Face's blog post announces a new llama.cpp benchmark dashboard specifically covering AMD Ryzen and Radeon hardware. The source excerpt did not include additional details such as which models or workloads are benchmarked, or how the results compare across platforms.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+     "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+     "published": "2026-11-26T11:37:17+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T11:37:17+00:00"
+  }
+ ]
+}
