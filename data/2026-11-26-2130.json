@@ -1,0 +1,192 @@
+{
+ "date": "2026-11-26",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Paper introduces DocSEAM for multi-page document understanding in VLMs",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper proposes DocSEAM, a lightweight module that injects cross-page context between a vision encoder and language model, fixing the feature discontinuity multi-page document VLMs face at page boundaries.",
+   "more": "Today's vision-language models for multi-page documents encode each page independently, creating a feature-level discontinuity at page boundaries since visual tokens have no access to content on adjacent pages. The language model must then reason over page representations that were formed in isolation. DocSEAM, short for Document Selective Enrichment via Anchored Masking, is a lightweight module inserted between a pretrained vision encoder and the language model that injects local cross-page context to address this.",
+   "item_ids": [
+    "hf-papers:2611.34420"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.34420",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+     "url": "https://huggingface.co/papers/2611.34420",
+     "published": "2026-11-26T00:00:00+00:00",
+     "excerpt": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language model must reason over these page representations formed in isolation. We introduce DocSEAM (Document Selective Enrichment via Anchored Masking), a lightweight module inserted between a pretrained vision encoder and the language model that injects the inductive bias of local cro"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T00:00:00+00:00"
+  },
+  {
+   "title": "Paper tackles unifying understanding and generation in vision-language models",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper studies why unified multimodal models struggle to combine visual understanding and generation, finding the core issue is the mismatch between the visual representations each task uses.",
+   "more": "Recent unified multimodal models try to combine visual understanding and generation in a single model, but integrating the two capabilities has proven difficult. The paper argues that pretrained vision-language models offer a way to build on already-learned multimodal knowledge, yet making that knowledge usable for visual generation is nontrivial. It identifies the central challenge as the heterogeneous visual representations used for understanding versus generation.",
+   "item_ids": [
+    "hf-papers:2611.31237"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.31237",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Let Vision-Language Models Generate Images through Their Representations",
+     "url": "https://huggingface.co/papers/2611.31237",
+     "published": "2026-11-26T00:00:00+00:00",
+     "excerpt": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this knowledge effectively accessible to visual generation remains nontrivial. We find that a central challenge lies in the heterogeneous visual representations used for understanding and generation. To a"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic enters the public market via IPO, same day as GTA VI launch",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Anthropic went public the same day Grand Theft Auto VI launched as one of the biggest entertainment releases ever, prompting comparisons between AI efficiency and the game's painstaking human craftsmanship.",
+   "more": "Anthropic entered the public market with its IPO on the same day that Grand Theft Auto VI launched, becoming one of the most successful entertainment releases of all time. The TechCrunch piece frames the coincidence as a contrast: GTA VI succeeded through painstaking, largely human-made craftsmanship rather than AI-driven efficiency. It argues the game's reception is a reminder that efficiency is not inherently a virtue in creative work.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3190829"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3190829",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
+     "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+     "published": "2026-11-26T16:00:00+00:00",
+     "excerpt": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T16:00:00+00:00"
+  },
+  {
+   "title": "Z.AI and Moonshot AI turn to Google, Meta for data after OpenAI, Anthropic cut access",
+   "tags": [
+    "industry",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Chinese AI developers Z.AI and Moonshot AI are delaying their next flagship models and seeking new training data from Google and Meta after OpenAI and Anthropic cut off their data access.",
+   "more": "Chinese AI companies Z.AI and Moonshot AI are delaying their next flagship models after OpenAI and Anthropic shut off access to their data, according to The Decoder. The two companies are now looking to Google and Meta as alternative sources of training data. The report does not specify what kind of data was cut off or give a new timeline for the delayed models.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43340"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43340",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+     "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+     "published": "2026-11-26T15:45:08+00:00",
+     "excerpt": "Chinese AI companies Z.AI and Moonshot AI have to delay their next flagship models and are looking for new sources of training data. The article After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T15:45:08+00:00"
+  },
+  {
+   "title": "NVIDIA's text-to-image model Nemotron-Labs-Image-30B-A3B trends on Hugging Face",
+   "tags": [
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "NVIDIA's Nemotron-Labs-Image-30B-A3B, a text-to-image model, is trending on Hugging Face with 234 likes and 218 downloads.",
+   "more": "Nemotron-Labs-Image-30B-A3B is a text-to-image model from NVIDIA that is trending on Hugging Face, with 234 likes and 218 downloads so far. It is built on the Nemotron-H architecture and released with safetensors weights under NVIDIA's own license. The model's Hugging Face page links to two arXiv papers, 2610.38095 and 2606.15007, but the listing does not give further architecture or benchmark details.",
+   "item_ids": [
+    "hf-trending:nvidia/Nemotron-Labs-Image-30B-A3B"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:nvidia/Nemotron-Labs-Image-30B-A3B",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: nvidia/Nemotron-Labs-Image-30B-A3B",
+     "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+     "published": "2026-09-24T21:13:25+00:00",
+     "excerpt": "text-to-image, 234 likes, 218 downloads. Tags: transformers, safetensors, nemotron_h, text-generation, nvidia, nemotron, image-generation, nvidia-license, text-to-image, custom_code, arxiv:2610.38095, arxiv:2606.15007"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-09-24T21:13:25+00:00"
+  },
+  {
+   "title": "Jack Despain Zhou on AI's homogenizing effect on online voice",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Writer Jack Despain Zhou argues AI tools like Claude are flattening online voices into similar-sounding writing, from YouTube videos to conference talks to pitch emails, quoted on Simon Willison's blog.",
+   "more": "Simon Willison's blog quotes writer Jack Despain Zhou's essay \"Spitting in the Face of Glaude,\" which argues AI has driven a \"de-individualization\" of online voice. Zhou describes hearing the same AI-generated cadence in YouTube videos, conference presentations, and email pitches from people attached to supposedly serious institutions. The quote names Claude specifically as the example of this homogenized voice.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Jack Despain Zhou",
+     "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+     "published": "2026-11-26T15:09:31+00:00",
+     "excerpt": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and mine, and I see Claude . — Jack Despain Zhou , Spitting in the Face of Glaude Tags: ai-mis"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T15:09:31+00:00"
+  },
+  {
+   "title": "FCC approves SpaceX plan for up to 1 million orbital AI data center satellites",
+   "tags": [
+    "hardware",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The FCC has cleared SpaceX to launch up to 1 million Starmind satellites as orbital AI data centers, with first launches targeted for 2027 and full deployment by 2040.",
+   "more": "The FCC has authorized SpaceX to deploy up to 1 million Starmind satellites that would process AI workloads as orbital data centers. SpaceX is targeting its first launches in 2027, with the full constellation operational by 2040. Google and Blue Origin are reportedly pursuing similar space-based AI infrastructure projects. Boston Consulting Group estimates the cost of orbital data centers will stay well above ground-based ones for now.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43336"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43336",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040",
+     "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+     "published": "2026-11-26T13:41:07+00:00",
+     "excerpt": "The FCC has authorized SpaceX to deploy up to 1 million Starmind satellites to process AI data as orbital data centers. SpaceX is targeting its first launches in 2027, and the full constellation is set to be operating by 2040. Google and Blue Origin are also working on AI infrastructure in space, but Boston Consulting Group estimates costs will stay well above ground-based data centers for now. The article FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data center"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T13:41:07+00:00"
+  }
+ ]
+}
