@@ -1,0 +1,789 @@
+{
+ "date": "2026-11-26",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Sage-Med study: scaling medical AI models improves text, not vision",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new study (Sage-Med) finds that scaling medical multimodal AI models mainly improves text skills, not visual understanding, and reasoning modes fail to close the gap.",
+   "more": "The paper reports that existing medical multimodal large language models underperform frontier general-purpose MLLMs across a range of medical tasks. Increasing model size mainly strengthens text abilities rather than multimodal visual perception, and enabling reasoning modes does not close that visual gap. The authors describe establishing reliable scaling laws for medical MLLMs as a persistent, unresolved challenge.",
+   "item_ids": [
+    "hf-papers:2611.34575"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.34575",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+     "url": "https://huggingface.co/papers/2611.34575",
+     "published": "2026-11-26T00:00:00+00:00",
+     "excerpt": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T00:00:00+00:00"
+  },
+  {
+   "title": "PyRUA-Dex lets coding agents learn dexterous manipulation without demos",
+   "tags": [
+    "research",
+    "robotics",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Researchers present PyRUA-Dex, a framework where coding agents write programmatic policies for dexterous bimanual manipulation, avoiding costly human demonstration data.",
+   "more": "Progress on dexterous manipulation has been limited by scarce high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback, and exoskeleton-based collection doesn't scale. PyRUA-Dex sidesteps this by having coding agents develop a programmatic policy for the task without any demonstrations. The policy is built in two stages, the first being an exploration phase in which multiple agents explore the task.",
+   "item_ids": [
+    "hf-papers:2611.33144"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.33144",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+     "url": "https://huggingface.co/papers/2611.33144",
+     "published": "2026-11-26T00:00:00+00:00",
+     "excerpt": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations. The programmatic policy is developed in two stages: during exploration, multiple agents explo"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T00:00:00+00:00"
+  },
+  {
+   "title": "VibeVideoAgent closes the loop between code-driven video generation and perception",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new method, VibeVideoAgent, feeds rendered video frames and audio back into a coding agent so it can catch rendering errors that don't trigger runtime exceptions.",
+   "more": "Code-driven video generation has a coding agent write and run rendering programs, giving precise control over typography, data visualizations, synchronized audio, and multi-shot scenes while leaving an editable project behind. A program that runs without error can still produce overlapping labels, a misaimed camera, broken object interactions, or narration that drifts out of sync, none of which raise a runtime error. VibeVideoAgent addresses this by feeding the rendered frames and audio back into the coding agent, closing what the authors call the perceptual loop.",
+   "item_ids": [
+    "hf-papers:2611.34237"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.34237",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+     "url": "https://huggingface.co/papers/2611.34237",
+     "published": "2026-11-26T00:00:00+00:00",
+     "excerpt": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sync, and none of these raise a runtime error. Feeding rendered frames and audio back into the coding "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T00:00:00+00:00"
+  },
+  {
+   "title": "Image-to-Video Transfer extends video editors' skills without new video data",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new technique, Image-to-Video Transfer (I2VT), uses an existing image editing model to upgrade pretrained video editors, adding new editing capabilities without collecting paired edited videos.",
+   "more": "Image editing models already follow a wide range of instructions, but video editing models lag behind in part because collecting paired source-and-edited video data is difficult. I2VT transfers advanced image-editing capabilities to video editors without needing new paired videos. It improves pretrained video editors and expands them to new editing tasks using an image editor, enabling efficient post-training with no architectural changes.",
+   "item_ids": [
+    "hf-papers:2611.34941"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.34941",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+     "url": "https://huggingface.co/papers/2611.34941",
+     "published": "2026-11-26T00:00:00+00:00",
+     "excerpt": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to new editing tasks using an image editor. It enables efficient post-training with no architectural chan"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T00:00:00+00:00"
+  },
+  {
+   "title": "Simon Willison quotes Scott Aaronson on AI's accelerating impact on mathematical proof",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison shared a quote from complexity theorist Scott Aaronson describing recent progress as revealing 'a whole new continent of mathematical truth' once only glimpsed through fog.",
+   "more": "Aaronson compares the shift to van Leeuwenhoek first training a microscope on pondwater, or Galileo first turning a telescope on the stars, as an analogy for how much better humanity's view into the complexity-theoretic and mathematical universe has recently become.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/25/scott-aaronson/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "Quoting Scott Aaronson",
+     "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+     "published": "2026-11-25T23:26:32+00:00",
+     "excerpt": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you some idea of how our resolution into the complexity-theoretic universe, and the whole universe of mathematical truth beyond it, has now improved. — Scott Aarons"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T23:26:32+00:00"
+  },
+  {
+   "title": "AI-assisted math proofs are reportedly arriving faster than researchers can review them",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Latent Space AI-generated news roundup reports that AI-assisted mathematical proofs, from Erdős problems to new bounds on matrix multiplication and Fourier transforms, are landing faster than researchers can keep up with.",
+   "more": "The roundup, dated November 25, 2026, covers a cluster of recent results including progress on Erdős problems and new bounds for matrix multiplication and Fourier transforms. It frames the pace of these results as outrunning the community's capacity to read and verify them.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_b346515a-5480-4fa6-830e-a144eacab773"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_b346515a-5480-4fa6-830e-a144eacab773",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Math Proofs Are Landing Faster Than We Can Read Them",
+     "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
+     "published": "2026-11-25T22:23:41+00:00",
+     "excerpt": "November 25, 2026 — From Erdős problems to new bounds for matrix multiplication and Fourier transforms."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T22:23:41+00:00"
+  },
+  {
+   "title": "Shorter Lean verification of a GRH result posted, building on Anthropic's work",
+   "tags": [
+    "research",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A GitHub repository presents a much shorter version of a Lean-verified proof related to the Generalized Riemann Hypothesis, building on work from Anthropic, and drew heavy Hacker News discussion.",
+   "more": "The repository, shared by user lsernau, provides a condensed Lean verification compared to a prior version tied to Anthropic's work on the Generalized Riemann Hypothesis (GRH). It generated substantial engagement on Hacker News, with 396 points and 201 comments at the time of writing.",
+   "item_ids": [
+    "hn:50648050"
+   ],
+   "items": [
+    {
+     "id": "hn:50648050",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Much shorter version of GRH Lean verification from Anthropic",
+     "url": "https://github.com/lsernau/grh-lean",
+     "published": "2026-11-25T21:48:10+00:00",
+     "excerpt": "396 points, 201 comments. Discussion: https://news.ycombinator.com/item?id=50648050"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T21:48:10+00:00"
+  },
+  {
+   "title": "ICLWorld benchmarks in-context learning for agents across digital and physical tasks",
+   "tags": [
+    "research",
+    "agents",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "ICLWorld is a new online benchmark testing how well AI agents use in-context learning to adapt in real time, spanning both computer-use and robotic tasks.",
+   "more": "In-context learning lets agents pick up new rules from context and adapt to user-specific requirements at inference time, and the same frontier agents now operate both computers and robots. The authors argue this ability is still poorly assessed: existing benchmarks are largely offline, rely on text or static images, and risk training-data contamination, while robot evaluations are limited to method-level ablations. ICLWorld is introduced as an online benchmark that evaluates agents' in-context learning from digital to physical settings.",
+   "item_ids": [
+    "hf-papers:2611.32649"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.32649",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
+     "url": "https://huggingface.co/papers/2611.32649",
+     "published": "2026-11-25T00:00:00+00:00",
+     "excerpt": "In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inference time. The same frontier agents now operate both computers and robots, yet their ICL remains insufficiently assessed: existing benchmarks are largely offline, rely on text or static images, and risk training-data contamination, while robot evaluations are limited to method-level ablations. We present ICLWorld, an online benchmark that evaluates the ICL of agents from digital t"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T00:00:00+00:00"
+  },
+  {
+   "title": "Anthropic's Amodei pushes back on claims AI should be allowed to govern society",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Dario Amodei rejected an Axios report suggesting some employees believe humanity should hand power to superintelligent AI, calling such accusations 'absurd' and AI governance of society 'a bad idea.'",
+   "more": "The pushback responds to an Axios report describing employees who reportedly believe humanity will eventually hand power to superintelligent AI systems. Amodei called accusations that he favors surrendering human agency to AI 'absurd,' even as leading AI companies increasingly automate their own research and model development. He separately stated that 'turning over governance to AI is a bad idea.'",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3192506",
+    "decoder:https://the-decoder.com/?p=43318"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3192506",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+     "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+     "published": "2026-11-25T19:44:24+00:00",
+     "excerpt": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development."
+    },
+    {
+     "id": "decoder:https://the-decoder.com/?p=43318",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\"",
+     "url": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
+     "published": "2026-11-25T20:15:50+00:00",
+     "excerpt": "Anthropic CEO Dario Amodei is pushing back on an Axios report saying some employees believe humanity will hand power to superintelligent systems. Amodei says \"turning over governance to AI is a bad idea.\" The article Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\" appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-25T20:15:50+00:00"
+  },
+  {
+   "title": "NYT reportedly tells photographers to avoid updating Photoshop over new AI features",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The New York Times is reportedly warning its photographers not to update Adobe Photoshop, citing concerns tied to the software's new AI features.",
+   "more": "The warning reportedly reflects concern at the Times about how Photoshop's newly added AI features could affect photographers' work or the paper's use of their images. The report drew significant Hacker News attention, with 304 points and 266 comments.",
+   "item_ids": [
+    "hn:50647673"
+   ],
+   "items": [
+    {
+     "id": "hn:50647673",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "The New York Times warns photographers not to update Photoshop over AI features",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+     "published": "2026-11-25T21:18:02+00:00",
+     "excerpt": "304 points, 266 comments. Discussion: https://news.ycombinator.com/item?id=50647673"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T21:18:02+00:00"
+  },
+  {
+   "title": "US chip and anti-distillation curbs reportedly slowing Chinese AI labs' progress",
+   "tags": [
+    "policy",
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "US export curbs and anti-distillation measures are reportedly slowing Deepseek, Moonshot AI, and Alibaba, with Deepseek researchers estimating they're now up to nine months behind US models.",
+   "more": "Chip restrictions, anti-distillation measures, and shrinking access to Nvidia hardware abroad are reportedly putting growing pressure on Chinese AI labs including Deepseek, Moonshot AI, and Alibaba. Deepseek researchers are said to internally estimate they are already up to nine months behind US models, with the gap said to be widening.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43322"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43322",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
+     "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/",
+     "published": "2026-11-25T20:51:02+00:00",
+     "excerpt": "Chip restrictions, anti-distillation measures, and shrinking access to Nvidia hardware abroad are putting growing pressure on Deepseek, Moonshot AI, and Alibaba, according to a report. Deepseek researchers internally estimate they're already up to nine months behind US models, and the gap is widening. The article US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T20:51:02+00:00"
+  },
+  {
+   "title": "New York bans AI chatbot toys for five years over child-safety concerns",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "New York has banned AI chatbot toys for five years after new research from Common Sense Media found troubling safety failures, including exposure to inappropriate content and risks to children's emotional development.",
+   "more": "The ban follows research from Common Sense Media that found AI chatbot toys could expose children to inappropriate content and pose risks to their emotional development. The timing means the toys won't be available for purchase in New York this holiday season.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3192412"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3192412",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+     "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+     "published": "2026-11-25T18:11:46+00:00",
+     "excerpt": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T18:11:46+00:00"
+  },
+  {
+   "title": "FCC approves SpaceX plan for up to 1 million AI data center satellites",
+   "tags": [
+    "policy",
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "The FCC authorized SpaceX to deploy as many as 1 million AI chip-equipped satellites in space under its Starmind initiative, the first such approval the agency has granted.",
+   "more": "The authorization, announced Wednesday, lets SpaceX build out orbital AI data centers under its Elon Musk-led Starmind initiative. Other companies, including Google and Blue Origin, are separately pursuing the idea of putting AI data centers in space, but this is the first approval the FCC has granted for the concept.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1042278"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1042278",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+     "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+     "published": "2026-11-25T17:44:51+00:00",
+     "excerpt": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T17:44:51+00:00"
+  },
+  {
+   "title": "State attorneys general challenge Character.AI's plan to auction users' private chats",
+   "tags": [
+    "policy",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A coalition of state AGs is fighting Character.AI's bankruptcy plan to sell off sensitive user data, including private chats from more than 21 million US accounts and 2.1 million minors.",
+   "more": "The challenge targets Character.AI's proposed bankruptcy sale, which would include sensitive personal data belonging to more than 21 million US accounts. State attorneys general flagged that 2.1 million of those accounts are registered to minors, raising concerns about selling off their private chat data.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3192361"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3192361",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+     "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+     "published": "2026-11-25T17:35:58+00:00",
+     "excerpt": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T17:35:58+00:00"
+  },
+  {
+   "title": "S&P weighs downgrading Nvidia's credit rating over governance, 'key man' risk",
+   "tags": [
+    "industry",
+    "hardware"
+   ],
+   "tagged_by": "agent",
+   "summary": "S&P Global is considering lowering Nvidia's credit rating to AA-, the fourth-highest tier, citing governance concerns and risk tied to reliance on a single key executive.",
+   "more": "The potential downgrade would move Nvidia's rating to AA-, still a highly rated tier but a step down from its current level. S&P's concerns reportedly center on corporate governance and so-called 'key man' risk, the risk that the company is overly dependent on one individual, understood to reference CEO Jensen Huang.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3192614"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3192614",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+     "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+     "published": "2026-11-25T22:44:32+00:00",
+     "excerpt": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T22:44:32+00:00"
+  },
+  {
+   "title": "Google's rejected patent imagines AI-generated personalized video feeds",
+   "tags": [
+    "industry",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google filed a patent last year for 'My Channel,' a system that would generate personalized AI video feeds and ads from user data; the patent has been rejected but could be appealed.",
+   "more": "The 'My Channel' patent describes feeds filled with personalized, AI-generated videos and advertisements based on information Google holds about its users. The patent has already been rejected once, but Google could appeal the decision or resubmit an amended version of the application.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1042221"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1042221",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+     "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+     "published": "2026-11-25T21:51:26+00:00",
+     "excerpt": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T21:51:26+00:00"
+  },
+  {
+   "title": "Jensen Huang's code-of-conduct breach at Nvidia reportedly hasn't been forgotten",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia CEO Jensen Huang violated the company's own code of conduct, and employees may not easily forget it, according to TechCrunch, raising questions about corporate culture.",
+   "more": "TechCrunch frames the episode as notable because a code of conduct typically reflects a company's broader culture. For Nvidia, the report suggests the breach could carry lasting consequences for how employees view company leadership and standards.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3192475"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3192475",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+     "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+     "published": "2026-11-25T19:54:57+00:00",
+     "excerpt": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T19:54:57+00:00"
+  },
+  {
+   "title": "Amazon and Meta reportedly in talks to end block on shopping agent Muse",
+   "tags": [
+    "industry",
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Amazon and Meta are discussing ending the block on Meta's AI shopping agent Muse, which Amazon removed from its platform in September amid a dispute over ad revenue and search control.",
+   "more": "Muse is Meta's AI shopping agent, which Amazon had kicked off its platform in September. The two sides are reportedly stuck on how ad revenue is split and who controls search results. The stakes are notable: Amazon's advertising business generates $68.6 billion a year, and Muse already accounts for 51 percent of all agentic shopping orders.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43312"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43312",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.",
+     "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+     "published": "2026-11-25T16:44:37+00:00",
+     "excerpt": "Amazon and Meta are in talks to bring back Muse, Meta's AI shopping agent that Amazon kicked off its platform in September. The two sides are stuck on ad revenue and who gets to control search results. That matters because Amazon's ad business generates $68.6 billion a year, and Muse already commands 51 percent of all agentic shopping orders. The article Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store. appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T16:44:37+00:00"
+  },
+  {
+   "title": "NVIDIA details open data and faster inference for Nemotron 3.5 Parse",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "NVIDIA published a blog post on building on Nemotron 3.5 Parse, covering open training data, fine-tuning, and faster inference for the model.",
+   "more": "NVIDIA's post is framed around three themes for Nemotron 3.5 Parse: open data, fine-tuning, and faster inference.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+     "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+     "published": "2026-11-26T05:05:36+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T05:05:36+00:00"
+  },
+  {
+   "title": "Blog post claims to identify hidden AI model 'Jev' as Qwen3.5-35B-A3B via latency",
+   "tags": [
+    "models",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Modaic blog post argues that an AI system called 'Jev' can be identified as Qwen3.5-35B-A3B by analyzing its response latency patterns, drawing significant Hacker News discussion.",
+   "more": "The post's method centers on using latency characteristics, rather than output content, to infer which underlying model powers 'Jev.' It attracted substantial discussion on Hacker News, with 292 points and 81 comments at time of writing.",
+   "item_ids": [
+    "hn:50648823"
+   ],
+   "items": [
+    {
+     "id": "hn:50648823",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Jev is probably Qwen3.5-35B-A3B",
+     "url": "https://modaic.dev/blog/latency-doesnt-lie",
+     "published": "2026-11-25T22:57:04+00:00",
+     "excerpt": "292 points, 81 comments. Discussion: https://news.ycombinator.com/item?id=50648823"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T22:57:04+00:00"
+  },
+  {
+   "title": "InclusionAI's Ling-3.2-air model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Ling-3.2-air, a new model from InclusionAI, is trending on Hugging Face with 239 likes and 1,467 downloads, released under an MIT license.",
+   "more": "The model card lists safetensors format, the bailing_moe_v3_vl architecture tag, custom code, FP8 support, and evaluation results, released under an MIT license. It has drawn 239 likes and 1,467 downloads on Hugging Face so far.",
+   "item_ids": [
+    "hf-trending:inclusionAI/Ling-3.2-air"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:inclusionAI/Ling-3.2-air",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: inclusionAI/Ling-3.2-air",
+     "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+     "published": "2026-11-23T03:55:12+00:00",
+     "excerpt": "239 likes, 1467 downloads. Tags: safetensors, bailing_moe_v3_vl, custom_code, license:mit, eval-results, fp8, region:us"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-23T03:55:12+00:00"
+  },
+  {
+   "title": "AIRIS benchmark tests embodied agents' social judgment in streaming video",
+   "tags": [
+    "agents",
+    "robotics",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "AIRIS is a new causal, streaming benchmark that evaluates whether embodied AI agents can read social cues and decide when, whether, and how to respond around people.",
+   "more": "Embodied agents operating around people must recognize social cues and also judge when evidence is sufficient, whether to intervene, and how to respond without breaking social norms. Existing benchmarks typically test these abilities in isolation or only on completed videos, which obscures exactly where an online social decision goes wrong. AIRIS instead frames social embodied intelligence as a time-anchored, causal chain of attention, intention, and response, evaluated on egocentric streaming video.",
+   "item_ids": [
+    "hf-papers:2611.34347"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.34347",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
+     "url": "https://huggingface.co/papers/2611.34347",
+     "published": "2026-11-26T00:00:00+00:00",
+     "excerpt": "Embodied agents operating around people must not only recognize social cues, but also decide when the available evidence is sufficient, whether to intervene, and how to respond without violating social norms. Existing benchmarks typically evaluate these abilities in isolation or with access to completed videos, obscuring where an online social decision fails. We introduce AIRIS, a causal streaming benchmark that formulates social embodied intelligence as a time-anchored chain of Attention, Inten"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T00:00:00+00:00"
+  },
+  {
+   "title": "AllenAI post explores where scientists draw the line on AI agents in research",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new AllenAI blog post examines where scientists see the limits of AI agents' involvement in scientific work.",
+   "more": "The piece is framed as an exploration of the boundaries scientists currently draw when integrating AI agents into their research process.",
+   "item_ids": [
+    "hf-blog:https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+   ],
+   "items": [
+    {
+     "id": "hf-blog:https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+     "source": "hf-blog",
+     "source_name": "Hugging Face Blog",
+     "title": "Where scientists draw the line on AI agents",
+     "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+     "published": "2026-11-25T18:52:55+00:00",
+     "excerpt": ""
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T18:52:55+00:00"
+  },
+  {
+   "title": "OpenAI's Thariq Shihipar on AI enabling both cheap software and crafted work",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "At the AI Engineer CODE conference, OpenAI's Thariq Shihipar argued AI can make software cheap to produce at scale while also freeing up time to make individual work feel right.",
+   "more": "Shihipar framed this as a choice between 'the Revolution' and 'the Renaissance': AI letting software be produced cheaply by the thousand, versus giving creators more time to refine a single piece of work. He argued the two futures can coexist rather than compete. As an example from his own fighting game project, he described editing the size of a rock using AI tooling.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:pod_ep_01a214b9-5541-758c-b9a3-1d85f48144ff"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:pod_ep_01a214b9-5541-758c-b9a3-1d85f48144ff",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+     "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
+     "published": "2026-11-25T22:28:01+00:00",
+     "excerpt": "AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game, he edits the size of a rock in t..."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T22:28:01+00:00"
+  },
+  {
+   "title": "datasette-charts 0.3a0 adds chart annotations, including AI agent-built ones",
+   "tags": [
+    "tools",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison released datasette-charts 0.3a0, adding the ability to annotate rendered charts with lines, shaded areas, and labels, which the Datasette Agent can also generate automatically.",
+   "more": "The new release lets users render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three. The same annotations can be tweaked interactively in Datasette Lite using a chart builder UI. Willison notes that if Datasette Agent is also installed, the agent can build annotated charts automatically, and he shared an example from the agent.datasette.io demo.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/25/datasette-charts/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/25/datasette-charts/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "datasette-charts 0.3a0",
+     "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+     "published": "2026-11-25T18:16:50+00:00",
+     "excerpt": "Release: datasette-charts 0.3a0 I added chart annotations to datasette-charts ! You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three. A chart with annotations looks like this: Here's that same chart in Datasette Lite , where you can tweak the annotations using the chart builder UI: If you also install Datasette Agent the agent can build annotated charts for you. Here's what I got on the agent.datasette.io demo for this prompt: Show a cha"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T18:16:50+00:00"
+  },
+  {
+   "title": "OpenAI merges ChatGPT Chat and Work, tightening usage limits for heavy users",
+   "tags": [
+    "products",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is combining the ChatGPT Chat and Work experiences under a single usage meter, a change that early reports say makes some heavy users hit limits noticeably sooner.",
+   "more": "OpenAI says it will introduce one shared usage meter across ChatGPT as it merges the separate Chat and Work experiences into one. A Hacker News discussion citing an outside report says the change makes certain usage tiers, referred to as Astra and Sol, hit their limits roughly 40% and 25% faster, respectively. It is not yet clear how OpenAI plans to address the sooner limits for affected users.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3192524",
+    "hn:50651117"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3192524",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+     "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+     "published": "2026-11-25T20:03:27+00:00",
+     "excerpt": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences."
+    },
+    {
+     "id": "hn:50651117",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+     "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+     "published": "2026-11-26T03:36:58+00:00",
+     "excerpt": "132 points, 68 comments. Discussion: https://news.ycombinator.com/item?id=50651117"
+    }
+   ],
+   "coverage": 2,
+   "newest": "2026-11-26T03:36:58+00:00"
+  },
+  {
+   "title": "OpenAI tests 'Private Inference' to run queries without accessing customer data",
+   "tags": [
+    "products",
+    "tools"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is testing a feature called Private Inference that would let companies run queries on its most capable models without OpenAI being able to see the underlying data.",
+   "more": "The feature is aimed at getting companies to trust OpenAI with sensitive workloads by promising it cannot access their data during inference. It's described as being tested for use with OpenAI's most powerful models.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43315"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43315",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI wants companies to trust it with sensitive work by promising not to look at their data",
+     "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+     "published": "2026-11-25T18:22:02+00:00",
+     "excerpt": "OpenAI is testing a new feature called \"Private Inference\" that lets companies run queries on its most powerful models without OpenAI being able to access the data. The article OpenAI wants companies to trust it with sensitive work by promising not to look at their data appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T18:22:02+00:00"
+  },
+  {
+   "title": "Ars Live: militaries unlikely to stop targeting data centers, cloud in wartime",
+   "tags": [
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "A recap of an Ars Technica Live discussion argues that militaries have strong incentives to target data centers and cloud infrastructure during wartime, and that attacks on them aren't likely to stop.",
+   "more": "The recap's central point is that data centers and cloud infrastructure give militaries multiple strategic reasons to treat them as wartime targets.",
+   "item_ids": [
+    "ars-ai:https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/"
+   ],
+   "items": [
+    {
+     "id": "ars-ai:https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+     "source": "ars-ai",
+     "source_name": "Ars Technica AI",
+     "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+     "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+     "published": "2026-11-25T16:47:14+00:00",
+     "excerpt": "Militaries have many reasons to target data centers and the cloud in wartime."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-25T16:47:14+00:00"
+  },
+  {
+   "title": "Simon Willison highlights sqlite3_rsync, a remote-copy tool for SQLite databases",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison wrote about sqlite3_rsync, an experimental SQLite tool for copying databases remotely without needing extra disk space for a full duplicate, unlike the backup API or VACUUM INTO.",
+   "more": "The tool has existed for a while, added as 'experimental' in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025. Willison notes that normally grabbing a snapshot copy of a SQLite database requires either the backup API or VACUUM INTO, both of which need enough free disk space to hold a full duplicate copy.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/26/sqlite3-rsync/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+     "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+     "published": "2026-11-26T06:08:25+00:00",
+     "excerpt": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025 . It was only today that I understood one of its most attractive characteristics. Normally, if you want to grab a snapshot copy of a SQLite database, you need to use either the backup API or VACUUM INTO . In both cases you need enough disk space to create a duplicate copy of your"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T06:08:25+00:00"
+  }
+ ]
+}
