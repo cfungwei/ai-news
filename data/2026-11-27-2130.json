@@ -1,0 +1,192 @@
+{
+ "date": "2026-11-27",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "OpenAI building 'Athena' semantic data platform to improve agent accuracy",
+   "tags": [
+    "agents",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI is reportedly developing a semantic data layer, codenamed Athena, to give AI agents in ChatGPT Work standardized business-metric definitions, aiming to fix inaccurate answers and compete with Snowflake and Databricks.",
+   "more": "OpenAI is building a data platform internally codenamed 'Athena,' according to the report. The project aims to give AI agents standardized definitions for business metrics, addressing accuracy problems with the data agent currently in ChatGPT Work. The report notes the tool could put OpenAI in direct competition with established data platforms like Snowflake and Databricks. No release timeline or further technical details were included in the available coverage.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43364"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43364",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork",
+     "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+     "published": "2026-11-27T16:05:23+00:00",
+     "excerpt": "OpenAI's data agent in ChatGPT Work still isn't accurate enough. Under the codename \"Athena,\" the company is building a semantic layer that gives agents standardized definitions for business metrics. The tool could also put OpenAI in direct competition with Snowflake and Databricks. The article OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T16:05:23+00:00"
+  },
+  {
+   "title": "AI coding agents speed reverse-engineering of leaked GTA 6 Xbox build",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "More than 40 projects are using AI coding agents like Claude Code to reverse-engineer a leaked Xbox build of GTA 6 for PC, days after its $3.79 billion console launch, with an early multiplayer mod already running.",
+   "more": "According to the report, more than 40 separate projects are working to bring a leaked Xbox build of GTA 6 to PC through reverse engineering. This comes just days after the game's console launch, reported at a record $3.79 billion. AI coding agents, including Claude Code, are described as accelerating the reverse-engineering work enough that an early, unofficial multiplayer mode is already running. The report frames this as a dilemma for Rockstar, whose business model has relied on a staggered PC release well after the console launch. It does not say whether Rockstar has responded or what action, if any, it might take.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43355"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43355",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?",
+     "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+     "published": "2026-11-27T15:37:47+00:00",
+     "excerpt": "More than 40 projects are working to bring a leaked Xbox build of GTA 6 to PC through reverse engineering just days after its $3.79 billion record console launch. AI coding agents like Claude Code are speeding up the process so much that an early unofficial multiplayer mode is already running. Rockstar's delayed PC business model is coming under pressure. The article Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents? appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T15:37:47+00:00"
+  },
+  {
+   "title": "Quantized Inkling-2-Mini-Strata model trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A quantized, Apache 2.0-licensed version of Thinking Machines' Inkling-2-Mini looped-transformer MoE model, released by strata-engine, is trending on Hugging Face with over 4,500 downloads and 269 likes.",
+   "more": "strata-engine/Inkling-2-Mini-Strata is a quantized build of thinkingmachines/Inkling-2-Mini, an image-text-to-text model using a looped-transformer mixture-of-experts architecture. It is tagged with inkling2_loop, strata, moe, quantization, and looped-transformer, among others, and released under an Apache 2.0 license. The model has drawn 269 likes and 4,532 downloads on Hugging Face. It supports conversational and image-text-to-text use cases. Beyond the tags and download counts, no further detail on its benchmarks or intended use is available from this listing.",
+   "item_ids": [
+    "hf-trending:strata-engine/Inkling-2-Mini-Strata"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:strata-engine/Inkling-2-Mini-Strata",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: strata-engine/Inkling-2-Mini-Strata",
+     "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+     "published": "2026-11-21T18:46:06+00:00",
+     "excerpt": "image-text-to-text, 269 likes, 4532 downloads. Tags: inkling2_loop, strata, inkling-2-mini, moe, quantization, looped-transformer, dspark, image-text-to-text, conversational, base_model:thinkingmachines/Inkling-2-Mini, base_model:quantized:thinkingmachines/Inkling-2-Mini, license:apache-2.0"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-21T18:46:06+00:00"
+  },
+  {
+   "title": "Paper finds coding agents are better visual reasoners than video models",
+   "tags": [
+    "research",
+    "agents"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper compares video generation models against coding agents that write and run code on the same visual reasoning tasks, finding the symbolic, code-based approach performs more reliably than native video-based reasoning.",
+   "more": "The paper evaluates video generation models as visual reasoners, where a model is given a first frame and a prompt and must produce a video carrying out the specified task. That approach is seen as advantageous because reasoning happens directly in the visual medium rather than through language or code. The researchers test this native video-based reasoning against a symbolic alternative: coding agents that write and execute code to solve the same tasks. They find the code-based coding-agent approach is the stronger and more reliable visual reasoner of the two. The excerpt available does not specify which benchmarks or task categories were used for the comparison.",
+   "item_ids": [
+    "hf-papers:2611.34813"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.34813",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+     "url": "https://huggingface.co/papers/2611.34813",
+     "published": "2026-11-27T00:00:00+00:00",
+     "excerpt": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in fact the more reliable path to visual reasoning has not been tested against a symbolic alternative under"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T00:00:00+00:00"
+  },
+  {
+   "title": "Android's Gemini-powered 'Create my widget' lets users vibe-code widgets",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "Android now lets users describe a widget in natural language and have Gemini generate it, such as one showing real-time bus arrivals, turning simple requests into working home-screen widgets without coding.",
+   "more": "The Verge describes Android's 'Create my widget' feature, which uses Gemini to generate custom home-screen widgets from a natural-language description. The example given is a widget that shows real-time bus arrival times for a nearby stop, avoiding the need to open a separate transit app. The feature is framed as a form of 'vibe-coding': describing what you want rather than building it yourself. It targets everyday, narrow tasks rather than general app development. The excerpt does not specify which Android versions or devices support the feature, or how widely it has rolled out.",
+   "item_ids": [
+    "verge-ai:https://www.theverge.com/?p=1041801"
+   ],
+   "items": [
+    {
+     "id": "verge-ai:https://www.theverge.com/?p=1041801",
+     "source": "verge-ai",
+     "source_name": "The Verge AI",
+     "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+     "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+     "published": "2026-11-27T14:00:00+00:00",
+     "excerpt": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and […]"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T14:00:00+00:00"
+  },
+  {
+   "title": "SAP plans to cut at least 10,000 jobs as part of AI pivot",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "SAP is preparing to eliminate at least 10,000 positions as part of a broad restructuring tied to its shift toward AI, according to a Bloomberg report citing people familiar with the matter.",
+   "more": "Bloomberg reports, citing people familiar with the matter, that SAP is preparing to cut at least 10,000 jobs. The cuts are described as part of a sweeping restructuring as the company pivots toward AI. The report does not specify which divisions or regions would be most affected, or over what timeframe the cuts would take place. It also does not detail what AI-related products or capabilities are driving the shift. Further specifics were not available in the excerpt covered here.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43354"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43354",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
+     "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+     "published": "2026-11-27T14:57:25+00:00",
+     "excerpt": "SAP is preparing to eliminate at least 10,000 positions as part of a sweeping AI restructuring, Bloomberg reports, citing people familiar with the matter. The article SAP plans to cut at least 10,000 jobs as it pivots to AI appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T14:57:25+00:00"
+  },
+  {
+   "title": "Report: hackers breached US Air Force's Cloud One cloud platform",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Hackers reportedly breached Cloud One, the US Air Force's flagship cloud computing platform, according to a new report, raising concerns about the security of the Air Force's cloud infrastructure.",
+   "more": "A new report says hackers breached Cloud One, described as the US Air Force's flagship cloud platform. The available coverage does not detail how the breach occurred, what data or systems were affected, or who is believed responsible. It also does not say when the Air Force discovered the breach or what remediation steps, if any, have been taken. Further details were not available in the excerpt covered here.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43361"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43361",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Hackers breached the US Air Force's flagship Cloud One platform, report says",
+     "url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
+     "published": "2026-11-27T16:06:43+00:00",
+     "excerpt": "Hackers breached the US Air Force's flagship cloud platform. The article Hackers breached the US Air Force's flagship Cloud One platform, report says appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T16:06:43+00:00"
+  }
+ ]
+}
