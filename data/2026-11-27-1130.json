@@ -1,0 +1,296 @@
+{
+ "date": "2026-11-27",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Researchers diagnose and fix training instability in Gated DeltaNet-2",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new paper traces Gated DeltaNet-2's long-context training failures to asymmetric erase operators and proposes a fix to stabilize its recurrent state.",
+   "more": "Gated DeltaNet-2 (GDN-2) is a linear-attention architecture that uses fixed-size recurrent states for efficient long-sequence modeling, with independent channel-wise control over erasure and writing to improve state-update expressiveness and in-context retrieval. Despite these advantages, the authors found GDN-2 suffers training failures specifically during long-context training. They trace the problem to an asymmetry between the reading and modification directions during the erase operation, which produces non-normal erase operators. The excerpt available does not detail the exact mitigation proposed or report benchmark results. It's also unclear how broadly this instability affects other linear-attention variants beyond GDN-2.",
+   "item_ids": [
+    "hf-papers:2611.34051"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.34051",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+     "url": "https://huggingface.co/papers/2611.34051",
+     "published": "2026-11-27T00:00:00+00:00",
+     "excerpt": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and modification directions during erasure, which yields non-normal erase operators whos"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T00:00:00+00:00"
+  },
+  {
+   "title": "ProxyGenBench benchmarks proxy-guided video generation models",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "A new benchmark, ProxyGenBench, evaluates video generation models on how well they follow coarse structural proxies like animated 3D blockouts while filling in missing detail.",
+   "more": "Recent video generators can produce realistic footage, but controlling how a scene unfolds remains difficult. Structural proxies, such as animated 3D blockouts, aim to guide generation by specifying layout, motion, camera behavior, and event order, though they leave many details unspecified and can contain artifacts that should not be reproduced. ProxyGenBench is introduced to test whether models can preserve the intended structure, complete missing content while correcting proxy artifacts, and bind textures and details appropriately. The excerpt does not name which video generation models were benchmarked or their results.",
+   "item_ids": [
+    "hf-papers:2611.34457"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.34457",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+     "url": "https://huggingface.co/papers/2611.34457",
+     "published": "2026-11-27T00:00:00+00:00",
+     "excerpt": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifacts that should not be reproduced. Successful proxy-guided generation must therefore Preserve intended structure, Complete missing content and correct proxy artifacts, and Bind tex"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T00:00:00+00:00"
+  },
+  {
+   "title": "Ex-OpenAI researcher says AI's math proofs matter more for capability than content",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Scott Aaronson argues the significance of an AI system producing a proof is less about the result itself and more about what it reveals about AI capability, warning that AI labs likely hold unannounced cryptography breakthroughs.",
+   "more": "Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far beyond academia, with possible consequences he describes as ranging from reshaping the global economy to threatening life on Earth. He says he is \"virtually certain\" that AI labs are sitting on one or more unannounced breakthroughs in cryptography. The piece frames a recent AI-produced proof as significant primarily for what it reveals about AI capability, rather than for its mathematical content. The excerpt does not name which lab or model produced the proof, or what specific cryptography implications Aaronson has in mind.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43346"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43346",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+     "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+     "published": "2026-11-26T19:31:46+00:00",
+     "excerpt": "Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far beyond academia. The possible consequences, he writes, range from reshaping the global economy to threatening all life on Earth. He's also \"virtually certain\" that AI labs are sitting on \"one or more bombshells\" in cryptography. The article Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T19:31:46+00:00"
+  },
+  {
+   "title": "OS-Omni benchmark tests AI agents on long cross-platform workflows",
+   "tags": [
+    "agents",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "OS-Omni is a new live benchmark testing whether a single AI agent can complete long, multi-step tasks across Windows, Ubuntu and other platforms rather than one isolated environment.",
+   "more": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions, but most existing benchmarks test only a single environment such as web, mobile, or desktop. OS-Omni is introduced as a live, cross-platform benchmark and execution environment for evaluating these agents across operating systems including Windows and Ubuntu. It specifically probes whether one generalist agent can execute long-horizon workflows that span multiple systems and persistent application states. The excerpt does not specify which agents were tested or how they scored. It's unclear how many tasks or platforms the benchmark ultimately covers.",
+   "item_ids": [
+    "hf-papers:2611.34232"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.34232",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+     "url": "https://huggingface.co/papers/2611.34232",
+     "published": "2026-11-27T00:00:00+00:00",
+     "excerpt": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live cross-platform benchmark and execution environment for evaluating computer-using agents across Windows, Ubuntu,"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T00:00:00+00:00"
+  },
+  {
+   "title": "Latent Space interviews Clay's Head of AI on building GTM agents",
+   "tags": [
+    "agents",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "In a Latent Space interview, Clay's Head of AI Jeff Barg discusses how the company builds go-to-market agents and why customers dislike manually selecting models.",
+   "more": "The interview covers how Clay is building go-to-market infrastructure intended to work for every agent rather than a single assistant. It touches on a claim that $1,500 could be enough to qualify every company in the world, offered as an illustration of what agentic GTM tooling can now do cheaply. Barg also discusses why customers dislike model selectors, pointing to friction when users must manually pick which underlying AI model powers a feature. The excerpt does not include further specifics on Clay's architecture or customer outcomes.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_da868ce2-6565-4f67-8686-e33c78bee319"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_da868ce2-6565-4f67-8686-e33c78bee319",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+     "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+     "published": "2026-11-26T23:02:48+00:00",
+     "excerpt": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T23:02:48+00:00"
+  },
+  {
+   "title": "AMD-specific fork of llama.cpp discussed on Hacker News",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News submission highlights an AMD-specific fork of the open-source llama.cpp inference library, drawing 329 points and 81 comments.",
+   "more": "The submission links to an AMD-specific fork of llama.cpp, the open-source LLM inference library, and drew 329 points and 81 comments on Hacker News. The excerpt available covers only the discussion metadata, not specifics on what the fork changes or optimizes for AMD hardware. The engagement suggests interest in AMD-focused alternatives to the mainline project.",
+   "item_ids": [
+    "hn:50657265"
+   ],
+   "items": [
+    {
+     "id": "hn:50657265",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "AMD-specific fork of llama.cpp",
+     "url": "https://devnull.land/amd-specific-llama-cpp",
+     "published": "2026-11-26T17:11:29+00:00",
+     "excerpt": "329 points, 81 comments. Discussion: https://news.ycombinator.com/item?id=50657265"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T17:11:29+00:00"
+  },
+  {
+   "title": "OpenAI fixes billing bug, GPT-6.2 Astra users hit limits 40% faster",
+   "tags": [
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI patched a billing error that had given GPT-6.2 users extra discounts; Astra and Sol subscribers now hit usage limits 40% and 25% faster than before, with apology perks offered.",
+   "more": "OpenAI said a billing bug had been giving GPT-6.2 users incorrect discounts, and after the fix, Astra and Sol users now hit their usage limits 40 and 25 percent faster, respectively, than the previous week. As an apology, OpenAI is giving affected subscribers an extra usage reset, and business users get free access to Fast Mode through the end of the year. The company is separately testing a merger of its Chat and Work modes. The excerpt does not say when the pricing bug was introduced or how many users were affected.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43343"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43343",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+     "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+     "published": "2026-11-26T17:28:56+00:00",
+     "excerpt": "OpenAI says a billing bug gave GPT-6.2 users incorrect discounts. After the fix, Astra and Sol users hit their limits 40 and 25 percent faster than last week. As an apology, subscribers get an extra reset, and business users get free Fast Mode through year-end. OpenAI is also testing a Chat and Work mode merger. The article GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T17:28:56+00:00"
+  },
+  {
+   "title": "Nvidia pauses AI chip shipments to Southeast Asia",
+   "tags": [
+    "policy",
+    "hardware",
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Nvidia has told manufacturing partners to pause AI server shipments to Malaysia, Singapore, Thailand and Indonesia as the US tightens efforts to keep advanced chips out of China.",
+   "more": "The pause affects server shipments to four Southeast Asian countries: Malaysia, Singapore, Thailand, and Indonesia. It comes as the United States pushes to tighten restrictions aimed at keeping advanced AI chips out of China, including routes that pass through other countries. Nvidia conveyed the pause directly to its manufacturing partners rather than through a public announcement. The excerpt does not specify how long the pause will last or which specific products beyond servers are affected.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3192803"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3192803",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+     "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+     "published": "2026-11-26T20:03:54+00:00",
+     "excerpt": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T20:03:54+00:00"
+  },
+  {
+   "title": "Entangle scales human-video in-context learning for robot action models",
+   "tags": [
+    "robotics",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Entangle proposes a method to scale in-context learning from human videos for robotic world-action models, aiming to generalize to unseen tasks without retraining.",
+   "more": "In-context learning lets foundation models perform unseen tasks from context alone, without updating parameters, and in robotic manipulation a human video can supply that context by showing how a task should be done. Scaling this approach on world-action models has been limited by two problems: human-video and robot-action pairs are not temporally aligned, and standard action losses let policies rely on shortcuts like the initial scene or task identity instead of tracking the demonstrated behavior. Entangle is presented as an approach addressing these issues to scale human-video in-context learning across unseen tasks and contexts. The excerpt does not detail the specific technique used or report benchmark results.",
+   "item_ids": [
+    "hf-papers:2611.28732"
+   ],
+   "items": [
+    {
+     "id": "hf-papers:2611.28732",
+     "source": "hf-papers",
+     "source_name": "Hugging Face Daily Papers",
+     "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+     "url": "https://huggingface.co/papers/2611.28732",
+     "published": "2026-11-26T00:00:00+00:00",
+     "excerpt": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level human-robot pairs are not temporally aligned with robot actions, and standard action losses allow policies to rely on initial-scene or task-identity shortcuts rather than tracking t"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T00:00:00+00:00"
+  },
+  {
+   "title": "Blog post: AI makes self-hosting home servers fun again",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A blog post argues AI coding assistants have made self-hosting home-lab services fun again; the discussion drew 532 points and 272 comments on Hacker News.",
+   "more": "The submission links to a blog post arguing that AI coding assistants have made self-hosted home-lab projects enjoyable again, and it drew significant engagement on Hacker News with 532 points and 272 comments. The available excerpt covers only the discussion metadata, not the article's specific examples or tools. The large comment count suggests the topic resonated with the self-hosting community.",
+   "item_ids": [
+    "hn:50660180"
+   ],
+   "items": [
+    {
+     "id": "hn:50660180",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "AI made self-hosting fun again",
+     "url": "https://janlukas.blog/posts/ai-self-hosting",
+     "published": "2026-11-26T21:47:45+00:00",
+     "excerpt": "532 points, 272 comments. Discussion: https://news.ycombinator.com/item?id=50660180"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T21:47:45+00:00"
+  },
+  {
+   "title": "Hacker News discusses a tracker of diseases cured by AI",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "A site cataloging diseases that AI has reportedly helped cure or treat drew Hacker News attention, with 307 points and 187 comments.",
+   "more": "The submission points to a website tracking diseases that AI systems have reportedly helped diagnose, treat, or cure, and it generated notable discussion on Hacker News with 307 points and 187 comments. The excerpt provides only this discussion metadata, not specifics on which diseases or AI systems are listed on the site.",
+   "item_ids": [
+    "hn:50657307"
+   ],
+   "items": [
+    {
+     "id": "hn:50657307",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Tracking Diseases Cured by AI",
+     "url": "https://diseasescuredbyai.com/",
+     "published": "2026-11-26T17:16:41+00:00",
+     "excerpt": "307 points, 187 comments. Discussion: https://news.ycombinator.com/item?id=50657307"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T17:16:41+00:00"
+  }
+ ]
+}
