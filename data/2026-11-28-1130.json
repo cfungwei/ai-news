@@ -1,0 +1,280 @@
+{
+ "date": "2026-11-28",
+ "edition": "11:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Google's DeepCrossAttention speeds up transformers up to 3x at comparable quality",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google Research describes DeepCrossAttention, a technique for transformer residual connections that reaches comparable model quality up to three times faster than standard approaches.",
+   "more": "The technique, detailed in a Google Research blog post, modifies how transformer residual connections combine information across layers. Google reports it achieves model quality comparable to standard transformers while running up to 3x faster. The post gained significant attention on Hacker News, with 290 points and 109 comments. The available excerpt does not specify which model sizes or benchmarks were used to measure the speedup.",
+   "item_ids": [
+    "hn:50672565"
+   ],
+   "items": [
+    {
+     "id": "hn:50672565",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+     "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+     "published": "2026-11-27T23:06:29+00:00",
+     "excerpt": "290 points, 109 comments. Discussion: https://news.ycombinator.com/item?id=50672565"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T23:06:29+00:00"
+  },
+  {
+   "title": "Three new studies back Yann LeCun's JEPA world models over LLMs",
+   "tags": [
+    "research",
+    "models"
+   ],
+   "tagged_by": "agent",
+   "summary": "Meta and Yann LeCun's startup AMI Labs published three studies showing progress for JEPA, LeCun's world-model alternative to language models, in robot planning, training efficiency, and error correction.",
+   "more": "JEPA aims to give machines an internal world model that captures cause and effect, rather than relying purely on next-token prediction as large language models do. The three studies reportedly show gains in robot planning, more efficient training, and error correction. The report notes the different pieces of the architecture still need to be integrated together. No benchmark numbers or paper links are given in the available excerpt.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43363"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43363",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+     "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+     "published": "2026-11-27T16:58:56+00:00",
+     "excerpt": "Yann LeCun is pushing forward with his alternative to language models through his startup AMI Labs. The JEPA architecture aims to give machines an internal world model that captures cause and effect. Three new studies show progress in robot planning, more efficient training, and error correction, though the pieces still need to grow together. The article Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T16:58:56+00:00"
+  },
+  {
+   "title": "Latent Space examines how frontier AI labs buy training data",
+   "tags": [
+    "industry"
+   ],
+   "tagged_by": "agent",
+   "summary": "Latent Space's swyx talked with G2i founder Gabe Greenberg about how frontier AI labs decide between exclusive and shared training-data deals, from small pilot orders to larger contracts.",
+   "more": "The conversation, recorded at the AI Engineer CODE conference, covers the trade-off labs face between paying more for data they can keep exclusive versus taking a discount on data that competitors can also license. Greenberg described how small pilot orders from labs can grow into larger, ongoing data contracts. Latent Space published a companion newsletter write-up the same day covering the same training-data market theme. Specific pricing figures or named lab customers are not given in the available excerpts.",
+   "item_ids": [
+    "latent-space:urn:latent-space:post:post_e91b280a-b9b3-42b4-b3dc-8a8e7577f764",
+    "latent-space:urn:latent-space:post:pod_ep_01a21efa-24c7-769b-afbe-cd7e135e4e85"
+   ],
+   "items": [
+    {
+     "id": "latent-space:urn:latent-space:post:post_e91b280a-b9b3-42b4-b3dc-8a8e7577f764",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "[AINews] Inside the exploding Coding Data Market",
+     "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+     "published": "2026-11-28T03:45:59+00:00",
+     "excerpt": "November 27, 2026 — How frontier labs buy training data."
+    },
+    {
+     "id": "latent-space:urn:latent-space:post:pod_ep_01a21efa-24c7-769b-afbe-cd7e135e4e85",
+     "source": "latent-space",
+     "source_name": "Latent Space",
+     "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+     "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+     "published": "2026-11-27T22:19:18+00:00",
+     "excerpt": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger..."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-28T03:45:59+00:00"
+  },
+  {
+   "title": "OpenAI countersues Apple over trade secret theft and supplier coercion",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "OpenAI has countersued Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers, responding to a lawsuit Apple filed earlier this summer.",
+   "more": "The countersuit follows Apple's own lawsuit from the summer, though the available report does not detail Apple's original claims. OpenAI and Apple partnered in 2024 to bring ChatGPT integration to the iPhone, but relations have since soured as OpenAI builds its own hardware devices to compete directly with Apple. It is not yet clear what remedies OpenAI is seeking or which trade secrets and suppliers are involved.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43380"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43380",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+     "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+     "published": "2026-11-27T19:38:37+00:00",
+     "excerpt": "OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own devices to compete directly with Apple. The article OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T19:38:37+00:00"
+  },
+  {
+   "title": "ISTA-DASLab's GGUF quantization of Inkling-2-Mini trends on Hugging Face",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "A GSQ/RCO mixed-precision GGUF quantization of Thinking Machines' Inkling-2-Mini model from ISTA-DASLab is trending on Hugging Face, with over 290 likes and nearly 25,000 downloads.",
+   "more": "Inkling-2-Mini-GSQ-RCO-GGUF is a GGUF-format, mixed-precision quantization of Thinking Machines' Inkling-2-Mini model, produced using ISTA-DASLab's GSQ/RCO quantization approach. It has drawn 290 likes and over 24,900 downloads on Hugging Face. The model is a mixture-of-experts text-generation model, and its listing links to two arXiv papers describing the underlying quantization techniques. Details on benchmark results or the exact size reduction from quantization are not given in the listing.",
+   "item_ids": [
+    "hf-trending:ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF"
+   ],
+   "items": [
+    {
+     "id": "hf-trending:ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+     "source": "hf-trending",
+     "source_name": "Hugging Face Trending Models",
+     "title": "Trending model: ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+     "url": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+     "published": "2026-11-26T13:01:01+00:00",
+     "excerpt": "text-generation, 290 likes, 24931 downloads. Tags: gguf, gsq, rco, quantization, mixed-precision, ist-daslab, moe, inkling, text-generation, arxiv:2604.18556, arxiv:2605.00649, base_model:thinkingmachines/Inkling-2-Mini"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-26T13:01:01+00:00"
+  },
+  {
+   "title": "Simon Willison ships datasette-charts 0.4a0 with a smoother plugin hook for chart types",
+   "tags": [
+    "tools",
+    "open-source"
+   ],
+   "tagged_by": "agent",
+   "summary": "Simon Willison released datasette-charts 0.4a0, smoothing out the plugin hook that lets other plugins define new chart types, after testing it with a Claude Opus 5.5-built plugin.",
+   "more": "The datasette-charts plugin already had a hook for other plugins to add new chart types, but Willison hadn't used it himself until building an experimental plugin with Claude Opus 5.5 to try it out. That exercise surfaced friction points in the hook's design, which this release addresses to make building chart plugins more ergonomic. Willison also launched a dedicated website for the plugin at charts.datasette.io. No specific API changes or new chart types are listed in the available excerpt.",
+   "item_ids": [
+    "simonw:https://simonwillison.net/2026/Nov/27/datasette-charts/"
+   ],
+   "items": [
+    {
+     "id": "simonw:https://simonwillison.net/2026/Nov/27/datasette-charts/",
+     "source": "simonw",
+     "source_name": "Simon Willison",
+     "title": "datasette-charts 0.4a0",
+     "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+     "published": "2026-11-27T23:57:17+00:00",
+     "excerpt": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional chart plugins a whole lot more ergonomic. I've also added a website for the plugin, at charts.datasette.io "
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T23:57:17+00:00"
+  },
+  {
+   "title": "Landlord's AI assistant wrongly told a tenant she could delay rent, leading to eviction",
+   "tags": [
+    "policy",
+    "products"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Hacker News discussion surfaced a report that a landlord's AI chat assistant incorrectly told a tenant she could delay a rent payment, after which she was evicted.",
+   "more": "The underlying report describes an AI assistant deployed by a landlord giving a tenant inaccurate guidance about delaying rent, and the tenant was evicted after relying on that guidance. The Hacker News discussion drew 147 points and 114 comments, suggesting significant interest in questions of liability when AI tools give incorrect advice. Details on the landlord, property manager, or AI vendor involved are not given in the available excerpt.",
+   "item_ids": [
+    "hn:50673521"
+   ],
+   "items": [
+    {
+     "id": "hn:50673521",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+     "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+     "published": "2026-11-28T01:32:56+00:00",
+     "excerpt": "147 points, 114 comments. Discussion: https://news.ycombinator.com/item?id=50673521"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-28T01:32:56+00:00"
+  },
+  {
+   "title": "Bloomberg traces banned Nvidia Blackwell chips to a Shanghai data center",
+   "tags": [
+    "hardware",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "A Bloomberg investigation found export-controlled Nvidia Blackwell chips installed at a Shanghai data center linked to Alice Huang, despite a US ban on shipping them to China without a license.",
+   "more": "Bloomberg traced the chips through a serial number to Taiwanese manufacturer Gigabyte, and found two Chinese companies had installed them at the Shanghai facility. Exporting Blackwell chips to China without a US export license is illegal under current trade restrictions. The report does not say how the chips reached China or whether Gigabyte or Nvidia were aware of the diversion. It is unclear what action, if any, US regulators plan to take.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43375"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43375",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+     "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+     "published": "2026-11-27T18:27:02+00:00",
+     "excerpt": "Two Chinese companies installed Nvidia's powerful Blackwell chips at a Shanghai data center linked to Alice Huang, according to a Bloomberg investigation. A serial number led Bloomberg to Taiwanese manufacturer Gigabyte. Exporting these chips to China without a US license is illegal. The article Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T18:27:02+00:00"
+  },
+  {
+   "title": "Michael Nielsen took down his free online book on neural networks",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Michael Nielsen removed his widely used free online book on neural networks and deep learning, prompting a large Hacker News discussion about why.",
+   "more": "The book, 'Neural Networks and Deep Learning,' had been a popular free introductory resource for learning the fundamentals of deep learning. The Hacker News discussion of its removal drew 478 points and 299 comments, indicating strong interest in Nielsen's reasons. The available excerpt does not state why Nielsen took the book down or whether he plans to republish it elsewhere.",
+   "item_ids": [
+    "hn:50670757"
+   ],
+   "items": [
+    {
+     "id": "hn:50670757",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "Michael Nielsen took down his book on neural nets",
+     "url": "https://neuralnetworksanddeeplearning.com/",
+     "published": "2026-11-27T19:31:01+00:00",
+     "excerpt": "478 points, 299 comments. Discussion: https://news.ycombinator.com/item?id=50670757"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T19:31:01+00:00"
+  },
+  {
+   "title": "Personal essay 'I'm Scared of AI' sparks large Hacker News discussion",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "An essay titled 'I'm Scared of AI' became a top Hacker News discussion, with readers debating the author's fears about where AI is headed.",
+   "more": "The essay, published on a personal newsletter called The Soapbox, drew 209 points and 244 comments on Hacker News. The available excerpt does not describe the specific fears or arguments the essay raises. The discussion's size suggests the topic resonated broadly with the Hacker News community.",
+   "item_ids": [
+    "hn:50669561"
+   ],
+   "items": [
+    {
+     "id": "hn:50669561",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "I'm Scared of AI",
+     "url": "https://thesoapbox.email/archive/3",
+     "published": "2026-11-27T17:45:31+00:00",
+     "excerpt": "209 points, 244 comments. Discussion: https://news.ycombinator.com/item?id=50669561"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-27T17:45:31+00:00"
+  }
+ ]
+}
