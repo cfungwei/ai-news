@@ -1,0 +1,114 @@
+{
+ "date": "2026-11-28",
+ "edition": "21:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "Terence Tao envisions AI-driven 'Big Math,' calls tech firms' proofs 'toxic waste'",
+   "tags": [
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Mathematician Terence Tao outlined a 'Big Math' future where human-AI teams tackle thousands of problems together, while criticizing major tech companies' AI-generated proofs as unexplained 'toxic waste.'",
+   "more": "On the Hard Fork podcast, Tao described a future he calls 'Big Math,' in which human-AI teams would systematically map out thousands of mathematical problems rather than mathematicians working alone. He said AI could deliver a first rough solution that humans then verify and place in context, creating a new division of labor between researchers and models. Tao also criticized proofs produced by major tech companies, calling them 'toxic waste' because the models can solve problems but cannot explain how they arrived at the results. He argued this opacity undermines the value of AI-assisted mathematical work. It remains unclear which specific companies or proofs he was referring to.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43403"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43403",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Terence Tao sees AI ushering in \"Big Math,\" but calls major tech firms' proofs \"toxic waste\"",
+     "url": "https://the-decoder.com/terence-tao-sees-ai-ushering-in-big-math-but-calls-major-tech-firms-proofs-toxic-waste/",
+     "published": "2026-11-28T14:45:01+00:00",
+     "excerpt": "Terence Tao outlines his vision of \"Big Math\" on the Hard Fork podcast. Instead of solo work, human-AI teams would systematically map thousands of problems. He also calls AI proofs from major tech companies \"toxic waste,\" saying the models solve problems but can't explain their results. Tao hopes for a new division of labor where AI delivers the first rough solution and humans put it in context. The article Terence Tao sees AI ushering in \"Big Math,\" but calls major tech firms' proofs \"toxic was"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-28T14:45:01+00:00"
+  },
+  {
+   "title": "Sakana AI's CEO frames its models beyond Japan's national security push",
+   "tags": [
+    "industry",
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "Sakana AI's CEO says the startup's homegrown models aim to boost Japan's broader industrial competitiveness, not just serve national-security goals.",
+   "more": "Sakana AI's chief executive said the Tokyo-based startup's homegrown AI models are meant to strengthen Japan's industrial competitiveness more broadly, not only to serve national-security interests. The comments come as Japan has increasingly framed domestic AI development as a strategic priority tied to security concerns. Details on which specific models or products the CEO was referring to were not included in the available coverage.",
+   "item_ids": [
+    "techcrunch-ai:https://techcrunch.com/?p=3192694"
+   ],
+   "items": [
+    {
+     "id": "techcrunch-ai:https://techcrunch.com/?p=3192694",
+     "source": "techcrunch-ai",
+     "source_name": "TechCrunch AI",
+     "title": "Sakana AI’s CEO says its homegrown models are about more than Japan’s national security",
+     "url": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+     "published": "2026-11-28T14:00:00+00:00",
+     "excerpt": "Sakana AI aims to strengthen Japan’s industrial competitiveness with homegrown AI models."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-28T14:00:00+00:00"
+  },
+  {
+   "title": "UK Parliament demands Anthropic release unredacted METR safety report",
+   "tags": [
+    "policy"
+   ],
+   "tagged_by": "agent",
+   "summary": "The UK Parliament is demanding Anthropic hand over an unredacted METR report on AI acceleration by December 4, after METR said Anthropic cut its most informative findings before publication.",
+   "more": "UK Parliament committee chair Liam Byrne is demanding Anthropic release the unredacted version of a METR safety report on AI acceleration by December 4. METR had criticized Anthropic for removing what it called the 'most informative' evidence before the report's publication. The dispute has raised broader questions about the transparency of voluntary AI safety evaluations conducted by AI labs. It also highlights Europe's dependence on US AI labs, as noted in the coverage. It is not yet known whether Anthropic will comply with the December 4 deadline.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43399"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43399",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "UK Parliament demands unredacted METR safety report after Anthropic redacts most of the evidence",
+     "url": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence/",
+     "published": "2026-11-28T13:42:00+00:00",
+     "excerpt": "The UK Parliament is turning up the pressure on Anthropic. Committee chair Liam Byrne is demanding the unredacted METR safety report on AI acceleration by December 4. METR criticized Anthropic for cutting \"most informative\" evidence before publication. The episode raises broader questions about the transparency of voluntary AI safety evaluations and again shows Europe's dependence on US AI labs. The article UK Parliament demands unredacted METR safety report after Anthropic redacts most of the e"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-28T13:42:00+00:00"
+  },
+  {
+   "title": "Malicious GGUF model files on Hugging Face hit 2,400 victims",
+   "tags": [
+    "other"
+   ],
+   "tagged_by": "agent",
+   "summary": "Hidden malware embedded in GGUF-format LLM files uploaded to Hugging Face reportedly reached about 2,400 victims, according to a report discussed on Hacker News.",
+   "more": "A report highlighted on Hacker News describes malware hidden inside GGUF-format large language model files distributed on Hugging Face, which reportedly reached around 2,400 victims. The discussion drew significant engagement, with 118 points and 39 comments on Hacker News. Further technical details on how the malware was embedded or delivered were not included in the available excerpt.",
+   "item_ids": [
+    "hn:50676752"
+   ],
+   "items": [
+    {
+     "id": "hn:50676752",
+     "source": "hn",
+     "source_name": "Hacker News",
+     "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+     "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+     "published": "2026-11-28T11:57:04+00:00",
+     "excerpt": "118 points, 39 comments. Discussion: https://news.ycombinator.com/item?id=50676752"
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-28T11:57:04+00:00"
+  }
+ ]
+}
