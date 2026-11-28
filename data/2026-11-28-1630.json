@@ -1,0 +1,65 @@
+{
+ "date": "2026-11-28",
+ "edition": "16:30",
+ "failed": [
+  {
+   "source": "localllama",
+   "name": "r/LocalLLaMA",
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  }
+ ],
+ "stories": [
+  {
+   "title": "DeepMind's \"Humanity's First Exam\" finds top AI models falter on repeated simple tasks",
+   "tags": [
+    "models",
+    "research"
+   ],
+   "tagged_by": "agent",
+   "summary": "Google DeepMind tested 18 AI models on everyday tasks run repeatedly and found even leading models fail to get 16 straight correct answers. Visual perception caused 73% of the errors.",
+   "more": "The benchmark, called \"Humanity's First Exam,\" measures reliability rather than one-shot accuracy: models solve nearly every task family at least once, but consistency collapses under repeated runs. OpenAI's GPT-6.2 Astra was among the top performers yet still stumbled on simple everyday tasks when asked to repeat success 16 times in a row. DeepMind found that giving models more compute time did not fix the problem, pointing to a reliability gap rather than a raw capability gap. Visual perception errors accounted for nearly three-quarters of all failures, suggesting perception is a bigger bottleneck than reasoning for these tasks.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43384"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43384",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs",
+     "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
+     "published": "2026-11-28T11:12:30+00:00",
+     "excerpt": "Google Deepmind tests the reliability of 18 AI models with \"Humanity's First Exam.\" Top models solve nearly every task family at least once, but even leaders like OpenAI's GPT-6.2 Astra stumble when asked for 16 straight correct answers. Visual perception accounts for 73 percent of errors, and more compute time doesn't fix the problem. The article Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-28T11:12:30+00:00"
+  },
+  {
+   "title": "Robotics startup Embo raises $110 million seed round for world-model AI",
+   "tags": [
+    "industry",
+    "robotics"
+   ],
+   "tagged_by": "agent",
+   "summary": "Embo raised $110 million in seed funding to build a universal robot brain using world models trained on internet video and simulation. Researchers from Google DeepMind, Meta and MIT are behind the startup.",
+   "more": "Embo's approach learns how the physical world works from internet video, then practices motor skills in simulation before transferring them to real robots. The company is backed by researchers with ties to Google DeepMind, Meta, and MIT, placing it among a growing field of startups chasing general-purpose robotics AI. The $110 million seed round is unusually large for this stage, reflecting investor interest in world-model approaches to embodied AI. Details on specific robot platforms, timelines, or customers were not disclosed.",
+   "item_ids": [
+    "decoder:https://the-decoder.com/?p=43391"
+   ],
+   "items": [
+    {
+     "id": "decoder:https://the-decoder.com/?p=43391",
+     "source": "decoder",
+     "source_name": "The Decoder",
+     "title": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
+     "url": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+     "published": "2026-11-28T10:48:18+00:00",
+     "excerpt": "Embo raised $110 million in seed funding to build a universal robot brain with world models. Its AI learns how the physical world works from internet video and practices motor skills in simulation. Google Deepmind, Meta, and MIT researchers are behind the startup as the race for general-purpose robotics AI accelerates. The article Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots appeared first on The Decoder ."
+    }
+   ],
+   "coverage": 1,
+   "newest": "2026-11-28T10:48:18+00:00"
+  }
+ ]
+}
